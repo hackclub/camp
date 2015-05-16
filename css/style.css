@@ -87,6 +87,11 @@ html {
   color: white;
 }
 
+.dates {
+  color: #ffffff;
+  font-weight: bold;
+}
+
 .open-sans {
   font-family: "Open Sans";
 }
