@@ -34,7 +34,8 @@ html {
 }
 
 .banner {
-  background-image: url("https://hackedu.us/assets/group_photo-5feccfd9d14070a1bb1478ebd879604b.jpg");
+  background-image: url("/img/bg.jpg");
+  background-size: cover;
   color: white;
   min-height: 75%;
 }
