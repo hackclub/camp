@@ -150,3 +150,19 @@ html {
   color: #ffffff;
   font-family: "Open Sans";
 }
+
+form ul {
+  list-style-type: none;
+}
+
+form li input[type="checkbox"] {
+  margin-bottom: 1em;
+}
+
+input[type="radio"] {
+  margin-bottom: 0.75em;
+}
+
+fieldset legend {
+  background-color: inherit;
+}
