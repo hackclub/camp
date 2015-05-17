@@ -4,13 +4,13 @@ body {
   background: #fafafa;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 .head-bar {
@@ -23,18 +23,19 @@ html {
 .section {
   width: 100%;
   padding: 50px 0 50px 0;
-  margin: 0px;
+  margin: 0;
 }
 
 .faq {
   background: #FAFAFA;
 }
 .faq .panel {
-  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 0px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0, 2px 0 rgba(0, 0, 0, 0.04);
 }
 
 .banner {
-  background-image: url("/img/bg.jpg");
+  background: url("/img/bg.jpg") no-repeat;
+  background-position: top center;
   background-size: cover;
   color: white;
   min-height: 75%;
@@ -54,20 +55,22 @@ html {
 }
 .banner h1 {
   font-size: 6rem;
+  line-height: 1em;
+  margin-bottom: 0.3em;
 }
 
 .projects {
   background: #e67e22;
 }
 .projects a {
-  color: rgba(255, 255, 255, 0.7);
+  color: #ffffff;
 }
 .projects a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  decoration: underline;
 }
 .projects .panel {
   background: rgba(255, 255, 255, 0.1);
-  border: 0px;
+  border: 0;
 }
 .projects .panel h1, .projects .panel h2, .projects .panel h3, .projects .panel h4, .projects .panel h5, .projects .panel p {
   color: white;
@@ -100,8 +103,16 @@ html {
   font-family: "Amaranth";
 }
 
+.hackedu-logo a {
+  color: inherit;
+}
+
+.hackedu-logo a:hover {
+  text-decoration: underline;
+}
+
 .panel {
-  border: 0px;
+  border: 0;
   background: #ffffff;
 }
 
