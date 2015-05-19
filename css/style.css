@@ -156,6 +156,10 @@ html {
   font-family: "Open Sans";
 }
 
+.application-description {
+  margin-top: 2em;
+}
+
 form ul {
   list-style-type: none;
 }
