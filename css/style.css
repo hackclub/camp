@@ -91,10 +91,6 @@ html {
   color: #818181;
 }
 
-.white {
-  color: white;
-}
-
 .dates {
   color: #ffffff;
   font-weight: bold;
@@ -184,4 +180,8 @@ fieldset legend {
   color: #d3595d;
   background-color: #ffffff;
   outline: 2px solid #d3595d;
+}
+
+.white {
+  color: white;
 }
