@@ -185,3 +185,7 @@ fieldset legend {
   background-color: #ffffff;
   outline: 2px solid #d3595d;
 }
+
+.white {
+  color: white;
+}
