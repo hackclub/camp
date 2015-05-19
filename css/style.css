@@ -175,3 +175,13 @@ input[type="radio"] {
 fieldset legend {
   background-color: inherit;
 }
+
+.button {
+  background-color: #d3595d;
+}
+
+.button:hover {
+  color: #d3595d;
+  background-color: #ffffff;
+  outline: 2px solid #d3595d;
+}
