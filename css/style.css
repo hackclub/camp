@@ -176,11 +176,11 @@ fieldset legend {
   background-color: inherit;
 }
 
-.button {
+.apply-submit-btn {
   background-color: #d3595d;
 }
 
-.button:hover {
+.apply-submit-btn:hover {
   color: #d3595d;
   background-color: #ffffff;
   outline: 2px solid #d3595d;
