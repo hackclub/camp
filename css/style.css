@@ -13,6 +13,12 @@ html {
   margin: 0;
 }
 
+.title {
+  font-size: 4.5em;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
 .head-bar {
   background: #d3595d;
 }
@@ -38,7 +44,6 @@ html {
   background-position: top center;
   background-size: cover;
   color: white;
-  min-height: 75%;
 }
 .banner .apply {
   background: #d3595d;
