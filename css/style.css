@@ -96,6 +96,10 @@ html {
   font-weight: bold;
 }
 
+.dates-p {
+  margin: 0px;
+}
+
 .open-sans {
   font-family: "Open Sans";
 }
