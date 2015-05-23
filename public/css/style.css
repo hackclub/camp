@@ -1,0 +1,195 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Amaranth);
+body {
+  background: #fafafa;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  font-size: 4.5em;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.head-bar {
+  background: #d3595d;
+}
+.head-bar img {
+  max-width: 10%;
+}
+
+.section {
+  width: 100%;
+  padding: 50px 0 50px 0;
+  margin: 0;
+}
+
+.faq {
+  background: #FAFAFA;
+}
+.faq .panel {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0, 2px 0 rgba(0, 0, 0, 0.04);
+}
+
+.banner {
+  background: url("/img/bg.jpg") no-repeat;
+  background-position: top center;
+  background-size: cover;
+  color: white;
+}
+.banner .apply {
+  background: #d3595d;
+  border: #d3595d 1px solid;
+  color: #ffffff;
+  font-size: 1.375rem;
+}
+.banner .apply:hover {
+  background: transparent;
+  color: #d3595d;
+}
+.banner img {
+  width: 2em;
+}
+.banner h1 {
+  font-size: 6rem;
+  line-height: 1em;
+  margin-bottom: 0.3em;
+}
+
+.red {
+  background: #d3595d;
+}
+
+.projects {
+  background: #e67e22;
+}
+.projects a {
+  color: #ffffff;
+}
+.projects a:hover {
+  decoration: underline;
+}
+.projects .panel {
+  background: rgba(255, 255, 255, 0.1);
+  border: 0;
+}
+.projects .panel h1, .projects .panel h2, .projects .panel h3, .projects .panel h4, .projects .panel h5, .projects .panel p {
+  color: white;
+}
+.projects .panel:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.contact {
+  background: #343434;
+}
+.contact p, .contact h1, .contact h2, .contact h3, .contact h4, .contact h5 {
+  color: #818181;
+}
+
+.dates {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.dates-p {
+  margin: 0px;
+}
+
+.open-sans {
+  font-family: "Open Sans";
+}
+
+.hackedu-logo {
+  font-family: "Amaranth";
+}
+
+.hackedu-logo a {
+  color: inherit;
+}
+
+.hackedu-logo a:hover {
+  text-decoration: underline;
+}
+
+.panel {
+  border: 0;
+  background: #ffffff;
+}
+
+.underline {
+  border-bottom: 1px solid black;
+}
+
+.underline.white {
+  border-bottom: white;
+}
+
+.success {
+  background: #12b566;
+}
+
+.application {
+  background-color: #12b566;
+}
+.application .apply {
+  background: #ffffff;
+  border: #ffffff solid 1px;
+  color: #12b566;
+  font-size: 2.75rem;
+}
+.application .apply:hover {
+  background: #12b566;
+  border: #ffffff solid 1px;
+  color: #ffffff;
+}
+
+.summary {
+  background: #5679ad;
+}
+.summary h1, .summary h2, .summary h3, .summary h4, .summary h5, .summary p {
+  color: #ffffff;
+  font-family: "Open Sans";
+}
+
+.application-description {
+  margin-top: 2em;
+}
+
+form ul {
+  list-style-type: none;
+}
+
+form li input[type="checkbox"] {
+  margin-bottom: 1em;
+}
+
+input[type="radio"] {
+  margin-bottom: 0.75em;
+}
+
+fieldset legend {
+  background-color: inherit;
+}
+
+.apply-submit-btn {
+  background-color: #d3595d;
+}
+
+.apply-submit-btn:hover {
+  color: #d3595d;
+  background-color: #ffffff;
+  outline: 2px solid #d3595d;
+}
+
+.white {
+  color: white;
+}

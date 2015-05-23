@@ -82,23 +82,32 @@ class StaticPageServer < Sinatra::Base
   # Routing
 
   get '/' do
-    render :index
+    html :index
   end
 
-  get '/dev' do
-    "these are the cohorts: #{cohorts[0].rows[0]}"
+  get '/application' do
+    html :application
   end
 
-  get '/invite/:secret' do
-    secret = params[:secret]
-    status = payment_submitted(secret, spreadsheet)
-    if status == 0
+  get '/payment' do
+    @secret = params[:secret]
+    html :payment
+  end
+
+  post '/invite/:secret' do
+    @secret = params[:secret]
+    @status = payment_submitted(@secret, spreadsheet)
+    if @status == 0
       "Thanks, #{params[:secret]}! Your payment has been confirmed"
-    elsif status == 1
+    elsif @status == 1
       "Key: #{params[:secret]} not found :("
-    elsif status == 2
+    elsif @status == 2
       "You've already paid!"
     end
+  end
+  
+  def html(view)
+    File.read(File.join('views', "#{view.to_s}.html"))
   end
 
 end
