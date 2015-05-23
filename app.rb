@@ -110,4 +110,20 @@ class StaticPageServer < Sinatra::Base
     File.read(File.join('views', "#{view.to_s}.html"))
   end
 
+  # Error handling
+  def error_page(code)
+    if File.file?(File.join('public', "#{code.to_s}.html"))
+      File.read(File.join('public', "#{code.to_s}.html"))
+    else
+      'Boom'
+    end
+  end
+
+  set :show_exceptions, false
+
+  not_found do
+    status 404
+    error_page 404
+  end
+
 end
