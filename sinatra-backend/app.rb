@@ -89,9 +89,9 @@ class StaticPageServer < Sinatra::Base
     html :application
   end
 
-  get '/payment' do
+  get '/payment/:secret' do
     @secret = params[:secret]
-    html :payment
+    erb :payment
   end
 
   post '/invite/:secret' do
