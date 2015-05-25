@@ -77,10 +77,16 @@ class StaticPageServer < Sinatra::Base
   post '/:secret/charge' do
     @amount = 59500
     @secret = params[:secret]
+    @paid = redis.get(@secret) == 'paid'
 
-    @status = payment_submitted(@secret, spreadsheet)
+    @status = nil
+    unless @paid
+      @status = payment_submitted(@secret, spreadsheet)
+    end
 
-    if @status == 0 # is in the spreadsheet and hasn't paid yet
+    if @paid || @status == 2
+      "You've already paid!"
+    elsif @status == 0 # is in the spreadsheet and hasn't paid yet
       customer = Stripe::Customer.create(
         description: 'Hack Camp parent',
         email: params[:stripeEmail],
@@ -99,8 +105,6 @@ class StaticPageServer < Sinatra::Base
       "Thanks, #{params[:secret]}! Your payment has been confirmed"
     elsif @status == 1
       "Key: #{params[:secret]} not found :("
-    elsif @status == 2
-      "You've already paid!"
     end
   end
 
