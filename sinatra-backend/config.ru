@@ -4,5 +4,5 @@ require 'bundler'
 Bundler.require
 
 # Run the thing
-require './app'
+require './server'
 run StaticPageServer
