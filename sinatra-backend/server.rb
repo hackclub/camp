@@ -28,17 +28,17 @@ class StaticPageServer < Sinatra::Base
         cohorts.push(worksheet)
       end
     end
-    (cohorts.length).times do |r|
+    cohorts.length.times do |r|
       cohorts[r].rows[0].length.times do |i|
         if cohorts[r].rows[0][i].downcase.include? "id"
           (cohorts[r].num_rows-1).times do |x|
             if (cohorts[r][x+2, i+1] == secret)
               cohorts[r].num_cols.times do |n|
-                if cohorts[r].rows[0][n+1].downcase.include? "status"
-                  if cohorts[r][x+2, n+1] == "paid"
-                    return 2 # Already paid
+                if cohorts[r].rows[0][n].downcase.include? "status"
+                  if cohorts[r][x+2, n] == "status"
+                    return 2 # Already status
                   end
-                  cohorts[r][x+2, n+1] = "paid"
+                  cohorts[r][x+2, n] = "status"
                   cohorts[r].save()
                   return 0 # New payment saved
                 end
@@ -47,17 +47,17 @@ class StaticPageServer < Sinatra::Base
           end
         end
       end
-      return 1 # Secret not found
     end
+    return 1 # Secret not found
   end
 
   # Routing
-  #get '/:secret' do
-  #  @secret = params[:secret]
-  #  erb :payment
-  #end
-
   get '/:secret' do
+    @secret = params[:secret]
+    erb :payment
+  end
+
+  post '/:secret' do
     @secret = params[:secret]
     @status = payment_submitted(@secret, spreadsheet)
     if @status == 0
