@@ -71,7 +71,7 @@ class StaticPageServer < Sinatra::Base
     @secret = params[:secret]
     @paid = redis.get(@secret) == 'paid'
     @stripe_publishable_key = settings.stripe_publishable_key
-    erb :payment
+    erb :payment, {layout: :layout}
   end
 
   post '/:secret/charge' do
@@ -85,14 +85,15 @@ class StaticPageServer < Sinatra::Base
     end
 
     if @paid || @status == 2
-      "You've already paid!"
+      @page_title = 'Tuition already recieved'
+      @message = 'We\'ve already recieved tuition from you!'
     elsif @status == 0 # is in the spreadsheet and hasn't paid yet
       customer = Stripe::Customer.create(
         description: 'Hack Camp parent',
         email: params[:stripeEmail],
         source: params[:stripeToken]
       )
-  
+
       charge = Stripe::Charge.create(
         amount: @amount,
         description: 'Hack Camp tuition',
@@ -102,10 +103,15 @@ class StaticPageServer < Sinatra::Base
 
       redis.set(params[:secret], 'paid')
 
-      "Thanks, #{params[:secret]}! Your payment has been confirmed"
+      @page_title = 'Tuition confirmed'
+      @message = 'Tuition confirmed! Looking forward to meeting you our
+      first day :-)'
     elsif @status == 1
-      "Key: #{params[:secret]} not found :("
+      @page_title = 'Applicant not found'
+      @message = "We can't seem to find that applicant. Tell us about this
+      application code: #{params[:secret]} at summer@hackedu.us"
     end
+    erb :outcome, {layout: :layout}
   end
 
   # Error handling
