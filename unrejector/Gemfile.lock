@@ -80,6 +80,7 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    redis (3.2.1)
     rest-client (1.8.0)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 3.0)
@@ -120,6 +121,7 @@ PLATFORMS
 DEPENDENCIES
   google_drive (~> 1.0.1)
   pry
+  redis
   sinatra
   sinatra-contrib
   stripe
