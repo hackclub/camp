@@ -1,5 +1,7 @@
-require 'sinatra'
+require 'google_drive'
 require 'pry'
+require 'redis'
+require 'sinatra'
 require 'stripe'
 
 class StaticPageServer < Sinatra::Base
@@ -9,6 +11,7 @@ class StaticPageServer < Sinatra::Base
   set :drive_client_secret, ENV['DRIVE_CLIENT_SECRET']
   set :drive_refresh_token, ENV['DRIVE_REFRESH_TOKEN']
   set :spreadsheet_key, ENV['SPREADSHEET_KEY']
+  set :redis_url, ENV['REDIS_URL']
 
   client = Google::APIClient.new
   auth = client.authorization
@@ -29,6 +32,8 @@ class StaticPageServer < Sinatra::Base
   spreadsheet = session.spreadsheet_by_key(settings.spreadsheet_key)
 
   Stripe.api_key = settings.stripe_secret_key
+
+  redis = Redis.new(url: settings.redis_url)
 
   def payment_submitted(secret, spreadsheet)
     cohorts = []
@@ -64,6 +69,7 @@ class StaticPageServer < Sinatra::Base
   # Routing
   get '/:secret' do
     @secret = params[:secret]
+    @paid = redis.get(@secret) == 'paid'
     @stripe_publishable_key = settings.stripe_publishable_key
     erb :payment
   end
@@ -87,6 +93,8 @@ class StaticPageServer < Sinatra::Base
         currency: 'usd',
         customer: customer.id
       )
+
+      redis.set(params[:secret], 'paid')
 
       "Thanks, #{params[:secret]}! Your payment has been confirmed"
     elsif @status == 1
