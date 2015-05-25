@@ -35,10 +35,10 @@ class StaticPageServer < Sinatra::Base
             if (cohorts[r][x+2, i+1] == secret)
               cohorts[r].num_cols.times do |n|
                 if cohorts[r].rows[0][n].downcase.include? "status"
-                  if cohorts[r][x+2, n] == "status"
+                  if cohorts[r][x+2, n+1] == "paid"
                     return 2 # Already status
                   end
-                  cohorts[r][x+2, n] = "status"
+                  cohorts[r][x+2, n+1] = "paid"
                   cohorts[r].save()
                   return 0 # New payment saved
                 end
