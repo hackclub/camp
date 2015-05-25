@@ -3,27 +3,30 @@ require 'pry'
 require 'stripe'
 
 class StaticPageServer < Sinatra::Base
+  set :stripe_publishable_key, ENV['STRIPE_PUBLISHABLE_KEY']
+  set :stripe_secret_key, ENV['STRIPE_SECRET_KEY']
+  set :drive_client_id, ENV['DRIVE_CLIENT_ID']
+  set :drive_client_secret, ENV['DRIVE_CLIENT_SECRET']
+  set :drive_refresh_token, ENV['DRIVE_REFRESH_TOKEN']
+  set :spreadsheet_key, ENV['SPREADSHEET_KEY']
+
   client = Google::APIClient.new
   auth = client.authorization
 
   # Follow "Create a client ID and client secret" in
   # https://developers.google.com/drive/web/auth/web-server to get a
   # client ID and client secret.
-  auth.client_id = ENV['CLIENT_ID']
-  auth.client_secret = ENV['CLIENT_SECRET']
+  auth.client_id = settings.drive_client_id
+  auth.client_secret = settings.drive_client_secret
   auth.scope = 'https://www.googleapis.com/auth/drive ' \
                'https://spreadsheets.google.com/feeds/'
   auth.redirect_uri = 'http://example.com/redirect'
-  auth.refresh_token = ENV['REFRESH_TOKEN']
+  auth.refresh_token = settings.drive_refresh_token
   auth.fetch_access_token!
 
   # Creates a session.
   session = GoogleDrive.login_with_oauth(auth.access_token)
-  spreadsheet = session.spreadsheet_by_key(ENV['SPREADSHEET_KEY'])
-
-  # Set up Stripe settings and get the client ready.
-  set :stripe_publishable_key, ENV['STRIPE_PUBLISHABLE_KEY']
-  set :stripe_secret_key, ENV['STRIPE_SECRET_KEY']
+  spreadsheet = session.spreadsheet_by_key(settings.spreadsheet_key)
 
   Stripe.api_key = settings.stripe_secret_key
 
