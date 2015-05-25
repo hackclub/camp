@@ -14,6 +14,8 @@ GEM
       multi_json (>= 1.0.0)
     backports (3.6.4)
     coderay (1.1.0)
+    domain_name (0.5.24)
+      unf (>= 0.0.5, < 1.0.0)
     extlib (0.9.16)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
@@ -40,6 +42,8 @@ GEM
       memoist (~> 0.12)
       multi_json (= 1.11)
       signet (~> 0.6)
+    http-cookie (1.0.2)
+      domain_name (~> 0.5)
     i18n (0.7.0)
     json (1.8.2)
     jwt (1.5.0)
@@ -51,11 +55,13 @@ GEM
       multi_json (~> 1.10)
     memoist (0.12.0)
     method_source (0.8.2)
+    mime-types (2.5)
     mini_portile (0.6.2)
     minitest (5.6.1)
     multi_json (1.11.0)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
+    netrc (0.10.3)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
     oauth (0.4.7)
@@ -74,6 +80,10 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rest-client (1.8.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
     retriable (1.4.1)
     signet (0.6.0)
       addressable (~> 2.3)
@@ -93,10 +103,16 @@ GEM
       sinatra (~> 1.4.0)
       tilt (~> 1.3)
     slop (3.6.0)
+    stripe (1.21.0)
+      json (~> 1.8.1)
+      rest-client (~> 1.4)
     thread_safe (0.3.5)
     tilt (1.4.1)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.1)
 
 PLATFORMS
   ruby
@@ -106,3 +122,4 @@ DEPENDENCIES
   pry
   sinatra
   sinatra-contrib
+  stripe
