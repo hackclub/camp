@@ -14,28 +14,11 @@
   </div>
 </div>
 <div class="section red text-center">
-  <h1 class="open-sans">Application payment</h1>
+  <h1 class="open-sans"></h1>
   <div class="row">
-    <% if @paid %>
-      <div class="small-centered columns">
-      <h4>You've already paid!</h4>
+    <div class="small-10 small-centered large-4 large-centered columns">
+      <p><%= @message %></p>
     </div>
-    <% else %>
-      <div class="small-10 small-centered large-4 large-centered columns">
-      <form action="/<%= @secret %>/charge" method="POST">
-        <script
-          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-          data-key="<%= @stripe_publishable_key %>"
-          data-amount="59500"
-          data-name="hackEDU"
-          data-description="Hack Camp tuition"
-          data-image="/img/hackedu_letter_logo.png">
-        </script>
-      </form>
-    </div>
-  <% end %>
-  </div>
-</div>
   </div>
 </div>
 <div class="contact section text-center">
