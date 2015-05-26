@@ -6,5 +6,5 @@
 .secret_token
 
 # Ignore our locally installed gems
-.bundle/
-vendor/
+unrejector/.bundle/
+unrejector/vendor/
