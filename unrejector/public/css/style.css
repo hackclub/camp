@@ -64,10 +64,6 @@ html {
   margin-bottom: 0.3em;
 }
 
-.red-banner {
-  background: #d3595d;
-}
-
 .projects {
   background: #e67e22;
 }
@@ -86,6 +82,10 @@ html {
 }
 .projects .panel:hover {
   background: rgba(255, 255, 255, 0.2);
+}
+
+.red-banner {
+  background: #d3595d;
 }
 
 .contact {
