@@ -59,22 +59,22 @@
         <input id="checkbox1" type="checkbox">
         <label for="checkbox1">I will attend Hack Camp from 9:20am to 4:00pm
           Monday through Friday.</label>
-      <br>
-      <input id="checkbox2" type="checkbox">
-      <label for="checkbox2"> If I cannot attend a session, a parent will let
-        Hack Camp facilitators know as soon as possible.</label>
-      <br>
-      <input id="checkbox3" type="checkbox">
-      <label for="checkbox3">I will be dropped from the program if I have 2
-        excused absences.</label>
-      <br>
-      <input id="checkbox4" type="checkbox">
+        <br>
+        <input id="checkbox2" type="checkbox">
+        <label for="checkbox2"> If I cannot attend a session, a parent will let
+          Hack Camp facilitators know as soon as possible.</label>
+        <br>
+        <input id="checkbox3" type="checkbox">
+        <label for="checkbox3">I will be dropped from the program if I have 2
+          excused absences.</label>
+        <br>
+        <input id="checkbox4" type="checkbox">
         <label for="checkbox4">I will bring a laptop.</label>
-      <br>
-      <input id="checkbox5" type="checkbox">
-      <label for="checkbox5">I understand the deadline to pay my tuition for
-        the program is 8pm, Tuesday the 26th.</label>
-  </fieldset>
+        <br>
+        <input id="checkbox5" type="checkbox">
+        <label for="checkbox5">I understand the deadline to pay my tuition for
+          the program is 8pm, Tuesday the 26th.</label>
+      </fieldset>
       <label>Student's T-shirt size</label>
       <input type="text" placeholder="S,M,L,etc.">
       <label>Parent's T-shirt size</label>
@@ -84,46 +84,45 @@
 </div>
 <% if @financial_aid %>
   <div class="section success white text-center">
-  <div class="row">
-    <div class="small-10 small-centered columns">
-      <p>
-      We noticed you applied for financial aid. We know everyone's situation is
-      different. Please reach out to us at (310)-801-7309 for a 15 minute call to
-      help us understand what we can do to help.
-      </p>
+    <div class="row">
+      <div class="small-10 small-centered columns">
+        <p>
+          We noticed you applied for financial aid. We know everyone's situation is
+          different. Please reach out to us at (310)-801-7309 for a 15 minute call to
+          help us understand what we can do to help.
+        </p>
+      </div>
     </div>
   </div>
-</div>
 <% end %>
 <div class="section red text-center">
   <h1 class="open-sans">Application payment</h1>
   <div class="row">
     <% if @paid %>
       <div class="small-centered columns">
-      <h4>You've already paid!</h4>
-    </div>
+        <h4>You've already paid!</h4>
+      </div>
     <% else %>
       <div class="small-10 small-centered large-4 large-centered columns">
-      <form action="/<%= @secret %>/charge" method="POST">
-        <script
-          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-          data-key="<%= @stripe_publishable_key %>"
-          data-amount="59500"
-          data-name="hackEDU"
-          data-description="Hack Camp tuition"
-          data-image="/img/hackedu_letter_logo.png">
-        </script>
-      </form>
-    </div>
-  <% end %>
+        <form action="/<%= @secret %>/charge" method="POST">
+          <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                  data-key="<%= @stripe_publishable_key %>"
+                  data-amount="59500"
+                  data-name="hackEDU"
+                  data-description="Hack Camp tuition"
+                  data-image="/img/hackedu_letter_logo.png">
+          </script>
+        </form>
+      </div>
+    <% end %>
   </div>
 </div>
-  </div>
+</div>
 </div>
 <div class="contact section text-center">
   <h1 class="white">Any Questions?</h1>
   <p class="white">
-  Please reach out! We can be reached anytime
-  at <a href="mailto:summer@hackedu.us">summer@hackedu.us</a>.
+    Please reach out! We can be reached anytime
+    at <a href="mailto:summer@hackedu.us">summer@hackedu.us</a>.
   </p>
 </div>
