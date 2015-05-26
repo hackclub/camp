@@ -1,7 +1,7 @@
 <div class="section banner banner-short text-center">
   <img src="/img/hackedu_logo.png">
   <h3 class="white hackedu-logo"><a href="/">hackEDU's</a></h3>
-  <h1 class="white title">Accept your invite</h1>
+  <h1 class="white title">Hack Camp Invite</h1>
 </div>
 <div class="section summary text-center">
   <div class="row">
@@ -50,61 +50,79 @@
     </div>
   </div>
 </div>
-<div class="section red text-center">
-  <h1 class="open-sans"></h1>
-  <div class="row">
-    <div class="small-10 small-centered large-10 text-left columns">
-      <fieldset>
-        <legend>Personal Commitment</legend>
-        <input id="checkbox1" type="checkbox">
-        <label for="checkbox1">I will attend Hack Camp from 9:20am to 4:00pm
-          Monday through Friday.</label>
-        <br>
-        <input id="checkbox2" type="checkbox">
-        <label for="checkbox2"> If I cannot attend a session, a parent will let
-          Hack Camp facilitators know as soon as possible.</label>
-        <br>
-        <input id="checkbox3" type="checkbox">
-        <label for="checkbox3">I will be dropped from the program if I have 2
-          excused absences.</label>
-        <br>
-        <input id="checkbox4" type="checkbox">
-        <label for="checkbox4">I will bring a laptop.</label>
-        <br>
-        <input id="checkbox5" type="checkbox">
-        <label for="checkbox5">I understand the deadline to pay my tuition for
-          the program is 8pm, Tuesday the 26th.</label>
-      </fieldset>
-      <label>Student's T-shirt size</label>
-      <input type="text" placeholder="S,M,L,etc.">
-      <label>Parent's T-shirt size</label>
-      <input type="text" placeholder="S,M,L,etc.">
+<% if @paid %>
+  <div class="section application text-center">
+    <div class="small-8 small-centered columns">
+      <h2 class="white">Payment confirmed. See you on Monday!</h2>
     </div>
   </div>
-</div>
-<% if @financial_aid %>
-  <div class="section success white text-center">
-    <div class="row">
-      <div class="small-10 small-centered columns">
-        <p>
-          We noticed you applied for financial aid. We know everyone's situation is
-          different. Please reach out to us at (310)-801-7309 for a 15 minute call to
-          help us understand what we can do to help.
-        </p>
+<% else %>
+  <form action="/<%= @secret %>/charge" method="POST" id="inviteForm" data-abide>
+    <div class="section red text-center">
+      <h1 class="open-sans"></h1>
+      <div class="row">
+        <div class="small-10 small-centered large-10 text-left columns">
+          <fieldset>
+            <legend>Personal Commitment</legend>
+            <p>Please check all of the following to confirm your participation.</p>
+            <label for="checkbox1">
+              <input id="checkbox1" type="checkbox" required>
+              I will attend Hack Camp from 9:20am to 4:00pm Monday through Friday.
+            </label>
+            <label for="checkbox2">
+              <input id="checkbox2" type="checkbox" required>
+              If I cannot attend a session, a parent will let Hack Camp facilitators know as soon as possible.
+            </label>
+            <label for="checkbox3">
+              <input id="checkbox3" type="checkbox" required>
+              I will be dropped from the program if I have 2 excused absences.
+            </label>
+            <label for="checkbox4">
+              <input id="checkbox4" type="checkbox" required>
+              I will bring a laptop.
+            </label>
+            <label for="checkbox5">
+              <input id="checkbox5" type="checkbox" required>
+              I understand the deadline to pay my tuition for the
+              program is 8pm, Tuesday the 26th.
+            </label>
+          </fieldset>
+          <div class="columns">
+            <label for="student_shirt_size">Student's T-shirt size
+              <small>Required</small></label>
+            <input name="student_shirt_size" id="student_shirt_size" type="text"
+                   placeholder="S, M, L, etc."
+                   required>
+            <small class="error">Required</small>
+          </div>
+          <div class="columns">
+            <label for="parent_shirt_size">Parent's T-shirt size
+              <small>Required</small></label>
+            <input name="parent_shirt_size" id="parent_shirt_size" type="text"
+                   placeholder="S, M, L, etc."
+                   required>
+            <small class="error">Required</small>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-<% end %>
-<div class="section red text-center">
-  <h1 class="open-sans">Application payment</h1>
-  <div class="row">
-    <% if @paid %>
-      <div class="small-centered columns">
-        <h4>You've already paid!</h4>
+    <% if @financial_aid %>
+      <div class="section success white text-center">
+        <div class="row">
+          <div class="small-10 small-centered columns">
+            <p>
+              We noticed you applied for financial aid. We know everyone's situation is
+              different. Please reach out to us at (310)-801-7309 for a 15 minute call to
+              help us understand what we can do to help.
+            </p>
+          </div>
+        </div>
       </div>
-    <% else %>
-      <div class="small-10 small-centered large-4 large-centered columns">
-        <form action="/<%= @secret %>/charge" method="POST">
+    <% end %>
+    <div class="section red text-center">
+      <h1 class="open-sans">Application payment</h1>
+      <div class="row">
+        <div class="small-10 small-centered large-4 large-centered columns">
           <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                   data-key="<%= @stripe_publishable_key %>"
                   data-amount="59500"
@@ -112,13 +130,11 @@
                   data-description="Hack Camp tuition"
                   data-image="/img/hackedu_letter_logo.png">
           </script>
-        </form>
+        </div>
       </div>
-    <% end %>
-  </div>
-</div>
-</div>
-</div>
+    </div>
+  </form>
+<% end %>
 <div class="contact section text-center">
   <h1 class="white">Any Questions?</h1>
   <p class="white">

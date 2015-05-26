@@ -1,4 +1,5 @@
 require 'google_drive'
+require 'httparty'
 require 'pry'
 require 'redis'
 require 'sinatra'
@@ -88,6 +89,16 @@ class StaticPageServer < Sinatra::Base
       @page_title = 'Tuition already recieved'
       @message = 'We\'ve already recieved tuition from you!'
     elsif @status == 0 # is in the spreadsheet and hasn't paid yet
+      # Submit a Google Form with their ID and shirt sizes
+      HTTParty.post(
+        'https://docs.google.com/forms/d/1EuAzIeoyzT4h4M1qpaIYP8JSIJxayk9z8FX8ZD1aZSY/formResponse',
+        body: {
+          'entry.1552310144' => params[:secret],
+          'entry.1076236427' => params[:student_shirt_size],
+          'entry.853512540' => params[:parent_shirt_size]
+        }
+      )
+
       customer = Stripe::Customer.create(
         description: 'Hack Camp parent',
         email: params[:stripeEmail],
