@@ -84,6 +84,10 @@ html {
   background: rgba(255, 255, 255, 0.2);
 }
 
+.red-banner {
+  background: #d3595d;
+}
+
 .contact {
   background: #343434;
 }
