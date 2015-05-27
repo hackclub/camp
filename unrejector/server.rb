@@ -71,6 +71,7 @@ class StaticPageServer < Sinatra::Base
   get '/:secret' do
     @secret = params[:secret]
     @paid = redis.get(@secret) == 'paid'
+    @financial_aid = redis.get("#{@secret}_financial_aid") == "1"
     @stripe_publishable_key = settings.stripe_publishable_key
     erb :payment, {layout: :layout}
   end
