@@ -1,0 +1,151 @@
+<div class="section banner banner-short text-center">
+  <img src="/img/hackedu_logo.png">
+  <h3 class="white hackedu-logo"><a href="/">hackEDU's</a></h3>
+  <h1 class="white title">Hack Camp Invite</h1>
+</div>
+<div class="section summary text-center">
+  <div class="row">
+    <div class="small-12 small-centered large-10 large-centered columns">
+      <p>
+        We're excited to let you know that your application for Hack
+        Camp has been accepted.
+      </p>
+      <p>
+        Camp is from 9:20am to 4:00pm Monday through Friday. If you can't
+        attend a session, make sure a parent lets a Hack Camp Facilitator know.
+        The curriculum is not hard, but can be fast-paced at times. To prevent
+        anyone from falling behind anyone with 2 unexcused absenses will be
+        dropped from the program. The deadline to pay your tuition is at 8pm on
+        Wednesday the 27th.
+      </p>
+      <p>
+        We look forward to seeing you on Monday (06/01) at Galvanize SF! If you
+        have any questions, please reach out to Zach Latta at zach@hackedu.us
+        or give him a call at 310-801-7309.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="section projects red-banner text-center">
+  <h1 class="white open-sans">Location</h1>
+  <div class="row">
+    <div class="small-10 small-centered large-8 large-centered columns">
+      <div class="large-7 large-centered columns">
+        <a href="http://www.galvanize.com/campuses/san-francisco-soma/">
+          <div class="panel">
+            <h1>Galvanize SF</h1>
+          </div>
+        </a>
+      </div>
+      <div class="row">
+        <div class="columns">
+          <div class="flex-video">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.1035486158403!2d-122.39663799999998!3d37.787613000000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085807cb94a8b83%3A0x3cfc91016a294580!2sGalvanize!5e0!3m2!1sen!2sus!4v1432623771468" width="600" height="450" frameborder="0" style="border:0"></iframe>
+          </div>
+        </div>
+      </div>
+      <a href="https://www.google.com/maps/dir/Montgomery+Street+BART+Station,+Market+Street,+San+Francisco,+CA/Galvanize,+44+Tehama+Street,+San+Francisco,+CA+94105/@37.7887064,-122.4007801,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x8085806285ddb1a3:0xad9ca7333b4399a7!2m2!1d-122.401067!2d37.789407!1m5!1m1!1s0x8085807cb94a8b83:0x3cfc91016a294580!2m2!1d-122.396638!2d37.787613!3e2">
+        An 8 minute walk from the Mongomery St BART and Muni Metro station.
+      </a>
+    </div>
+  </div>
+</div>
+<% if @paid %>
+  <div class="section application text-center">
+    <div class="small-8 small-centered columns">
+      <h2 class="white">Payment confirmed. See you on Monday!</h2>
+    </div>
+  </div>
+<% else %>
+  <form action="/<%= @secret %>/charge" method="POST" id="inviteForm" data-abide>
+    <div class="section red text-center">
+      <h1 class="open-sans"></h1>
+      <div class="row">
+        <div class="small-10 small-centered large-10 text-left columns">
+          <fieldset>
+            <legend>Personal Commitment</legend>
+            <p>Please check all of the following to confirm your participation.</p>
+            <label for="checkbox1">
+              <input id="checkbox1" type="checkbox" required>
+              I will attend Hack Camp from 9:20am to 4:00pm Monday through Friday.
+            </label>
+            <label for="checkbox2">
+              <input id="checkbox2" type="checkbox" required>
+              If I cannot attend a session, a parent will let Hack Camp facilitators know as soon as possible.
+            </label>
+            <label for="checkbox3">
+              <input id="checkbox3" type="checkbox" required>
+              I will be dropped from the program if I have 2 excused absences.
+            </label>
+            <label for="checkbox4">
+              <input id="checkbox4" type="checkbox" required>
+              I will bring a laptop.
+            </label>
+            <label for="checkbox5">
+              <input id="checkbox5" type="checkbox" required>
+              I understand the deadline to pay my tuition for the
+              program is 8pm, Tuesday the 26th.
+            </label>
+          </fieldset>
+          <div class="columns">
+            <label for="student_shirt_size">Student's T-shirt size
+              <small>Required</small></label>
+            <input name="student_shirt_size" id="student_shirt_size" type="text"
+                   placeholder="S, M, L, etc."
+                   required>
+            <small class="error">Required</small>
+          </div>
+          <div class="columns">
+            <label for="parent_shirt_size">Parent's T-shirt size
+              <small>Required</small></label>
+            <input name="parent_shirt_size" id="parent_shirt_size" type="text"
+                   placeholder="S, M, L, etc."
+                   required>
+            <small class="error">Required</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <% if @financial_aid %>
+      <div class="section success white text-center">
+        <div class="row">
+          <div class="small-10 small-centered columns">
+            <p>
+              We noticed you applied for financial aid. We know everyone's situation is
+              different. Please reach out to us at (310)-801-7309 for a 15 minute call to
+              help us understand what we can do to help.
+            </p>
+          </div>
+        </div>
+      </div>
+    <% end %>
+    <div class="section red text-center">
+      <h1 class="open-sans">Application payment</h1>
+      <div class="row">
+        <div class="small-10 small-centered large-4 large-centered columns">
+          <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                  data-key="<%= @stripe_publishable_key %>"
+                  data-amount="59500"
+                  data-name="hackEDU"
+                  data-description="Hack Camp tuition"
+                  data-image="/img/hackedu_letter_logo.png">
+          </script>
+        </div>
+        <div class="large-6 large-centered columns"
+          <p>
+            <i>After entering your payment details, the payment can
+              take up to 30 seconds to process. Please do not leave the
+              page.</i>
+          </p>
+        </div>
+      </div>
+    </div>
+  </form>
+<% end %>
+<div class="contact section text-center">
+  <h1 class="white">Any Questions?</h1>
+  <p class="white">
+    Please reach out! We can be reached anytime
+    at <a href="mailto:summer@hackedu.us">summer@hackedu.us</a>.
+  </p>
+</div>
