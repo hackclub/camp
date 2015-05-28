@@ -73,12 +73,15 @@ class StaticPageServer < Sinatra::Base
     @paid = redis.get(@secret) == 'paid'
     @financial_aid = redis.get("#{@secret}_financial_aid") == "1"
     @stripe_publishable_key = settings.stripe_publishable_key
+    adjusted_cost = redis.get("#{@secret}_cost")
+    @cost = adjusted_cost ? adjusted_cost.to_i : 59500
     erb :payment, {layout: :layout}
   end
 
   post '/:secret/charge' do
-    @amount = 59500
     @secret = params[:secret]
+    adjusted_cost = redis.get("#{@secret}_cost")
+    @amount = adjusted_cost ? adjusted_cost.to_i : 59500
     @paid = redis.get(@secret) == 'paid'
 
     @status = nil

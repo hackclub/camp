@@ -127,7 +127,7 @@
         <div class="small-10 small-centered large-4 large-centered columns">
           <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                   data-key="<%= @stripe_publishable_key %>"
-                  data-amount="59500"
+                  data-amount="<%= @cost %>"
                   data-name="hackEDU"
                   data-description="Hack Camp tuition"
                   data-image="/img/hackedu_letter_logo.png">
