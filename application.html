@@ -135,6 +135,14 @@
             </div>
           </div>
           <div class="row">
+            <div class="columns">
+              <label>In 2-3 sentences, why do you want to go to Hack Camp?
+                <input name="entry.1461609242" type="text"
+                       placeholder="I want to finish my first project." />
+              </label>
+            </div>
+          </div>
+          <div class="row">
             <div class="medium-6 columns">
               <label>GitHub (if you have one)
                 <input name="entry_1337332959" type="text"
@@ -181,6 +189,14 @@
                   complete projects</label>
                 </li>
               </ul>
+            </div>
+            <div class="small-12 columns" id="previous-projects" style="display: none;">
+              <label>
+                Can you briefly (1-3 sentences) tell us about something you've
+                coded before and how it worked? <small>Required</small>
+                <input name="entry.159477422" type="text"
+                       placeholder="I wrote an app to manage all of Winterfell in Swift." />
+              </label>
             </div>
           </div>
           <div class="row">
@@ -307,6 +323,14 @@
       if (document.location.search.match(/type=embed/gi)) {
       window.parent.postMessage("resize", "*");
       }
+    </script>
+    <script>
+    $('#expNoCode').click(function() {
+        $('#previous-projects').hide()
+      })
+    $('#expSomeCode,#expCompleteProject,#expMultipleProjects').click(function() {
+        $('#previous-projects').show()
+      })
     </script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
