@@ -1,8 +1,11 @@
-var game;
 var WIDTH = 320;
 var HEIGHT = 480;
 var BLACK_TILE_WIDTH = WIDTH / 4;
 var BLACK_TILE_HEIGHT = HEIGHT / 4;
+var BLACK_TILE_SPEED = 3;
+
+var game;
+var blackTile;
 
 var preload = function () {
     game.stage.backgroundColor = '#ffffff';
@@ -16,10 +19,11 @@ var create = function () {
     blackTileBmd.ctx.fillStyle = '#000000';
     blackTileBmd.ctx.fill();
 
-    var blackTile = game.add.sprite(0, 0, blackTileBmd);
+    blackTile = game.add.sprite(0, 0, blackTileBmd);
 }
 
 var update = function () {
+    blackTile.y = blackTile.y + BLACK_TILE_SPEED;
 }
 
 var render = function () {
