@@ -3,12 +3,30 @@ var HEIGHT = 480;
 var BLACK_TILE_WIDTH = WIDTH / 4;
 var BLACK_TILE_HEIGHT = HEIGHT / 4;
 var BLACK_TILE_SPEED = 3;
+var BLACK_TILE_COUNT = 4;
 
 var game;
-var blackTile1;
-var blackTile2;
+var blackTiles;
 var blackTileBmd;
 var tappedBlackTileBmd;
+
+var createBlackTile = function (x, y) {
+    var blackTile = game.add.sprite(x, y, blackTileBmd);
+    blackTile.tapped = false;
+
+    return blackTile;
+}
+
+var resetBlackTile = function (blackTile) {
+    blackTile.y = -BLACK_TILE_HEIGHT;
+    blackTile.loadTexture(blackTileBmd);
+    blackTile.tapped = false;
+}
+
+var gameOver = function () {
+    alert('Game Over!');
+    game.state.restart();
+}
 
 var preload = function () {
     game.stage.backgroundColor = '#ffffff';
@@ -28,49 +46,39 @@ var create = function () {
     tappedBlackTileBmd.ctx.fillStyle = '#a9a9a9';
     tappedBlackTileBmd.ctx.fill();
 
-    blackTile1 = game.add.sprite(0, 0, blackTileBmd);
-    blackTile1.tapped = false;
-    blackTile2 = game.add.sprite(BLACK_TILE_WIDTH, BLACK_TILE_HEIGHT, blackTileBmd);
-    blackTile2.tapped = false;
+    blackTiles = [];
+    for (var i = 0; i < BLACK_TILE_COUNT; i++) {
+        blackTiles.push(createBlackTile(BLACK_TILE_WIDTH * (i % 4), -BLACK_TILE_HEIGHT * i));
+    }
 }
 
 var update = function () {
-    blackTile1.y = blackTile1.y + BLACK_TILE_SPEED;
-    blackTile2.y = blackTile2.y + BLACK_TILE_SPEED;
+    var tileTapped = false;
+    for (var i = 0; i < blackTiles.length; i++) {
+        var blackTile = blackTiles[i];
+        blackTile.y = blackTile.y + BLACK_TILE_SPEED;
 
-    if (blackTile1.y > HEIGHT) {
-        if (!blackTile1.tapped) {
-            alert('Game Over!');
-            game.state.restart();
+        if (blackTile.y > HEIGHT) {
+            if (!blackTile.tapped) {
+                gameOver();
+                return;
+            } else {
+                resetBlackTile(blackTile)
+            }
         }
 
-        blackTile1.y = -BLACK_TILE_HEIGHT;
-        blackTile1.loadTexture(blackTileBmd);
-        blackTile1.tapped = false;
+        if (game.input.mousePointer.isDown || game.input.pointer1.isDown) {
+            if (Phaser.Rectangle.contains(blackTile, game.input.x, game.input.y)) {
+                blackTile.loadTexture(tappedBlackTileBmd);
+                blackTile.tapped = true;
+                tileTapped = true;
+            }
+        }
     }
 
-    if (blackTile2.y > HEIGHT) {
-        if (!blackTile2.tapped) {
-            alert('Game Over!');
-            game.state.restart();
-        }
-
-        blackTile2.y = -BLACK_TILE_HEIGHT;
-        blackTile2.loadTexture(blackTileBmd);
-        blackTile2.tapped = false;
-    }
-
-    if (game.input.mousePointer.isDown || game.input.pointer1.isDown) {
-        if (Phaser.Rectangle.contains(blackTile1, game.input.x, game.input.y)) {
-            blackTile1.loadTexture(tappedBlackTileBmd);
-            blackTile1.tapped = true;
-        } else if (Phaser.Rectangle.contains(blackTile2, game.input.x, game.input.y)) {
-            blackTile2.loadTexture(tappedBlackTileBmd);
-            blackTile2.tapped = true;
-        } else {
-            alert('Game Over!');
-            game.state.restart();
-        }
+    if ((game.input.mousePointer.isDown || game.input.pointer1.isDown) && !tileTapped) {
+        gameOver();
+        return;
     }
 }
 
