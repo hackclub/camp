@@ -6,6 +6,8 @@ var BLACK_TILE_SPEED = 3;
 
 var game;
 var blackTile;
+var blackTileBmd;
+var tappedBlackTileBmd;
 
 var preload = function () {
     game.stage.backgroundColor = '#ffffff';
@@ -13,21 +15,41 @@ var preload = function () {
 }
 
 var create = function () {
-    var blackTileBmd = game.add.bitmapData(BLACK_TILE_WIDTH, BLACK_TILE_HEIGHT);
-
+    blackTileBmd = game.add.bitmapData(BLACK_TILE_WIDTH, BLACK_TILE_HEIGHT);
     blackTileBmd.ctx.beginPath();
     blackTileBmd.ctx.rect(0, 0, BLACK_TILE_WIDTH, BLACK_TILE_HEIGHT);
     blackTileBmd.ctx.fillStyle = '#000000';
     blackTileBmd.ctx.fill();
 
+    tappedBlackTileBmd = game.add.bitmapData(BLACK_TILE_WIDTH, BLACK_TILE_HEIGHT);
+    tappedBlackTileBmd.ctx.beginPath();
+    tappedBlackTileBmd.ctx.rect(0, 0, BLACK_TILE_WIDTH, BLACK_TILE_HEIGHT);
+    tappedBlackTileBmd.ctx.fillStyle = '#a9a9a9';
+    tappedBlackTileBmd.ctx.fill();
+
     blackTile = game.add.sprite(0, 0, blackTileBmd);
+    blackTile.tapped = false;
 }
 
 var update = function () {
     blackTile.y = blackTile.y + BLACK_TILE_SPEED;
 
     if (blackTile.y > HEIGHT) {
+        if (!blackTile.tapped) {
+            alert('Game Over!');
+            game.state.restart();
+        }
+
         blackTile.y = -BLACK_TILE_HEIGHT;
+        blackTile.loadTexture(blackTileBmd);
+        blackTile.tapped = false;
+    }
+
+    if (game.input.mousePointer.isDown) {
+        if (Phaser.Rectangle.contains(blackTile, game.input.x, game.input.y)) {
+            blackTile.loadTexture(tappedBlackTileBmd);
+            blackTile.tapped = true;
+        }
     }
 }
 
