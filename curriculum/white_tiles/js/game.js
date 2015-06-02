@@ -9,6 +9,7 @@ var blackTile;
 
 var preload = function () {
     game.stage.backgroundColor = '#ffffff';
+    game.time.advancedTiming = true; // turn on fps
 }
 
 var create = function () {
@@ -24,6 +25,10 @@ var create = function () {
 
 var update = function () {
     blackTile.y = blackTile.y + BLACK_TILE_SPEED;
+
+    if (blackTile.y > HEIGHT) {
+        blackTile.y = -BLACK_TILE_HEIGHT;
+    }
 }
 
 var render = function () {
