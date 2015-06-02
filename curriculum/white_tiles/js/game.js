@@ -4,6 +4,7 @@ var BLACK_TILE_WIDTH = WIDTH / 4;
 var BLACK_TILE_HEIGHT = HEIGHT / 4;
 var BLACK_TILE_SPEED = 3;
 var BLACK_TILE_COUNT = 4;
+var RANDOM_OFFSET_MAX = 6;
 
 var game;
 var blackTiles;
@@ -48,7 +49,7 @@ var create = function () {
 
     blackTiles = [];
     for (var i = 0; i < BLACK_TILE_COUNT; i++) {
-        blackTiles.push(createBlackTile(BLACK_TILE_WIDTH * (i % 4), -BLACK_TILE_HEIGHT * i));
+        blackTiles.push(createBlackTile(BLACK_TILE_WIDTH * (i % 4), -BLACK_TILE_HEIGHT * Math.floor(Math.random() * RANDOM_OFFSET_MAX)));
     }
 }
 
