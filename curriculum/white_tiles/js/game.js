@@ -5,7 +5,8 @@ var BLACK_TILE_HEIGHT = HEIGHT / 4;
 var BLACK_TILE_SPEED = 3;
 
 var game;
-var blackTile;
+var blackTile1;
+var blackTile2;
 var blackTileBmd;
 var tappedBlackTileBmd;
 
@@ -27,28 +28,47 @@ var create = function () {
     tappedBlackTileBmd.ctx.fillStyle = '#a9a9a9';
     tappedBlackTileBmd.ctx.fill();
 
-    blackTile = game.add.sprite(0, 0, blackTileBmd);
-    blackTile.tapped = false;
+    blackTile1 = game.add.sprite(0, 0, blackTileBmd);
+    blackTile1.tapped = false;
+    blackTile2 = game.add.sprite(BLACK_TILE_WIDTH, BLACK_TILE_HEIGHT, blackTileBmd);
+    blackTile2.tapped = false;
 }
 
 var update = function () {
-    blackTile.y = blackTile.y + BLACK_TILE_SPEED;
+    blackTile1.y = blackTile1.y + BLACK_TILE_SPEED;
+    blackTile2.y = blackTile2.y + BLACK_TILE_SPEED;
 
-    if (blackTile.y > HEIGHT) {
-        if (!blackTile.tapped) {
+    if (blackTile1.y > HEIGHT) {
+        if (!blackTile1.tapped) {
             alert('Game Over!');
             game.state.restart();
         }
 
-        blackTile.y = -BLACK_TILE_HEIGHT;
-        blackTile.loadTexture(blackTileBmd);
-        blackTile.tapped = false;
+        blackTile1.y = -BLACK_TILE_HEIGHT;
+        blackTile1.loadTexture(blackTileBmd);
+        blackTile1.tapped = false;
     }
 
-    if (game.input.mousePointer.isDown) {
-        if (Phaser.Rectangle.contains(blackTile, game.input.x, game.input.y)) {
-            blackTile.loadTexture(tappedBlackTileBmd);
-            blackTile.tapped = true;
+    if (blackTile2.y > HEIGHT) {
+        if (!blackTile2.tapped) {
+            alert('Game Over!');
+            game.state.restart();
+        }
+
+        blackTile2.y = -BLACK_TILE_HEIGHT;
+        blackTile2.loadTexture(blackTileBmd);
+        blackTile2.tapped = false;
+    }
+
+    if (game.input.mousePointer.isDown || game.input.pointer1.isDown) {
+        if (Phaser.Rectangle.contains(blackTile1, game.input.x, game.input.y)) {
+            blackTile1.loadTexture(tappedBlackTileBmd);
+            blackTile1.tapped = true;
+        }
+
+        if (Phaser.Rectangle.contains(blackTile2, game.input.x, game.input.y)) {
+            blackTile2.loadTexture(tappedBlackTileBmd);
+            blackTile2.tapped = true;
         }
     }
 }
