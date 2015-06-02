@@ -64,11 +64,12 @@ var update = function () {
         if (Phaser.Rectangle.contains(blackTile1, game.input.x, game.input.y)) {
             blackTile1.loadTexture(tappedBlackTileBmd);
             blackTile1.tapped = true;
-        }
-
-        if (Phaser.Rectangle.contains(blackTile2, game.input.x, game.input.y)) {
+        } else if (Phaser.Rectangle.contains(blackTile2, game.input.x, game.input.y)) {
             blackTile2.loadTexture(tappedBlackTileBmd);
             blackTile2.tapped = true;
+        } else {
+            alert('Game Over!');
+            game.state.restart();
         }
     }
 }
