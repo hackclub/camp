@@ -28,10 +28,6 @@ class StaticPageServer < Sinatra::Base
   auth.refresh_token = settings.drive_refresh_token
   auth.fetch_access_token!
 
-  # Creates a session.
-  session = GoogleDrive.login_with_oauth(auth.access_token)
-  spreadsheet = session.spreadsheet_by_key(settings.spreadsheet_key)
-
   Stripe.api_key = settings.stripe_secret_key
 
   redis = Redis.new(url: settings.redis_url)
@@ -83,6 +79,11 @@ class StaticPageServer < Sinatra::Base
     adjusted_cost = redis.get("#{@secret}_cost")
     @amount = adjusted_cost ? adjusted_cost.to_i : 59500
     @paid = redis.get(@secret) == 'paid'
+
+    # Creates a session.
+    auth.fetch_access_token!
+    session = GoogleDrive.login_with_oauth(auth.access_token)
+    spreadsheet = session.spreadsheet_by_key(settings.spreadsheet_key)
 
     @status = nil
     unless @paid
