@@ -18,6 +18,6 @@
 #### Preparation
 
 * [ ] Acquire participants
-  * [ ] Select participants
+  * [x] Select participants
   * [ ] Call accepted participants and send email invites
   * [ ] Get waivers signed from all participants
