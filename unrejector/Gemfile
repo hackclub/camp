@@ -1,9 +1,11 @@
 source 'https://rubygems.org'
 
+gem 'fakeredis'
 gem 'google_drive', '~> 1.0.1'
 gem 'httparty'
 gem 'pry'
 gem 'redis'
+gem 'rspec'
 gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'stripe'

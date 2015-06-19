@@ -1,9 +1,9 @@
 require 'google_drive'
 require 'httparty'
 require 'pry'
-require 'redis'
 require 'sinatra'
 require 'stripe'
+ENV['RACK_ENV'] == 'test' ? require('fakeredis') : require('redis')
 
 class StaticPageServer < Sinatra::Base
   set :stripe_publishable_key, ENV['STRIPE_PUBLISHABLE_KEY']
