@@ -14,9 +14,12 @@ GEM
       multi_json (>= 1.0.0)
     backports (3.6.4)
     coderay (1.1.0)
+    diff-lcs (1.2.5)
     domain_name (0.5.24)
       unf (>= 0.0.5, < 1.0.0)
     extlib (0.9.16)
+    fakeredis (0.5.0)
+      redis (~> 3.0)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
     google-api-client (0.8.6)
@@ -89,6 +92,19 @@ GEM
       mime-types (>= 1.16, < 3.0)
       netrc (~> 0.7)
     retriable (1.4.1)
+    rspec (3.3.0)
+      rspec-core (~> 3.3.0)
+      rspec-expectations (~> 3.3.0)
+      rspec-mocks (~> 3.3.0)
+    rspec-core (3.3.1)
+      rspec-support (~> 3.3.0)
+    rspec-expectations (3.3.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.3.0)
+    rspec-mocks (3.3.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.3.0)
+    rspec-support (3.3.0)
     signet (0.6.0)
       addressable (~> 2.3)
       extlib (~> 0.9)
@@ -122,10 +138,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  fakeredis
   google_drive (~> 1.0.1)
   httparty
   pry
   redis
+  rspec
   sinatra
   sinatra-contrib
   stripe
