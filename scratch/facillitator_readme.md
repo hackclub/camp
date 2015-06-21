@@ -1,3 +1,186 @@
+1 HTML / CSS
+2 Pencil Code
+3 Pencil Code
+4 Learn Phaser
+5 Learn Phaser
+
+6 Web Dev
+7 Web Dev
+8 Web Dev
+9 Project
+0 Project
+
+===
+
+1 Pencil Code
+2 Pencil Code
+3 Pencil Code => Phaser
+4 Learn Phaser
+5 Phaser Project
+
+6 HTML / CSS
+8 HTML / CSS => Web Development
+9 Project
+0 Project
+
+===
+
+1 Pencil Code
+2 Pencil Code
+3 Pencil Code => Phaser
+4 Learn Phaser
+5 Phaser Project
+
+6 HTML / CSS
+8 
+9 Project
+0 Project
+
+===
+
+
+
+
+
+
+
+## High Level Outline
+
+# Guiding Principals
+https://github.com/hackedu/hack-camp/blob/master/cohort_2/requirements_for_labs.md
+
+Module
+
+Functions
+-  to encapsulate a set of actions (no output)
+	-  with inputs
+	-  without inputs
+-  to compute an output
+	-  with inputs
+-  both
+
+## 1. HTML + CSS 
+## 2. Turtle Blocks => JS (debugger, funcs (actions + calculating outputs), loops, variables) => Googlable Web Dev? / Maestro (debugger, funcs (actions + calculating outputs), loops, 
+
+[Pencil Code](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxwZW5jaWxjb2RlZGV2ZWxvcG1lbnR8Z3g6NmE1MzgwMzYzMjg3MTI0NA)
+
+## 2. PencilCode
+- Explore Pencil Code
+- Formalize Concept
+- PB&J, trust robot
+	1. computers can only do thing in order
+	2. computers can remember things
+	3. computers can do things over and over again
+	4. computers can choose to do one thing or another thing
+	5. computers can do something when something else happens
+- Project In Pencil Code
+- Formalize
+- Demos
+
+## 3. PencilCode
+- Explore Pencil Code
+- Formalize Concept
+- PB&J, trust robot
+	1. computers can only do thing in order
+	2. computers can remember things
+	3. computers can do things over and over again
+	4. computers can choose to do one thing or another thing
+	5. computers can do something when something else happens
+- Project In Pencil Code
+- Formalize
+- Demos
+
+## 4. Phaser
+- Explore Phaser
+- Formalize Concept
+- PB&J, trust robot
+	1. computers can only do thing in order
+	2. computers can remember things
+	3. computers can do things over and over again
+	4. computers can choose to do one thing or another thing
+	5. computers can do something when something else happens
+- Project In Pencil Code
+- Formalize
+- Demos
+
+## 4. Phaser
+- Explore Phaser
+- Formalize Concept
+- PB&J, trust robot
+	1. computers can only do thing in order
+	2. computers can remember things
+	3. computers can do things over and over again
+	4. computers can choose to do one thing or another thing
+	5. computers can do something when something else happens
+- Project In Pencil Code
+- Formalize
+- Demos
+
+
+
+## 3. PencilCode
+
+
+
+Blockley Draw
+- draw the thing
+- draw thing that is of variable size (variable)
+- name the thing (action function)
+	- draw the thing a couple of times
+- draw the thing many times (loop)
+
+Drawings
+
+
+Formalization of concepts
+- you have been calling a function
+- you have made a function and called it
+- inputs
+- actions
+- none of these things have outputs
+- variables point to things, here is how we are going to draw them
+
+
+Make another shape
+- as they explore go around to each student and formalize the concepts with them
+
+Let's look at functions that have outputs
+
+Then try to understand Functions with Inputs
+
+- do a thing
+
+Blockley Todo
+- reset canvas
+- make it step through the function slower
+- documentation
+- makeColor(r, g, b)
+
+
+Outputting Function:
+I Do:
+Calculate Tax
+
+You Do:
+Calculate Tip
+
+I Do:
+Calculate Tip + Tax
+
+You Do:
+
+You Do:
+Google Exercise
+- Derive the Random Function with Googling
+
+Puts this in
+
+
+
+
+
+
+
 ## Presentation Tips
 - Presenting this to students
 	1. Talk with no reference to your visual open (just the code)
@@ -88,6 +271,27 @@ Creating a portfolio website template and shipping it on Github pages.
 - Student presentations
 
 ## Module II
+
+Drawing in Blockley
+- make sure there is a clear function
+- 
+
+```js
+function colour_random() {
+  var num = Math.floor(Math.random() * Math.pow(2, 24));
+  return '#' + ('00000' + num.toString(16)).substr(-6);
+}
+
+for(var i=0; i<1000; i++) {
+    Turtle.moveForward(i);
+    Turtle.turnRight(192);
+    var color = colour_random();
+    
+    if (i % 92 === 0) {
+        Turtle.penColour(color);
+    }
+}
+```
 
 
 
