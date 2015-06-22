@@ -18,14 +18,14 @@ Therefore, I'm going to research the portfolio websites of others on the interne
 - [valentinoborghesi.is](http://www.valentinoborghesi.is/)
 - [www.jacobgrubbe.com](http://www.jacobgrubbe.com/)
 - [danielcgold.com](http://danielcgold.com/)
-- [byalicelee.com](byalicelee.com)
+- [byalicelee.com](http://byalicelee.com)
 - [vitor.co](http://vitor.co/)
 - [simonfosterdesign.com](http://freefaces.simonfosterdesign.com/)
 - [saschaeggenberger.com](http://www.saschaeggenberger.com/)
 - [madebysofa.com](http://www.madebysofa.com/)
 - [yaronschoen.com](http://yaronschoen.com/)
 
-After going through all of these, I realized that I liked the style of [byalicelee.com](byalicelee.com)'s the most.
+After going through all of these, I realized that I liked the style of [byalicelee.com](http://byalicelee.com)'s the most.
 
 Specifically, I liked
 
