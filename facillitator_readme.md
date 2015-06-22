@@ -85,6 +85,7 @@ Tips for students before their first demoing session:
 1. Deployment of Twitter Page to c9.io 
 1. Tips for presenting and demoing
 1. Students demo their hacks (I Do + We Do)
+1. Cold emails
 
 ## Brainstorm Group Manifesto @andreadeng
 
@@ -134,14 +135,22 @@ ${TODO: link}
 
 ### Intro to HTML, CSS, and JS
 
-1. Students do
-  1. [High Level Introductory Presentation to Servers](https://docs.google.com/presentation/d/1_2EnLDZypfYNI_9uQ4cOTy7UW5_bcxfLu0h_OJerkdA/edit?usp=drive_web)
-    - This will cover what the roles of HTML, CSS, and Javascript are.
-  1. Explore HTML & CSS code examples
-  1. Student lightning talks on what they learned
-  1. Formalize knowledge on what students learned (HTML & CSS) with an 8 minute
-     presentation
-1. Demo how to build jonl.org from scratch (I do)
+
+#### [High Level Introductory Presentation to Servers](https://docs.google.com/presentation/d/1_2EnLDZypfYNI_9uQ4cOTy7UW5_bcxfLu0h_OJerkdA/edit?usp=drive_web) @jonleung
+   - This will cover what the roles of HTML, CSS, and Javascript are.
+
+#### Explore HTML & CSS code examples @maxwofford
+
+#### Specifically assign people to research presentations
+- tags & attributes (specifically class and id) & how it relates to CSS
+- block vs inline elements as well as the display property in CSS (we can give them the CSS tricks article if they can't find)
+- important tags & css properties
+
+#### Student lightning talks on what they learned @jonleung
+
+#### Formalize knowledge on what students learned (HTML & CSS) with an 8 minute presentation
+
+#### Demo how to build jonl.org from scratch (I do) @jonleung
   1. Start with the HTML
   1. Add CSS when needed
 1. Students work to build their pages from scratch
