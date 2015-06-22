@@ -66,7 +66,7 @@ Tips for students before their first demoing session:
 
 ## [Introductory presentation to Hack Camp](https://drive.google.com/file/d/0BwgpMwEqzvVzRTN0QzRfRGx3c1E) @jonleung
 
-### [Hacking the Internet](https://docs.google.com/presentation/d/1cBO7QCZ6Jeh73hWqHB-4XqBkGxT7uUMyJM9ptlvVxow/edit#slide=id.ga1ddc30a6_1_8)
+### [Hacking the Internet](https://docs.google.com/presentation/d/1cBO7QCZ6Jeh73hWqHB-4XqBkGxT7uUMyJM9ptlvVxow/edit#slide=id.ga1ddc30a6_1_8) @maxwofford
 
 1. Tell hackers they will 'Hack the Internet'
 1. "Yes Let's" session (5 minutes) (entire activity takes 5 minutes- session is
@@ -86,7 +86,7 @@ Tips for students before their first demoing session:
 1. Tips for presenting and demoing
 1. Students demo their hacks (I Do + We Do)
 
-## Brainstorm Group Manifesto
+## Brainstorm Group Manifesto @andreadeng
 
 1. So our goal is to make hack camp what you want it to be.
 1. At Hack Camp, we are not going to make anything mandatory.
@@ -100,8 +100,8 @@ Tips for students before their first demoing session:
   1. 5 minutes brainstorming
     - [EXPLAIN RULES FOR BRAINSTORMING]
   1. 5 minutes filtering
-1. Figure out how to operationalize it (explain how the values of Burning Man
-   are very actionable)(kipp character report card)
+1. Figure out how to operationalize it (explain how the values of [Burning Man](http://burningman.org/culture/philosophical-center/10-principles/)
+   are very actionable)([kipp](http://www.kipp.org/our-approach/character) character report card)
   1. Each team presents top 4 ideas.
   1. Group voting on the top 6 values.
   1. Take a photo of the winning sticky notes.
