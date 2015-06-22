@@ -1,5 +1,23 @@
 # HTML + CSS Module I
 
+## TLDR Outline:
+- (High Level Intro [Presentation])[https://docs.google.com/presentation/d/1_2EnLDZypfYNI_9uQ4cOTy7UW5_bcxfLu0h_OJerkdA/edit#slide=id.ga2018f6cb_0_99]          @jonleung
+- [Explore Examples [Buddies]](html_examples.md)                @maxwofford
+- Formalize Understanding [Presentation]    @jonleung
+    - Tag
+        - Tags some people learned
+    - Attributes, Class, Id
+    - Node, Parent, Child, Sibling => Tree
+    - Display: inline, block, inline-block
+    - CSS attributes people learned
+    - TODO Cheatsheet
+- [Building Jonl.org](building_jonl.org.md) [I Do]                  @jonleung
+- Screen Sharing                            @maxwofford
+- Portfolio Project [Pairs]                 @jonleung
+- I Have Failed                            @maxwofford
+- Demoing Pro-Tips [Presentation]           @maxwofford
+- Demos [Demos]                             
+
 ## Objectives
 
 - Learning Google
@@ -40,6 +58,8 @@ ${TODO: link}
 #### Student lightning talks on what they learned @jonleung
 
 #### Formalize knowledge on what students learned (HTML & CSS) with an 8 minute presentation
+
+#### I have failed!
 
 #### Demo how to build jonl.org from scratch (I do) @jonleung
   1. Start with the HTML
