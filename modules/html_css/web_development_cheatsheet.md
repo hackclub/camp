@@ -49,8 +49,9 @@ If you get stuck anywhere along this process:
 	- sibling
 - block elements vs inline elements vs inline blocks
 
-
-
+## HTML : The Data (think history notes in a hierchical form)
+## CSS : Is the look and feel
+## Javascript: INteraction / stuff that's happening on the page
 
 # Online Web Development Resources
 
@@ -73,6 +74,13 @@ It is technically a guided resource as well but it is best used as a reference (
 --
 
 ## References
+
+- html
+	- http://www.w3schools.com/html/default.asp
+	- https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+	- http://www.sitepoint.com/web-foundations/elements/
+- css
+	- https://css-tricks.com/almanac/
 
 
 
