@@ -66,7 +66,7 @@ Tips for students before their first demoing session:
 
 ## [Introductory presentation to Hack Camp](https://drive.google.com/file/d/0BwgpMwEqzvVzRTN0QzRfRGx3c1E) @jonleung
 
-### [Hacking the Internet](https://docs.google.com/presentation/d/1cBO7QCZ6Jeh73hWqHB-4XqBkGxT7uUMyJM9ptlvVxow/edit#slide=id.ga1ddc30a6_1_8)
+### [Hacking the Internet](https://docs.google.com/presentation/d/1cBO7QCZ6Jeh73hWqHB-4XqBkGxT7uUMyJM9ptlvVxow/edit#slide=id.ga1ddc30a6_1_8) @maxwofford
 
 1. Tell hackers they will 'Hack the Internet'
 1. "Yes Let's" session (5 minutes) (entire activity takes 5 minutes- session is
@@ -85,8 +85,9 @@ Tips for students before their first demoing session:
 1. Deployment of Twitter Page to c9.io 
 1. Tips for presenting and demoing
 1. Students demo their hacks (I Do + We Do)
+1. Cold emails
 
-## Brainstorm Group Manifesto
+## Brainstorm Group Manifesto @andreadeng
 
 1. So our goal is to make hack camp what you want it to be.
 1. At Hack Camp, we are not going to make anything mandatory.
@@ -100,8 +101,8 @@ Tips for students before their first demoing session:
   1. 5 minutes brainstorming
     - [EXPLAIN RULES FOR BRAINSTORMING]
   1. 5 minutes filtering
-1. Figure out how to operationalize it (explain how the values of Burning Man
-   are very actionable)(kipp character report card)
+1. Figure out how to operationalize it (explain how the values of [Burning Man](http://burningman.org/culture/philosophical-center/10-principles/)
+   are very actionable)([kipp](http://www.kipp.org/our-approach/character) character report card)
   1. Each team presents top 4 ideas.
   1. Group voting on the top 6 values.
   1. Take a photo of the winning sticky notes.
@@ -134,14 +135,22 @@ ${TODO: link}
 
 ### Intro to HTML, CSS, and JS
 
-1. Students do
-  1. [High Level Introductory Presentation to Servers](https://docs.google.com/presentation/d/1_2EnLDZypfYNI_9uQ4cOTy7UW5_bcxfLu0h_OJerkdA/edit?usp=drive_web)
-    - This will cover what the roles of HTML, CSS, and Javascript are.
-  1. Explore HTML & CSS code examples
-  1. Student lightning talks on what they learned
-  1. Formalize knowledge on what students learned (HTML & CSS) with an 8 minute
-     presentation
-1. Demo how to build jonl.org from scratch (I do)
+
+#### [High Level Introductory Presentation to Servers](https://docs.google.com/presentation/d/1_2EnLDZypfYNI_9uQ4cOTy7UW5_bcxfLu0h_OJerkdA/edit?usp=drive_web) @jonleung
+   - This will cover what the roles of HTML, CSS, and Javascript are.
+
+#### Explore HTML & CSS code examples @maxwofford
+
+#### Specifically assign people to research presentations
+- tags & attributes (specifically class and id) & how it relates to CSS
+- block vs inline elements as well as the display property in CSS (we can give them the CSS tricks article if they can't find)
+- important tags & css properties
+
+#### Student lightning talks on what they learned @jonleung
+
+#### Formalize knowledge on what students learned (HTML & CSS) with an 8 minute presentation
+
+#### Demo how to build jonl.org from scratch (I do) @jonleung
   1. Start with the HTML
   1. Add CSS when needed
 1. Students work to build their pages from scratch
