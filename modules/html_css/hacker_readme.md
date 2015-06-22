@@ -2,4 +2,10 @@
 
 [HTML Examples](html_examples.md): A bunch of HTML code that you can explore and tinker around with to discover how HTML works.
 
+[HTML Cheat Sheet](web_development_cheatsheet.md): A reference for web development (not finished yet)
+
 [Building Jonl.org](building_jonl.org.md): A guided tutorial on how to build a website from scratch.
+
+[How To Solve Any Problem](../how_to_solve_any_problem.md): A guide on how to approach any problem (not finished yet)
+
+[Presentation Tips](../presentation_tips.md): A guide on how to show other people how to give good presentations (is a teacher facing resource)
