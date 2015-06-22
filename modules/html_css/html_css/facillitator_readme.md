@@ -130,11 +130,11 @@ Creating a portfolio website template and shipping it on Github pages.
 
 ## Outline
 
+### Hacking the Internet
 See Hacking the Internet in Introduction module if activity has not been done.
 ${TODO: link}
 
 ### Intro to HTML, CSS, and JS
-
 
 #### [High Level Introductory Presentation to Servers](https://docs.google.com/presentation/d/1_2EnLDZypfYNI_9uQ4cOTy7UW5_bcxfLu0h_OJerkdA/edit?usp=drive_web) @jonleung
    - This will cover what the roles of HTML, CSS, and Javascript are.
