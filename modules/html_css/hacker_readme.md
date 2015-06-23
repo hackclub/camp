@@ -1,3 +1,9 @@
+## Created w1d2
+
+[HTML + CSS Do now!](html_css_do_now_1.md)
+
+## Created w1d1
+
 [High Level HTML Presentation](https://docs.google.com/presentation/d/1_2EnLDZypfYNI_9uQ4cOTy7UW5_bcxfLu0h_OJerkdA/edit#slide=id.ga2018f6cb_0_99): The very high level overview of the background of HTML and CSS.
 
 [HTML Examples](html_examples.md): A bunch of HTML code that you can explore and tinker around with to discover how HTML works.
