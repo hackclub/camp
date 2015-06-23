@@ -1,6 +1,6 @@
 ## Created w1d2
 
-[HTML + CSS Do now!](html_css_do_now_1.md)
+[HTML + CSS Do now!](html_css_do_now_1.md) A warmup activity to get your HTML + CSS juices flowing!
 
 ## Created w1d1
 
