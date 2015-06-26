@@ -10,9 +10,11 @@ Check out the `gh-pages` branch for Hack Camp's website.
 
 ## Objective
 
-The objective of Hack Camp is to simulate a great coding club, where a great
-coding club is a community of autonomous hackers building things together. It is
-_not_ to figure out how to train others to build great coding clubs.
+The objective of Hack Camp is build an set of materials that allows any hackEDU
+team member to reproduce an experience that that brings people from no coding
+knowledge to having the ability, motivation, and confidence to create coding
+projects with others and continue learning new coding concepts, without the
+explicit guidance of a teacher.
 
 ## Daily Planning
 
