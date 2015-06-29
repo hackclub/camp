@@ -6,6 +6,8 @@ require 'stripe'
 ENV['RACK_ENV'] == 'test' ? require('fakeredis') : require('redis')
 
 class StaticPageServer < Sinatra::Base
+  use Rack::SslEnforcer, only_environments: 'production'
+
   set :stripe_publishable_key, ENV['STRIPE_PUBLISHABLE_KEY']
   set :stripe_secret_key, ENV['STRIPE_SECRET_KEY']
   set :drive_client_id, ENV['DRIVE_CLIENT_ID']
