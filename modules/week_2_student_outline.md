@@ -1,6 +1,12 @@
+## Overview
+- Objectives
+- Resources Summary
+- Maestro Challenges
+- Using Resources
+
 ## Objectives:
 
-**Primary Objective**: 
+**Primary Objective**
 
 Malleability.
 
@@ -61,6 +67,8 @@ Zip Code: 19096
 ```
 
 ### Other Resources
+
+Note that I have not had time to vet these. There are some things that we did vet that we were like, OMG THESE ARE TERRIBLE!
 
 **[CodeCademy](codecademy.com) / [KhanAcademy](khanacademy.org)**
 
@@ -150,6 +158,8 @@ And try perhaps try this one
 
 - Interactive Web Pages with JavaScript
 
+Along the way, feel free to explore the other resources listed in other resources as well.
+
 
 **Suggested Ac**
 
@@ -161,24 +171,15 @@ And try perhaps try this one
  
  
 ## Maestro
+    ***IMPORTANT:** Make sure to disable "auto run js"*
 
-**Insert the Script Tag**
+**See a working example**
+[See this template on how to run your Maestro code](http://jsbin.com/budumawuwo/edit?html,js,output)
 
- ```html
-<html>
-<head>
-    <title>JS Bin</title>
-    <script src="http://meowth.servers.hackedu.us:1759/static/baton.js"></script>
-</head>
-<body>
-
-</body>
-</html>
- ```
+    
+**Read The Documentation**
  
- **Read The Documentation**
- 
- See the documentation [here](http://meowth.servers.hackedu.us:8000/docs.md)
+See the documentation [here](http://meowth.servers.hackedu.us:8000/docs.md)
  
  Focus on the commands
 
@@ -187,3 +188,6 @@ And try perhaps try this one
  - call
  - callAndPlay
  - callAndSay
+
+**Write Clone**
+"Fork" the above JS Bin and work in there
