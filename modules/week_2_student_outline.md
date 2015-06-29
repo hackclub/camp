@@ -92,7 +92,7 @@ A listing of MANY of the resources across the internet
 
 ## Maestro Challenges (Objective)
 
-For all of these, you will need to refer to [Maestro's Documentation](http://meowth.servers.hackedu.us:8000/docs.md)
+For all of these, you will need to refer to [Maestro's Documentation](https://gist.github.com/jonleung/7a11c8553ca9b98f7a3c)
 
 ##### Using a Pre-Existing Function Challenge:
 Use Maestro to send a text message to any phone number.
