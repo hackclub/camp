@@ -7,7 +7,7 @@ and not be afraid to break the rules.
 
 => Everything's Malleable
 
-## 
+## Start A Project Whenever You Want To
 
 ## Example Module
 
@@ -20,7 +20,7 @@ and not be afraid to break the rules.
 - Students ask facillitators to help them shape their learning plans, not to walk them through it
 
 ## Students build websites using HTML & CSS
-**When you need to build websites in multiple files**
+**When you need to build websites with multiple files**
 
 - Students build websites in an IDE (unlike JSBin or JS Fiddle and like c9.io or Brakets)
 	- students link to other HTML files with `<a href="filename.html">`
@@ -105,14 +105,75 @@ and not be afraid to break the rules.
 - Odin Project
 - CodeHS
 - Bento
-- Maestro
+- Maestro (with examples combined with CodeCademy)
 - TreeHouse
 - CodeSchool
 - KhanAcademy
 - http://www.labnol.org/internet/learn-coding-online/28537/
 - http://www.quora.com/What-are-the-best-resources-sites-books-or-tutorials-for-learning-programming
+- Other Coding Orgs
+    - CS4HS, CS First
+    - CodeClub
+    - Coder Dojo
+- Thinkful
+- One Month
 
 
 ## Scratch to Javascript
 [Snap to JS](https://docs.google.com/document/d/12kNcVlM6cfK69f-4RwI7Mh_nWVIumqpyeipCV8ahbvk/edit)
 [Scratch to Python + JS](https://docs.google.com/document/d/19DuSHGvVciba_mGelNK9-4JBpeX1i480ytmw-QUN2jc/edit)
+
+## Notes On Each Platform
+- CodeHS 
+    - Fundmentals of CS (Thinking & Building)
+    - Great for introductory curriculum, we can create analogous challenges that call and text a phone number in parallel with their curriculum.
+        - Perhaps these are taken from CodeCademy
+        - Perhaps they are made and we provide solutions...
+   - If statement exercise makes no sense
+- CodeCademy 
+    - Syntax
+- CodeCombat, potentially good
+
+
+Demo All The Kinds Of Things That You Can Do
+
+- CodeHS
+    - Fundamentals of CS
+- CodeCademy
+    - Syntax
+- CodeHS
+- TreeHouse
+    - Javascript Basics
+        - Introducing Javascript
+        - Storing & Tracking Information
+        - Working with Making Decisions
+   - Interactive Web Pages with Javascript
+   -    
+    - How to actually work as a developer
+    - Syntax
+    - How to continue learning : )
+- CodeCombat
+    - I want a game around what I'm learning
+- Much quicker overview after you've done CodeHS
+    - http://www.codermania.com/en/javascript/lesson/1a/hello-world
+- A reference http://learnxinyminutes.com/docs/javascript/
+- https://www.bento.io/javascript
+- https://www.bento.io/tracks
+**- It's really about taking these and inserting projects and emphasizing how to learn**
+    - Ask the user for a phone number to send a message they want to send to.
+    - Get a random image and send it to someone
+    - Send a random song to a random person
+    - Create a Meastro random project generator?
+
+- One thing we may consider doing is creating a bunch of do now exercises
+
+    
+    
+    
+```
+Number: 374327384095936
+CVV: 9263
+Expiration: 10/21
+Address: 250 Haverford Road, Wynnewood, PA
+Zip Code: 19096
+```
