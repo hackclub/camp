@@ -1,6 +1,7 @@
 require 'google_drive'
 require 'httparty'
 require 'pry'
+require 'rack-ssl-enforcer'
 require 'sinatra'
 require 'stripe'
 ENV['RACK_ENV'] == 'test' ? require('fakeredis') : require('redis')
