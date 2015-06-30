@@ -1,9 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'fakeredis'
+gem 'fakeredis', require: false
 gem 'google_drive', '~> 1.0.1'
 gem 'httparty'
 gem 'pry'
+gem 'rack-ssl-enforcer'
 gem 'redis'
 gem 'rspec'
 gem 'sinatra'

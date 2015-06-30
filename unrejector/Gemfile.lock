@@ -84,6 +84,7 @@ GEM
     rack (1.6.1)
     rack-protection (1.5.3)
       rack
+    rack-ssl-enforcer (0.2.8)
     rack-test (0.6.3)
       rack (>= 1.0)
     redis (3.2.1)
@@ -142,6 +143,7 @@ DEPENDENCIES
   google_drive (~> 1.0.1)
   httparty
   pry
+  rack-ssl-enforcer
   redis
   rspec
   sinatra
