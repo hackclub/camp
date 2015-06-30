@@ -8,7 +8,7 @@ Use Maestro to send a text message to any phone number.
 
 Links:
 - [Maestro's
-  Documentation](https://gist.github.com/MaxWofford/a3d7e8f67377b3cf91ca)
+  Documentation](maestro_documentation.md)
 
 ### Using a Pre-Existing Function Challenge:
 
@@ -17,7 +17,7 @@ send a photo to a phone number!)
 
 Links:
 - [Maestro's
-  Documentation](https://gist.github.com/MaxWofford/a3d7e8f67377b3cf91ca)
+  Documentation](maestro_documentation.md)
 
 ### Using the `prompt` function to send a custom text message
 
@@ -30,7 +30,7 @@ image to the phone number as an MMS.
 
 Links:
 - [Maestro's
-  Documentation](https://gist.github.com/MaxWofford/a3d7e8f67377b3cf91ca)
+  Documentation](maestro_documentation.md)
 - [Codecademy JavaScript prompt
   example](http://www.codecademy.com/glossary/javascript#popup-boxes_prompt)
 
@@ -44,7 +44,7 @@ password corrently, let them send a MMS as in the above example.
 
 Links:
 - [Maestro's
-  Documentation](https://gist.github.com/MaxWofford/a3d7e8f67377b3cf91ca)
+  Documentation](maestro_documentation.md)
 - [Treehouse
   challenge](http://teamtreehouse.com/library/javascript-basics-2/making-decisions-with-conditional-statements/introducing-conditional-statements-2)
 
@@ -56,12 +56,12 @@ Find a gif of what the user input using Maestro's Giphy functions.
 
 Links:
 - [Maestro's
-  Documentation](https://gist.github.com/MaxWofford/a3d7e8f67377b3cf91ca)
+  Documentation](maestro_documentation.md)
 
 ## Useful links
 
 - [Maestro's
-  Documentation](https://gist.github.com/MaxWofford/a3d7e8f67377b3cf91ca)
+  Documentation](maestro_documentation.md)
 - [Treehouse's Front End Web Development
   track](https://teamtreehouse.com/tracks/front-end-web-development)
 - [CodeCademy's Glossary](http://www.codecademy.com/glossary/javascript) is
