@@ -1,0 +1,55 @@
+#!/bin/sh
+
+print() {
+  printf "\n   $*\n";
+}
+
+printerr() {
+  print "$@" 1>&2
+}
+
+run() {
+  print "\$ $@"
+  "$@"
+}
+
+# shutdown all processes started by this script
+killall() {
+  trap '' INT TERM # ignore INT and TERM while shutting down
+  kill -TERM 0
+  wait
+}
+
+DEFAULT_PORT=8080
+BROWSER_SYNC_PORT=${PORT:-$DEFAULT_PORT}
+PYTHON_PORT=$(expr $BROWSER_SYNC_PORT + 2)
+
+trap 'killall' INT
+
+# http.server if Python 3, SimpleHTTPServer if Python 2
+case "$(python --version 2>&1)" in
+  *" 3."*)
+    PYTHON_SERVER_MODULE=http.server
+    ;;
+  *" 2."*)
+    PYTHON_SERVER_MODULE=SimpleHTTPServer
+    ;;
+  *)
+    printerr "ERROR: Python 2 or 3 must be installed."
+    exit 1
+    ;;
+esac
+
+command -v browser-sync >/dev/null 2>&1 || {
+  print "browser-sync not installed, installing..."
+  run npm install -g browser-sync
+}
+
+if [ "$#" -gt "0" ]; then
+  run browser-sync "$@"
+else
+  run python -m $PYTHON_SERVER_MODULE $PYTHON_PORT &
+  run browser-sync start --port $BROWSER_SYNC_PORT --proxy localhost:$PYTHON_PORT --files "**" &
+fi
+
+cat # wait forever
