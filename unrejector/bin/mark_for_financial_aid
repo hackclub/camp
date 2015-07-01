@@ -1,0 +1,33 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require 'redis'
+
+options = {}
+
+optparse = OptionParser.new do |opts|
+  opts.banner = "Usage: #{__FILE__} [options]"
+
+  opts.on('-u', '--url URL', 'Redis URL') { |v| options[:redis_url] = v }
+  opts.on('-i', '--id ID', 'Student ID') { |v| options[:student_id] = v }
+end
+
+begin
+  optparse.parse!
+  mandatory = [:redis_url, :student_id]
+  missing = mandatory.select{ |param| options[param].nil? }
+  unless missing.empty?
+    puts "Missing options: #{missing.join(', ')}"
+    puts optparse
+    exit
+  end
+rescue OptionParser::InvalidOption, OptionParser::MissingArgument
+  puts $!.to_s
+  puts optparse
+  exit
+end
+
+redis = Redis.new(url: options[:redis_url])
+redis.set("#{options[:student_id]}_cost", 29500)
+
+puts "Financial aid set for #{options[:student_id]}."
