@@ -1,0 +1,10 @@
+# Don't commit our configs!
+*.yml
+
+# This is for easy authentication with google. The script will initialize
+# it automatically
+.secret_token
+
+# Ignore our locally installed gems
+unrejector/.bundle/
+unrejector/vendor/

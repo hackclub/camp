@@ -1,0 +1,62 @@
+- Explicit Instruction
+	- Everyone
+		- Breaking Down the Problem (AT ALL TIMES)
+			- Idea --> Abstraction --> Algorithm --> Code
+		- Mindset Things
+		- Googling
+		- Kinesthetic Activities
+		- Visual Draw
+		- Debugger
+		- Teaching (imperative because we don't have enough teachers)
+	- Individual
+		- Lecturing on how things work
+		- Here is how you teach someone else.
+		
+- Student Deliverables
+	- Projects
+	- Presentations
+	- Lightining Talks
+
+Specific Requirements:
+- Have the objective of "teaching"
+	- Breaking down the problem at all times
+	- Learning to Google the entire time
+	- Fostering Growth Mindset
+	- Learning on your own
+- Have the vehicle of creating projects at all times
+	- It can be you creating your own project that you thought of
+	- It can be you following your own tutorial
+	- Have an arsenal of potential projects that they could build at all times
+	- Have students set self imposed deadlines (or else they will be working on it forever)
+	- Make sure we help them scope the project.
+- It is a playground, littered with examples
+	- They are easily modifiable
+	- Have different versions
+	- Have a written description that clearly outlines what it is doing
+- Expect to have to do mini lessons to each students just in time to explain how things work
+	- Be coached on
+		- When to do this
+		- Why do this
+		- How to do this
+		- When to finish
+- Have an arsenal of ways to teach core concepts
+	- Cheatsheets
+	- Visual descriptions
+	- Kinesthetic Activities
+- Explicitly say
+	- There will be a linear trackedness to the labs that you're doing and you're not expected to do them in a linear way.
+- Training
+	- Not just to club leaders, but also to everyone in the club, here is ex
+- Create a rubric that has all the fundamental concepts on things and track where each student is
+	- WE CAN HAVE THIS STUDENT TRACKED!!!!
+- Metrics
+	- Student Journals (what did they do each day)
+	- Check off which thing they did though
+	- Student satisfaction
+	- 
+
+Potential Platforms
+- Dash
+- Thinkful
+- One Month Rails
+- 
