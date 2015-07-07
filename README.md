@@ -50,6 +50,8 @@ our work yet.
 
 ##### Cohort 4
 
+_August 3rd - August 14th_
+
 The objective of the fourth cohort is to have another member of the hackEDU team
 reproduce the experience from the second and third cohorts from a set of
 materials.
