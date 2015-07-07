@@ -94,41 +94,11 @@ workshop will be followed by free-form time.
 
 #### Week 1
 
-##### Monday
-
-- _Topic:_ Personal portfolio
-- _Notes:_
-  - HTML
-  - CSS
-  - c9.io
-  - Git
-
-##### Wednesday
-
-- _Topic:_ Send text message from webpage
-- _Notes:_
-  - JavaScript fundamentals
-  - Show Maestro doc with examples
-
-##### Friday
-
-- _Topic:_ SMS bot
-- _Notes:_
-  - More JavaScript fundamentals
+- Monday: [Portfolio](https://github.com/hackedu/hack-camp/issues/157)
+- Wednesday: [Send text from webpage](https://github.com/hackedu/hack-camp/issues/158)
+- Friday: [SMS bot](https://github.com/hackedu/hack-camp/issues/159)
 
 #### Week 2
 
-##### Tuesday
-
-- _Topic:_ Messenger
-- _Notes:_
-  - Firebase
-  - User auth
-  - Group chat only
-
-##### Thursday
-
-- _Topic:_ Todo List
-- _Notes:_
-  - User auth (users should have separate tasks)
-  - Firebase
+- Tuesday: [Messenger](https://github.com/hackedu/hack-camp/issues/160)
+- Thursday: [Todo list](https://github.com/hackedu/hack-camp/issues/161)
