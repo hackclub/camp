@@ -23,10 +23,14 @@ it.
 
 ##### Cohort 1
 
+_June 1st - June 12th_
+
 Unfortunately we didn't clarify our objectives for Hack Camp until the first
 cohort was over, so we didn't have anything set for this.
 
 ##### Cohort 2
+
+_June 22nd - July 3rd_
 
 The objective of the second cohort is to only do the first part of the Hack Camp
 objective: creating the experience. Our goal is to create an experience that
@@ -39,6 +43,8 @@ this stage, but we shouldn't be creating documentation for others to reproduce
 our work yet.
 
 ##### Cohort 3
+
+_July 13th - July 24th_
 
 The objective of the third cohort is to improve our work from the second cohort.
 We want to do the best job possible satisfying the first part of Hack Camp's
