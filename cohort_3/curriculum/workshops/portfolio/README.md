@@ -33,3 +33,35 @@
     - When it's done, your workspace should look like the following
 
       ![](img/c9_live_reload_installed.png)
+- Bootstrapping portfolio website
+    - On the left file pane, right click and click `New Folder` to create a new folder. Name it `portfolio``
+
+      ![](img/c9_create_portfolio_folder.gif)
+
+    - Create a new file inside of portfolio called `index.html` and open it
+
+      ![](img/c9_create_index_file.gif)
+
+    - Go ahead and type the following into the open file (don't copy and paste it! and make sure to indent properly!). Replace "Zaphod" with your first name and "Zaphod Beeblebrox" with your first and last name.
+
+      ```html
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <title>Zaphod's Portfolio</title>
+        </head>
+        <body>
+          <h1>Zaphod Beeblebrox</h1>
+        </body
+      </html>
+      ```
+
+      ![](img/c9_portfolio_template.gif)
+
+    - Let's see what our website looks like so far.
+
+      ![](img/c9_preview_template_website.gif)
+
+    - We can also open the website in its own tab.
+
+      ![](img/c9_preview_template_website_own_tab.gif)
