@@ -2,66 +2,81 @@
 
 ## Cloud9
 
-- Go to https://c9.io, click the `Sign Up` button, and create an account
+- Go to https://github.com/join and sign up for a free account
+- Go to https://c9.io, click the `Sign Up` button, and click `GitHub`
 - Click `Go to your dashboard`
 - Creating a workspace
-    - Click `Create a new workspace`
-    - Give it the name `hack-camp`
-    - Make sure the `Custom` type is selected
-    - Click `Create workspace`
+  - Click `Create a new workspace > clone from URL`
+  - Fill in the source url with
+    `https://github.com/MaxWofford/hack-camp-workspace`
+  - Click `Create workspace`
+- Wait while your workspace is created (the workspace name will show up greyed
+  out when it is loading)
+- Select your `hack-camp` workspace and click `START EDITING`
 - Configuring your workspace
-    - Select the `Minimal Editor` preset.
-    - Change `Soft Tabs` to 2
-    - Turn on `Enable Auto-Save`
-    - At the very top of the window, click the little triangle on the bar to show the Cloud9 editor options.
+  - Select the `Minimal Editor` preset.
+  - Go ahead and close the welcome tab
 
-      ![](img/c9_configuring_workspace_top_bar.png)
+    ![](img/c9_closed_welcome_tab.png)
 
-    - Click `View` and then `Console` to open up the terminal
-    - Your workspace should now look like the following:
+  - At the very top of the window, click the little triangle on the bar to show
+    the Cloud9 editor options.
 
-      ![](img/c9_configured_workspace.png)
+    ![](img/c9_configuring_workspace_top_bar.png)
 
-    - Go ahead and close the welcome tab
+  - Click `View` and then `Console`
+  - Your workspace should now look like the following:
 
-      ![](img/c9_closed_welcome_tab.png)
+    ![](img/c9_configured_workspace.png)
 
-    - Final step, paste the following command into the terminal on the bottom and hit enter. This may take a few minutes to finish.
+  - Final step, paste the following command into the console on the bottom and
+    hit enter. This may take a few minutes to finish.
 
-            $ curl -sL https://git.io/vtbp6 | sudo dd of=/usr/local/bin/live_reload && sudo chmod +x /usr/local/bin/live_reload && live_reload
+  ```sh
+    $ sh .setup.sh
+  ```
+  - When it's done, your workspace should look like the following:
 
-    - When it's done, your workspace should look like the following
+    ![](img/c9_live_reload_installed.png)
 
-      ![](img/c9_live_reload_installed.png)
-- Bootstrapping portfolio website
-    - On the left file pane, right click and click `New Folder` to create a new folder. Name it `portfolio``
+## Portfolio website
 
-      ![](img/c9_create_portfolio_folder.gif)
+  - On the left file pane, right click and click `New Folder` to create a new
+    folder. Name it `portfolio`
 
-    - Create a new file inside of portfolio called `index.html` and open it
+    ![](img/c9_create_portfolio_folder.gif)
 
-      ![](img/c9_create_index_file.gif)
+  - Create a new file inside of portfolio called `index.html` and open it
 
-    - Go ahead and type the following into the open file (don't copy and paste it! and make sure to indent properly!). Replace "Zaphod" with your first name and "Zaphod Beeblebrox" with your first and last name.
+    ![](img/c9_create_index_file.gif)
 
-      ```html
-      <!DOCTYPE html>
-      <html>
-        <head>
-          <title>Zaphod's Portfolio</title>
-        </head>
-        <body>
-          <h1>Zaphod Beeblebrox</h1>
-        </body
-      </html>
-      ```
+  - Go ahead and type the following into the open file (don't copy and paste it!
+    and make sure to indent properly!). Replace "Zaphod Beeblebrox" with your
+    first and last name.
 
-      ![](img/c9_portfolio_template.gif)
+    ```html
+    <!DOCTYPE html>
+    <html>
+      <h1>Zaphod Beeblebrox</h1>
+    </html>
+    ```
 
-    - Let's see what our website looks like so far. **Do not** click the `Run` button.
+  - Let's see what our website looks like so far.
 
-      ![](img/c9_preview_template_website.gif)
+    ![](img/c9_preview_template_website.gif)
 
-    - We can also open the website in its own tab.
+  - We can also open the website in its own tab.
 
-      ![](img/c9_preview_template_website_own_tab.gif)
+    ![](img/c9_preview_template_website_own_tab.gif)
+
+## Putting it on GitHub
+
+  - In the terminal, type in `git init`
+  - Go to `github.com/new` and create a new repository called 'portfolio-website'
+  - Copy the URL of the github page, and type in your terminal `git remote add
+    origin https://github.com/ZaphodB/portfolio-website`, where the URL is your
+    repository URL
+  - Put your code on GitHub by typing:
+    - `git add index.html`
+    - `git commit -m "add index.html"`
+    - `git push origin master`
