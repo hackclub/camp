@@ -58,7 +58,7 @@
 
       ![](img/c9_portfolio_template.gif)
 
-    - Let's see what our website looks like so far.
+    - Let's see what our website looks like so far. **Do not** click the `Run` button.
 
       ![](img/c9_preview_template_website.gif)
 
