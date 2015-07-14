@@ -59,7 +59,8 @@ See the README of this repository for the full objective of each cohort.
   - **W:** Workshop
   - **F:** Free-form (in pairs)
   - **D:** Demos (project conclusions)
-  - **MD:** Mini-demos
+  - **MD:** Mini-demos - demo current progress of projects, things aren't
+    expected to be finished yet
 
 Each column indicates the flow of the day. If a row containing `W` is followed
 by `F` in next row in the same column, that means that during that day, a
