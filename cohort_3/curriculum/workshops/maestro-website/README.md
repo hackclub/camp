@@ -8,7 +8,7 @@ building a simple website that sends people text messages.
 Let's jump right into it and get started!
 
 - Open your `hack-camp` Cloud9 workspace and create a new folder called
-  `texting-site`
+  `texting-site` inside your already existing `hack-camp` folder
   - This is similar to how you set up your `portfolio` folder for the previous
     workshop
 - Inside the folder create a new file called `index.html` and open it
