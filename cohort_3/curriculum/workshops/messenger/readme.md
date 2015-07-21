@@ -568,12 +568,12 @@ If I have a shopping list (which is similar to HTML because it is also in a tree
         - thighs
 ```
 
-`meat` is a parent to `chicken`
-`meat` has the child `chicken`
-`breast`, `drumsticks`, and `things` are all children of chicken
+- `meat` is a parent to `chicken`
+- `meat` has the child `chicken`
+- `breast`, `drumsticks`, and `things` are all children of chicken
 the parent of `breast` is `chicken`
-`breast`, `drumsticks`, and `things` are siblings
-`fruit` and `meat` are siblings
+- `breast`, `drumsticks`, and `things` are siblings
+- `fruit` and `meat` are siblings
 
 ## Analyzing Code
 
