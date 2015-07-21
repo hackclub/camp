@@ -577,7 +577,7 @@ the parent of `breast` is `chicken`
 
 ## Analyzing Code
 
-Take this code and put it into your own cloud9 projects so you can tinker with it. Create a new file for each code block below:
+Take this code and put it into your own cloud9 projects so you can tinker with it. Create a new file for each code block below. I'm still making the videos for these so I'll keep you posted!
 
 `index.html`
 ```html
