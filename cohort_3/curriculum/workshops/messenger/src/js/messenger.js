@@ -1,36 +1,43 @@
-var messagesRef = new Firebase("https://hack-camp-messenger.firebaseio.com/");
+var messagesRef = new Firebase("https://camp-messenger.firebaseio.com/");
 
-var usernameField = $("#usernameInput");
-var messageField = $("#messageInput");
-var messageList = $("#messages");
+var usernameInput = document.getElementById("usernameInput");
+var messageInput = document.getElementById("messageInput");
+var messageList = document.getElementById("messages");
 
 var messageListKeypress = function (e) {
   if (e.keyCode == 13) { // if user presses enter
-    var username = usernameField.val();
-    var message = messageField.val();
+    var username = usernameInput.value;
+    if (username === "") {
+      username = "anonymous"
+    }
+    var message = messageInput.value;
 
-    messagesRef.push({
-      name: username,
-      text: message
-    });
-    messageField.val('');
+    var data = {};
+    data.name = username;
+    data.message = message;
+
+    messagesRef.push(data);
+    messageInput.value = "";
   }
 };
 
+var writeMessage = function(name, message) {
+  var messageElement = document.createElement("li");
+  messageElement.innerHTML = name + ": " + message;
+  messageList.appendChild(messageElement);
+}
+
 messagesRef.limitToLast(10).on('child_added', function (snapshot) {
   var data = snapshot.val();
-  var username = data.name || "anonymous";
-  var message = data.text;
-
-  var messageElement = $("<li>");
-  var usernameElement = $('<strong class="messenger-username"></strong>');
-  usernameElement.text(username);
-  messageElement.text(message);
-  messageElement.prepend(usernameElement);
-
-  // Add message to list
-  messageList.append(messageElement);
-
-  // Scroll to bottom of message list
-  messageList[0].scrollTop = messageList[0].scrollHeight;
+  writeMessage(data.name, data.message);
 });
+
+
+// var usernameElement = document.createElement("strong");
+// usernameElement.setAttribute("class", "messenger-username");
+// usernameElement.innerHTML = data.name;
+// messageElement.appendChild(usernameElement);
+
+// var textElement = document.createElement("span");
+// textElement.innerHTML = data.message;
+// messageElement.appendChild(textElement);
