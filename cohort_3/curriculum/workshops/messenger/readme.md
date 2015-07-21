@@ -581,7 +581,8 @@ Take this code and put it into your own cloud9 projects so you can tinker with i
 
 # Base Version:
 
-- [Setup Video](http://youtu.be/LUuaoxMgD-A)
+- [1. Setup Video](http://youtu.be/LUuaoxMgD-A)
+- [2. Tinkering & Understanding Video](https://www.youtube.com/watch?v=3DE0HnZM9VI)
 
 `index.html`
 ```html
