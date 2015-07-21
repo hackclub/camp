@@ -762,6 +762,8 @@ html, body {
 
 # Messenger - Part II: Adding The Database
 
+[Video Details](https://youtu.be/eGjgJI41Ecs)
+
 ```js
 var messagesRef = new Firebase("https://camp-messenger.firebaseio.com/");
 
