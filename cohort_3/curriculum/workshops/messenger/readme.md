@@ -579,6 +579,10 @@ the parent of `breast` is `chicken`
 
 Take this code and put it into your own cloud9 projects so you can tinker with it. Create a new file for each code block below. I'm still making the videos for these so I'll keep you posted!
 
+# Base Version:
+
+- [Setup Video](http://youtu.be/LUuaoxMgD-A)
+
 `index.html`
 ```html
 <!DOCTYPE html>
@@ -754,7 +758,48 @@ html, body {
   border: 1px solid #ced3db;
   height: 40px;
 }
+```
 
+# Final Version
+
+*all other files have not changed*
+
+```js
+var messagesRef = new Firebase("https://camp-messenger.firebaseio.com/");
+
+var usernameInput = document.getElementById("usernameInput");
+var messageInput = document.getElementById("messageInput");
+var messageList = document.getElementById("messageList");
+
+var keyPressCallback = function (e) {
+  if (e.keyCode == 13) { // if user presses enter
+    var username = usernameInput.value;
+    if (username === "") {
+      username = "anonymous"
+    }
+    var message = messageInput.value;
+
+    var data = {};
+    data.name = username;
+    data.message = message;
+
+    messagesRef.push(data);
+    messageInput.value = "";
+  }
+};
+
+messageInput.onkeypress = keyPressCallback;
+
+var writeMessage = function(name, message) {
+  var messageElement = document.createElement("li");
+  messageElement.innerHTML = name + ": " + message;
+  messageList.appendChild(messageElement);
+}
+
+messagesRef.limitToLast(10).on('child_added', function (snapshot) {
+  var data = snapshot.val();
+  writeMessage(data.name, data.message);
+});
 ```
 
 # TODO
