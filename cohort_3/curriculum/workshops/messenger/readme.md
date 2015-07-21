@@ -1,11 +1,17 @@
 # Fundamentals
+The purpose of this workshop is to
+1. Introduce you to the fundamental concepts and vocabulary of the basics of web development and computer science
+2. Learn how to discect how an application works to build something similar
 
-## Note
-Anything that you want more information about or is not too clear, we encourage you to try to Google for the answer first before your group asks a facillitator.
+## How to use this guide
+At the end of every section, recap with your parter your understanding as if you were in preparation to teach it to someone else.
+
+## JS
+Javascript will be abbreviated as js
 
 ## Understanding Javascript Functions
 
-Like in math class, Javascript (henceforth abbreviated as js) functions
+Javascript functions, like in math class, have the following components.
 
 - a name
 - inputs
@@ -74,18 +80,15 @@ Given a single number, it outputs double of the original number.
 
 Given two inputs numbers, it sums the two numbers togther.
 
-### Playing
+### Adding in Variables
 
---
-**Functions**
+> **Function Reference**
 
-`f(x) = x²`
+> `f(x) = x²`
 
-`g(y) = 2y`
+> `g(y) = 2y`
 
-`h(x, y) = x + y`
-
---
+> `h(x, y) = x + y`
 
 `a = f(3)`
 
@@ -249,10 +252,7 @@ var j = function(x, y) {
     return c;
 }
 
-
-
-
-
+![](http://classic.cloversites.com/images/html-version/shared/try-it-out-button.gif)
 ```
 
 ### `return`
@@ -305,6 +305,7 @@ var b = alert("Help! I am trapped!")
     ^ would be undefined because alert does not return anything
 ```
 
+![](http://classic.cloversites.com/images/html-version/shared/try-it-out-button.gif)
 
 ### `Math.random`
 
@@ -325,6 +326,9 @@ var a = Math.random();
 var b = Math.random();
     ^ a would be a random number between 0 and 1 like `.0.2048` or something
 ```
+
+![](http://classic.cloversites.com/images/html-version/shared/try-it-out-button.gif)
+
 
 ### `Math.floor;`
 
@@ -421,6 +425,9 @@ var age = promprt("How old are you?")
             NOT the number.
 ```
 
+![](http://classic.cloversites.com/images/html-version/shared/try-it-out-button.gif)
+
+
 ### Introducing a new type, Objects!
 
 Read [this article about objects](http://www.w3schools.com/js/js_objects.asp) from W3 schools which actually isn't bad.
@@ -441,6 +448,9 @@ person.lastName = "Doe";
 person.age = 50;
 person.eyeColor = "blue";
 ```
+
+![](http://classic.cloversites.com/images/html-version/shared/try-it-out-button.gif)
+
 
 ### document.createElement
 
@@ -468,6 +478,9 @@ var input = document.createElement("input");
 var image = document.createElement("img");
     ^ image is now equal to an html image element object
 ```
+
+![](http://classic.cloversites.com/images/html-version/shared/try-it-out-button.gif)
+
 
 ### HTML element objects have properties
 
@@ -505,6 +518,8 @@ the browser adds the "src" *attribute*
      ^ this is the source *attribute* which has the *value* of "http://i.imgur.com/qqHJgeR.jpg"
 ```
 
+![](http://classic.cloversites.com/images/html-version/shared/try-it-out-button.gif)
+
 ### document.getElementById
 
 | Question                                     | Answer   |
@@ -516,7 +531,13 @@ the browser adds the "src" *attribute*
 box that pops up `     |
 | what is the type of the output?              | `html element object` |
 
+![](http://classic.cloversites.com/images/html-version/shared/try-it-out-button.gif)
+
+
 ### Challenge
+
+![](http://classic.cloversites.com/images/html-version/shared/try-it-out-button.gif)
+
 
 Using the questions as illustrated above:
 
@@ -555,6 +576,8 @@ the parent of `breast` is `chicken`
 `fruit` and `meat` are siblings
 
 ## Analyzing Code
+
+Take this code and put it into your own cloud9 projects so you can tinker with it. Create a new file for each code block below:
 
 `index.html`
 ```html
