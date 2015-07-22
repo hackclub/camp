@@ -1,25 +1,29 @@
-function getRandomNumber(maximum){
-  return Math.round(Math.random() * maximum);
+// don't have this in a function
+function getRandomNumber() {
+  return Math.round(Math.random() * 20);
 }
 
-function guess(correctAnswer){
+// put into a do-while loop
+function checkGuess(correctAnswer) {
   var userGuess = prompt('Make a guess!');
-  if(userGuess > correctAnswer){
-    alert('Too high!');
-  } else if(userGuess < correctAnswer){
-    alert('Too low!');
-  } else if(userGuess == correctAnswer){
+  if(userGuess == correctAnswer) {
     alert('You won!');
     return false;
+  } else if(userGuess > correctAnswer) {
+    alert('Too high!');
+    return true;
+  } else if(userGuess < correctAnswer) {
+    alert('Too low!');
+    return true;
   }
-  return true;
 }
 
-function startGame(){
-  var answer = getRandomNumber(20);
-  var score = 1;
-  while(guess(answer)){
-    score = score + 1;
+function startGame() {
+  console.log('game running!');
+  var answer = getRandomNumber();
+  var turnCounter = 1;
+  while(checkGuess(answer)) {
+    turnCounter = turnCounter + 1;
   }
-  alert('You guessed the number in ' + score + ' turns.');
+  alert('You guessed the number in ' + turnCounter + ' turns.');
 }
