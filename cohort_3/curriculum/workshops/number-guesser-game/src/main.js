@@ -1,9 +1,7 @@
-// don't have this in a function
 function getRandomNumber() {
   return Math.round(Math.random() * 20);
 }
 
-// put into a do-while loop
 function checkGuess(correctAnswer) {
   var userGuess = prompt('Make a guess!');
   if(userGuess == correctAnswer) {
