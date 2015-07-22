@@ -1,6 +1,45 @@
 # Number guesser game
 
-## Example
+## Getting our environment set up
+
+Let's go ahead and set up our environment for creating the number guessing game.
+
+As we've done before, open up your `hack-camp` workspace and create a new folder
+with the name `number-guesser-game`.
+
+![](img/create_folder.gif)
+
+Now let's create a file called `index.html` to put our HTML into and open it.
+
+![](img/create_index_html.gif)
+
+Now let's go ahead and type (not copy and paste) the following website template
+into `index.html`.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Number Guesser Game</title>
+    <script src="main.js"></script>
+  </head>
+  <body>
+  </body>
+</html>
+```
+ 
+This sets up a basic webpage and tells it to include the JavaScript file
+`main.js`. Your workspace should now look like the following:
+
+![](img/template_html.png)
+
+But there's one issue with our website... `main.js` doesn't exist yet! Let's go
+ahead and create it.
+
+![](img/create_main_js.gif)
+
+Great! Now we're all set up. The remainder of this guide will take place in
+`main.js` (we won't be playing with the HTML).
 
 ## Let's make it
 
