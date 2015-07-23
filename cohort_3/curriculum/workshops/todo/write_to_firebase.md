@@ -1,13 +1,14 @@
 # Write To Firebase
 
 In this section, in addition to adding the tasks onto the screen,
-we are going to add the tasks into the firebase database as well.
+we are going to add the tasks into the Firebase database as well.
 
 ## Adding the Firebase Library
 
 The first thing you have to do is add the Firebase library.
 
-Add the firebase library right ***before*** your `script` tag where you add your main.js
+Add the Firebase library right ***before*** your `script` tag where you add your
+main.js
 
 ```html
 THIS IS THE SCRIPT TAG YOU WANT
@@ -40,21 +41,31 @@ AFTER:
 
 This gives you all the Firebase's javascript library which lets you now communicate with Firebase.
 
-## Create Your Own Firebase Account & Database
+## Create your own Firebase account & database
 
 1. Go to `firebase.com`
 2. Click "SIGN UP" on the top right
 3. Signup with your email & password
 4. Type in an App Name, maybe something like `jonathan-todo`
-<br><br> ![](https://s3.amazonaws.com/f.cl.ly/items/40071v2C1G2C1B223R0q/Image%202015-07-23%20at%207.38.38%20AM.png?t=1437662367304)
-5. Click `CREATE NEW APP`<br><br>
-![](https://s3.amazonaws.com/f.cl.ly/items/1t030l0i0z0t2l3g3J3I/Image%202015-07-23%20at%207.40.45%20AM.png?t=1437662461738)
-6. Note that this creates a fresh new firebase database
-6. In your newly created application click `Manage App` <br><br> ![](https://s3.amazonaws.com/f.cl.ly/items/3V2x3O1b3S270K372H34/Image%202015-07-23%20at%207.42.54%20AM.png?t=1437662591165)
-7. Copy the URL in the URL bar of the browser <br><br> ![](https://s3.amazonaws.com/f.cl.ly/items/3O0a2j431e340F2O2Z0y/Image%202015-07-23%20at%207.44.02%20AM.png?t=1437662660398)
-8. Leave this firebase page open (we'll use it later)
-9. Open your `main.js` file
-10. Write the following 2 lines (ignore the comment) to the very top of `main.js` above `window.onload = function() {`
+
+  ![](https://s3.amazonaws.com/f.cl.ly/items/40071v2C1G2C1B223R0q/Image%202015-07-23%20at%207.38.38%20AM.png?t=1437662367304)
+
+5. Click `CREATE NEW APP`
+
+  ![](https://s3.amazonaws.com/f.cl.ly/items/1t030l0i0z0t2l3g3J3I/Image%202015-07-23%20at%207.40.45%20AM.png?t=1437662461738)
+
+6. Note that this creates a fresh new Firebase database
+7. In your newly created application click `Manage App`
+
+  ![](https://s3.amazonaws.com/f.cl.ly/items/3V2x3O1b3S270K372H34/Image%202015-07-23%20at%207.42.54%20AM.png?t=1437662591165)
+
+8. Copy the URL in the URL bar of the browser
+
+  ![](https://s3.amazonaws.com/f.cl.ly/items/3O0a2j431e340F2O2Z0y/Image%202015-07-23%20at%207.44.02%20AM.png?t=1437662660398)
+
+9. Leave this Firebase page open (we'll use it later)
+10. Open your `main.js` file
+11. Write the following 2 lines (ignore the comment) to the very top of `main.js` above `window.onload = function() {`
 
 ```js
 var firebaseRootUrl = "https://jonathan-todo.firebaseio.com/"
@@ -66,25 +77,25 @@ window.onload = function() {
 
 ```
 
-As a note `new Firebase(firebaseRootUrl);` makes a new connection to firebase root.
+As a note `new Firebase(firebaseRootUrl);` makes a new connection to Firebase root.
 
-Now we have a connection into Firebase. The next step is to add data into Firebase. Think about this like a pipe that I can shove or "push" data through to firebase.
+Now we have a connection into Firebase. The next step is to add data into Firebase. Think about this like a pipe that I can shove or "push" data through to Firebase.
 
-## Adding Data Into Firebase
+## Adding data into Firebase
 
-All you need to do to get data into firebase is to
+All you need to do to get data into Firebase is to
 
 1. Create an object with any properties you want to remember
 2. pass the data as an input to the function `firebaseRoot.push()`
 
-As a concrete example, we want to add a new task to firebase after we prompt the user to add it. Here's a snippet of old code with a comment of where we want to add the new code.
+As a concrete example, we want to add a new task to Firebase after we prompt the user to add it. Here's a snippet of old code with a comment of where we want to add the new code.
 
 ```js
 newTaskButton.onclick = function() {
   var taskName = prompt("Add a task:")
   if (taskName !== null && taskName !== "") {
     addNewTask(taskName);
-    // WE WANT TO ADD THIS TASK TO FIREBASE ALSO    
+    // WE WANT TO ADD THIS TASK TO FIREBASE ALSO
   }
 }
 ```
@@ -105,7 +116,7 @@ task.done = false;
       this represents whether this task has been checked off or not
 
 firebaseRoot.push(task);
-         ^ this function "pushes" the data to through the pipe to our firebase database
+         ^ this function "pushes" the data to through the pipe to our Firebase database
 ```
 
 Our final code will now look like this:
@@ -153,8 +164,6 @@ window.onload = function() {
 }
 ```
 
-
-
 You should see tasks you created refected in your firebaseRootUrl
 afer you add this code.
 
@@ -162,7 +171,7 @@ afer you add this code.
 
 <div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](http://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
     ***Now try implementing this code yourself.
-    Make sure you have your firebase page open so you can see things pop into the firebase.***</p>  
+    Make sure you have your Firebase page open so you can see things pop into the Firebase.***</p>  
 </div></div>
 
 ## Next
@@ -170,28 +179,7 @@ afer you add this code.
 Note however, if you refresh the page, everything is gone : /
 
 In the next part of the tutorial, we are going to make sure
-that our app loads the old data from firebase in addition to
-adding new data to firebase.
+that our app loads the old data from Firebase in addition to
+adding new data to Firebase.
 
 Next: [Loading Old Data from Firebase](loading_data.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

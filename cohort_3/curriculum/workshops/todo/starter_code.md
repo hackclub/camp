@@ -10,7 +10,7 @@ Note that you can't actually add tasks in this version.
 
 The focus of this tutorial is not to learn css or design but to focus on the manipulation of HTML with javascript, that's why we're giving you the starter code for HTML and CSS.
 
-## So feel free to copy and past the CSS file into your `main.css`
+## So feel free to copy and paste the CSS file into your `main.css`
 
 ```css
 
@@ -336,15 +336,12 @@ body {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>Todo List</title>
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-
   <div class="container">
     <div class="todo">
-      
       <!-- Controls -->
       <ul class="todo-controls">
         <li>
@@ -354,7 +351,6 @@ body {
           <span class="icon-settings">Settings</span>
         </li>
       </ul>
-      
       <!-- Task List -->
       <ul id="todo-list">
         <li>
@@ -383,12 +379,9 @@ body {
           <img class="delete" src="http://i.imgur.com/BtLxCD6.png">
         </li>
       </ul>
-
     </div>
   </div>
-
   <script type="text/javascript" src="main.js"></script>
-
 </body>
 </html>
 ```
