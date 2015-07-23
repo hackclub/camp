@@ -30,6 +30,7 @@ We don't expect you to be able to get up to Deleting Tasks, just adding things t
 - [Adding Firebase](write_to_firebase.md)
 - [Loading Old Data from Firebase](loading_data.md)
 - WE DON'T EXPECT YOU TO GET PAST HERE
+- ALSO THE TUTORIAL GETS A BIT JANKY PAST HERE, happy to do one on ones in this section!
 - [Deleting Tasks](deletion.md)
 - [I will just give you the final version of the code ](full.md)
 
