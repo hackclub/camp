@@ -28,9 +28,19 @@ window.onload = function() {
 }
 ```
 
-<div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](http://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
-    ***Try adding this NEW SECTIon of code into yours and watch it load your todo tasks from your database! (make sure there are tasks in your database for it to load) ***</p>  
-</div></div>
+```
+Challenge!  
+Time        __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Try adding this NEW SECTIon of code into yours and watch it load your todo
+tasks from your database! (make sure there are tasks in your database for it
+to load) 
+
+```
 
 ## Understanding the code
 ```js
@@ -193,9 +203,18 @@ window.onload = function() {
 }
 ```
 
-<div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](http://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
-    ***Try it out! See if as you add tasks, it is reflected even after you refresh the page.***</p>  
-</div></div>
+```
+Challenge!  
+Time        __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Try it out! See if as you add tasks, it is reflected even after you refresh
+the page.
+
+```
 
 ## Next
 

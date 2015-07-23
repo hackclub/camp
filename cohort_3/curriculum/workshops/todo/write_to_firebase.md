@@ -160,10 +160,17 @@ afer you add this code.
 
 ![](http://i.imgur.com/eG03qi0.gif)
 
-<div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](http://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
-    ***Now try implementing this code yourself.
-    Make sure you have your firebase page open so you can see things pop into the firebase.***</p>  
-</div></div>
+```
+Challenge!  
+Time        __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Now try implementing this code yourself. Make sure you have your firebase page open so you can see things pop into the firebase.
+
+```
 
 ## Next
 
