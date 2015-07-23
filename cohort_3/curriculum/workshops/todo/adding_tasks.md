@@ -25,8 +25,9 @@ alert("alert from main.js");
 ```
 
 ```
-Challenge!  
-Time        __
+Check
+Point!
+            __
            / _)   
     .-^^^-/ /
  __/       /
@@ -77,8 +78,9 @@ window.onload = function() {
 ```
 
 ```
-Challenge!  
-Time        __
+Check
+Point!
+            __
            / _)   
     .-^^^-/ /
  __/       /
@@ -166,8 +168,9 @@ window.onload = function() {
 
 
 ```
-Challenge!  
-Time        __
+Check
+Point!
+            __
            / _)   
     .-^^^-/ /
  __/       /
@@ -222,8 +225,9 @@ window.onload = function() {
 
 
 ```
-Challenge!  
-Time        __
+Check
+Point!
+            __
            / _)   
     .-^^^-/ /
  __/       /
@@ -290,8 +294,9 @@ window.onload = function() {
 ```
 
 ```
-Challenge!  
-Time        __
+Check
+Point!
+            __
            / _)   
     .-^^^-/ /
  __/       /
@@ -364,8 +369,9 @@ window.onload = function() {
 ```
 
 ```
-Challenge!  
-Time        __
+Check
+Point!
+            __
            / _)   
     .-^^^-/ /
  __/       /
@@ -483,8 +489,9 @@ window.onload = function() {
 ```
 
 ```text
-Challenge!  
-Time        __
+Check
+Point!
+            __
            / _)   
     .-^^^-/ /
  __/       /
@@ -514,8 +521,9 @@ window.onload = function() {
 ```
 
 ```
-Challenge!  
-Time        __
+Check
+Point!
+            __
            / _)   
     .-^^^-/ /
  __/       /
@@ -549,8 +557,9 @@ window.onload = function() {
 ```
 
 ```
-Challenge!  
-Time        __
+Check
+Point!
+            __
            / _)   
     .-^^^-/ /
  __/       /
@@ -600,8 +609,9 @@ window.onload = function() {
 ```
 
 ```
-Challenge!  
-Time        __
+Check
+Point!
+            __
            / _)   
     .-^^^-/ /
  __/       /
