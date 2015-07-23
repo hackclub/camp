@@ -22,13 +22,21 @@ The first thing I will test to see if `main.js` is even linked properly from the
 
 ```js
 alert("alert from main.js");
-``` 
+```
+
+```
+Challenge!  
+Time        __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+See if you get an alert in your code.
+
+```
 
 If I see the alert popup, you will know that that `main.js` is linked properly.
-
-<div style="padding-left: 10px; background-color: #EEE;"><div style="display: inline-block;">![](http://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
-    ***See if you get an alert in your code.***</p>           
-</div></div>
 
 ## Doing something when the button is clicked
 
@@ -68,9 +76,17 @@ window.onload = function() {
 }
 ```
 
-<div style="padding-left: 10px; background-color: #EEE;"><div style="display: inline-block;">![](http://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
-    ***See if you can get your code to make an alert when a button is clicked.***</p>           
-</div></div>
+```
+Challenge!  
+Time        __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+See if you can get your code to make an alert when a button is clicked.
+
+```
 
 ## Adding a task to the task list
 
@@ -148,11 +164,22 @@ window.onload = function() {
 }
 ```
 
-<div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](http://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
-    ***Type the above code (ignore comments & don't copy and paste) into your project. 
 
-    Make sure you are able to use this code to make it so that when you click on the new task button, it makes an empty new task.***</p>  
-</div></div>
+```
+Challenge!  
+Time        __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Type the above code (ignore comments & don't copy and paste)
+into your project.
+
+Make sure you are able to use this code to make it so that
+when you click on the new task button, it makes an empty new task.
+
+```
 
 ### Now let's add a task name to the tasks that are created!
 
@@ -193,11 +220,22 @@ window.onload = function() {
 }
 ```
 
-<div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](http://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
-    ***Type the above code (ignore comments & don't copy and paste) into your project. 
 
-    Make sure you are able to use this code to make it so that when you click on the new task button, it makes a task that says `TASK NAME`***</p>  
-</div></div>
+```
+Challenge!  
+Time        __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Type the above code (ignore comments & don't copy and paste) into your
+project. 
+
+Make sure you are able to use this code to make it so that when you click on
+the new task button, it makes a task that says `TASK NAME`
+
+```
 
 ### Now let's also add a checkbox
 
@@ -251,11 +289,21 @@ window.onload = function() {
 }
 ```
 
-<div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](http://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
-    ***Type the above code (ignore comments & don't copy and paste) into your project. 
+```
+Challenge!  
+Time        __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
 
-    Make sure you are able to use this code to make it so that when you click on the new task button, it makes a task that now has a checkbox***</p>
-</div></div>
+Type the above code (ignore comments & don't copy and paste) into your 
+project. 
+
+Make sure you are able to use this code to make it so that when you click on
+the new task button, it makes a task that now has a checkbox.
+
+```
 
 ### Now let's also add the delete button
 
@@ -315,14 +363,31 @@ window.onload = function() {
 }
 ```
 
-<div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](http://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
-    ***Type the above code (ignore comments & don't copy and paste) into your project. 
+```
+Challenge!  
+Time        __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
 
-    Make sure you are able to use this code to make it so that when you click on the new task button, it makes a task that now has a delete button
-    when you hover over the task***</p>  
-</div></div>
+Type the above code (ignore comments & don't copy and paste) into your
+project. 
+
+Make sure you are able to use this code to make it so that when you click on
+the new task button, it makes a task that now has a delete button
+when you hover over the task
+```
 
 ### Now there seems to be an awful lot of code here, let's move it to a function.
+
+By moving the code into a function, we are able to shorten the code in the `onclick` to this:
+
+```
+newTaskButton.onclick = function() {
+  addNewTask();
+};
+```
 
 This is the original code:
 
@@ -385,7 +450,7 @@ window.onload = function() {
 ```
 
 And now instead of calling every new task `TASK NAME` every time,
-we can make `addNewTask` take an input of `taskName`
+we can make `addNewTask` take an input of `taskName`.
 
 ```javascript
 window.onload = function() {
@@ -417,10 +482,21 @@ window.onload = function() {
 }
 ```
 
-<div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](http://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
-    ***Try moving your code to a separate function too! Make sure the code works!***</p>  
-</div></div>
+```text
+Challenge!  
+Time        __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
 
+<<<<<<< HEAD
+=======
+Try moving your code to a separate function too! Make sure the code works!
+This part is a little confusing so please ask us for clarifications as well!
+```
+
+>>>>>>> 79473cf... add dino messages
 ## Adding a custom task to the task list
 
 We've now need to prompt the user to type in their own task name:
@@ -437,9 +513,17 @@ window.onload = function() {
 }
 ```
 
-<div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](http://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
-    ***Now in your code, try prompting the user for a task name and have that become the task name!***</p>  
-</div></div>
+```
+Challenge!  
+Time        __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Now in your code, try prompting the user for a task name and have that become the task name!
+
+```
 
 ## What if you enter empty text or press `cancel`
 
@@ -506,10 +590,19 @@ window.onload = function() {
 }
 ```
 
-<div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](http://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
-    ***Make sure your code functions like the [demo](https://rawgit.com/hackedu/hack-camp/da57a764777c6402bd00dd88cd8775ccf8534e00/cohort_3/curriculum/workshops/todo/src/attempt_2/v2_2_javascript_adding_checkpoint/index.html).
-***</p>  
-</div></div>
+```
+Challenge!  
+Time        __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Make sure your code functions like the demo:
+
+https://rawgit.com/hackedu/hack-camp/da57a764777c6402bd00dd88cd8775ccf8534e00/cohort_3/curriculum/workshops/todo/src/attempt_2/v2_2_javascript_adding_checkpoint/index.html
+
+```
 
 ## Next
 
