@@ -4,37 +4,45 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Simple To-do List</title>
+  <title>Todo List</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
   <div class="container">
-    <section class="todo">
+    <div class="todo">
+      
+      <!-- Controls -->
       <ul class="todo-controls">
-        <li><span href="#" class="icon-add">Add</span></li>
-        <li><span href="#" class="icon-delete">Delete</span></li>
-        <li class="right"><span href="#" class="icon-settings">Settings</span></li>
+        <li>
+          <span class="icon-add">Add</span>
+        </li>
+        <li class="right">
+          <span class="icon-settings">Settings</span>
+        </li>
+      </ul>
+      
+      <!-- Task List -->
+      <ul id="todo-list">
+        <li>
+          <input class="toggle" type="checkbox">
+          <span>See no evil</span>
+          <img class="delete" src="http://i.imgur.com/BtLxCD6.png">
+        </li>
+        <li>
+          <input class="toggle" type="checkbox">
+          <span>Hear no evil</span>
+          <img class="delete" src="http://i.imgur.com/BtLxCD6.png">
+        </li>
+        <li>
+          <input class="toggle" type="checkbox">
+          <span>Speak no evil</span>
+          <img class="delete" src="http://i.imgur.com/BtLxCD6.png">
+        </li>
       </ul>
 
-      <ul class="todo-list">
-        <li>
-          <input class="toggle" type="checkbox" >
-          Find an idea.
-        </li>
-        <li>
-          <input class="toggle" type="checkbox" >
-          Build it!
-        </li>
-        <li>
-          <input class="toggle" type="checkbox" >
-          Yo yo
-        </li>
-        <li>
-          <input class="toggle" type="checkbox" >
-          line break!
-        </li>
-      </ul>
-    </section>
+    </div>
   </div>
+
 </body>
 </html>

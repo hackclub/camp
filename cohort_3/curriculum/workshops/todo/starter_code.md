@@ -1,3 +1,15 @@
+# Starter Code
+The focus of this tutorial is not to learn css or design but to focus on the manipulation of HTML with javascript.
+
+## So feel free to copy and past the CSS file into your `main.css`
+
+```css
+
+/*
+For the HTML & CSS goes to Thibaut Courouble (http://thibaut.me/)
+See http://www.cssflow.com/snippets/simple-to-do-list/demo
+*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -303,3 +315,69 @@ body {
 
   right: 10px;
 }
+```
+
+## Manually hand-type the below code into your `index.html` file 
+
+*We recommend hand typing in this situation because you will be using and manipulating the HTML lot throughout this project. Hand typing it gives you more familiarity with the code.*
+
+```html
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  
+  <!-- With some googling, you can find out the below meta tag is to properly set the scale for the website on mobile.-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Todo List</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="todo">
+      
+      <!-- Controls -->
+      <ul class="todo-controls">
+        <li>
+          <span class="icon-add">Add</span>
+        </li>
+        <li class="right">
+          <span class="icon-settings">Settings</span>
+        </li>
+      </ul>
+      
+      <!-- Task List -->
+      <ul id="todo-list">
+        <li>
+          <input class="toggle" type="checkbox">
+          <span>See no evil</span>
+          <img class="delete" src="http://i.imgur.com/BtLxCD6.png">
+        </li>
+        <li>
+          <input class="toggle" type="checkbox">
+          <span>Hear no evil</span>
+          <img class="delete" src="http://i.imgur.com/BtLxCD6.png">
+        </li>
+        <li>
+          <input class="toggle" type="checkbox">
+          <span>Speak no evil</span>
+          <img class="delete" src="http://i.imgur.com/BtLxCD6.png">
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+</body>
+</html>
+```
+
+## About
+
+We have hard-coded some tasks in this todo list. Now it's time to add them dynamically with javascript!
+
+---
+
+Next: [Adding Tasks with Javascript](adding_tasks.md)

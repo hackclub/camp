@@ -159,10 +159,10 @@ body {
   border-top: 0;
 }
 
-.todo-list {
+#todo-list {
   border-top: 1px solid #e6ebed;
 }
-.todo-list:before {
+#todo-list:before {
   content: '';
   position: absolute;
   top: 0;
@@ -173,7 +173,7 @@ body {
   border: 1px solid #f2e3df;
   border-width: 0 1px;
 }
-.todo-list li {
+#todo-list li {
   position: relative;
   padding: 7px 15px 7px 50px;
   line-height: 21px;
@@ -181,7 +181,7 @@ body {
   color: #8b8f97;
   border-bottom: 1px solid #e6ebed;
 }
-.todo-list .toggle {
+#todo-list .toggle {
   margin-top: 5px;
   margin-left: 9px;
   display: block;
@@ -258,7 +258,7 @@ body {
   margin-right: 2px;
   width: 12px;
   height: 12px;
-  background-image: url("../img/sprite.png");
+  background-image: url("http://i.imgur.com/xOQtCqY.png");
   background-repeat: no-repeat;
   font: 0/0 serif;
   text-shadow: none;
@@ -287,4 +287,19 @@ body {
 
 .icon-next {
   background-position: -60px 0;
+}
+
+.delete {
+  display: none
+}
+
+#todo-list li:hover .delete { 
+  display: inline-block;
+  position: absolute;
+  margin-top: auto;
+  margin-bottom: auto;  
+  top: 0;  
+  bottom: 0;  
+
+  right: 10px;
 }
