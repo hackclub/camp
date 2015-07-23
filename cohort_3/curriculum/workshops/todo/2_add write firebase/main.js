@@ -25,13 +25,13 @@ function main() {
   function createTask() {
     var taskDescription = prompt("Add a task:");
 
-    var task = {}
-    task.description = taskDescription;
-    task.done = false;
-
-    firebase.push(task);
-
     if (taskDescription !== null && taskDescription !== "") {
+      var task = {}
+      task.description = taskDescription;
+      task.done = false;
+      
+      firebase.push(task);
+
       var taskElement = createTaskElement(taskDescription);
       todoList.appendChild(taskElement);
     }
