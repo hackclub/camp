@@ -94,7 +94,7 @@ window.onload = function() {
   }
 
   newTaskButton.onclick = function() {
-    var taskName = prompt("Add a tasK:")
+    var taskName = prompt("Add a task:")
     if (taskName !== null && taskName !== "") {
       addNewTask(taskName);
 
@@ -133,7 +133,7 @@ If you look carefully at our code:
 ```js
 ...
   newTaskButton.onclick = function() {
-    var taskName = prompt("Add a tasK:")
+    var taskName = prompt("Add a task:")
     if (taskName !== null && taskName !== "") {
       addNewTask(taskName); // <-- HERE
 
@@ -186,7 +186,7 @@ window.onload = function() {
   }
 
   newTaskButton.onclick = function() {
-    var taskName = prompt("Add a tasK:")
+    var taskName = prompt("Add a task:")
     if (taskName !== null && taskName !== "") {
       var task = {}
       task.name = taskName;
