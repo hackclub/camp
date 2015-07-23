@@ -161,8 +161,8 @@ afer you add this code.
 ![](http://i.imgur.com/eG03qi0.gif)
 
 ```
-Challenge!  
-Time        __
+Check!  
+Point        __
            / _)   
     .-^^^-/ /
  __/       /
