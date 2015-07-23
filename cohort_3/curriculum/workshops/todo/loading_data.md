@@ -4,7 +4,6 @@ Right underneath the end of the `newTaskButton.onclick = function() {`
 there is some new code that you should type into your project `// NEW SECTION`:
 
 ```js
-
 var firebaseRootUrl = "https://jonathan-todo.firebaseio.com/"
 var firebaseRoot = new Firebase(firebaseRootUrl);
 
@@ -33,6 +32,7 @@ window.onload = function() {
 </div></div>
 
 ## Understanding the code
+
 ```js
   firebaseRoot.on('child_added', function (snapshot) {
     // ^ this is saying that whenever anything has been "pushed" to 
@@ -51,7 +51,7 @@ window.onload = function() {
   });
 ```
 
-## The Entire Code
+## The entire code
 
 ***(Note that there is currently a small error in this code)***
 
@@ -202,5 +202,3 @@ window.onload = function() {
 So it would be cool if I could delete tasks now!
 
 Next: [Deleting Tasks](deletion.md)
-
-

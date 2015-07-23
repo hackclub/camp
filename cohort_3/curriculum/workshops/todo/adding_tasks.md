@@ -4,7 +4,9 @@ I want to be able to add a new task to the list when I click on the `+` button.
 
 ## Demo
 
-[Here is a demo](https://rawgit.com/hackedu/hack-camp/da57a764777c6402bd00dd88cd8775ccf8534e00/cohort_3/curriculum/workshops/todo/src/attempt_2/v2_2_javascript_adding_checkpoint/index.html) of what we're going to do in this version.
+[Here is a
+demo](https://rawgit.com/hackedu/hack-camp/da57a764777c6402bd00dd88cd8775ccf8534e00/cohort_3/curriculum/workshops/todo/src/attempt_2/v2_2_javascript_adding_checkpoint/index.html)
+of what we're going to do in this version.
 
 - you can click the button to add a task
 - it creates a new element for each task created
@@ -13,9 +15,10 @@ Note that it does NOT
 
 - remember anything that you create
 
-## Making Sure `main.js` is connected
+## Making sure `main.js` is connected
 
-The first thing I will test to see if `main.js` is even linked properly from the `index.html` file so I run an alert.
+The first thing I will test to see if `main.js` is even linked properly from the
+`index.html` file so I run an alert.
 
 ```js
 alert("alert from main.js");
@@ -27,17 +30,17 @@ If I see the alert popup, you will know that that `main.js` is linked properly.
     ***See if you get an alert in your code.***</p>           
 </div></div>
 
-## Doing Something When The Button is Clicked
+## Doing something when the button is clicked
 
 I want to get a simple example working where if I click on the new task button it makes a simple alert.
 
-### Targeting The Button
+### Targeting the button
 
 I need to get able to target the button with an id in the `index.html`
 
 ![](http://zippy.gfycat.com/CompleteNegativeGoshawk.gif)
 
-### Running The Javascripts only *AFTER* the page loads
+### Running the Javascripts only *AFTER* the page loads
 
 I first want to make sure that all of my javascript code only runs *after*
 my page finishes loading so I put everything in a `window.onload`
@@ -71,7 +74,9 @@ window.onload = function() {
 
 ## Adding a task to the task list
 
-In the `index.html`, the place that I want to add new tasks to is inside of `ul` element
+In the `index.html`, the place that I want to add new tasks to is inside of `ul`
+element
+
 ```html
 <!-- Task List -->
 <ul id="todo-list">
@@ -80,7 +85,7 @@ In the `index.html`, the place that I want to add new tasks to is inside of `ul`
 
 - Initially it will start out empty.
 - then when I add a new task say, "take out the trash", I will need to append an
-`li` element to id like so:
+  `li` element to id like so:
 
 ```html
 <!-- Task List -->
@@ -249,7 +254,7 @@ window.onload = function() {
 <div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](http://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
     ***Type the above code (ignore comments & don't copy and paste) into your project. 
 
-    Make sure you are able to use this code to make it so that when you click on the new task button, it makes a task that now has a checkbox***</p>  
+    Make sure you are able to use this code to make it so that when you click on the new task button, it makes a task that now has a checkbox***</p>
 </div></div>
 
 ### Now let's also add the delete button
@@ -416,7 +421,6 @@ window.onload = function() {
     ***Try moving your code to a separate function too! Make sure the code works!***</p>  
 </div></div>
 
-
 ## Adding a custom task to the task list
 
 We've now need to prompt the user to type in their own task name:
@@ -464,7 +468,7 @@ window.onload = function() {
     ***Now in your code, try making sure that if the user press cancel or has a blank task name, it does not create a new task.***</p>  
 </div></div>
 
-## Final Code
+## Final code
 
 Your final code should look like this:
 
@@ -506,7 +510,6 @@ window.onload = function() {
     ***Make sure your code functions like the [demo](https://rawgit.com/hackedu/hack-camp/da57a764777c6402bd00dd88cd8775ccf8534e00/cohort_3/curriculum/workshops/todo/src/attempt_2/v2_2_javascript_adding_checkpoint/index.html).
 ***</p>  
 </div></div>
-
 
 ## Next
 

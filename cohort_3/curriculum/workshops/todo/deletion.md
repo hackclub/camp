@@ -1,4 +1,4 @@
-# Deleting Tasks
+# Deleting tasks
 
 > For the record, we don't expect you to get up to here : )
 
@@ -9,7 +9,7 @@ For a given task, when we click on the delete button, we want that item
 
 Let's build the scooter first and make it when you click the delete button, it displays an alert
 
-## Clicking On The Delete Button
+## Clicking on the delete button
 
 To get this to work, *EVERY* <img> tag needs to have it's own `onclick` that then calls a function to do something. See the bottom of this function
 
@@ -43,13 +43,17 @@ function addNewTask(taskName) { // <-- CHANGE
     ***Try seeing if you can make an alert popup when you click the delete button***</p>  
 </div></div>
 
-## Removing The Element From the Page
+## Removing the element from the page
 
-Ok, so instead of an alert, lets see if we can write some code that removes the item from the screen (and not yet firebase).
+Ok, so instead of an alert, lets see if we can write some code that removes the
+item from the screen (and not yet firebase).
 
 So in order to delete yourself, you must say `parent.removeChild(childElement)`
 
-Therefore inside of the `img.onclick function`, we have to somehow find a way to access the parent. Turns out that we can refer to the image itself that we clicked on with the keyword `this` and then if we ask for it's `parentElement` attribute with `this.parentElement` it will give us the `<li>` element.
+Therefore inside of the `img.onclick function`, we have to somehow find a way
+to access the parent. Turns out that we can refer to the image itself that we
+clicked on with the keyword `this` and then if we ask for it's `parentElement`
+attribute with `this.parentElement` it will give us the `<li>` element.
 
 We then need to ask the `<ul>` (`todoList`) to remove the child `parentElement`
 
@@ -65,7 +69,7 @@ img.onclick = function() {
 ```
 
 <div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](http://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
-    ***Give this a shot but this is kinda really confusing so please ask for help!***</p>  
+***Give this a shot but this is kinda really confusing so please ask for help!***</p>  
 </div></div>
 
 ## Removing It From Firebase
