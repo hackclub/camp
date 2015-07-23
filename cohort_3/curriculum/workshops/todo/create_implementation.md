@@ -12,16 +12,17 @@ Cloud9 workspace.
   - make sure to indent properly
   ```html
   <!DOCTYPE html>
-  <html>
-    <head>
-      <link rel="stylesheet" href="main.css">
-      <script src="main.js"></script>
-    </head>
-    <body>
-      <h1>Instagram</h1>
-    </body>
-  </html>
-  ```
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Document</title>
+      <link rel="stylesheet" href="main.css" type="text/css" />
+      
+  </head>
+  <body>
+      <script type="text/javascript" src="main.js"></script>
+  </body>
+  </html>  ```
 
 - Make sure that live reload is running by opening a new terminal in Cloud9 and
 typing `live_reload`
