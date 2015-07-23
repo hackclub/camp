@@ -19,7 +19,21 @@ Try:
 
 As you edit one todo list, the changes are mirrored on the other.
 
---
+We don't expect you to be able to get up to Deleting Tasks, just adding things through Firebase.
 
-Next: [Creating the Project Base](create.md).
+## Table of Contents
+
+- [Creating the Project Base](create.md)
+- [Solution to Creating the Base Project](create_implementation.md)
+- [Using The Starter Code](starter_code.md)
+- [Adding Tasks with Javascript](adding_tasks.md)
+- [Adding Firebase](write_to_firebase.md)
+- [Loading Old Data from Firebase](loading_data.md)
+- WE DON'T EXPECT YOU TO GET PAST HERE
+- [Deleting Tasks](deletion.md)
+- [I will just give you the final version of the code ](full.md)
+
+## Next
+[Creating the Project Base](create.md)
+
 

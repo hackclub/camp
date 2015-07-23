@@ -10,7 +10,8 @@ Cloud9 workspace.
 - In `index.html`, add the HTML base scaffold by typing the following code 
   - don't copy and paste it
   - make sure to indent properly
-  ```html
+
+```html
   <!DOCTYPE html>
   <html lang="en">
   <head>
@@ -22,7 +23,8 @@ Cloud9 workspace.
   <body>
       <script type="text/javascript" src="main.js"></script>
   </body>
-  </html>  ```
+  </html>
+```
 
 - Make sure that live reload is running by opening a new terminal in Cloud9 and
 typing `live_reload`
