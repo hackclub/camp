@@ -453,6 +453,8 @@ window.onload = function() {
 And now instead of calling every new task `TASK NAME` every time,
 we can make `addNewTask` take an input of `taskName`.
 
+Also note, that `<-- CHANGE` means that this is a line that was added.
+
 ```javascript
 window.onload = function() {
   var newTaskButton = document.getElementById("new-task-button");
@@ -591,7 +593,7 @@ window.onload = function() {
   }
 
   newTaskButton.onclick = function() {
-    var taskName = prompt("Add a tasK:")  // <-- CHANGE
+    var taskName = prompt("Add a task:")  // <-- CHANGE
 
     if (taskName !== null && taskName !== "") { // <-- CHANGE
       addNewTask(taskName);

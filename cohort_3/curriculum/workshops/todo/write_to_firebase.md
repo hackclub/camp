@@ -138,7 +138,7 @@ window.onload = function() {
   }
 
   newTaskButton.onclick = function() {
-    var taskName = prompt("Add a tasK:")
+    var taskName = prompt("Add a task:")
     if (taskName !== null && taskName !== "") {
       addNewTask(taskName);
 
