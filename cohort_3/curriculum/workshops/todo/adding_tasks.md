@@ -548,9 +548,18 @@ window.onload = function() {
 }
 ```
 
-<div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](http://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
-    ***Now in your code, try making sure that if the user press cancel or has a blank task name, it does not create a new task.***</p>  
-</div></div>
+```
+Challenge!  
+Time        __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Now in your code, try making sure that if the user press cancel or has a blank
+task name, it does not create a new task.
+
+```
 
 ## Final code
 
@@ -599,10 +608,10 @@ Time        __
 <__.|_|-|_|
 
 Make sure your code functions like the demo:
-
-https://rawgit.com/hackedu/hack-camp/da57a764777c6402bd00dd88cd8775ccf8534e00/cohort_3/curriculum/workshops/todo/src/attempt_2/v2_2_javascript_adding_checkpoint/index.html
-
 ```
+
+[Link to demo](https://rawgit.com/hackedu/hack-camp/da57a764777c6402bd00dd88cd8775ccf8534e00/cohort_3/curriculum/workshops/todo/src/attempt_2/v2_2_javascript_adding_checkpoint/index.html
+)
 
 ## Next
 

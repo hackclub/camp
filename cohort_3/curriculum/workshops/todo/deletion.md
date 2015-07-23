@@ -39,9 +39,17 @@ function addNewTask(taskName) { // <-- CHANGE
 }
 ```
 
-<div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](http://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
-    ***Try seeing if you can make an alert popup when you click the delete button***</p>  
-</div></div>
+```
+Challenge!  
+Time        __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Try seeing if you can make an alert popup when you click the delete button
+
+```
 
 ## Removing the element from the page
 
@@ -71,6 +79,18 @@ img.onclick = function() {
 <div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](http://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
 ***Give this a shot but this is kinda really confusing so please ask for help!***</p>  
 </div></div>
+
+```
+Challenge!  
+Time        __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Give this a shot but this is kinda really confusing so please ask for help!
+
+```
 
 ## Removing It From Firebase
 

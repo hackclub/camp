@@ -174,6 +174,18 @@ afer you add this code.
     Make sure you have your Firebase page open so you can see things pop into the Firebase.***</p>  
 </div></div>
 
+```
+Challenge!  
+Time        __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Now try implementing this code yourself. Make sure you have your firebase page open so you can see things pop into the firebase.
+
+```
+
 ## Next
 
 Note however, if you refresh the page, everything is gone : /
