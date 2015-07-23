@@ -40,7 +40,7 @@ function addNewTask(taskName) { // <-- CHANGE
 ```
 
 ```
-Challenge!  
+Check Point!  
 Time        __
            / _)   
     .-^^^-/ /
@@ -81,7 +81,7 @@ img.onclick = function() {
 </div></div>
 
 ```
-Challenge!  
+Check Point!  
 Time        __
            / _)   
     .-^^^-/ /
