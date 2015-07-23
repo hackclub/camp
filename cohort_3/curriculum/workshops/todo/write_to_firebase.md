@@ -175,8 +175,8 @@ afer you add this code.
 </div></div>
 
 ```
-Challenge!  
-Time        __
+Check!  
+Point        __
            / _)   
     .-^^^-/ /
  __/       /
