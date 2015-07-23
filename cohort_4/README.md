@@ -22,3 +22,7 @@ TODO: Talk about what freedom is within Hack Camp here.
 
 When it comes to showing hackers things, don't phrase things as "this is how you
 do things." Instead, phrase things as "this is how I do things".
+
+##### Whether things are mandatory
+
+TODO: decide what is mandatory, what isn't, and how to deal with the distinction
