@@ -11,3 +11,14 @@ Gemma Busoni ([@gemmabusoni](https://github.com/gemmabusoni)). Bio:
 > previously organized [CodeDay LA](https://codeday.org/la) at
 > [will.i.am](http://will.i.am/)'s music studio in Los Angeles and can't wait to
 > help others build things at Hack Camp.
+
+## Culture
+
+### Freedom
+
+TODO: Talk about what freedom is within Hack Camp here.
+
+#### Phrasing
+
+When it comes to showing hackers things, don't phrase things as "this is how you
+do things." Instead, phrase things as "this is how I do things".
