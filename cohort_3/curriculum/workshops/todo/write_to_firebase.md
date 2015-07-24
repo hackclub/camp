@@ -149,7 +149,7 @@ window.onload = function() {
   }
 
   newTaskButton.onclick = function() {
-    var taskName = prompt("Add a tasK:")
+    var taskName = prompt("Add a task:")
     if (taskName !== null && taskName !== "") {
       addNewTask(taskName);
 
@@ -169,10 +169,17 @@ afer you add this code.
 
 ![](http://i.imgur.com/eG03qi0.gif)
 
-<div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](http://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
-    ***Now try implementing this code yourself.
-    Make sure you have your Firebase page open so you can see things pop into the Firebase.***</p>  
-</div></div>
+```
+Check!  
+Point        __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Now try implementing this code yourself. Make sure you have your firebase page open so you can see things pop into the firebase.
+
+```
 
 ## Next
 

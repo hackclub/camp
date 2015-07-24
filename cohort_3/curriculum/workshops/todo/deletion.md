@@ -39,11 +39,19 @@ function addNewTask(taskName) { // <-- CHANGE
 }
 ```
 
-<div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](http://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
-    ***Try seeing if you can make an alert popup when you click the delete button***</p>  
-</div></div>
+```
+Check Point!  
+Time        __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
 
-## Removing the element from the page
+Try seeing if you can make an alert popup when you click the delete button
+
+```
+
+## Removing The Element From the Page
 
 Ok, so instead of an alert, lets see if we can write some code that removes the
 item from the screen (and not yet firebase).
@@ -68,9 +76,17 @@ img.onclick = function() {
 }
 ```
 
-<div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](http://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
-***Give this a shot but this is kinda really confusing so please ask for help!***</p>  
-</div></div>
+```
+Check Point@  
+Time        __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Give this a shot but this is kinda really confusing so please ask for help!
+
+```
 
 ## Removing It From Firebase
 
@@ -137,7 +153,7 @@ window.onload = function() {
   }
 
   newTaskButton.onclick = function() {
-    var taskName = prompt("Add a tasK:")
+    var taskName = prompt("Add a task:")
     if (taskName !== null && taskName !== "") {
       addNewTask(taskName);
 

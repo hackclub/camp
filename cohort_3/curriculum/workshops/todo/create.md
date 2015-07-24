@@ -19,10 +19,11 @@ Time        __
 ```
 
 ## Pro Tips
-![]()
+
 ### Use Shortcut Keys
 
 **Get Cloud9 to automatically give you the HTML scaffold by:**
+
 - opening up `.html` file
 - typing in `!`
 - pressing `tab`
@@ -30,11 +31,12 @@ Time        __
 ![](http://zippy.gfycat.com/HappygoluckyMintyChevrotain.gif)
 
 **Automatically generate the link and script tags**
+
 - type `script`
 - then the tab key
 - type link
 - then the tab key
-![](http://zippy.gfycat.com/ExhaustedMasculineCow.gif)
 
+![](http://zippy.gfycat.com/ExhaustedMasculineCow.gif)
 
 Next: [Challenge Solution](create_implementation.md).

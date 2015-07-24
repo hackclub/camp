@@ -368,17 +368,6 @@ body {
           <span>Speak no evil</span>
           <img class="delete" src="http://i.imgur.com/BtLxCD6.png">
         </li>
-        <li>
-          <input class="toggle" type="checkbox">
-          <span>Task 1</span>
-          <img class="delete" src="http://i.imgur.com/BtLxCD6.png">
-        </li>
-        <li>
-          <input class="toggle" type="checkbox">
-          <span>Task 2</span>
-          <img class="delete" src="http://i.imgur.com/BtLxCD6.png">
-        </li>
-      </ul>
     </div>
   </div>
   <script type="text/javascript" src="main.js"></script>
