@@ -16,13 +16,24 @@ Gemma Busoni ([@gemmabusoni](https://github.com/gemmabusoni)). Bio:
 
 ### Freedom
 
-TODO: Talk about what freedom is within Hack Camp here.
+#### For us
+
+In Hack Camp, we are going to be doing X, Y, and Z. However, if you _really_
+don't want to do something, you don't have to. And if you feel uncomfortable
+doing something, let us know and we'll do our best to work with you.
+
+#### For the hackers
+
+Everything is optional. In Hack Camp we will be following this set schedule, and
+if you'd like to deviate, please do so. However, if you don't follow along with
+the workshops or don't build projects on our schedule, chances are you'll fall
+behind - the choice is up to you.
 
 #### Phrasing
 
 When it comes to showing hackers things, don't phrase things as "this is how you
 do things." Instead, phrase things as "this is how I do things".
 
-##### Whether things are mandatory
+#### Whether things are mandatory
 
-TODO: decide what is mandatory, what isn't, and how to deal with the distinction
+Things are not mandatory.
