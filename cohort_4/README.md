@@ -18,9 +18,9 @@ Gemma Busoni ([@gemmabusoni](https://github.com/gemmabusoni)). Bio:
 
 #### For us
 
-In Hack Camp, we are going to be doing X, Y, and Z. However, if you _really_
-don't want to do something, you don't have to. And if you feel uncomfortable
-doing something, let us know and we'll do our best to work with you.
+In Hack Camp, we are going to be doing X, Y, and Z. However, if you don't want
+to do something, you don't have to. And if you feel uncomfortable doing
+something, let us know and we'll do our best to work with you.
 
 #### For the hackers
 
