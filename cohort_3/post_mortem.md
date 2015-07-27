@@ -1,6 +1,6 @@
 # Cohort 3 Post-mortem
 
-Date: 07.25.15
+Date: 07.27.15  
 Attendees: Andrea Deng, Max Wofford, Jonathan Leung, Zach Latta
 
 -------------------------------------------------------------------------------
