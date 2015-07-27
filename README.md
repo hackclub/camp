@@ -1,4 +1,20 @@
-# Hack Camp [![Circle CI](https://circleci.com/gh/hackedu/hack-camp.svg?style=svg)](https://circleci.com/gh/hackedu/hack-camp)
+<a name="top"></a>
+[![Circle CI](https://circleci.com/gh/hackedu/hack-camp.svg?style=svg)](https://circleci.com/gh/hackedu/hack-camp)
+
+-------------------------------------------------------------------------------
+
+<p align="center"><img src="/meta/logo.png" width="400px" alt="Hack Camp"/></p>
+<p align="center">
+<b><a href="cohort_1">cohort 1</a></b>
+|
+<b><a href="cohort_2">cohort 2</a></b>
+|
+<b><a href="cohort_3">cohort 3</a></b>
+|
+<b><a href="cohort_4">cohort 4</a></b>
+</p>
+
+-------------------------------------------------------------------------------
 
 Hack Camp is hackEDU's summer program. It's a two-week program for high school
 students who want to make things with code. We'll bring participants from their
