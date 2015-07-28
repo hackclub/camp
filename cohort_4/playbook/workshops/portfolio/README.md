@@ -20,7 +20,7 @@ TODO:
 
 Component 1
 
-[Setting up your tools for writing code](c9.md)
+[Setting up your tools for writing code](c9_setup.md)
 
 Component 2
 
