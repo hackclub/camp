@@ -10,6 +10,5 @@
 
 -------------------------------------------------------------------------------
 
-
 Welcome to the Hack Camp playbook. See the above links for links to the
 different parts of this series of documents.
