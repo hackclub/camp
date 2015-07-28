@@ -1,9 +1,8 @@
-# Activities
-
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
 **Table of Contents**
 
 - [Activities](#activities)
+    - [Hackers arrive](#hackers-arrive)
     - [Workshops](#workshops)
         - [[Portfolio](workshops/portfolio)](#portfolioworkshopsportfolio)
             - [Prerequisites](#prerequisites)
@@ -11,6 +10,12 @@
     - [Feedback Forms](#feedback-forms)
 
 <!-- markdown-toc end -->
+# Activities
+
+## Hackers arrive
+
+When a hacker arrives, mark their arrival in the attendance over at
+https://docs.google.com/spreadsheets/d/1Em5tUQdm4dXnthtWr4zY4KR9Q6JZMV_Hl2n6G9Ti9Bg/edit.
 
 ## Workshops
 
