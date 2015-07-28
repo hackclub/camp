@@ -39,9 +39,6 @@ There other choices besides Cloud9 but it's the easiest and most powerful place.
 ## Change `Soft Tabs` to `2`
 ![](img/c9_v2_setup_17.png)
 
-## Close the Welcome Tab
-![](img/c9_closed_welcome_tab.png)
-
 ## The Terminal
 The arrow here points to what is called the terminal.
 
@@ -54,6 +51,9 @@ This may take a few minutes to finish.
 
     curl -sL https://git.io/vtbp6 | sudo dd of=/usr/local/bin/live_reload && sudo chmod +x /usr/local/bin/live_reload && live_reload
 
+## While you wait, close the Welcome Tab
+![](img/c9_closed_welcome_tab.png)
+
 ## When it's done, your workspace should look like the following
 
 ![](img/c9_live_reload_installed.png)
@@ -62,6 +62,6 @@ This may take a few minutes to finish.
 
 Great, now you've finished setting up your Cloud9 workspace!
 
-The next step is to start creating the files you actually need for your workspace.
+The next step is to start creating the files you actually need for your website.
 
-[Creating the files for your website](file_creation.md)
+[Next: Creating the files for your website](file_creation.md)
