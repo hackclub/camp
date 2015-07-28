@@ -7,9 +7,10 @@
     - [Workshops](#workshops)
         - [[Portfolio](workshops/portfolio)](#portfolioworkshopsportfolio)
             - [Prerequisites](#prerequisites)
+            - [Running it](#running-it)
+    - [Feedback Forms](#feedback-forms)
 
 <!-- markdown-toc end -->
-<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc/generate-toc again -->
 
 ## Workshops
 
@@ -22,3 +23,15 @@
 #### Running it
 
 TODO
+
+## Feedback Forms
+
+All of the feedback form responses will be put into the appropriate sheet in
+https://docs.google.com/spreadsheets/d/1D8y_UB11C4QrXB9kn86-UqVQQqT9FUDqftx1AMHIb3o.
+
+| Day | Link                                                                                         |
+| --- | -------------------------------------------------------------------------------------------- |
+|   1 | https://docs.google.com/a/zachlatta.com/forms/d/1FTBlvJdXRyfPyGheR3Sm6xWu1PQSMTNkZxPkC3jp0G4 |
+|   2 | https://docs.google.com/a/zachlatta.com/forms/d/1_9K3b4Nwgn3-mFqMrrUObwiMHt_53y9LVNyCQAULn7I |
+|   3 | https://docs.google.com/a/zachlatta.com/forms/d/1kgCrsPuTFJ-404JdpFo3acomXmwvTIOJHXzOp_NoUeI |
+|   4 | https://docs.google.com/a/zachlatta.com/forms/d/1ASfJdmXGUVRdGJR6rmzedDQ2EDEL7Hc11JD0xjBJMp8 |

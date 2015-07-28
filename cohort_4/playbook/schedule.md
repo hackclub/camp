@@ -25,7 +25,7 @@
 | TODO  | Project time                                  |
 | TODO  | I have failed circle                          |
 | TODO  | Demos                                         |
-| TODO  | Feedback form                                 |
+| TODO  | [Feedback form](activities.md#feedback-forms) |
 | TODO  | Hack cheer                                    |
 
 Day layout copied from [here](../prep/meetings/15-07-27_sprint_discuss.md).
