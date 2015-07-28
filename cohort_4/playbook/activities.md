@@ -2,7 +2,7 @@
 **Table of Contents**
 
 - [Activities](#activities)
-    - [Hackers arrive](#hackers-arrive)
+    - [Hacker arrival](#hacker-arrival)
     - [Workshops](#workshops)
         - [[Portfolio](workshops/portfolio)](#portfolioworkshopsportfolio)
             - [Prerequisites](#prerequisites)
@@ -10,12 +10,27 @@
     - [Feedback Forms](#feedback-forms)
 
 <!-- markdown-toc end -->
+
 # Activities
 
-## Hackers arrive
+## Hacker arrival
 
-When a hacker arrives, mark their arrival in the attendance over at
-https://docs.google.com/spreadsheets/d/1Em5tUQdm4dXnthtWr4zY4KR9Q6JZMV_Hl2n6G9Ti9Bg/edit.
+1. Assign a leader to manage hacker arrival.
+2. Have the assigned leader text all of the hackers the morning of with
+   something along the lines of the following:
+
+   > Hey Alice! Can't wait to see you this morning. Just as a quick reminder,
+   > the address is 44 Tehama Street in San Francisco. Can you shoot me a text
+   > or give me a call when you get here?
+
+3. Have the assigned leader wait in the lobby for arriving hackers.
+4. When a hacker arrives, have the assigned leader guide them down to the
+   hackerspace in the basement, mark their arrival in the
+   [attendance sheet](https://docs.google.com/spreadsheets/d/1Em5tUQdm4dXnthtWr4zY4KR9Q6JZMV_Hl2n6G9Ti9Bg/edit),
+   and then head back up to the lobby to wait for more arriving hackers.
+
+It may be a good idea to play some music in the hackerspace while people are
+arriving.
 
 ## Workshops
 
