@@ -186,6 +186,11 @@ If they have not yet, refer to [Brainstorming](#brainstorming).
 
 - This is when you can start sorting and judging the ideas
   - Group post-it notes into similar concepts or ideas
+- Hackers should chose two or three ideas they are interested in working on.
+- Organizers can help them narrow their final decision down to one idea.
+  - It is important that organizers review project ideas before hackers start
+    working. Organizers must make sure the scope of the project is something the
+    hacker can handle in the time they are given.
 
 ## Feedback Forms
 
