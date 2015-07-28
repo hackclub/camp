@@ -17,6 +17,11 @@
         - [Engagement](#engagement)
         - [Facilitating](#facilitating)
         - [Answering questions](#answering-questions)
+    - [Brainstorming](#brainstorming)
+        - [Forming groups](#forming-groups)
+        - [Yes-and sessions](#yes-and-sessions)
+        - [Running a brainstorm session](#running-a-brainstorm-session)
+        - [After a brainstorm](#after-a-brainstorm)
     - [Feedback Forms](#feedback-forms)
 
 <!-- markdown-toc end -->
@@ -160,6 +165,58 @@ If they have not yet, refer to [Brainstorming](#brainstorming).
     own problems. Aim for spending the least time with a hacker as possible.
     - If another hacker can help out, let that happen. Optimize for the least
       club leader time per student possible.
+
+## Brainstorming
+
+### Forming groups
+
+- Assign people to groups.
+  - There are social pressures between friends when forming groups. Start by
+    assigning the hackers to random groups.
+  - If any problems arise in a group handle it on a case-by-case basis.
+
+### Yes-and sessions
+
+- "Yes-and" sessions are exercises that help people get out of a judgmental
+  mindset before brainstorming
+  - In a "Yes-and" session, pairs of hackers build off each-others' ideas to
+    create long, completely nonsensical ideas
+- To run a "Yes-and" session, start with an example between facilitators
+  - ex: https://youtu.be/Qe2a3ppacUk
+  - ex: between person A and person B:
+
+    > A: Let's create tinder for unicorns
+    > B: And it will be super effective, and the unicorn population will
+    > increase 1,000 times.
+    > A: Yes, and there won't be enough food for the unicorns
+    > B: So they'll build a spaceship to search for new planets to colonize!
+
+- Have the hackers jump into a "Yes-and session" for 4 minutes then let
+  volunteer to present the stories that unfolded.
+
+### Running a brainstorm session
+
+- Remind the hackers how brainstorming works
+
+  1. THERE ARE NO BAD IDEAS IN BRAINSTORMING
+  2. Go for quantity of ideas
+  3. Write down your ideas on post-it notes
+  4. Say an idea out loud when writing it down
+
+### After a brainstorm
+
+- This is when you can start sorting and judging the ideas
+  - Group post-it notes into similar concepts or ideas
+- Hackers should chose two or three ideas they are interested in working on.
+- Organizers can help them narrow their final decision down to one idea.
+  - It is important that organizers review project ideas before hackers start
+    working
+- Explain the concept of MVP and help the hackers scope their project
+  - Building a large project can take a long time. We want to build the least
+    amount that we have to in the next day, so we'll only build the core
+    features
+  - Organizers must make sure the scope of the project is something the hackers
+    can handle in the time they are given.
 
 ## Feedback Forms
 
