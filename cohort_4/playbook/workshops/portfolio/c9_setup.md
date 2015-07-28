@@ -8,7 +8,17 @@ There other choices besides Cloud9 but it's the easiest and most powerful place.
 
 ![](img/c9_v2_setup_1.png)
 ![](img/c9_v2_setup_2.png)
+
+## Using a valid email
 ![](img/c9_v2_setup_3.png)
+
+## Validating your Email Address
+
+- Check your email inbox for a confirmation email from github
+- Make sure you click on the link it tells you to to confirm your accountl.
+
+> *Important Note*: If you don't do this now, the latter part of this tutorial will not work for you!
+
 ![](img/c9_v2_setup_4.png)
 ![](img/c9_v2_setup_5.png)
 ![](img/c9_v2_setup_6.png)
