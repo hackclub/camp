@@ -16,6 +16,11 @@
         - [Engagement](#engagement)
         - [Facilitating](#facilitating)
         - [Answering questions](#answering-questions)
+    - [Brainstorming](#brainstorming)
+        - [Forming groups](#forming-groups)
+        - [Yes-and sessions](#yes-and-sessions)
+        - [Running a brainstorm session](#running-a-brainstorm-session)
+        - [After a brainstorm](#after-a-brainstorm)
     - [Feedback Forms](#feedback-forms)
 
 <!-- markdown-toc end -->
@@ -141,6 +146,46 @@ If they have not yet, refer to [Brainstorming](#brainstorming).
     own problems. Aim for spending the least time with a hacker as possible.
     - If another hacker can help out, let that happen. Optimize for the least
       club leader time per student possible.
+
+## Brainstorming
+
+### Forming groups
+
+- Assign people to groups.
+  - There are social pressures between friends when forming groups. Start by
+    assigning the hackers to random groups.
+  - If any problems arise in a group handle it on a case-by-case basis.
+
+### Yes-and sessions
+
+- In a "Yes-and" session, pairs of hackers build off each-others' ideas to create
+  long, completely nonsensical ideas
+  - "Yes-and" sessions are exercises that help people get out of a judgmental
+    mindset before brainstorming
+- To run a "Yes-and" session, start with an example between facilitators
+  - ex: between person A and person B:
+
+    ```
+    A: Let's create tinder for unicorns
+    B: And it will be super effective, and the unicorn population will increase 1,000 times
+    A: Yes, and there won't be enough food for the unicorns
+    B: So they'll build a spaceship to search for new planets to colonize!
+    ```
+
+- Have the hackers jump into a "Yes-and session" for 2 minutes then let
+  volunteer to present the ideas they came up with.
+
+### Running a brainstorm session
+
+- Remind the hackers how brainstorming works
+  1. THERE ARE NO BAD IDEAS IN BRAINSTORMING
+  2. Write down your ideas on post-it notes
+  3. Say an idea out loud when writing it down
+
+### After a brainstorm
+
+- This is when you can start sorting and judging the ideas
+  - Group post-it notes into similar concepts or ideas
 
 ## Feedback Forms
 
