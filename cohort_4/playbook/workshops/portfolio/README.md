@@ -4,6 +4,6 @@ By the end of this tutorial, you will be building a profile webpage that looks s
 
 ![](img/final_screenshot.png)
 
-[Link to Live Demo (it works on your mobile phone as well)](https://rawgit.com/hackedu/hack-camp/a7884d5e82531d83e1d2bc0189e552401cdb4b80/cohort_4/playbook/workshops/portfolio/src/final_portfolio/index.html)
+[Link to Live Demo (http://bit.ly/1SaEztv)](https://rawgit.com/hackedu/hack-camp/cohort_4-portfolio/cohort_4/playbook/workshops/portfolio/src/final_portfolio/index.html)
 
 [Setup Up Your Workspace](c9.md)
