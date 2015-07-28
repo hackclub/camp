@@ -1,5 +1,10 @@
 # Cohort 4
 
+## Table of Contents
+
+- [Waivers](waivers/)
+  - [Acceptance packet](waivers/acceptance_packet.pdf)
+
 ## Who's running it?
 
 Gemma Busoni ([@gemmabusoni](https://github.com/gemmabusoni)). Bio:
