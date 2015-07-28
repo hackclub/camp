@@ -1,0 +1,7 @@
+- Alright! We made it! To recap what we did:
+    - Created account on Cloud9 and set it up as our development environment
+    - Wrote the content of our portfolio website in HTML
+    - Made the content of our portfolio pretty with CSS
+    - Used git to create snapshots of our code as we wrote it
+    - Created account on GitHub and uploaded our git snapshots to it
+    - Hosted our website on GitHub pages at https://github_username.github.io/portfolio/index.html
