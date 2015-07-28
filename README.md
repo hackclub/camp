@@ -4,7 +4,7 @@
 
 -------------------------------------------------------------------------------
 
-<p align="center"><img src="/meta/logo.png" width="400px" alt="Hack Camp"/></p>
+<p align="center"><a href="https://camp.hackedu.us"><img src="/meta/logo.png" width="400px" alt="Hack Camp"/></a></p>
 <p align="center">
 <b><a href="cohort_1">cohort 1</a></b>
 |
