@@ -12,7 +12,7 @@
 
 | Time     | Activity                                       |
 | -------- | ---------------------------------------------- |
-| 9:20 AM  | [Hackers arrive](activities.md#hackers-arrive) |
+| 9:20 AM  | [Hacker arrival](activities.md#hacker-arrival) |
 | 9:30 AM  | Galvanize tour                                 |
 | 9:40 AM  | Energizer                                      |
 | 10:00 AM | Breakfast                                      |
