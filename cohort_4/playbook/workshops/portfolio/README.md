@@ -4,25 +4,17 @@ By the end of this tutorial, you will be building a profile webpage that looks s
 
 ![](img/final_screenshot.png)
 
-[Link to Live Demo (http://bit.ly/1SaEztv)](https://rawgit.com/hackedu/hack-camp/cohort_4-portfolio/cohort_4/playbook/workshops/portfolio/src/final_portfolio/index.html)
+Here is a 
+[live demo](https://rawgit.com/hackedu/hack-camp/cohort_4-portfolio/cohort_4/playbook/workshops/portfolio/src/final_portfolio/index.html).
 
-[Setup Up Your Workspace](c9.md)
+## Objectives
 
-## Main Components
-
-There will be X parts of this tutorial
-
-TODO:
-- Add Sections
-- Add Screenshots
+1. For you to learn the basics of HTML & CSS
+2. To learn the basics of how to use Google to find your answer
 
 ## Sections
 
-Component 1
-
-[Setting up your tools for writing code](c9_setup.md)
-
-Component 2
-
-Component 3
-
+- [Setting up your workspace](c9_setup.md)
+- [Creating your project files](file_creation.md)
+- [Planning out your code](outline_challenge.md)
+- [A Solution to the Outline (Solution)](outline_solution.md)
