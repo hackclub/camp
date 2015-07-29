@@ -3,6 +3,8 @@
 
 - [Activities](#activities)
     - [Hacker arrival](#hacker-arrival)
+    - [Meals](#meals)
+        - [Lunch](#lunch)
     - [Workshops](#workshops)
         - [[Portfolio](workshops/portfolio)](#portfolioworkshopsportfolio)
             - [Prerequisites](#prerequisites)
@@ -31,6 +33,18 @@
 
 It may be a good idea to play some music in the hackerspace while people are
 arriving.
+
+## Meals
+
+### Lunch
+
+On the first day, eat lunch as a large group. On all of the other days, give the
+hackers freedom for the entire lunch period.
+
+When eating lunch as a large group, have a designated lunch area and take the
+stairs there. If you try and take the elevator, there's a good chance things
+will get chaotic, especially with other Galvanize members trying to get to the
+first floor with the elevators.
 
 ## Workshops
 
