@@ -1,4 +1,4 @@
-# Creating Our Files & Folders
+# Creating your project files
 
 ## Creating the project folder
 
@@ -21,8 +21,48 @@ folder.
 
 ![](img/c9_create_index_file.gif)
 
+## The scaffold of every html page:
+
+Type the following code into the open file.
+
+Replace Zaphod's name with your own name.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zaphod's Portfolio</title>
+  </head>
+  <body>
+    <h1>Zaphod Beeblebrox</h1>
+  </body>
+</html>
+```
+
+```md
+Pro-tip!
+
+{o,o}
+./)_)
+  " "
+
+When trying to learn something new, don't copy and paste code or else
+you won't remember it as well
+
+Also, make sure you keep the same indentation that we do.
+```
+
+
+  ![](img/c9_portfolio_template.gif)
+
+## Previewing our work
+
+![](img/c9_preview_template_website.gif)
+
+## We can also open the website in its own tab.
+
+![](img/c9_preview_template_website_own_tab.gif)
+
 ## Next
 
-Before we start writing any code, let's [outline what code we need to write!](outlining.md)
-
-
+Before moving forward further, let's [outline what code we need to write!](outlining.md)

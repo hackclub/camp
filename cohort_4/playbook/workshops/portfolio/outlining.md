@@ -1,4 +1,4 @@
-# Outlining our HTML
+# Outlining your code
 
 ---
 TODO: Add some context

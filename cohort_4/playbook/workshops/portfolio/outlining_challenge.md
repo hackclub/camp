@@ -1,6 +1,6 @@
-## Outline Challenge
+# Challenge: Outlining your code
 
-```
+```html
 Challenge!  
 Time        __
            / _)   
@@ -9,16 +9,32 @@ Time        __
 <__.|_|-|_|
 
 Can you create a bullet point outline of the portfolio project?
-Create your outline directly in the `index.html` file
+
+First, delete the <h1>Zaphod Beeblebrox</h1>
+
+Create your outline directly inside of the body tag in the 
+`index.html` file like this:
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Zaphod's Portfolio</title>
+      </head>
+      <body>
+        <!-- YOUR OUTLINE HERE -->
+      </body>
+    </html>
+
+...
 ```
 
 ## For Your Reference
 
-Here is what the final portfolio looks like:
+Here is what the final portfolio looks like. [Here is a link to the live website.](https://rawgit.com/hackedu/hack-camp/cohort_4-portfolio/cohort_4/playbook/workshops/portfolio/src/final_portfolio/index.html)
+
 
 ![](img/final_screenshot.png)
 
-[Here is a link to the live website.](https://rawgit.com/hackedu/hack-camp/cohort_4-portfolio/cohort_4/playbook/workshops/portfolio/src/final_portfolio/index.html)
 
 
 ## Next

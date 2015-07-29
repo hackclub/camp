@@ -1,4 +1,4 @@
-# Potential Outlining Solution
+# Solution: Outlining your code
 
 Note that there are many ways to outline this. This is just one potential solution.
 
@@ -9,16 +9,24 @@ Note that there are many ways to outline this. This is just one potential soluti
 ```
 index.html
 
-- portfolio
-  - image section
-    - image
-  - informational section
-    - name
-    - description
-  - social media section
-    - link to Facebook
-    - link to Twitter
-    - link to Github
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zaphod's Portfolio</title>
+  </head>
+  <body>
+    - portfolio
+      - image section
+        - image
+      - informational section
+        - name
+        - description
+      - social media section
+        - link to Facebook
+        - link to Twitter
+        - link to Github
+  </body>
+</html>
 ```
 
 ![](img/portfolio_subsctions_screenshot.png)
@@ -30,7 +38,8 @@ We can start to replace
 - `description` with `I want to show...`
 
 ```html
-index.html
+<!-- Note, all subsequent code is written without any tags
+except those that are used in the body -->
 
 - portfolio
   - image section
@@ -44,6 +53,10 @@ index.html
     - link to Github (https://github.com/jonleung)
 ```
 
+## Placeholding
+
+We are using the above outline as a placeholders for our code that will soon be written. Throughout this tutorial, we will be replacing each bullet point with real HTML code. Having a scaffold reminds us of the entire structure of the code and helps us figure out where we want to go next.
+
 ## Viewing the Result
 
 ![](img/preview_live.gif)
@@ -56,15 +69,23 @@ index.html
 ## The Result
 ![](img/preview_outline.png)
 
-The above certainly looks weird, but one thing I do notice is that I don't want the following to actually appear on the page.
+The above certainly looks weird. That's because right now we just have an outline.
+
+The first thing to make this look closer to our actual website though, is to hide the bullet points we don't want in the final website to show up as text.
+
+For example, `image section` and `informational section` for instance should not be displayed.
 
 ## Things To Be Removed
 
 ![](img/preview_outline_crossed.png)
 
-To tell the computer to ignore something, we can put the text inside of these things":
+To tell the computer to ignore something, we can put the text inside of these things:
 
-`<!-- all text inside of these things will be ignored -->`
+`<!-- all text inside of these things will be ignored by the computer-->`
+
+## Our New Outline
+
+(which now has all of those section titles removed)
 
 ```
 <!-- PORTFOLIO -->
@@ -82,12 +103,10 @@ To tell the computer to ignore something, we can put the text inside of these th
     - link to Github (https://github.com/jonleung)
 ```
 
-## This is our result:
 
-(which now has all of those section titles removed)
 
 ![](img/preview_outline_with_comments.png)
 
 ## Next
 
-[Let's add the name first](adding_name_challenge.md)
+[A bit more information about the structure of this tutorial](tutorial_format.md)

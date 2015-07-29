@@ -1,14 +1,12 @@
-# Image Challenge
+# Links Challenge
 
-## Prompt
-
-We need to figure out how to add an image to the page.
+## Next
 
 ```html
 <!-- PORTFOLIO -->
 
   <!-- IMAGE SECTION -->
-    - http://i.imgur.com/vS0HhER.jpg <!-- NEXT -->
+    - http://i.imgur.com/vS0HhER.jpg
   
   <!-- INFORMATION SECTION -->
     <h1>Jonathan Leung</h1>
@@ -20,6 +18,7 @@ We need to figure out how to add an image to the page.
     - link to Facebook (https://twitter.com/jonathanjleung)
     - link to Twitter (https://twitter.com/jonathanjleung)
     - link to Github (https://github.com/jonleung)
+    <!-- ^ NEXT -->
 ```
 
 ## The Image Challenge
@@ -34,9 +33,7 @@ Time        __
 <__.|_|-|_|
 
 
-Now it's your turn to use Google to figure out how to add an image to the page! 
-
-Feel free to add an image of yourself or any other person or thing.
+Now it's your turn to use Google to figure out how to add links to the bottom of the page! 
 
 For this challenge, I don't think I need to give you a hint for what
 to google for, I think you can figure it out!
@@ -45,4 +42,4 @@ to google for, I think you can figure it out!
 
 ## Next
 
-[Image Challenge Solution](image_solution.md)
+[Solution to the links challenge](links_solution.md)

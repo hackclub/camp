@@ -1,4 +1,4 @@
-# Setting Up Your Tools
+# Setting up your workspace
 
 Just like you may write your English essays in Microsoft Word or Google Docs we will be writing code in Cloud9.
 
