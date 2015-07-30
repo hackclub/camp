@@ -155,6 +155,7 @@ important to be supportive when someone fails publicly.
    - When they share it, they must shout it out in an overly dramatic way
 3. Start by having the club leaders saying something they failed at, then go
    through the circle
+   - Applaud and cheer when someone shares their failure
 
 Here are good example failures that haven't been resolved:
 
