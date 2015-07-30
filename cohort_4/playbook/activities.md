@@ -16,6 +16,7 @@
         - [Engagement](#engagement)
         - [Facilitating](#facilitating)
         - [Answering questions](#answering-questions)
+    - ["I have failed" activity](#i-have-failed-activity)
     - [Feedback Forms](#feedback-forms)
 
 <!-- markdown-toc end -->
@@ -141,6 +142,27 @@ If they have not yet, refer to [Brainstorming](#brainstorming).
     own problems. Aim for spending the least time with a hacker as possible.
     - If another hacker can help out, let that happen. Optimize for the least
       club leader time per student possible.
+
+## "I have failed" activity
+
+Demos will involve failing infront of the whole club. This activity is a good
+preface to get the hackers into a positive mindset about public failure. It is
+important to be supportive when someone fails publicly.
+
+1. Have everyone circle up
+2. Explain that everyone will be sharing something they failed at
+   - These should be things that they have not resolved yet
+   - When they share it, they must shout it out in an overly dramatic way
+3. Start by having the club leaders saying something they failed at, then go
+   through the circle
+
+Here are good example failures that haven't been resolved:
+
+  > I showed up late today!
+
+  > I didn't have enough time to make my site the way I wanted to!
+
+  > I didn't ask for help when I needed it!
 
 ## Feedback Forms
 
