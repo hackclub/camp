@@ -9,6 +9,7 @@
         - [[Portfolio](workshops/portfolio)](#portfolioworkshopsportfolio)
             - [Prerequisites](#prerequisites)
             - [Running it](#running-it)
+    - [Freeform Projects](#freeform-projects)
     - [Feedback Forms](#feedback-forms)
 
 <!-- markdown-toc end -->
@@ -57,6 +58,20 @@ first floor with the elevators.
 #### Running it
 
 TODO
+
+## Freeform Projects
+
+This assumes the hackers are already in groups and have decided what to work on.
+If they have not yet, refer to [Brainstorming](#brainstorming).
+
+- Sometimes hackers will need to be prompted to ask a question. You can prompt
+  them by asking things like:
+
+  > How is it going?
+  > What can I do to be helpful?
+
+- If a hacker does need help, make sure you have an understanding of the problem
+  before answering.
 
 ## Feedback Forms
 
