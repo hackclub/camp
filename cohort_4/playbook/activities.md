@@ -100,6 +100,9 @@ If they have not yet, refer to [Brainstorming](#brainstorming).
   - It is in their better interest to not focus on minor details because they
     have to finish before demos. They can continue working on details later. A
     working project is always better than a nice looking broken project.
+- Explain minimum viable product to the hackers.
+  - Compare MVP to building a rocket-powered flying scooter. Before building the
+    rockets or polishing the wings, you must build the scooter.
 
 ### Engagement
 
