@@ -9,6 +9,9 @@
         - [[Portfolio](workshops/portfolio)](#portfolioworkshopsportfolio)
             - [Prerequisites](#prerequisites)
             - [Running it](#running-it)
+    - [Demos](#demos)
+        - [Presenting your demo](#presenting-your-demo)
+        - [Giving feedback](#giving-feedback)
     - [Feedback Forms](#feedback-forms)
 
 <!-- markdown-toc end -->
@@ -57,6 +60,31 @@ first floor with the elevators.
 #### Running it
 
 TODO
+
+## Demos
+
+### Presenting your demo
+
+Demos are the hackers' chance to show off what they have been putting so much
+time and effort into for the past day.
+
+- Whenever someone wants to present they can volunteer to (no set presentation
+  order)
+- Each team should start off with something they failed at
+  - Make sure to give context by explaining the basic overview of the app and
+    why this is a failure
+- After presenting something they failed at, they can show off what they made
+
+### Giving feedback
+
+To keep demos running smoothly, feedback is going to be written on sticky notes
+instead of shouted out after the demo.
+
+- Pass out sticky notes and pencils/pens to the hackers.
+- Have the hackers write the number of the team on the sticky note above their
+  feedback (the first team to present is team 1).
+- Collect the feedback after demos are over and sort it into groups. Then give
+  the feedback to the group it is for.
 
 ## Feedback Forms
 
