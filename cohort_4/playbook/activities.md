@@ -70,8 +70,13 @@ If they have not yet, refer to [Brainstorming](#brainstorming).
   > How is it going?
   > What can I do to be helpful?
 
-- If a hacker does need help, make sure you have an understanding of the problem
-  before answering.
+- If a hacker does need help, make sure you have a clear understanding of the
+  problem before answering.
+- Sometimes hackers will become too focused on a particular part of their project.
+  - Make sure to remind them of their project's scope.
+  - It is in their better interest to not focus on minor details because they
+    have to finish before demos. They can continue working on details later. A
+    working project is always better than a nice looking broken project.
 
 ## Feedback Forms
 
