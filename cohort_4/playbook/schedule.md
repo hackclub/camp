@@ -22,7 +22,7 @@
 | 1:30 PM  | Energizer                                      |
 | 2:00 PM  | Creating groups                                |
 | 2:05 PM  | Brainstorming projects                         |
-| 2:10 PM  | Project time                                   |
+| 2:15 PM  | Project time                                   |
 | 3:55 PM  | I have failed circle                           |
 | 4:00 PM  | Demos                                          |
 | 4:25 PM  | [Feedback form](activities.md#feedback-forms)  |

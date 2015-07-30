@@ -166,14 +166,13 @@ If they have not yet, refer to [Brainstorming](#brainstorming).
   - ex: https://youtu.be/Qe2a3ppacUk
   - ex: between person A and person B:
 
-    ```
     > A: Let's create tinder for unicorns
-    > B: And it will be super effective, and the unicorn population will increase 1,000 times
+    > B: And it will be super effective, and the unicorn population will
+    > increase 1,000 times.
     > A: Yes, and there won't be enough food for the unicorns
     > B: So they'll build a spaceship to search for new planets to colonize!
-    ```
 
-- Have the hackers jump into a "Yes-and session" for 2 minutes then let
+- Have the hackers jump into a "Yes-and session" for 4 minutes then let
   volunteer to present the stories that unfolded.
 
 ### Running a brainstorm session
