@@ -57,9 +57,8 @@ Hint!
 You can go back to the previous challenge page to look at how to formulate a
 good Google query. 
 
-If you try searching Google on your own for more than 4 minutes, just go to
-the next section which will explain how you can use Google to find your answer.
-
+Spend 3 minutes trying use Google and find your answer. If you havn't found
+what you wanted after 3 minutes and we'll explain how you might google this
 ```
 
 ## Next

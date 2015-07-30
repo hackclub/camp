@@ -1,4 +1,3 @@
-
 - Time to make our website prettier
   - While HTML lets us put all sorts of interesting content on our page, it
     has very poor taste in fashion - as we've seen. Second spoiler alert:

@@ -1,14 +1,14 @@
-# Adding the name
+# Formatting Your Name
 
-Let's figure out how to add `Jonathan Leung` in the `INFORMATION SECTION`
+Let's figure out how to format your name so that it looks like this:
 
 ![](img/name.png)
 
-## Consulting the Outline
+## Looking at the Outline
 
-Where should we add this?
+Let's take a look to see where we are and what we want to do next.
 
-Let's consult the outline:
+This is what you should have right now:
 
 ```html
 <!-- PORTFOLIO -->
@@ -36,7 +36,6 @@ Pro-tip!
 I will add the text `<!-- {{ NEXT }} -->` wheverer I work on next in the code.
 
 See if you can spot it in the above box.
-
 ```
 
 ## Asking for Help
@@ -59,7 +58,9 @@ Great, I have no idea what a header is, but I know I can Google it.
 
 ## Googling
 
-Here are a listing of Google queries sorted from the top down from worst to best.
+Here are some possible search queries starting with the worst and ending with the best.
+
+Read each of the google queries and their associated problems until you get to the best one at the bottom (so that you can optimize your searches too).
 
 - `how do you add a header`
     - Problem: you did not indicate that you wanted to add a header in `html`
@@ -72,7 +73,7 @@ Here are a listing of Google queries sorted from the top down from worst to best
 
 ## Google Results
 
-<img src="img/heading_google.png" style="border: 1px solid #DDD">
+![](img/heading_google.png)
 
 [The first result](http://www.w3schools.com/html/html_headings.asp) looks like it talks about headings. Let's open that one.
 
@@ -88,7 +89,7 @@ that it's probably is a good place to get started but its facts are not
 necessarily reliable.
 ```
 
-<img src="img/heading_google_1.png" style="border: 1px solid #DDD">
+![](img/heading_google_1.png)
 
 Almost always, the first thing I'd try to do is see a working example.
 
@@ -100,42 +101,51 @@ So when I saw this:
 
 ![](img/headings_google_1b.png)
 
-This large text on the right seems to be what I want.
+This seems like a good search result because it seems like what we're looking for. Right now you should be thinking to yourself "heading 1 looks like the same size and format as what I wanted..."
 
-So it seems like whatever I want in this large heading, I put between an <hX></hX> where X is a number.
-
-So it seems like I'd do something like:
+Let's give the following a try!
 
 ```html
 <h1>Jonathan Leung</h1>
 ```
 
-## Noting the Warning
-
-I also notice the warning
-
-![](img/headings_google_1c.png)
-
-## Ensuring I understand what a heading is
-
-Because of this warning, I google `html heading` again and click on the first non-w3school result there is.
+## Adding the h1 tag to our `index.html` file
 
 ```
-Pro-tip!
+Note: I will add the text
 
-{o,o}
-./)_)
-  " "
-developer.mozilla.org or Mozilla Developer Network or MDN is a very reputable source but less beginner friendly than w3 schools.
+    <!-- CHANGE -->
+
+on only line that I plan to work on next
 ```
 
-To save time, I won't go through this entire googling process here but in short, I find this
+```html
+<!-- PORTFOLIO -->
 
-![](img/headings_google_1d.png)
+  <!-- IMAGE SECTION -->
+    - http://i.imgur.com/vS0HhER.jpg 
+  
+  <!-- INFORMATION SECTION -->
+    <h1>Jonathan Leung</h1>            <!-- CHANGE -->
+    - I want show people that the world is malleable. I want them to know they can create what's missing and not be afraid to break the status quo.
 
-And I realize that a heading is like the heading of a section of a page and that there are headings and sub headings.
+  <!-- SOCIAL MEDIA SECTION -->
+    - link to Facebook (https://twitter.com/jonathanjleung)
+    - link to Twitter (https://twitter.com/jonathanjleung)
+    - link to Github (https://github.com/jonleung)
+```
+
+## Click "Preview Running Application" again
+
+![](img/h1.png)
+
+The large text looks right.
+
+YAY!
 
 ## Some Vocabulary
+
+(so that you know how to talk and think about what we just did)
 
 ```html
 <h1>Jonathan Leung</h1>
@@ -158,37 +168,6 @@ And I realize that a heading is like the heading of a section of a page and that
 <h1>Jonathan Leung</h1>
 ^^^^^^^^^^^^^^^^^^^^^^^ this entire thing is called an element
 ```
-
-## Adding the h1 tag to our `index.html` file
-
-```
-Note: I will add the text
-
-    <!-- CHANGE -->
-
-on only line that I plan to work on next
-
-```
-
-```html
-<!-- PORTFOLIO -->
-
-  <!-- IMAGE SECTION -->
-    - http://i.imgur.com/vS0HhER.jpg 
-  
-  <!-- INFORMATION SECTION -->
-    <h1>Jonathan Leung</h1>            <!-- CHANGE -->
-    - I want show people that the world is malleable. I want them to know they can create what's missing and not be afraid to break the status quo.
-
-  <!-- SOCIAL MEDIA SECTION -->
-    - link to Facebook (https://twitter.com/jonathanjleung)
-    - link to Twitter (https://twitter.com/jonathanjleung)
-    - link to Github (https://github.com/jonleung)
-```
-
-![](img/h1.png)
-
-The large text looks right.
 
 ## Next
 

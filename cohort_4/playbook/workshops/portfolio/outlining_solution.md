@@ -2,13 +2,11 @@
 
 Note that there are many ways to outline this. This is just one potential solution.
 
-## Solution
+## One Potential Solution
 
 ![](img/portfolio_subsections.png)
 
 ```
-index.html
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -29,42 +27,52 @@ index.html
 </html>
 ```
 
-![](img/portfolio_subsctions_screenshot.png)
+![](img/outline.png)
+
+## Update Your Description
+
+Although the way you did it could have been completely "right", just for the sake of this tutorial, please update yours to match the above.
 
 ## Filling In the names
 
-We can start to replace 
-- `name` with `Jonathan Leung` and
-- `description` with `I want to show...`
+We can start to replace the outline with our own custom information. For example:
+- `"name"` with `"Jonathan Leung"` and
+- `"description"` with `"I want to show..."`
+
+- TODO: http://g.recordit.co/pfjFBNXHlS.gif
 
 ```html
-<!-- Note, all subsequent code is written without any tags
-except those that are used in the body -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zaphod's Portfolio</title>
+  </head>
+  <body>
+    - portfolio
+      - image section
+        - http://i.imgur.com/vS0HhER.jpg
+      - informational section
+        - Jonathan Leung
+        - I want show people that the world is malleable. I want them to know they can create what's missing and not be afraid to break the status quo.
+      - social media section
+        - link to Facebook (https://twitter.com/jonathanjleung)
+        - link to Twitter (https://twitter.com/jonathanjleung)
+        - link to Github (https://github.com/jonleung)
+  </body>
+</html>
 
-- portfolio
-  - image section
-    - http://i.imgur.com/vS0HhER.jpg
-  - informational section
-    - Jonathan Leung
-    - I want show people that the world is malleable. I want them to know they can create what's missing and not be afraid to break the status quo.
-  - social media section
-    - link to Facebook (https://twitter.com/jonathanjleung)
-    - link to Twitter (https://twitter.com/jonathanjleung)
-    - link to Github (https://github.com/jonleung)
 ```
 
 ## Placeholding
 
 We are using the above outline as a placeholders for our code that will soon be written. Throughout this tutorial, we will be replacing each bullet point with real HTML code. Having a scaffold reminds us of the entire structure of the code and helps us figure out where we want to go next.
 
-## Viewing the Result
+## Previewing our work
 
-![](img/preview_live.gif)
+Just like before,
 
-- Open the `Preview` menu
-- then click on `Preview Running Application`
-- Click the white arrow to pop the preview in a new tab
-- Move the newly created tab to a new window
+- click `Preview`
+- then click `Preview Running Application`
 
 ## The Result
 ![](img/preview_outline.png)
@@ -79,9 +87,16 @@ For example, `image section` and `informational section` for instance should not
 
 ![](img/preview_outline_crossed.png)
 
-To tell the computer to ignore something, we can put the text inside of these things:
+## Leaving Comments
 
-`<!-- all text inside of these things will be ignored by the computer-->`
+When any text is surrounded by the charachters, i.e. `<!-- text -->` the text will only be visible in the code and not on the site.
+
+This is called a comment.
+
+It is useful:
+
+- to leave notes to yourself or your teammates
+- or to keep the names of your scaffolding
 
 ## Our New Outline
 
@@ -103,7 +118,7 @@ To tell the computer to ignore something, we can put the text inside of these th
     - link to Github (https://github.com/jonleung)
 ```
 
-
+## Preview
 
 ![](img/preview_outline_with_comments.png)
 

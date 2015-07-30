@@ -21,7 +21,22 @@ folder.
 
 ![](img/c9_create_index_file.gif)
 
-## The scaffold of every html page:
+## Pro-Tip for the remainder of this tutorial
+
+```md
+Pro-tip!
+
+{o,o}
+./)_)
+  " "
+
+WHEN TRYING TO LEARN SOMETHING NEW, DON'T COPY AND PASTE CODE OR ELSE
+YOU WON'T REMEMBER IT AS WELL : )
+
+Also, make sure you keep the same indentation that we do.
+```
+
+## Laying down the scaffold of every html page:
 
 Type the following code into the open file.
 
@@ -39,23 +54,11 @@ Replace Zaphod's name with your own name.
 </html>
 ```
 
-```md
-Pro-tip!
-
-{o,o}
-./)_)
-  " "
-
-When trying to learn something new, don't copy and paste code or else
-you won't remember it as well
-
-Also, make sure you keep the same indentation that we do.
-```
-
-
-  ![](img/c9_portfolio_template.gif)
+![](img/c9_portfolio_template.gif)
 
 ## Previewing our work
+
+Great! Now let's see what our code looks like in the browser.
 
 ![](img/c9_preview_template_website.gif)
 

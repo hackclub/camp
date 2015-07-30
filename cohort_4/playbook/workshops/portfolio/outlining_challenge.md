@@ -1,6 +1,6 @@
 # Challenge: Outlining your code
 
-```html
+```
 Challenge!  
 Time        __
            / _)   
@@ -10,7 +10,9 @@ Time        __
 
 Can you create a bullet point outline of the portfolio project?
 
-First, delete the <h1>Zaphod Beeblebrox</h1>
+First, delete the entire line:
+
+  <h1>Zaphod Beeblebrox</h1>
 
 Create your outline directly inside of the body tag in the 
 `index.html` file like this:
@@ -21,7 +23,17 @@ Create your outline directly inside of the body tag in the
         <title>Zaphod's Portfolio</title>
       </head>
       <body>
+      
         <!-- YOUR OUTLINE HERE -->
+        - executive
+          - president
+          - vice president
+        - legislative
+          - congress
+          - senate
+        - judicial
+          - supreme court
+
       </body>
     </html>
 
@@ -39,7 +51,7 @@ Here is what the final portfolio looks like. [Here is a link to the live website
 
 ## Next
 
-[A Solution to the Outline Challenge](outline_solution.md)
+[A Solution to the Outline Challenge](outlining_solution.md)
 
 
 

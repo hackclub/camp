@@ -7,13 +7,15 @@
 
 ## Primary objective: Learning to Google
 
-Instead of telling you all the answers in our tutorials, we want to show you how you can disover many of the answer for yourself using Google. We do this so that after hack camp, you will still be able to figure out how to do things that you don't know how to do without your peers and facillitators around.
+Rather than tell you all the answes in our tutorial, we want to prepare you to be indepentent coders when you leave hack camp—capable of answering your own questions with Google searches but also knowing when to ask for help.
 
-Know that using  Google this will probably be at least a bit more frustrating than if we always just told you the answer, but will pay off in the longer term.
+While you are here, we still encourage you to reach out to your peers and facillitators, but googling is what you will turn to first and is a skill you will continue using forever.
 
-Good thing Googling will be part of your rest of your programming career. Don't just take it from me:
+Checkout what percentage of their time experienced programmers spend googling:
 
 ![](img/googling.png)
+
+When you first start, you'll spend even more time with google than experienced programmers. Don't worry about this, you'll get faster with experience.
 
 ## Next
 

@@ -1,9 +1,5 @@
 # Outlining your code
 
----
-TODO: Add some context
----
-
 ## Reviewing Our Objective
 
 Our objective is to make this:

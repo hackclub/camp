@@ -1,90 +1,92 @@
 # Creating Your Personal Website!
 
 By the end of this tutorial, you will be building a profile webpage that looks something like this. Here is a 
-[live demo](https://rawgit.com/hackedu/hack-camp/cohort_4-portfolio/cohort_4/playbook/workshops/portfolio/src/final_portfolio/index.html).
-
+[live demo](https://rawgit.com/hackedu/hack1.camp/cohort_41.portfolio/cohort_4/playbook/workshops/portfolio/src/final_portfolio/index.html).
 
 ![](img/final_screenshot.png)
 
-
 ## Objectives
 
-1. For you to learn the basics of HTML & CSS
-2. To learn the basics of how to use Google to find your answer
+1. Learn the basics of HTML & CSS TODO- not clear what HTML & CSS are
+2. Learn how to use Google to answers to your own questions
 
 ## Sections
 
-The ♜ denotes that the given section is a challenge: 
-The ♖ denotes the challenge solution
+Do these chronologically:
 
 ##### Setting up the workspace
-- [Setting up your workspace](c9_setup.md)
+1. [Setting up your workspace](c9_setup.md)
 
 ##### Creating the base of the project
 
-- [Creating your project files](file_creation.md)
-- [Outlining your code](outlining.md)
-    - [Challenge](outline_challenge.md)
-    - [Solution](outline_solution.md)
-- [Scoping](scoping.md)
+1. [Creating your project files](file_creation.md)
+1. [Outlining your code](outlining.md)
+    1. [Challenge](outlining_challenge.md)
+    1. [Solution](outlining_solution.md)
 
 ##### Creating the base of your HTML
 
-- Add this 
-    <!DOCTYPE html>
-    <html>
-    <body>
-        
-    </body>
-    </html>
-    - [Adding the name](adding_name_challenge)
-- Adding the description
-    - [Challenge](description_challenge.md)
-    - [Solution](description_solution.md)
-- Adding the image
-    - [Challenge](image_challenge.md)
-    - [Solution](image_solution.md)
-- Adding links
-    - [Challenge](links_challenge.md)
-    - [Solution](links_solution.md)
-- Adding logos
-    - [Challenge](logos_challenge.md)
-    - [Solution](logos_solution.md)
+1. [Adding the name](adding_name.md)
+1. Adding the description
+    1. [Challenge](description_challenge.md)
+    1. [Solution](description_solution.md)
+1. Adding the image
+    1. [Challenge](image_challenge.md)
+    1. [Solution](image_solution.md)
+1. Adding links
+    1. [Challenge](links_challenge.md)
+    1. [Solution](links_solution.md)
+1. Adding logos
+    1. [Challenge](logos_challenge.md)
+    1. [Solution](logos_solution.md)
 
 ##### Putting your code on the internet
-- [Putting your code on the internet](github.md)
+1. [Putting your code on the internet](github.md)
 
 ##### Styling your website
-- adding things to the head
-    - title tag
-- [Styling your website](add_css.md)
-    - add head > link
-    - this is the first time that we have something we don't want to display on the page, that's why we added to head not body
-- adding & styling body
-    - make all the text the same color
-    - center everything
-- non spacing related things
-    - I do profile picture size
-        - you change social media icon size
-    - I change name
-        - font-size
-        - font-family
-        - font-weight
-        - you change description
-            - font-size
-            - font-family
-            - font-weight
-    - I change google web font
-        - you change google web font
-- then do spacing related things
-    - use the chrome inspector for all of the below
-    - I show constraining width somewhere else
-        - you show constraining width with container
-            - two elements
-    - I show centering a container
-        - you show centering container
-    - creating divs for each section
-        - draw diagram
-    - I show you margin-top, left, right
+
+1. Adding a title
+    1. [Challenge](title_challenge.md)
+    1. [Solution](title_solution.md)
+1. [Adding styles to your website](add_css.md)
+1. Setting font color
+1. Centering everything
+1. Changing the size of the images
+1. Changing the fonts
+1. Using Google Web Fonts
+1. Creating the sections and adding spacing
+
+
+1. adding things to the head
+    1. title tag
+
+    1. add head > link
+    1. this is the first time that we have something we don't want to display on the page, that's why we added to head not body
+1. adding & styling body
+    1. make all the text the same color
+    1. center everything
+1. non spacing related things
+    1. I do profile picture size
+        1. you change social media icon size
+    1. I change name
+        1. font1.size
+        1. font1.family
+        1. font1.weight
+        1. you change description
+            1. font1.size
+            1. font1.family
+            1. font1.weight
+    1. I change google web font
+        1. you change google web font
+1. then do spacing related things
+    1. use the chrome inspector for all of the below
+    1. I show constraining width somewhere else
+        1. you show constraining width with container
+            1. two elements
+    1. I show centering a container
+        1. you show centering container
+    1. creating divs for each section
+        1. draw diagram
+    1. I show you margin1.top, left, right
 
 
