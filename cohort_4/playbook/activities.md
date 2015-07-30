@@ -12,6 +12,10 @@
     - [Demos](#demos)
         - [Giving feedback](#giving-feedback)
     - [Freeform Projects](#freeform-projects)
+        - [Scoping and concept](#scoping-and-concept)
+        - [Engagement](#engagement)
+        - [Facilitating](#facilitating)
+        - [Answering questions](#answering-questions)
     - [Feedback Forms](#feedback-forms)
 
 <!-- markdown-toc end -->
@@ -89,6 +93,27 @@ shouted out after the demo.
 This assumes the hackers are already in groups and have decided what to work on.
 If they have not yet, refer to [Brainstorming](#brainstorming).
 
+### Scoping and concept
+
+- Sometimes hackers will become too focused on a particular part of their project.
+  - Make sure to remind them of their project's scope.
+  - It is in their better interest to not focus on minor details because they
+    have to finish before demos. They can continue working on details later. A
+    working project is always better than a nice looking broken project.
+
+### Engagement
+
+- The activity is only beneficial to hackers that are engaged.
+  - Make sure both partners are equally engaged. If they aren't, try to diagnose
+    the problem.
+
+### Facilitating
+
+- Rotate between hackers often. Don't hover over one hacker unless they have a
+  specific question that you are helping them with.
+
+### Answering questions
+
 - Sometimes hackers will need to be prompted to ask a question. You can prompt
   them by asking things like:
 
@@ -97,11 +122,22 @@ If they have not yet, refer to [Brainstorming](#brainstorming).
 
 - If a hacker does need help, make sure you have a clear understanding of the
   problem before answering.
-- Sometimes hackers will become too focused on a particular part of their project.
-  - Make sure to remind them of their project's scope.
-  - It is in their better interest to not focus on minor details because they
-    have to finish before demos. They can continue working on details later. A
-    working project is always better than a nice looking broken project.
+  - Let the hackers lead the conversation so they can build up their experience
+    with working on projects. Ask questions like:
+
+    > So what do you want to do now?
+    > Could you phrase that more specifically?
+
+- Don't correct things that they discovered on their own immediately otherwise
+  they will think that everything that they discover is wrong.
+  - It's okay to have sub-optimal code when learning.
+- Things that are interesting to a club leader might not be interesting to
+  hackers. Be careful to not lecture about anything that is not directly
+  relevant to the hackers.
+  - A club leader's role during project time is to help the hackers solve their
+    own problems. Aim for spending the least time with a hacker as possible.
+    - If another hacker can help out, let that happen. Optimize for the least
+      club leader time per student possible.
 
 ## Feedback Forms
 
