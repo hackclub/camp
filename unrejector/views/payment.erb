@@ -16,7 +16,7 @@
         The curriculum is not hard, but can be fast-paced at times. To prevent
         anyone from falling behind, anyone with 2 unexcused absenses will be
         dropped from the program. The deadline to pay your tuition is at 8PM on
-        Wednesday, July 22nd.
+        <%= @deadline || 'Wednesday, July 22nd' %>.
       </p>
       <p>
         We look forward to seeing you on Monday (08/03) at Galvanize SF! If you
@@ -85,7 +85,7 @@
             <label for="checkbox5">
               <input id="checkbox5" type="checkbox" required>
               I understand the deadline to pay my tuition for the program is 8PM
-              on Wednesday, July 22nd.
+              on <%= @deadline || 'Wednesday, July 22nd' %>.
             </label>
           </fieldset>
           <div class="columns">
