@@ -63,13 +63,10 @@ TODO
 
 ## Demos
 
-### Presenting your demo
-
 Demos are the hackers' chance to show off what they have been putting so much
 time and effort into for the past day.
 
-- Whenever someone wants to present they can volunteer to (no set presentation
-  order)
+- Presentation order depends on who volunteers.
 - Each team should start off with something they failed at
   - Make sure to give context by explaining the basic overview of the app and
     why this is a failure
@@ -77,12 +74,13 @@ time and effort into for the past day.
 
 ### Giving feedback
 
-To keep demos running smoothly, feedback is going to be written on sticky notes
-instead of shouted out after the demo.
+Feedback helps hackers improve their presentation and demo skills. To keep demos
+running smoothly, feedback is going to be written on sticky notes instead of
+shouted out after the demo.
 
 - Pass out sticky notes and pencils/pens to the hackers.
 - Have the hackers write the number of the team on the sticky note above their
-  feedback (the first team to present is team 1).
+  feedback (the first team to present is team #1, the second #2, and so on).
 - Collect the feedback after demos are over and sort it into groups. Then give
   the feedback to the group it is for.
 
