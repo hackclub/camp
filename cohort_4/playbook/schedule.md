@@ -18,7 +18,7 @@
 | 10:00 AM | Breakfast                                      |
 | 10:30 AM | Introduction talk                              |
 | 10:40 AM | [Portfolio workshop](activities.md#portfolio)  |
-| 12:30 PM | Lunch                                          |
+| 12:30 PM | [Lunch](activities.md#lunch)                   |
 | 1:30 PM  | Energizer                                      |
 | 2:00 PM  | Creating groups                                |
 | 2:05 PM  | Brainstorming projects                         |
