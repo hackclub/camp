@@ -71,6 +71,7 @@ class StaticPageServer < Sinatra::Base
     @secret = params[:secret]
     @paid = redis.get(@secret) == 'paid'
     @financial_aid = redis.get("#{@secret}_financial_aid") == "1"
+    @deadline = redis.get("#{@secret}_deadline")
     @stripe_publishable_key = settings.stripe_publishable_key
     adjusted_cost = redis.get("#{@secret}_cost")
     @cost = adjusted_cost ? adjusted_cost.to_i : 59500
