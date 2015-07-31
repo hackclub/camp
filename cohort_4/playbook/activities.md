@@ -4,6 +4,7 @@
 - [Activities](#activities)
     - [Hacker arrival](#hacker-arrival)
     - [Meals](#meals)
+        - [Breakfast](#breakfast)
         - [Lunch](#lunch)
     - [Workshops](#workshops)
         - [[Portfolio](workshops/portfolio)](#portfolioworkshopsportfolio)
@@ -52,6 +53,31 @@ It may be a good idea to play some music in the hackerspace while people are
 arriving.
 
 ## Meals
+
+### Breakfast
+
+Plan to eat breakfast as a large group every morning on the roof of the
+building.
+
+How to get it going:
+
+1. Assign a leader to set up breakfast while hackers are still arriving.
+2. To set up breakfast, the leader will need to:
+  1. Bring the food we have for breakfast from the third floor to the roof of
+     the building. Our food is in the cabinets below the stove in the kitchen
+     past the open working space on the third floor (not the kitchen right next
+     to the stairs).
+  2. Move tables together on the roof and bring chairs together.
+3. Once the leader has set up breakfast, and when it's time to do breakfast,
+   have everyone take the stairs to the roof.
+
+The hackers may be pretty quiet during breakfast, especially on the first day,
+we recommend taking this opportunity as a time to engage with them on a more
+personal level and start building community within the cohort. The way we've
+done this in the past is physically dispersing ourselves between the hackers
+during breakfast and initiating conversations with the one or two people sitting
+next to us through asking lots of open ended questions. We haven't had much
+success when trying to engage the entire group in a single large conversation.
 
 ### Lunch
 
