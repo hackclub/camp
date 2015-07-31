@@ -17,6 +17,8 @@
         - [Facilitating](#facilitating)
         - [Answering questions](#answering-questions)
     - [Feedback Forms](#feedback-forms)
+    - [Using Slack](#using-slack)
+        - [Asking for help](#asking-for-help)
 
 <!-- markdown-toc end -->
 
@@ -153,3 +155,22 @@ https://docs.google.com/spreadsheets/d/1D8y_UB11C4QrXB9kn86-UqVQQqT9FUDqftx1AMHI
 |   2 | https://docs.google.com/a/zachlatta.com/forms/d/1_9K3b4Nwgn3-mFqMrrUObwiMHt_53y9LVNyCQAULn7I |
 |   3 | https://docs.google.com/a/zachlatta.com/forms/d/1kgCrsPuTFJ-404JdpFo3acomXmwvTIOJHXzOp_NoUeI |
 |   4 | https://docs.google.com/a/zachlatta.com/forms/d/1ASfJdmXGUVRdGJR6rmzedDQ2EDEL7Hc11JD0xjBJMp8 |
+
+## Using Slack
+
+We've gone ahead and created a Slack for Hack Camp over at
+https://hack-camp.slack.com to use as a place for communicating with hackers
+during the camp.
+
+All of the leaders of Hack Camp should have administrative access to the Slack.
+If you're a leader and you find that you aren't an administrator, shoot
+[@zachlatta](https://github.com/zachlatta) a message and he'll make sure that
+changes.
+
+### Asking for help
+
+If a hacker says `slackbot help` in anywhere besides a PM in the Slack, all of
+the technical mentors for Hack Camp will be pinged. If you'd like to be
+added/removed from the list, let [@zachlatta](https://github.com/zachlatta) know
+and he'll get right on it (say `slackbot help` somewhere in the chat to see
+who's on the list).
