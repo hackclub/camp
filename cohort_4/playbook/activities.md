@@ -55,10 +55,13 @@ arriving.
 On the first day, eat lunch as a large group. On all of the other days, give the
 hackers freedom for the entire lunch period.
 
-When eating lunch as a large group, have a designated lunch area and take the
-stairs there. If you try and take the elevator, there's a good chance things
-will get chaotic, especially with other Galvanize members trying to get to the
-first floor with the elevators.
+When eating lunch as a large group, eat on the _roof_. When doing this, _assign
+one leader_ to go to the roof _15-20 minutes early_ and move tables and chairs
+together to accommodate everyone. When the time comes to eat lunch, have the
+whole group take the stairs to the roof. We've found that trying to take the
+elevators with large groups can get pretty chaotic, especially when going to the
+roof during lunch time (many Galvanize members all trying to get to the lobby
+then).
 
 ## Workshops
 
