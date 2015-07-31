@@ -24,6 +24,7 @@
         - [After a brainstorm](#after-a-brainstorm)
     - ["I have failed" activity](#i-have-failed-activity)
     - [Feedback Forms](#feedback-forms)
+    - [Finishing off the day](#finishing-off-the-day)
     - [Using Slack](#using-slack)
         - [Asking for help](#asking-for-help)
 
@@ -263,6 +264,18 @@ https://docs.google.com/spreadsheets/d/1D8y_UB11C4QrXB9kn86-UqVQQqT9FUDqftx1AMHI
 |   2 | https://docs.google.com/a/zachlatta.com/forms/d/1_9K3b4Nwgn3-mFqMrrUObwiMHt_53y9LVNyCQAULn7I |
 |   3 | https://docs.google.com/a/zachlatta.com/forms/d/1kgCrsPuTFJ-404JdpFo3acomXmwvTIOJHXzOp_NoUeI |
 |   4 | https://docs.google.com/a/zachlatta.com/forms/d/1ASfJdmXGUVRdGJR6rmzedDQ2EDEL7Hc11JD0xjBJMp8 |
+
+## Finishing off the day
+
+Congratulations! We made it!
+
+We generally do two final things to finish off the day.
+
+1. Make any final announcements for the following day
+2. Gather everyone in a nice and cozy circle near the front of the hackerspace,
+   put our hands in, and, on three, all yell "Hack!"
+
+![](img/hack_cheer.gif)
 
 ## Using Slack
 
