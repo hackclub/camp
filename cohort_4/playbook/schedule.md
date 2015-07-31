@@ -26,6 +26,6 @@
 | 3:55 PM  | [I have failed circle](activities.md#i-have-failed-activity) |
 | 4:00 PM  | Demos                                                        |
 | 4:25 PM  | [Feedback form](activities.md#feedback-forms)                |
-| 4:30 PM  | Hack cheer                                                   |
+| 4:30 PM  | [Hack cheer](activities.md#finishing-off-the-day)            |
 
 Day layout copied from [here](../prep/meetings/15-07-27_sprint_discuss.md).
