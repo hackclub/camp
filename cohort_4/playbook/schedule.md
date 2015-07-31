@@ -15,7 +15,7 @@
 | 9:20 AM  | [Hacker arrival](activities.md#hacker-arrival)               |
 | 9:30 AM  | Galvanize tour                                               |
 | 9:40 AM  | Energizer                                                    |
-| 10:00 AM | Breakfast                                                    |
+| 10:00 AM | [Breakfast](activities.md#breakfast)                         |
 | 10:30 AM | Introduction talk                                            |
 | 10:40 AM | [Portfolio workshop](activities.md#portfolio)                |
 | 12:30 PM | [Lunch](activities.md#lunch)                                 |
