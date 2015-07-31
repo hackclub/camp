@@ -10,6 +10,7 @@
             - [Prerequisites](#prerequisites)
             - [Running it](#running-it)
     - [Demos](#demos)
+        - [First-time demos](#first-time-demos)
         - [Giving feedback](#giving-feedback)
     - [Freeform Projects](#freeform-projects)
         - [Scoping and concept](#scoping-and-concept)
@@ -75,6 +76,24 @@ time and effort into for the past day.
   - Make sure to give context by explaining the basic overview of the app and
     why this is a failure
 - After presenting something they failed at, they can show off what they made
+
+### First-time demos
+
+When explaining how to demo to hackers, first point out many things that can be
+done incorrectly when demoing. Club organizers can do this by presenting fake
+demos with something wrong that the hackers must point out.
+
+Common practices to avoid when demoing:
+
+1. Talk with no reference to your visual open (just the code).
+2. Talk with your demo open but you don't reference anything onscreen.
+3. Referencing things without pointing to them with your mouse.
+4. Referencing things without using it or modifying it.
+5. Talk about how useful a piece of code is without pointing to it.
+6. Referencing your code without any code open.
+7. Referencing a specific line of code without pointing to it.
+8. Use the mouse pointer to point to what you say you changed but don't change
+   anything.
 
 ### Giving feedback
 
