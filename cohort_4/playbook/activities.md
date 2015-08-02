@@ -254,11 +254,13 @@ If they have not yet, refer to [Brainstorming](#brainstorming).
 ## "I have failed" activity
 
 This activity will:
-  - Enable people to acknowledge their failures because they know that the
-    response they will be met with support, not judgment
-  - It gives everyone else an appropriate response when someone fails so they
-    know what to do
-Demos will involve failing infront of the whole club. This activity is a good
+
+- Enable people to acknowledge their failures because they know that the
+  response they will be met with support, not judgment
+- It gives everyone else an appropriate response when someone fails so they
+  know what to do.
+
+Demos will involve failing in front of the whole club. This activity is a good
 preface to get the hackers into a positive mindset about public failure. It is
 important to be supportive when someone fails publicly.
 
@@ -274,9 +276,9 @@ important to be supportive when someone fails publicly.
 Here are good example failures that haven't been resolved:
 
   > I showed up late today!
-
+  >
   > I didn't have enough time to make my site the way I wanted to!
-
+  >
   > I didn't ask for help when I needed it!
 
 ## Feedback Forms
