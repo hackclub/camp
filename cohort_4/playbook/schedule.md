@@ -1,3 +1,15 @@
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
+**Table of Contents**
+
+- [Day 1](#day-1)
+    - [Prerequisites](#prerequisites)
+    - [Breakdown](#breakdown)
+- [Day 2](#day-2)
+- [Day 3](#day-3)
+- [Day 4](#day-4)
+
+<!-- markdown-toc end -->
+
 # Day 1
 
 ## Prerequisites
