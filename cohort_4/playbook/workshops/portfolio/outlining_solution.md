@@ -39,7 +39,7 @@ We can start to replace the outline with our own custom information. For example
 - `"name"` with `"Jonathan Leung"` and
 - `"description"` with `"I want to show..."`
 
-- TODO: http://g.recordit.co/pfjFBNXHlS.gif
+**Feel free to fill this in with your own information or you can also use mine**
 
 ```html
 <!DOCTYPE html>
