@@ -1,6 +1,9 @@
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
 **Table of Contents**
 
+- [General Overview](#general-overview)
+    - [Week 1](#week-1)
+    - [Week 2](#week-2)
 - [Day 1](#day-1)
     - [Prerequisites](#prerequisites)
     - [Breakdown](#breakdown)
@@ -9,6 +12,42 @@
 - [Day 4](#day-4)
 
 <!-- markdown-toc end -->
+
+# General Overview
+
+Hack Camp is broken up into _workshops_ and _projects_.
+
+- Workshops introduce new concepts
+- Projects help solidify the hackers' understanding of introduced concepts
+
+Legend:
+
+- **W** - Workshop
+- **P** - Free-form project time
+- **D** - Demos
+- **MD** - Mini-demos. Shorter demos of work-in-progress. Things aren't expected
+  to be finished yet.
+
+Each column indicated the flow of the day. If a row containing **W** is followed
+by **F** in the following row in the same column, that means that a workshop
+will be followed by project-time that day.
+
+## Week 1
+
+| Monday | Tuesday | Wednesday | Thursday | Friday |
+| ------ | ------- | --------- | -------- | ------ |
+| W      | P       | W         | P        | W      |
+| P      | D       | P         | D        | P      |
+| MD     |         | MD        |          | MD     |
+
+
+## Week 2
+
+| Monday | Tuesday | Wednesday | Thursday | Friday |
+| ------ | ------- | --------- | -------- | ------ |
+| P      | W       | P         | W        | P      |
+| D      | P       | D         | P        | D      |
+|        | MD      |           | MD       |        |
 
 # Day 1
 
