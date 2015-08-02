@@ -1,108 +1,129 @@
 # Solution: Resizing the image
 
-To recap, we want to resize the images to make them smaller.
+To recap, we want to change the image size to make them smaller
 
 ## Googling the solution
 
-- I Google `css resize image`
+- I Google `css image resize`
 
-    > ![](img/google_css_resize_image.png)
+    > ![](img/google_css_image_resize.png)
 
-- I see that the first result is from Stack Overflow
+- I open the first result, and read through it. In fact I read through all of them and read it and none of them met the all 3 requirements:
+    - I understood
+    - worked
+    - were the right way to implement it
+- It was the same thing when I changed my Google query to `css change size`
 
-```
-Pro-tip!
+## Asking for help
 
-{o,o}
-./)_)
-  " "
+After you've tried googling yourself for more than 3-6 minutes, definitely ask for help:
 
-Stack Overflow is an extremely popular question and answer service used by 
-programmers. If you see it in your Google search results, definitely check it out.
-```
+> I tried googling for `css image resize` and `css image change size` and they either didn't work or I didn't understand them
 
-```
-An Aside!
+The facilitator may offer
 
-༼ つ ◕_◕ ༽つ
+> try googling `css img width`
 
-At this point, I, Jonathan, the writer of this tutorial who is trying to show you that you can Google your way to the answer, was unable to find a way for a beginner to make a search query along the lines of `css resize image` that would yield results that would both (1) work and that (2) you would understand.
+## Trying With My New Google Search
 
-If you were to have gone through the first 3 results in the Google query, you most likely 
+- I google `css img width`
+- I open the first result ["CSS width property - W3Schools"](http://www.w3schools.com/cssref/pr_dim_width.asp)
+- I scan through the page until I see
 
-(1) would not have understood them
-(2) they would not have worked
-(3) they used inline styles which is bad
+    > ![](img/w3_image_example.png)
 
-Say you had embarked on the journey as mentioned.
+- I open the example and didn't understand it
+- I decide to just try
 
-After about 4-8 minutes, you should ask for help, from one of your peers and then if they didn't know, one of your facillitators.
+    ```css
+    img {
+        width: 50%;
+    }
+    ```
 
-٩(͡๏̯͡๏)۶
+## Adding this code to my main.css file.
 
-Let's say you asked your facillitators for help now.
+![](img/css_image_width.gif)
 
-The way you would do it is:
+## Previewing our work
 
-    "Hey Jonathan, I'm trying to resize the image and googled `css resize image`. I looked through the first 3 Google results but they either did not work or did not make sense to me. I asked Rebecca already but she didn't know either. What should I do"
+Just like before,
 
-This shows that you have tried on your own which means
-- you are gaining the skill of being able to learn things with Google on your own
-- you have asked at least one peer which increases the comfort level that you will ask your peers after you graduate from hack camp
-- therefore, at this point, we would be more than happy to guide you through this part.
+- click `Preview`
+- then click `Preview Running Application`
 
-Yes you could go and google "css basics" and read up on that but that would take more than 2 hours and we're trying to give you a base as quickly as possible.
-```
+## The Result
 
-## Trying some CSS code
-
-The answers provided by the Stack Overflow page are not wrong, we just don't quite understand CSS yet.
-
-```css
-img {
-    width: 200px;
-}
-```
-
-Let's see what this does:
-
-> ![](img/image_resize.png)
-
-Well, we definitely changed the size of the images!
-
-## Understanding the CSS Code
-
-
-
-
-
-
-
-
-
-
-## Making my own <!TODO>
-
-<!TODO>
-
-```css
-
-```
-
-## Adding it to my code
-
-<!TODO>
-
-## Seeing the result
-
-<!TODO>
-
-- I make sure that I have clicked on `Preview Running Application`
-- I refresh the preview page to see:
-
-> ![](img/photo.png)
+> ![](img/image_percentage_shrink.png)
 
 ![](img/celebration.gif)
+
+## The basics of CSS
+
+Let's breakdown what this means:
+
+![](img/css_img_example.png)
+
+![](img/img_css_highlight.png) For every `img` element
+
+![](img/css_curly_braces.png) I want all the style properties inside the curly brackets to apply:
+
+![](img/css_property.png) Speifically, I want the width
+
+![](img/css_value.png) to be 50%
+
+**Vocabulary**
+
+![](img/img_css_highlight.png) `img` is called the selector
+
+![](img/css_curly_braces.png) `{` `}` are called curly braces
+
+![](img/css_property.png) `width`, the thing on the left side of the semicolon is called the `"property"`
+
+![](img/css_value.png) `50%` is what's known as the `"value"`
+
+## width: 50%
+
+Because we set the all `img` tags to have a `width` of `50%`, the image will always take up `50%` of the page (note that this is not entirely true. in general `width: 50%;` means the element will take up `50%` of not the entire page but `50%` of it's parent element but in this case it's parent element is the entire body).
+
+
+## Introducing Pixels
+
+Instead of saying that something will be a certain
+
+## Making the image size look right
+
+```
+Mess around with the percetage until the size of the image looks!  
+            __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Try changing it to 50px or 200px and see what happens
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Some Vocabulary
 

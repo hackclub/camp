@@ -2,13 +2,13 @@
 
 **What we want:**
 
-> ![](img/final.png)
+> ![](img/final_screenshot_0.png)
 
 **What we have:**
 
 > ![](img/image_size_point.png)
 
-One of the biggest problems is that the images are WAY TOO LARGE.
+One of the biggest problems is that the image is way too large
 
 Lets see if we can make it smaller.
 

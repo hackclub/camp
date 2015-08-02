@@ -173,6 +173,65 @@ You can google more on what alt does by googling `img alt`
 ```
 
 
+## Quick Challenge
+
+Can you add the image of the Facebook logo to the bottom of the page?
+
+Here is the link to the image:
+
+```
+http://i.imgur.com/hqhKh8l.png
+```
+
+## Quick Solution
+
+```html
+<img src="http://i.imgur.com/hqhKh8l.png" alt="Facebook Logo">
+```
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jonathans Portfolio</title>
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+  <body>
+    <!-- PORTFOLIO -->
+    
+      <!-- IMAGE SECTION -->
+        <img src="http://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+    
+      <!-- INFORMATION SECTION -->
+        <h1>Jonathan Leung</h1>
+        <p>I want show people that the world is malleable. I want them to know 
+        they can create what's missing and not be afraid to break the status quo.</p>
+        
+      <!-- SOCIAL MEDIA SECTION -->
+        <!--==================BEGIN_CHANGES==================-->
+        <img src="http://i.imgur.com/hqhKh8l.png" alt="Facebook Logo">
+        <!--===================END_CHANGES===================-->
+        - link to Twitter (https://twitter.com/jonathanjleung)
+        - link to Github (https://github.com/jonleung)
+  </body>
+</html>
+```
+
+## Seeing the result
+
+- I make sure that I have clicked on `Preview Running Application`
+- I refresh the preview page to see:
+
+> ![](img/added_facebook_logo.png)
+
+![](img/celebration.gif)
+
+
+
+## Quick Cleanup
+
+
+
 ## Next
 We've added EVERYTHING that we need in the HTML for Part 1. Let's take your website and put it on the internet!
 
