@@ -1,40 +1,37 @@
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
 **Table of Contents**
 
-- [Activities](#activities)
-    - [Hacker arrival](#hacker-arrival)
-    - [Meals](#meals)
-        - [Breakfast](#breakfast)
-        - [Lunch](#lunch)
-    - [Workshops](#workshops)
-        - [[Portfolio](workshops/portfolio)](#portfolioworkshopsportfolio)
-            - [Prerequisites](#prerequisites)
-            - [Running it](#running-it)
-        - [Maestro](#maestro)
-    - [Demos](#demos)
-        - [First-time demos](#first-time-demos)
-        - [Giving feedback](#giving-feedback)
-    - [Freeform Projects](#freeform-projects)
-        - [Scoping and concept](#scoping-and-concept)
-        - [Engagement](#engagement)
-        - [Facilitating](#facilitating)
-        - [Answering questions](#answering-questions)
-    - [Brainstorming](#brainstorming)
-        - [Forming groups](#forming-groups)
-        - [Yes-and sessions](#yes-and-sessions)
-        - [Running a brainstorm session](#running-a-brainstorm-session)
-        - [After a brainstorm](#after-a-brainstorm)
-    - ["I have failed" activity](#i-have-failed-activity)
-    - [Feedback Forms](#feedback-forms)
-    - [Finishing off the day](#finishing-off-the-day)
-    - [Using Slack](#using-slack)
-        - [Asking for help](#asking-for-help)
+- [Hacker arrival](#hacker-arrival)
+- [Meals](#meals)
+    - [Breakfast](#breakfast)
+    - [Lunch](#lunch)
+- [Workshops](#workshops)
+    - [[Portfolio](workshops/portfolio)](#portfolioworkshopsportfolio)
+        - [Prerequisites](#prerequisites)
+        - [Running it](#running-it)
+    - [Maestro](#maestro)
+- [Demos](#demos)
+    - [First-time demos](#first-time-demos)
+    - [Giving feedback](#giving-feedback)
+- [Freeform Projects](#freeform-projects)
+    - [Scoping and concept](#scoping-and-concept)
+    - [Engagement](#engagement)
+    - [Facilitating](#facilitating)
+    - [Answering questions](#answering-questions)
+- [Brainstorming](#brainstorming)
+    - [Forming groups](#forming-groups)
+    - [Yes-and sessions](#yes-and-sessions)
+    - [Running a brainstorm session](#running-a-brainstorm-session)
+    - [After a brainstorm](#after-a-brainstorm)
+- ["I have failed" activity](#i-have-failed-activity)
+- [Feedback Forms](#feedback-forms)
+- [Finishing off the day](#finishing-off-the-day)
+- [Using Slack](#using-slack)
+    - [Asking for help](#asking-for-help)
 
 <!-- markdown-toc end -->
 
-# Activities
-
-## Hacker arrival
+# Hacker arrival
 
 1. Assign a leader to manage hacker arrival.
 2. Have the assigned leader text all of the hackers the morning of with
@@ -53,9 +50,9 @@
 It may be a good idea to play some music in the hackerspace while people are
 arriving.
 
-## Meals
+# Meals
 
-### Breakfast
+## Breakfast
 
 Plan to eat breakfast as a large group every morning on the roof of the
 building.
@@ -80,7 +77,7 @@ during breakfast and initiating conversations with the one or two people sitting
 next to us through asking lots of open ended questions. We haven't had much
 success when trying to engage the entire group in a single large conversation.
 
-### Lunch
+## Lunch
 
 On the first day, eat lunch as a large group. On all of the other days, give the
 hackers freedom for the entire lunch period.
@@ -93,23 +90,23 @@ elevators with large groups can get pretty chaotic, especially when going to the
 roof during lunch time (many Galvanize members all trying to get to the lobby
 then).
 
-## Workshops
+# Workshops
 
-### [Portfolio](workshops/portfolio)
+## [Portfolio](workshops/portfolio)
 
-#### Prerequisites
+### Prerequisites
 
 - All leaders must complete the workshop
 
-#### Running it
+### Running it
 
 TODO
 
-### Maestro
+## Maestro
 
 TODO
 
-## Demos
+# Demos
 
 Demos are the hackers' chance to show off what they have been putting so much
 time and effort into for the past day.
@@ -120,7 +117,7 @@ time and effort into for the past day.
     why this is a failure
 - After presenting something they failed at, they can show off what they made
 
-### First-time demos
+## First-time demos
 
 When explaining how to demo to hackers, first point out many things that can be
 done incorrectly when demoing. Club organizers can do this by presenting fake
@@ -138,7 +135,7 @@ Common practices to avoid when demoing:
 8. Use the mouse pointer to point to what you say you changed but don't change
    anything.
 
-### Giving feedback
+## Giving feedback
 
 Feedback helps hackers improve their presentation and demo skills. To keep demos
 running smoothly, feedback is going to be written on sticky notes instead of
@@ -150,12 +147,12 @@ shouted out after the demo.
 - Collect the feedback after demos are over and sort it into groups. Then give
   the feedback to the group it is for.
 
-## Freeform Projects
+# Freeform Projects
 
 This assumes the hackers are already in groups and have decided what to work on.
 If they have not yet, refer to [Brainstorming](#brainstorming).
 
-### Scoping and concept
+## Scoping and concept
 
 - Sometimes hackers will become too focused on a particular part of their project.
   - Make sure to remind them of their project's scope.
@@ -166,18 +163,18 @@ If they have not yet, refer to [Brainstorming](#brainstorming).
   - Compare MVP to building a rocket-powered flying scooter. Before building the
     rockets or polishing the wings, you must build the scooter.
 
-### Engagement
+## Engagement
 
 - The activity is only beneficial to hackers that are engaged.
   - Make sure both partners are equally engaged. If they aren't, try to diagnose
     the problem.
 
-### Facilitating
+## Facilitating
 
 - Rotate between hackers often. Don't hover over one hacker unless they have a
   specific question that you are helping them with.
 
-### Answering questions
+## Answering questions
 
 - Sometimes hackers will need to be prompted to ask a question. You can prompt
   them by asking things like:
@@ -204,16 +201,16 @@ If they have not yet, refer to [Brainstorming](#brainstorming).
     - If another hacker can help out, let that happen. Optimize for the least
       club leader time per student possible.
 
-## Brainstorming
+# Brainstorming
 
-### Forming groups
+## Forming groups
 
 - Assign people to groups.
   - There are social pressures between friends when forming groups. Start by
     assigning the hackers to random groups.
   - If any problems arise in a group handle it on a case-by-case basis.
 
-### Yes-and sessions
+## Yes-and sessions
 
 - "Yes-and" sessions are exercises that help people get out of a judgmental
   mindset before brainstorming
@@ -232,7 +229,7 @@ If they have not yet, refer to [Brainstorming](#brainstorming).
 - Have the hackers jump into a "Yes-and session" for 4 minutes then let
   volunteer to present the stories that unfolded.
 
-### Running a brainstorm session
+## Running a brainstorm session
 
 - Remind the hackers how brainstorming works
 
@@ -241,7 +238,7 @@ If they have not yet, refer to [Brainstorming](#brainstorming).
   3. Write down your ideas on post-it notes
   4. Say an idea out loud when writing it down
 
-### After a brainstorm
+## After a brainstorm
 
 - This is when you can start sorting and judging the ideas
   - Group post-it notes into similar concepts or ideas
@@ -256,7 +253,7 @@ If they have not yet, refer to [Brainstorming](#brainstorming).
   - Organizers must make sure the scope of the project is something the hackers
     can handle in the time they are given.
 
-## "I have failed" activity
+# "I have failed" activity
 
 This activity will:
 
@@ -286,7 +283,7 @@ Here are good example failures that haven't been resolved:
   >
   > I didn't ask for help when I needed it!
 
-## Feedback Forms
+# Feedback Forms
 
 All of the feedback form responses will be put into the appropriate sheet in
 https://docs.google.com/spreadsheets/d/1D8y_UB11C4QrXB9kn86-UqVQQqT9FUDqftx1AMHIb3o.
@@ -298,7 +295,7 @@ https://docs.google.com/spreadsheets/d/1D8y_UB11C4QrXB9kn86-UqVQQqT9FUDqftx1AMHI
 |   3 | https://docs.google.com/a/zachlatta.com/forms/d/1kgCrsPuTFJ-404JdpFo3acomXmwvTIOJHXzOp_NoUeI |
 |   4 | https://docs.google.com/a/zachlatta.com/forms/d/1ASfJdmXGUVRdGJR6rmzedDQ2EDEL7Hc11JD0xjBJMp8 |
 
-## Finishing off the day
+# Finishing off the day
 
 Congratulations! We made it!
 
@@ -310,7 +307,7 @@ We generally do two final things to finish off the day.
 
 ![](img/hack_cheer.gif)
 
-## Using Slack
+# Using Slack
 
 We've gone ahead and created a Slack for Hack Camp over at
 https://hack-camp.slack.com to use as a place for communicating with hackers
@@ -321,7 +318,7 @@ If you're a leader and you find that you aren't an administrator, shoot
 [@zachlatta](https://github.com/zachlatta) a message and he'll make sure that
 changes.
 
-### Asking for help
+## Asking for help
 
 If a hacker says `slackbot help` in anywhere besides a PM in the Slack, all of
 the technical mentors for Hack Camp will be pinged. If you'd like to be
