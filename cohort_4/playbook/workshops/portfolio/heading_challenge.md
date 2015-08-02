@@ -131,7 +131,7 @@ just completely wrong.
 
 If you're not sure about something, check another source like Mozilla 
 Developer Networks (which is a very reliable source but is a lot less
-beginner friendly) beginner friendly.
+beginner friendly).
 ```
 
 ## Adding the h1 tag to our `index.html` file
@@ -184,8 +184,8 @@ The name looks right!
 
 ```html
 <h1>Jonathan Leung</h1>
-^^^^ this is called  ^ this is called
-     an opening tag         a closing tag
+^^^^ this is called
+     an opening tag         
   
 ```
 
