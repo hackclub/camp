@@ -10,6 +10,7 @@
         - [[Portfolio](workshops/portfolio)](#portfolioworkshopsportfolio)
             - [Prerequisites](#prerequisites)
             - [Running it](#running-it)
+        - [Maestro](#maestro)
     - [Demos](#demos)
         - [First-time demos](#first-time-demos)
         - [Giving feedback](#giving-feedback)
@@ -101,6 +102,10 @@ then).
 - All leaders must complete the workshop
 
 #### Running it
+
+TODO
+
+### Maestro
 
 TODO
 
