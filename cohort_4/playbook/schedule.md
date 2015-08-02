@@ -1,14 +1,12 @@
-# Schedule
+# Day 1
 
-## Day 1
-
-### Prerequisites
+## Prerequisites
 
 - Read through all of the guidelines for each activity of the day. You don't
   need to have a great understanding of all of the guidelines yet, but you
   should be familiar with the broad ideas behind them.
 
-### Breakdown
+## Breakdown
 
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
@@ -30,7 +28,7 @@
 
 Day layout copied from [here](../prep/meetings/15-07-27_sprint_discuss.md).
 
-## Day 2
+# Day 2
 
 | Time     | Activity                                          |
 | -------- | ------------------------------------------------- |
@@ -44,7 +42,7 @@ Day layout copied from [here](../prep/meetings/15-07-27_sprint_discuss.md).
 | 4:25 PM  | [Feedback form](activities.md#feedback-forms)     |
 | 4:30 PM  | [Hack cheer](activities.md#finishing-off-the-day) |
 
-## Day 3
+# Day 3
 
 | Time     | Activity                                          |
 | -------- | ------------------------------------------------- |
@@ -58,7 +56,7 @@ Day layout copied from [here](../prep/meetings/15-07-27_sprint_discuss.md).
 | 4:25 PM  | [Feedback form](activities.md#feedback-forms)     |
 | 4:30 PM  | [Hack cheer](activities.md#finishing-off-the-day) |
 
-## Day 4
+# Day 4
 
 | Time     | Activity                                          |
 | -------- | ------------------------------------------------- |
