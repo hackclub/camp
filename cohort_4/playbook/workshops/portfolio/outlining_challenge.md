@@ -1,5 +1,7 @@
 # Challenge: Outlining your code
 
+> ![](img/final_screenshot.png)
+
 ```
 Challenge!  
 Time        __
@@ -8,8 +10,7 @@ Time        __
  __/       /
 <__.|_|-|_|
 
-Can you create a bullet point outline of the portfolio project,
-including part 1 and part 2?
+Can you create a bullet point outline of the portfolio project above?
 
 First, delete the entire line:
 
