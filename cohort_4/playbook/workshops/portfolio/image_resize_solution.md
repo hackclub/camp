@@ -84,51 +84,33 @@ Let's breakdown what this means:
 
 ## width: 50%
 
-Because we set the all `img` tags to have a `width` of `50%`, the image will always take up `50%` of the page (note that this is not entirely true. in general `width: 50%;` means the element will take up `50%` of not the entire page but `50%` of it's parent element but in this case it's parent element is the entire body).
-
-
-## Introducing Pixels
-
-Instead of saying that something will be a certain
-
-## Making the image size look right
+Because we set the all `img` tags to have a `width` of `50%`, the image will always take up `50%` of what it's contained in. Because the `img` tag is inside of the `body` tag, it will take up `50%` of the `body`.
 
 ```
-Mess around with the percetage until the size of the image looks!  
-            __
-           / _)   
-    .-^^^-/ /
- __/       /
-<__.|_|-|_|
+Mess Round
 
-Try changing it to 50px or 200px and see what happens
+  /~\
+ C oo
+ _( ^)
+/   ~\
+
+Try changing the size of the window to see the size of the image changes as the size of the `body` changes.
 ```
 
+> ![](img/dynamic_image_size.gif)
 
+## Using "px" instead of "%"
 
+Something that's a bit more simpler than "%" is using `px`
 
+    ```css
+    img {
+        width: 200px;
+    }
+    ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Some Vocabulary
-
-<!TODO>
+The above sets the width of every `img` tag to `200px` or "200 pixels". It doesn't matter what the screen size is.
 
 ## Next
 
-<!TODO>
+[Making the image round](round_challenge.md)

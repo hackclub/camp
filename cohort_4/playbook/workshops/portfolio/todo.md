@@ -471,3 +471,55 @@ http://i.imgur.com/hqhKh8l.png
 We've added EVERYTHING that we need in the HTML for Part 1. Let's take your website and put it on the internet!
 
 [Put our code permanently on the live internet!](github.md)
+
+
+##### Putting your code on the internet
+1. [Putting your code on the internet](github.md)
+
+##### Styling your website
+
+1. Adding a title
+    1. [Challenge](title_challenge.md)
+    1. [Solution](title_solution.md)
+1. [Adding styles to your website](add_css.md)
+1. Setting font color
+1. Centering everything
+1. Changing the size of the images
+1. Changing the fonts
+1. Using Google Web Fonts
+1. Creating the sections and adding spacing
+
+
+1. adding things to the head
+    1. title tag
+
+    1. add head > link
+    1. this is the first time that we have something we don't want to display on the page, that's why we added to head not body
+1. adding & styling body
+    1. make all the text the same color
+    1. center everything
+1. non spacing related things
+    1. I do profile picture size
+        1. you change social media icon size
+    1. I change name
+        1. font1.size
+        1. font1.family
+        1. font1.weight
+        1. you change description
+            1. font1.size
+            1. font1.family
+            1. font1.weight
+    1. I change google web font
+        1. you change google web font
+1. then do spacing related things
+    1. use the chrome inspector for all of the below
+    1. I show constraining width somewhere else
+        1. you show constraining width with container
+            1. two elements
+    1. I show centering a container
+        1. you show centering container
+    1. creating divs for each section
+        1. draw diagram
+    1. I show you margin1.top, left, right
+
+
