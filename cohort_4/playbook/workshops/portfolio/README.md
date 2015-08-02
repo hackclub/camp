@@ -1,19 +1,24 @@
 # Creating Your Personal Website!
 
-By the end of this tutorial, you will be building a profile webpage that looks something like this. Here is a 
-[live demo](https://rawgit.com/hackedu/hack-camp/20618752b7afa95bbbc5c5ba80c17874ec5e0a35/cohort_4/playbook/workshops/portfolio/src/final_portfolio/index.html).
+Our goal is to build a website that is similar to this: [Live Demo](https://rawgit.com/hackedu/hack-camp/20618752b7afa95bbbc5c5ba80c17874ec5e0a35/cohort_4/playbook/workshops/portfolio/src/final_portfolio/index.html).
 
-**We're going to build this in Part 1**
+> ![](img/final_screenshot.png)
 
-![](img/final_screenshot_0.png)
+**We're going to build this version of it**
 
-**And in the optional Part 2, we're going to build this**
+> ![](img/part_1_final.png)
 
-![](img/final_screenshot.png)
+If you are more experienced in HTML & CSS I challenge you to build this:
+
+>![](img/final_screenshot_0.png)
+
+and then this:
+
+> ![](img/final_screenshot.png)
 
 ## Objectives
 
-1. Learn the basics of HTML & CSS TODO- not clear what HTML & CSS are
+1. Learn the basics of web development.
 2. Learn how to use Google to answers to your own questions
 
 ## Sections
@@ -39,11 +44,23 @@ Do these chronologically:
 1. Adding the image
     1. [Challenge](image_challenge.md)
     1. [Solution](image_solution.md)
-1. Adding links
-    1. [Challenge](links_challenge.md)
-    1. [Solution](links_solution.md)
-1. Adding logos
-    1. [Challenge](logos_challenge.md)
-    1. [Solution](logos_solution.md)
 
+> ![](img/photo_mini.png)
 
+##### Putting your code on the live internet
+
+1. [Using Github](github.md)
+
+##### Styling Your Code
+
+- [Adding your stylesheet](add_css.md)
+- Resizing the images: CSS attributes
+    - [Challenge](image_resize_challenge.md)
+    - [Solution](image_resize_solution.md)
+- Making Your Icons Round
+    - [Challenge](round_challenge.md)
+    - [Solution](round_solution.md)
+- Centering Everything
+    - [Challenge](centering_challenge.md)
+    - [Solution](centering_solution.md)
+- [Everything Else](css_rest.md)
