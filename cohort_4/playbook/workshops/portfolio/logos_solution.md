@@ -1,89 +1,71 @@
-# Linking to Logos Solution
+# Solution: Adding logos to the social media links
 
-## Prompt
+To recap, we want to replace the text of the links with images.
 
-```html
-<!-- PORTFOLIO -->
+## How I found the answer using Google
 
-  <!-- IMAGE SECTION -->
-    <img src="http://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+- google `html image link`
+- open the first google result, [HTML Images - W3Schools](www.w3schools.com/html/html_images.asp)
+- the title of the page is `"HTML Images"`
+- therefore the page will primarily be about images, not links
+- I specifically want to know about links
+- so I search for the word `"link"` on the page.
+  - on a mac, use `cmd + f` to search
+  - on windows use `ctrl + f` to search
+  - then type in `"link"` to the box that pops up
+- Low and behold I see a section heading titled `Using an Image as a Link` with the example:
   
-  <!-- INFORMATION SECTION -->
-    <h1>Jonathan Leung</h1>
-    <p>I want show people that the world is malleable. 
-       I want them to know they can create what's missing
-       and not be afraid to break the status quo.</p> 
-    
-  <!-- SOCIAL MEDIA SECTION -->
-    <a href="https://twitter.com/jonathanjleung">Twitter</a> <!-- NEXT -->
-    <a href="https://facebook.com/jonleung137">Facebook</a>  <!-- NEXT -->
-    <a href="https://github.com/jonleung">Github</a>         <!-- NEXT -->
-```
-## How I Googled
+  > ```html
+  > <a href="default.asp">
+  >  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
+  > </a>
+  > ```
 
-- I googled `html link to image`
-- opened the [first google result which is a w3schools page](http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_image)
-  - I tried looking at the code and got a bit confused
-- So I opened [the next google result](http://www.w3schools.com/html/html_images.asp)
-  - I've seen this page before. Also I see this page is about images, not links but google took me here so there's something about links on the page.
-  - So I want to search for links on the page so I press
-    - `cmd + f` on a mac
-    - `ctrl + f` on windows
-  - Low and behold I see `Using an Image as a Link` with a clearer example
-    ```
-    <a href="default.asp">
-      <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
-    </a>
-    ```
+  ```markdown
+  Pro-tip!
 
-```markdown
-Pro-tip!
+  {o,o}
+  ./)_)
+    " "
 
-{o,o}
-./)_)
-  " "
+  As a reminder we see inline styles here:
+    style="width:42px;height:42px;border:0;"
 
-As a reminder we see inline styles here.
-Inline styles are bad.
+  Inline styles are bad.
+  So I'll remove it from the example.
 
-If you want to learn more about why, google `inline styles bad`
-```
+  If you want to learn more about why, google `inline styles bad`
+  ```
 
 - And if we take away the inline style
 
-  ```
-  <a href="default.asp">
-    <img src="smiley.gif" alt="HTML tutorial">
-  </a>
-  ```
+```html
+<a href="default.asp">
+  <img src="smiley.gif" alt="HTML tutorial">
+</a>
+```
 
 - The w3 school page also mentions
 > To use an image as a link, simply nest the `<img>` tag inside the `<a>` tag:
 
-- If you google `what does nesting html mean` you will find out that nesting means putting one tag inside of another. So nesting the `<img>` tag inside the `<a>` tag simply means "putting" the `<img>` tag inside the `<a>` tag
+- If you google `what does nesting html mean` you will find it means putting one tag inside of another. So nesting the `<img>` tag inside the `<a>` tag simply means "putting" the `<img>` tag inside the `<a>` ta
 
-## The Solution
+- Look at the above example and see if you can see how the `<img>` tag is inside of the `<a>` tag.
 
-So it seems like I do something like this:
+- So it seems like I need to do something like this:
 
 ```html
-<a href="https://twitter.com/jonathanjleung">
-  <img src="http://i.imgur.com/aN1jbkL.png">
+<a href="LINK_TO_WHATEVER_I_WANT">
+  <img src="IMAGE_URL" alt="DESCRIPTION_OF_IMAGE">
 </a>
 ```
 
-So it seems that instead of doing
+## Making My Own Link To Image
+
+So it seems like if I want to link to twitter with the image of Twitter, instead of doing:
 
 ```html
 <a href="https://twitter.com/jonathanjleung">Twitter</a>
-```
-
-Which can be rewritten as
-
-```html
-<a href="https://twitter.com/jonathanjleung">
-  Twitter
-</a>
 ```
 
 We can just replace the text `Twitter` with an image element
@@ -108,38 +90,54 @@ And if I have 3 links:
 </a>
 ```
 
-## Solution
+## Adding the image links to my code
 
 ```html
-<!-- PORTFOLIO -->
-
-  <!-- IMAGE SECTION -->
-    <img src="http://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zaphod's Portfolio</title>
+  </head>
+  <body>
+  <!-- PORTFOLIO -->
   
-  <!-- INFORMATION SECTION -->
-    <h1>Jonathan Leung</h1>
-    <p>I want show people that the world is malleable. 
-       I want them to know they can create what's missing
-       and not be afraid to break the status quo.</p> 
-    
-  <!-- SOCIAL MEDIA SECTION -->
-    <a href="https://twitter.com/jonathanjleung">
-      <img src="http://i.imgur.com/aN1jbkL.png">
-    </a>
-    <a href="https://facebook.com/jonleung137">
-      <img src="http://i.imgur.com/hqhKh8l.png">
-    </a>
-    <a href="https://github.com/jonleung">
-      <img src="http://i.imgur.com/rnhMmVF.png">
-    </a>
+    <!-- IMAGE SECTION -->
+      <img src="http://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+  
+    <!-- INFORMATION SECTION -->
+      <h1>Jonathan Leung</h1>
+      <p>I want show people that the world is malleable. I want them to know 
+      they can create what's missing and not be afraid to break the status quo.</p>
 
-    <!-- ^ SOLUTION -->
+    <!-- SOCIAL MEDIA SECTION -->
+      <!--==================BEGIN_CHANGES==================-->
+      <a href="https://twitter.com/jonathanjleung">
+        <img src="http://i.imgur.com/aN1jbkL.png">
+      </a>
+      <a href="https://facebook.com/jonleung137">
+        <img src="http://i.imgur.com/hqhKh8l.png">
+      </a>
+      <a href="https://github.com/jonleung">
+        <img src="http://i.imgur.com/rnhMmVF.png">
+      </a>
+      <!--===================END_CHANGES===================-->
+
+  </body>
+</html>
 ```
 
-![](img/complete_html.png)
+## Seeing the result
+
+- I make sure that I have clicked on `Preview Running Application`
+- I refresh the preview page to see:
+
+> ![](img/complete_html.png)
 
 Yay! Now it seems that all of the ements on the page are present!
 
+![](img/celebrate2.gif)
+
 ## Next
+We've added EVERYTHING that we need in the HTML. Let's take your website and put it on the internet!
 
 [Put our code permanently on the live internet!](github.md)

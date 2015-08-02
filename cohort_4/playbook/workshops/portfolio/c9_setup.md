@@ -20,7 +20,7 @@ Github lets you collaborate on writing online.
 ## Validating your Email Address
 
 - Check your email inbox for a confirmation email from github
-- Make sure you click on the link it tells you to to confirm your accountl.
+- Make sure you click on the link it tells you to to confirm your account.
 
 > *Important Note*: If you don't do this now, the latter part of this tutorial will not work for you!
 

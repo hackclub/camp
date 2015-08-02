@@ -1,11 +1,127 @@
 # TODO
+
+
+# Todo
+
+- change size of <img> tag
+- oh no, all of them are changed, i want to change different ones
+- let me add a class for the profile image
+- can you add a class for the logos
+
+- let me style directly on the h1s
+- you style directly on the paragraph
+- well class is actually preferrable for the same as the image
+- can you change it to a class for the description
+
+- now I want to center everything
+- lets start with the name
+- you center the paragraph
+
+- it would be way easier to just center the body
+- yay, everything is centered
+
+- spacing
+
+- constraining width
+
+
+Later discussion
+- inline vs block
+- how to center each one
+
+
+- font color off of body
+- text-align center off of body
+
+
+
+# Outline
+MVP 2
+- add scoping
+- move the social media icons out of the flow
+
+
+
+- Challenge
+  - Title
+  - Desired vs Current
+  - Looking at the Outline For Where We Are
+  - Asking for help
+  - Dino Challenge
+- Solution
+  - Title
+  - Desired Vs Current
+  - Explanation for what needs to be done from a 1st person perspective
+  - Forming the Google Query
+  - Running the Google Query
+  - The Creation of Code Line
+    - Validating the code line
+  - Adding the Code Line (Solution)
+  - Seein the result
+  - Vocabulary
+  - Next
+
+- css display
+
+http://davidwalsh.name/center-website
+
+
+# TODO
 - Link to previous and next pages at the top of the markdown page
 - Make the Googling examples stronger (perhaps have andrea do them)
 - Have a list of questions at the 
     - End of the entire tutorial
     - End of each section that they should be able to answer
 - Include the outline at the bottom of each markdown file
+- Include a "what we learned section that has like"
+  - to add a heading, do X
+  - to do a Google, do this
+  - a nice quick reference
+- make gif of disabling CSS, JS and such
+- take each page snippet and put it in an actual file and link each code snippet to a live example
+- change up celebration gifs with stward animate 
+- talk about the high level steps of
+  - doing all the HTML, then the CSS, and then the others
 
+
+## This might be good content for the initial slides or perhaps later
+
+  - Let's see what our website looks like so far.
+
+    ![](img/c9_preview_template_website.gif)
+
+  - We can also open the website in its own tab.
+
+    ![](img/c9_preview_template_website_own_tab.gif)
+- What have we done so far?
+  - So what was that code we typed? Spoiler alert: almost every website on the
+    internet is secretly written in a language called **HyperText Markup
+    Language**, otherwise known as "HTML". So why don't you see code
+    everywhere? Well, your browser reads HTML for you and just shows you the
+    pretty version. It is sheltering you!
+  - We'll get our hands a bit dirtier with the basics of HTML. We'll talk a
+    little about formatting, links, and images so you can make a simple, but
+    ugly, webpage.
+  - If you want to make it pretty, we'll also do a quick dive into Cascading
+    Syle Sheet (CSS), which many websites secretly use to make themselves
+    pretty.
+  - The basic building blocks of HTML are _HTML elements_. HTML elements are
+    denoted by angled brackets. These are called **tags**. `<html>`, `<head>`,
+    `<body>`, `<title>`, and `<h1>` are all tags.
+  - All of the tags listed above are referred to as start tags - and if you
+    start something, you need to end it. The end tag is exactly the same as
+    the start tag with a cute forward slash (`/`) after the `<`. Consequently
+    the end tag for `<html>` is `</html>`. The end tag for `<head>` is
+    `</head>`, and so on.
+  - HTML documents contain two important parts, denoted by tags:
+    1. **head** - contains information about the document that is _not
+       displayed on the screen_.
+    2. **body** - contains everything that id displayed on the webpage.
+  - Don't worry if you don't understand everything so far! You'll get a better
+    understanding of these concepts as you write more code. As always, the
+    most important thing is to ask a lot of questions!
+    - _Warning_: some of the wording in this section was taken from Codecademy -
+      remember to change this.
 
 ```html
 <!-- PORTFOLIO -->

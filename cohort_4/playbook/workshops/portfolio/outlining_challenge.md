@@ -8,7 +8,8 @@ Time        __
  __/       /
 <__.|_|-|_|
 
-Can you create a bullet point outline of the portfolio project?
+Can you create a bullet point outline of the portfolio project,
+including part 1 and part 2?
 
 First, delete the entire line:
 
@@ -37,7 +38,7 @@ Create your outline directly inside of the body tag in the
       </body>
     </html>
 
-...
+IMPORTANT: To save time and to limit frustration, spend 3 minutes trying figure out how to do this. If you havn't found what you wanted after 3 minutes just advance to the next page and we'll walk you through it!
 ```
 
 ## For Your Reference

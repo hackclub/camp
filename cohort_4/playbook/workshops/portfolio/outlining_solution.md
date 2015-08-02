@@ -17,7 +17,7 @@ Note that there are many ways to outline this. This is just one potential soluti
       - image section
         - image
       - informational section
-        - name
+        - Jonathan
         - description
       - social media section
         - link to Facebook
@@ -55,7 +55,7 @@ We can start to replace the outline with our own custom information. For example
         - Jonathan Leung
         - I want show people that the world is malleable. I want them to know they can create what's missing and not be afraid to break the status quo.
       - social media section
-        - link to Facebook (https://twitter.com/jonathanjleung)
+        - link to Facebook (https://facebook.com/jonleung137)
         - link to Twitter (https://twitter.com/jonathanjleung)
         - link to Github (https://github.com/jonleung)
   </body>
@@ -65,7 +65,7 @@ We can start to replace the outline with our own custom information. For example
 
 ## Placeholding
 
-We are using the above outline as a placeholders for our code that will soon be written. Throughout this tutorial, we will be replacing each bullet point with real HTML code. Having a scaffold reminds us of the entire structure of the code and helps us figure out where we want to go next.
+We are using the above outline as a placeholders for our code that will soon be written. Throughout this tutorial, we will be replacing each bullet point with real HTML code.
 
 ## Previewing our work
 
@@ -102,25 +102,43 @@ It is useful:
 
 (which now has all of those section titles removed)
 
-```
-<!-- PORTFOLIO -->
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zaphod's Portfolio</title>
+  </head>
+  <body>
+    <!-- PORTFOLIO -->
 
-  <!-- IMAGE SECTION -->
-    - http://i.imgur.com/vS0HhER.jpg
-  
-  <!-- INFORMATION SECTION -->
-    - Jonathan Leung
-    - I want show people that the world is malleable. I want them to know they can create what's missing and not be afraid to break the status quo.
+      <!-- IMAGE SECTION -->
+        - http://i.imgur.com/vS0HhER.jpg
+      
+      <!-- INFORMATION SECTION -->
+        - Jonathan Leung
+        - I want show people that the world is malleable. I want them to know they can create what's missing and not be afraid to break the status quo.
 
-  <!-- SOCIAL MEDIA SECTION -->
-    - link to Facebook (https://twitter.com/jonathanjleung)
-    - link to Twitter (https://twitter.com/jonathanjleung)
-    - link to Github (https://github.com/jonleung)
+      <!-- SOCIAL MEDIA SECTION -->
+        - link to Facebook (https://facebook.com/jonleung137)
+        - link to Twitter (https://twitter.com/jonathanjleung)
+        - link to Github (https://github.com/jonleung)
+  </body>
+</html>
 ```
 
 ## Preview
 
 ![](img/preview_outline_with_comments.png)
+
+## Focusing on Part 1
+
+For the upcomming sections, we're just going to focus on Part 1. 
+
+![](img/final_screenshot_0.png)
+
+Part 2 is optional can be done at home at your liesure.
+
+![](img/final_screenshot.png)
 
 ## Next
 

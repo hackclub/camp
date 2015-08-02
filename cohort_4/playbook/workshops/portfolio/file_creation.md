@@ -56,6 +56,8 @@ Replace Zaphod's name with your own name.
 
 ![](img/c9_portfolio_template.gif)
 
+## TODO: Explain the structure of the HTML document
+
 ## Previewing our work
 
 Great! Now let's see what our code looks like in the browser.

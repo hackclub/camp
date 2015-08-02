@@ -1,27 +1,15 @@
 # Description Challenge Solution
 
-## Prompt
+To recap: we want to put the description so that it is on it's own line.
 
-We need to figure out how to add a description.
+> ![](img/description.png)
+> ![](img/description_todo.png)
 
-```html
-<!-- PORTFOLIO -->
+I know that one way to do this is with a paragraph tag.
 
-  <!-- IMAGE SECTION -->
-    - http://i.imgur.com/vS0HhER.jpg 
-  
-  <!-- INFORMATION SECTION -->
-    <h1>Jonathan Leung</h1>
-    - I want show people that the world is malleable. I want them to know they can create what's missing and not be afraid to break the status quo.
-    <!-- ^ NEXT -->
+I don't know what a paragraph tag is so I will google it.
 
-  <!-- SOCIAL MEDIA SECTION -->
-    - link to Facebook (https://twitter.com/jonathanjleung)
-    - link to Twitter (https://twitter.com/jonathanjleung)
-    - link to Github (https://github.com/jonleung)
-```
-
-## Forming the Query
+## Forming the Google Query
 
 - `how do you add a paragraph tag`
     - Problem: you did not indicate that you wanted to add a header in `html`
@@ -36,37 +24,43 @@ We need to figure out how to add a description.
 
 ## Potential Googling Path
 
-- I google `html paragraph tag`
-- [The first result is titled](http://www.w3schools.com/tags/tag_p.asp) `"HTML p tag"` from w3schools. Click it.
-- This looks like a helpful site.
-- It's telling me to use the paragraph tag the same way I used the `h1` tag
+I google `html paragraph tag`
+  
+> ![](img/google_paragraph_tag.png)
 
-## Using the p Tag
+[The first result](http://www.w3schools.com/tags/tag_p.asp) is titled  `"HTML p tag - W3Schools"`
 
-`<p>This is some text in a paragraph.</p>`
+> ![](img/p_tag.png)
 
-Everything you add to your site will between the `body` tags, like so:
+On this page, I see that I can use the p tag similarly to the way I used the `h1` tag:
 
+> ```html
+> <p>This is some text in a paragraph</p>
+> ```
+
+I see this that there is a live code demo I can try myself so I immediately click `"Try it Yourself`
+
+> ![](img/p_example.png)
+
+It seems to tell me that I can  use the paragraph tag the same way I used the `h1` tag
+
+## Creating the p tag
+
+It seems like now, I can take the text that I have:
+
+```html
+- I want show people that the world is malleable. I want them to know they can
+  create what's missing and not be afraid to break the status quo.
 ```
-<body>
 
-<!-- EVERYTHING -->
+and put it inside of `<p></p>`
 
-</body>
+```html
+<p>I want show people that the world is malleable. I want them to know they
+can create what's missing and not be afraid to break the status quo.</p>
 ```
 
-You're going to add an opening and closing paragraph tag around the description you wrote about yourself, like so:
-
-```
-<p>I want show people that the world is malleable. I want them to know they can create what's missing and not be afraid to break the status quo.</p>
-```
-
-## Refresh Again
-
-to see what your page looks like now.
-
-
-## Solution
+## After adding the `p` tag to my code:
 
 ```html
 <!DOCTYPE html>
@@ -82,24 +76,34 @@ to see what your page looks like now.
   
     <!-- INFORMATION SECTION -->
       <h1>Jonathan Leung</h1>
-      <p>I want show people that the world is malleable. 
-         I want them to know they can create what's
-         missing and not be afraid to break the status quo.</p>
-  
+      <!--===========BEGIN_CHANGES===========-->
+      <p>I want show people that the world is malleable. I want them to know 
+      they can create what's missing and not be afraid to break the status quo.</p>
+      <!--============END_CHANGES============-->          
+
+
     <!-- SOCIAL MEDIA SECTION -->
-      - link to Facebook (https://twitter.com/jonathanjleung)
+      - link to Facebook (https://facebook.com/jonleung137)
       - link to Twitter (https://twitter.com/jonathanjleung)
       - link to Github (https://github.com/jonleung)
 
   </body>
 </html>
 ```
-## Preview
+
+## Seeing the result
+
+- I make sure that I have clicked on `Preview Running Application`
+- I refresh the preview page to see
+
+> ![](img/paragraph.png)
+
+![](img/celebration.gif)
 
 ## Some Vocabulary
 
 - p tag stands for paragraph tag.
-- you can write paragraphs in paragraph tags
+- you can write english paragraphs in paragraph tags
 
 ```html
 <p>This is some text in a paragraph.</p>
@@ -124,27 +128,6 @@ to see what your page looks like now.
 ```
 
 
-## Solution
-
-```html
-<!-- PORTFOLIO -->
-
-  <!-- IMAGE SECTION -->
-    - http://i.imgur.com/vS0HhER.jpg 
-  
-  <!-- INFORMATION SECTION -->
-    <h1>Jonathan Leung</h1>
-    <p>I want show people that the world is malleable. 
-       I want them to know they can create what's missing
-       and not be afraid to break the status quo.</p> <!-- SOLUTION -->
-    
-  <!-- SOCIAL MEDIA SECTION -->
-    - link to Facebook (https://twitter.com/jonathanjleung)
-    - link to Twitter (https://twitter.com/jonathanjleung)
-    - link to Github (https://github.com/jonleung)
-```
-
-![](img/paragraph.png)
 
 I notice that the text is starting to shape up now.
 

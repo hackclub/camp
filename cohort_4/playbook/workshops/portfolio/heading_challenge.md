@@ -6,24 +6,32 @@ Let's figure out how to format your name so that it looks like this:
 
 ## Looking at the Outline
 
-Let's take a look to see where we are and what we want to do next.
+Let's take a look to see where we are and where we want to make our changes.
 
 This is what you should have right now:
 
 ```html
-<!-- PORTFOLIO -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zaphod's Portfolio</title>
+  </head>
+  <body>
+    <!-- PORTFOLIO -->
 
-  <!-- IMAGE SECTION -->
-    - http://i.imgur.com/vS0HhER.jpg 
-  
-  <!-- INFORMATION SECTION -->
-    - Jonathan Leung <!-- {{ NEXT }} -->            
-    - I want show people that the world is malleable. I want them to know they can create what's missing and not be afraid to break the status quo.
+      <!-- IMAGE SECTION -->
+        - http://i.imgur.com/vS0HhER.jpg
+      
+      <!-- INFORMATION SECTION -->
+        - Jonathan Leung <!-- {{ NEXT }} -->            
+        - I want show people that the world is malleable. I want them to know they can create what's missing and not be afraid to break the status quo.
 
-  <!-- SOCIAL MEDIA SECTION -->
-    - link to Facebook (https://twitter.com/jonathanjleung)
-    - link to Twitter (https://twitter.com/jonathanjleung)
-    - link to Github (https://github.com/jonleung)
+      <!-- SOCIAL MEDIA SECTION -->
+        - link to Facebook (https://facebook.com/jonleung137)
+        - link to Twitter (https://twitter.com/jonathanjleung)
+        - link to Github (https://github.com/jonleung)
+  </body>
+</html>
 ```
 
 ```
@@ -40,7 +48,7 @@ See if you can spot it in the above box.
 
 ## Asking for Help
 
-Ideally you would be able to Google how to do this, but right now we don't even know what to ask Google.
+Ideally you would be able to Google how to add this name, but right now we might now even know how.
 
 So you might ask a facillitator for help:
 
@@ -77,6 +85,36 @@ Read each of the google queries and their associated problems until you get to t
 
 [The first result](http://www.w3schools.com/html/html_headings.asp) looks like it talks about headings. Let's open that one.
 
+![](img/heading_google_1.png)
+
+When I'm trying to figure out how to do something, if there is a code example for me to try, that's almost always the first thing I do on the page.
+
+So when I saw this, I immediately click on it
+
+![](img/headings_google_1a.png)
+
+## When I click on it
+
+[This page](http://www.w3schools.com/html/tryit.asp?filename=tryhtml_headings) comes up:
+
+![](img/headings_google_1b.png)
+
+This seems promising because it seems like what we're looking for. Right now you could be thinking to yourself "heading 1 looks like the same size and format as what I wanted. Let me try testing this in my code to see what happens."
+
+The example tells me this:
+
+```html
+<h1>This is heading 1</h1>
+```
+
+So if I want my name there, it seems like I might want this:
+
+```html
+<h1>Jonathan Leung</h1>
+```
+
+Next, lets try adding this the code!
+
 ```md
 Pro-tip!
 
@@ -85,63 +123,60 @@ Pro-tip!
   " "
 
 An important note about W3Schools: I would treat it like Wikipedia in 
-that it's probably is a good place to get started but its facts are not 
-necessarily reliable.
-```
+that it's probably is a good place to get started (it is very beginner
+friendly) but its facts are not necessarily reliable.
 
-![](img/heading_google_1.png)
+Sometimes their recommendations do not follow best practice or are sometimes
+just completely wrong.
 
-Almost always, the first thing I'd try to do is see a working example.
-
-So when I saw this:
-
-![](img/headings_google_1a.png)
-
-## I'd click on it.
-
-![](img/headings_google_1b.png)
-
-This seems like a good search result because it seems like what we're looking for. Right now you should be thinking to yourself "heading 1 looks like the same size and format as what I wanted..."
-
-Let's give the following a try!
-
-```html
-<h1>Jonathan Leung</h1>
+If you're not sure about something, check another source like Mozilla 
+Developer Networks (which is a very reliable source but is a lot less
+beginner friendly) beginner friendly.
 ```
 
 ## Adding the h1 tag to our `index.html` file
 
 ```
-Note: I will add the text
+Note: in this and subsequent snippets of code, I will add the text
 
     <!-- CHANGE -->
 
-on only line that I plan to work on next
+on or pointing to the line that has been modified
 ```
 
 ```html
-<!-- PORTFOLIO -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zaphod's Portfolio</title>
+  </head>
+  <body>
+    <!-- PORTFOLIO -->
 
-  <!-- IMAGE SECTION -->
-    - http://i.imgur.com/vS0HhER.jpg 
-  
-  <!-- INFORMATION SECTION -->
-    <h1>Jonathan Leung</h1>            <!-- CHANGE -->
-    - I want show people that the world is malleable. I want them to know they can create what's missing and not be afraid to break the status quo.
+      <!-- IMAGE SECTION -->
+        - http://i.imgur.com/vS0HhER.jpg
+      
+      <!-- INFORMATION SECTION -->
+        <!--===========BEGIN_CHANGES===========-->
+        <h1>Jonathan Leung</h1> 
+        <!--============END_CHANGES============-->          
+        - I want show people that the world is malleable. I want them to know they can create what's missing and not be afraid to break the status quo.
 
-  <!-- SOCIAL MEDIA SECTION -->
-    - link to Facebook (https://twitter.com/jonathanjleung)
-    - link to Twitter (https://twitter.com/jonathanjleung)
-    - link to Github (https://github.com/jonleung)
+      <!-- SOCIAL MEDIA SECTION -->
+        - link to Facebook (https://facebook.com/jonleung137)
+        - link to Twitter (https://twitter.com/jonathanjleung)
+        - link to Github (https://github.com/jonleung)
+  </body>
+</html>
 ```
 
 ## Click "Preview Running Application" again
 
 ![](img/h1.png)
 
-The large text looks right.
+The name looks right!
 
-YAY!
+![](img/celebration.gif)
 
 ## Some Vocabulary
 
@@ -149,14 +184,21 @@ YAY!
 
 ```html
 <h1>Jonathan Leung</h1>
-^ this is called  ^ this is called
-  an opening        a closing tag
-  tag 
+^^^^ this is called  ^ this is called
+     an opening tag         a closing tag
+  
 ```
 
 ```html
 <h1>Jonathan Leung</h1>
- ^ this specifically is called an h1 tag
+                  ^^^^^ this is called
+                        a closing tag
+  
+```
+
+```html
+<h1>Jonathan Leung</h1>
+^^^^ this specifically is called an h1 tag
 ```
 
 ```html

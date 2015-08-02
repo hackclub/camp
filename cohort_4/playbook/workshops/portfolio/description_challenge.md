@@ -1,8 +1,19 @@
 # Challenge: Adding the description
 
-## Prompt
+Let's figure out how to add the description so that it looks like this:
 
-We need to figure out how to add a description.
+**Desired vs Current**
+
+![](img/description.png)
+![](img/description_todo.png)
+
+## Looking at the Outline
+
+Let's take a look to see where we are and where we want to make our changes.
+
+You should currently have the below code.
+
+I added a `<!-- ^ NEXT -->` to point out what lines of code will be changed next.
 
 ```html
 <!-- PORTFOLIO -->
@@ -13,10 +24,10 @@ We need to figure out how to add a description.
   <!-- INFORMATION SECTION -->
     <h1>Jonathan Leung</h1>
     - I want show people that the world is malleable. I want them to know they can create what's missing and not be afraid to break the status quo.
-    <!-- NEXT -->
+    <!-- ^ NEXT -->
 
   <!-- SOCIAL MEDIA SECTION -->
-    - link to Facebook (https://twitter.com/jonathanjleung)
+    - link to Facebook (https://facebook.com/jonleung137)
     - link to Twitter (https://twitter.com/jonathanjleung)
     - link to Github (https://github.com/jonleung)
 ```
@@ -27,7 +38,7 @@ At this point, you know you're supposed to google, but you have no idea what!
 
 So you ask the facillitator:
 
-> I want to add a description underneath of the `h1` tag. How do I do that?
+> I want to put the description on it's own line underneath of the `h1` tag. How do I do that?
 
 The facillitator may respond:
 
