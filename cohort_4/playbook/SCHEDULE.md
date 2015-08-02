@@ -22,21 +22,21 @@
 
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
-| 9:20 AM  | [Hacker arrival](activities.md#hacker-arrival)               |
+| 9:20 AM  | [Hacker arrival](ACTIVITIES.md#hacker-arrival)               |
 | 9:30 AM  | Galvanize tour                                               |
 | 9:40 AM  | Energizer                                                    |
-| 10:00 AM | [Breakfast](activities.md#breakfast)                         |
+| 10:00 AM | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:30 AM | Introduction talk                                            |
-| 10:40 AM | [Portfolio workshop](activities.md#portfolio)                |
-| 12:30 PM | [Lunch](activities.md#lunch)                                 |
+| 10:40 AM | [Portfolio workshop](ACTIVITIES.md#portfolio)                |
+| 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
 | 1:30 PM  | Energizer                                                    |
 | 2:00 PM  | Creating groups                                              |
 | 2:05 PM  | Brainstorming projects                                       |
 | 2:15 PM  | Project time                                                 |
-| 3:55 PM  | [I have failed circle](activities.md#i-have-failed-activity) |
+| 3:55 PM  | [I have failed circle](ACTIVITIES.md#i-have-failed-activity) |
 | 4:00 PM  | Demos                                                        |
-| 4:25 PM  | [Feedback form](activities.md#feedback-forms)                |
-| 4:30 PM  | [Hack cheer](activities.md#finishing-off-the-day)            |
+| 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
+| 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
 
 Day layout copied from [here](../prep/meetings/15-07-27_sprint_discuss.md).
 
@@ -45,39 +45,39 @@ Day layout copied from [here](../prep/meetings/15-07-27_sprint_discuss.md).
 | Time     | Activity                                          |
 | -------- | ------------------------------------------------- |
 | 9:20 AM  | Energizer                                         |
-| 9:45 AM  | [Breakfast](activities.md#breakfast)              |
+| 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)              |
 | 10:15 AM | Project time                                      |
-| 12:30 PM | [Lunch](activities.md#lunch)                      |
+| 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                      |
 | 1:30 PM  | Energizer                                         |
 | 2:00 PM  | Project time                                      |
 | 4:00 PM  | Demos                                             |
-| 4:25 PM  | [Feedback form](activities.md#feedback-forms)     |
-| 4:30 PM  | [Hack cheer](activities.md#finishing-off-the-day) |
+| 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)     |
+| 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day) |
 
 # Day 3
 
 | Time     | Activity                                          |
 | -------- | ------------------------------------------------- |
 | 9:20 AM  | Energizer                                         |
-| 9:45 AM  | [Breakfast](activities.md#breakfast)              |
-| 10:15 AM | [Maestro workshop](activities.md#maestro)         |
-| 12:30 PM | [Lunch](activities.md#lunch)                      |
+| 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)              |
+| 10:15 AM | [Maestro workshop](ACTIVITIES.md#maestro)         |
+| 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                      |
 | 1:30 PM  | Energizer                                         |
 | 2:00 PM  | Project time                                      |
 | 4:00 PM  | Demos                                             |
-| 4:25 PM  | [Feedback form](activities.md#feedback-forms)     |
-| 4:30 PM  | [Hack cheer](activities.md#finishing-off-the-day) |
+| 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)     |
+| 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day) |
 
 # Day 4
 
 | Time     | Activity                                          |
 | -------- | ------------------------------------------------- |
 | 9:20 AM  | Energizer                                         |
-| 9:45 AM  | [Breakfast](activities.md#breakfast)              |
+| 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)              |
 | 10:15 AM | Project time                                      |
-| 12:30 PM | [Lunch](activities.md#lunch)                      |
+| 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                      |
 | 1:30 PM  | Energizer                                         |
 | 2:00 PM  | Project time                                      |
 | 4:00 PM  | Demos                                             |
-| 4:25 PM  | [Feedback form](activities.md#feedback-forms)     |
-| 4:30 PM  | [Hack cheer](activities.md#finishing-off-the-day) |
+| 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)     |
+| 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day) |
