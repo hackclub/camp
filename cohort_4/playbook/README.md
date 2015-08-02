@@ -10,5 +10,27 @@
 
 -------------------------------------------------------------------------------
 
-Welcome to the Hack Camp playbook. See the above links for links to the
-different parts of this series of documents.
+Hack Camp is hackEDU's summer program. It's a two-week program for people who
+want to create things with code. We'll bring hackers from their first line of
+code to publishing their first project.
+
+The goal of this playbook is to solidify everything needed to run Hack Camp and
+make it great.
+
+## Getting Started
+
+The first document you'll want to take a look at is the
+schedule (over in [`SCHEDULE.md`](SCHEDULE.md)) (also linked above). It contains a
+day-by-day overview of Hack Camp with links for each activity. It also contains
+a general overview of Hack Camp's schedule at the top of the file.
+
+Each day, you'll want to read through each activity for the day and get a
+general understanding of the day's layout. If there's a workshop happening,
+ideally you'd go through it beforehand to get a feel for it.
+
+## Questions? Comments? Concerns?
+
+We want you to build this playbook with us. Here's how:
+
+- [Create an issue](https://github.com/hackedu/hack-camp/issues)
+- [Join us on IRC](https://www.irccloud.com/invite?channel=%23hackedu&hostname=irc.freenode.net&port=6697&ssl=1)
