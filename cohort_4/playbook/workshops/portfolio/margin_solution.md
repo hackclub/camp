@@ -7,7 +7,7 @@ high up.
 
 - I google `css margin`
 
-> ![](img/margin.png)
+  > ![](img/margin.png)
 
 - I open the first result:
   [CSS Margin - W3Schools](http://www.w3schools.com/css/css_margin.asp)
@@ -39,3 +39,6 @@ margin-top: (someNumber)px;
 - I refresh the preview page to see: 
 
 > ![](img/margin_top.png)
+
+## Finish!
+

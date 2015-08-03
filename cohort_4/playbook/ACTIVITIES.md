@@ -2,6 +2,11 @@
 **Table of Contents**
 
 - [Hacker arrival](#hacker-arrival)
+- [Energizers](#energizers)
+    - [Where The West Wind Blows](#where-the-west-wind-blows)
+    - [Human Pictionary](#human-pictionary)
+    - [I Love My Neighbor Who](#i-love-my-neighbor-who)
+    - [Evolution Rock Paper Scissors](#evolution-rock-paper-scissors)
 - [Meals](#meals)
     - [Breakfast](#breakfast)
     - [Lunch](#lunch)
@@ -49,6 +54,83 @@
 
 It may be a good idea to play some music in the hackerspace while people are
 arriving.
+
+# Energizers
+
+## Where The West Wind Blows
+
+## Human Pictionary
+
+```
+Time: 10 min
+Materials: None
+Team Sizes:
+
+  - when 4-8 people, group into teams of size 2
+  - when 9-12 people, group into teams of size 3
+  - when 13+ people, group into teams of size 4 or 5
+```
+
+- Organize the students get into teams.
+- Announce that there is no talking in this activity
+- Facilitator(s) will call out a random prompt (e.g. iPhone, giraffe, 
+  surfboard) and start the 30 second timer. 
+- Each team tries to represent that the prompt with their bodies in that time. 
+- At the end of the 30 seconds, everyone will freeze as the facilitator(s)
+  goes around and judges the teams and makes funny and comments. 
+  - "This group is trying really hard not to fall. It really does look like 
+    the leaning tower of Pizza. Bonus points on being very angled."
+- After observing all the groups, the facilitator announces the winner.
+- The facilitator tells the winning team gets to pick, announce, and judge the
+  next round.
+- You can repeat this for the duration you want this activity.
+
+## I Love My Neighbor Who
+
+```
+Time: 5 to 15 minutes
+Materials: None
+Number: Best for 10-35
+```
+
+- Get everyone into a circle
+- Facilitator starts "in the middle" by filling in “My name is _____. I love my
+  neighbor who _____” with anything that applies to him/her such as “I love my
+  neighbor who dances.” or “I love my neighbor who loves sushi”.
+- People whom the statement also applies to have to move and find another spot
+  in the circle.
+- The last person trying to find a spot will then become the next person in the
+  middle. He/she will fill in the statement “My name is _____. I love my
+  neighbor who _____”.
+- The pattern continues. If someone is in the middle more than once you can have
+  someone who hasn’t been in the middle go in instead so we get to know
+  everyone’s names.
+- You can also encourage people to say things that apply to them that they don't
+  think will apply to others. That way, it gets people to share things that they
+  think "could only apply to them" and when they realize when it applies to
+  someone else, bonding happens.
+
+## Evolution Rock Paper Scissors
+
+```
+Time: 5 to 15 minutes
+Materials: None
+Number: Best for 10-30
+Source: Andrea
+```
+
+Everyone starts off in the “egg” stage and has to act like eggs like being in a
+squatting position. Every “egg” will find another “egg” to play rock paper
+scissors with. Play rock paper scissors 3 times (one round) to see if either
+wins 2 out of 3. If not, play another round etc. until someone wins a round 2
+out of 3. The person that wins will then evolve into the next stage  “monkey”
+and has to find another “monkey” to play rock paper scissors with. The “losing”
+person will remain an egg and find other eggs to play rock paper scissors with.
+The stages are egg to monkey to human then to divine being. In each stage, the
+“losing” person will de-evolve into the previous stage or if an egg will remain
+an egg. Once a person becomes a divine being he/she leaves the game and watches.
+Continue until you have a certain number of divine beings agreed upon at the
+beginning of the game.
 
 # Meals
 
@@ -205,12 +287,13 @@ If they have not yet, refer to [Brainstorming](#brainstorming).
 
 ## Forming groups
 
-PAIRED GROUPS: https://docs.google.com/spreadsheets/d/1EAvdMve4Fro-xvWt3OeV7YDr4HOKDhPuAyX1oFoLqcw/edit?usp=sharing
-
 - Assign people to groups.
   - There are social pressures between friends when forming groups. Start by
     assigning the hackers to random groups.
   - If any problems arise in a group handle it on a case-by-case basis.
+
+First-day group pairs can be found at:
+https://docs.google.com/spreadsheets/d/1EAvdMve4Fro-xvWt3OeV7YDr4HOKDhPuAyX1oFoLqcw/edit?usp=sharing
 
 ## Yes-and sessions
 

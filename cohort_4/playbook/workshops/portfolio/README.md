@@ -59,4 +59,7 @@ Do these chronologically:
 - Centering Everything
     - [Challenge](centering_challenge.md)
     - [Solution](centering_solution.md)
-- [Everything Else](css_rest.md)
+- Increating The Margin
+    - [Challenge](margin_challenge.md)
+    - [Solution](margin_solution.md)
+- [Changing The Font](changing_the_font.md)

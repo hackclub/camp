@@ -64,6 +64,4 @@ html {
 
 ## Next
 
-I'm just going to go over the remainder of the changes without doing challenges. I challenge you to try to figure out how to do it before copying over the changes yourself.
-
-[Remainder of the CSS](css_rest.md)
+[Changing the font](changing_the_font.md)
