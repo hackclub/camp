@@ -205,6 +205,8 @@ If they have not yet, refer to [Brainstorming](#brainstorming).
 
 ## Forming groups
 
+PAIRED GROUPS: https://docs.google.com/spreadsheets/d/1EAvdMve4Fro-xvWt3OeV7YDr4HOKDhPuAyX1oFoLqcw/edit?usp=sharing
+
 - Assign people to groups.
   - There are social pressures between friends when forming groups. Start by
     assigning the hackers to random groups.
