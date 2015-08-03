@@ -129,12 +129,15 @@ Source: Andrea
 
 Everyone starts off in the “egg” stage and has to act like eggs like being in a
 squatting position. Every “egg” will find another “egg” to play rock paper
-scissors with. Play rock paper scissors until someone wins 2 out of 3. The person that wins the rps round will then evolve into the next stage, which is “chicken,” and has
-to find another “chicken” to play rock paper scissors with. The “losing” person
-will remain an egg and find other eggs to play rock paper scissors with. The
-stages are egg to chicken to monkey to human then to divine being. In each stage, the
-“losing” person will de-evolve into the previous stage or if an egg will remain
-an egg. So if you lose when you're a chicken, then you become an egg again.  Once a person becomes a divine being he/she leaves the game and watches.
+scissors with. Play rock paper scissors until someone wins 2 out of 3. The 
+person that wins the rps round will then evolve into the next stage, which is 
+“chicken,” and has to find another “chicken” to play rock paper scissors with. 
+The “losing” person will remain an egg and find other eggs to play rock paper 
+scissors with. The stages are egg to chicken to monkey to human then to divine 
+being. In each stage, the “losing” person will de-evolve into the previous 
+stage or if an egg will remain an egg. So if you lose when you're a chicken, 
+then you become an egg again.  Once a person becomes a divine being he/she 
+leaves the game and watches.
 Continue until you have a certain number of divine beings agreed upon at the
 beginning of the game.
 
