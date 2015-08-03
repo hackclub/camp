@@ -33,6 +33,9 @@ Pro-tip!
 WHEN TRYING TO LEARN SOMETHING NEW, DON'T COPY AND PASTE CODE OR ELSE
 YOU WON'T REMEMBER IT AS WELL : )
 
+A big part of typing code is muscle memory; you will remember how to do
+something better if you type it.
+
 Also, make sure you keep the same indentation that we do.
 ```
 

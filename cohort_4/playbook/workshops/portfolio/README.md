@@ -10,10 +10,6 @@ Our goal is to build a website that is similar to this: [Live Demo](https://rawg
 
 If you are more experienced in HTML & CSS I challenge you to build this:
 
->![](img/final_screenshot_0.png)
-
-and then this:
-
 > ![](img/final_screenshot.png)
 
 ## Objectives

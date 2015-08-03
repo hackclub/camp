@@ -16,9 +16,11 @@ I don't know what a paragraph tag is so I will google it.
 - `how do you add a paragraph tag in html`
     - Problem: you get better results if you put the topic in the front
 - `html how do you add a paragraph tag`
-    - Problem: the words `how do you` and `a` are extraneous. Google doesn't really care about them.
+    - Problem: the words `how do you` and `a` are extraneous. Google doesn't
+      really care about them.
 - `html add paragraph tag`
-    - Problem: I know how to add a tag now, so I just want more information on the paragraph tag itself.
+    - Problem: I know how to add a tag now, so I just want more information on
+      the paragraph tag itself.
 - `html paragraph tag`
     - awesome.
 
@@ -26,23 +28,27 @@ I don't know what a paragraph tag is so I will google it.
 
 I google `html paragraph tag`
   
-> ![](img/google_paragraph_tag.png)
+![](img/google_paragraph_tag.png)
 
-[The first result](http://www.w3schools.com/tags/tag_p.asp) is titled  `"HTML p tag - W3Schools"`
+[The first result](http://www.w3schools.com/tags/tag_p.asp) is titled `"HTML p
+tag - W3Schools"`
 
-> ![](img/p_tag.png)
+![](img/p_tag.png)
 
-On this page, I see that I can use the p tag similarly to the way I used the `h1` tag:
+On this page, I see that I can use the p tag similarly to the way I used the
+`h1` tag:
 
-> ```html
-> <p>This is some text in a paragraph</p>
-> ```
+```html
+<p>This is some text in a paragraph</p>
+```
 
-I see this that there is a live code demo I can try myself so I immediately click `"Try it Yourself`
+I see this that there is a live code demo I can try myself so I immediately
+click `"Try it Yourself`.
 
-> ![](img/p_example.png)
+![](img/p_example.png)
 
-It seems to tell me that I can  use the paragraph tag the same way I used the `h1` tag
+It seems to tell me that I can use the paragraph tag the same way I used the
+`h1` tag.
 
 ## Creating the p tag
 
@@ -56,8 +62,8 @@ It seems like now, I can take the text that I have:
 and put it inside of `<p></p>`
 
 ```html
-<p>I want show people that the world is malleable. I want them to know they
-can create what's missing and not be afraid to break the status quo.</p>
+<p>I want show people that the world is malleable. I want them to know they can
+create what's missing and not be afraid to break the status quo.</p>
 ```
 
 ## After adding the `p` tag to my code:
@@ -96,7 +102,7 @@ can create what's missing and not be afraid to break the status quo.</p>
 - I make sure that I have clicked on `Preview Running Application`
 - I refresh the preview page to see
 
-> ![](img/paragraph.png)
+![](img/paragraph.png)
 
 ![](img/celebration.gif)
 

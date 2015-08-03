@@ -13,7 +13,8 @@ Let's take a look to see where we are and where we want to make our changes.
 
 You should currently have the below code.
 
-I added a `<!-- ^ NEXT -->` to point out what lines of code will be changed next.
+I added a `<!-- ^ NEXT -->` to point out what lines of code will be changed
+next.
 
 ```html
 <!-- PORTFOLIO -->
@@ -38,7 +39,8 @@ At this point, you know you're supposed to google, but you have no idea what!
 
 So you ask the facillitator:
 
-> I want to put the description on it's own line underneath of the `h1` tag. How do I do that?
+> I want to put the description on it's own line underneath of the `h1` tag. How
+> do I do that?
 
 The facillitator may respond:
 
@@ -46,10 +48,10 @@ The facillitator may respond:
 
 ## The Google Challenge
 
-```
-Challenge!  
+```md
+Challenge!
 Time        __
-           / _)   
+           / _)
     .-^^^-/ /
  __/       /
 <__.|_|-|_|
@@ -58,18 +60,18 @@ Now it's your turn to use Google to figure out how to add a paragraph tag to
 your page!
 ```
 
-```
-Hint!  
+```md
+Hint!
 
   (o)(o)--.
    \../ (  )
    m\/m--m'`--.
 
 You can go back to the previous challenge page to look at how to formulate a
-good Google query. 
+good Google query.
 
-Spend 3 minutes trying use Google and find your answer. If you havn't found
-what you wanted after 3 minutes and we'll explain how you might google this
+Spend 3 minutes trying use Google and find your answer. If you havn't found what
+you wanted after 3 minutes and we'll explain how you might google this
 ```
 
 ## Next
