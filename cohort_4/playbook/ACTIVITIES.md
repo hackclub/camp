@@ -7,6 +7,14 @@
     - [Human Pictionary](#human-pictionary)
     - [I Love My Neighbor Who](#i-love-my-neighbor-who)
     - [Evolution Rock Paper Scissors](#evolution-rock-paper-scissors)
+- [Introduction talk](#introduction-talk)
+    - [Speaking from personal experience.](#speaking-from-personal-experience)
+    - [Why is programming awesome?](#why-is-programming-awesome)
+        - [Our objective running Hack Camp.](#our-objective-running-hack-camp)
+        - [Sports Analogy](#sports-analogy)
+        - [Growth Mindset](#growth-mindset)
+        - [Code of conduct](#code-of-conduct)
+        - [Freedom](#freedom)
 - [Meals](#meals)
     - [Breakfast](#breakfast)
     - [Lunch](#lunch)
@@ -131,6 +139,229 @@ The stages are egg to monkey to human then to divine being. In each stage, the
 an egg. Once a person becomes a divine being he/she leaves the game and watches.
 Continue until you have a certain number of divine beings agreed upon at the
 beginning of the game.
+
+# Introduction talk
+
+Welcome to Hack Camp.
+
+## Speaking from personal experience.
+
+First of all, I wanted to preface that everything we say at Hack Camp comes from
+our own personal experiences. None of the things that I say are necessarily
+right, they are just how I feel. Each of us here, has different opinions and we
+will each share our own views and opinions.
+
+## Why is programming awesome?
+
+- Make School Founder Jeremy Rossman had a really inspirational speech
+- The smartphone in your pocket is more powerful than the computer we used to
+  send a human to the moon.
+- 30 years ago, our smartphones would have been considered more powerful than a
+  super computer.
+- 30 years before that it would have been considered magic.
+- If you walked around in the early 20th century with an iPhone, people would
+  think you could weild magic.
+- And in a world where magic exists, there are people who know how to use magic,
+  and then there are muggles.
+- You want to be in category A.
+- You want to know how to control the devices that can do millions of
+  calculations per second, not for whom those those devices are a mystery
+- Every year that goes by, there are more and more industries that can be
+  transformed by computers. In fact, it's hard to think of an industry that
+  won't be disrupted by technology
+- There are industries that are radically changed by these devices every year
+- If you were the king of the Roman Empire in 25, you would have ruled over 56.8
+  million people
+- By 2016, 2 billion consumers will have smartphones
+- And you, if you can learn to weild magic, just sitting in your underwear in
+  your bedroom, can create expreinces that impact 2 billion lives.
+
+### Our objective running Hack Camp.
+
+You might think that it is my objective for me to teach you this skill of
+programming.
+
+Sure, programming has been a very useful tool for me.
+
+However, learning and viscerally feeling that I can create what I see missing in
+the world, that I didn't have to follow all of the rules, that really changed
+the way I looked at the world.
+
+My goal here at Hack Camp is to share that feeling like that is a possibility.
+
+I want to show you a
+[brief clip with Steve Jobs](https://youtu.be/kYfNvmF0Bqw?t=15s) that I think
+sums this up well.
+
+And the first step in being able to create what you see missing in the world is
+viscerally believing that you are capable of doing it.
+
+### Sports Analogy
+
+Let's take a look at sports for a second.
+
+*If I went went on a run, how might I know if I've gotten a good exercise?*
+
+> Wait
+
+Yeah, when I'm out of breath and my muscles start burning.
+
+*Should I exercise as much as an olympic athele?*
+
+> Wait
+
+No, of course not, I can barely run `insert how much you actually run` right
+now. I might actually die if I did that.
+
+*Should the exercise an olympic athelte does be easy for them?*
+
+No of course not. They should be equally as out of breath and having their
+muscles burned if not more.
+
+*So why are olympic atheletes more fit than me? Are they just born more fit?*
+
+> Wait for response
+
+No, they've just practiced and exercised many *many*, more hours than I have.
+
+*Well for programming, how might you know that you've gotten a good exercise?*
+
+> Wait
+
+When you don't know how to do something, and you start getting confused, and
+your brain starts hurting. That's when you have gotten a good exercise.
+
+*What does it mean if you don't get confused, your brain doesn't hurt, and you
+ know everything?*
+
+It means that you're not learning anything new. You're just doing really boring
+easy things and not stretching yourself.
+
+### Growth Mindset
+
+I want to share a piece of research with you that has really impacted the way I
+thought about myself.
+
+A Stanford University professor named Carol Dweck studies this phenomenon she
+calls mindset.
+
+On one side of the mindset scale is fixed mindset, which means that you believe
+that your abilities in something are fixed.
+
+On the other side of the mindset scale is growth mindset, which means that you
+believe that your abilities in something can be improved.
+
+If I were to say, I'm not really a math person, that means that you believe that
+your abilities in math are fixed. That you were born with some finite set of
+math abilities and they couldn't be improved.
+
+If I were to say, "Yeah, I'm not really that artistic" it means that you think
+that your art abilities are fixed. That you were born with a limited artistic
+ability and you couldn't improve it.
+
+If I were to say, "Yeah, I'm not that good with girls and I'm not that good with
+boys either, you believe that your ability with men or women is fixed."
+
+If you had a growth mindset about math, you might instead say "I'm not that good
+at math right now because I havn't spent too much time practicing it because I'm
+not too intrested in it"
+
+If you had a growth mindset about art, you might say that I don't really have
+too much experience in art right now so I'm pretty bad at it but I'm actually
+pretty interested in it and would love to learn more.
+
+So there are people here of all different skill levels of programming in this
+room. Take `INSERT NAME OF PERSON HERE THAT IS BETTER AT CODING THAN YOU WHO IS
+IDEALLY IN THE ROOM OR AT LEAST THAT SOMEONE ELSE KNOWS ABOUT`, they are much
+better than me at programming. Now why is that? Is it because they are just
+smarter than me?
+
+> Wait for answer
+
+No, it's because they've spent a lot more hours programming than I have.
+
+So when you're learning something, should you be learning the same concepts and
+building as quickly `ABOVE NAME`. Should you be picking up things at the same
+rate?
+
+No, of course not! They have spent a lot more time practicing as you. Once
+you've spent as many hours (note hours, not years) as them, then you can expect
+similar results.
+
+There's an interesting experiment that they did with this:
+
+She gave an exam to engineering students who she told was a measure of their
+aptitude. They made sure that they did well on 2 of the tests but not on a
+third.
+
+Then they asked, which one do you want to take a tutorial in? After the
+tutorial, we'll give you the test for that subject again and give you a
+certificuit with a score emblazed on a certificuit.
+
+Those with a growth mindset overwhelmingly chose to take the tutorial in the
+subject that they did poorly on.
+
+This seems to make sense because they can improve the skill they are the weakest
+on.
+
+However, those with a fixed mindset overwhelmingly chose to take the tutorial in
+one of the subjects they did well on.
+
+For those with fixed mindsets, errors and setbacks are calamaties, they are the
+surest sign of unworthyness and they think, "I must hide my errors, I must not
+let people know or else they will think I am stupid". This fear of errors in
+those with a fix mindset closes people off to learning and growth.
+
+When researcher from the University of Michigan, Jason Moser monitored brain
+activity while someone with a growth mindset makes an error, the anterior
+cingulate cortex, the part of the brain that monitors for errors, is extremely
+active and processing.
+
+And if you actually look at brain activity of someone with a fixed mindset, this
+area of the brain is completely shut off.
+
+At hack camp, we want to celebrate learning so we want to celebrate when we make
+errors.
+
+*So is the primary objective of Hack Camp to learn coding?*
+
+No, not really. Think about this as an analog to a creative writing camp. You
+wouldn't spend all day in a creative writing camp learning grammar.
+
+You would be there thinking about what stories you could craft, how you could
+move people's emotions, how you could sway someone's opinions.
+
+I see programming as a tool for two things.
+
+- a medium for self expression
+- a tool to solve problems
+
+and the most important part of doing those two things is knowing that you can do
+it. This is what hack camp is about.
+
+*Don't Ask For Permission, beg for forgiveness*
+
+Don't ask us whether you can do something or not in hack-camp, just do it. 
+
+Ask us for forgiveness later.
+
+There are no rules at hack camp, except one.
+
+### Code of conduct
+
+It is extremely important for us that Hack Camp is a safe space for each and
+every hacker (yes, you are a hacker). That means that it is your job to make
+sure that you do your best to make this a comfortable space for other people.
+
+### Freedom
+
+Therefore, everything at Hack Camp is optional. If you ever ask, do I really
+"have to do this", the answer is no, you don't. That being said however, in Hack
+Camp we will be following a set schedule, and if you'd like to deviate, please
+do so. However, if you don't follow along with the workshops or don't build
+projects in the schedule, you might be able to go in more of a direction you may
+want to go in but there's also a chance that you'll fall behind - the choice is
+up to you.
 
 # Meals
 
