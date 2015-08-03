@@ -4,13 +4,14 @@ Let's figure out how to add the image at the top of the page:
 
 **What we want:**
 
-> ![](img/desired_image.png)
+![](img/desired_image.png)
 
 **What we have:**
 
-> ![](img/url_not_image.png)
+![](img/url_not_image.png)
 
-Right now we just have a URL for the image displaying as text but want the actual image to be shown on the page.
+Right now we just have a URL for the image displaying as text but want the
+actual image to be shown on the page.
 
 ## Looking at the Outline
 
@@ -18,7 +19,8 @@ Let's take a look to see where we are and where we want to make our changes.
 
 You should currently have the below code.
 
-I added a `<!--<<<<< NEXT -->` to point out what lines of code will be changed next.
+I added a `<!--<<<<< NEXT -->` to point out what lines of code will be changed
+next.
 
 ```html
 <!DOCTYPE html>
@@ -48,10 +50,10 @@ I added a `<!--<<<<< NEXT -->` to point out what lines of code will be changed n
 
 ## The Image Challenge
 
-```
-Challenge!  
+```md
+Challenge!
 Time        __
-           / _)   
+           / _)
     .-^^^-/ /
  __/       /
 <__.|_|-|_|
@@ -67,7 +69,9 @@ For this challenge, I don't think I need to give you a hint for what
 to google for, I think you can figure it out!
 
 
-IMPORTANT: To save time and to limit frustration, spend 3 minutes trying figure out how to do this. If you havn't found what you wanted after 3 minutes just advance to the next page and we'll walk you through it!
+IMPORTANT: To save time and to limit frustration, spend 3 minutes trying figure
+out how to do this. If you havn't found what you wanted after 3 minutes just
+advance to the next page and we'll walk you through it!
 ```
 
 ```

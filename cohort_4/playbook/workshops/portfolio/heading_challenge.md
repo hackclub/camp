@@ -122,21 +122,20 @@ Pro-tip!
 ./)_)
   " "
 
-An important note about W3Schools: I would treat it like Wikipedia in 
-that it's probably is a good place to get started (it is very beginner
-friendly) but its facts are not necessarily reliable.
+An important note about W3Schools: I would treat it like Wikipedia; it's
+probably is a good place to get started (it is very beginner friendly) but its
+facts are not necessarily reliable.
 
 Sometimes their recommendations do not follow best practice or are sometimes
 just completely wrong.
 
-If you're not sure about something, check another source like Mozilla 
-Developer Networks (which is a very reliable source but is a lot less
-beginner friendly).
+If you're not sure about something, check another source like Mozilla Developer
+Networks (which is a very reliable source but is a lot less beginner friendly).
 ```
 
 ## Adding the h1 tag to our `index.html` file
 
-```
+```md
 Note: in this and subsequent snippets of code, I will add the text
 
     <!-- CHANGE -->

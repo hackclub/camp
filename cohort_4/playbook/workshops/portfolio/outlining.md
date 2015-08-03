@@ -8,15 +8,16 @@ Our objective is to make this:
 
 ## Laying Out the Structure
 
-The first thing that Jonathan personally does when making a website sketching out the structure of the website.
+The first thing that Jonathan personally does when making a website sketching
+out the structure of the website.
 
 Jonathan does this by making a bulleted point list.
 
 ## Example: Laying out Google.com
 
-Let's say Jonathan was trying to rebuild the html of `google.com`
+Let's say Jonathan was trying to rebuild the html of `google.com`.
 
-Before he even starts coding, Jonathan lays out the sections of the website
+Before he even starts coding, Jonathan lays out the sections of the website.
 
 ![](img/google.png)
 
