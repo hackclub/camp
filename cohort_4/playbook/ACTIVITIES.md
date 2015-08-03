@@ -71,12 +71,12 @@ arriving.
 
 ```
 Time: 10 min
-Materials: None
-Team Sizes:
+Materials: none
+Team sizes:
 
-  - when 4-8 people, group into teams of size 2
-  - when 9-12 people, group into teams of size 3
-  - when 13+ people, group into teams of size 4 or 5
+- when 4-8 people, group into teams of size 2
+- when 9-12 people, group into teams of size 3
+- when 13+ people, group into teams of size 4 or 5
 ```
 
 - Organize the students get into teams.
@@ -97,8 +97,8 @@ Team Sizes:
 
 ```
 Time: 5 to 15 minutes
-Materials: None
-Number: Best for 10-35
+Materials: none
+Number: best for 10-35
 ```
 
 - Get everyone into a circle
@@ -122,8 +122,8 @@ Number: Best for 10-35
 
 ```
 Time: 5 to 15 minutes
-Materials: None
-Number: Best for 10-30
+Materials: none
+Number: best for 10-30
 Source: Andrea
 ```
 
