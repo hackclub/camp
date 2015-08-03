@@ -1,7 +1,7 @@
 #Solution: Using margins to adjust elements
 To recap, we want to move the picture downwards, because currently it is too high up.  
 ##Googling the solution
-• I google ```css margin```
+• I google ```css margin```
 > ![](img/margin.png)
 
 • I open the first result: [CSS Margin - W3Schools](http://www.w3schools.com/css/css_margin.asp)
@@ -25,6 +25,7 @@ margin-top: (someNumber)px;
 
 ##The Result
 • I make sure I have clicked on ```Preview Running Application```
+
 • I refresh the preview page to see: 
 > ![](img/margin_top.png)
 
