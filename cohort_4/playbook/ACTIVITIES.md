@@ -42,9 +42,9 @@
 2. Have the assigned leader text all of the hackers the morning of with
    something along the lines of the following:
 
-   > Hey Alice! Can't wait to see you this morning. Just as a quick reminder,
-   > the address is 44 Tehama Street in San Francisco. Can you shoot me a text
-   > or give me a call when you get here?
+  > Hey Alice! Can't wait to see you this morning. Just as a quick reminder,
+  > the address is 44 Tehama Street in San Francisco. Can you shoot me a text
+  > or give me a call when you get here?
 
 3. Have the assigned leader wait in the lobby for arriving hackers.
 4. When a hacker arrives, have the assigned leader guide them down to the
@@ -73,13 +73,13 @@ Team Sizes:
 
 - Organize the students get into teams.
 - Announce that there is no talking in this activity
-- Facilitator(s) will call out a random prompt (e.g. iPhone, giraffe, 
-  surfboard) and start the 30 second timer. 
-- Each team tries to represent that the prompt with their bodies in that time. 
-- At the end of the 30 seconds, everyone will freeze as the facilitator(s)
-  goes around and judges the teams and makes funny and comments. 
-  - "This group is trying really hard not to fall. It really does look like 
-    the leaning tower of Pizza. Bonus points on being very angled."
+- Facilitator(s) will call out a random prompt (e.g. iPhone, giraffe, surfboard)
+  and start the 30 second timer.
+- Each team tries to represent that the prompt with their bodies in that time.
+- At the end of the 30 seconds, everyone will freeze as the facilitator(s) goes
+  around and judges the teams and makes funny and comments.
+  - "This group is trying really hard not to fall. It really does look like the
+    leaning tower of Pizza. Bonus points on being very angled."
 - After observing all the groups, the facilitator announces the winner.
 - The facilitator tells the winning team gets to pick, announce, and judge the
   next round.
@@ -122,9 +122,9 @@ Source: Andrea
 Everyone starts off in the “egg” stage and has to act like eggs like being in a
 squatting position. Every “egg” will find another “egg” to play rock paper
 scissors with. Play rock paper scissors 3 times (one round) to see if either
-wins 2 out of 3. If not, play another round etc. until someone wins a round 2
-out of 3. The person that wins will then evolve into the next stage  “monkey”
-and has to find another “monkey” to play rock paper scissors with. The “losing”
+wins 2 out of 3. If not, play another round until someone wins a round 2
+out of 3. The person that wins will then evolve into the next stage “monkey” and
+has to find another “monkey” to play rock paper scissors with. The “losing”
 person will remain an egg and find other eggs to play rock paper scissors with.
 The stages are egg to monkey to human then to divine being. In each stage, the
 “losing” person will de-evolve into the previous stage or if an egg will remain

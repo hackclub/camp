@@ -40,7 +40,6 @@ will be followed by project-time that day.
 | P      | D       | P         | D        | P      |
 | MD     |         | MD        |          | MD     |
 
-
 ## Week 2
 
 | Monday | Tuesday | Wednesday | Thursday | Friday |
@@ -64,12 +63,13 @@ will be followed by project-time that day.
 | 8:30 AM  | Standups                                                     |
 | 9:20 AM  | [Hacker arrival](ACTIVITIES.md#hacker-arrival)               |
 | 9:30 AM  | Galvanize tour                                               |
-| 9:40 AM  | Energizer                                                    |
-| 10:00 AM | [Breakfast](activities.md#breakfast)                         |
+| 9:40 AM  | [Energizer 1](ACTIVITIES.md#where-the-west-wind-blows)       |
+| 9:50 AM  | [Energizer 2](ACTIVITIES.md#i-love-my-neighbor-who)          |
+| 10:00 AM | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:30 AM | Introduction talk                                            |
-| 10:40 AM | [Portfolio workshop](activities.md#portfolio)                |
-| 12:30 PM | [Lunch](activities.md#lunch)                                 |
-| 1:30 PM  | Energizer                                                    |
+| 10:40 AM | [Portfolio workshop](ACTIVITIES.md#portfolio)                |
+| 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
+| 1:30 PM  | [Energizer 3](ACTIVITIES.md#evolution-rock-paper-scissors)   |
 | 2:00 PM  | Creating groups                                              |
 | 2:05 PM  | Brainstorming projects                                       |
 | 2:20 PM  | Project time                                                 |
