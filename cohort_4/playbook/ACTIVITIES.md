@@ -2,6 +2,9 @@
 **Table of Contents**
 
 - [Hacker arrival](#hacker-arrival)
+- [Energizers](#energizers)
+  - [Where The West Wind Blows](#where-the-west-wind-blows)
+  - [I Love My Neighbor Who ___](#i-love-my-neighbor-who-___)
 - [Meals](#meals)
     - [Breakfast](#breakfast)
     - [Lunch](#lunch)
@@ -49,6 +52,50 @@
 
 It may be a good idea to play some music in the hackerspace while people are
 arriving.
+
+# Energizers
+
+## Where The West Wind Blows
+
+## Human Pictionary
+
+```
+Time: 10 min
+Materials: None
+Team Sizes: 
+  - when 4-8 people, group into teams of size 2
+  - when 9-12 people, group into teams of size 3
+  - when 13+ people, group into teams of size 4 or 5
+```
+
+**Facilitation:**
+
+- Organize the students get into teams.
+- Announce that there is no talking in this activity
+- Facilitator(s) will call out a random prompt (e.g. iPhone, giraffe, surfboard) and start the 30 second timer. 
+- Each team tries to represent that the prompt with their bodies in that time. 
+- At the end of the 30 seconds, everyone will freeze as the facilitator(s) goes around and judges the teams and makes funny and comments. 
+  - "This group is trying really hard not to fall. It really does look like th leaning tower of Pizza. Bonus points on being very angled."
+- After observing all the groups, the facilitator announces the winner.
+- The facilitator tells the winning team gets to pick, announce, and judge the next round.
+- You can repeat this for the duration you want this activity.
+
+## I Love My Neighbor Who ___
+
+```
+Time: 5 to 15 minutes
+Materials: None
+Number: Best for 10-35
+```
+
+**Facilitation:**
+
+- Get everyone into a circle
+- Facilitator starts "in the middle" by filling in “My name is ______. I love my neighbor who _____” with anything that applies to him/her such as “I love my neighbor who dances.” or “I love my neighbor who loves sushi”.
+- People whom the statement also applies to have to move and find another spot in the circle.
+- The last person trying to find a spot will then become the next person in the middle. He/she will fill in the statement “My name is ______. I love my neighbor who ________”. 
+- The pattern continues. If someone is in the middle more than once you can have someone who hasn’t been in the middle go in instead so we get to know everyone’s names.
+- You can also encourage people to say things that apply to them that they don't think will apply to others. That way, it gets people to share things that they think "could only apply to them" and when they realize when it applies to someone else, bonding happens.
 
 # Meals
 
