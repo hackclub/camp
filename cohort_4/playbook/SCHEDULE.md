@@ -64,12 +64,13 @@ will be followed by project-time that day.
 | 8:30 AM  | Standups                                                     |
 | 9:20 AM  | [Hacker arrival](ACTIVITIES.md#hacker-arrival)               |
 | 9:30 AM  | Galvanize tour                                               |
-| 9:40 AM  | Energizer                                                    |
+| 9:40 AM  | [Energizer 1](ACTIVITIES.md#where-the-west-wind-blows)       |
+| 9:50 AM  | [Energizer 2](ACTIVITIES.md#i-love-my-neighbor-who)          |
 | 10:00 AM | [Breakfast](ACTIVITIES.md#breakfast)                         |
-| 10:30 AM | Introduction talk                                            |
+| 10:30 AM | [Introduction talk](ACTIVITIES.md#introduction-talk)         |
 | 10:40 AM | [Portfolio workshop](ACTIVITIES.md#portfolio)                |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
-| 1:30 PM  | Energizer                                                    |
+| 9:50 AM  | [Energizer 3](ACTIVITIES.md#evolution-rock-paper-scissors)   |
 | 2:00 PM  | [Brainstorming](ACTIVITIES.md#brainstorming)                 |
 | 2:20 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 3:40 PM  | [I have failed circle](ACTIVITIES.md#i-have-failed-activity) |
