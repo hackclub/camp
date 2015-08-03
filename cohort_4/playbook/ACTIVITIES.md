@@ -130,11 +130,11 @@ Source: Andrea
 Everyone starts off in the “egg” stage and has to act like eggs like being in a
 squatting position. Every “egg” will find another “egg” to play rock paper
 scissors with. Play rock paper scissors 3 times (one round) to see if either
-wins 2 out of 3. If not, play another round until someone wins a round 2
-out of 3. The person that wins will then evolve into the next stage “monkey” and
-has to find another “monkey” to play rock paper scissors with. The “losing”
-person will remain an egg and find other eggs to play rock paper scissors with.
-The stages are egg to monkey to human then to divine being. In each stage, the
+wins 2 out of 3. If not, play another round until someone wins a round 2 out
+of 3. The person that wins will then evolve into the next stage “monkey” and has
+to find another “monkey” to play rock paper scissors with. The “losing” person
+will remain an egg and find other eggs to play rock paper scissors with. The
+stages are egg to monkey to human then to divine being. In each stage, the
 “losing” person will de-evolve into the previous stage or if an egg will remain
 an egg. Once a person becomes a divine being he/she leaves the game and watches.
 Continue until you have a certain number of divine beings agreed upon at the
@@ -341,7 +341,7 @@ it. This is what hack camp is about.
 
 *Don't Ask For Permission, beg for forgiveness*
 
-Don't ask us whether you can do something or not in hack-camp, just do it. 
+Don't ask us whether you can do something or not in hack-camp, just do it.
 
 Ask us for forgiveness later.
 
@@ -413,12 +413,17 @@ then).
 
 ### Running it
 
-- talk about the ratio / schedule of workshops to projects (to illustrate the point that we are only doing these workshops to give you experience to work on your own projects)
-- today you're going to learn how to build a very basic website and learn about the fundamentals of building a website
-- the website we are learning to emulate [looks like this](https://rawgit.com/hackedu/hack-camp/20618752b7afa95bbbc5c5ba80c17874ec5e0a35/cohort_4/playbook/workshops/portfolio/src/final_portfolio/index.html)
+- talk about the ratio / schedule of workshops to projects (to illustrate the
+  point that we are only doing these workshops to give you experience to work on
+  your own projects)
+- today you're going to learn how to build a very basic website and learn about
+  the fundamentals of building a website
+- the website we are learning to emulate
+  [looks like this](https://rawgit.com/hackedu/hack-camp/20618752b7afa95bbbc5c5ba80c17874ec5e0a35/cohort_4/playbook/workshops/portfolio/src/final_portfolio/index.html)
 - you will be making a simpler version of that
 - some of you already have a lot of experience with HTML & CSS
-  - feel free to skim through or skip the guide and try to emulate the website or work on making a more complex or different website
+  - feel free to skim through or skip the guide and try to emulate the website
+    or work on making a more complex or different website
   - also fee free to use your own IDEs
 - Give a brief overview of HTML, CSS and JS
   - There are 3 components to a webpage
@@ -598,8 +603,8 @@ This activity will:
 
 - Enable people to acknowledge their failures because they know that the
   response they will be met with support, not judgment
-- It gives everyone else an appropriate response when someone fails so they
-  know what to do.
+- It gives everyone else an appropriate response when someone fails so they know
+  what to do.
 
 Demos will involve failing in front of the whole club. This activity is a good
 preface to get the hackers into a positive mindset about public failure. It is
