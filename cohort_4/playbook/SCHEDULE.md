@@ -70,11 +70,10 @@ will be followed by project-time that day.
 | 10:40 AM | [Portfolio workshop](ACTIVITIES.md#portfolio)                |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
 | 1:30 PM  | Energizer                                                    |
-| 2:00 PM  | Creating groups                                              |
-| 2:05 PM  | Brainstorming projects                                       |
-| 2:20 PM  | Project time                                                 |
+| 2:00 PM  | [Brainstorming](ACTIVITIES.md#brainstorming)                 |
+| 2:20 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 3:40 PM  | [I have failed circle](ACTIVITIES.md#i-have-failed-activity) |
-| 3:50 PM  | Demos                                                        |
+| 3:50 PM  | [Demos](ACTIVITIES.md#demos)                                 |
 | 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
 | 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
 | 4:45 PM  | Post-mortem (ending at 5:30 PM)                              |
