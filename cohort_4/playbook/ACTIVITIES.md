@@ -100,7 +100,20 @@ then).
 
 ### Running it
 
-TODO
+- talk about the ratio / schedule of workshops to projects (to illustrate the point that we are only doing these workshops to give you experience to work on your own projects)
+- today you're going to learn how to build a very basic website and learn about the fundamentals of building a website
+- the website we are learning to emulate [looks like this](https://rawgit.com/hackedu/hack-camp/20618752b7afa95bbbc5c5ba80c17874ec5e0a35/cohort_4/playbook/workshops/portfolio/src/final_portfolio/index.html)
+- Your version will look like this 
+  - Link
+- Live demo of what HTML, CSS, and JS is
+  - There are 3 components to a webpage
+    - HTML, CSS, and Javascript
+  - Open up Facebook
+    - 
+  
+
+> open demo of the [final site
+
 
 ## Maestro
 
