@@ -413,7 +413,30 @@ then).
 
 ### Running it
 
-TODO
+- talk about the ratio / schedule of workshops to projects (to illustrate the point that we are only doing these workshops to give you experience to work on your own projects)
+- today you're going to learn how to build a very basic website and learn about the fundamentals of building a website
+- the website we are learning to emulate [looks like this](https://rawgit.com/hackedu/hack-camp/20618752b7afa95bbbc5c5ba80c17874ec5e0a35/cohort_4/playbook/workshops/portfolio/src/final_portfolio/index.html)
+- you will be making a simpler version of that
+- some of you already have a lot of experience with HTML & CSS
+  - feel free to skim through or skip the guide and try to emulate the website or work on making a more complex or different website
+  - also fee free to use your own IDEs
+- Give a brief overview of HTML, CSS and JS
+  - There are 3 components to a webpage
+    - HTML, CSS, and Javascript
+  - HTML is for the Data
+  - CSS is for the look and feel
+  - Javascript is for interactivity
+  - Open up Facebook
+    - This website has all 3
+    - Open the chrome console, delete the head tag (which deletes the styles)
+      - This is what a page looks like without CSS
+    - These are the two we're focusing on Today
+- Paste link to workshop.
+  - Here is the link to the workshop
+  - Talk about how it's important to ask for help
+    - From facilitators
+    - From your peers
+    - Encourage collaboration
 
 ## Maestro
 
