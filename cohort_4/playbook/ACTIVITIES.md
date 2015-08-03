@@ -2,6 +2,7 @@
 **Table of Contents**
 
 - [Hacker arrival](#hacker-arrival)
+- [Introduction talk](#introduction-talk)
 - [Meals](#meals)
     - [Breakfast](#breakfast)
     - [Lunch](#lunch)
@@ -49,6 +50,33 @@
 
 It may be a good idea to play some music in the hackerspace while people are
 arriving.
+
+# Introduction talk
+
+Address the Following Questions
+
+**Why are we even running Hack Camp?**
+
+We want to show you that there is the possibility of creating what you see missing in the world and not being afraid to break the rules.
+
+**Is the primary objective of Hack Camp to learn coding?**
+
+No, it is not. Think about this as an analog to a creative writing club. They wouldn't spend all day teaching you grammar. You would spend your time writing creative pieces that you come up with on your own.
+
+We see programming as
+
+- a medium for self expression
+- a tool to solve problems
+
+**Don't Ask For Permission, beg for forgiveness**
+
+Don't ask us whether you can do something or not in hack-camp, just do it.
+
+Ask us for forgiveness later.
+
+- Freedom
+  - https://github.com/hackedu/hack-camp/tree/cohort_4-portfolio/cohort_4
+
 
 # Meals
 
