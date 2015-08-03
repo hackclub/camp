@@ -64,7 +64,7 @@ will be followed by project-time that day.
 | 8:30 AM  | Standups                                                     |
 | 9:20 AM  | [Hacker arrival](ACTIVITIES.md#hacker-arrival)               |
 | 9:30 AM  | Galvanize tour                                               |
-| 9:40 AM  | Energizer                                                    |
+| 9:40 AM  | [Energizer 1](ACTIVITIES.md#where-the-west-wind-blows) & [Energizer 2](#i-love-my-neighbor-who-___)                                 |
 | 10:00 AM | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:30 AM | Introduction talk                                            |
 | 10:40 AM | [Portfolio workshop](ACTIVITIES.md#portfolio)                |
