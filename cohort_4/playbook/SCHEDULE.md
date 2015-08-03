@@ -61,6 +61,7 @@ will be followed by project-time that day.
 
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
+| 8:30 AM  | Standups                                                     |
 | 9:20 AM  | [Hacker arrival](ACTIVITIES.md#hacker-arrival)               |
 | 9:30 AM  | Galvanize tour                                               |
 | 9:40 AM  | Energizer                                                    |
@@ -71,11 +72,12 @@ will be followed by project-time that day.
 | 1:30 PM  | Energizer                                                    |
 | 2:00 PM  | Creating groups                                              |
 | 2:05 PM  | Brainstorming projects                                       |
-| 2:15 PM  | Project time                                                 |
-| 3:55 PM  | [I have failed circle](ACTIVITIES.md#i-have-failed-activity) |
-| 4:00 PM  | Demos                                                        |
+| 2:20 PM  | Project time                                                 |
+| 3:40 PM  | [I have failed circle](ACTIVITIES.md#i-have-failed-activity) |
+| 3:50 PM  | Demos                                                        |
 | 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
 | 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
+| 4:45 PM  | Post-mortem (ending at 5:30 PM)                              |
 
 Day layout copied from [here](../prep/meetings/15-07-27_sprint_discuss.md).
 
