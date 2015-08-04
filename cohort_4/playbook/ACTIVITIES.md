@@ -46,7 +46,8 @@
 
 # Hacker arrival
 
-1. Assign two leaders to manage hacker arrival.
+1. Assign two leaders to manage hacker arrival and one leader to manage scanning
+   of acceptance packets.
 2. Have the assigned leaders text all of the hackers the morning of with
    something along the lines of the following:
 
@@ -58,7 +59,12 @@
 4. When a hacker arrives, have one of the assigned leaders guide them down to
    the hackerspace in the basement, mark their arrival in the
    [attendance sheet](https://docs.google.com/spreadsheets/d/1Em5tUQdm4dXnthtWr4zY4KR9Q6JZMV_Hl2n6G9Ti9Bg/edit),
-   and then head back up to the lobby to wait for more arriving hackers.
+   collect and set aside their acceptance packet (they were emailed a packet
+   full of waivers to sign before the cohort started), and then head back up to
+   the lobby to wait for more arriving hackers.
+5. Have the leader assigned for managing acceptance packets make sure they are
+   scanned and uploaded to the shared Google Drive folder before the day is
+   over.
 
 It may be a good idea to play some music in the hackerspace while people are
 arriving.
