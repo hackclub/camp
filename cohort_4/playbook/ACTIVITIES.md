@@ -683,7 +683,7 @@ day.
 For example, if the following is the schedule for the day:
 
 | Time     | Activity     |
-|----------+--------------|
+| -------- | ------------ |
 | 9:20 AM  | Energizer    |
 | 9:45 AM  | Breakfast    |
 | 10:15 AM | Project time |
