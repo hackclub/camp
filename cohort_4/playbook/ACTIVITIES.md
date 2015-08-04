@@ -39,6 +39,7 @@
 - ["I have failed" activity](#i-have-failed-activity)
 - [Feedback Forms](#feedback-forms)
 - [Finishing off the day](#finishing-off-the-day)
+- [Post-mortem](#post-mortem)
 - [Using Slack](#using-slack)
     - [Asking for help](#asking-for-help)
 
@@ -667,6 +668,35 @@ We generally do two final things to finish off the day.
    put our hands in, and, on three, all yell "Hack!"
 
 ![](img/hack_cheer.gif)
+
+# Post-mortem
+
+The post-mortem is a meeting between everyone involved in running Hack Camp and
+is our opportunity to review the day and plan for the next.
+
+During the post-mortem we'll visit each row in the schedule for the day (see
+[`SCHEDULE.md`](SCHEDULE.md) for the daily schedules) and have everyone in the
+meeting share any thoughts/notes on that item. As we're reading through each
+row, we'll be deciding tasks for that evening and things to do for the following
+day.
+
+For example, if the following is the schedule for the day:
+
+| Time     | Activity     |
+|----------+--------------|
+| 9:20 AM  | Energizer    |
+| 9:45 AM  | Breakfast    |
+| 10:15 AM | Project time |
+
+The agenda for the post-mortem will be:
+
+1. Energizer
+2. Breakfast
+3. Project time
+
+We'll be doing our best to keep the post-mortems as brief as possible, so
+_please come prepared with what you want to bring up for each item in the
+post-mortem's agenda_.
 
 # Using Slack
 
