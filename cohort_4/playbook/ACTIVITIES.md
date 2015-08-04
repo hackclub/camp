@@ -367,20 +367,20 @@ up to you.
 
 ## Breakfast
 
-Plan to eat breakfast as a large group every morning on the roof of the
+Plan to eat breakfast as a large group every morning on the third floor of the
 building.
 
 How to get it going:
 
 1. Assign a leader to set up breakfast while hackers are still arriving.
 2. To set up breakfast, the leader will need to:
-  1. Bring the food we have for breakfast from the third floor to the roof of
-     the building. Our food is in the cabinets below the stove in the kitchen
+  1. Bring the food we have for breakfast from the kitchen to the third floor
+     dining tables. Our food is in the cabinets below the stove in the kitchen
      past the open working space on the third floor (not the kitchen right next
      to the stairs).
-  2. Move tables together on the roof and bring chairs together.
+  2. Move tables together and bring chairs together.
 3. Once the leader has set up breakfast, and when it's time to do breakfast,
-   have everyone take the stairs to the roof.
+   have everyone take the stairs to the third floor.
 
 The hackers may be pretty quiet during breakfast, especially on the first day,
 we recommend taking this opportunity as a time to engage with them on a more
