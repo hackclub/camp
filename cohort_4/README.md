@@ -2,8 +2,10 @@
 
 ## Table of Contents
 
-- [Waivers](waivers/)
-  - [Acceptance packet](waivers/acceptance_packet.pdf)
+- [Meetings](./meetings/)
+- [Playbook](./playbook/)
+- [Waivers](./waivers/)
+  - [Acceptance packet](./waivers/acceptance_packet.pdf)
 
 ## Who's running it?
 
