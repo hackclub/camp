@@ -87,11 +87,11 @@ Day layout copied from [here](../prep/meetings/15-07-27_sprint_discuss.md).
 | -------- | ------------------------------------------------- |
 | 9:20 AM  | Energizer                                         |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)              |
-| 10:15 AM | Project time                                      |
+| 10:15 AM | [Project time](ACTIVITIES.md#freeform-projects)   |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                      |
 | 1:30 PM  | Energizer                                         |
-| 2:00 PM  | Project time                                      |
-| 4:00 PM  | Demos                                             |
+| 2:00 PM  | [Project time](ACTIVITIES.md#freeform-projects)   |
+| 4:00 PM  | [Demos](ACTIVITIES.md#demos)                      |
 | 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)     |
 | 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day) |
 
