@@ -714,8 +714,10 @@ changes.
 If a hacker says `slackbot help` in anywhere besides a PM in the Slack, all of
 the technical mentors for Hack Camp will be pinged. For example:
 
+```
 > 3:35 PM <mahahahajan> slackbot help
 > 3:35 PM <slackbot> gemma jonleung maxw rolandocruz saescapa selynna zrl
+```
 
 If you'd like to be added/removed from the list, let
 [@zachlatta](https://github.com/zachlatta) know and he'll get right on it (say
