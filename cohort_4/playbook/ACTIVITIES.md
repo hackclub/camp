@@ -141,7 +141,16 @@ leaves the game and watches.
 Continue until you have a certain number of divine beings agreed upon at the
 beginning of the game.
 
-For example, assume there are 6 people, and they all default start at the "egg" stage.  There will be 3 rounds of rock paper scissors total, so egg1 - egg2, egg3 - egg4, egg5 - egg6.  There will then be 3 winners, so chicken1 egg2 egg3 chicken4 egg5 chicken6, for example.  Then, there will be 2 rounds going on, since there are an odd number of chickens and eggs:  chicken1 - chicken6, egg2 - egg3, while chicken4 and egg5 wait for partners.  Then when people lose, an example scenario is: egg1, monkey6, chicken2, egg3, chicken4, and egg5.  This continues until there are a specific number of divine beings you decide upon.   
+For example, assume there are 6 people, and they all default start at the 
+"egg" stage.  There will be 3 rounds of rock paper scissors total, so 
+egg1 - egg2, egg3 - egg4, egg5 - egg6.  There will then be 3 winners, so 
+chicken1 egg2 egg3 chicken4 egg5 chicken6, for example.  Then, there will 
+be 2 rounds going on, since there are an odd number of chickens and eggs:
+chicken1 - chicken6, egg2 - egg3, while chicken4 and egg5 wait for partners.
+Then when people lose, an example scenario is: egg1, monkey6, chicken2, 
+egg3, chicken4, and egg5.  This continues until there are a specific number 
+of divine beings you decide upon.   
+
 # Introduction talk
 
 Welcome to Hack Camp.
