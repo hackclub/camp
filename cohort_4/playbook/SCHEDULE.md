@@ -87,7 +87,7 @@ Day layout copied from [here](../prep/meetings/15-07-27_sprint_discuss.md).
 | -------- | ------------------------------------------------------------ |
 | 9:20 AM  | Energizer                                                    |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
-| 10:15 AM | [Project time](ACTIVITIES.md#freeform-projects)              |
+| 10:00 AM | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
 | 1:30 PM  | Energizer                                                    |
 | 2:00 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
@@ -102,7 +102,7 @@ Day layout copied from [here](../prep/meetings/15-07-27_sprint_discuss.md).
 | -------- | ------------------------------------------------------------ |
 | 9:20 AM  | Energizer                                                    |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
-| 10:15 AM | [Maestro workshop](ACTIVITIES.md#maestro)                    |
+| 10:00 AM | [Maestro workshop](ACTIVITIES.md#maestro)                    |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
 | 1:30 PM  | Energizer                                                    |
 | 2:00 PM  | Project time                                                 |
@@ -117,7 +117,7 @@ Day layout copied from [here](../prep/meetings/15-07-27_sprint_discuss.md).
 | -------- | ------------------------------------------------------------ |
 | 9:20 AM  | Energizer                                                    |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
-| 10:15 AM | Project time                                                 |
+| 10:00 AM | Project time                                                 |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
 | 1:30 PM  | Energizer                                                    |
 | 2:00 PM  | Project time                                                 |
