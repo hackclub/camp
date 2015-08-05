@@ -691,6 +691,19 @@ of the club all form bonds with each other.
 
 # Workshops
 
+## General Guidelines
+
+### Breaks
+
+If hackers don't take a break, they will likely get very antsy. We recommend
+doing one of the following:
+
+- Reminding them to take breaks every hour / hour and a half.
+- Saying that you personally find that you become much more productive when you
+  take regular breaks. At Hack Camp, feel free to take a break whenever, we
+  don't want to baby you so we won't remind you.
+- Something else that works best for you.
+
 ## [Portfolio](workshops/portfolio)
 
 ### Prerequisites
@@ -699,6 +712,7 @@ of the club all form bonds with each other.
 
 ### Running it
 
+- make sure you follow the [general guidelines](#general-guidelines)
 - talk about the ratio / schedule of workshops to projects (to illustrate the
   point that we are only doing these workshops to give you experience to work on
   your own projects)
@@ -732,6 +746,8 @@ of the club all form bonds with each other.
 ## Maestro
 
 ### Running It
+
+Make sure you follow the [general guidelines](#general-guidelines)
 
 Make sure you show all of the 4 demos at the very beginning to show what you can make.
 
