@@ -692,7 +692,7 @@ And when you've found these mp3 files, some of them will not be compatible with 
 
 ```js
 maestro.Twilio.recieveSms(function(reply){
-  console.log(reply.from); //prints the number that sent a message to twilio-number
+  console.log(reply.From); //prints the number that sent a message to twilio-number
 });
 ```
 
