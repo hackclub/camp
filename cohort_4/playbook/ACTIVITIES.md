@@ -591,7 +591,15 @@ then).
 
 ## Maestro
 
-TODO
+### Running It
+
+Make sure you show all of the 4 demos at the very beginning to show what you can make.
+
+Tell the hackers to feel free to be able skip through the content that they are already familiar with. This is designed for beginners in mind.
+
+### Link
+
+[Maestro Workshop](https://github.com/hackedu/hack-camp/blob/workshop_2/cohort_4/playbook/workshops/maestro/README.md)
 
 # Demos
 
