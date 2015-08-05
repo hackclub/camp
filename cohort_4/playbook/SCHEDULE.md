@@ -62,7 +62,7 @@ will be followed by project-time that day.
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
 | 8:30 AM  | Standups                                                     |
-| 9:20 AM  | [Hacker arrival](ACTIVITIES.md#hacker-arrival)               |
+| 9:20 AM  | [Hacker arrival](ACTIVITIES.md#on-the-first-day)             |
 | 9:30 AM  | Galvanize tour                                               |
 | 9:40 AM  | [Energizer 1](ACTIVITIES.md#where-the-west-wind-blows)       |
 | 9:50 AM  | [Energizer 2](ACTIVITIES.md#i-love-my-neighbor-who)          |
@@ -85,6 +85,7 @@ Day layout copied from [here](../prep/meetings/15-07-27_sprint_discuss.md).
 
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
+| 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
 | 9:20 AM  | Energizer                                                    |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:15 AM | [Project time](ACTIVITIES.md#freeform-projects)              |
@@ -100,6 +101,7 @@ Day layout copied from [here](../prep/meetings/15-07-27_sprint_discuss.md).
 
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
+| 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
 | 9:20 AM  | Energizer                                                    |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:15 AM | [Maestro workshop](ACTIVITIES.md#maestro)                    |
@@ -115,6 +117,7 @@ Day layout copied from [here](../prep/meetings/15-07-27_sprint_discuss.md).
 
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
+| 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
 | 9:20 AM  | Energizer                                                    |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:15 AM | Project time                                                 |
