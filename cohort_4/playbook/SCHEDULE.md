@@ -110,11 +110,13 @@ partners.
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
 | 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
-| 9:20 AM  | Energizer                                                    |
+| 9:20 AM  | [Energizer 1](ACTIVITIES.md#fortunately-unfortunately)       |
+| 9:30 AM  | [Energizer 2](ACTIVITIES.md#slow-motion-samurai)             |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:00 AM | [Maestro workshop](ACTIVITIES.md#maestro)                    |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
-| 1:30 PM  | Energizer                                                    |
+| 1:30 PM  | [Energizer 3](ACTIVITIES.md#human-pictionary)                |
+| 1:45 PM  | [Energizer 4](ACTIVITIES.md#ninja)                           |
 | 2:00 PM  | Project time                                                 |
 | 3:50 PM  | [Links Collected for demos](ACTIVITIES.md#links)             |
 | 4:00 PM  | Demos                                                        |
