@@ -675,7 +675,12 @@ else {
 alert("Great! We'll give " + phone + " a ring!");
 ```
 
-Note: I found these MP3s on [MP3skull](http://mp3skull.com/) To find an mp3 that will work, you want the pages that display a raw mp3 file (i.e. a page that has no HTML on the page, just the mp3 file). And when you've found these mp3 files, some of them will not be compatible with Twilio for some reason that I do not know yet. You'll have to test it out.
+#### Finding mp3's on the internet.
+
+Note: I found these MP3s on [MP3skull](http://mp3skull.com/) To find an mp3 that will work, you want the pages that display a raw mp3 file (i.e. a page that has no HTML on the page, just the mp3 file). 
+
+**Important note to avoid frustration**
+And when you've found these mp3 files, some of them will not be compatible with Twilio for some reason that I do not know yet. You'll have to test out which ones work and which ones don't.
 
 ### For those who are more advanced, checkout
 
