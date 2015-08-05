@@ -647,6 +647,40 @@ Here are good example failures that haven't been resolved:
 
 # Feedback Forms
 
+At the end of each day we want to collect feedback from the hackers to see what
+did/didn't do well and understand how the hackers feel about camp as it
+progresses. The feedback may also be helpful to diagnose issues with certain
+parts of camp (ex. the second workshop was particularly difficult and many
+people got lost and felt frustrated the day after).
+
+When giving the feedback forms to the hackers, it is _very important_ that the
+hackers feel that giving feedback is important. We don't want them to feel like
+they're filling out the forms to appease us. Rather, we want them filling out
+the forms because they want camp to be as good as possible and they know that
+giving valuable feedback improves camp for everyone.
+
+Making hackers feel like giving feedback is important can be broken down into
+two parts:
+
+1. Telling them why we want their feedback
+2. Actually acting on their feedback and _showing_ that it makes a difference
+
+When it comes time to send out feedback forms to everyone, we recommend saying
+something along the lines of:
+
+> Hey everyone! We're going to send out a link to a feedback form for today. We
+> want to do _everything we can_ to make camp as good as possible and we can't
+> do this without you.
+>
+> Please be as harsh and critical as you feel comfortable, we are going to do
+> everything in our power to make this a great experience for each and every one
+> of you.
+
+Before going into the [post-mortem](#post-mortem) at the end of the day, we
+highly recommend reviewing the feedback from the hackers and bringing up any
+points of feedback that stand out to you in the post-mortem so it can be acted
+on.
+
 All of the feedback form responses will be put into the appropriate sheet in
 https://docs.google.com/spreadsheets/d/1D8y_UB11C4QrXB9kn86-UqVQQqT9FUDqftx1AMHIb3o.
 
