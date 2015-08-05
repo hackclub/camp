@@ -458,16 +458,62 @@ The `alert` function is like the `prompt` function except
   </html>
   ```
 
+### Disabling Autosave
+
+You will go crazy today with popups unless you disable "Auto-Save"
+
+![](img/disabling_autosave.gif)
+
 ### Writing our code in script.js
 
 Let's type the following code in the `script.js` file
 
 ```
 var name = prompt("What is your name?");
-alert("Hello " + name + ". Welcome to my website!");
+var message = "Hello " + name + ". Welcome to my website!"
+alert(message);
 ```
 
-Go ahead and run it.
+- Go ahead and click `Preview Running Application` to run it.
+- Click the arrow to move the window to an external tab
+- Open up the console
+- refresh the page
+- you should see your code paused here
+  > ![](img/24.png)
+    
+- click on the `>_` symbol to open up the console on this screen
+  > ![](img/25.png)
+
+### Understanding our code through debugging
+
+We can walk through line by line how our code.
+
+The blue line of code highlights the line of code that will be run next.
+
+#### Right now, the code is paused on line 1. I run it and it advances the blue cursor to line 2.
+
+> ![](img/d1.gif)
+
+#### Since the blue cursor is on line 2, when I click the next button, ![](img/next_button.png), it runs line 2 which in this case  makes a prompt. I type in Jonathan and it outputs that to the variable `name`. So when I ask the computer at the end what `name` is equal to, it tells me `Jonathan`.
+
+> ![](img/d2.gif)
+
+Now when I click next, it runs the line highlighted in blue (line 3). This sets the variable `message` to the sum of all of those strings. In this case `message` is now equal to the String`"Hello Jonathan. Welcome to my website!"`
+
+> ![](img/d3.gif)
+
+Finally on the last line, I `alert` the `message` variable, which is equal to `""Hello Jonathan. Welcome to my website!"`
+
+> ![](img/d4.gif)
+
+Code always executes in order like this.
+
+You can always put a debugger statement at the top to walk through this process.
+
+##
+
+
+
 
 What' happening:
 
