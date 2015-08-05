@@ -471,6 +471,7 @@ You will go crazy today with popups unless you disable "Auto-Save"
 Let's type the following code in the `script.js` file
 
 ```
+debugger
 var name = prompt("What is your name?");
 var message = "Hello " + name + ". Welcome to my website!"
 alert(message);
