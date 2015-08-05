@@ -280,6 +280,51 @@ the game restarts with only those two players. They strike their ninja poses and
 take turns attacking each other until there's only one ninja left standing: the
 winner.
 
+##Telephone
+
+```
+Time: 10 minutes
+Materials: none
+Number: unknown
+Source: unknown
+```
+
+Telephone is a game where you try to pass around a message and compare how it 
+is at the beginning and at the end. People are standing in a circle and the 
+message gets passed around in the clockwise direction.  
+
+Start by having one person, Person A, think of a complicated phrase to say to 
+the person on his or her left, Person B.  Person A will then whisper that 
+message into Person B's ear, and Person B will whisper the message he heard 
+into Person C's ear, and so on, until the message gets around to the person on 
+Person A's right hand side, Person X.  Person X will then say the phrase he 
+thinks he heard, and then Person A will say his phrase.  Then the group will 
+see how accurate Person X's phrase was.
+
+The energizer typically ends after one round (the message has been passed 
+all around), but more rounds can be run if necessary.
+
+##Human Knot
+
+```
+Time: 15-30 minutes
+Materials: none
+Number: unknown
+```
+
+Start by making a tight circle with a group of 3+ people (the more the better),
+and have each person grab two different people's hands, preferably people across 
+from you.  This essentially "tangles" everybody into a knot-like structure, and 
+the objective of the game is to untangle this knot. You are permitted to talk and 
+collaborate, like "Step over so-and-so's hand" or "Go under this person's hand." 
+As a final result, everyone should be in a circle, with no crossed-over body parts.  
+
+The amount of time this activity depends on how fast you can collaborate and 
+untangle the knot. 
+
+This energizer ends once the knot is untangled, but more rounds can be played if 
+desired.  Keep time in mind - the time it takes to untangle can vary.
+
 # Introduction talk
 
 Welcome to Hack Camp.
