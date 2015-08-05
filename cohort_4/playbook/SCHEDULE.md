@@ -4,12 +4,11 @@
 - [General Overview](#general-overview)
     - [Week 1](#week-1)
     - [Week 2](#week-2)
-- [Day 1](#day-1)
-    - [Prerequisites](#prerequisites)
-    - [Breakdown](#breakdown)
-- [Day 2](#day-2)
-- [Day 3](#day-3)
-- [Day 4](#day-4)
+- [Days](#days)
+    - [Day 1](#day-1)
+    - [Day 2](#day-2)
+    - [Day 3](#day-3)
+    - [Day 4](#day-4)
 
 <!-- markdown-toc end -->
 
@@ -49,15 +48,24 @@ will be followed by project-time that day.
 | D      | P       | D         | P        | D      |
 |        | MD      |           | MD       |        |
 
-# Day 1
+# Days
 
-## Prerequisites
+Before each day, read through the guidelines for each activity. You can find the
+guidelines by simply clicking the linked items in the `Activity` column of the
+tables.
 
-- Read through all of the guidelines for each activity of the day. You don't
-  need to have a great understanding of all of the guidelines yet, but you
-  should be familiar with the broad ideas behind them.
+If the current activity being run is over an hour long, _make an announcement
+saying when the next activity will start an hour before the current activity
+ends_. For example, if people are currently working on their projects and the
+next activity, demos, starts at 4PM, I should make an announcement at 3PM saying
+when demos will be.
 
-## Breakdown
+If the current day is a workshop day, make sure hacker pairs (that work together
+in projects) are assigned in some way, shape, or form before brainstorming
+starts. You should _assign_ these. Hackers should not be choosing their
+partners.
+
+## Day 1
 
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
@@ -80,9 +88,7 @@ will be followed by project-time that day.
 | 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
 | 4:45 PM  | [Post-mortem (ending at 5:30 PM)](ACTIVITIES.md#post-mortem) |
 
-Day layout copied from [here](../prep/meetings/15-07-27_sprint_discuss.md).
-
-# Day 2
+## Day 2
 
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
@@ -98,7 +104,7 @@ Day layout copied from [here](../prep/meetings/15-07-27_sprint_discuss.md).
 | 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
 | 4:45 PM  | [Post-mortem (ending at 5:30 PM)](ACTIVITIES.md#post-mortem) |
 
-# Day 3
+## Day 3
 
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
@@ -114,7 +120,7 @@ Day layout copied from [here](../prep/meetings/15-07-27_sprint_discuss.md).
 | 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
 | 4:45 PM  | [Post-mortem (ending at 5:30 PM)](ACTIVITIES.md#post-mortem) |
 
-# Day 4
+## Day 4
 
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
