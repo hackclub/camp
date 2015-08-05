@@ -43,6 +43,10 @@
 - [Post-mortem](#post-mortem)
 - [Using Slack](#using-slack)
     - [Asking for help](#asking-for-help)
+- [Communicating with the Group](#communicating-with-the-group)
+    - [Announcing to the Whole Group](#announcing-to-the-whole-group)
+    - [Sharing Announcements Individually](#sharing-announcements-individually)
+    - [Slack Announcements](#slack-announcements)
 
 <!-- markdown-toc end -->
 
@@ -800,3 +804,78 @@ the technical mentors for Hack Camp will be pinged. For example:
 If you'd like to be added/removed from the list, let
 [@zachlatta](https://github.com/zachlatta) know and he'll get right on it (say
 `slackbot help` somewhere in the chat to see who's currently on the list).
+
+# Communicating with the Group
+
+In this modern day and age, we're fortunate to have _not one_, _**not two**_,
+**but THREE** methods of communication in camp.
+
+1. Announcing to the whole group
+2. Sharing an announcement to each hacker individually
+3. Using `@channel` on Slack
+
+_But when do we use these marvelous methods of communication, you ask?_
+
+## Announcing to the Whole Group
+
+Say you're about to begin lunch and you need everyone's attention pronto. This
+is the perfect opportunity to use that first method of communication: making an
+announcement to the whole group.
+
+The first rule of speaking to groups: **SPEAK LOUDLY**.
+
+If you're not used to speaking loudly, speak so loud you feel uncomfortable with
+the volume of your voice (it may even hurt a little). Speaking loudly is the
+first step to effective communication to groups. If people can't here you, it
+doesn't matter what you're saying -- half the group will never hear it.
+
+Got the _loud_, **BOOMING** voice thing down? Perfect. Next step: make sure you
+have everyone's attention while speaking. Someone not paying attention? Wait for
+them to start listening to you before continuing.
+
+Announcements to the whole group, while they may be quick and easy, are a
+dangerous tool. Be wary of interrupting hackers if they're working independently
+and especially use it with caution during project time.
+
+## Sharing Announcements Individually
+
+Oh no! You were about to start the workshop, but it seems like nearly half of
+the hackers are having trouble connecting to the internet. Have no fear! The
+second communication method---sharing announcements individually---is here!
+
+When sharing an announce to each hacker individually, go hacker to hacker and
+let them know what's going on. In this case, we'd say that some hackers are
+having trouble connecting to the WiFi and ask if they were experiencing any
+issues themselves. If so, we'd work with them individually to get those issues
+resolved before moving on to the next hacker. If multiple leaders are available,
+it may be worth having multiple leaders go around the room doing this.
+
+This type of communication is best when an announcement may affect some, but not
+all, of the hackers and you don't want to interrupt everyone to share it.
+
+## Slack Announcements
+
+Ah! Last, but most certainly not least, we have making Slack announcements.
+Slack, like many other pieces of software, is really quite a neat creation.
+Hackers can message others and send emoji with relative ease, all while
+continuing to hack away on their creations.
+
+Slack has a very nifty feature that lets us send a notification to everyone in
+the channel by including `@channel` in our message.
+
+A couple examples:
+
+    3:53 PM <selynna> @channel: post links here! @alexfine that's fine
+    11:02 AM <saescapa> @channel: Here is today’s workshop! https://git.io/vOKNK
+    12:03 PM <selynna> @channel: hey all! did you bring lunch?
+
+Slack announcements are great for pretty much everything that isn't covered by
+the first two communication methods. They're non-intrusive, so you're not
+interrupting anyone, and they're very easy for the hackers to respond to.
+
+Want to give everyone a heads up about lunch happening in 30 minutes? _Slack._
+
+Want to send a link to everyone? _Slack._
+
+Was there an event at Galvanize that had some extra food and offered it to our
+hackers? _Slack._

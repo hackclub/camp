@@ -28,6 +28,17 @@ Each day, you'll want to read through each activity for the day and get a
 general understanding of the day's layout. If there's a workshop happening,
 ideally you'd go through it beforehand to get a feel for it.
 
+## General Guidelines
+
+[`SCHEDULE.md`](SCHEDULE.md) has nearly everything covered, but there are some
+things you're going to want to know about and understand in _everything_ you do
+while running Hack Camp.
+
+Here are those things:
+
+- [Using Slack](ACTIVITIES.md#using-slack)
+- [Communicating with the hackers](ACTIVITIES.md#communicating-with-the-group)
+
 ## Questions? Comments? Concerns?
 
 We want you to build this playbook with us. Here's how:
