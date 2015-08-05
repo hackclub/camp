@@ -2,6 +2,7 @@
 **Table of Contents**
 
 - [Hacker arrival](#hacker-arrival)
+    - [On the First Day](#on-the-first-day)
 - [Energizers](#energizers)
     - [Where The West Wind Blows](#where-the-west-wind-blows)
     - [Human Pictionary](#human-pictionary)
@@ -27,6 +28,7 @@
         - [Running it](#running-it)
     - [Maestro](#maestro)
 - [Demos](#demos)
+    - [Links](#links)
     - [First-time demos](#first-time-demos)
     - [Giving feedback](#giving-feedback)
 - [Freeform Projects](#freeform-projects)
@@ -45,10 +47,33 @@
 - [Post-mortem](#post-mortem)
 - [Using Slack](#using-slack)
     - [Asking for help](#asking-for-help)
+- [Communicating with the Group](#communicating-with-the-group)
+    - [Announcing to the Whole Group](#announcing-to-the-whole-group)
+    - [Sharing Announcements Individually](#sharing-announcements-individually)
+    - [Slack Announcements](#slack-announcements)
 
 <!-- markdown-toc end -->
 
 # Hacker arrival
+
+Make sure hackers come straight down to the hackerspace when they arrive.
+
+Have at least one leader in the hackerspace while hackers are arriving. When a
+hacker arrives, the leader should greet them as they come in and make sure they
+sit in a different seat than the previous day. If they're on a team with another
+hacker, make sure both hackers sit together in new seats.
+
+If a leader makes it to the hackerspace after other hackers have already
+arrived, the leader should greet them and have them sit in different seats than
+the previous day (and with their teammate, if applicable).
+
+## On the First Day
+
+Hacker arrival on the first day is going to be a bit different than on the other
+days. The hackers won't know where to go and they won't know the leaders of the
+camp, so it's our job to make this as seamless and welcoming as possible.
+
+We recommend doing the following:
 
 1. Assign two leaders to manage hacker arrival and one leader to manage scanning
    of acceptance packets.
@@ -494,16 +519,22 @@ How to get it going:
      past the open working space on the third floor (not the kitchen right next
      to the stairs).
   2. Move tables together and bring chairs together.
+  3. Bring out an adequate number of plates, bowls, and silverware (use
+     discretion to decide what is adequate).
 3. Once the leader has set up breakfast, and when it's time to do breakfast,
    have everyone take the stairs to the third floor.
 
-The hackers may be pretty quiet during breakfast, especially on the first day,
-we recommend taking this opportunity as a time to engage with them on a more
+The hackers may be pretty quiet during breakfast, especially on the first day.
+We recommend taking this opportunity as a time to engage with them on a more
 personal level and start building community within the cohort. The way we've
 done this in the past is physically dispersing ourselves between the hackers
 during breakfast and initiating conversations with the one or two people sitting
 next to us through asking lots of open ended questions. We haven't had much
 success when trying to engage the entire group in a single large conversation.
+
+Plan to start cleaning up 5 minutes before breakfast ends. Make it clear to all
+of the hackers that they are expected to clean up after themselves, whether that
+means putting their dishes in the dishwasher or disposing of garbage.
 
 ## Lunch
 
@@ -565,13 +596,38 @@ TODO
 # Demos
 
 Demos are the hackers' chance to show off what they have been putting so much
-time and effort into for the past day.
+time and effort into for the past day or two.
+
+If they started their projects earlier in the day, then the demo is considered a
+_mini-demo_ and hackers are encouraged to show their current work in progress.
+If it's the second day they've been working on their project, then the hackers
+are encouraged to show a minimum-viable-product (MVP) of their project. Ideally
+this would be somewhat functional and demonstrate base functionality.
 
 - Presentation order depends on who volunteers.
 - Each team should start off with something they failed at
   - Make sure to give context by explaining the basic overview of the app and
     why this is a failure
 - After presenting something they failed at, they can show off what they made
+
+## Links
+
+Before kicking off demos, we'll want to collect links to all of the web projects
+from the hackers in the Slack. To do just, just send out a message along the
+lines of the following:
+
+    3:20 PM <zrl> @channel: Hey all! The time has come to collect links to your
+                  projects. If you have a project that works on the web, please
+                  just paste a link to it here. Don't hesitate to ask us for
+                  help doing that!
+
+Ideally all links would be collected by 10 minutes before demos start, giving a
+good buffer if any hackers run into errors getting their projects online.
+
+If their project is not a web project, we recommend using a Google Hangout on
+the computer connected to the projector and the computer they developed on and
+using screen sharing to share their work. It's certainly less than ideal, but it
+has worked in the past.
 
 ## First-time demos
 
@@ -591,6 +647,20 @@ Common practices to avoid when demoing:
 8. Use the mouse pointer to point to what you say you changed but don't change
    anything.
 
+It may also be helpful to give an idea of what a demo may look like. The
+following contains a quick bullet point list overview.
+
+- Hey everyone! I'm Zach and I built Yelp for Yelp Reviews.
+- Yelp for Yelp Reviews is a _transformative_ application that empowers users to
+  rate, on a scale from 1 to 5, other reviews on Yelp.
+- Let's jump right into it and pull up the reviews for "Super Duper Burgers" in
+  San Francisco.
+- Ouch! This 3 star review says that they aren't a pickle person. I'm going to
+  do Super Duper justice and rate their review 1 out of 5.
+- And there we go! We can see that our rating was created and that original
+  review is now rated 1 out of 5.
+- And that's Yelp for Yelp Reviews! Thank you.
+
 ## Giving feedback
 
 Feedback helps hackers improve their presentation and demo skills. To keep demos
@@ -607,6 +677,10 @@ shouted out after the demo.
 
 This assumes the hackers are already in groups and have decided what to work on.
 If they have not yet, refer to [Brainstorming](#brainstorming).
+
+Every set of freeform time for projects culminates in a demo by the end of the
+day. See the [demo section](#demos) for more details, including what hackers are
+encouraged to have finished.
 
 ## Scoping and concept
 
@@ -627,35 +701,87 @@ If they have not yet, refer to [Brainstorming](#brainstorming).
 
 ## Facilitating
 
-- Rotate between hackers often. Don't hover over one hacker unless they have a
-  specific question that you are helping them with.
+Rotate between hackers often. Don't hover over one hacker unless they have a
+specific question that you are helping them with. We recommend biasing towards
+giving them more freedom and autonomy than less.
 
-## Answering questions
+Sometimes hackers will need to be prompted to ask questions. We recommend
+prompting them by asking things like the following when checking in.
 
-- Sometimes hackers will need to be prompted to ask a question. You can prompt
-  them by asking things like:
+> How is it going?  
+> What can I do to be helpful?
 
-  > How is it going?
-  > What can I do to be helpful?
+## Answering Questions
 
-- If a hacker does need help, make sure you have a clear understanding of the
-  problem before answering.
-  - Let the hackers lead the conversation so they can build up their experience
-    with working on projects. Ask questions like:
+Before helping resolve questions, we recommending doing your best to
+have a clear understanding of the problem (ex. the hacker expects clicking the
+button on the form to create an alert, but when they click it, no alert is
+created). We've found that sometimes hackers, especially beginners, will ask a
+question seemingly unrelated to the actual problem they're trying to solve
+(perhaps not knowing the correct terminology plays into this).
 
-    > So what do you want to do now?
-    > Could you phrase that more specifically?
+While resolving a question, we recommend letting the hackers lead the
+actual problem solving so they can build up their experience solving problems
+independently. We encourage you to ask open ended questions to help drive the
+conversation in the right direction, but the hacker should have the wheel.
 
-- Don't correct things that they discovered on their own immediately otherwise
-  they will think that everything that they discover is wrong.
-  - It's okay to have sub-optimal code when learning.
-- Things that are interesting to a club leader might not be interesting to
-  hackers. Be careful to not lecture about anything that is not directly
-  relevant to the hackers.
-  - A club leader's role during project time is to help the hackers solve their
-    own problems. Aim for spending the least time with a hacker as possible.
-    - If another hacker can help out, let that happen. Optimize for the least
-      club leader time per student possible.
+We also recommend avoiding answering questions directly. Instead, we recommend
+helping hackers find the answer on Google to also build experience solving
+problems independently. If you think they'd have trouble finding the something
+on Google (ex. if they don't know about the existence of the JavaScript
+console and it's the tool they need), then feel free to explain it to them
+directly. Use your discretion for when to do this.
+
+Biasing for searching the web also works well if the hacker you're working with
+has more experience than you. We've found that going in with the mindset of
+"let's solve this together" instead of "I'm going to help you solve this" has
+been helpful.
+
+A couple more recommendations:
+
+- Let the hackers fail. If they find something independently that you know won't
+  work (ex. some bad JavaScript from w3schools or StackOverflow), let them try
+  it out and discover that it doesn't work on their own.
+- Along the lines of what's above, it's okay to have sub-optimal code when
+  learning. Let them discover technical debt on their own.
+
+### Example
+
+Let's take a quick look at what we'd recommend doing when helping a hacker:
+
+    <hacker> The button isn't working.
+    <leader> What do you want the button to do?
+    <hacker> I want it to show an alert when clicked.
+    <leader> And what does it currently do when clicked?
+    <hacker> Nothing.
+
+Boom, we just identified the problem. They want a button on the page to show an
+alert when clicked, but, when they click it, nothing appears to happen.
+
+    <leader> Alright. Are there are errors in our code?
+    <hacker> Maybe?
+    <leader> How might we find out?
+
+At this point, the hacker may know they can check the JavaScript console to see
+errors on the page. If they don't know about the console, now might be a good
+opportunity to explain it (or bring up how they used it in a previous workshop,
+if they have). In this case, we're going to assume the hacker has used the
+JavaScript console and knows they can use it to see errors on the page.
+
+    <hacker> We could check the console.
+    <leader> Cool, let's do that.
+    ...
+    <leader> Does the console say we have any errors in our code?
+    <hacker> Yeah, it looks like there's one.
+    <leader> What is it?
+    <hacker> "button is undefined"
+
+Alright, so we probably won't have much luck if we have them search for "button
+is undefined" directly. At this point, we may want to guide them with open ended
+questions to search for something a bit more specific.
+
+This specific example ends here, but hopefully it gives a preliminary idea of
+what we recommend answering questions should look like.
 
 # Brainstorming
 
@@ -853,3 +979,78 @@ the technical mentors for Hack Camp will be pinged. For example:
 If you'd like to be added/removed from the list, let
 [@zachlatta](https://github.com/zachlatta) know and he'll get right on it (say
 `slackbot help` somewhere in the chat to see who's currently on the list).
+
+# Communicating with the Group
+
+In this modern day and age, we're fortunate to have _not one_, _**not two**_,
+**but THREE** methods of communication in camp.
+
+1. Announcing to the whole group
+2. Sharing an announcement to each hacker individually
+3. Using `@channel` on Slack
+
+_But when do we use these marvelous methods of communication, you ask?_
+
+## Announcing to the Whole Group
+
+Say you're about to begin lunch and you need everyone's attention pronto. This
+is the perfect opportunity to use that first method of communication: making an
+announcement to the whole group.
+
+The first rule of speaking to groups: **SPEAK LOUDLY**.
+
+If you're not used to speaking loudly, speak so loud you feel uncomfortable with
+the volume of your voice (it may even hurt a little). Speaking loudly is the
+first step to effective communication to groups. If people can't here you, it
+doesn't matter what you're saying -- half the group will never hear it.
+
+Got the _loud_, **BOOMING** voice thing down? Perfect. Next step: make sure you
+have everyone's attention while speaking. Someone not paying attention? Wait for
+them to start listening to you before continuing.
+
+Announcements to the whole group, while they may be quick and easy, are a
+dangerous tool. Be wary of interrupting hackers if they're working independently
+and especially use it with caution during project time.
+
+## Sharing Announcements Individually
+
+Oh no! You were about to start the workshop, but it seems like nearly half of
+the hackers are having trouble connecting to the internet. Have no fear! The
+second communication method---sharing announcements individually---is here!
+
+When sharing an announce to each hacker individually, go hacker to hacker and
+let them know what's going on. In this case, we'd say that some hackers are
+having trouble connecting to the WiFi and ask if they were experiencing any
+issues themselves. If so, we'd work with them individually to get those issues
+resolved before moving on to the next hacker. If multiple leaders are available,
+it may be worth having multiple leaders go around the room doing this.
+
+This type of communication is best when an announcement may affect some, but not
+all, of the hackers and you don't want to interrupt everyone to share it.
+
+## Slack Announcements
+
+Ah! Last, but most certainly not least, we have making Slack announcements.
+Slack, like many other pieces of software, is really quite a neat creation.
+Hackers can message others and send emoji with relative ease, all while
+continuing to hack away on their creations.
+
+Slack has a very nifty feature that lets us send a notification to everyone in
+the channel by including `@channel` in our message.
+
+A couple examples:
+
+    3:53 PM <selynna> @channel: post links here! @alexfine that's fine
+    11:02 AM <saescapa> @channel: Here is today’s workshop! https://git.io/vOKNK
+    12:03 PM <selynna> @channel: hey all! did you bring lunch?
+
+Slack announcements are great for pretty much everything that isn't covered by
+the first two communication methods. They're non-intrusive, so you're not
+interrupting anyone, and they're very easy for the hackers to respond to.
+
+Want to give everyone a heads up about lunch happening in 30 minutes? _Slack._
+
+Want to send a link to everyone? _Slack._
+
+Was there an event at Galvanize that had some extra food and offered it to our
+hackers? _Slack._
