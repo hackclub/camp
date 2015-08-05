@@ -81,7 +81,7 @@ partners.
 | 9:50 AM  | [Energizer 3](ACTIVITIES.md#evolution-rock-paper-scissors)   |
 | 2:00 PM  | [Brainstorming](ACTIVITIES.md#brainstorming)                 |
 | 2:20 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
-| 3:30 PM  | [Links Collected for demos](ACTIVITIES.md#links)             |
+| 3:30 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
 | 3:40 PM  | [I have failed circle](ACTIVITIES.md#i-have-failed-activity) |
 | 3:50 PM  | [Demos](ACTIVITIES.md#demos)                                 |
 | 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
@@ -99,7 +99,7 @@ partners.
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
 | 1:30 PM  | Energizer                                                    |
 | 2:00 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
-| 3:50 PM  | [Links Collected for demos](ACTIVITIES.md#links)             |
+| 3:50 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
 | 4:00 PM  | [Demos](ACTIVITIES.md#demos)                                 |
 | 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
 | 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
@@ -118,7 +118,7 @@ partners.
 | 1:30 PM  | [Energizer 3](ACTIVITIES.md#human-pictionary)                |
 | 1:45 PM  | [Energizer 4](ACTIVITIES.md#ninja)                           |
 | 2:00 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
-| 3:50 PM  | [Links Collected for demos](ACTIVITIES.md#links)             |
+| 3:50 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
 | 4:00 PM  | [Demos](ACTIVITIES.md#demos)                                 |
 | 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
 | 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
@@ -135,7 +135,7 @@ partners.
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
 | 1:30 PM  | Energizer                                                    |
 | 2:00 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
-| 3:50 PM  | [Links Collected for demos](ACTIVITIES.md#links)             |
+| 3:50 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
 | 4:00 PM  | [Demos](ACTIVITIES.md#demos)                                 |
 | 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
 | 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
