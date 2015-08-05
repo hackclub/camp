@@ -599,6 +599,12 @@ var message = "Hello " + name + ". Welcome to my website!"
 maestro.Twilio.callAndSay("415-555-555", message);
 ```
 
+## Done!
+
+Yay we did it!
+
+![](img/celebrate2.gif)
+
 ## Here are a bunch of other programs that you can put into `maestro_code.js`
 
 Feel free to tinker around with these examples.
