@@ -530,35 +530,87 @@ If they have not yet, refer to [Brainstorming](#brainstorming).
 
 ## Facilitating
 
-- Rotate between hackers often. Don't hover over one hacker unless they have a
-  specific question that you are helping them with.
+Rotate between hackers often. Don't hover over one hacker unless they have a
+specific question that you are helping them with. We recommend biasing towards
+giving them more freedom and autonomy than less.
 
-## Answering questions
+Sometimes hackers will need to be prompted to ask questions. We recommend
+prompting them by asking things like the following when checking in.
 
-- Sometimes hackers will need to be prompted to ask a question. You can prompt
-  them by asking things like:
+> How is it going?  
+> What can I do to be helpful?
 
-  > How is it going?
-  > What can I do to be helpful?
+## Answering Questions
 
-- If a hacker does need help, make sure you have a clear understanding of the
-  problem before answering.
-  - Let the hackers lead the conversation so they can build up their experience
-    with working on projects. Ask questions like:
+Before helping resolve questions, we recommending doing your best to
+have a clear understanding of the problem (ex. the hacker expects clicking the
+button on the form to create an alert, but when they click it, no alert is
+created). We've found that sometimes hackers, especially beginners, will ask a
+question seemingly unrelated to the actual problem they're trying to solve
+(perhaps not knowing the correct terminology plays into this).
 
-    > So what do you want to do now?
-    > Could you phrase that more specifically?
+While resolving a question, we recommend letting the hackers lead the
+actual problem solving so they can build up their experience solving problems
+independently. We encourage you to ask open ended questions to help drive the
+conversation in the right direction, but the hacker should have the wheel.
 
-- Don't correct things that they discovered on their own immediately otherwise
-  they will think that everything that they discover is wrong.
-  - It's okay to have sub-optimal code when learning.
-- Things that are interesting to a club leader might not be interesting to
-  hackers. Be careful to not lecture about anything that is not directly
-  relevant to the hackers.
-  - A club leader's role during project time is to help the hackers solve their
-    own problems. Aim for spending the least time with a hacker as possible.
-    - If another hacker can help out, let that happen. Optimize for the least
-      club leader time per student possible.
+We also recommend avoiding answering questions directly. Instead, we recommend
+helping hackers find the answer on Google to also build experience solving
+problems independently. If you think they'd have trouble finding the something
+on Google (ex. if they don't know about the existence of the JavaScript
+console and it's the tool they need), then feel free to explain it to them
+directly. Use your discretion for when to do this.
+
+Biasing for searching the web also works well if the hacker you're working with
+has more experience than you. We've found that going in with the mindset of
+"let's solve this together" instead of "I'm going to help you solve this" has
+been helpful.
+
+A couple more recommendations:
+
+- Let the hackers fail. If they find something independently that you know won't
+  work (ex. some bad JavaScript from w3schools or StackOverflow), let them try
+  it out and discover that it doesn't work on their own.
+- Along the lines of what's above, it's okay to have sub-optimal code when
+  learning. Let them discover technical debt on their own.
+
+### Example
+
+Let's take a quick look at what we'd recommend doing when helping a hacker:
+
+    <hacker> The button isn't working.
+    <leader> What do you want the button to do?
+    <hacker> I want it to show an alert when clicked.
+    <leader> And what does it currently do when clicked?
+    <hacker> Nothing.
+
+Boom, we just identified the problem. They want a button on the page to show an
+alert when clicked, but, when they click it, nothing appears to happen.
+
+    <leader> Alright. Are there are errors in our code?
+    <hacker> Maybe?
+    <leader> How might we find out?
+
+At this point, the hacker may know they can check the JavaScript console to see
+errors on the page. If they don't know about the console, now might be a good
+opportunity to explain it (or bring up how they used it in a previous workshop,
+if they have). In this case, we're going to assume the hacker has used the
+JavaScript console and knows they can use it to see errors on the page.
+
+    <hacker> We could check the console.
+    <leader> Cool, let's do that.
+    ...
+    <leader> Does the console say we have any errors in our code?
+    <hacker> Yeah, it looks like there's one.
+    <leader> What is it?
+    <hacker> "button is undefined"
+
+Alright, so we probably won't have much luck if we have them search for "button
+is undefined" directly. At this point, we may want to guide them with open ended
+questions to search for something a bit more specific.
+
+This specific example ends here, but hopefully it gives a preliminary idea of
+what we recommend answering questions should look like.
 
 # Brainstorming
 
