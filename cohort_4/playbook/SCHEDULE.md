@@ -117,7 +117,8 @@ partners.
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
 | 1:30 PM  | [Energizer 3](ACTIVITIES.md#human-pictionary)                |
 | 1:45 PM  | [Energizer 4](ACTIVITIES.md#ninja)                           |
-| 2:00 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
+| 2:00 PM  | [Brainstorming](ACTIVITIES.md#brainstorming)                 |
+| 2:20 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 3:50 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
 | 4:00 PM  | [Demos](ACTIVITIES.md#demos)                                 |
 | 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
