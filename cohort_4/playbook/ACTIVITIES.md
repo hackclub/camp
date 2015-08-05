@@ -402,16 +402,22 @@ How to get it going:
      past the open working space on the third floor (not the kitchen right next
      to the stairs).
   2. Move tables together and bring chairs together.
+  3. Bring out an adequate number of plates, bowls, and silverware (use
+     discretion to decide what is adequate).
 3. Once the leader has set up breakfast, and when it's time to do breakfast,
    have everyone take the stairs to the third floor.
 
-The hackers may be pretty quiet during breakfast, especially on the first day,
-we recommend taking this opportunity as a time to engage with them on a more
+The hackers may be pretty quiet during breakfast, especially on the first day.
+We recommend taking this opportunity as a time to engage with them on a more
 personal level and start building community within the cohort. The way we've
 done this in the past is physically dispersing ourselves between the hackers
 during breakfast and initiating conversations with the one or two people sitting
 next to us through asking lots of open ended questions. We haven't had much
 success when trying to engage the entire group in a single large conversation.
+
+Plan to start cleaning up 5 minutes before breakfast ends. Make it clear to all
+of the hackers that they are expected to clean up after themselves, whether that
+means putting their dishes in the dishwasher or disposing of garbage.
 
 ## Lunch
 
