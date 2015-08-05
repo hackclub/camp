@@ -117,9 +117,9 @@ partners.
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
 | 1:30 PM  | [Energizer 3](ACTIVITIES.md#human-pictionary)                |
 | 1:45 PM  | [Energizer 4](ACTIVITIES.md#ninja)                           |
-| 2:00 PM  | Project time                                                 |
+| 2:00 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 3:50 PM  | [Links Collected for demos](ACTIVITIES.md#links)             |
-| 4:00 PM  | Demos                                                        |
+| 4:00 PM  | [Demos](ACTIVITIES.md#demos)                                 |
 | 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
 | 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
 | 4:45 PM  | [Post-mortem (ending at 5:30 PM)](ACTIVITIES.md#post-mortem) |
@@ -131,12 +131,12 @@ partners.
 | 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
 | 9:20 AM  | Energizer                                                    |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
-| 10:00 AM | Project time                                                 |
+| 10:00 AM | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
 | 1:30 PM  | Energizer                                                    |
-| 2:00 PM  | Project time                                                 |
+| 2:00 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 3:50 PM  | [Links Collected for demos](ACTIVITIES.md#links)             |
-| 4:00 PM  | Demos                                                        |
+| 4:00 PM  | [Demos](ACTIVITIES.md#demos)                                 |
 | 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
 | 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
 | 4:45 PM  | [Post-mortem (ending at 5:30 PM)](ACTIVITIES.md#post-mortem) |
