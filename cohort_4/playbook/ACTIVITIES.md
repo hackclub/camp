@@ -7,6 +7,9 @@
     - [Human Pictionary](#human-pictionary)
     - [I Love My Neighbor Who](#i-love-my-neighbor-who)
     - [Evolution Rock Paper Scissors](#evolution-rock-paper-scissors)
+    - [Slow Motion Samurai](#slow-motion-samurai)
+    - [Fortunately, Unfortunately](#fortunately-unfortunately)
+    - [Ninja](#ninja)
 - [Introduction talk](#introduction-talk)
     - [Speaking from personal experience.](#speaking-from-personal-experience)
     - [Why is programming awesome?](#why-is-programming-awesome)
@@ -157,6 +160,100 @@ chicken1 - chicken6, egg2 - egg3, while chicken4 and egg5 wait for partners.
 Then when people lose, an example scenario is: egg1, monkey6, chicken2, 
 egg3, chicken4, and egg5.  This continues until there are a specific number 
 of divine beings you decide upon.   
+
+## Slow Motion Samurai
+
+```
+Time: 5 - 10 minutes
+Materials: none
+Number: unknown
+Source: http://learnimprov.com/?p=169
+```
+
+Start with having everyone mill around the room (walk around in a crowd-like
+fashion). Once people are nice and moving, tell them to start moving in slow
+motion.
+
+Once a stable speed of slow motion is determined, the players all become samurai
+with poisonous blades build into their forearms. The object is to kill all the
+other samurai in the room.
+
+If anyone is touched by the forearm of another player, they must die a poisoned
+death in slow motion. It is important that the players keep their speed
+continuous. The point is not to win the energizer, but to have fun. If players
+are moving too fast and massacring many other players, simply tell them to slow
+down.
+
+This energizer usually ends when there is a large pile of bodies on the floor.
+
+## Fortunately, Unfortunately
+
+```
+Time: 5 - 10 minutes
+Materials: none
+Number: unknown
+Sources:
+
+- http://wiki.improvresourcecenter.com/index.php/Fortunately,_Unfortunately
+- http://www.bringyourownimprov.com/games.htm
+```
+
+_Fortunately, Unfortunately_ is a verbal warmup. Players stand in a circle. One
+player states a phrase from the first-person. The person to his left then says
+either "Fortunately," and then gives a positive aspect of the previously
+mentioned event, or says "Unfortunately," and gives a negative aspect. Then the
+next person to the left says "Fortunately" if the previously person said
+"Unfortunately," and vice versa. Play continues around the circle.
+
+Example:
+
+- A: "One upon a time Mary had a beautiful little lamb"
+- B: "Unfortunately, the lamb had a peg leg"
+- C: "Fortunately, Mary opened the leg and the lamb produced Skittles"
+- A: "Unfortunately, Skittles were illegal in Greece, where they lived, and Mary
+  and the lamb were sent to farmer's prison"
+
+This energizer usually ends once everyone in the circle has gone once or twice,
+depending on the size of the group. Use digression when ending and make sure to
+announce early who will be the last to speak (ex. saying "John Snow will be the
+last in this round!").
+
+## Ninja
+
+```
+Time: 10 minutes
+Materials: none
+Number: <15
+Source: http://www.wikihow.com/Play-Ninja
+```
+
+Start with having everyone stand in a loose circle with their eyes closed.
+Select one person from the circle to be the "first to act" by tapping on their
+shoulder.
+
+Once you've selected the first player, have everyone open their eyes and stands
+in the circle with their hands together to mimic a ninja's resting pose (like
+[this](http://pad2.whstatic.com/images/thumb/d/db/Play-Ninja-Step-2.jpg/670px-Play-Ninja-Step-2.jpg)).
+Have everyone jump at the same time and yell "ninja!", while striking a ninja
+pose. The person previously chosen to be the "first to act" makes the first
+move.
+
+The first player decides if they want to attack the player to the left or to the
+right of them. They don't tell the other players, because, as a player, part of
+the fun is not knowing whether you're going to be attacked on the first round.
+
+On attack, the player makes one fluid motion with the goal of hitting/slapping
+the opponent's hand. They can only take one step with one leg or jump towards
+another player with both feet. If they fall, they're out.
+
+The opponent may dodge the attack. While the first player is making their attack
+in one fluid motion, the other player has the opportunity to dodge the attack.
+If the first player hits their opponent's hand, the opponent is eliminated.
+
+Turns keep going in a circle until there are two players left, at which point
+the game restarts with only those two players. They strike their ninja poses and
+take turns attacking each other until there's only one ninja left standing: the
+winner.
 
 # Introduction talk
 

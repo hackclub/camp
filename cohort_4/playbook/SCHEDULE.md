@@ -100,11 +100,13 @@ Day layout copied from [here](../prep/meetings/15-07-27_sprint_discuss.md).
 
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
-| 9:20 AM  | Energizer                                                    |
+| 9:20 AM  | [Energizer 1](ACTIVITIES.md#fortunately-unfortunately)       |
+| 9:30 AM  | [Energizer 2](ACTIVITIES.md#slow-motion-samurai)             |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:15 AM | [Maestro workshop](ACTIVITIES.md#maestro)                    |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
-| 1:30 PM  | Energizer                                                    |
+| 1:30 PM  | [Energizer 3](ACTIVITIES.md#human-pictionary)                |
+| 1:45 PM  | [Energizer 4](ACTIVITIES.md#ninja)                           |
 | 2:00 PM  | Project time                                                 |
 | 4:00 PM  | Demos                                                        |
 | 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
