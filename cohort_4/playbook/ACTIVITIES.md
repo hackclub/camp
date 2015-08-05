@@ -24,6 +24,7 @@
         - [Running it](#running-it)
     - [Maestro](#maestro)
 - [Demos](#demos)
+    - [Links](#links)
     - [First-time demos](#first-time-demos)
     - [Giving feedback](#giving-feedback)
 - [Freeform Projects](#freeform-projects)
@@ -475,6 +476,25 @@ time and effort into for the past day.
   - Make sure to give context by explaining the basic overview of the app and
     why this is a failure
 - After presenting something they failed at, they can show off what they made
+
+## Links
+
+Before kicking off demos, we'll want to collect links to all of the web projects
+from the hackers in the Slack. To do just, just send out a message along the
+lines of the following:
+
+    3:20 PM <zrl> @channel: Hey all! The time has come to collect links to your
+                  projects. If you have a project that works on the web, please
+                  just paste a link to it here. Don't hesitate to ask us for
+                  help doing that!
+
+Ideally all links would be collected by 10 minutes before demos start, giving a
+good buffer if any hackers run into errors getting their projects online.
+
+If their project is not a web project, we recommend using a Google Hangout on
+the computer connected to the projector and the computer they developed on and
+using screen sharing to share their work. It's certainly less than ideal, but it
+has worked in the past.
 
 ## First-time demos
 
