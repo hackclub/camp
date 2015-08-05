@@ -1,0 +1,1 @@
+var maestro = new Maestro("feelings.js");

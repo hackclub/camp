@@ -1,3 +1,6 @@
+# TODO
+- Google Voice
+
 # STRUCTURE
 - breadth first
 - lengthier explanations at bottom of readme that specifically states that it is optional to read it for more clarification
@@ -166,6 +169,11 @@ var phone = prompt("What is the phone number you want to prank call?")
 var prank = prompt("How does the prank go?")
 maestro.Twilio.callAndSay(phone, prank);
 
+
+//=========================================
+// 
+
+maestro.Twilio.sendMessage
 //=========================================
 // Challenge
 // Read the documentation and try to figure out how to ask for a phoen number and a message and send a text message to a phone number
