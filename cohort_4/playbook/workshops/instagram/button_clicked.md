@@ -98,6 +98,8 @@ when a button is clicked!
 
 For your convienience, here is the code from the example:
 
+**WARNING: BELOW CODE DOES NOT WORK WITH YOUR CODE YET, MORE BELOW**
+
 ```html
 <!--HTML Code-->
 <input id="button" type="submit" name="button" value="enter"/>
@@ -121,6 +123,8 @@ many things as possible to allow it to still work.
 
 This makes it seem like I can remove this stuff about `count` in the javascript 
 which leaves me with [this code](http://jsfiddle.net/6qDap/1609/)
+
+**WARNING: BELOW CODE DOES NOT WORK WITH YOUR CODE YET, MORE BELOW**
 
 ```html
 <!--HTML Code-->
@@ -172,6 +176,8 @@ What does this code mean?
 
 ##### Understanding just the first line:
 
+**WARNING: BELOW CODE DOES NOT WORK WITH YOUR CODE YET, MORE BELOW**
+
 ```js
 var addPictureButton = document.getElementById('button');
 ```
@@ -204,6 +210,8 @@ element.
 
 ##### Understanding just the first and second line:
 
+**WARNING: BELOW CODE DOES NOT WORK WITH YOUR CODE YET, MORE BELOW**
+
 ```js
 var addPictureButton = document.getElementById('button');
 addPictureButton.onclick = function() {
@@ -233,7 +241,7 @@ have time:
 
 ##### Step 6: Now I'll try to add it to my code:
 
-**WARNING: BELOW CODE DOES NOT WORK AND CAUSES AN ERROR**
+**WARNING: BELOW CODE DOES NOT WORK WITH YOUR CODE YET, MORE BELOW**
 
 ```html
 <!--index.html-->
@@ -260,6 +268,8 @@ addPictureButton.onclick = function() {
 ```
 
 ##### Step 7: Debugging The Code
+
+Remember the errors we said we had above? We're going to solve it now.
 
 Hmmm, the code from above doesn't seem to work
 
