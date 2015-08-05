@@ -551,6 +551,16 @@ then).
 
 # Workshops
 
+## General Guidelines
+
+### Breaks
+
+If hackers don't take a break, they will likely get very antsy. You can either 
+
+- remind them to take breaks every hour / hour and a half
+- or say, I personally find that I become a lot more productive when I take regular breaks. At hack camp, feel free to take a break whenever, we don't want to baby you so we won't remind you.
+- or something else that works best for you.
+
 ## [Portfolio](workshops/portfolio)
 
 ### Prerequisites
@@ -559,6 +569,7 @@ then).
 
 ### Running it
 
+- make sure you follow the [general guidelines](#general-guidelines)
 - talk about the ratio / schedule of workshops to projects (to illustrate the
   point that we are only doing these workshops to give you experience to work on
   your own projects)
@@ -592,6 +603,8 @@ then).
 ## Maestro
 
 ### Running It
+
+Make sure you follow the [general guidelines](#general-guidelines)
 
 Make sure you show all of the 4 demos at the very beginning to show what you can make.
 
