@@ -479,7 +479,8 @@ alert(message);
 - Go ahead and click `Preview Running Application` to run it.
 - Click the arrow to move the window to an external tab
 - Open up the console
-- refresh the page
+- **IMPORTANT, MAKE SURE YOU REFRESH THE PAGE.**
+  - Note, the only way to it stop at the debugger is if you refresh the page.
 - you should see your code paused here
   > ![](img/24.png)
     
@@ -493,6 +494,12 @@ We can walk through line by line how our code.
 The blue line of code highlights the line of code that will be run next.
 
 #### Right now, the code is paused on line 1. I run it and it advances the blue cursor to line 2.
+
+Note: only seeing a blank page?
+
+- **MAKE SURE YOU REFRESH THE PAGE.**
+  - Note, the only way to it stop at the debugger is if you refresh the page.
+
 
 > ![](img/d1.gif)
 
