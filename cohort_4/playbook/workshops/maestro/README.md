@@ -19,6 +19,8 @@ TODO
 
 ## Demo
 
+This is what you will be able to make with Maestro
+
 - [Prank call](https://cdn.rawgit.com/hackedu/hack-camp/cb7a18c7e7bff6458d33be650de70186eb225f37/cohort_4/playbook/workshops/maestro/src/examples/prank/index.html)
 - [Send a text](https://cdn.rawgit.com/hackedu/hack-camp/cb7a18c7e7bff6458d33be650de70186eb225f37/cohort_4/playbook/workshops/maestro/src/examples/send_sms/index.html)
 - [Send a photo](https://cdn.rawgit.com/hackedu/hack-camp/cb7a18c7e7bff6458d33be650de70186eb225f37/cohort_4/playbook/workshops/maestro/src/examples/feeling/index.html)
@@ -508,100 +510,173 @@ Finally on the last line, I `alert` the `message` variable, which is equal to `"
 
 Code always executes in order like this.
 
-You can always put a debugger statement at the top to walk through this process.
+You can always put a debugger statement at the top to walk through this process to understand your code line by line
 
-##
+## Instead of alerting we are going to send a text message
 
+In order to be able to use Maestro to be able to send text messages and make phone calls, we need to do some more configuration.
 
-
-
-What' happening:
-
-
-
-alert("Hello world")
-
-var message = "Hello, welcome to my website!";
-alert(message)
-
-// this is starting to get unweildy, I don't want to retype all of this every time.
-
-```
-
-## Adding Javascript to an HTML web page
-
-## How do we add JavaScript to an HTML page
-
-I can follow along with debugger
+in our `script.js`, let's delete everything  we have in it (we're going to add it somewhere else) and add just this line of code
 
 ```js
+var maestro = new Maestro("js/maestro_code.js");
+```
 
-//=========================================
-// I do
+This line of code tells Maestro to run the javascript file `js/maestro_code.js`. For all intents and purposes, Maestro code can only run in the files that it is told to run.
 
+Now we need to actually make this file:
+
+- create a new file in the `js` folder called `maestro_code.js`
+- now let's make our first Maestro call. Look at the below code and replace the phone number with your own phone number.
+
+```
+maestro.Twilio.callAndSay("415-555-555", "Hello, good morning Jonathan!");
+```
+
+This is how everything should look right now:
+
+`index.html`
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="https://cdn.rawgit.com/hackedu/hack-camp/62cb48e3c30986350e71fd3153501883bee532c1/cohort_4/playbook/workshops/maestro/src/lib/maestro.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+  </body>
+</html>
+```
+
+`js/script.js`
+```js
+var maestro = new Maestro("js/maestro_code.js");
+```
+
+`js/maestro_code.js`
+```js
+maestro.Twilio.callAndSay("415-555-555", "Hello, good morning Jonathan!");
+// DON'T FORGET TO CHANGE YOUR PHONE NUMBER
+```
+
+If you run this code, it should call your phone and say "Hello, good morning Jonathan"!
+
+**Understanding the Code**
+
+Let's understand the code a little bit.
+
+```js
+maestro.Twilio.callAndSay("415-555-555", "Hello, good morning Jonathan!");
+// the entire above line is calling a funtion
+
+maestro.Twilio.callAndSay("415-555-555", "Hello, good morning Jonathan!");
+// ^^^^^^^^^^^^^^^^^^^^^^ is the name of the function
+
+maestro.Twilio.callAndSay("415-555-555", "Hello, good morning Jonathan!");
+// it has two inputs     1^^^^^^^^^^^^^ 2^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+maestro.Twilio.callAndSay("415-555-555", "Hello, good morning Jonathan!");
+// the action of this function is to call the number specified in the 1st input
+// with the text in the 2nd input
+
+// Note that the output to this function is undefined, ask a facilitator about this if you have questions
+```
+
+## Combining with the previous code
+
+`maestro_code.js`
+```js
 var name = prompt("What is your name?");
-alert("Hello " + name + ". Welcome to my website!");
+var message = "Hello " + name + ". Welcome to my website!"
+maestro.Twilio.callAndSay("415-555-555", message);
+```
 
+## Here are a bunch of other programs that you can put into `maestro_code.js`
 
-//=========================================
-// I do
+Feel free to tinker around with these examples.
 
-// 
+- try to get them to work
+- see if you can understand how they work perhaps by `debugger` through it
+- try modifying the programs to do something else that you want.
 
-var name = prompt("What is your name?");
-var message = "Hello " + name + ". Welcome to my website!";
-alert(message);
+Definitely try using `debugger` to explore how they work.
 
-//=========================================
-// CHALLENGE
+### Sends a Text Message
 
-// TODO: Something Similar
+```js
+var phone = prompt("Choose a friend to send a text message to. What is their phone number?");
+var message = prompt("What message do you want to send them?");
+maestro.Twilio.sendSms(phone, message);
+alert("Your text message has been sent to " + phone);
+```
 
-var answer = prompt("What is the meaning of life?");
-var message = "Wrong. The meaining of life is not " + answer ". The answer is clearly 42.";
-alert(answer);
+### Makes a Prank Call
 
-//=========================================
-//  Setup Maestro
+```js
+var phone = prompt("Choose a friend to prank call. What is their phone number?");
+var message = "Hi this is Sam from 31 Flavors, if you can name 31 Flavors in 31 seconds you can win 31 thousand dollars, ready go!!";
+maestro.Twilio.callAndSay(phone, message);
+alert(phone + " is being prank called...");
+```
 
+### Sends Your Friend a Photo Based On How You're Feeling
 
-//=========================================
-// 
+Note, this uses a concept that you're not familiar with yet but I think you can figure it out especially if you google the words you're not familiar with
 
+```js
+var phone = prompt("What is your friend's phone number?");
+var feeling = prompt("How does your friend make you feel? Possible feelings include happy, special, and safe.");
 
-maestro.Twilio.callAndSay("610-761-0083", "Why did the refrigerator cross the road?");
+if (feeling === "happy") {
+  maestro.Twilio.sendMms(phone, "http://cdn.meme.am/instances/61188073.jpg");
+}
+else if (feeling === "special") {
+  maestro.Twilio.sendMms(phone, "http://www.mememaker.net/static/images/memes/4138705.jpg");
+}
+else if (feeling === "safe") {
+  maestro.Twilio.sendMms(phone, "http://ih0.redbubble.net/image.4149579.6742/flat,800x800,070,f.jpg");
+}
+else {
+  maestro.Twilio.sendMms(phone, "http://4.bp.blogspot.com/-7zdzQsTt99k/U0c6xmLXOwI/AAAAAAAAAIQ/-2M0tNNNHIY/s1600/you+are+awesome.jpg")
+}
 
-var phone = prompt("What is the phone number you want to prank call?")
-maestro.Twilio.callAndSay(phone, "Why did the refrigerator cross the road?");
+alert("Great! We just sent an appropriate photo to " + phone);
+```
 
-var phone = prompt("What is the phone number you want to prank call?")
-var prank = prompt("How does the prank go?")
-maestro.Twilio.callAndSay(phone, prank);
+### Sends your friend a song based on what they're up to
 
+```js
+var phone = prompt("Think of a friend that could use an music energy boost? What is their phone number?");
+var activity = prompt("What kind of activity do they need an energy boost for? Types of activities include party, study, and love.");
 
-//=========================================
-// 
+maestro.Twilio.sendSms(phone, "I thought you could use an energy boost...");
 
-maestro.Twilio.sendMessage
-//=========================================
-// Challenge
-// Read the documentation and try to figure out how to ask for a phoen number and a message and send a text message to a phone number
+if (activity === "party") {
+  maestro.Twilio.callAndPlay(phone, "http://mp3light.net/assets/songs/20000-20999/20724-tik-tok-kesha--1411570590.mp3");
+}
+else if (activity === "study") {
+  maestro.Twilio.callAndPlay(phone, "http://a.tumblr.com/tumblr_lie8ewfdbO1qzbwpvo1.mp3");
+}
+else if (activity === "love") {
+  maestro.Twilio.callAndPlay(phone, "http://prv.mp3caprice.com/preview/111/816/1.mp3");
+}
+else {
+  maestro.Twilio.callAndPlay(phone, "http://mc01.userfiles.me/m/0/1395096936/38743662/64/2dc38b310bdac571fb2400696bd08265/Pharrell_Williams-Happy_-spaces.ru.mp3");
+}
 
-//=========================================
-// I'm going to build this thing that texts you if you type something in (it's the fastest)
+alert("Great! We'll give " + phone + " a ring!");
+```
 
+### For those who are more advanced, checkout
 
-- chill
-    - yo, lets go out.
-- posh
-    - Dear sir or maam, I would like to cordially invite you on a tea escade in the gardens of golden gate park.
-- straight forward
-    - I like you. You like me. Lets go out.
-- generic
-    - Hello. My summer camp is forcing me to ask you on a date with you.
+```js
+maestro.Twilio.recieveSms(function(reply){
+  console.log(reply.from); //prints the number that sent a message to twilio-number
+});
+```
 
-//=========================================
-// Challenge:
-// Build an app that asks the person how they're feeling and based on what they say, sends an apprppriate image to them.
-
+```js
+maestro.Giphy.findFirst("Search text", function(response){
+  console.log(response.url); //will print a url to the first result
+});
 ```
