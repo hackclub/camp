@@ -11,7 +11,7 @@
 Our objective of this tutorial is to learn 
 - the fundamentals of the programming language javascript
 - the fundamentals of programing in general
-- and how to send text messages and make phone calls with Maestro
+- and how to send text messages and make phone calls with Maestro using javascript.
 
 ## Sections
 
@@ -60,60 +60,334 @@ TODO
 
 ## What is JavaScript
 
-TODO: Description
-TODO: Facebook Remove CSS Screenshot Demo
+JavaScript is the programming language that runs in every web browser.
+
+HTML & CSS are responsible for the data, look and the feel of the website.
+
+For any interactivity on a page (things popping up, things that are changing on the page), JavaScript is responsible for it.
+
+For example on Facebook.com, notice my interaction with the pages before and after disabling javascript.
+
+![](img/disable_js.gif)
 
 ## Running your code in the console
 
+For the rest of this tutorial, please use Google Chrome.
+
+If you don't have it already, download it.
+
+Then open Google Chrome.
+
+Once Chrome is opened, open the developer tools by pressing
+- on a mac: `Cmd` + `Opt` + `J`
+- on a PC: `Ctrl` + `Shift` `J`
+
+This is a place where we can run Javascript code.
+
+
 ## Fundamental Concepts in Javascript
 
-Try all of these in the console.
-Look at the stack.
+### How to go about this section
 
-```js
-// anything listed after these two lines are ignored in the code
-// therefore I an write as much stuff
+If you don't understand anything you type
+- ask your neighbors to see if they get it
+- if not, ask a facilitator.
+
+### you can add numbers together in javascript:
+
+> ![](img/1_1+2.gif)
+
+- type `1 + 2;`
+- press `enter` to submit it
+- notice that "it gives you back" `3`
+- what this "gives you back" can be referred to as the output of `1 + 2;`
+
+```
+A Note On Comments
+
+note that anything after a `//` is what is called a comment
+anything that is 'commented' is ignored by the computer
+
+therefore
+
+1 + 2; // -> 3
+^^^^^^ this is looked at by the computer
+
+1 + 2; // -> 3
+       ^^^^^^^ this is ignored by the computer
+
+// this is a comment
+^^^^^^^^^^^^^^^^^^^^ everything is ignored by the computer
+```
+
+```
+A Note on Semicolons
+
+1 + 2;
+     ^ this must be at the end of almost every line in javascript;
+
+sometimes the code may still work without it, 
+sometimes however it doesn't. Best to just add it.
+```
+
+```
+Challenge!  
+Time        __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Try adding two other numbers together.
+```
+
+### You can use variables to hold values of numbers
+
+> ![](img/2.gif)
+
+- I type `var x = 3;`
+- press `enter`
+- this is equivalent of saying "I want to set the variable x to be equal to 3"
+
+### I can ask the computer what the value of `x` is
+
+If I want to find out the value of `x`, I can just type it in the console
+and press `enter`
+
+> ![](img/3.gif)
+
+### A note about variables
+In math class you would have written this is "x = 3"
+
+In javascript, you need to add:
+    
+- "var" in front of variables
+- a ";" at the end of every line
+
+I also notice that the output is `undefined`. 
+
+Note, this doesn't mean mean that the output of `var x = 3;` is not 
+  defined. This is just outputted anytime you assign a variable to
+  something.
+
+```
+Challenge!  
+Time        __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Can you set the variable `y` to be equal to 2 and then check it's value?
+```
+
+Solution:
+
+- Type this into the console `var y = 4;` and press `enter`
+- type `y` again to get the value of `y`
+
+### Manipulating variables
+
+Now that we know that `x` is `3` and `y` is `4`, we can do
+
+> ![](img/4.gif)
+
+```
+Try It!  
+            __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Try adding a number to a variable, like `y + 1`
+```
+
+### I can use multiWordVariables
+
+However variables cannot have spaces in them.
+
+> ![](img/5.gif)
+
+### JavaScript also lets you play with words
+
+If I just wrote `numberOfChickens` without defining it:
+
+> ![](img/6.gif)
+
+You will get the error:
+
+> ![](img/7.png)
+
+Which just means "you have never defined the variable `numberOfChickens`"
+
+I would also get an error if I wrote `Hello my name is Jonathan`
+
+> ![](img/8.png)
+
+So how do i actually write words? You have to put quotes around it, like this:
+
+> ![](img/9.gif)
+
+And you can write longer phrases too
+
+> ![](img/10.png)
+
+```
+Try it!
+            __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Try making a couple Strings of your own in the console.
+```
+
+**Important Vocabulary**
+
+`"Hello"` and `"Hello! welcome to wonderland!"` are Strings.
+
+A `String` is *anything* inside of double quotes.
+
+Therefore `"2"` is a `String` because it is inside double quotes.
+
+### Adding multiple Strings together
+
+I can add strings like this:
+
+![](img/12.gif)
+
+Oops, I should add a space:
+
+![](img/13.gif)
+
+I can add multiple String together:
+
+![](img/14.gif)
+
+```
+Try it!
+            __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Try adding multiple Strings together in the console.
+```
+
+### I can assign Strings to variables
+
+![](img/15.gif)
+
+```
+Try it!
+            __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Try to assign a string to a variable and add another String to it.
+```
+
+### I can add two variables together that are both Strings
+
+![](img/16.gif)
+
+```
+Try it!
+            __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Try assigning two variables as strings and adding them together!
+```
+
+### I can assign a variable to the output to the sum of both Strings
+
+![](img/17.gif)
+
+```
+Try it!
+            __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Try assigning a variable to the sum of two variables.
+```
+
+### Functions
+
+This line of code below is a function
+
+```
+prompt("What is your name?");
+```
+
+![](img/18.gif)
+
+Every function performs an action and has an output.
+
+In this case, this function, `prompt`, performed the **action** of popping up a question on the screen based on the **input**. Then based on whatever the user types it becomes the **output** of the function.
+
+There are 3 components to a function
+
+- inputs
+- actions
+- outputs
+
+Some terminology
+```
+prompt("What is your name?");
+^^^^^^ this is the name of the function
+
+prompt("What is your name?");
+      ^                    ^
+      to run a function, the name of a function is followed by parathesis
+      anything inside of the parenthesis is an input
+
+prompt("What is your name?");
+       ^^^^^^^^^^^^^^^^^^^^ this is the input
+
+       in this case, this function had 1 input
+       and that input was the string "What is your name?"
+
+The ACTION performed is the box actually popping up on the screen
+
+And the OUTPUT of the function, was the String "Jonathan"
+```
+
+##### I can assign a variable to the output of a function
+
+```
 
 
-// you can add two numbers together
-1 + 2; 
+```
 
-// you can assign valaues to a variable
+```
+Try It!
+            __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
 
-// in math class you did x = 1, in javascript you need to add "var and a semicolon"
-var x = 1;
-var y = 2;
-x + y
+Try assigning a variable to an output of your own prompt function.
+```
 
-// There are these things called strings. Anything inside of quotes.
-"Hello"
+var name = prompt("What is your name?");
+alert("Hello " + name + ". Welcome to my website!");
 
-
-"Hello" + "Jonathan"
-"Hello " + "Jonathan"
-
-var firstName = "jonathan"
-"Hello " + firstName;
-
-var greeting = "Hello ";
-greeting + firstName;
-
-greeting = "Goodbye ";
-greeting + firstName;
-
-firstName = "Sally"
-greeting + firstName;
-
-var message = greeting + firstName;
-
-// the above is a function
 alert("Hello world")
 
 var message = "Hello, welcome to my website!";
 alert(message)
-
-var name = prompt("What is your name?");
-alert("Hello " + name + ". Welcome to my website!");
 
 // this is starting to get unweildy, I don't want to retype all of this every time.
 
