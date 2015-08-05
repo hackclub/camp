@@ -468,7 +468,13 @@ TODO
 # Demos
 
 Demos are the hackers' chance to show off what they have been putting so much
-time and effort into for the past day.
+time and effort into for the past day or two.
+
+If they started their projects earlier in the day, then the demo is considered a
+_mini-demo_ and hackers are encouraged to show their current work in progress.
+If it's the second day they've been working on their project, then the hackers
+are encouraged to show a minimum-viable-product (MVP) of their project. Ideally
+this would be somewhat functional and demonstrate base functionality.
 
 - Presentation order depends on who volunteers.
 - Each team should start off with something they failed at
@@ -510,6 +516,10 @@ shouted out after the demo.
 
 This assumes the hackers are already in groups and have decided what to work on.
 If they have not yet, refer to [Brainstorming](#brainstorming).
+
+Every set of freeform time for projects culminates in a demo by the end of the
+day. See the [demo section](#demos) for more details, including what hackers are
+encouraged to have finished.
 
 ## Scoping and concept
 
