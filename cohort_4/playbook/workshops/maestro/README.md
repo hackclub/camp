@@ -322,7 +322,7 @@ Try it!
 Try assigning a variable to the sum of two variables.
 ```
 
-### Functions
+### The prompt function
 
 This line of code below is a function
 
@@ -363,12 +363,9 @@ The ACTION performed is the box actually popping up on the screen
 And the OUTPUT of the function, was the String "Jonathan"
 ```
 
-##### I can assign a variable to the output of a function
+### I can assign a variable to the output of a function
 
-```
-
-
-```
+![](img/20.gif)
 
 ```
 Try It!
@@ -381,8 +378,100 @@ Try It!
 Try assigning a variable to an output of your own prompt function.
 ```
 
+### The alert function
+
+![](img/21.gif)
+
+The `alert` function is like the `prompt` function except
+
+- it has `0` inputs
+- it's action is similar in that it makes a popup box, but the popup doesn't have an area where the user can type in.
+- it's output is always `undefined`
+
+## Writing code in a proper editor
+
+### Creating a new folder
+- Open your **EXISTING** `hack-camp` Cloud9 workspace and create a new folder called
+  `texting-site` inside your already existing `hack-camp` folder
+  - This is similar to how you set up your `portfolio` folder for the previous
+    workshop
+
+### Creating index.html
+- Inside the folder create a new file called `index.html` and open it
+- Go ahead and type out a website template to the file
+
+  ```html
+  <!DOCTYPE html>
+  <html>
+    <head>
+    </head>
+    <body>
+    </body>
+  </html>
+  ```
+
+### Adding the Maestro script
+- At the `<head>` tags, let's go ahead and create a `<script>` tag with an
+  attribute `src` set to `https://cdn.rawgit.com/hackedu/hack-camp/62cb48e3c30986350e71fd3153501883bee532c1/cohort_4/playbook/workshops/maestro/src/lib/maestro.js`
+
+  ```html
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <script type="text/javascript" src="https://cdn.rawgit.com/hackedu/hack-camp/62cb48e3c30986350e71fd3153501883bee532c1/cohort_4/playbook/workshops/maestro/src/lib/maestro.js"></script>
+    </head>
+    <body>
+    </body>
+  </html
+  ```
+
+  - `<script>` tags are how we tell the browser to include JavaScript in the
+  page. Where HTML and CSS make up what is on a webpage and how it's shown,
+  JavaScript is the programming language that makes webpages functional. With
+  JavaScript we can:
+    - Make websites respond to user interactions
+    - Building apps and games (e.g.
+      [2048](http://gabrielecirulli.github.io/2048/))
+    - Access and modify information on the internet (e.g. finding out the
+      weather, sending a text message)
+  - `https://maestro.ngrok.com/static/baton.js` is a file with a bunch of
+    JavaScript commands in it we've already created for you
+
+### Adding our own JavaScript code
+
+- Now let's create a file to store our JavaScript code in. Go ahead and create a
+  directory, `js`, and then create a file, `script.js`, inside the `js`
+  directory.
+- Now let's tell the browser to include this JavaScript file as well. Below the
+  `<script>` tag add a second `<script>` tag in your `<head>` with the attribute
+  `src` set to `js/script.js`
+
+  ```html
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <script type="text/javascript" src="https://cdn.rawgit.com/hackedu/hack-camp/62cb48e3c30986350e71fd3153501883bee532c1/cohort_4/playbook/workshops/maestro/src/lib/maestro.js"></script>
+      <script src="js/script.js"></script>
+    </head>
+    <body>
+    </body>
+  </html>
+  ```
+
+### Writing our code in script.js
+
+Let's type the following code in the `script.js` file
+
+```
 var name = prompt("What is your name?");
 alert("Hello " + name + ". Welcome to my website!");
+```
+
+Go ahead and run it.
+
+What' happening:
+
+
 
 alert("Hello world")
 
