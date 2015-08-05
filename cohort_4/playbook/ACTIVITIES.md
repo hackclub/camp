@@ -2,6 +2,7 @@
 **Table of Contents**
 
 - [Hacker arrival](#hacker-arrival)
+    - [On the First Day](#on-the-first-day)
 - [Energizers](#energizers)
     - [Where The West Wind Blows](#where-the-west-wind-blows)
     - [Human Pictionary](#human-pictionary)
@@ -51,6 +52,25 @@
 <!-- markdown-toc end -->
 
 # Hacker arrival
+
+Make sure hackers come straight down to the hackerspace when they arrive.
+
+Have at least one leader in the hackerspace while hackers are arriving. When a
+hacker arrives, the leader should greet them as they come in and make sure they
+sit in a different seat than the previous day. If they're on a team with another
+hacker, make sure both hackers sit together in new seats.
+
+If a leader makes it to the hackerspace after other hackers have already
+arrived, the leader should greet them and have them sit in different seats than
+the previous day (and with their teammate, if applicable).
+
+## On the First Day
+
+Hacker arrival on the first day is going to be a bit different than on the other
+days. The hackers won't know where to go and they won't know the leaders of the
+camp, so it's our job to make this as seamless and welcoming as possible.
+
+We recommend doing the following:
 
 1. Assign two leaders to manage hacker arrival and one leader to manage scanning
    of acceptance packets.
