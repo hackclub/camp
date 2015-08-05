@@ -19,10 +19,10 @@ TODO
 
 ## Demo
 
-- <!prank call>
-- <!send friend txt>
-- <!send pic based on feeling>
-- <!send song based on pick>
+- [Prank call](https://cdn.rawgit.com/hackedu/hack-camp/cb7a18c7e7bff6458d33be650de70186eb225f37/cohort_4/playbook/workshops/maestro/src/examples/prank/index.html)
+- [Send a text](https://cdn.rawgit.com/hackedu/hack-camp/cb7a18c7e7bff6458d33be650de70186eb225f37/cohort_4/playbook/workshops/maestro/src/examples/send_sms/index.html)
+- [Send a photo](https://cdn.rawgit.com/hackedu/hack-camp/cb7a18c7e7bff6458d33be650de70186eb225f37/cohort_4/playbook/workshops/maestro/src/examples/feeling/index.html)
+- [Send a song](https://cdn.rawgit.com/hackedu/hack-camp/cb7a18c7e7bff6458d33be650de70186eb225f37/cohort_4/playbook/workshops/maestro/src/examples/song/index.html)
 
 ## Questions you should be able to answer after this tutorial
 
