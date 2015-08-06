@@ -24,11 +24,16 @@
 - [Meals](#meals)
     - [Breakfast](#breakfast)
     - [Lunch](#lunch)
+- [Morning Announcements](#morning-announcements)
+    - [Purpose](#purpose)
+    - [Delivery](#delivery)
 - [Workshops](#workshops)
     - [[Portfolio](workshops/portfolio)](#portfolioworkshopsportfolio)
         - [Prerequisites](#prerequisites)
         - [Running it](#running-it)
     - [Maestro](#maestro)
+        - [Running It](#running-it)
+        - [Link](#link)
 - [Demos](#demos)
     - [Links](#links)
     - [First-time demos](#first-time-demos)
@@ -599,6 +604,28 @@ whole group take the stairs to the roof. We've found that trying to take the
 elevators with large groups can get pretty chaotic, especially when going to the
 roof during lunch time (many Galvanize members all trying to get to the lobby
 then).
+
+# Morning Announcements
+
+## Purpose
+
+The purpose of morning announcements is to let the club know that feedback is
+taken into account, and will be acted on throughout the day. This is essential
+because it may not be extremely clear if club leaders are actively trying to
+improve their club through the feedback of others. This also gives a sort of
+"transparency" in the club leadership, as members know what exactly is going on,
+in terms of improvements and/or suggestions.
+
+## Delivery
+
+Morning announcements will take anywhere from 3-5 minutes, and will cover
+feedback that will be acted upon during the day. Not only that, the club leaders
+will also mention the activities that will be happening throughout the day, such
+as project time, demoing, and/or workshops. A way that club leaders may want
+consider when addressing feedback implementation could be something like: "Hey
+everyone, yesterday we got feedback about ______, and today we will be trying to
+improve that by _____." This will reassure club members that they are having a
+say in what direction the club takes.
 
 # Workshops
 
