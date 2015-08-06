@@ -78,3 +78,20 @@ _August 3rd - August 14th_
 The objective of the fourth cohort is to have another member of the hackEDU team
 reproduce the experience from the second and third cohorts from a set of
 materials.
+
+## Achievements
+
+### Issues
+
+| Achievement                                                    | Account                                   |
+| -------------------------------------------------------------- | ----------------------------------------- |
+| [100th issue](https://github.com/hackedu/hack-camp/issues/100) | [jonleung](https://github.com/jonleung)   |
+| [200th issue](https://github.com/hackedu/hack-camp/issues/200) | [zachlatta](https://github.com/zachlatta) |
+| [300th issue](https://github.com/hackedu/hack-camp/issues/300) | [zachlatta](https://github.com/zachlatta) |
+
+### Closed/Merged Pull Requests
+
+| Achievement                                                         | Account                                 |
+| ------------------------------------------------------------------- | --------------------------------------- |
+| [50th pull request](https://github.com/hackedu/hack-camp/pull/192)  | [jonleung](https://github.com/jonleung) |
+| [100th pull request](https://github.com/hackedu/hack-camp/pull/288) | [jonleung](https://github.com/jonleung) |
