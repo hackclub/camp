@@ -10,11 +10,11 @@
     - [Human Knot](#human-knot)
     - [Human Pictionary](#human-pictionary)
     - [I Love My Neighbor Who](#i-love-my-neighbor-who)
+    - [Mumbled Messages](#mumbled-messages)
     - [Ninja](#ninja)
     - [One Word Radio](#one-word-radio)
     - [Sharks and Minnows](#sharks-and-minnows)
     - [Slow Motion Samurai](#slow-motion-samurai)
-    - [Telephone](#telephone)
     - [Where The West Wind Blows](#where-the-west-wind-blows)
 - [Introduction talk](#introduction-talk)
     - [Speaking from personal experience.](#speaking-from-personal-experience)
@@ -286,6 +286,30 @@ Number: best for 10-35
   think "could only apply to them" and when they realize when it applies to
   someone else, bonding happens.
 
+## Mumbled Messages
+
+```
+Time: 10 minutes
+Materials: none
+Number: unknown
+Source: unknown
+```
+
+Mumbled Messages is a game where you try to pass around a message and compare
+how it is at the beginning and at the end. People are standing in a circle and
+the message gets passed around in the clockwise direction.
+
+Start by having one person, Person A, think of a complicated phrase to say to
+the person on his or her left, Person B. Person A will then whisper that message
+into Person B's ear, and Person B will whisper the message he heard into Person
+C's ear, and so on, until the message gets around to the person on Person A's
+right hand side, Person X. Person X will then say the phrase he thinks he heard,
+and then Person A will say his phrase. Then the group will see how accurate
+Person X's phrase was.
+
+The energizer typically ends after one round (the message has been passed all
+around), but more rounds can be run if necessary.
+
 ## Ninja
 
 ```
@@ -396,30 +420,6 @@ are moving too fast and massacring many other players, simply tell them to slow
 down.
 
 This energizer usually ends when there is a large pile of bodies on the floor.
-
-## Telephone
-
-```
-Time: 10 minutes
-Materials: none
-Number: unknown
-Source: unknown
-```
-
-Telephone is a game where you try to pass around a message and compare how it is
-at the beginning and at the end. People are standing in a circle and the message
-gets passed around in the clockwise direction.
-
-Start by having one person, Person A, think of a complicated phrase to say to
-the person on his or her left, Person B. Person A will then whisper that message
-into Person B's ear, and Person B will whisper the message he heard into Person
-C's ear, and so on, until the message gets around to the person on Person A's
-right hand side, Person X. Person X will then say the phrase he thinks he heard,
-and then Person A will say his phrase. Then the group will see how accurate
-Person X's phrase was.
-
-The energizer typically ends after one round (the message has been passed all
-around), but more rounds can be run if necessary.
 
 ## Where The West Wind Blows
 
