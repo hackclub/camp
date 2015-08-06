@@ -59,13 +59,16 @@
 Make sure hackers come straight down to the hackerspace when they arrive.
 
 Have at least one leader in the hackerspace while hackers are arriving. When a
-hacker arrives, the leader should greet them as they come in and make sure they
-sit in a different seat than the previous day. If they're on a team with another
-hacker, make sure both hackers sit together in new seats.
+hacker arrives, the leader should vigorously and excitedly greet them as they come in.
+
+>"good morning!"
+>"how did you sleep?"
+>"how are you?"
+
+If they're on a team with another hacker, make sure both hackers sit together.
 
 If a leader makes it to the hackerspace after other hackers have already
-arrived, the leader should greet them and have them sit in different seats than
-the previous day (and with their teammate, if applicable).
+arrived, the leader should also vigorously and excitedly greet them.
 
 ## On the First Day
 
@@ -164,27 +167,27 @@ Source: Andrea
 
 Everyone starts off in the “egg” stage and has to act like eggs like being in a
 squatting position. Every “egg” will find another “egg” to play rock paper
-scissors with. Play rock paper scissors until someone wins 2 out of 3. The 
-person that wins the rps round will then evolve into the next stage, which is 
-“chicken,” and has to find another “chicken” to play rock paper scissors with. 
-The “losing” person will remain an egg and find other eggs to play rock paper 
-scissors with. The stages are egg to chicken to monkey to human then to divine 
-being. In each stage, the “losing” person will de-evolve into the previous 
-stage or if an egg will remain an egg. So if you lose when you're a chicken, 
-then you become an egg again.  Once a person becomes a divine being he/she 
+scissors with. Play rock paper scissors until someone wins 2 out of 3. The
+person that wins the rps round will then evolve into the next stage, which is
+“chicken,” and has to find another “chicken” to play rock paper scissors with.
+The “losing” person will remain an egg and find other eggs to play rock paper
+scissors with. The stages are egg to chicken to monkey to human then to divine
+being. In each stage, the “losing” person will de-evolve into the previous
+stage or if an egg will remain an egg. So if you lose when you're a chicken,
+then you become an egg again.  Once a person becomes a divine being he/she
 leaves the game and watches.
 Continue until you have a certain number of divine beings agreed upon at the
 beginning of the game.
 
-For example, assume there are 6 people, and they all default start at the 
-"egg" stage.  There will be 3 rounds of rock paper scissors total, so 
-egg1 - egg2, egg3 - egg4, egg5 - egg6.  There will then be 3 winners, so 
-chicken1 egg2 egg3 chicken4 egg5 chicken6, for example.  Then, there will 
+For example, assume there are 6 people, and they all default start at the
+"egg" stage.  There will be 3 rounds of rock paper scissors total, so
+egg1 - egg2, egg3 - egg4, egg5 - egg6.  There will then be 3 winners, so
+chicken1 egg2 egg3 chicken4 egg5 chicken6, for example.  Then, there will
 be 2 rounds going on, since there are an odd number of chickens and eggs:
 chicken1 - chicken6, egg2 - egg3, while chicken4 and egg5 wait for partners.
-Then when people lose, an example scenario is: egg1, monkey6, chicken2, 
-egg3, chicken4, and egg5.  This continues until there are a specific number 
-of divine beings you decide upon.   
+Then when people lose, an example scenario is: egg1, monkey6, chicken2,
+egg3, chicken4, and egg5.  This continues until there are a specific number
+of divine beings you decide upon.
 
 ## Slow Motion Samurai
 
