@@ -1024,6 +1024,11 @@ highly recommend reviewing the feedback from the hackers and bringing up any
 points of feedback that stand out to you in the post-mortem so it can be acted
 on.
 
+A quick note about the feedback forms: one of the fields, the anonymous
+passphrase, lets us track an individual's feedback day-to-day without knowing
+their name. _Make sure that hackers use the same anonymous passphrase each day_.
+An explanation of what this field is in day 1's feedback form (linked below).
+
 All of the feedback form responses will be put into the appropriate sheet in
 https://docs.google.com/spreadsheets/d/1D8y_UB11C4QrXB9kn86-UqVQQqT9FUDqftx1AMHIb3o.
 
