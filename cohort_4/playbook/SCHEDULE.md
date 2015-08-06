@@ -111,14 +111,13 @@ partners. Please do make sure to explain _why_ we are assigning hackers (explain
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
 | 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
-| 9:20 AM  | [Energizer 1](ACTIVITIES.md#fortunately-unfortunately)       |
-| 9:30 AM  | [Energizer 2](ACTIVITIES.md#slow-motion-samurai)             |
+| 9:20 AM  | [Energizer 1](ACTIVITIES.md#mumbled-messages)                |
+| 9:30 AM  | [Energizer 2](ACTIVITIES.md#ninja)                           |
 | 9:40 AM  | [Morning Announcements](ACTIVITIES.md#morning-announcements) |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:00 AM | [Maestro workshop](ACTIVITIES.md#maestro)                    |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
-| 1:30 PM  | [Energizer 3](ACTIVITIES.md#human-pictionary)                |
-| 1:45 PM  | [Energizer 4](ACTIVITIES.md#ninja)                           |
+| 1:30 PM  | [Energizer 3](ACTIVITIES.md#human-knot)                      |
 | 2:00 PM  | [Project Formation](ACTIVITIES.md#project-formation)         |
 | 2:30 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 3:50 PM  | [Links collected for demos](ACTIVITIES.md#links)             |

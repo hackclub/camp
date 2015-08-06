@@ -6,7 +6,6 @@
 - [Energizers](#energizers)
     - [Bad startup ideas](#bad-startup-ideas)
     - [Evolution Rock Paper Scissors](#evolution-rock-paper-scissors)
-    - [Fortunately, Unfortunately](#fortunately-unfortunately)
     - [Human Knot](#human-knot)
     - [Human Pictionary](#human-pictionary)
     - [I Love My Neighbor Who](#i-love-my-neighbor-who)
@@ -14,7 +13,6 @@
     - [Ninja](#ninja)
     - [One Word Radio](#one-word-radio)
     - [Sharks and Minnows](#sharks-and-minnows)
-    - [Slow Motion Samurai](#slow-motion-samurai)
     - [Where The West Wind Blows](#where-the-west-wind-blows)
 - [Introduction talk](#introduction-talk)
     - [Speaking from personal experience.](#speaking-from-personal-experience)
@@ -180,38 +178,6 @@ chicken1 - chicken6, egg2 - egg3, while chicken4 and egg5 wait for partners.
 Then when people lose, an example scenario is: egg1, monkey6, chicken2,
 egg3, chicken4, and egg5.  This continues until there are a specific number
 of divine beings you decide upon.
-
-## Fortunately, Unfortunately
-
-```
-Time: 5 - 10 minutes
-Materials: none
-Number: unknown
-Sources:
-
-- http://wiki.improvresourcecenter.com/index.php/Fortunately,_Unfortunately
-- http://www.bringyourownimprov.com/games.htm
-```
-
-_Fortunately, Unfortunately_ is a verbal warmup. Players stand in a circle. One
-player states a phrase from the first-person. The person to his left then says
-either "Fortunately," and then gives a positive aspect of the previously
-mentioned event, or says "Unfortunately," and gives a negative aspect. Then the
-next person to the left says "Fortunately" if the previously person said
-"Unfortunately," and vice versa. Play continues around the circle.
-
-Example:
-
-- A: "One upon a time Mary had a beautiful little lamb"
-- B: "Unfortunately, the lamb had a peg leg"
-- C: "Fortunately, Mary opened the leg and the lamb produced Skittles"
-- A: "Unfortunately, Skittles were illegal in Greece, where they lived, and Mary
-  and the lamb were sent to farmer's prison"
-
-This energizer usually ends once everyone in the circle has gone once or twice,
-depending on the size of the group. Use digression when ending and make sure to
-announce early who will be the last to speak (ex. saying "John Snow will be the
-last in this round!").
 
 ## Human Knot
 
@@ -395,31 +361,6 @@ Number: unknown
 - If a minnow is tagged by a shark, the minnow is now kelp and cannot move.
 - Kelp will try to reach out and tag the minnows as they run past. If a minnow
   is tagged by kelp, it also becomes kelp.
-
-## Slow Motion Samurai
-
-```
-Time: 5 - 10 minutes
-Materials: none
-Number: unknown
-Source: http://learnimprov.com/?p=169
-```
-
-Start with having everyone mill around the room (walk around in a crowd-like
-fashion). Once people are nice and moving, tell them to start moving in slow
-motion.
-
-Once a stable speed of slow motion is determined, the players all become samurai
-with poisonous blades build into their forearms. The object is to kill all the
-other samurai in the room.
-
-If anyone is touched by the forearm of another player, they must die a poisoned
-death in slow motion. It is important that the players keep their speed
-continuous. The point is not to win the energizer, but to have fun. If players
-are moving too fast and massacring many other players, simply tell them to slow
-down.
-
-This energizer usually ends when there is a large pile of bodies on the floor.
 
 ## Where The West Wind Blows
 
