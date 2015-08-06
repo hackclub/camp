@@ -27,6 +27,9 @@
 - [Morning Announcements](#morning-announcements)
     - [Purpose](#purpose)
     - [Delivery](#delivery)
+- [Pairing Guidelines](#pairing-guidelines)
+    - [Spreadsheet Creation](#spreadsheet-creation)
+    - [Compatibility and Uniqueness](#compatibility-and-uniqueness)
 - [Workshops](#workshops)
     - [[Portfolio](workshops/portfolio)](#portfolioworkshopsportfolio)
         - [Prerequisites](#prerequisites)
@@ -626,6 +629,37 @@ consider when addressing feedback implementation could be something like: "Hey
 everyone, yesterday we got feedback about ______, and today we will be trying to
 improve that by _____." This will reassure club members that they are having a
 say in what direction the club takes.
+
+# Pairing Guidelines
+
+Since there are many ways you can pair people in your club/camp, there are
+several guidelines that should be followed. Organization of this should be
+maintained in a spreadsheet, and partners should be purposely paired for maximum
+efficiency and ability to work together.
+
+## Spreadsheet Creation
+
+You should create a Google Spreadsheet to maintain organization for pairings.
+Spreadsheets allow one to cleanly see each pair, and provide a means of access
+for each person in your leader group. The ability to share and collaborate with
+your team members is ultimately beneficial as it should reduce the number of
+mistakes and incompatible pairs.
+
+## Compatibility and Uniqueness
+
+Pairings will not work out if the partners are not compatible. Skill is
+something to keep in mind, of course, but it is not necessarily the one thing
+that pairings depend on. If a person was sociable and communicated well, but did
+not have much experience coding, a pairing with a more advanced person would
+still be possible because the more advanced person gets teaching experience,
+while the less advanced person can still learn. This may not be true for quiet
+individuals - the pairing is less likely to work, and may result in a less than
+ideal result. It is also seen pairing two people of similar levels is
+beneficial, although one should be able to communicate well.
+
+Uniqueness is also important - no two people should be paired together again
+unless everyone has already been paired with each other. This will help members
+of the club all form bonds with each other.
 
 # Workshops
 
