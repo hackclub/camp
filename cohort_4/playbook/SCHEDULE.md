@@ -67,26 +67,36 @@ partners.
 
 ## Day 1
 
-| Time     | Activity                                                     |
-| -------- | ------------------------------------------------------------ |
-| 8:30 AM  | Standups                                                     |
-| 9:20 AM  | [Hacker arrival](ACTIVITIES.md#on-the-first-day)             |
-| 9:30 AM  | Galvanize tour                                               |
-| 9:40 AM  | [Energizer 1](ACTIVITIES.md#where-the-west-wind-blows)       |
-| 9:50 AM  | [Energizer 2](ACTIVITIES.md#i-love-my-neighbor-who)          |
-| 10:00 AM | [Breakfast](ACTIVITIES.md#breakfast)                         |
-| 10:30 AM | [Introduction talk](ACTIVITIES.md#introduction-talk)         |
-| 10:40 AM | [Portfolio workshop](ACTIVITIES.md#portfolio)                |
-| 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
-| 9:50 AM  | [Energizer 3](ACTIVITIES.md#evolution-rock-paper-scissors)   |
-| 2:00 PM  | [Brainstorming](ACTIVITIES.md#brainstorming)                 |
-| 2:20 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
-| 3:30 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
-| 3:40 PM  | [I have failed circle](ACTIVITIES.md#i-have-failed-activity) |
-| 3:50 PM  | [Demos](ACTIVITIES.md#demos)                                 |
-| 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
-| 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
-| 4:45 PM  | [Post-mortem (ending at 5:30 PM)](ACTIVITIES.md#post-mortem) |
+| Time     | Activity                                                                   |
+| -------- | -------------------------------------------------------------------------- |
+| 8:30 AM  | Standups                                                                   |
+| 9:20 AM  | [Hacker arrival](ACTIVITIES.md#on-the-first-day)                           |
+| 9:30 AM  | Galvanize tour                                                             |
+| 9:40 AM  | [Energizer 1](ACTIVITIES.md#where-the-west-wind-blows)                     |
+| 9:50 AM  | [Energizer 2](ACTIVITIES.md#i-love-my-neighbor-who)                        |
+| 10:00 AM | [Breakfast](ACTIVITIES.md#breakfast)                                       |
+| 10:30 AM | [Introduction talk](ACTIVITIES.md#introduction-talk)                       |
+| 10:40 AM | [Portfolio workshop](ACTIVITIES.md#portfolio)                              |
+| 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                               |
+| 9:50 AM  | [Energizer 3](ACTIVITIES.md#evolution-rock-paper-scissors)                 |
+| 2:00 PM  | [Brainstorming](ACTIVITIES.md#brainstorming)                               |
+| 2:00 PM  | [Forming groups](ACTIVITIES.md#forming-groups)                             |
+| 2:05 PM  | [Yes-and sessions](ACTIVITIES.md#yes-and-sessions)                         |
+| 2:10 PM  | [Running a brainstorm session](ACTIVITIES.md#running-a-brainstorm-session) |
+| 2:15 PM  | [After a brainstorm](ACTIVITIES.md#after-a-brainstorm)                     |
+| 2:20 PM  | [Project time](ACTIVITIES.md#freeform-projects)                            |
+|          | [Scoping and concept](ACTIVITIES.md#scoping-and-concept)                   |
+|          | [Engagement](ACTIVITIES.md#engagement)                                     |
+|          | [Facilitating](ACTIVITIES.md#facilitating)                                 |
+|          | [Answering questions](ACTIVITIES.md#answering-questions)                   |
+| 3:20 PM  | [Links collected for demos](ACTIVITIES.md#links)                           |
+| 3:30 PM  | [I have failed circle](ACTIVITIES.md#i-have-failed-activity)               |
+| 3:40 PM  | [Demos](ACTIVITIES.md#demos)                                               |
+| 3:40 PM  | [First-time demos](ACTIVITIES.md#first-time-demos)                         |
+| 3:45 PM  | [Giving feedback](ACTIVITIES.md#giving-feedback)                           |
+| 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                              |
+| 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)                          |
+| 4:45 PM  | [Post-mortem (ending at 5:30 PM)](ACTIVITIES.md#post-mortem)               |
 
 ## Day 2
 
@@ -96,34 +106,52 @@ partners.
 | 9:20 AM  | Energizer                                                    |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:00 AM | [Project time](ACTIVITIES.md#freeform-projects)              |
+|          | [Scoping and concept](ACTIVITIES.md#scoping-and-concept)     |
+|          | [Engagement](ACTIVITIES.md#engagement)                       |
+|          | [Facilitating](ACTIVITIES.md#facilitating)                   |
+|          | [Answering questions](ACTIVITIES.md#answering-questions)     |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
 | 1:30 PM  | Energizer                                                    |
 | 2:00 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
+|          | [Scoping and concept](ACTIVITIES.md#scoping-and-concept)     |
+|          | [Engagement](ACTIVITIES.md#engagement)                       |
+|          | [Facilitating](ACTIVITIES.md#facilitating)                   |
+|          | [Answering questions](ACTIVITIES.md#answering-questions)     |
 | 3:50 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
 | 4:00 PM  | [Demos](ACTIVITIES.md#demos)                                 |
+| 4:00 PM  | [Giving feedback](ACTIVITIES.md#giving-feedback)             |
 | 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
 | 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
 | 4:45 PM  | [Post-mortem (ending at 5:30 PM)](ACTIVITIES.md#post-mortem) |
 
 ## Day 3
 
-| Time     | Activity                                                     |
-| -------- | ------------------------------------------------------------ |
-| 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
-| 9:20 AM  | [Energizer 1](ACTIVITIES.md#fortunately-unfortunately)       |
-| 9:30 AM  | [Energizer 2](ACTIVITIES.md#slow-motion-samurai)             |
-| 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
-| 10:00 AM | [Maestro workshop](ACTIVITIES.md#maestro)                    |
-| 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
-| 1:30 PM  | [Energizer 3](ACTIVITIES.md#human-pictionary)                |
-| 1:45 PM  | [Energizer 4](ACTIVITIES.md#ninja)                           |
-| 2:00 PM  | [Brainstorming](ACTIVITIES.md#brainstorming)                 |
-| 2:20 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
-| 3:50 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
-| 4:00 PM  | [Demos](ACTIVITIES.md#demos)                                 |
-| 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
-| 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
-| 4:45 PM  | [Post-mortem (ending at 5:30 PM)](ACTIVITIES.md#post-mortem) |
+| Time     | Activity                                                                   |
+| -------- | -------------------------------------------------------------------------- |
+| 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)                     |
+| 9:20 AM  | [Energizer 1](ACTIVITIES.md#fortunately-unfortunately)                     |
+| 9:30 AM  | [Energizer 2](ACTIVITIES.md#slow-motion-samurai)                           |
+| 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                                       |
+| 10:00 AM | [Maestro workshop](ACTIVITIES.md#maestro)                                  |
+| 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                               |
+| 1:30 PM  | [Energizer 3](ACTIVITIES.md#human-pictionary)                              |
+| 1:45 PM  | [Energizer 4](ACTIVITIES.md#ninja)                                         |
+| 2:00 PM  | [Brainstorming](ACTIVITIES.md#brainstorming)                               |
+| 2:00 PM  | [Forming groups](ACTIVITIES.md#forming-groups)                             |
+| 2:05 PM  | [Yes-and sessions](ACTIVITIES.md#yes-and-sessions)                         |
+| 2:10 PM  | [Running a brainstorm session](ACTIVITIES.md#running-a-brainstorm-session) |
+| 2:15 PM  | [After a brainstorm](ACTIVITIES.md#after-a-brainstorm)                     |
+| 2:20 PM  | [Project time](ACTIVITIES.md#freeform-projects)                            |
+|          | [Scoping and concept](ACTIVITIES.md#scoping-and-concept)                   |
+|          | [Engagement](ACTIVITIES.md#engagement)                                     |
+|          | [Facilitating](ACTIVITIES.md#facilitating)                                 |
+|          | [Answering questions](ACTIVITIES.md#answering-questions)                   |
+| 3:50 PM  | [Links collected for demos](ACTIVITIES.md#links)                           |
+| 4:00 PM  | [Demos](ACTIVITIES.md#demos)                                               |
+| 4:00 PM  | [Giving feedback](ACTIVITIES.md#giving-feedback)                           |
+| 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                              |
+| 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)                          |
+| 4:45 PM  | [Post-mortem (ending at 5:30 PM)](ACTIVITIES.md#post-mortem)               |
 
 ## Day 4
 
@@ -133,11 +161,20 @@ partners.
 | 9:20 AM  | Energizer                                                    |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:00 AM | [Project time](ACTIVITIES.md#freeform-projects)              |
+|          | [Scoping and concept](ACTIVITIES.md#scoping-and-concept)     |
+|          | [Engagement](ACTIVITIES.md#engagement)                       |
+|          | [Facilitating](ACTIVITIES.md#facilitating)                   |
+|          | [Answering questions](ACTIVITIES.md#answering-questions)     |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
 | 1:30 PM  | Energizer                                                    |
 | 2:00 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
+|          | [Scoping and concept](ACTIVITIES.md#scoping-and-concept)     |
+|          | [Engagement](ACTIVITIES.md#engagement)                       |
+|          | [Facilitating](ACTIVITIES.md#facilitating)                   |
+|          | [Answering questions](ACTIVITIES.md#answering-questions)     |
 | 3:50 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
 | 4:00 PM  | [Demos](ACTIVITIES.md#demos)                                 |
+| 4:00 PM  | [Giving feedback](ACTIVITIES.md#giving-feedback)             |
 | 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
 | 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
 | 4:45 PM  | [Post-mortem (ending at 5:30 PM)](ACTIVITIES.md#post-mortem) |
