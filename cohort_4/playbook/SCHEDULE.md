@@ -94,6 +94,7 @@ partners.
 | -------- | ------------------------------------------------------------ |
 | 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
 | 9:20 AM  | Energizer                                                    |
+| 9:40 AM  | [Morning Announcements](ACTIVITIES.md#morningannouncements)  |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:00 AM | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
