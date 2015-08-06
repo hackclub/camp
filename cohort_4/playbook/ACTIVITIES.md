@@ -25,6 +25,9 @@
 - [Morning Annoucements](#morningannouncements)
     - [Purpose](#purpose-ma)
     - [Delivery](#delivery-ma)
+- [Pairing Guidelines](#pairingguidelines)
+    - [Spreadsheet Creation](#spreadsheetcreation)
+    - [Compatibility and Uniqueness](#compatibility)
 - [Workshops](#workshops)
     - [[Portfolio](workshops/portfolio)](#portfolioworkshopsportfolio)
         - [Prerequisites](#prerequisites)
@@ -552,9 +555,9 @@ elevators with large groups can get pretty chaotic, especially when going to the
 roof during lunch time (many Galvanize members all trying to get to the lobby
 then).
 
-#Morning Announcements
+# Morning Announcements
 
-##Purpose
+## Purpose
 
 The purpose of morning announcements is to let the club know that feedback
 is taken into account, and will be acted on throughout the day.  This is 
@@ -563,7 +566,7 @@ trying to improve their club through the feedback of others.  This also gives
 a sort of "transparency" in the club leadership, as members know what exactly
 is going on, in terms of improvements and/or suggestions.
 
-##Delivery
+## Delivery
 
 Morning announcements will take anywhere from 3-5 minutes, and will cover
 feedback that will be acted upon during the day.  Not only that, the club 
@@ -573,6 +576,35 @@ leaders may want consider when addressing feedback implementation could be
 something like: "Hey everyone, yesterday we got feedback about ______, 
 and today we will be trying to improve that by _____."  This will reassure
 club members that they are having a say in what direction the club takes.
+
+# Pairing Guidelines
+
+Since there are many ways you can pair people in your club/camp, there are 
+several guidelines that should be followed.  Organization of this should 
+be maintained in a spreadsheet, and partners should be purposely paired
+for maximum efficiency and ideal workability.
+
+## Spreadsheet Creation
+You should create a Google Spreadsheet to maintain organization for pairings.  
+Spreadsheets allow one to cleanly see each pair, and provide a means of 
+access for each person in your leader group.  The ability to share and 
+collaborate with your team members is ultimately beneficial as it should reduce
+the number of mistakes and incompatible pairs.
+
+## Compatibility and Uniqueness
+Pairings will not work out if the partners are not compatible.  Skill is 
+something to keep in mind, of course, but it is not necessarily the one thing
+that pairings depend on.  If a person was sociable and communicated well, but 
+did not have much experience coding, a pairing with a more advanced person 
+would still be possible because the more advanced person gets teaching experience,
+while the less advanced person can still learn.  This may not be true for quiet
+individuals - the pairing is less likely to work, and may result in a less 
+than ideal result. It is also seen pairing two people of similar levels is 
+beneficial, although one should be able to communicate well.  
+
+Uniqueness is also important - no two people should be paired together again 
+unless everyone has already been paired with each other.  This will help
+members of the club all form bonds with each other.
 
 # Workshops
 
