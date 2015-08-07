@@ -10,7 +10,7 @@ Say for one of my own personal projects, I decided that I wanted to build Instag
 
 ## Already familiar with the DOM? Need something harder?
 
-Take a look at [this live demo](http://rawgit.com/hackedu/hack-camp/instagram/cohort_4/playbook/workshops/instagram/src/index.html)
+Take a look at [this live demo](https://rawgit.com/hackedu/hack-camp/e8f9e9324fc535011ac7f3da62315175b355238b/cohort_4/playbook/workshops/instagram/src/index.html)
 
 I challenge you to understand [the code](https://github.com/hackedu/hack-camp/tree/0b986fc2c7f61851e188ee8efaa72fb5b81e44f0/cohort_4/playbook/workshops/instagram/src) (debugger is your friend) and remix it into your own application!
 
@@ -242,8 +242,7 @@ Object Properties Challenge Time!
 
 How to do this challenge:
 
-    Ask the people sitting next to you "Have you gotten to challenge 1 yet?"
-    If they did it in the past or are about to do it, work with them on this challenge.
+    Ask the people sitting next to you "Have you gotten to Object Properties Challenge yet?" If they did it in the past or are about to do it, work with them on this challenge.
 
     If you can't find anyone that has reached this section yet, chat with a facilitator about it!
 
@@ -320,7 +319,7 @@ person1.eat(apple); // this will run each line of code in the person1.take
 ```
 
 ```
-Object Properties what are functions time!
+Object Properties that are functions time!
             __
            / _)   
     .-^^^-/ /
@@ -329,8 +328,7 @@ Object Properties what are functions time!
 
 How to do this challenge:
 
-    Ask the people sitting next to you "Have you gotten to challenge 1 yet?"
-    If they did it in the past or are about to do it, work with them on this challenge.
+    Ask the people sitting next to you "Object Properties that are functions time! yet?" If they did it in the past or are about to do it, work with them on this challenge.
 
     If you can't find anyone that has reached this section yet, chat with a facilitator about it!
 
@@ -454,7 +452,7 @@ I could store a reference to what their name was and the coffee cup as well!
 ```js
 var nameOfPerson = prompt("What is your name?");
 var coffeeCup = room.createThing("cup of coffee");
-coffeeCup.name = nameOfPeerson;
+coffeeCup.name = nameOfPerson;
 ```
 
 **Now I have to find the take-out counter to put the coffee on**
@@ -463,7 +461,7 @@ There's already a take-out counter in the room so I don't need to create one. Ho
 ```js
 var nameOfPerson = prompt("What is your name?");
 var coffeeCup = room.createThing("cup-of-coffee");
-coffeeCup.name = nameOfPeerson;
+coffeeCup.name = nameOfPerson;
 
 var takeOutCounter = room.getThing("take-out-counter")
 ```
@@ -473,7 +471,7 @@ var takeOutCounter = room.getThing("take-out-counter")
 ```js
 var nameOfPerson = prompt("What is your name?");
 var coffeeCup = room.createThing("cup-of-coffee");
-coffeeCup.name = nameOfPeerson;
+coffeeCup.name = nameOfPerson;
 
 var takeOutCounter = room.getThing("take-out counter")
 takeOutCounter.put(coffeeCup);
@@ -513,7 +511,7 @@ var phone = room.getThing("take-out-phone");
 phone.onring = function() {
     var nameOfPerson = prompt("What is your name?");
     var coffeeCup = room.createThing("cup-of-coffee");
-    coffeeCup.name = nameOfPeerson;
+    coffeeCup.name = nameOfPerson;
 
     var takeOutCounter = room.getThing("take-out counter")
     takeOutCounter.put(coffeeCup);
@@ -538,7 +536,7 @@ system.onload = function() {
     phone.onring = function() {
         var nameOfPerson = prompt("What is your name?");
         var coffeeCup = room.createThing("cup-of-coffee");
-        coffeeCup.name = nameOfPeerson;
+        coffeeCup.name = nameOfPerson;
 
         var takeOutCounter = room.getThing("take-out counter")
         takeOutCounter.put(coffeeCup);
@@ -561,7 +559,7 @@ Note that code that is commented in the below example is not executed at the giv
     //    phone.onring = function() {
     //        var nameOfPerson = prompt("What is your name?");
     //        var coffeeCup = room.createThing("cup-of-coffee");
-    //        coffeeCup.name = nameOfPeerson;
+    //        coffeeCup.name = nameOfPerson;
     //
     //        var takeOutCounter = room.getThing("take-out counter")
     //        takeOutCounter.put(coffeeCup);
@@ -578,7 +576,7 @@ Note that code that is commented in the below example is not executed at the giv
           phone.onring = function() {
     //        var nameOfPerson = prompt("What is your name?");
     //        var coffeeCup = room.createThing("cup-of-coffee");
-    //        coffeeCup.name = nameOfPeerson;
+    //        coffeeCup.name = nameOfPerson;
     //
     //        var takeOutCounter = room.getThing("take-out counter")
     //        takeOutCounter.put(coffeeCup);
@@ -595,7 +593,7 @@ Note that code that is commented in the below example is not executed at the giv
 //    phone.onring = function() {
           var nameOfPerson = prompt("What is your name?");
           var coffeeCup = room.createThing("cup-of-coffee");
-          coffeeCup.name = nameOfPeerson;
+          coffeeCup.name = nameOfPerson;
   
           var takeOutCounter = room.getThing("take-out counter")
           takeOutCounter.put(coffeeCup);

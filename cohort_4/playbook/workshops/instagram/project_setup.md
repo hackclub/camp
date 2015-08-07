@@ -4,16 +4,15 @@
 - Inside of the newly created `instagram` folder, create your 3 files
   - `index.html`
   - `main.js`
-  - `main.css`
 - double click to open `index.html`
 - In `index.html`, add the HTML base scaffold by typing the following code 
   - don't copy and paste it
   - make sure to indent properly
+  
     ```html
     <!DOCTYPE html>
     <html>
       <head>
-        <link rel="stylesheet" href="main.css">
         <script src="main.js"></script>
       </head>
       <body>
