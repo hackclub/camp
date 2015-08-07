@@ -41,21 +41,7 @@ We will then go through an analogy of how adding an image is analogous of adding
 
 Both of the above are on this page.
 
-Then we will go forward and build our simple version of Instagram:
-
-- [Iteration 1](iteration1.md)
-
-- [Setting Up Your Project in Cloud 9](project_setup.md)
-
-- [Figure Out How To Do Something When A Button Is Clicked](button_clicked.md)
-
-- [Asking The User for Input](user_input.md)
-
-- [User Input Implementation](user_input_implementation.md)
-
-- [Adding an image based on the user's given URL](adding_image.md)
-
-- [A super hard probably too difficult challenge that is not too well written up yet](possible.md)
+Then we will go forward and build our simple version of Instagram through Googling.
 
 ## Questions you should be able to answer after this tutorial
 

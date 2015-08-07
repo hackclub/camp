@@ -4,16 +4,41 @@
 	<meta charset="UTF-8">
 	<title>Instagram</title>
 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<h1>Instagram</h1>
-	<h2>Send a message to 201-669-4352</h2>
+	<p>Step 1: Enter some phone numbers for people to recieve messages at.</p>
 
+
+	<form id="phone-form">
+		<input type="text" id="phone-input" placeholder="Enter a phone number"><br>
+		<input type="submit">
+		<br>
+		<br>
+		<hr>
+		<br>
+		
+		<p>Here is the current list of people that will recieve text messages:</p>
+		<div id="phones"></div>
+
+		<br>
+		<hr>
+		<br>
+		
+		<p>Step 2: Upload a file by choosing a file (on mobile, you can take a picture on your phone too!)</p>
+		<p>If you open this same window up on new page, photos will also update here.</p>
+		<input type="file" capture="camera" accept="image/*" id="cameraInput" name="cameraInput" name="Upload Photo">
+
+	</form>
+	
+	<div id="images"></div>
+
+	<script src="//dweet.io/client/dweet.io.min.js"></script>
 	<script type="text/javascript" src="js/maestro.js"></script>
+
+	<script type="text/javascript" src="js/imgur.js"></script>
+	<script type="text/javascript" src="js/db.js"></script>
 	<script type="text/javascript" src="js/maestro_link.js"></script>
-
-	<input type="file" capture="camera" accept="image/*" id="cameraInput" name="cameraInput">
-
-
 </body>
 </html>

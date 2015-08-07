@@ -1,96 +1,72 @@
-var Instagram = {}
+var Instagram = Instagram || {};
 
-function logMessage(phone, message) {
+Instagram.writePhone = function(phone) {
+	var phones = document.getElementById("phones");
 	var p = document.createElement("p");
-	p.innerHTML = phone + ": " + message;
-
-	document.body.appendChild(p)
+	p.innerHTML = phone;
+	phones.appendChild(p)
 }
 
-function initDb() {
-	if (localStorage["phone-numbers"] === undefined) {
-		var emptyObject = {};
-		localStorage["phone-numbers"] = JSON.stringify(emptyObject);
-	}
-	var stringifiedObject = localStorage["phone-numbers"];
-	Instagram.db = JSON.parse(stringifiedObject); // http://www.smashingmagazine.com/2010/10/local-storage-and-how-to-use-it/
+Instagram.writeImage = function(imageUrl) {
+	var images = document.getElementById("images");
+	var img = document.createElement("img");
+	img.src = imageUrl;
+	images.appendChild(img);
 }
 
-function resetDb() {
-	localStorage.removeItem("phone-numbers"); // http://stackoverflow.com/questions/9943220/how-to-delete-a-localstorage-item-when-the-browser-window-tab-is-closed
-}
-
-function writeToDb(phone) {
-	Instagram.db[phone] = true;
-	var stringifiedObject = JSON.stringify(Instagram.db); // http://www.smashingmagazine.com/2010/10/local-storage-and-how-to-use-it/
-	localStorage["phone-numbers"] = stringifiedObject;
-}
-
-maestro.Twilio.recieveSms(function(sms){
-	debugger
-
-	var senderNumber = sms.From;
-	var message = sms.Body;
-
-	logMessage(senderNumber, message);
-	writeToDb(senderNumber);
-
-	Object.keys(Instagram.db).forEach(function(key) { // http://stackoverflow.com/questions/684672/loop-through-javascript-object#answer-5737136
-		var number = Instagram.db[key];
-	    if (number !== senderNumber) {
-	    	maestro.Twilio.sendSms(number, message);
-	    }
+Instagram.initDweetListening = function() {
+	dweetio.listen_for("hackedu-instagram-photo-urls", function(dweet){
+		Instagram.writeImage(dweet.content.imageUrl)
 	});
-								
-});
+}
 
-// https://hacks.mozilla.org/2011/03/the-shortest-image-uploader-ever/comment-page-1/
-function upload(file, callback) {
- 
-  // file is from a <input> tag or from Drag'n Drop
-  // Is the file an image?
- 
-  if (!file || !file.type.match(/image.*/)) return;
- 
-  // It is!
-  // Let's build a FormData object
- 
-  var fd = new FormData();
-  fd.append("image", file); // Append the file
-  fd.append("key", "6528448c258cff474ca9701c5bab6927");
-  // Get your own key: http://api.imgur.com/
- 
-  // Create the XHR (Cross-Domain XHR FTW!!!)
-  var xhr = new XMLHttpRequest();
-  xhr.open("POST", "http://api.imgur.com/2/upload.json"); // Boooom!
-  xhr.onload = function() {
-    // Big win!
-    // The URL of the image is:
-    var response = JSON.parse(xhr.responseText);
-    var links = response.upload.links;
-    var imageUrl = links.original
+Instagram.onFileUpload = function(imgurUrl) {
+	alert("file uploaded!")
 
-    callback(imageUrl);
-   }
-   // Ok, I don't handle the errors. An exercice for the reader.
-   // And now, we send the formdata
-   xhr.send(fd);
- }
+	dweetio.dweet_for("hackedu-instagram-photo-urls", {imageUrl: imgurUrl}, function(err, dweet){ // https://github.com/buglabs/dweetio-client
+	    console.log(dweet.thing, dweet,content);
+	});
 
 
-function main() {
-	initDb();
+	Object.keys(Instagram.db.store).forEach(function(phone) { // http://stackoverflow.com/questions/684672/loop-through-javascript-object#answer-5737136
+		maestro.Twilio.sendMms(phone, imgurUrl);	
+	});
+}
 
-	// https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications
-	var inputElement = document.getElementById("cameraInput");
-	inputElement.addEventListener("change", handleFiles, false);
-	function handleFiles() {
-	  var fileList = this.files; /* now you can work with the file list */
-	  var file = fileList[0];
-	  upload(file, function(imageUrl) {
-	  	maestro.Twilio.sendMms("610-761-0083", imageUrl);
-	  });
+Instagram.initPhoneInput = function () {
+	var phoneForm = document.getElementById("phone-form");
+	phoneForm.onsubmit = function(e) {
+		e.preventDefault();
+		var phoneInput = document.getElementById("phone-input");
+		var newPhone = phoneInput.value;
+		var added = Instagram.db.add(newPhone);
+		if (added === false) {
+			alert("Oops, the phone number " + newPhone + " is already in our databases");
+		}
+
+		phoneInput.value = "";
 	}
 }
 
-main();
+Instagram.initFileUpload = function(){
+		// https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications
+	var inputElement = document.getElementById("cameraInput");
+	
+	function handleFiles() {
+		var fileList = this.files; /* now you can work with the file list */
+		var file = fileList[0];
+		Imgur.upload(file, Instagram.onFileUpload);
+	}
+
+	inputElement.addEventListener("change", handleFiles, false);
+}
+
+Instagram.main = function() {
+	Instagram.initDb();
+
+	Instagram.initPhoneInput();
+	Instagram.initFileUpload();
+	Instagram.initDweetListening();
+}
+
+Instagram.main();
