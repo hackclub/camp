@@ -746,7 +746,7 @@ Tell the hackers to feel free to be able skip through the content that they are 
 - If you are very familiar with DOM manipulation and this is really easy for you, there's a section in the back with some example code where you build a much more complex version of Instagram. Take a look at that code, play around with it, and see if you can make it your own! Definitely don't force yourself to go through what you already know well!
 
 ### Instagram Readme
-[Instagram Readme](workshops/instagram)
+[Instagram Readme](workshops/instagram/README.md)
 
 # Demos
 
