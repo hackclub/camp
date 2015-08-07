@@ -229,15 +229,14 @@ addPictureButton.onclick = function() {
 
 Hmmm, the code from above doesn't seem to work
 
-One error in javascript may prevent ***ALL*** of your javascript from working. Therefore, you want to be able to know ASAP if there are any errors. The easiest way to do that is leave your developer console open.
+One error in javascript may prevent _**ALL**_ of your javascript from working. Therefore, you want to be able to know ASAP if there are any errors. The easiest way to do that is leave your developer console open.
 
-***ALWAYS HAVE YOUR DEVELOPER CONSOLE OPEN***
+_**I HIGHLY RECOMMEND ALWAYS HAVING YOUR DEVELOPER CONSOLE OPEN**_
 
 To open up your developer console in Google Chrome (yes, please use Chrome, it has the best developer console)
 
 - windows: `ctrl + shift + i`
 - mac: `cmd + alt + j`
-
 
 > ![](https://s3.amazonaws.com/f.cl.ly/items/433z0g281v0V0E242j47/Image%202015-07-17%20at%204.22.28%20AM.png)
 

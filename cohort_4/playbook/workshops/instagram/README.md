@@ -12,6 +12,12 @@ something done first.
 
 [A demo](http://jsbin.com/cacaqa) of what we're building.
 
+## Already familiar with the DOM? Need something harder?
+
+Take a look at [this live demo](https://rawgit.com/hackedu/hack-camp/e8f9e9324fc535011ac7f3da62315175b355238b/cohort_4/playbook/workshops/instagram/src/index.html)
+
+I challenge you to understand [the code](https://github.com/hackedu/hack-camp/tree/0b986fc2c7f61851e188ee8efaa72fb5b81e44f0/cohort_4/playbook/workshops/instagram/src) (debugger is your friend) and remix it into your own application!
+
 ## How might we do this?
 
 We need to write code that does the following:
@@ -50,22 +56,6 @@ of adding coffee.
 
 Both of the above are on this page.
 
-Then we will go forward and build our simple version of Instagram:
-
-- [Iteration 1](iteration1.md)
-
-- [Setting Up Your Project in Cloud 9](project_setup.md)
-
-- [Figure Out How To Do Something When A Button Is Clicked](button_clicked.md)
-
-- [Asking The User for Input](user_input.md)
-
-- [User Input Implementation](user_input_implementation.md)
-
-- [Adding an image based on the user's given URL](adding_image.md)
-
-- [A super hard challenge that is not too well written up yet](possible.md)
-
 ## Questions you should be able to answer after this tutorial
 
 *Just skim this list, we'll ask the questions after each section.*
@@ -98,7 +88,7 @@ the function an input, it will give you back some output.
 
 #### Math analogy
 
-If you ***were*** the `double` function (yes, you the person reading this):
+If you _**were**_ the `double` function (yes, you the person reading this):
 
 - if I "called" you with an **input** of `3`
 - you would give me back an **output** of `6`
@@ -117,7 +107,7 @@ In Harry Potter, there is a magic spell called "accio".
 If you said "accio car keys", your car keys would magically fly towards you. 
 Pretty useful if you've lost your car keys and had no idea where they were.
 
-If you ***were*** the `accio` function
+If you _**were**_ the `accio` function
 
 - if I **called** with the words `my missing sock` as an **input**
 - the **action** of my socks hurtling through the room would occur
@@ -280,9 +270,7 @@ Object Properties Challenge Time!
 
 How to do this challenge:
 
-    Ask the people sitting next to you "Have you gotten to challenge 1 yet?"
-    If they did it in the past or are about to do it, work with them on this 
-    challenge.
+    Ask the people sitting next to you "Have you gotten to Object Properties Challenge yet?" If they did it in the past or are about to do it, work with them on this challenge.
 
     If you can't find anyone that has reached this section yet, chat with a 
     facilitator about it!
@@ -529,7 +517,7 @@ I could store a reference to what their name was and the coffee cup as well!
 ```js
 var nameOfPerson = prompt("What is your name?");
 var coffeeCup = room.createThing("cup of coffee");
-coffeeCup.name = nameOfPeerson;
+coffeeCup.name = nameOfPerson;
 ```
 
 **Now I have to find the take-out counter to put the coffee on**
@@ -540,7 +528,7 @@ on the take-out counter, I must
 ```js
 var nameOfPerson = prompt("What is your name?");
 var coffeeCup = room.createThing("cup-of-coffee");
-coffeeCup.name = nameOfPeerson;
+coffeeCup.name = nameOfPerson;
 
 var takeOutCounter = room.getThing("take-out-counter")
 ```
@@ -550,7 +538,7 @@ var takeOutCounter = room.getThing("take-out-counter")
 ```js
 var nameOfPerson = prompt("What is your name?");
 var coffeeCup = room.createThing("cup-of-coffee");
-coffeeCup.name = nameOfPeerson;
+coffeeCup.name = nameOfPerson;
 
 var takeOutCounter = room.getThing("take-out counter")
 takeOutCounter.put(coffeeCup);
@@ -594,7 +582,7 @@ var phone = room.getThing("take-out-phone");
 phone.onring = function() {
     var nameOfPerson = prompt("What is your name?");
     var coffeeCup = room.createThing("cup-of-coffee");
-    coffeeCup.name = nameOfPeerson;
+    coffeeCup.name = nameOfPerson;
 
     var takeOutCounter = room.getThing("take-out-counter")
     takeOutCounter.put(coffeeCup);
@@ -622,7 +610,7 @@ system.onload = function() {
     phone.onring = function() {
         var nameOfPerson = prompt("What is your name?");
         var coffeeCup = room.createThing("cup-of-coffee");
-        coffeeCup.name = nameOfPeerson;
+        coffeeCup.name = nameOfPerson;
 
         var takeOutCounter = room.getThing("take-out counter")
         takeOutCounter.put(coffeeCup);
@@ -648,7 +636,7 @@ given moment whereas code that is not commented is currently being executed.
     //    phone.onring = function() {
     //        var nameOfPerson = prompt("What is your name?");
     //        var coffeeCup = room.createThing("cup-of-coffee");
-    //        coffeeCup.name = nameOfPeerson;
+    //        coffeeCup.name = nameOfPerson;
     //
     //        var takeOutCounter = room.getThing("take-out counter")
     //        takeOutCounter.put(coffeeCup);
@@ -667,7 +655,7 @@ given moment whereas code that is not commented is currently being executed.
           phone.onring = function() {
     //        var nameOfPerson = prompt("What is your name?");
     //        var coffeeCup = room.createThing("cup-of-coffee");
-    //        coffeeCup.name = nameOfPeerson;
+    //        coffeeCup.name = nameOfPerson;
     //
     //        var takeOutCounter = room.getThing("take-out counter")
     //        takeOutCounter.put(coffeeCup);
@@ -685,7 +673,7 @@ given moment whereas code that is not commented is currently being executed.
 //    phone.onring = function() {
           var nameOfPerson = prompt("What is your name?");
           var coffeeCup = room.createThing("cup-of-coffee");
-          coffeeCup.name = nameOfPeerson;
+          coffeeCup.name = nameOfPerson;
   
           var takeOutCounter = room.getThing("take-out counter")
           takeOutCounter.put(coffeeCup);
