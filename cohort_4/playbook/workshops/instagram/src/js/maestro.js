@@ -14,7 +14,7 @@ function Maestro(filename){
   }
   var id = "";
   this.ws.onmessage = function(message){
-    debugger
+    // debugger
     if(!id){
       id = message.data;
       return;
@@ -91,7 +91,7 @@ function Maestro(filename){
       self.send("Twilio","send-mms",{to:to,from:'+1-201-669-4352',url:url});
     },
     recieveSms:function(callback){
-      debugger
+      // debugger
       self.send("Twilio","recieve-sms",{to:'+12016694352'},callback);
     },
     call:function(to,twiml){
