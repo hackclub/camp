@@ -51,8 +51,7 @@ around, making more elements, and remove elements entirely.
 In order to build this, you must first understand the fundamentals of 
 computer science.
 
-We will then go through an analogy of how adding an image is analogous 
-of adding coffee.
+We will then go through an analogous example of adding an image with a real life analogy.
 
 Both of the above are on this page.
 
