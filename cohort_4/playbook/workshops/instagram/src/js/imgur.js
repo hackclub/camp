@@ -1,6 +1,6 @@
 var Imgur = {};
 
-Imgur.upload = function(file, callback) {
+Imgur.upload = function(file, callback) { // https://hacks.mozilla.org/2011/03/the-shortest-image-uploader-ever/comment-page-1/
  
   // file is from a <input> tag or from Drag'n Drop
   // Is the file an image?

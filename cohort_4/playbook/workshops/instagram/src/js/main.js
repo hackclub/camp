@@ -24,7 +24,7 @@ Instagram.onFileUpload = function(imgurUrl) {
 	alert("file uploaded!")
 
 	dweetio.dweet_for("hackedu-instagram-photo-urls", {imageUrl: imgurUrl}, function(err, dweet){ // https://github.com/buglabs/dweetio-client
-	    console.log(dweet.thing, dweet,content);
+	    console.log(dweet.thing, dweet);
 	});
 
 
