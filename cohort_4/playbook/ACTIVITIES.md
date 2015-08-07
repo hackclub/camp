@@ -4,15 +4,18 @@
 - [Hacker arrival](#hacker-arrival)
     - [On the First Day](#on-the-first-day)
 - [Energizers](#energizers)
-    - [Where The West Wind Blows](#where-the-west-wind-blows)
+    - [Bad startup ideas](#bad-startup-ideas)
+    - [Evolution Rock Paper Scissors](#evolution-rock-paper-scissors)
+    - [Fortunately, Unfortunately](#fortunately-unfortunately)
+    - [Human Knot](#human-knot)
     - [Human Pictionary](#human-pictionary)
     - [I Love My Neighbor Who](#i-love-my-neighbor-who)
-    - [Evolution Rock Paper Scissors](#evolution-rock-paper-scissors)
-    - [Slow Motion Samurai](#slow-motion-samurai)
-    - [Fortunately, Unfortunately](#fortunately-unfortunately)
     - [Ninja](#ninja)
+    - [One Word Radio](#one-word-radio)
+    - [Sharks and Minnows](#sharks-and-minnows)
+    - [Slow Motion Samurai](#slow-motion-samurai)
     - [Telephone](#telephone)
-    - [Human Knot](#human-knot)
+    - [Where The West Wind Blows](#where-the-west-wind-blows)
 - [Introduction talk](#introduction-talk)
     - [Speaking from personal experience.](#speaking-from-personal-experience)
     - [Why is programming awesome?](#why-is-programming-awesome)
@@ -45,7 +48,8 @@
     - [Scoping and concept](#scoping-and-concept)
     - [Engagement](#engagement)
     - [Facilitating](#facilitating)
-    - [Answering questions](#answering-questions)
+    - [Answering Questions](#answering-questions)
+        - [Example](#example)
 - [Brainstorming](#brainstorming)
     - [Forming groups](#forming-groups)
     - [Yes-and sessions](#yes-and-sessions)
@@ -113,7 +117,119 @@ arriving.
 
 # Energizers
 
-## Where The West Wind Blows
+## Bad startup ideas
+
+```
+Time: 10 min
+Materials: none
+Team sizes:
+
+- when 2-8 people, group into 2 teams
+- when 8+, group into teams no larger than 4
+```
+
+- For the purposes of this example I will refer to `team A` and `team B`.
+- Each team will break up and be given 2 minutes to come up with a crazy startup
+idea.
+- After the teams have ideas team A will take the role of investor and team B
+will be a startup.
+- Team A tells team b what startup idea they will be pitching.
+- Members of team B come up with and announce their positions and roles at the
+  company they are representing.
+- For 3 minutes team B pitches the company.
+
+> team A: You are pitching tinder for dogs
+> someone on team B: I am the Chief Executive Director intern
+> someone else on team B: I am a hot single dog and beta tester
+> team B: We're here to tell you about the next big thing... tinder for dogs
+> ~pitching continues for 3 minutes
+
+## Evolution Rock Paper Scissors
+
+```
+Time: 5 to 15 minutes
+Materials: none
+Number: best for 10-30
+Source: Andrea
+```
+
+Everyone starts off in the “egg” stage and has to act like eggs like being in a
+squatting position. Every “egg” will find another “egg” to play rock paper
+scissors with. Play rock paper scissors until someone wins 2 out of 3. The
+person that wins the rps round will then evolve into the next stage, which is
+“chicken,” and has to find another “chicken” to play rock paper scissors with.
+The “losing” person will remain an egg and find other eggs to play rock paper
+scissors with. The stages are egg to chicken to monkey to human then to divine
+being. In each stage, the “losing” person will de-evolve into the previous
+stage or if an egg will remain an egg. So if you lose when you're a chicken,
+then you become an egg again.  Once a person becomes a divine being he/she
+leaves the game and watches.
+Continue until you have a certain number of divine beings agreed upon at the
+beginning of the game.
+
+For example, assume there are 6 people, and they all default start at the
+"egg" stage.  There will be 3 rounds of rock paper scissors total, so
+egg1 - egg2, egg3 - egg4, egg5 - egg6.  There will then be 3 winners, so
+chicken1 egg2 egg3 chicken4 egg5 chicken6, for example.  Then, there will
+be 2 rounds going on, since there are an odd number of chickens and eggs:
+chicken1 - chicken6, egg2 - egg3, while chicken4 and egg5 wait for partners.
+Then when people lose, an example scenario is: egg1, monkey6, chicken2,
+egg3, chicken4, and egg5.  This continues until there are a specific number
+of divine beings you decide upon.
+
+## Fortunately, Unfortunately
+
+```
+Time: 5 - 10 minutes
+Materials: none
+Number: unknown
+Sources:
+
+- http://wiki.improvresourcecenter.com/index.php/Fortunately,_Unfortunately
+- http://www.bringyourownimprov.com/games.htm
+```
+
+_Fortunately, Unfortunately_ is a verbal warmup. Players stand in a circle. One
+player states a phrase from the first-person. The person to his left then says
+either "Fortunately," and then gives a positive aspect of the previously
+mentioned event, or says "Unfortunately," and gives a negative aspect. Then the
+next person to the left says "Fortunately" if the previously person said
+"Unfortunately," and vice versa. Play continues around the circle.
+
+Example:
+
+- A: "One upon a time Mary had a beautiful little lamb"
+- B: "Unfortunately, the lamb had a peg leg"
+- C: "Fortunately, Mary opened the leg and the lamb produced Skittles"
+- A: "Unfortunately, Skittles were illegal in Greece, where they lived, and Mary
+  and the lamb were sent to farmer's prison"
+
+This energizer usually ends once everyone in the circle has gone once or twice,
+depending on the size of the group. Use digression when ending and make sure to
+announce early who will be the last to speak (ex. saying "John Snow will be the
+last in this round!").
+
+## Human Knot
+
+```
+Time: 15-30 minutes
+Materials: none
+Number: unknown
+```
+
+Start by making a tight circle with a group of 3+ people (the more the better),
+and have each person grab two different people's hands, preferably people across
+from you. This essentially "tangles" everybody into a knot-like structure, and
+the objective of the game is to untangle this knot. You are permitted to talk
+and collaborate, like "Step over so-and-so's hand" or "Go under this person's
+hand." As a final result, everyone should be in a circle, with no crossed-over
+body parts.
+
+The amount of time this activity depends on how fast you can collaborate and
+untangle the knot.
+
+This energizer ends once the knot is untangled, but more rounds can be played if
+desired. Keep time in mind - the time it takes to untangle can vary.
 
 ## Human Pictionary
 
@@ -166,96 +282,6 @@ Number: best for 10-35
   think "could only apply to them" and when they realize when it applies to
   someone else, bonding happens.
 
-## Evolution Rock Paper Scissors
-
-```
-Time: 5 to 15 minutes
-Materials: none
-Number: best for 10-30
-Source: Andrea
-```
-
-Everyone starts off in the “egg” stage and has to act like eggs like being in a
-squatting position. Every “egg” will find another “egg” to play rock paper
-scissors with. Play rock paper scissors until someone wins 2 out of 3. The
-person that wins the rps round will then evolve into the next stage, which is
-“chicken,” and has to find another “chicken” to play rock paper scissors with.
-The “losing” person will remain an egg and find other eggs to play rock paper
-scissors with. The stages are egg to chicken to monkey to human then to divine
-being. In each stage, the “losing” person will de-evolve into the previous
-stage or if an egg will remain an egg. So if you lose when you're a chicken,
-then you become an egg again.  Once a person becomes a divine being he/she
-leaves the game and watches.
-Continue until you have a certain number of divine beings agreed upon at the
-beginning of the game.
-
-For example, assume there are 6 people, and they all default start at the
-"egg" stage.  There will be 3 rounds of rock paper scissors total, so
-egg1 - egg2, egg3 - egg4, egg5 - egg6.  There will then be 3 winners, so
-chicken1 egg2 egg3 chicken4 egg5 chicken6, for example.  Then, there will
-be 2 rounds going on, since there are an odd number of chickens and eggs:
-chicken1 - chicken6, egg2 - egg3, while chicken4 and egg5 wait for partners.
-Then when people lose, an example scenario is: egg1, monkey6, chicken2,
-egg3, chicken4, and egg5.  This continues until there are a specific number
-of divine beings you decide upon.
-
-## Slow Motion Samurai
-
-```
-Time: 5 - 10 minutes
-Materials: none
-Number: unknown
-Source: http://learnimprov.com/?p=169
-```
-
-Start with having everyone mill around the room (walk around in a crowd-like
-fashion). Once people are nice and moving, tell them to start moving in slow
-motion.
-
-Once a stable speed of slow motion is determined, the players all become samurai
-with poisonous blades build into their forearms. The object is to kill all the
-other samurai in the room.
-
-If anyone is touched by the forearm of another player, they must die a poisoned
-death in slow motion. It is important that the players keep their speed
-continuous. The point is not to win the energizer, but to have fun. If players
-are moving too fast and massacring many other players, simply tell them to slow
-down.
-
-This energizer usually ends when there is a large pile of bodies on the floor.
-
-## Fortunately, Unfortunately
-
-```
-Time: 5 - 10 minutes
-Materials: none
-Number: unknown
-Sources:
-
-- http://wiki.improvresourcecenter.com/index.php/Fortunately,_Unfortunately
-- http://www.bringyourownimprov.com/games.htm
-```
-
-_Fortunately, Unfortunately_ is a verbal warmup. Players stand in a circle. One
-player states a phrase from the first-person. The person to his left then says
-either "Fortunately," and then gives a positive aspect of the previously
-mentioned event, or says "Unfortunately," and gives a negative aspect. Then the
-next person to the left says "Fortunately" if the previously person said
-"Unfortunately," and vice versa. Play continues around the circle.
-
-Example:
-
-- A: "One upon a time Mary had a beautiful little lamb"
-- B: "Unfortunately, the lamb had a peg leg"
-- C: "Fortunately, Mary opened the leg and the lamb produced Skittles"
-- A: "Unfortunately, Skittles were illegal in Greece, where they lived, and Mary
-  and the lamb were sent to farmer's prison"
-
-This energizer usually ends once everyone in the circle has gone once or twice,
-depending on the size of the group. Use digression when ending and make sure to
-announce early who will be the last to speak (ex. saying "John Snow will be the
-last in this round!").
-
 ## Ninja
 
 ```
@@ -293,6 +319,80 @@ the game restarts with only those two players. They strike their ninja poses and
 take turns attacking each other until there's only one ninja left standing: the
 winner.
 
+## One Word Radio
+
+```
+Time: 15 min
+Materials: none
+Team sizes:
+
+- when 4-9 people, group into teams of 2 or 3
+- when 9+, group into teams no larger than 4
+```
+
+- In this activity, teams of people will be taking turns acting as a radio
+  station.
+- The first team will stand on one side of the room while everyone else (the
+  audience) comes up with a topic on the news.
+- The audience will tell the news team what they have to broadcast.
+- The news team must give a news broadcast one word at a time, switching between
+  each person on the team each word.
+
+> a: Today
+> b: the
+> c: White
+> a: House
+> b: put
+> c: a
+> a: ban
+> b: on
+> c: cookies
+
+## Sharks and Minnows
+
+```
+Time: 5 - 10 minutes
+Materials: Lots of floor space for running
+Number: unknown
+```
+
+- Mark 2 end-zones roughly 8 meters across, 8+ meters away from eachother.
+- In this activity one hacker will start as a shark and all the others will
+  start as minnows.
+  - The shark's goal is to tag the minnows
+  - The minnow's goal is to get into the other safe-zone without being tagged by
+    anyone.
+- The minnows are safe in the end-zone they start on, but when a club leader
+  shouts "swim!" they are only safe on the other end-zone and must run.
+- If a minnow is tagged by a shark, the minnow is now kelp and cannot move.
+- Kelp will try to reach out and tag the minnows as they run past. If a minnow
+  is tagged by kelp, it also becomes kelp.
+
+## Slow Motion Samurai
+
+```
+Time: 5 - 10 minutes
+Materials: none
+Number: unknown
+Source: http://learnimprov.com/?p=169
+```
+
+Start with having everyone mill around the room (walk around in a crowd-like
+fashion). Once people are nice and moving, tell them to start moving in slow
+motion.
+
+Once a stable speed of slow motion is determined, the players all become samurai
+with poisonous blades build into their forearms. The object is to kill all the
+other samurai in the room.
+
+If anyone is touched by the forearm of another player, they must die a poisoned
+death in slow motion. It is important that the players keep their speed
+continuous. The point is not to win the energizer, but to have fun. If players
+are moving too fast and massacring many other players, simply tell them to slow
+down.
+
+This energizer usually ends when there is a large pile of bodies on the floor.
+
 ## Telephone
 
 ```
@@ -317,27 +417,7 @@ Person X's phrase was.
 The energizer typically ends after one round (the message has been passed all
 around), but more rounds can be run if necessary.
 
-## Human Knot
-
-```
-Time: 15-30 minutes
-Materials: none
-Number: unknown
-```
-
-Start by making a tight circle with a group of 3+ people (the more the better),
-and have each person grab two different people's hands, preferably people across
-from you. This essentially "tangles" everybody into a knot-like structure, and
-the objective of the game is to untangle this knot. You are permitted to talk
-and collaborate, like "Step over so-and-so's hand" or "Go under this person's
-hand." As a final result, everyone should be in a circle, with no crossed-over
-body parts.
-
-The amount of time this activity depends on how fast you can collaborate and
-untangle the knot.
-
-This energizer ends once the knot is untangled, but more rounds can be played if
-desired. Keep time in mind - the time it takes to untangle can vary.
+## Where The West Wind Blows
 
 # Introduction talk
 
