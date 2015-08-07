@@ -347,24 +347,25 @@ person1.walk // this would give me back the function with all the code I
         // move your left foot forward
         // ...
     }
-
-person1.eat // this would give me back the function with all the code 
-            //I  wrote to eat:
-```
+  ```
+  
+  ```js
+  person1.eat // this would give me back the function with all the code 
+              // I  wrote to eat:
+  ```
     In the console, this would print: 
     ```js
     function() {
         // use your right hand
         // take the thing
     }    
-```
+  ```
 
 To actually run the function of an object, I can do
 
 ```js
 person1.walk(); // this will run each line of code in the person1.walk 
-                //function
-                // one line at a time
+                // function one line at a time
 
 // lets say that `apple` is defined to be a variable that references
 // an actual apple.
