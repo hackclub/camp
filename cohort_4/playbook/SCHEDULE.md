@@ -94,7 +94,7 @@ partners. Please do make sure to explain _why_ we are assigning hackers (explain
 | -------- | ------------------------------------------------------------ |
 | 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
 | 9:20 AM  | Energizer                                                    |
-| 9:40 AM  | [Morning Announcements](ACTIVITIES.md#morningannouncements)  |
+| 9:40 AM  | [Morning Announcements](ACTIVITIES.md#morning-announcements) |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:00 AM | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
@@ -113,6 +113,7 @@ partners. Please do make sure to explain _why_ we are assigning hackers (explain
 | 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
 | 9:20 AM  | [Energizer 1](ACTIVITIES.md#fortunately-unfortunately)       |
 | 9:30 AM  | [Energizer 2](ACTIVITIES.md#slow-motion-samurai)             |
+| 9:40 AM  | [Morning Announcements](ACTIVITIES.md#morning-announcements) |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:00 AM | [Maestro workshop](ACTIVITIES.md#maestro)                    |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
@@ -132,6 +133,7 @@ partners. Please do make sure to explain _why_ we are assigning hackers (explain
 | -------- | ------------------------------------------------------------ |
 | 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
 | 9:20 AM  | Energizer                                                    |
+| 9:40 AM  | [Morning Announcements](ACTIVITIES.md#morning-announcements) |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:00 AM | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
