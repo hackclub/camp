@@ -84,7 +84,7 @@ Let's breakdown what this means:
 
 ## width: 50%
 
-Because we set the all `img` tags to have a `width` of `50%`, the image will always take up `50%` of what it's contained in. Because the `img` tag is inside of the `body` tag, it will take up `50%` of the `body`.
+Because we set the all `img` tags to have a `width` of `50%`, the image will always take up `50%` of what its contained in. Because the `img` tag is inside of the `body` tag, it will take up `50%` of the `body`.
 
 ```
 Mess Round

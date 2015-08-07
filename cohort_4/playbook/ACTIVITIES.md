@@ -38,6 +38,9 @@
     - [Maestro](#maestro)
         - [Running It](#running-it)
         - [Link](#link)
+    - [Instagram](#instagram)
+        - [Running Instagram](#running-instagram)
+        - [Instagram Readme](#instagram-readme)
 - [Demos](#demos)
     - [Links](#links)
     - [First-time demos](#first-time-demos)
@@ -737,6 +740,45 @@ Tell the hackers to feel free to be able skip through the content that they are 
 ### Link
 
 [Maestro Workshop](https://github.com/hackedu/hack-camp/blob/workshop_2/cohort_4/playbook/workshops/maestro/README.md)
+
+## Instagram
+
+### Running Instagram
+
+#### Before the workshop
+- Be sure to understand the coffee shop example and know when to expect students to ask you questions during the example
+- Make sure you are familiar with how the advanced code in the back works as well.
+
+#### Here are the bullet points of what you might include to preface this workshop
+
+*Before the demo, pull up at least 2 pictures in new tabs that you can copy and paste the URLs of into the demo app.*
+
+- We have done HTML and CSS by itself, we have done javascript by itself, teaches you how to combine them together by building a very simple version of Instagram.
+- Checkout the [demo](http://jsbin.com/cacaqa)
+    - when I click on the button
+    - a popup asks me for a URL for an image to put into Instagram
+    - Here, I have a picture of a cat. I'll copy and paste it's url into the input
+    - and then press ok
+    - viola, the image is not added to the screen.
+    - lets add another picture
+    - I'll copy and paste the URL of a different picture, and then press OK.
+    - and bam, there's another photo
+    - Note that in this simple version of instagram, the pictures are not saved if you closed the window
+    - refresh the page
+    - now see, they are gone.
+- So you'll be learning how to combine HTML & Javascript in this one
+- Also, you'll be learning the fundamental aspects of computer science along the way
+- If you are very familiar with DOM manipulation and this is really easy for you, there's a section with a much more advanced version of what this instagram app could be. Take a look at that code, play around with it, and see if you can make it your own! Definitely don't force yourself to go through what you already know well! Warning: this code is not that simple.
+- It is your call if you want to demo this application (you may consider not demoing it to not demoralize the beginners)
+  - However, if you do demo it, here is the [live demo link](http://rawgit.com/hackedu/hack-camp/instagram/cohort_4/playbook/workshops/instagram/src/index.html)
+  - Step through the application as you demo
+    - open the application up in multiple windows
+    - enter all the phone numbers of all the students (have a listing of phone numbers prepared ahead of time so you can quickly copy and paste)
+    - go and upload a picture
+    - then do it from mobile too
+
+### Instagram Readme
+[Instagram Readme](workshops/instagram/README.md)
 
 # Demos
 

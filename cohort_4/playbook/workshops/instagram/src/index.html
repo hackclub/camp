@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Instagram</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<h1>Instagram</h1>
+	<p>Step 1: Enter some phone numbers for people to recieve uploaded photos.</p>
+
+	<form id="phone-form">
+		<input type="text" id="phone-input" placeholder="Enter a phone number"><br>
+		<input type="submit">
+		<br>
+		<br>
+		<hr>
+		<br>
+		
+		<p>Here is the current list of people that will recieve text messages:</p>
+		<div id="phones"></div>
+
+		<br>
+		<hr>
+		<br>
+		
+		<p>Step 2: Upload a file by choosing a file (if you run this on mobile mobile, you can take a picture from your phone too!)</p>
+		<p>Note: If you open this URL on multiple windows and photos that are uploaded will be shown on all of them.</p>
+		<input type="file" capture="camera" accept="image/*" id="cameraInput" name="cameraInput" name="Upload Photo">
+
+	</form>
+	
+	<div id="images"></div>
+
+	<script src="//dweet.io/client/dweet.io.min.js"></script>
+	<script type="text/javascript" src="js/maestro.js"></script>
+
+	<script type="text/javascript" src="js/imgur.js"></script>
+	<script type="text/javascript" src="js/db.js"></script>
+	<script type="text/javascript" src="js/maestro_link.js"></script>
+</body>
+</html>
