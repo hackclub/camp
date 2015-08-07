@@ -155,8 +155,8 @@ partners. Please do make sure to explain _why_ we are assigning hackers (explain
 | 10:00 AM | Workshop                                                     |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
 | 1:00 PM  | [Energizer 3](ACTIVITIES.md#bad-startup-ideas)               |
-| 2:00 PM  | [Project Formation](ACTIVITIES.md#project-formation)         |
-| 1:30 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
+| 1:20 PM  | [Project Formation](ACTIVITIES.md#project-formation)         |
+| 1:50 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 3:50 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
 | 4:00 PM  | [Demos](ACTIVITIES.md#demos)                                 |
 | 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
