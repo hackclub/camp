@@ -37,6 +37,7 @@
     - [General Guidelines](#general-guidelines)
         - [Breaks](#breaks)
         - [Checking In To Every Hacker](#checking-in-to-every-hacker)
+        - [Driving People to their Maximal Potential](#driving-people-to-their-maximal-potential)
     - [Portfolio](#portfolio)
         - [Prerequisites](#prerequisites)
         - [Running it](#running-it)
@@ -829,6 +830,58 @@ Other kinds of probing questions include:
 
 - "What's the thing that's taken you the longest?"
 - "What are somethings that have been the most confusing so far to you?"
+
+### Driving People to their Maximal Potential
+
+Each has different things that excite them and that they find challenging.
+
+People are not just ate different levels that each other, they are on different
+axis completely.
+
+Make sure you try to push people to their maximum potential, doing things that
+are hard enough for them / in something that they in particular are interested
+in.
+
+```xml
+<facilitator>
+  *notices that the hacker is kinda exhausted and is playing agar*
+  *decides to walk over*
+  Hey, how is it going.
+<facilitator>
+<hacker>
+  Oh hey, I'm just playing Agar
+</hacker>
+<facilitator>
+  Cool, how's the project going
+</facilitator>
+<hacker>
+  Well...
+</hacker>
+<facilitator>
+  How excited are you about the project?
+</facilitator>
+<hacker>
+  Yeah, its good...
+</hacker>
+<facilitator>
+  *notes that the hacker doesn't really care about what they are doing*
+  Hmmm, so I notice you're really into games. Want to try to to build Agar.
+</facilitator>
+<hacker>
+  Maybe?
+  *continues to play agar*
+</hacker>
+<facilitator>
+  *I might go and go away and check in with them later*
+  *after like 10 minutes*
+  Yo, so check some of these games out that people have made:
+  *shows demos*
+</facilitator>
+<hacker>
+  Whoah, this is awesome! Can I try?
+</hacker>
+
+```
 
 ## Portfolio
 
