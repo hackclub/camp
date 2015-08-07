@@ -36,7 +36,8 @@
 - [Workshops](#workshops)
     - [General Guidelines](#general-guidelines)
         - [Breaks](#breaks)
-    - [Portfolio](workshops/portfolio)(#portfolioworkshopsportfolio)
+        - [Checking In To Every Hacker](#checking-in-to-every-hacker)
+    - [Portfolio](#portfolio)
         - [Prerequisites](#prerequisites)
         - [Running it](#running-it)
     - [Maestro](#maestro)
@@ -753,6 +754,81 @@ doing one of the following:
   take regular breaks. At Hack Camp, feel free to take a break whenever, we
   don't want to baby you so we won't remind you.
 - Something else that works best for you.
+
+### Checking In To Every Hacker
+
+We want to make sure each hacker's energy level is high. One way to ensure
+that is to make sure that they're working on something that they're excited
+about.
+
+If a hacker is disengaged, that is the opposite of excited.
+
+One way to get a very disengaged hacker is that if
+
+- they are presented with material that is much easier than their skill level
+- or much harder.
+
+The much easier is much harder to detect for because if you ask them,
+
+> "Do you need help"
+
+They will say they don't. (Note that even though you ask someone who is very
+confused, they may say they don't need help as well because they are perhaps
+too afraid to ask for help or have already disengaged).
+
+Instead, the strategy for checking
+
+Here are some role playing scenes:
+
+```xml
+<facilitator> Are you good?
+<hacker> Yup.
+<facilitator> *walks to the next person*
+```
+
+The above interaction doesn't give you any perspective on how they are doing.
+The default answer is that they are good so most likely even if they aren't
+they will say the are good.
+
+```xml
+<facilitator> How are you doing? *seems like a more open ended question.
+<hacker> Yup.
+<facilitator> *walks to the next person*
+```
+
+Even though this wasn't a yes or no question, that data you get back is still
+pretty minimal. You have no idea what's actually going on. You want people to
+kinda ramble.
+
+```xml
+<facilitator> Hey how's it going?
+<hacker> Good.
+<facilitator> What are you working on now?
+<hacker> I'm working on the javascript
+<facilitator> *keeps pressing on to ask more questions*
+Oh, cool, which part are you working on?
+<hacker> I'm trying to get the button to work
+*amazing, we finally got some information that
+<facilitator> cool, what do you want to get it to do?
+<hacker> well, when I click it, this error comes up and I can't seem to find it
+```
+
+In the above interaction, you get a lot more data to diagnose with. Its like a
+doctor who sees a patient and the patient says fine and so the doctor walks
+away. Instead the doctor asks many different kinds of questions to trigger
+different possible reactions their patients.
+
+One amazing question is:
+
+- "Tell me more about that"
+
+This questions really lets you to get the other person to ramble and give
+you a lot of information.
+
+Other kinds of probing questions include:
+
+- "What's the thing that's taken you the longest?"
+- "What are somethings that have been the most confusing so far to you?"
 
 ## Portfolio
 
