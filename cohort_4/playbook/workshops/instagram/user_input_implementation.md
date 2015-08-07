@@ -13,32 +13,19 @@ Using the same Googling procedure above of opening the first 3 tabs, from w3 sch
 
 I open the [Try it yourself](http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_prompt)
 
-which seems to work. And then try to simplify the example by 
-- removing everything below the line `if (person != null) {` and 
-- adding an alert.
+Great I've seen this before!
 
-```js
-var person = prompt("Please enter your name", "Harry Potter");
-alert(person);
-```
-
-[![](http://i.imgur.com/9KuKZGN.png)](http://jsbin.com/jawaga/1/edit?js,output)
-
-#### Integrating the code:
+#### Integrating the prompt function in our code:
 
 ```js
 // main.js
 
 window.onload = function() {
-
-  var button = document.getElementById('button');
-
-  var takePhoto = function() {
-    var photoUrl = prompt("Give us a URL of a photo you want to add to the stream!")
-    alert(photoUrl)
-  }
-  
-  button.onclick = takePhoto;
+    var addPictureButton = document.getElementById('button');
+    addPictureButton.onclick = function() {
+        var photoUrl = prompt("Give us a URL of a photo");
+        alert(photoUrl)
+    };
 };
 ```
 

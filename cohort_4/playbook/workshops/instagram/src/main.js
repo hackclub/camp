@@ -160,7 +160,7 @@ store.onopen = function() {
 		var coffee = room.createThing("coffee");
 		coffee.spice = spice;
 
-		var pickupArea = room.findThing("takeout-pickup-area");
+		var pickupArea = room.getThing("takeout-pickup-area");
 		pickupArea.put(coffee);
 	}
 
@@ -352,11 +352,11 @@ coffee.spice = theNewSpice;
 // we made the coffeee, we need to put it on the counter
 // before we can put it on the counter, we must find where the counter is
 
-room.findThing("take-out-counter");
+room.getThing("take-out-counter");
 
-var pen = room.findThing("take-out-counter");
+var pen = room.getThing("take-out-counter");
 
-var takeOutCounter = room.findThing("take-out-counter");
+var takeOutCounter = room.getThing("take-out-counter");
 
 // if a function gives something back to you, if you want to use it later, you must store it in a variable for later?
 // I'll "store" the in a variable so I can access it later

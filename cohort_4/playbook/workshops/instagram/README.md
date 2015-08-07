@@ -1,6 +1,12 @@
 # Building Instagram
 
-## A demo of what we're building?
+## What are we building?
+
+Say for one of my own personal projects, I decided that I wanted to build Instagram. When you think of Instagram, I think fancy filters and sharing photos on social media. However for my initial version, I will make something as simple as possible. Not that I won't do the fancy things, I'll just get something done first.
+
+## A demo of the really simple version of instagram:
+
+[A demo](http://jsbin.com/cacaqa) of what we're building.
 
 ## How might we do this?
 
@@ -10,11 +16,6 @@ When user clicks the 'upload' button:
 
 1) I need to ask the user for a link to the URL of an image on the internet
 2) I need to add that image to my HTML page.
-
-## I am already familiar with the basics of CS and manipulating the DOM, what might I do?
-
-Below is some code for how to build a working version of the instagram app... #TODO link
-Here is a Demo of that App. #TODO link
 
 ## What are we learning?
 
@@ -34,19 +35,27 @@ JavaScript can interact with those HTML elemetns by moving those elements around
 
 ## How this tutorial is layed out
 
-In order to build this, you must first understand the fundamentals of computer science
-- link
+In order to build this, you must first understand the fundamentals of computer science.
 
-We will then go through an analogy of how adding an image is analogous of adding coffee
+We will then go through an analogy of how adding an image is analogous of adding coffee.
 
-- link
-- link
+Both of the above are on this page.
 
-And finally we will go through the tutorial itself
+Then we will go forward and build our simple version of Instagram:
 
-- link
-- link
+- [Iteration 1](iteration1.md)
 
+- [Setting Up Your Project in Cloud 9](project_setup.md)
+
+- [Figure Out How To Do Something When A Button Is Clicked](button_clicked.md)
+
+- [Asking The User for Input](user_input.md)
+
+- [User Input Implementation](user_input_implementation.md)
+
+- [Adding an image based on the user's given URL](adding_image.md)
+
+- [A super hard probably too difficult challenge that is not too well written up yet](possible.md)
 
 ## Questions you should be able to answer after this tutorial
 
@@ -65,12 +74,6 @@ And finally we will go through the tutorial itself
 - What are some examples of a JavaScript object's properties?
 - What is a JavaScript object's functions
 - What are some examples of a JavaScript object's functions?
-
-- What is a callback?
-- What are some examples of some callbacks?
-- When does code in a callback get run?
-
-## Funadmentals of Computer Science
 
 ### Functions
 
@@ -386,9 +389,9 @@ room // is a defined variable that refers to thee magical room
 room.createThing("mac-book-air") // creates and outputs a reference to a brand new mac book air
 room.createThing("organic-apple-sauce") // creates and outputs a reference to organic apple sauce
 
-room.findThing("couch-with-large-stain") // finds and outputs a reference to the couch with the large stain on it
+room.getThing("couch-with-large-stain") // finds and outputs a reference to the couch with the large stain on it
 
-room.findThing("my-glasses") // finds my and outputs a reference to my glasses
+room.getThing("my-glasses") // finds my and outputs a reference to my glasses
 
 // note that the input to the above functions cannot have spaces
 ```
@@ -470,7 +473,7 @@ var nameOfPerson = prompt("What is your name?");
 var coffeeCup = room.createThing("cup-of-coffee");
 coffeeCup.name = nameOfPeerson;
 
-var takeOutCounter = room.findThing("take-out-counter")
+var takeOutCounter = room.getThing("take-out-counter")
 ```
 
 **Finally I need to put the coffee cup in the pickup-area**
@@ -480,7 +483,7 @@ var nameOfPerson = prompt("What is your name?");
 var coffeeCup = room.createThing("cup-of-coffee");
 coffeeCup.name = nameOfPeerson;
 
-var takeOutCounter = room.findThing("take-out counter")
+var takeOutCounter = room.getThing("take-out counter")
 takeOutCounter.put(coffeeCup);
 ```
 
@@ -493,13 +496,13 @@ Ok. So it seems like I need to program the take-out phone in this room as well a
 Let's first find the phone:
 
 ```js
-var phone = room.findThing("take-out-phone");
+var phone = room.getThing("take-out-phone");
 ```
 
 Then whenver the phone rings, this magic phone will automatically call any code inside of the `phone.onring` function, by itself.
 
 ```js
-var phone = room.findThing("take-out-phone");
+var phone = room.getThing("take-out-phone");
 
 phone.onring = function() {
     // any code here will be run when the phone rings
@@ -511,7 +514,7 @@ Therefore, I want to put the code I wrote above in the `phone.onring` function, 
 ```js
 
 // find the take-out-phone
-var phone = room.findThing("take-out-phone");
+var phone = room.getThing("take-out-phone");
 
 // the function phone.onring, 
 // will be automatically called when the phone rings
@@ -520,7 +523,7 @@ phone.onring = function() {
     var coffeeCup = room.createThing("cup-of-coffee");
     coffeeCup.name = nameOfPeerson;
 
-    var takeOutCounter = room.findThing("take-out counter")
+    var takeOutCounter = room.getThing("take-out counter")
     takeOutCounter.put(coffeeCup);
 }
 ```
@@ -538,14 +541,14 @@ This will solve the problem!
 
 system.onload = function() {
 
-    var phone = room.findThing("take-out-phone");
+    var phone = room.getThing("take-out-phone");
 
     phone.onring = function() {
         var nameOfPerson = prompt("What is your name?");
         var coffeeCup = room.createThing("cup-of-coffee");
         coffeeCup.name = nameOfPeerson;
 
-        var takeOutCounter = room.findThing("take-out counter")
+        var takeOutCounter = room.getThing("take-out counter")
         takeOutCounter.put(coffeeCup);
     }
 
@@ -561,14 +564,14 @@ Note that code that is commented in the below example is not executed at the giv
 
     ```js
     system.onload = function() {
-    //    var phone = room.findThing("take-out-phone");
+    //    var phone = room.getThing("take-out-phone");
     //
     //    phone.onring = function() {
     //        var nameOfPerson = prompt("What is your name?");
     //        var coffeeCup = room.createThing("cup-of-coffee");
     //        coffeeCup.name = nameOfPeerson;
     //
-    //        var takeOutCounter = room.findThing("take-out counter")
+    //        var takeOutCounter = room.getThing("take-out counter")
     //        takeOutCounter.put(coffeeCup);
     //    }
     }
@@ -578,14 +581,14 @@ Note that code that is commented in the below example is not executed at the giv
 
     ```js
     //system.onload = function() {
-          var phone = room.findThing("take-out-phone");
+          var phone = room.getThing("take-out-phone");
     //
           phone.onring = function() {
     //        var nameOfPerson = prompt("What is your name?");
     //        var coffeeCup = room.createThing("cup-of-coffee");
     //        coffeeCup.name = nameOfPeerson;
     //
-    //        var takeOutCounter = room.findThing("take-out counter")
+    //        var takeOutCounter = room.getThing("take-out counter")
     //        takeOutCounter.put(coffeeCup);
           }
     //}
@@ -595,14 +598,14 @@ Note that code that is commented in the below example is not executed at the giv
 
 ```js
 //system.onload = function() {
-//    var phone = room.findThing("take-out-phone");
+//    var phone = room.getThing("take-out-phone");
 //
 //    phone.onring = function() {
           var nameOfPerson = prompt("What is your name?");
           var coffeeCup = room.createThing("cup-of-coffee");
           coffeeCup.name = nameOfPeerson;
   
-          var takeOutCounter = room.findThing("take-out counter")
+          var takeOutCounter = room.getThing("take-out counter")
           takeOutCounter.put(coffeeCup);
 //    }
 //}
@@ -610,4 +613,19 @@ Note that code that is commented in the below example is not executed at the giv
 
 Congratulations! We did it!
 
-## Next
+```
+Challenge Time!
+            __
+           / _)   
+    .-^^^-/ /
+ __/       /
+<__.|_|-|_|
+
+Now go up to your facilitator and try to explain back the above example to them to make sure you understand it!
+
+They will give you feedback on what you're understanding and what you still need clarified!
+```
+
+## Next 
+
+[Step 1](iteration1.md)
