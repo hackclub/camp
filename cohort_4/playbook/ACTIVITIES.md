@@ -1092,6 +1092,10 @@ on Google (ex. if they don't know about the existence of the JavaScript
 console and it's the tool they need), then feel free to explain it to them
 directly. Use your discretion for when to do this.
 
+Moreover, we recommend encouraging hackers to reach out to their peers for help.
+After Hack Camp, the facilitators will not be as accessible, but the hackers
+will still have access to peers with coding experience.
+
 Biasing for searching the web also works well if the hacker you're working with
 has more experience than you. We've found that going in with the mindset of
 "let's solve this together" instead of "I'm going to help you solve this" has
