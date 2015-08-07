@@ -63,7 +63,7 @@ when demos will be.
 If the current day is a workshop day, make sure hacker pairs (that work together
 in projects) are assigned in some way, shape, or form before brainstorming
 starts. You should _assign_ these. Hackers should not be choosing their
-partners.
+partners. Please do make sure to explain _why_ we are assigning hackers (explained in [Project-Formation](ACTIVITIES#project-formation)).
 
 ## Day 1
 
@@ -79,7 +79,7 @@ partners.
 | 10:40 AM | [Portfolio workshop](ACTIVITIES.md#portfolio)                |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
 | 9:50 AM  | [Energizer 3](ACTIVITIES.md#evolution-rock-paper-scissors)   |
-| 2:00 PM  | [Brainstorming](ACTIVITIES.md#brainstorming)                 |
+| 2:00 PM  | [Project Formation](ACTIVITIES.md#project-formation)         |
 | 2:20 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 3:30 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
 | 3:40 PM  | [I have failed circle](ACTIVITIES.md#i-have-failed-activity) |
@@ -118,8 +118,8 @@ partners.
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
 | 1:30 PM  | [Energizer 3](ACTIVITIES.md#human-pictionary)                |
 | 1:45 PM  | [Energizer 4](ACTIVITIES.md#ninja)                           |
-| 2:00 PM  | [Brainstorming](ACTIVITIES.md#brainstorming)                 |
-| 2:20 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
+| 2:00 PM  | [Project Formation](ACTIVITIES.md#project-formation)         |
+| 2:30 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 3:50 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
 | 4:00 PM  | [Demos](ACTIVITIES.md#demos)                                 |
 | 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |

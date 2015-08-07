@@ -46,7 +46,7 @@
     - [Engagement](#engagement)
     - [Facilitating](#facilitating)
     - [Answering questions](#answering-questions)
-- [Brainstorming](#brainstorming)
+- [Project Formation](#project-formation)
     - [Forming groups](#forming-groups)
     - [Yes-and sessions](#yes-and-sessions)
     - [Running a brainstorm session](#running-a-brainstorm-session)
@@ -828,7 +828,7 @@ giving them more freedom and autonomy than less.
 Sometimes hackers will need to be prompted to ask questions. We recommend
 prompting them by asking things like the following when checking in.
 
-> How is it going?  
+> How is it going?
 > What can I do to be helpful?
 
 ## Answering Questions
@@ -903,25 +903,73 @@ questions to search for something a bit more specific.
 This specific example ends here, but hopefully it gives a preliminary idea of
 what we recommend answering questions should look like.
 
-# Brainstorming
+# Project Formation
+
+In the workshop / projects model, three quaters of a hacker's time is spent on
+their projects. Project formation sets the foundation of a good project.
+
+Here are the steps to project formation:
+
+1. Forming groups [2 mins]
+2. Yes-and sessions [5 minutes]
+3. Brainstorming [23 mins]
 
 ## Forming groups
 
-- Assign people to groups.
-  - There are social pressures between friends when forming groups. Start by
-    assigning the hackers to random groups.
-  - If any problems arise in a group handle it on a case-by-case basis.
+### Pre-Work
 
-First-day group pairs can be found at:
-https://docs.google.com/spreadsheets/d/1EAvdMve4Fro-xvWt3OeV7YDr4HOKDhPuAyX1oFoLqcw/edit?usp=sharing
+Follow the guidelines for pairing in [Pairing-Guidelines](#pairing-guidelines).
+
+Make sure that the spreadsheet with the information for pairing
+
+- is in a location that everyone knows about
+- is easily accessible
+- is open before getting the campers attention
+
+### During Hack Camp
+
+```
+Time: 2 mins
+Materials: The spreadsheet with the pairings you've made in it
+```
+
+- Get people psyched that they get to work on building their own projects
+- Remind them of some of the following without sounding repetitive
+  - projects are awesome
+    - because you get to create what you see missing in the world
+    - you get to really hone your skills when you build a project
+  - working on people who are at different skill levels improves your skills
+    - if you are less experienced than your partner
+      - you can pick their brain and watch how they do things
+      - be corrected on how you do things
+    - if you are more experienced than your partner
+      - you get to test and synthesize your knowledge of the subject by being
+        having to explain it to someone else.
+      - the famous Richard Feynman
+        [pretended he was teaching a new student](http://www.scotthyoung.com/learnonsteroids/grab/TranscriptFeynman.pdf)
+        to help him pinpoint the exact details of what he didn't understand.
 
 ## Yes-and sessions
 
-- "Yes-and" sessions are exercises that help people get out of a judgmental
-  mindset before brainstorming
-  - In a "Yes-and" session, pairs of hackers build off each-others' ideas to
-    create long, completely nonsensical ideas
-- To run a "Yes-and" session, start with an example between facilitators
+```
+Time: 5 mins
+Materials: The spreadsheet with the pairings you've made in it
+```
+
+
+- One of the biggest inhibitors to a successful brainstorming session (instructions
+  on how to run brainstorming below) is that people turn down the ideas of
+  others as well as their own ideas before they can even see the light of day.
+- "Yes-and" sessions are exercises from the improv world that help people get
+  into a a mindset of non-judgment and therefore creativity before
+  brainstorming which will help help them not turn down ideas.
+- Note that the Yes-and session is NOT the actual brainstorming activity itself.
+- In a "Yes-and" session, pairs of hackers build off each-others' ideas to
+    create long, completely nonsensical ideas. And since a partner must go along
+
+### Running a Yes-and session
+- Start with a live example between facilitators (yes, actually do a live
+  example each time)
   - ex: https://youtu.be/Qe2a3ppacUk
   - ex: between person A and person B:
 
@@ -931,32 +979,129 @@ https://docs.google.com/spreadsheets/d/1EAvdMve4Fro-xvWt3OeV7YDr4HOKDhPuAyX1oFoL
     > A: Yes, and there won't be enough food for the unicorns
     > B: So they'll build a spaceship to search for new planets to colonize!
 
-- Have the hackers jump into a "Yes-and session" for 4 minutes then let
-  volunteer to present the stories that unfolded.
+- tell the hackers to stand up
+- tell hackers to be in their pairs
+- briefly remind the hackers why we are doing a yes and session
+  - to help your creativity flow by stopping judgment
+- verbally remind them to
+  - go along with whatever their partner says
+  - to say the first thing that pops into their heads not have judgment
+- Have the hackers jump into a "Yes-and session" for 4 minutes
+- wander around the groups and listen in on the sessions as people are doing
+  their yes-ands
+  - if there is any group that has failed to start or is very quiet
+    - help get them started by saying something like
+      - "Just say the first thing that comes to your head!"
+    - however, don't actually help them by choosing a topic, they need to do
+      that
+- Start passing out sticky notes and thicker tip pens for the brainstorming
+  activity now.
+    - each individual person should have
+      - 1 sticky note pad (try to have partners have different colored pads)
+      - 1 ideally think pen (not pencil)
+- give them a 45 second warning before coming to a close
+- then at the end ask something like "Does anyone want to share any crazy
+  stories that happened?"
 
 ## Running a brainstorm session
 
-- Remind the hackers how brainstorming works
+### Part 1: Generating as many ideas as humanly possible
 
-  1. THERE ARE NO BAD IDEAS IN BRAINSTORMING
-  2. Go for quantity of ideas
-  3. Write down your ideas on post-it notes
-  4. Say an idea out loud when writing it down
+```
+Time: 13 mins
+Materials:
 
-## After a brainstorm
+- Individual sticky pad for each person
+- try to have different colored sticky pads per person
+- a pen to write with (ideally having a thinker point)
+```
+
+
+People should be energized now from their Yes-and sessions
+
+- Make sure hackers remain standing
+- Make sure each *individual* hacker has
+  - their own pad of sticky notes (try to have partners have different colored
+    pads so that you can tell if a person in a group is not producing stickies)
+  - their own pen (ideally thick pen)
+- Explain how brainstorming works (you want to remind people by explaining how
+  to do this each and every time). Make sure you say **each and every** one
+  of the below points:
+  - make sure that you have
+    - your own pad of sticky notes
+    - a pen
+    - you should have one pad of sticky notes in one hand and a pen in the other
+    - (as you say this demonstrate holding a one in one hand and a pad of
+      sticky notes in the other)
+  - * say the below a very enthusiastic and passionate voice *
+  - * particularly **emphasize** the words in **bold** *
+  - you want to go for ***quantity***, not quality
+  - write ***any*** idea  you have down
+  - do not judge any of your ideas
+  - you want to write down anything that comes to your mind
+  - just like in "Yes-and", you can build off your partner but you don't have to
+  - as you write the idea down, say the idea out loud so your partner can hear
+    you
+  - *demonstrate the above by actually writing at least 3 sticky notes down*
+    - here are some ideas
+      - "tinder for cats"
+      - "remind me to call mom"
+      - "free food finder"
+    - make sure you
+      - write the idea
+      - say the idea out loud
+      - vigorously slam it down on the table for emphasis
+  - You can then emphatically say "GO!"
+- Now your job is to monitor the pairs brainstorming
+  - you want to focus your attention on individuals / groups who are producing
+    a low amount of sticky notes and urge them along
+  - you might go up to the group / individual and say some of the following
+    - I notice that you don't have too many sticky notes, what are you thinking?
+    - Just put down the first thing that comes to your head, there are no bad
+      ideas
+    - if you're very comfortable with the person, you might in a joking tone,
+      say "dude, you guys got to up their game, look at how many sticky notes
+      that other team has.
+    - go, go, go, go, moar sticky notes!
+  - if you notice that people in a pair are imbalanced at producing sticky notes
+    (you will notice this if pairs have different colored pads)
+    - help the one with less sticky notes in the same way as above.
+- generally try to refrain from adding your own ideas to a brainstorm but
+  sometimes even with a lot of encouragement and enthusiasm, a group doesn't
+  come up with enough sticky notes and you can help them suggest ideas
+- If done right, each pair should produce around 25 - 50 post it notes in one
+  brainstorming session.
+
+### Part II: Filtering the ideas
 
 - This is when you can start sorting and judging the ideas
-  - Group post-it notes into similar concepts or ideas
+  - You can group post-it notes into similar concepts or ideas
+  - or just pick out your favorite
 - Hackers should chose two or three ideas they are interested in working on.
 - Organizers can help them narrow their final decision down to one idea.
   - It is important that organizers review project ideas before hackers start
-    working
-- Explain the concept of MVP and help the hackers scope their project
-  - Building a large project can take a long time. We want to build the least
-    amount that we have to in the next day, so we'll only build the core
-    features
-  - Organizers must make sure the scope of the project is something the hackers
-    can handle in the time they are given.
+    working.
+    - Explain the concept of MVP and help the hackers scope their project
+    - Building a large project can take a long time.
+    - Organizers must make sure the scope of the project is something the hackers
+      can handle in the time they are given.
+    - If you notice that the scope is too large, you might say some things like
+      - "Well this idea might take a grad student 2 years to build, this other
+        one however"
+      - You can also try to get them to see the scope themselves: "Hm, what
+        steps do you think you could take on this? Oh, how long do you think
+        that would take?" and hopefully guide them to the answer.
+      - Ideally though, you'd let the hackers fix scope themselves because that
+      is a skill in and of itself. You want to try to be as hands off as
+      possible if you think it would be a net positive.
+      - Use your discretion whether you think a team would benefit from scope
+      pruning now, or later. Depending on the idea, there may be no way to
+      re-scope the project later and the team will need to pick a new project.
+      Also a team may be very strong and can iterate and pivot ideas very
+      quickly in which case this wouldn't be a problem. However, there may be a
+      team that would significantly lose morale if this was brought up later.
+- By the end of the brainstorming session, the ideas should be widdled down to
+  just one idea.
 
 # "I have failed" activity
 
