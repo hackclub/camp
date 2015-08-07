@@ -238,7 +238,6 @@ To open up your developer console in Google Chrome (yes, please use Chrome, it h
 - windows: `ctrl + shift + i`
 - mac: `cmd + alt + j`
 
-***RECITE AFTER ME: I PROMISE TO ALWAYS HAVE YOUR DEVELOPER CONSOLE OPEN***
 
 > ![](https://s3.amazonaws.com/f.cl.ly/items/433z0g281v0V0E242j47/Image%202015-07-17%20at%204.22.28%20AM.png)
 
