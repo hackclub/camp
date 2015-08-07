@@ -993,9 +993,13 @@ their projects. Project formation sets the foundation of a good project.
 
 Here are the steps to project formation:
 
+(_we recommend doing each of the below for things each time_)
+
 1. Forming groups [2 mins]
 2. Yes-and sessions [5 minutes]
 3. Brainstorming [23 mins]
+  1. Part 1: Generating Ideas [13 mins]
+  2. Part 2: Filtering Ideas [10 mins]
 
 ## Forming groups
 
@@ -1039,6 +1043,9 @@ Time: 5 mins
 Materials: The spreadsheet with the pairings you've made in it
 ```
 
+_Note this activity can certianly get a little old if done repeatedly so feel
+free to insert your own favorite improv activity that has a similar effect
+here._
 
 - One of the biggest inhibitors to a successful brainstorming session (instructions
   on how to run brainstorming below) is that people turn down the ideas of
