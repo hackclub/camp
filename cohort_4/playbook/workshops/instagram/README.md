@@ -51,7 +51,8 @@ around, making more elements, and remove elements entirely.
 In order to build this, you must first understand the fundamentals of 
 computer science.
 
-We will then go through an analogous example of adding an image with a real life analogy.
+We will then go through an analogous example of adding an image with a real life
+analogy.
 
 Both of the above are on this page.
 
@@ -269,7 +270,9 @@ Object Properties Challenge Time!
 
 How to do this challenge:
 
-    Ask the people sitting next to you "Have you gotten to Object Properties Challenge yet?" If they did it in the past or are about to do it, work with them on this challenge.
+    Ask the people sitting next to you "Have you gotten to Object Properties
+    Challenge yet?" If they did it in the past or are about to do it, work with
+    them on this challenge.
 
     If you can't find anyone that has reached this section yet, chat with a 
     facilitator about it!
@@ -380,12 +383,12 @@ How to do this challenge:
 
 The actual challenge:
 
-    With your pair, think of an object (feel free to use the objects that you came 
-    up from your first challenge) and discuss what they might do - basically the 
-    properties of the object.
+    With your pair, think of an object (feel free to use the objects that you
+    came  up from your first challenge) and discuss what they might do - 
+    basically the properties of the object.
 
-    For a car, its properties that are functions could be drive, refill gas, turn on 
-    wind shield wiper.
+    For a car, its properties that are functions could be drive, refill gas, 
+    turn on wind shield wiper.
 ```
 
 ## The Coffee Shop Analogy
@@ -592,8 +595,8 @@ phone.onring = function() {
 
 Almost!
 
-Right now the ANY TIME the phone rings, it prepares a cup of coffee. We only want
-to do this when the operating system is ready or else the room could break.
+Right now the ANY TIME the phone rings, it prepares a cup of coffee. We only 
+want to do this when the operating system is ready or else the room could break.
 
 This will solve the problem!
 
