@@ -262,8 +262,8 @@ Source: unknown
 ```
 
 Mumbled Messages is a game where you try to pass around a message and compare
-how it is at the beginning and at the end. People are standing in a circle and
-the message gets passed around in the clockwise direction.
+how it is at the beginning and at the end. People stand in a circle and the
+message gets passed around in the clockwise direction.
 
 Start by having one person, Person A, think of a complicated phrase to say to
 the person on his or her left, Person B. Person A will then whisper that message
