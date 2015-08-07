@@ -14,6 +14,7 @@
     - [One Word Radio](#one-word-radio)
     - [Sharks and Minnows](#sharks-and-minnows)
     - [Where The West Wind Blows](#where-the-west-wind-blows)
+    - [Zip Zap Zop](#zip-zap-zip)
 - [Introduction talk](#introduction-talk)
     - [Speaking from personal experience.](#speaking-from-personal-experience)
     - [Why is programming awesome?](#why-is-programming-awesome)
@@ -366,6 +367,20 @@ Number: unknown
   is tagged by kelp, it also becomes kelp.
 
 ## Where The West Wind Blows
+
+## Zip Zap Zop
+
+Before the game, watch [this video](https://www.youtube.com/watch?v=lyWKVGoXKak):
+    - Preparing for the energinzer
+      - Before the game
+        - Watch this video:
+    - When explaining the game
+      - Spend 5 seconds verbally explaining the game (but actually 5 seconds)
+      - Then you want to SHOW the game. Grab 3 people and have to demo it.
+        The words you could say may look like:
+        - "Jonathan could say Zip"
+          - Guide Jonathan's hands to point at someone
+    - Watch [https://www.youtube.com/watch?v=vP-MI_in6Fc]() for more details.
 
 # Introduction talk
 
