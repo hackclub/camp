@@ -369,7 +369,21 @@ Number: unknown
 
 ## Pterodactyl
 
+```
+Time: 4-6 minutes
+Materials: none
+```
 
+All players must begin by knowing that the point of the game is to keep their
+lips covering their teeth the whole time and never letting their teeth be seen
+or they are out! They must cover them with their lips at all times. (pull them
+over your teeth as you would if you were rubbing in lipstick.The game begins
+with everyone in a circle and one player saying "pterodactyl" then the player to
+the right of them says it and so on and so on.
+
+The catch is that any player can change the direction by screaming / screech as
+loud as they want or however they want just like a pterodactyl! This is when the
+game gets really fun and almost every person is laughing!
 
 ## Where The West Wind Blows
 
