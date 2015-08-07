@@ -8,6 +8,12 @@ Say for one of my own personal projects, I decided that I wanted to build Instag
 
 [A demo](http://jsbin.com/cacaqa) of what we're building.
 
+## Already familiar with the DOM? Need something harder?
+
+Take a look at [this live demo](http://rawgit.com/hackedu/hack-camp/instagram/cohort_4/playbook/workshops/instagram/src/index.html)
+
+I challenge you to understand [the code](https://github.com/hackedu/hack-camp/tree/0b986fc2c7f61851e188ee8efaa72fb5b81e44f0/cohort_4/playbook/workshops/instagram/src) (debugger is your friend) and remix it into your own application!
+
 ## How might we do this?
 
 We need to write code that does the following:
