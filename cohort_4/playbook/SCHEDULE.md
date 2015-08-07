@@ -152,7 +152,7 @@ partners. Please do make sure to explain _why_ we are assigning hackers (explain
 | 9:20 AM  | [Energizer 1](ACTIVITIES.md#one-word-radio)                  |
 | 9:30 AM  | [Energizer 2](ACTIVITIES.md#sharks-and-minnows)              |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
-| 10:00 AM | Workshop                                                     |
+| 10:00 AM | [Instagram Workshop](ACTIVITIES.md#instagram)                                                     |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
 | 1:00 PM  | [Energizer 3](ACTIVITIES.md#bad-startup-ideas)               |
 | 2:00 PM  | [Project Formation](ACTIVITIES.md#project-formation)         |
