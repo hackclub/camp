@@ -104,6 +104,7 @@
     - [Announcing to the Whole Group](#announcing-to-the-whole-group)
     - [Sharing Announcements Individually](#sharing-announcements-individually)
     - [Slack Announcements](#slack-announcements)
+- [Additional Resources](#additional-resources)
 
 <!-- markdown-toc end -->
 
@@ -2067,3 +2068,21 @@ Want to send a link to everyone? _Slack._
 
 Was there an event at Galvanize that had some extra food and offered it to our
 hackers? _Slack._
+
+## Additional Resources
+
+### CodeHS
+
+#### Pros:
+
+- is very good at introducing and meticulously explaining the basic
+concepts of programming I (Jonathan) have not found anything clearer than
+CodeHS at explaining these basics.
+
+#### Cons:
+
+- the student nevers have the opportunity to build your own projects in CodeHS.
+  You are told everything that you are supposed to build.
+- perhaps even worse, you have no experience even in building _any_ kind
+  projects because you are always following a specific directions that keep
+  giving you the next step.
