@@ -813,6 +813,28 @@ this would be somewhat functional and demonstrate base functionality.
     why this is a failure
 - After presenting something they failed at, they can show off what they made
 
+## Whiteboard information
+
+During demos it can be hard for hackers to remember what they must include in
+their presentation. To help hackers keep this in mind it is good to have a
+whiteboard within view that includes the steps to giving a demo.
+
+Step-by-step instructions for presenting:
+
+1. Start showing your project being used.
+2. Talk about how your project works.
+3. Something you have failed at (and optionally how you will resolve it).
+4. Something you have learned by doing this project.
+
+It can also be hard to remember how to give feedback. Make sure the hackers can
+see these tips (on a whiteboard) when writing their feedback:
+
+- Don't be afraid to point out failures or flaws; this feedback is annonymous.
+- Try to have something presenters can improve on, and something they did well.
+- Feedback helps hackers get better at presenting. The more the better.
+- Ask yourself if you had just presented the same thing, what feedback would you
+  like to be given.
+
 ## Links
 
 Before kicking off demos, we'll want to collect links to all of the web projects
