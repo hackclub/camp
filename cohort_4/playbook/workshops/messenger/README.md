@@ -1,11 +1,8 @@
 # Messenger
 
-## TODO
-- split up this page into multiple pages so that the solutions to a challenge
-  is not immediately underneath of the challenge
-
 ## Partnering
 
+There is a component where you work with your partners for this workshop.
 Make sure you are with your partners when you do this workshop.
 
 ## What are we building?
@@ -16,11 +13,11 @@ See live demo: <!--TODO-->
 
 ## The objectives of this workshop:
 
-- to practice building a complete project
 - to solidify your understanding of accessing and adding elements
   to an HTML page using JavaScript.
+- to practice building a complete project
 
-## Are you already familiar with this?
+## Are you already familiar with the this?
 
 Some potential challenge projects:
 
