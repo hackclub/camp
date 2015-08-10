@@ -9,7 +9,7 @@ Make sure you are with your partners when you do this workshop.
 
 We are building a simple messaging application.
 
-See live demo: <!--TODO-->
+[See the live demo.](https://rawgit.com/hackedu/hack-camp/50b54d2436ff15679735ca5c8c50d7ee2ff7b744/cohort_4/playbook/workshops/messenger/src/index.html)
 
 ## The objectives of this workshop:
 
