@@ -27,6 +27,7 @@ Some potential challenge projects:
 - build a group messaging SMS app
 - build a real time chat app that sends you messages over the messaging client
   when you're online and sends you SMS when you're idle or offline
+- add firebase to this chat for realtimze syncing
 
 ## Understanding the Instagram Workshop
 
