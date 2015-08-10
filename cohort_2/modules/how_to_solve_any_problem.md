@@ -63,7 +63,7 @@ Figure out what you're thinking: Remember when you tried to tell Paul how to sta
 
 Break the problem into small tiny chunks that you can attack separately. #divideandconquer
 
-***[If you get stuck, do the Google]("#How to solve a specific problem:")***
+***If you get stuck, do the Google***
 
 #### 2. Write Your Test Cases (Expectations) on Paper (ie like an example)
 If this functionality were already working, how would you use it? How would you expect it to work?

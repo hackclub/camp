@@ -901,7 +901,8 @@ shouted out after the demo.
 # Freeform Projects
 
 This assumes the hackers are already in groups and have decided what to work on.
-If they have not yet, refer to [Brainstorming](#brainstorming).
+If they have not yet, refer to the [freeform projects](#freeform-projects)
+section.
 
 Every set of freeform time for projects culminates in a demo by the end of the
 day. See the [demo section](#demos) for more details, including what hackers are
