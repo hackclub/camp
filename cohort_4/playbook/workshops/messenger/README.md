@@ -433,6 +433,7 @@ written code.
     <title>Messenger</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="main.css" rel="stylesheet">
+    <script src="main.js"></script>
   </head>
   <body>
     <div class="messenger container">
@@ -750,7 +751,8 @@ familiarity with the code.
   <head>
     <title>Messenger</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="main.css" rel="stylesheet">
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
   </head>
   <body>
     <div class="messenger container">
