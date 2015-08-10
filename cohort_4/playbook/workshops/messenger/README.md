@@ -20,6 +20,14 @@ See live demo: <!--TODO-->
 - to solidify your understanding of accessing and adding elements
   to an HTML page using JavaScript.
 
+## Are you already familiar with this?
+
+Some potential challenge projects:
+
+- build a group messaging SMS app
+- build a real time chat app that sends you messages over the messaging client
+  when you're online and sends you SMS when you're idle or offline
+
 ## Understanding the Instagram Workshop
 
 Here is a live demo <!--TODO--> of what we built in the Instagram workshop.
@@ -415,7 +423,7 @@ Write down the pieces somewhere.
 For this project, we provided a pre-made HTML & CSS template so that the
 workshop can focus on the JavaScript.
 
-Moreover, using our template will give you experience in using existingly
+Moreover, using our template will give you experience in using existing
 written code.
 
 ### HTML Code
@@ -532,102 +540,631 @@ We'll need to create another `<li>` and add it to the `<ul>` like this:
 </ul>
 ```
 
-<!--TODO-->
+## Project Setup Challenge
 
-## window.onload
+```
+Challenge Time!
+            __
+           / _)
+    .-^^^-/ /
+ __/       /
+ <__.|_|-|_|
 
+You've created many web projects, see if you can figure out how to
+create the necessary files and folders for your project on your own by
+
+- looking at old code / workshops
+- googling
+```
+
+## Project Setup Solution
+
+- Create the new folder, `messenger` inside of the root of your **existing**
+Cloud9 workspace.
+- Inside of the `messenger` folder, create 3 files
+  - `index.html`
+  - `main.js`
+  - `main.css`
+- double click to open `index.html`
+- In `index.html`, add the HTML base scaffold by typing the following code
+  - don't copy and paste it
+  - make sure to indent properly
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Messenger</title>
+
+</head>
+<body>
+</body>
+</html>
+```
+
+Now I need to tell `index.html` about my `main.js` file by adding the following
+inside of my `head` tag
+
+```html
+<script type="text/javascript" src="main.js"></script>
+```
+
+and then I need to tell the `index.html` about my `main.css` file by adding the
+following inside of my `<head>` tag
+
+```html
+<link rel="stylesheet" href="main.css">
+```
+
+My HTML file should now look something like this:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Messenger</title>
+
+  <script type="text/javascript" src="main.js"></script>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+</body>
+</html>
+```
+
+### Ensure LiveReload is running
+
+Make sure that live reload is running by opening a terminal in Cloud9 and typing
+`live_reload`. Ask a friend or a facilitator if you don't remember how to do
+this.
+
+## Starter Code
+
+The focus of this tutorial is not to learn css or design but to focus on the
+manipulation of HTML with javascript, that's why we're giving you the starter
+code for HTML and CSS.
+
+### So feel free to copy and paste the CSS file into your main.css
+```css
+html, body {
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  max-width: 500px;
+}
+
+.messenger {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  border-radius: 3px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  background-color: #dfe3ea;
+  border: 1px solid #CCC;
+  overflow: auto;
+  padding: 0px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #666;
+}
+
+.messenger header {
+  background-color: #EEE;
+  background: -webkit-linear-gradient(top, #EEEEEE, #DDDDDD);
+  background: linear-gradient(to bottom, #EEEEEE, #DDDDDD);
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.9), 0px 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 3px 3px 0px 0px;
+  border-bottom: 1px solid #CCC;
+  line-height: 24px;
+  font-size: 12px;
+  text-align: center;
+  color: #999;
+}
+
+.messenger input {
+  box-sizing: border-box;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  padding: 0px 10px;
+  height: 30px;
+  font-size: 18px;
+  width: 100%;
+  font-weight: normal;
+  outline: none;
+}
+
+.messenger .messenger-toolbar {
+  background-color: #FFF;
+  padding: 10px;
+  position: relative;
+  border-bottom: 1px solid #CCC;
+}
+
+.messenger .messenger-toolbar label {
+  text-transform: uppercase;
+  line-height: 32px;
+  font-size: 14px;
+  color: #999;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  z-index: 1;
+}
+
+.messenger .messenger-toolbar input {
+  box-shadow: none;
+  border: 1px solid #FFF;
+  padding-left: 100px;
+  color: #999;
+}
+
+.messenger .messenger-toolbar input:active, .messenger .messenger-toolbar input:focus {
+  color: #1d9dff;
+  border: 1px solid #FFF;
+}
+
+.messenger ul {
+  list-style: none;
+  margin: 0px;
+  padding: 20px;
+  overflow: auto;
+}
+
+.messenger ul li {
+  margin-bottom: 10px;
+  line-height: 24px;
+}
+
+.messenger ul li:last-child {
+  margin: 0px;
+}
+
+.messenger ul .messenger-username {
+  margin-right: 10px;
+}
+
+.messenger footer {
+  display: block;
+  padding: 10px;
+
+}
+
+.messenger footer input {
+  border: 1px solid #ced3db;
+  height: 40px;
+}
+```
+
+### But manually hand-type the below code into your index.html file
+
+We recommend hand typing in this situation because you will be using and
+manipulating the HTML lot throughout this project. Hand typing it gives you more
+familiarity with the code.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Messenger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="main.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="messenger container">
+      <header>Messenger</header>
+
+      <div class='messenger-toolbar'>
+        <label for="usernameInput">Username:</label>
+        <input type='text' id='usernameInput' placeholder='enter a username...'>
+        <!-- ^ username input-->
+      </div>
+
+      <ul id='messageList' class="messenger-messages">
+      </ul>
+      <!-- ^ list of messages -->
+
+      <footer>
+        <input type='text' id='messageInput'  placeholder='Type a message...'>
+        <!-- ^ new message input-->
+      </footer>
+
+      <button id="submitButton">Send</button>
+    </div>
+
+  </body>
+</html>
+```
+
+## Now you are ready to try to build the messenger app on your own
+
+We will challenge you to try to implement each step before looking at the
+solution.
+
+Here are the list of steps that we are going to follow:
+
+- wait for the page to load
+- do something when the button is clicked
+- access the value of the new message input
+- access the value of the username input
+- create the message element with the value of the new message
+  and username inputs
+- add the newly created message input to the page
+
+## Challenge: Wait for the page to load
+
+```
+Challenge Time!
+            __
+           / _)
+    .-^^^-/ /
+ __/       /
+ <__.|_|-|_|
+
+Write the JavaScript that waits for the page to load
+```
+
+## Solution: Wait for the page to load
+
+Write a `window.onload` function
+
+```js
 window.onload = function() {
   alert("the window has loaded");
 }
+```
 
-## submitButton.onclick
+See the above section ["waiting for the page to load"](#waiting-for-the-page-to-load) for an explanation.
 
+## Challenge: do something when the button is clicked
+
+```
+Challenge Time!
+            __
+           / _)
+    .-^^^-/ /
+ __/       /
+ <__.|_|-|_|
+
+Write the JavaScript that does something when the button is clicked.
+
+There is a hint in the ["waiting for the page to load"](#doing-something-when-the-button-is-clicked) section.
+```
+
+Hint: 'Feel free to checkout the section [Doing something when the button is clicked]() in the section above.
+
+
+## Solution: do something when the button is clicked
+
+Inside of the `window.onload` function,
+
+- find the `submitButton` using `document.getElementById`
+- and create an `onclick` function for the newly found `submitButton`
+
+```js
 window.onload = function() {
-
   var submitButton = document.getElementById("submitButton");
+
   submitButton.onclick = function() {
     alert("the submit button was clicked");
   }
 }
+```
 
+Doing something when the button is clicked
+["waiting for the page to load"](#doing-something-when-the-button-is-clicked) for an explanation.
 
-## write something to the page
+## Challenge: Access the value of the new message input
 
-### Part 1: WRITE IT MANUALLY IN THE HTML FIRST
+```
+Challenge Time!
+            __
+           / _)
+    .-^^^-/ /
+ __/       /
+ <__.|_|-|_|
 
-### Part 2: THEN WRITE IT WITH CODE
+Use Google to try to figure out how to access the value of an input box using
+JavaScript.
 
+Hint: the new message input tag has the id `'messageInput'`
+```
+
+## Solution: Access the value of the new message input
+
+- I google `javascript get value of input box`
+- I open the
+  [first result (a StackOverflow result)](http://stackoverflow.com/questions/11563638/javascript-get-input-text-value)
+- I find the most highly rated solution:
+  ```js
+  document.getElementById('textbox_id').value;
+  ```
+- I know that the above code is actually two steps
+  1. finding the element by it's id
+  2. getting it's value
+- So I decide to break up the example into two parts so that it's easier to
+  understand
+  ```js
+  var textBox = document.getElementById('textbox_id');
+  var textBoxValue = textBox.value;
+  ```
+- Now I translate the example to what I need by
+  - finding the element with the `id` of `messageInput`
+  - changing the variable names to match
+  ```js
+  var messageInput = document.getElementById('messageInput');
+  var messageInputValue = messageInput.value;
+  ```
+- Great! Now I can add this to my code:
+  ```js
+  window.onload = function() {
+    var submitButton = document.getElementById("submitButton");
+
+    submitButton.onclick = function() {
+      var messageInput = document.getElementById('messageInput');
+      var messageInputValue = messageInput.value;
+      alert("The new message is " + messageInputValue);
+    }
+  }
+  ```
+- Note that I added an `alert` above so that I could see the value of whatever
+  was in the message input
+
+## Challenge: Access the value of the username input
+
+```
+Challenge Time!
+            __
+           / _)
+    .-^^^-/ /
+ __/       /
+ <__.|_|-|_|
+
+In the above code example, when you clicked the button, it would alert whatever
+was inside of the message input box.
+
+Your challenge now is to figure out how to make it so that it it also alerts
+the value of the username input box. So when you click on the button
+- it alert the value of the message input box
+- and then has a second alert popup with the value of the username box
+```
+
+## Solution: Access the value of the username input
+
+```js
 window.onload = function() {
-
   var submitButton = document.getElementById("submitButton");
-  var messageList = document.getElementById("messageList");
+
   submitButton.onclick = function() {
-    var messageElement = document.createElement("li");
-    messageElement.innerHTML = "Jonathan: Yo, what's up?"
+    var messageInput = document.getElementById('messageInput');
+    var messageInputValue = messageInput.value;
+    alert("The new message is " + messageInputValue);
+
+    var usernameInput = document.getElementById("usernameInput");
+    var usernameInputValue = usernameInput.value;
+    alert("The username is " + usernameInputValue);
+  }
+}
+```
+
+## Challenge: Create the message element with the value of the new message and username inputs
+
+```
+Challenge Time!
+            __
+           / _)
+    .-^^^-/ /
+ __/       /
+ <__.|_|-|_|
+
+In the above code snippet, we successfully have a reference to the user's
+username as well as their new message. We can now create a new HTML element
+to add to the page.
+
+Use Google or review the code in [Creating the image element and setting it's
+src attribute](#Creating the image element and setting it's src attribute) to
+try to figure out how to create a new `<li>` element.
+
+Hint:
+- for the img tag, you needed to set the src
+- for the `<li>` element, you'll need to set the `innerHTML` property
+```
+
+## Solution: Create the message element with the value of the new message and username inputs
+
+- I google for `javascript create an li`
+- I see that the second result is "[Javascript to create an li and append to an ol](http://stackoverflow.com/questions/9107541/javascript-to-create-an-li-and-append-to-an-ol)"
+  almost exactly what I want.
+- I look at the first answer and it looks confusing so I skip it
+- I skip the next answer which has a rating of a `-1`
+- I then go to the third answer and see
+  ```js
+  document.createElement("li");
+  ```
+  which jobs my memory back to what I did in
+  ["Creating the image element and setting it's src attribute"](#Creating the image element and setting it's src attribute)
+- Great, so I now know how to create the `<li>` tag, now to put the text inside
+  of the `<li>` tag
+- I take the hint to lookup `innerHTML` and google for `javascript innerHTML`
+- I see that the first result is
+  "[HTML DOM innerHTML Property - W3Schools](http://www.w3schools.com/jsref/prop_html_innerhtml.asp)"
+  - Looking at the example, it seems that I set the `innerHTML` property like
+    this:
+    ```js
+    element.innerHTML = "Text"
+    ```
+  - So in order to put the the username and new message text into the `<li>`,
+    I can do the following:
+
+    ```js
+    var newLi = document.createElement("li");
+    newLi.innerHTML = usernameInputValue + " : " + messageInputValue;
+    ```
+- Putting it all together I get
+  ```js
+  window.onload = function() {
+    var submitButton = document.getElementById("submitButton");
+
+    submitButton.onclick = function() {
+      var messageInput = document.getElementById('messageInput');
+      var messageInputValue = messageInput.value;
+      alert("The new message is " + messageInputValue);
+
+      var usernameInput = document.getElementById("usernameInput");
+      var usernameInputValue = usernameInput.value;
+      alert("The username is " + usernameInputValue);
+
+      var newLi = document.createElement("li");
+      newLi.innerHTML = usernameInputValue + " : " + messageInputValue;
+    }
+  }
+  ```
+
+## Challenge: Adding the newly created message input to the page
+
+```
+Challenge Time!
+            __
+           / _)
+    .-^^^-/ /
+ __/       /
+ <__.|_|-|_|
+
+
+We have successfull created a new `<li>` element, we now need to add this to
+our `<ul>`. Can you do it?!
+```
+
+## Solution:  Adding the newly created message input to the page
+
+You can checkout "[Actually adding the image element to the page](#Actually adding the image element to the page)" for an explanation:
+
+```js
+window.onload = function() {
+  var submitButton = document.getElementById("submitButton");
+
+  submitButton.onclick = function() {
+    var messageInput = document.getElementById('messageInput');
+    var messageInputValue = messageInput.value;
+    alert("The new message is " + messageInputValue);
+
+    var usernameInput = document.getElementById("usernameInput");
+    var usernameInputValue = usernameInput.value;
+    alert("The username is " + usernameInputValue);
+
+    var newLi = document.createElement("li");
+    newLi.innerHTML = usernameInputValue + " : " + messageInputValue;
+
+    var messageList = document.getElementById("messageList");
     messageList.appendChild(messageElement);
   }
 }
+```
 
+And then removing the `alert` messages
 
-## getting the contents of the message boxes
-
-### Part 1: ACCESS THE CONTENT IN THE CONSOLE
-
-var messageInput = document.getElementById("messageInput");
-var message = messageInput.value;
-console.log(message);
-
-### Part 2: I DO MESSAGE INPUT
-
+```js
 window.onload = function() {
-
   var submitButton = document.getElementById("submitButton");
-  var messageList = document.getElementById("messageList");
+
+  submitButton.onclick = function() {
+    var messageInput = document.getElementById('messageInput');
+    var messageInputValue = messageInput.value;
+
+    var usernameInput = document.getElementById("usernameInput");
+    var usernameInputValue = usernameInput.value;
+
+    var newLi = document.createElement("li");
+    newLi.innerHTML = usernameInputValue + " : " + messageInputValue;
+
+    var messageList = document.getElementById("messageList");
+    messageList.appendChild(messageElement);
+  }
+}
+```
+
+## Huzzah! We're finished!
+
+<!--TODO: Celebrate Gif!-->
+
+## Extra Stuffs
+
+```
+Challenge Time!
+            __
+           / _)
+    .-^^^-/ /
+ __/       /
+ <__.|_|-|_|
+
+Instead of clicking a button in order to add a new message, how do you make it
+submit by pressing enter?
+```
+
+```js
+window.onload = function() {
   var messageInput = document.getElementById("messageInput");
 
-  submitButton.onclick = function() {
-    var messageElement = document.createElement("li");
+  messageInput.onkeypress = function(e) {
+    if (e.keyCode === 13) { // this can be added later.
+      var messageInput = document.getElementById('messageInput');
+      var messageInputValue = messageInput.value;
 
-    var message = messageInput.value;
-    messageElement.innerHTML = message;
+      var usernameInput = document.getElementById("usernameInput");
+      var usernameInputValue = usernameInput.value;
 
-    messageList.appendChild(messageElement);
+      var newLi = document.createElement("li");
+      newLi.innerHTML = usernameInputValue + " : " + messageInputValue;
+
+      var messageList = document.getElementById("messageList");
+      messageList.appendChild(messageElement);
+    }
   }
 }
+```
 
-### Part 3: YOU DO USERNAME INPUT
+```
+Challenge Time!
+            __
+           / _)
+    .-^^^-/ /
+ __/       /
+ <__.|_|-|_|
 
+Can you make it work if you pressed enter OR clicked on a button?
+```
+
+```js
 window.onload = function() {
-
-  var submitButton = document.getElementById("submitButton");
-  var messageList = document.getElementById("messageList");
   var messageInput = document.getElementById("messageInput");
-  var usernameInput = document.getElementById("usernameInput");
+  var submitButton = document.getElementById("submitButton");
+
+  messageInput.onkeypress = function(e) {
+    if (e.keyCode === 13) { // this can be added later.
+      submitMessage()
+    }
+  }
 
   submitButton.onclick = function() {
-    var messageElement = document.createElement("li");
+    submitMessage()
+  }
 
-    var message = messageInput.value;
-    var username = usernameInput.value;
+  function submitMessage() {
+    var messageInput = document.getElementById('messageInput');
+    var messageInputValue = messageInput.value;
 
-    messageElement.innerHTML = username + ": " + message; // insert hint, you may have the question "javascript how do you combine two strings"
+    var usernameInput = document.getElementById("usernameInput");
+    var usernameInputValue = usernameInput.value;
 
+    var newLi = document.createElement("li");
+    newLi.innerHTML = usernameInputValue + " : " + messageInputValue;
+
+    var messageList = document.getElementById("messageList");
     messageList.appendChild(messageElement);
   }
 }
-
-## Extra Credit
-
-// Bonus Extra Credit 1
-
-// make it work with the keyboard instead
-
-// Bonus Extra Credit 2
-
-// making it work in addition to the submit button
-
-// Bonus Extra Credit 3
-
-// challenge,
-  // build a group message SMS app
-  // build an app that lets you do group message and if you're not online, it will text you
+```
