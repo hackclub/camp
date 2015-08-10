@@ -106,6 +106,56 @@ what you see missing in the world if you only create when someone tells you to.
 
 ### Role playing:
 
+TLDR: If you notice that you want someone to do something because it will be
+beneficial to them, don't just say it's mandatory to get them to do it because
+in that case they'll just do something because you told them to and after
+your interaction with them they still won't (or will) do the thing.
+
+#### Don't
+
+- Tell someone what to do
+
+#### Right
+
+- Figure out what they want. The easiest way to do this is ask.
+- Tell someone how you might do something
+- Tell them how they can get what they want by doing the thing.
+- Tell a story about how someone you knew might have done something
+
+#### Example
+
+##### Figure out what they want. The easiest way to do this is ask.
+
+```xml
+<facilitator> So what do you want to get out of Hack Camp after it's over?
+<hacker> I want to be able to make an app. That's why I came here and you're
+not teaching us how to make apps. Even worse, you're not even teaching us.
+Your are just telling us to Google things.
+```
+
+##### Tell someone how you might do something
+
+```xml
+<facilitator> So it seems that you want to be able to build mobile
+apps after you've leave hack camp correct?
+<hacker> Yes!
+<facilitator> Cool! So when I was learning how to build my web projects, I had
+no idea how to at the time. The only way I could figure it out was to ask this
+really smart friend every time. Unfortunately he wasn't always around. He
+eventually just told me to Google to find the answers to my questions and
+after a while, I was a lot less dependent on him after that and could find
+many of the answers to my own problems. But I really needed to use Google for
+a long time before I got the hang of it.
+```
+
+##### Tell them how they can get what they want by doing the thing.
+
+At Hack Camp, one of the things that is really important to us is to make sure
+that Hackers are prepared to continue learning new things even after hack camp.
+That's why we're teaching you how to Google, to make sure you can continue
+discovering things on your own so you can pick it up a lot faster than me.
+
+
 #### Demoing
 
 ```xml
