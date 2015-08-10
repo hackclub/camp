@@ -1310,9 +1310,9 @@ is our opportunity to review the day and plan for the next.
 
 During the post-mortem we'll visit each row in the schedule for the day (see
 [`SCHEDULE.md`](SCHEDULE.md) for the daily schedules) and have everyone in the
-meeting share any thoughts/notes on that item. As we're reading through each
-row, we'll be deciding tasks for that evening and things to do for the following
-day.
+meeting share any tasks they want to do as a result of that row in the schedule.
+If it's decided to do the task, then it'll be recorded in task list and assigned
+at the end of the meeting.
 
 For example, if the following is the schedule for the day:
 
