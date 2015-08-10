@@ -5,7 +5,7 @@ To recap, we want to replace the text of the links with images.
 ## How I found the answer using Google
 
 - google `html image link`
-- open the first google result, [HTML Images - W3Schools](www.w3schools.com/html/html_images.asp)
+- open the first google result, [HTML Images - W3Schools](http://www.w3schools.com/html/html_images.asp)
 - the title of the page is `"HTML Images"`
 - therefore the page will primarily be about images, not links
 - I specifically want to know about links

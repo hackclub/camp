@@ -2,7 +2,7 @@
 
 **What we want:**
 
-> ![](img/final_screenshot_0.png)
+_TODO: Link final screenshot 0_
 
 **What we have:**
 

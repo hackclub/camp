@@ -63,7 +63,8 @@ when demos will be.
 If the current day is a workshop day, make sure hacker pairs (that work together
 in projects) are assigned in some way, shape, or form before brainstorming
 starts. You should _assign_ these. Hackers should not be choosing their
-partners. Please do make sure to explain _why_ we are assigning hackers (explained in [Project-Formation](ACTIVITIES#project-formation)).
+partners. Please do make sure to explain _why_ we are assigning hackers
+(explained in [Project-Formation](ACTIVITIES.md#project-formation)).
 
 ## Day 1
 

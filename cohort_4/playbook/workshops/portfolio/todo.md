@@ -479,8 +479,8 @@ We've added EVERYTHING that we need in the HTML for Part 1. Let's take your webs
 ##### Styling your website
 
 1. Adding a title
-    1. [Challenge](title_challenge.md)
-    1. [Solution](title_solution.md)
+    1. _TODO: Create and link title_challenge.md_
+    1. _TODO: Create and link title_solution.md_
 1. [Adding styles to your website](add_css.md)
 1. Setting font color
 1. Centering everything
