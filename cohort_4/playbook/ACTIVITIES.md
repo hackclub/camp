@@ -41,6 +41,7 @@
     - [Instagram](#instagram)
         - [Running Instagram](#running-instagram)
         - [Instagram Readme](#instagram-readme)
+    - [Messenger](#messenger)
 - [Demos](#demos)
     - [Links](#links)
     - [First-time demos](#first-time-demos)
@@ -795,6 +796,12 @@ Tell the hackers to feel free to be able skip through the content that they are 
 
 ### Instagram Readme
 [Instagram Readme](workshops/instagram/README.md)
+
+## Messenger
+
+### Readme
+[Messenger Readme](workshops/messenger/README.md)
+
 
 # Demos
 
