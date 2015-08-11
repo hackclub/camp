@@ -1,15 +1,16 @@
-# Messenger
+# Understanding Instagram & Building Messenger
 
-## Partnering
+In this workshop, we will be looking more in depth at the Instagram workshop
+and then building a Messenger app using our knowledge of how we built the
+Instagram app.
+
+[See the live demo of the messenger application: ](https://rawgit.com/hackedu/hack-camp/50b54d2436ff15679735ca5c8c50d7ee2ff7b744/cohort_4/playbook/workshops/messenger/src/index.html)
+
+## A note on partners
 
 There is a component where you work with your partners for this workshop.
-Make sure you are with your partners when you do this workshop.
-
-## What are we building?
-
-We are building a simple messaging application.
-
-[See the live demo.](https://rawgit.com/hackedu/hack-camp/50b54d2436ff15679735ca5c8c50d7ee2ff7b744/cohort_4/playbook/workshops/messenger/src/index.html)
+Make sure you know who your partner is for this component (ask a facilitator if)
+you're not sure.
 
 ## The objectives of this workshop:
 
@@ -17,7 +18,12 @@ We are building a simple messaging application.
   to an HTML page using JavaScript.
 - to practice building a complete project
 
-## Are you already familiar with the this?
+## Are you already familiar with this?
+
+<!--TODO:
+      - Check to see if you can actually receive multiple messages
+      - add other examples
+-->
 
 Some potential challenge projects:
 
@@ -28,7 +34,14 @@ Some potential challenge projects:
 
 ## Understanding the Instagram Workshop
 
-Here is a live demo <!--TODO--> of what we built in the Instagram workshop.
+[Here is a live demo](http://output.jsbin.com/cacaqa) of what we built in the
+Instagram workshop.
+
+[Here were the instructions](https://github.com/hackedu/hack-camp/blob/0a240456b0f843310ce97b555a78853fcaabecba/cohort_4/playbook/workshops/instagram/README.md) for the Instagram workshop.
+
+We're going to do a deep dive into this application to make sure we understand
+how it works. If you're already intimiately famailiar with the code, feel free
+to skip the Instagram related section and [go here](#recap) and answer the questions to make sure you comprehend it.
 
 ### Breaking it down
 
@@ -37,8 +50,8 @@ If we were to break down into steps what happens:
 - when the page finishes loading
 - tell the upload button that whenever someone clicks it
 - prompt the user for a URL for the image
-- then create a new image
-- and add add that new image to the list of existing photos already on the page
+- then add a new image
+- and add  that new image to the list of existing images already on the page
 
 ### Examining the HTML
 
@@ -65,21 +78,20 @@ The HTML only contains two interesting elements:
 
 ```
 Note that you may be less familiar with the `<div>` tag.
-Think of the `<div>` tag as an empty box that we use to store other things.
+Think of the `<div>` tag as an empty box that we can put things in.
 
-In our case, we want a place to put our images as we add them to the HTML page.
-And so we use this <div> tag to put the images in.
-<div> tag.
+It is an element that is used to house other elements in, like our photos.
 ```
 
 ### Adding images to the HTML code
 
-When we add an image, we want it to go into the `<div>` element.
+When we add an image, we want to add it into our `<div>` element with the id
+`photos`.
 
-In the below examples, the rest of the example, I'm going to only show the
-`<div>` tag and hide the rest of the HTML page.
+In the below examples, I'm going to only show the
+`<div>` tag with the `id` of `photos` and hide the rest of the HTML page.
 
-#### At first the `<div>` tag is empty
+#### Before we add any photos to the `<div>` tag, it is empty:
 
 ```html
 <div id="photos">
@@ -96,7 +108,7 @@ In the below examples, the rest of the example, I'm going to only show the
 </div>
 ```
 
-#### Then after we add our second image...
+#### Then after we add our second image:
 
 ```html
 <div id="photos">
@@ -105,7 +117,7 @@ In the below examples, the rest of the example, I'm going to only show the
 </div>
 ```
 
-#### Then after we add our third image...
+#### Then after we add our third image:
 
 ```html
 <div id="photos">
@@ -115,12 +127,13 @@ In the below examples, the rest of the example, I'm going to only show the
 </div>
 ```
 
-### Summary of what the JavaScript needs to do
+### Summary of the Instagram app
 
-Basically, the JavaScript just adds a new `<img>` tag inside of the `<div>`
-each time the user clicks the button.
+The only function of the Instagram app is to add images to the screen inside
+of the `<div>` tags. That was the only missing piece that JavaScript needed to
+do.
 
-## Examining the JavaScript code
+## Examining the JavaScript code of the Instagram app
 
 `main.js`
 
@@ -142,7 +155,12 @@ window.onload = function() {
 
 Let's break down the code into multiple steps:
 
-- <!--TODO: Insert Steps-->
+- waiting for the page to load
+- doing something when the button was clicked
+- asking the user for a link to an image
+- creating an image element
+- adding the newly created image element to another element on the page
+
 
 ### Waiting for the page to load
 
@@ -152,8 +170,8 @@ To do this, we can put our code inside the `window.onload` function like this:
 
 ```js
 window.onload = function() {
-  // this code inside here runs after the page is finished loading
-  // any code I write needs to be inside of here
+  // This code inside here runs after the page is finished loading.
+  // Any code I write needs to be inside of here.
 };
 ```
 
@@ -164,10 +182,10 @@ HTML.
 
 We can do this by using the function `document.getElementById`.
 
-This function gets us back any element with the id that we give to it as the
+This function gives us back any element with the id that we give to it as the
 input.
 
-For example,
+We can use this function like this:
 
 ```js
 document.getElementById('uploadButton');
@@ -190,6 +208,18 @@ window.onload = function() {
   var uploadButton = document.getElementById('uploadButton');
   // the variable `uploadButton` now references the upload button element
 };
+```
+
+```
+Pro-tip!
+
+{o,o}
+./)_)
+  " "
+
+Note that this code would not have worked unless you put it inside the
+window.onload function because it would try to find the element before the page
+even loaded.
 ```
 
 Now that we have the reference to the `uploadButton`, I write some code in it's
@@ -217,17 +247,18 @@ window.onload = function() {
 
   uploadButton.onclick = function() {
     var photoUrl = prompt("Paste a URL of photo to add to the stream!");
-    // ^ photoUrl now contains the URL that the user type into the prompt box
+    // ^ photoUrl now references the the URL that the user typed into the
+    //   prompt box
   }
 };
 ```
 
-### Creating the image element and setting it's src attribute
+### Creating the image element and setting its src attribute
 
-We need to actually create the image element that we want to insert into the
-page.
+We have a URL to the image we want to display but we don't have an image element
+yet so we need to create one.
 
-We can use the `document.createElement` function to create a new HTML element
+We can use the `document.createElement` function to create a new HTML element. here's how we use it:
 
 If we want to create a `<p>` tag, we would write
 
@@ -247,13 +278,14 @@ And so that we have a reference to the `<img>` tag that is created we write
 var img = document.createElement("img");
 ```
 
-Right now, the variable `img` references an image tag that looks like this:
+In the above example, the variable `img` references an image tag and currently
+looks like this:
 
 ```html
 <img >
 ```
 
-Note that it does not have a source attribute.
+Note that it does not have a source attribute yet.
 
 To set the image tag's source attribute, we can do:
 
@@ -269,7 +301,7 @@ and now the image tag will look like this:
 ```
 
 Because we already have a reference to the URL of the image we want
-in the `photoUrl` variable, so we can do something like this:
+in the `photoUrl` variable, we can do something like this:
 
 ```js
 var photoUrl = prompt("Paste a URL of photo to add to the stream!");
@@ -298,16 +330,16 @@ window.onload = function() {
 
 We have successfully created an `<img>` element with the proper `src` property.
 
-However it is still not on the page yet and the HTML page still looks like this:
+However we have not added it to the page yet. The HTML page still looks like this:
 
 ```html
 <div id="photos">
 </div>
 ```
 
-Now we need to add our image tag inside of the `<div>`.
+Now we need to add our image tag inside of `<div id="photos">`.
 
-We can do this by first obtaining a reference to that `<div>`.
+We can do this by first obtaining a reference to that `<div id="photos">`.
 
 Because our `div` has an id of `photos`, we can use, you guessed it,
 
@@ -320,12 +352,28 @@ To add any element inside of any other element, we can use the function:
 ```js
 element1.appendChild(element2);
 ```
+This takes `element2`, and puts it inside of `element1`.
 
 so in our case to add our image element inside of the photos element, we can do:
 
 ```js
 var photos = document.getElementById("photos");
 photos.appendChild(img);
+```
+
+Before running the above code:
+
+```html
+<div id="photos">
+</div>
+```
+
+After running the above code:
+
+```html
+<div id="photos">
+  <img src="http://website.com/imge.png">
+</div>
 ```
 
 Adding this code to everything else, we have:
@@ -346,7 +394,11 @@ window.onload = function() {
 };
 ```
 
-### Recap!
+And we're done!
+
+![](img/celebration_1.gif)
+
+### Recap
 
 And that's all the code that we need to build the Instagram project.
 
@@ -369,27 +421,28 @@ Challenge Time!
 With your partner, quickly choose who is going to be Person A and who is going
 to be Person B.
 
-Then to make sure that you've both mastered the concepts,
-take turns asking and answering each others questions and helping the other
-if you guys stumble.
+Then to make sure that you've both mastered the concepts, take turns asking and
+answering each others questions. Obviously if one of you is strugging to answer
+the question, help them up.
 
-Person A: explain to Person B the "waiting for the page to load" section
+Person A: explain to Person B how the code "waiting for the page to load" section
+          works
 
-Person B: explain to Person A the "doing something when the button was
-          clicked" section
+Person B: explain to Person A how the code in "doing something when the button
+          was clicked" section works
 
-Person A: explain the "asking the user for a link to an image" section
+Person A: explain the how the code in the "asking the user for a link to an
+          image" section works.
 
-Person B: explain the "creating an image element" section
+Person B: explain how the code in "creating an image element" section works
 
-Person A: explain the "adding the newly created image element to another
-          element on the page" section
+Person A: explain how the code in "adding the newly created image element to
+          another element on the page" section works
 ```
 
 ## Breaking down the messenger app:
 
-Here is the live demo of the messenger app
-<!--TODO: insert live demo-->
+Here is the [live demo of the messenger app](https://rawgit.com/hackedu/hack-camp/50b54d2436ff15679735ca5c8c50d7ee2ff7b744/cohort_4/playbook/workshops/messenger/src/index.html)
 
 ```
 Challenge Time!
@@ -400,10 +453,32 @@ Challenge Time!
  <__.|_|-|_|
 
 
-Knowing how the Instagram worked, outline how you may break down the messenger
-app into smaller pieces?
+Knowing how the Instagram worked, outline in your editor or on a piece of paper
+how you may break down the messenger app into smaller pieces?
 
-Write down the pieces somewhere.
+Feel free to look back at the Instagram code above to see how we broke it down.
+
+|             uuuuuuuuuuuuuuuuuuuu             Pause here until you've attempted
+|           u" uuuuuuuuuuuuuuuuuu "u           the challenge above : )
+|         u" u$$$$$$$$$$$$$$$$$$$$u "u
+|       u" u$$$$$$$$$$$$$$$$$$$$$$$$u "u
+|     u" u$$$$$$$$$$$$$$$$$$$$$$$$$$$$u "u
+|   u" u$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$u "u
+| u" u$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$u "u
+| $ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+| $ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+| $ $$$" ... "$...  ...$" ... "$$$  ... "$$$ $
+| $ $$$u `"$$$$$$$  $$$  $$$$$  $$  $$$  $$$ $
+| $ $$$$$$uu "$$$$  $$$  $$$$$  $$  """ u$$$ $
+| $ $$$""$$$  $$$$  $$$u "$$$" u$$  $$$$$$$$ $
+| $ $$$$....,$$$$$..$$$$$....,$$$$..$$$$$$$$ $
+| $ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+| "u "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|   "u "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|     "u "$$$$$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|       "u "$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|         "u "$$$$$$$$$$$$$$$$$$$$" u"
+|           "u """""""""""""""""" u"
 ```
 
 ## One potential solution for breaking down the messenger app:
@@ -418,8 +493,8 @@ Write down the pieces somewhere.
 
 ## HTML / CSS walkthrough
 
-For this project, we provided a pre-made HTML & CSS template so that the
-workshop can focus on the JavaScript.
+For this project, we provided a pre-made HTML & CSS template so that you could
+focus on the JavaScript.
 
 Moreover, using our template will give you experience in using existing
 written code.
@@ -461,7 +536,7 @@ written code.
 </html>
 ```
 
-The only 3 items that you need to pay attention to in here are
+The only 3 items that you need to pay attention to in here are highlighted below
 
 #### the username input
 ```html
@@ -500,7 +575,8 @@ You'll need to understand this for the rest of the tutorial to make sense.
 
 Similar to how we would create and append an `<img>` element and then add it
 to the `<div>` element for each new image in the Instagram workshop,
-we will create and append a `<li>` to the `<ul>` for each message sent.
+we will create and append a `<li>` and add it to the `<ul>` for each message
+sent.
 
 For example, at the very beginning when there are no messages sent, the
 `<ul>` element is empty:
@@ -530,7 +606,7 @@ Then if I send another message:
 How are y'all doing?
 ```
 
-We'll need to create another `<li>` and add it to the `<ul>` like this:
+We'll want to add another `<li>` tag
 
 ```html
 <ul id='messageList' class="messenger-messages">
@@ -554,6 +630,28 @@ create the necessary files and folders for your project on your own by
 
 - looking at old code / workshops
 - googling
+
+|             uuuuuuuuuuuuuuuuuuuu             Pause here until you've attempted
+|           u" uuuuuuuuuuuuuuuuuu "u           the challenge above : )
+|         u" u$$$$$$$$$$$$$$$$$$$$u "u
+|       u" u$$$$$$$$$$$$$$$$$$$$$$$$u "u
+|     u" u$$$$$$$$$$$$$$$$$$$$$$$$$$$$u "u
+|   u" u$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$u "u
+| u" u$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$u "u
+| $ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+| $ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+| $ $$$" ... "$...  ...$" ... "$$$  ... "$$$ $
+| $ $$$u `"$$$$$$$  $$$  $$$$$  $$  $$$  $$$ $
+| $ $$$$$$uu "$$$$  $$$  $$$$$  $$  """ u$$$ $
+| $ $$$""$$$  $$$$  $$$u "$$$" u$$  $$$$$$$$ $
+| $ $$$$....,$$$$$..$$$$$....,$$$$..$$$$$$$$ $
+| $ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+| "u "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|   "u "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|     "u "$$$$$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|       "u "$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|         "u "$$$$$$$$$$$$$$$$$$$$" u"
+|           "u """""""""""""""""" u"
 ```
 
 ## Project Setup Solution
@@ -622,10 +720,11 @@ this.
 ## Starter Code
 
 The focus of this tutorial is not to learn css or design but to focus on the
-manipulation of HTML with javascript, that's why we're giving you the starter
+manipulation of HTML with JavaScript, that's why we're giving you the starter
 code for HTML and CSS.
 
 ### So feel free to copy and paste the CSS file into your main.css
+
 ```css
 html, body {
   height: 100%;
@@ -743,7 +842,11 @@ html, body {
 
 We recommend hand typing in this situation because you will be using and
 manipulating the HTML lot throughout this project. Hand typing it gives you more
-familiarity with the code.
+familiarity with the code that you will be manipulating.
+
+Note however, if after you type, it out and it still does not work, feel free
+to copy and paste at that point because you will have gained the understanding
+of the code as you type it.
 
 ```html
 <!DOCTYPE html>
@@ -806,6 +909,28 @@ Challenge Time!
  <__.|_|-|_|
 
 Write the JavaScript that waits for the page to load
+
+|             uuuuuuuuuuuuuuuuuuuu             Pause here until you've attempted
+|           u" uuuuuuuuuuuuuuuuuu "u           the challenge above : )
+|         u" u$$$$$$$$$$$$$$$$$$$$u "u
+|       u" u$$$$$$$$$$$$$$$$$$$$$$$$u "u
+|     u" u$$$$$$$$$$$$$$$$$$$$$$$$$$$$u "u
+|   u" u$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$u "u
+| u" u$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$u "u
+| $ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+| $ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+| $ $$$" ... "$...  ...$" ... "$$$  ... "$$$ $
+| $ $$$u `"$$$$$$$  $$$  $$$$$  $$  $$$  $$$ $
+| $ $$$$$$uu "$$$$  $$$  $$$$$  $$  """ u$$$ $
+| $ $$$""$$$  $$$$  $$$u "$$$" u$$  $$$$$$$$ $
+| $ $$$$....,$$$$$..$$$$$....,$$$$..$$$$$$$$ $
+| $ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+| "u "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|   "u "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|     "u "$$$$$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|       "u "$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|         "u "$$$$$$$$$$$$$$$$$$$$" u"
+|           "u """""""""""""""""" u"
 ```
 
 ## Solution: Wait for the page to load
@@ -832,13 +957,37 @@ Challenge Time!
 
 Write the JavaScript that does something when the button is clicked.
 
-There is a hint in the ["waiting for the page to load"](#doing-something-when-the-button-is-clicked) section.
+There is a hint in the Instagram code for how you might do this that is linked
+below. You can also scroll up to the
+"Doing something when the button is clicked" section.
+
+|             uuuuuuuuuuuuuuuuuuuu             Pause here until you've attempted
+|           u" uuuuuuuuuuuuuuuuuu "u           the challenge above : )
+|         u" u$$$$$$$$$$$$$$$$$$$$u "u
+|       u" u$$$$$$$$$$$$$$$$$$$$$$$$u "u
+|     u" u$$$$$$$$$$$$$$$$$$$$$$$$$$$$u "u
+|   u" u$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$u "u
+| u" u$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$u "u
+| $ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+| $ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+| $ $$$" ... "$...  ...$" ... "$$$  ... "$$$ $
+| $ $$$u `"$$$$$$$  $$$  $$$$$  $$  $$$  $$$ $
+| $ $$$$$$uu "$$$$  $$$  $$$$$  $$  """ u$$$ $
+| $ $$$""$$$  $$$$  $$$u "$$$" u$$  $$$$$$$$ $
+| $ $$$$....,$$$$$..$$$$$....,$$$$..$$$$$$$$ $
+| $ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+| "u "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|   "u "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|     "u "$$$$$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|       "u "$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|         "u "$$$$$$$$$$$$$$$$$$$$" u"
+|           "u """""""""""""""""" u"
 ```
 
-Hint: 'Feel free to checkout the section [Doing something when the button is clicked]() in the section above.
+Hint: 'Feel free to checkout the section [Doing something when the button is clicked](#doing-something-when-the-button-is-clicked)
+in the section above.
 
-
-## Solution: do something when the button is clicked
+## Solution: Do something when the button is clicked
 
 Inside of the `window.onload` function,
 
@@ -855,8 +1004,8 @@ window.onload = function() {
 }
 ```
 
-Doing something when the button is clicked
-["waiting for the page to load"](#doing-something-when-the-button-is-clicked) for an explanation.
+See the section on
+[Doing something when the button is clicked](#doing-something-when-the-button-is-clicked) for an explnation or a hint.
 
 ## Challenge: Access the value of the new message input
 
@@ -871,7 +1020,32 @@ Challenge Time!
 Use Google to try to figure out how to access the value of an input box using
 JavaScript.
 
+(Note: you havn't done this before)
+
 Hint: the new message input tag has the id `'messageInput'`
+
+
+|             uuuuuuuuuuuuuuuuuuuu             Pause here until you've attempted
+|           u" uuuuuuuuuuuuuuuuuu "u           the challenge above : )
+|         u" u$$$$$$$$$$$$$$$$$$$$u "u
+|       u" u$$$$$$$$$$$$$$$$$$$$$$$$u "u
+|     u" u$$$$$$$$$$$$$$$$$$$$$$$$$$$$u "u
+|   u" u$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$u "u
+| u" u$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$u "u
+| $ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+| $ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+| $ $$$" ... "$...  ...$" ... "$$$  ... "$$$ $
+| $ $$$u `"$$$$$$$  $$$  $$$$$  $$  $$$  $$$ $
+| $ $$$$$$uu "$$$$  $$$  $$$$$  $$  """ u$$$ $
+| $ $$$""$$$  $$$$  $$$u "$$$" u$$  $$$$$$$$ $
+| $ $$$$....,$$$$$..$$$$$....,$$$$..$$$$$$$$ $
+| $ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+| "u "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|   "u "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|     "u "$$$$$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|       "u "$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|         "u "$$$$$$$$$$$$$$$$$$$$" u"
+|           "u """""""""""""""""" u"
 ```
 
 ## Solution: Access the value of the new message input
@@ -951,7 +1125,7 @@ window.onload = function() {
 }
 ```
 
-## Challenge: Create the message element with the value of the new message and username inputs
+## Challenge: Create the message element
 
 ```
 Challenge Time!
@@ -974,7 +1148,7 @@ Hint:
 - for the `<li>` element, you'll need to set the `innerHTML` property
 ```
 
-## Solution: Create the message element with the value of the new message and username inputs
+## Solution: Create the message element
 
 - I google for `javascript create an li`
 - I see that the second result is "[Javascript to create an li and append to an ol](http://stackoverflow.com/questions/9107541/javascript-to-create-an-li-and-append-to-an-ol)"
