@@ -117,6 +117,10 @@ that it was just a joke.
 Here's how I might handle the situation. Note that this is just one way to
 handle the situation, feel free to handle it in a way that you choose as well.
 
+Also note that this is only a suggestion for what you might bring up. Feel free
+to say as much or as little of it based on what you feel is necessary and what
+is comfortable for you.
+
 - Can I get everyone's attention please
 - I noticed earlier that someone posted the phrase say "X person is Gay"
 - I know that you probably meant it as a joke
