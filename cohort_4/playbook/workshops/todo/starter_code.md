@@ -314,7 +314,7 @@ body {
   display: none
 }
 
-#todo-list li:hover .delete { 
+#todo-list li:hover .delete {
   display: inline-block;
   position: absolute;
   margin-top: auto;
@@ -326,12 +326,12 @@ body {
 }
 ```
 
-## But manually hand-type the below code into your `index.html` file 
+## But manually hand-type the below code into your `index.html` file
 
 *We recommend hand typing in this situation because you will be using and manipulating the HTML lot throughout this project. Hand typing it gives you more familiarity with the code.*
 
 ```html
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -368,6 +368,7 @@ body {
           <span>Speak no evil</span>
           <img class="delete" src="http://i.imgur.com/BtLxCD6.png">
         </li>
+      </ul>
     </div>
   </div>
   <script type="text/javascript" src="main.js"></script>
@@ -378,7 +379,7 @@ body {
 ```md
 Challenge!  
 Time        __
-           / _)   
+           / _)
     .-^^^-/ /
  __/       /
 <__.|_|-|_|
