@@ -193,7 +193,8 @@ partners. Please do make sure to explain _why_ we are assigning hackers
 | 9:20 AM  | Energizer 1                                                  |
 | 9:30 AM  | Energizer 2                                                  |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
-| 10:00 AM | [Messenger Workshop](ACTIVITIES.md#messenger)                |
+| 10:00 AM | [Messenger Workshop](ACTIVITIES.md#messenger) &
+             [Todo Workshop](ACTIVITIES.md#todo)                          |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
 | 1:00 PM  | Energizer 3                                                  |
 | 1:20 PM  | [Project Formation](ACTIVITIES.md#project-formation)         |
