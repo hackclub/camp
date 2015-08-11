@@ -8,14 +8,14 @@ Instagram app.
 
 ## A note on partners
 
-There is a component where you work with your partners for this workshop.
-Make sure you know who your partner is for this component (ask a facilitator if)
+There is a component where you work with your partners for this workshop. Make
+sure you know who your partner is for this component (ask a facilitator if)
 you're not sure.
 
 ## The objectives of this workshop:
 
-- to solidify your understanding of accessing and adding elements
-  to an HTML page using JavaScript.
+- to solidify your understanding of accessing and adding elements to an HTML
+  page using JavaScript.
 - to practice building a complete project
 
 ## Are you already familiar with this?
@@ -32,7 +32,8 @@ Some potential challenge projects:
 [Here is a live demo](http://output.jsbin.com/cacaqa) of what we built in the
 Instagram workshop.
 
-[Here were the instructions](https://github.com/hackedu/hack-camp/blob/0a240456b0f843310ce97b555a78853fcaabecba/cohort_4/playbook/workshops/instagram/README.md) for the Instagram workshop.
+[Here were the instructions](https://github.com/hackedu/hack-camp/blob/0a240456b0f843310ce97b555a78853fcaabecba/cohort_4/playbook/workshops/instagram/README.md)
+for the Instagram workshop.
 
 We're going to do a deep dive into this application to make sure we understand
 how it works. If you're already intimiately famailiar with the code, feel free
@@ -47,7 +48,7 @@ If we were to break down into steps what happens:
 - tell the upload button that whenever someone clicks it
 - prompt the user for a URL for the image
 - then add a new image
-- and add  that new image to the list of existing images already on the page
+- and add that new image to the list of existing images already on the page
 
 ### Examining the HTML
 
@@ -84,8 +85,8 @@ It is an element that is used to house other elements in, like our photos.
 When we add an image, we want to add it into our `<div>` element with the id
 `photos`.
 
-In the below examples, I'm going to only show the
-`<div>` tag with the `id` of `photos` and hide the rest of the HTML page.
+In the below examples, I'm going to only show the `<div>` tag with the `id` of
+`photos` and hide the rest of the HTML page.
 
 #### Before we add any photos to the `<div>` tag, it is empty:
 
@@ -129,9 +130,8 @@ In the below examples, I'm going to only show the
 
 ### Summary of the Instagram app
 
-The only function of the Instagram app is to add images to the screen inside
-of the `<div>` tags. That was the only missing piece that JavaScript needed to
-do.
+The only function of the Instagram app is to add images to the screen inside of
+the `<div>` tags. That was the only missing piece that JavaScript needed to do.
 
 ## Examining the JavaScript code of the Instagram app
 
@@ -253,7 +253,7 @@ window.onload = function() {
 };
 ```
 
-### Creating the image element and setting its src attribute
+### Creating the image element and setting the src attribute
 
 We have a URL to the image we want to display but we don't have an image element
 yet so we need to create one.
@@ -273,7 +273,7 @@ If we want to create an `<img>` tag, we would write
 document.createElement("img");
 ```
 
-And so that we have a reference to the `<img>` tag that is created we write
+And so that we have a reference to the `<img>` tag that is created we write.
 
 ```js
 var img = document.createElement("img");
@@ -283,7 +283,7 @@ In the above example, the variable `img` references an image tag and currently
 looks like this:
 
 ```html
-<img >
+<img>
 ```
 
 Note that it does not have a source attribute yet.
@@ -301,8 +301,8 @@ and now the image tag will look like this:
 <img src="http://website.com/imge.png">
 ```
 
-Because we already have a reference to the URL of the image we want
-in the `photoUrl` variable, we can do something like this:
+Because we already have a reference to the URL of the image we want in the
+`photoUrl` variable, we can do something like this:
 
 ```js
 var photoUrl = prompt("Paste a URL of photo to add to the stream!");
@@ -331,7 +331,8 @@ window.onload = function() {
 
 We have successfully created an `<img>` element with the proper `src` property.
 
-However we have not added it to the page yet. The HTML page still looks like this:
+However we have not added it to the page yet. The HTML page still looks like
+this:
 
 ```html
 <div id="photos">
@@ -411,7 +412,7 @@ To recap, there were 5 steps:
 - creating an image element
 - adding the newly created image element to another element on the page
 
-```
+```md
 Challenge Time!
             __
            / _)
@@ -445,7 +446,7 @@ Person A: explain how the code in "adding the newly created image element to
 
 Here is the [live demo of the messenger app](https://rawgit.com/hackedu/hack-camp/50b54d2436ff15679735ca5c8c50d7ee2ff7b744/cohort_4/playbook/workshops/messenger/src/index.html)
 
-```
+```md
 Challenge Time!
             __
            / _)
@@ -488,8 +489,8 @@ Feel free to look back at the Instagram code above to see how we broke it down.
 - doing something when the button is clicked
 - accessing the value of the new message input
 - accessing the value of the username input
-- creating the message element with the value of the new message
-  and username inputs
+- creating the message element with the value of the new message and username
+  inputs
 - adding the newly created message input to the page
 
 ## HTML / CSS walkthrough
@@ -497,8 +498,8 @@ Feel free to look back at the Instagram code above to see how we broke it down.
 For this project, we provided a pre-made HTML & CSS template so that you could
 focus on the JavaScript.
 
-Moreover, using our template will give you experience in using existing
-written code.
+Moreover, using our template will give you experience in using existing written
+code.
 
 ### HTML Code
 
@@ -537,7 +538,8 @@ written code.
 </html>
 ```
 
-The only 3 items that you need to pay attention to in here are highlighted below
+The only 3 items that you need to pay attention to in here are highlighted
+below.
 
 #### the username input
 ```html
@@ -549,13 +551,13 @@ The only 3 items that you need to pay attention to in here are highlighted below
 <input type='text' id='messageInput'  placeholder='Type a message...'>
 ```
 
-#### the unordered list that holds the messgages
+#### the unordered list that holds the messages
 ```html
 <ul id='messageList' class="messenger-messages">
 </ul>
 ```
 
-```
+```md
 Optional Challenge Time!
             __
            / _)
@@ -574,45 +576,36 @@ You'll need to understand this for the rest of the tutorial to make sense.
 
 ## Appending the messages to the `<ul>` tag
 
-Similar to how we would create and append an `<img>` element and then add it
-to the `<div>` element for each new image in the Instagram workshop,
-we will create and append a `<li>` and add it to the `<ul>` for each message
-sent.
+Similar to how we would create and append an `<img>` element and then add it to
+the `<div>` element for each new image in the Instagram workshop, we will create
+and append a `<li>` and add it to the `<ul>` for each message sent.
 
-For example, at the very beginning when there are no messages sent, the
-`<ul>` element is empty:
+For example, at the very beginning when there are no messages sent, the `<ul>`
+element is empty:
 
 ```html
-<ul id='messageList' class="messenger-messages">
+<ul id="messageList" class="messenger-messages">
 </ul>
 ```
 
-Then when I send the message,
-
-```
-Yo! What's up guys?
-```
+Then when I send the message `Yo! What's up guys?`
 
 We'll want to add an `<li>` tag to the `<ul>` like so:
 
 ```html
-<ul id='messageList' class="messenger-messages">
+<ul id="messageList" class="messenger-messages">
   <li>Jonathan: Yo! What'up guys?</li>
 </ul>
 ```
 
 ![](img/a.png)
 
-Then if I send another message:
-
-```
-How are y'all doing?
-```
+Then if I send another message: `How are y'all doing?`
 
 We'll want to add another `<li>` tag
 
 ```html
-<ul id='messageList' class="messenger-messages">
+<ul id="messageList" class="messenger-messages">
   <li>Jonathan: Yo! What'up guys?</li>
   <li>Jonathan: How are y'all doing?</li>
 </ul>
@@ -622,7 +615,7 @@ We'll want to add another `<li>` tag
 
 ## Project Setup Challenge
 
-```
+```md
 Challenge Time!
             __
            / _)
@@ -630,8 +623,8 @@ Challenge Time!
  __/       /
  <__.|_|-|_|
 
-You've created many web projects, see if you can figure out how to
-create the necessary files and folders for your project on your own by
+You've created many web projects, see if you can figure out how to create the
+necessary files and folders for your project on your own by
 
 - looking at old code / workshops
 - googling
@@ -847,9 +840,9 @@ We recommend hand typing in this situation because you will be using and
 manipulating the HTML lot throughout this project. Hand typing it gives you more
 familiarity with the code that you will be manipulating.
 
-Note however, if after you type it out and it still does not work, feel free
-to copy and paste at that point because you will have gained the understanding
-of the code as you type it.
+Note however, if after you type it out and it still does not work, feel free to
+copy and paste at that point because you will have gained the understanding of
+the code as you type it.
 
 ```html
 <!DOCTYPE html>
@@ -897,13 +890,13 @@ Here are the list of steps that we are going to follow:
 - do something when the button is clicked
 - access the value of the new message input
 - access the value of the username input
-- create the message element with the value of the new message
-  and username inputs
+- create the message element with the value of the new message and username
+  inputs
 - add the newly created message input to the page
 
 ## Challenge: Wait for the page to load
 
-```
+```md
 Challenge Time!
             __
            / _)
@@ -917,7 +910,7 @@ Write the JavaScript that waits for the page to load
 Hint: See the above section
 ["waiting for the page to load"](#waiting-for-the-page-to-load) for a hint.
 
-```
+```md
 |             uuuuuuuuuuuuuuuuuuuu             Pause here until you've attempted
 |           u" uuuuuuuuuuuuuuuuuu "u           the challenge above : )
 |         u" u$$$$$$$$$$$$$$$$$$$$u "u
@@ -951,11 +944,13 @@ window.onload = function() {
 }
 ```
 
-See the above section ["waiting for the page to load"](#waiting-for-the-page-to-load) for an explanation.
+See the above section
+["waiting for the page to load"](#waiting-for-the-page-to-load) for an
+explanation.
 
 ## Challenge: do something when the button is clicked
 
-```
+```md
 Challenge Time!
             __
            / _)
@@ -991,7 +986,8 @@ below. You can also scroll up to the
 |           "u """""""""""""""""" u"
 ```
 
-Hint: 'Feel free to checkout the section [Doing something when the button is clicked](#doing-something-when-the-button-is-clicked)
+Hint: 'Feel free to checkout the section
+[Doing something when the button is clicked](#doing-something-when-the-button-is-clicked)
 in the section above.
 
 ## Solution: Do something when the button is clicked
@@ -1012,11 +1008,12 @@ window.onload = function() {
 ```
 
 See the section on
-[Doing something when the button is clicked](#doing-something-when-the-button-is-clicked) for an explnation or a hint.
+[Doing something when the button is clicked](#doing-something-when-the-button-is-clicked)
+for an explnation or a hint.
 
 ## Challenge: Access the value of the new message input
 
-```
+```md
 Challenge Time!
             __
            / _)
@@ -1065,6 +1062,7 @@ Hint: the new message input tag has the id `'messageInput'`
   ```js
   document.getElementById('textbox_id').value;
   ```
+
 - I know that the above code is actually two steps
   1. finding the element by it's id
   2. getting it's value
@@ -1075,6 +1073,7 @@ Hint: the new message input tag has the id `'messageInput'`
   var textBox = document.getElementById('textbox_id');
   var textBoxValue = textBox.value;
   ```
+
 - Now I translate the example to what I need by
   - finding the element with the `id` of `messageInput` instead of `textbox_id`
   - changing the variable names to match
@@ -1083,7 +1082,9 @@ Hint: the new message input tag has the id `'messageInput'`
   var messageInput = document.getElementById('messageInput');
   var messageInputValue = messageInput.value;
   ```
+
 - Great! Now I can add this to my code:
+
   ```js
   window.onload = function() {
     var submitButton = document.getElementById("submitButton");
@@ -1095,12 +1096,13 @@ Hint: the new message input tag has the id `'messageInput'`
     }
   }
   ```
+
 - Note that I added an `alert` above so that I could see the value of whatever
   was in the message input
 
 ## Challenge: Access the value of the username input
 
-```
+```md
 Challenge Time!
             __
            / _)
@@ -1111,8 +1113,8 @@ Challenge Time!
 In the above code example, when you clicked the button, it would alert whatever
 was inside of the message input box.
 
-Your challenge now is to figure out how to make it so that it also alerts
-the value of the username input box. So when you click on the button
+Your challenge now is to figure out how to make it so that it also alerts the
+value of the username input box. So when you click on the button
 - it alert the value of the message input box
 - and then has a second alert popup with the value of the username box
 
@@ -1164,7 +1166,7 @@ window.onload = function() {
 
 ## Challenge: Create the message element
 
-```
+```md
 Challenge Time!
             __
            / _)
@@ -1177,10 +1179,10 @@ user's username as well as the text of their new message. We can now create a
 new HTML element to add to the page.
 ```
 
-This code is very similar to the code used in "[Creating the image element and setting its src attribute](#Creating the image element and setting it's src attribute)"
+This code is very similar to the code used in
+"[Creating the image element and setting the src attribute](#creating-the-image-element-and-setting-the-src-attribute)"
 
-```
-
+```md
 Use Google and or review the code in try to figure out how to create a new
 `<li>` element.
 
@@ -1192,7 +1194,8 @@ Hint:
 ## Solution: Create the message element
 
 - I google for `javascript create an li`
-- I see that the second result is "[Javascript to create an li and append to an ol](http://stackoverflow.com/questions/9107541/javascript-to-create-an-li-and-append-to-an-ol)"
+- I see that the second result is
+  "[Javascript to create an li and append to an ol](http://stackoverflow.com/questions/9107541/javascript-to-create-an-li-and-append-to-an-ol)"
   almost exactly what I want.
   - I look at the first answer and it looks confusing so I skip it
   - I skip the next answer which has a rating of a `-1`
@@ -1201,8 +1204,9 @@ Hint:
     ```js
     document.createElement("li");
     ```
+
     which jogs my memory back to what I did in
-    ["Creating the image element and setting it's src attribute"](#Creating the image element and setting it's src attribute)
+    ["Creating the image element and setting the src attribute"](#creating-the-image-element-and-setting-the-src-attribute)
 - Great, so I now know how to create the `<li>` tag, now to put the text inside
   of the `<li>` tag
 - I take the hint to lookup `innerHTML` and google for `javascript innerHTML`
@@ -1215,14 +1219,16 @@ Hint:
     element.innerHTML = "some text I want inside the element"
     ```
 
-  - So in order to put the the username and new message text into the `<li>`,
-    I can do the following:
+  - So in order to put the the username and new message text into the `<li>`, I
+    can do the following:
 
     ```js
     var newLi = document.createElement("li");
     newLi.innerHTML = usernameInputValue + " : " + messageInputValue;
     ```
+
 - Putting it all together I get
+
   ```js
   window.onload = function() {
     var submitButton = document.getElementById("submitButton");
@@ -1257,7 +1263,8 @@ We have successfull created a new `<li>` element, we now need to add this to
 our `<ul>`. Give it a try!
 ```
 
-See "[Actually adding the image element to the page](#Actually adding the image element to the page)"
+See
+"[Actually adding the image element to the page](#actually-adding-the-image-element-to-the-page)"
 for a hint.
 
 ```
@@ -1288,7 +1295,9 @@ for a hint.
 
 ## Solution: Adding the newly created message input to the page
 
-You can checkout "[Actually adding the image element to the page](#Actually adding the image element to the page)" for an explanation:
+You can checkout
+"[Actually adding the image element to the page](#actually-adding-the-image-element-to-the-page)"
+for an explanation:
 
 ```js
 window.onload = function() {
@@ -1334,8 +1343,7 @@ window.onload = function() {
 }
 ```
 
-See "[Actually adding the image element to the page](#Actually adding the image element to the page)"
-for an explanation.
+See "[Actually adding the image element to the page](#actually-adding-the-image-element-to-the page)" for an explanation.
 
 
 ## Huzzah! We're finished!
