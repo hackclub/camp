@@ -20,12 +20,23 @@ you're not sure.
 
 ## Are you already familiar with this?
 
+You have two options:
+
+### I know decently well but am not an expert
+
+You may still want to go through this workshop but skip the
+"Understanding the Instagram Workshop" section and just jumping to
+the [Breaking down the messenger app](#Breaking down the messenger app) section.
+
+### I am an expert on this, I want to do something else
+
 Some potential challenge projects:
 
 - build a group messaging SMS app
 - build a real time chat app that sends you messages over the messaging client
   when you're online and sends you SMS when you're idle or offline
-- add firebase to this chat for realtimze syncing
+- add firebase to this chat for real-time syncing
+- working on the Todo workshop with Firebase
 
 ## Understanding the Instagram Workshop
 
@@ -412,7 +423,7 @@ To recap, there were 5 steps:
 - creating an image element
 - adding the newly created image element to another element on the page
 
-```md
+```
 Challenge Time!
             __
            / _)
@@ -446,7 +457,7 @@ Person A: explain how the code in "adding the newly created image element to
 
 Here is the [live demo of the messenger app](https://rawgit.com/hackedu/hack-camp/50b54d2436ff15679735ca5c8c50d7ee2ff7b744/cohort_4/playbook/workshops/messenger/src/index.html)
 
-```md
+```
 Challenge Time!
             __
            / _)
@@ -557,7 +568,7 @@ below.
 </ul>
 ```
 
-```md
+```
 Optional Challenge Time!
             __
            / _)
@@ -615,7 +626,7 @@ We'll want to add another `<li>` tag
 
 ## Project Setup Challenge
 
-```md
+```
 Challenge Time!
             __
            / _)
@@ -896,7 +907,7 @@ Here are the list of steps that we are going to follow:
 
 ## Challenge: Wait for the page to load
 
-```md
+```
 Challenge Time!
             __
            / _)
@@ -910,7 +921,7 @@ Write the JavaScript that waits for the page to load
 Hint: See the above section
 ["waiting for the page to load"](#waiting-for-the-page-to-load) for a hint.
 
-```md
+```
 |             uuuuuuuuuuuuuuuuuuuu             Pause here until you've attempted
 |           u" uuuuuuuuuuuuuuuuuu "u           the challenge above : )
 |         u" u$$$$$$$$$$$$$$$$$$$$u "u
@@ -950,7 +961,7 @@ explanation.
 
 ## Challenge: do something when the button is clicked
 
-```md
+```
 Challenge Time!
             __
            / _)
@@ -1013,7 +1024,7 @@ for an explnation or a hint.
 
 ## Challenge: Access the value of the new message input
 
-```md
+```
 Challenge Time!
             __
            / _)
@@ -1102,7 +1113,7 @@ Hint: the new message input tag has the id `'messageInput'`
 
 ## Challenge: Access the value of the username input
 
-```md
+```
 Challenge Time!
             __
            / _)
@@ -1166,7 +1177,7 @@ window.onload = function() {
 
 ## Challenge: Create the message element
 
-```md
+```
 Challenge Time!
             __
            / _)
@@ -1182,7 +1193,7 @@ new HTML element to add to the page.
 This code is very similar to the code used in
 "[Creating the image element and setting the src attribute](#creating-the-image-element-and-setting-the-src-attribute)"
 
-```md
+```
 Use Google and or review the code in try to figure out how to create a new
 `<li>` element.
 
