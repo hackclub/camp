@@ -755,7 +755,7 @@ Tell the hackers to feel free to be able skip through the content that they are 
 
 ### Link
 
-[Maestro Workshop](https://github.com/hackedu/hack-camp/blob/workshop_2/cohort_4/playbook/workshops/maestro/README.md)
+[Maestro Workshop](workshops/maestro)
 
 ## Instagram
 
