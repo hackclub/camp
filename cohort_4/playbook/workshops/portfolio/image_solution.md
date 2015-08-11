@@ -79,7 +79,7 @@ photo, `alt="Mountain View"`.
 So when I fill in the `img` tag template I made above, I get this:
 
 ```html
-<img src="http://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">`
+<img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">`
 ```
 
 ## Adding the image to my code
@@ -95,7 +95,7 @@ So when I fill in the `img` tag template I made above, I get this:
   
     <!-- IMAGE SECTION -->
       <!--==================BEGIN_CHANGES==================-->
-      <img src="http://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+      <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
       <!--===================END_CHANGES===================-->
   
     <!-- INFORMATION SECTION -->
@@ -124,19 +124,19 @@ So when I fill in the `img` tag template I made above, I get this:
 ## Some Vocabulary
 
 ```html
-<img src="http://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
+<img src="https://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
  ^ "img" is the tag name
 ```
 
 ```html
-<img src="http://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
+<img src="https://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
 
 note that <img> does not have a closing tag
 ```
 
 
 ```html
-<img src="http://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
+<img src="https://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ this is an attribute
                                           of the image tag
 
@@ -144,38 +144,38 @@ note that <img> does not have a closing tag
 ```
 
 ```html
-<img src="http://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
+<img src="https://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
      ^^^ "src" is the name of the attribute
 ```
 
 ```html
-<img src="http://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
+<img src="https://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
-          "http://i.imgur.com/vS0HhER.jpg" is the value
+          "https://i.imgur.com/vS0HhER.jpg" is the value
           of the "src" attribute
 ```
 
 ```html
-<img src="http://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
+<img src="https://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
 this ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 sets the "source" of the image to be the above url
 ```
 
 ```html
-<img src="http://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
+<img src="https://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
    "alt" is the name of another attribute ^^^ 
 ```
 
 ```html
-<img src="http://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
+<img src="https://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
                                               ^^^^^^^^^^^^^^^^^^^^ 
                                           "Jonathan's Picture" is the 
                                           value of the "alt" attribute.
 ```
 
 ```html
-<img src="http://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
+<img src="https://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
                                           ^^^^^^^^^^^^^^^^^^^^^^^^^
                                           this is another attribute
                                           of the image tag

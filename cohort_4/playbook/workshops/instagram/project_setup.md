@@ -31,7 +31,7 @@ The `<script>` has an `src` attribute inside of it just like the `<img>` tag
 does.
 
 ```html
-<img src="http://i.imgur.com/vS0HhER.jpg">
+<img src="https://i.imgur.com/vS0HhER.jpg">
      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ this is an attribute
                                           of the image tag
 
@@ -39,19 +39,19 @@ does.
 ```
 
 ```html
-<img src="http://i.imgur.com/vS0HhER.jpg">
+<img src="https://i.imgur.com/vS0HhER.jpg">
      ^^^ "src" is the name of the attribute
 ```
 
 ```html
-<img src="http://i.imgur.com/vS0HhER.jpg">
+<img src="https://i.imgur.com/vS0HhER.jpg">
           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
-          "http://i.imgur.com/vS0HhER.jpg" is the value
+          "https://i.imgur.com/vS0HhER.jpg" is the value
           of the "src" attribute
 ```
 
 ```html
-<img src="http://i.imgur.com/vS0HhER.jpg">
+<img src="https://i.imgur.com/vS0HhER.jpg">
 this ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 sets the "source" of the image to be displayed to be the above url

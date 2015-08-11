@@ -84,7 +84,7 @@ Steps:
   ```
 
 
-[![](http://i.imgur.com/9KuKZGN.png)](http://output.jsbin.com/qenulasosu)
+[![](https://i.imgur.com/9KuKZGN.png)](http://output.jsbin.com/qenulasosu)
 
 - and then with one simple modification to the Javascripts (denotated with with `!!!`)
 
@@ -109,7 +109,7 @@ Steps:
   };
   ```
 
-[![](http://i.imgur.com/9KuKZGN.png)](http://output.jsbin.com/mekila)
+[![](https://i.imgur.com/9KuKZGN.png)](http://output.jsbin.com/mekila)
 
 ## Huzzah!
 

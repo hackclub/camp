@@ -27,33 +27,33 @@ To do this, I'm going to look at the instagram app:
 
 When I open the app, I can see a feed of all my and my friends photos:
 
-![](http://i.imgur.com/kgA5917.jpg)
+![](https://i.imgur.com/kgA5917.jpg)
 
 When I click the camera button, it opens the camera.
 
-![](http://i.imgur.com/3RfQP9M.jpg)
+![](https://i.imgur.com/3RfQP9M.jpg)
 
 When I tap on the circular blue button, it takes a picture of me and presents a
 list of filter options I can apply to my photo.
 
-![](http://i.imgur.com/23gAAxR.jpg)
+![](https://i.imgur.com/23gAAxR.jpg)
 
 When I click on a filter, it applies that filter to my photo.
 
-![](http://i.imgur.com/fHwjUJF.jpg)
+![](https://i.imgur.com/fHwjUJF.jpg)
 
 When I tap the "next" button, I see a screen that lets me share my photo.
 
-![](http://i.imgur.com/W3x5QRI.jpg)
+![](https://i.imgur.com/W3x5QRI.jpg)
 
 When I type in "Write a caption..." box, it lets me add a caption for my photo.
 
-![](http://i.imgur.com/1gcPq3R.jpg)
+![](https://i.imgur.com/1gcPq3R.jpg)
 
 When I tap Facebook, it enables the option that makes it so that when I tap the
 "share" button, it will post on my Facebook wall.
 
-![](http://i.imgur.com/9CtrDVr.jpg)
+![](https://i.imgur.com/9CtrDVr.jpg)
 
 **So if I were to break down these components of the instagram app they are**
 

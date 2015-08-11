@@ -88,7 +88,7 @@ window.onload = function() {
     li.appendChild(span);
 
     var img = document.createElement("img");
-    img.src = "http://i.imgur.com/BtLxCD6.png"
+    img.src = "https://i.imgur.com/BtLxCD6.png"
     img.setAttribute("class", "delete");
     li.appendChild(img);
   }
@@ -180,7 +180,7 @@ window.onload = function() {
     li.appendChild(span);
 
     var img = document.createElement("img");
-    img.src = "http://i.imgur.com/BtLxCD6.png"
+    img.src = "https://i.imgur.com/BtLxCD6.png"
     img.setAttribute("class", "delete");
     li.appendChild(img);
   }

@@ -99,7 +99,7 @@ In the below examples, I'm going to only show the `<div>` tag with the `id` of
 
 ```html
 <div id="photos">
-  <img src="http://i.imgur.com/BdbsV4F.png">
+  <img src="https://i.imgur.com/BdbsV4F.png">
 </div>
 ```
 
@@ -109,8 +109,8 @@ In the below examples, I'm going to only show the `<div>` tag with the `id` of
 
 ```html
 <div id="photos">
-  <img src="http://i.imgur.com/BdbsV4F.png">
-  <img src="http://i.imgur.com/mfAuIRU.png">
+  <img src="https://i.imgur.com/BdbsV4F.png">
+  <img src="https://i.imgur.com/mfAuIRU.png">
 </div>
 ```
 
@@ -120,9 +120,9 @@ In the below examples, I'm going to only show the `<div>` tag with the `id` of
 
 ```html
 <div id="photos">
-  <img src="http://i.imgur.com/BdbsV4F.png">
-  <img src="http://i.imgur.com/mfAuIRU.png">
-  <img src="http://i.imgur.com/mukgIPn.png">
+  <img src="https://i.imgur.com/BdbsV4F.png">
+  <img src="https://i.imgur.com/mfAuIRU.png">
+  <img src="https://i.imgur.com/mukgIPn.png">
 </div>
 ```
 

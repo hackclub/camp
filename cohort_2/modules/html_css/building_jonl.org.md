@@ -66,7 +66,7 @@ Copy and past the text from Alice's website.
 - [See in JS Bin.](http://jsbin.com/sofuzo/1/edit?html,output)
 
 **Preview:**
-![](http://i.imgur.com/NzrSXCG.png)
+![](https://i.imgur.com/NzrSXCG.png)
 
 **HTML:**
 
@@ -123,7 +123,7 @@ b. Categorize your text into sections.
 
 **Preview:**
 
-![](http://i.imgur.com/okxszvu.png)
+![](https://i.imgur.com/okxszvu.png)
 
 **HTML:**
 
@@ -159,7 +159,7 @@ b. Categorize your text into sections.
 
 **Preview:**
 
-![](http://i.imgur.com/2QjulPo.png)
+![](https://i.imgur.com/2QjulPo.png)
 
 **HTML:**
 
@@ -224,7 +224,7 @@ body {
 
 **Preview:**
 
-![](http://i.imgur.com/rKXwuEX.png)
+![](https://i.imgur.com/rKXwuEX.png)
 
 **HTML:**
 
@@ -273,7 +273,7 @@ a {
 
 **Preview:**
 
-![](http://i.imgur.com/3fmqekN.png)
+![](https://i.imgur.com/3fmqekN.png)
 
 **HTML:**
 
@@ -341,7 +341,7 @@ body {
 
 **Preview:**
 
-![](http://i.imgur.com/IY7khhy.png)
+![](https://i.imgur.com/IY7khhy.png)
 
 **HTML:** *Unchanged*
 
@@ -411,7 +411,7 @@ a {
 
 **Preview:**
 
-![](http://i.imgur.com/nqURZSw.png)
+![](https://i.imgur.com/nqURZSw.png)
 
 **HTML:**
 

@@ -1,5 +1,5 @@
 TODO
-- Extract Concepts from [Image](http://i.imgur.com/g8ANW6w.jpg)
+- Extract Concepts from [Image](https://i.imgur.com/g8ANW6w.jpg)
 
 ## Objective
 To show people that they can create what they see mising

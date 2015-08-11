@@ -24,7 +24,7 @@ I added a `<!-- ^ NEXT -->` to point out what lines of code will be changed next
   <!-- PORTFOLIO -->
   
     <!-- IMAGE SECTION -->
-      <img src="http://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+      <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
   
     <!-- INFORMATION SECTION -->
       <h1>Jonathan Leung</h1>
@@ -58,13 +58,13 @@ images instead of text.
 Here are the links to the respective logos:
 
   Facebook:
-  http://i.imgur.com/hqhKh8l.png
+  https://i.imgur.com/hqhKh8l.png
 
   Twitter
-  http://i.imgur.com/aN1jbkL.png
+  https://i.imgur.com/aN1jbkL.png
 
   Github:
-  http://i.imgur.com/rnhMmVF.png
+  https://i.imgur.com/rnhMmVF.png
 
   *Note, I got these images from iconmonstr.com
   a great service for finding free icons!*

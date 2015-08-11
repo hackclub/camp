@@ -22,7 +22,7 @@ var person = prompt("Please enter your name", "Harry Potter");
 alert(person);
 ```
 
-[![](http://i.imgur.com/9KuKZGN.png)](http://jsbin.com/jawaga/1/edit?js,output)
+[![](https://i.imgur.com/9KuKZGN.png)](http://jsbin.com/jawaga/1/edit?js,output)
 
 #### Integrating the code:
 

@@ -72,7 +72,7 @@ We can just replace the text `Twitter` with an image element
 
 ```html
 <a href="https://twitter.com/jonathanjleung">
-  <img src="http://i.imgur.com/aN1jbkL.png">
+  <img src="https://i.imgur.com/aN1jbkL.png">
 </a>
 ```
 
@@ -80,13 +80,13 @@ And if I have 3 links:
 
 ```html
 <a href="https://twitter.com/jonathanjleung">
-  <img src="http://i.imgur.com/aN1jbkL.png">
+  <img src="https://i.imgur.com/aN1jbkL.png">
 </a>
 <a href="https://facebook.com/jonleung137">
-  <img src="http://i.imgur.com/hqhKh8l.png">
+  <img src="https://i.imgur.com/hqhKh8l.png">
 </a>
 <a href="https://github.com/jonleung">
-  <img src="http://i.imgur.com/rnhMmVF.png">
+  <img src="https://i.imgur.com/rnhMmVF.png">
 </a>
 ```
 
@@ -102,7 +102,7 @@ And if I have 3 links:
   <!-- PORTFOLIO -->
   
     <!-- IMAGE SECTION -->
-      <img src="http://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+      <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
   
     <!-- INFORMATION SECTION -->
       <h1>Jonathan Leung</h1>
@@ -112,13 +112,13 @@ And if I have 3 links:
     <!-- SOCIAL MEDIA SECTION -->
       <!--==================BEGIN_CHANGES==================-->
       <a href="https://twitter.com/jonathanjleung">
-        <img src="http://i.imgur.com/aN1jbkL.png">
+        <img src="https://i.imgur.com/aN1jbkL.png">
       </a>
       <a href="https://facebook.com/jonleung137">
-        <img src="http://i.imgur.com/hqhKh8l.png">
+        <img src="https://i.imgur.com/hqhKh8l.png">
       </a>
       <a href="https://github.com/jonleung">
-        <img src="http://i.imgur.com/rnhMmVF.png">
+        <img src="https://i.imgur.com/rnhMmVF.png">
       </a>
       <!--===================END_CHANGES===================-->
 

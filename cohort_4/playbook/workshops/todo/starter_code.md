@@ -279,7 +279,7 @@ body {
   margin-right: 2px;
   width: 12px;
   height: 12px;
-  background-image: url("http://i.imgur.com/xOQtCqY.png");
+  background-image: url("https://i.imgur.com/xOQtCqY.png");
   background-repeat: no-repeat;
   font: 0/0 serif;
   text-shadow: none;
@@ -356,17 +356,17 @@ body {
         <li>
           <input class="toggle" type="checkbox">
           <span>See no evil</span>
-          <img class="delete" src="http://i.imgur.com/BtLxCD6.png">
+          <img class="delete" src="https://i.imgur.com/BtLxCD6.png">
         </li>
         <li>
           <input class="toggle" type="checkbox">
           <span>Hear no evil</span>
-          <img class="delete" src="http://i.imgur.com/BtLxCD6.png">
+          <img class="delete" src="https://i.imgur.com/BtLxCD6.png">
         </li>
         <li>
           <input class="toggle" type="checkbox">
           <span>Speak no evil</span>
-          <img class="delete" src="http://i.imgur.com/BtLxCD6.png">
+          <img class="delete" src="https://i.imgur.com/BtLxCD6.png">
         </li>
       </ul>
     </div>

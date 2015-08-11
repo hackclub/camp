@@ -20,7 +20,7 @@ next.
 <!-- PORTFOLIO -->
 
   <!-- IMAGE SECTION -->
-    - http://i.imgur.com/vS0HhER.jpg 
+    - https://i.imgur.com/vS0HhER.jpg 
   
   <!-- INFORMATION SECTION -->
     <h1>Jonathan Leung</h1>

@@ -143,7 +143,7 @@ window.onload = function() {
     li.appendChild(span);
 
     var img = document.createElement("img");
-    img.src = "http://i.imgur.com/BtLxCD6.png"
+    img.src = "https://i.imgur.com/BtLxCD6.png"
     img.setAttribute("class", "delete");
     li.appendChild(img);
   }
@@ -167,7 +167,7 @@ window.onload = function() {
 You should see tasks you created refected in your firebaseRootUrl
 afer you add this code.
 
-![](http://i.imgur.com/eG03qi0.gif)
+![](https://i.imgur.com/eG03qi0.gif)
 
 ```
 Check!  

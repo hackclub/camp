@@ -127,7 +127,7 @@ http://davidwalsh.name/center-website
 <!-- PORTFOLIO -->
 
   <!-- IMAGE SECTION -->
-    <img src="http://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+    <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
   
   <!-- INFORMATION SECTION -->
     <h1>Jonathan Leung</h1>
@@ -137,13 +137,13 @@ http://davidwalsh.name/center-website
     
   <!-- SOCIAL MEDIA SECTION -->
     <a href="https://twitter.com/jonathanjleung">
-      <img src="http://i.imgur.com/aN1jbkL.png">
+      <img src="https://i.imgur.com/aN1jbkL.png">
     </a>
     <a href="https://facebook.com/jonleung137">
-      <img src="http://i.imgur.com/hqhKh8l.png">
+      <img src="https://i.imgur.com/hqhKh8l.png">
     </a>
     <a href="https://github.com/jonleung">
-      <img src="http://i.imgur.com/rnhMmVF.png">
+      <img src="https://i.imgur.com/rnhMmVF.png">
     </a>
 ```
 
@@ -152,7 +152,7 @@ http://davidwalsh.name/center-website
 <!-- PORTFOLIO -->
 
   <!-- IMAGE SECTION -->
-    <img src="http://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+    <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
   
   <!-- INFORMATION SECTION -->
     <h1>Jonathan Leung</h1>
@@ -162,13 +162,13 @@ http://davidwalsh.name/center-website
     
   <!-- SOCIAL MEDIA SECTION -->
     <a href="https://twitter.com/jonathanjleung">
-      <img src="http://i.imgur.com/aN1jbkL.png">
+      <img src="https://i.imgur.com/aN1jbkL.png">
     </a>
     <a href="https://facebook.com/jonleung137">
-      <img src="http://i.imgur.com/hqhKh8l.png">
+      <img src="https://i.imgur.com/hqhKh8l.png">
     </a>
     <a href="https://github.com/jonleung">
-      <img src="http://i.imgur.com/rnhMmVF.png">
+      <img src="https://i.imgur.com/rnhMmVF.png">
     </a>
 </body>
 ```
@@ -181,7 +181,7 @@ http://davidwalsh.name/center-website
 <!-- PORTFOLIO -->
 
   <!-- IMAGE SECTION -->
-    <img src="http://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+    <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
   
   <!-- INFORMATION SECTION -->
     <h1>Jonathan Leung</h1>
@@ -191,13 +191,13 @@ http://davidwalsh.name/center-website
     
   <!-- SOCIAL MEDIA SECTION -->
     <a href="https://twitter.com/jonathanjleung">
-      <img src="http://i.imgur.com/aN1jbkL.png">
+      <img src="https://i.imgur.com/aN1jbkL.png">
     </a>
     <a href="https://facebook.com/jonleung137">
-      <img src="http://i.imgur.com/hqhKh8l.png">
+      <img src="https://i.imgur.com/hqhKh8l.png">
     </a>
     <a href="https://github.com/jonleung">
-      <img src="http://i.imgur.com/rnhMmVF.png">
+      <img src="https://i.imgur.com/rnhMmVF.png">
     </a>
 </body>
 ```
@@ -210,7 +210,7 @@ http://davidwalsh.name/center-website
 <!-- PORTFOLIO -->
 
   <!-- IMAGE SECTION -->
-    <img src="http://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+    <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
   
   <!-- INFORMATION SECTION -->
     <h1>Jonathan Leung</h1>
@@ -220,13 +220,13 @@ http://davidwalsh.name/center-website
     
   <!-- SOCIAL MEDIA SECTION -->
     <a href="https://twitter.com/jonathanjleung">
-      <img src="http://i.imgur.com/aN1jbkL.png">
+      <img src="https://i.imgur.com/aN1jbkL.png">
     </a>
     <a href="https://facebook.com/jonleung137">
-      <img src="http://i.imgur.com/hqhKh8l.png">
+      <img src="https://i.imgur.com/hqhKh8l.png">
     </a>
     <a href="https://github.com/jonleung">
-      <img src="http://i.imgur.com/rnhMmVF.png">
+      <img src="https://i.imgur.com/rnhMmVF.png">
     </a>
 </body>
 ```
@@ -240,7 +240,7 @@ http://davidwalsh.name/center-website
 <!-- PORTFOLIO -->
 
   <!-- IMAGE SECTION -->
-    <img src="http://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+    <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
   
   <!-- INFORMATION SECTION -->
     <h1>Jonathan Leung</h1>
@@ -250,13 +250,13 @@ http://davidwalsh.name/center-website
     
   <!-- SOCIAL MEDIA SECTION -->
     <a href="https://twitter.com/jonathanjleung">
-      <img src="http://i.imgur.com/aN1jbkL.png">
+      <img src="https://i.imgur.com/aN1jbkL.png">
     </a>
     <a href="https://facebook.com/jonleung137">
-      <img src="http://i.imgur.com/hqhKh8l.png">
+      <img src="https://i.imgur.com/hqhKh8l.png">
     </a>
     <a href="https://github.com/jonleung">
-      <img src="http://i.imgur.com/rnhMmVF.png">
+      <img src="https://i.imgur.com/rnhMmVF.png">
     </a>
 </body>
 ```
@@ -285,7 +285,7 @@ body {
 ## Profile Picture - I Do
 
 ```html
-<img class="profile-picture" src="http://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+<img class="profile-picture" src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
 ```
 
 ```css
@@ -298,13 +298,13 @@ body {
 
 ```html
 <a href="https://twitter.com/jonathanjleung">
-  <img class="social-icon" src="http://i.imgur.com/aN1jbkL.png">
+  <img class="social-icon" src="https://i.imgur.com/aN1jbkL.png">
 </a>
 <a href="https://facebook.com/jonleung137">
-  <img class="social-icon" src="http://i.imgur.com/hqhKh8l.png">
+  <img class="social-icon" src="https://i.imgur.com/hqhKh8l.png">
 </a>
 <a href="https://github.com/jonleung">
-  <img class="social-icon" src="http://i.imgur.com/rnhMmVF.png">
+  <img class="social-icon" src="https://i.imgur.com/rnhMmVF.png">
 </a>
 ```
 
@@ -380,7 +380,7 @@ body {
     
 
   <!-- IMAGE SECTION -->
-    <img src="http://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+    <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
   
   <!-- INFORMATION SECTION -->
     <h1>Jonathan Leung</h1>
@@ -390,13 +390,13 @@ body {
     
   <!-- SOCIAL MEDIA SECTION -->
     <a href="https://twitter.com/jonathanjleung">
-      <img src="http://i.imgur.com/aN1jbkL.png">
+      <img src="https://i.imgur.com/aN1jbkL.png">
     </a>
     <a href="https://facebook.com/jonleung137">
-      <img src="http://i.imgur.com/hqhKh8l.png">
+      <img src="https://i.imgur.com/hqhKh8l.png">
     </a>
     <a href="https://github.com/jonleung">
-      <img src="http://i.imgur.com/rnhMmVF.png">
+      <img src="https://i.imgur.com/rnhMmVF.png">
     </a>
 </body>
 ```
@@ -413,13 +413,13 @@ Can you add the image of the Facebook logo to the bottom of the page?
 Here is the link to the image:
 
 ```
-http://i.imgur.com/hqhKh8l.png
+https://i.imgur.com/hqhKh8l.png
 ```
 
 ## Quick Solution
 
 ```html
-<img src="http://i.imgur.com/hqhKh8l.png" alt="Facebook Logo">
+<img src="https://i.imgur.com/hqhKh8l.png" alt="Facebook Logo">
 ```
 
 ```html
@@ -433,7 +433,7 @@ http://i.imgur.com/hqhKh8l.png
     <!-- PORTFOLIO -->
     
       <!-- IMAGE SECTION -->
-        <img src="http://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+        <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
     
       <!-- INFORMATION SECTION -->
         <h1>Jonathan Leung</h1>
@@ -442,7 +442,7 @@ http://i.imgur.com/hqhKh8l.png
         
       <!-- SOCIAL MEDIA SECTION -->
         <!--==================BEGIN_CHANGES==================-->
-        <img src="http://i.imgur.com/hqhKh8l.png" alt="Facebook Logo">
+        <img src="https://i.imgur.com/hqhKh8l.png" alt="Facebook Logo">
         <!--===================END_CHANGES===================-->
         - link to Twitter (https://twitter.com/jonathanjleung)
         - link to Github (https://github.com/jonleung)
