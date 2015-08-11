@@ -6,13 +6,13 @@ var FIREBASE_ROOT = "https://camp-todo.firebaseio.com/"
 window.onload = function() {
 
   var firebase = new Firebase(FIREBASE_ROOT);
-  var newButton = document.getElementById("new-button");
+  var newTaskButton = document.getElementById("new-task-button");
   var todoList = document.getElementById("todo-list")
 
   function updateTask(key, isDone) {
     var taskUrl = FIREBASE_ROOT + key;
     var taskRef = new Firebase(FIREBASE_ROOT + key);
-    
+
     var data = {
       isDone: isDone
     }
@@ -58,12 +58,12 @@ window.onload = function() {
       var task = {}
       task.description = taskDescription;
       task.isDone = false;
-      
+
       firebase.push(task);
     }
   }
-  
-  newButton.onclick = createTask
+
+  newTaskButton.onclick = createTask
 
   firebase.on('child_added', function (snapshot) {
     var task = snapshot.val();
@@ -92,14 +92,14 @@ var FIREBASE_ROOT = "https://camp-todo.firebaseio.com/"
 window.onload = function() {
 
   var firebase = new Firebase(FIREBASE_ROOT);
-  var newButton = document.getElementById("new-button");
+  var newTaskButton = document.getElementById("new-task-button");
   var todoList = document.getElementById("todo-list")
 
   function createTask(taskDescription) {
     var task = {}
     task.description = taskDescription;
     task.isDone = false;
-    
+
     firebase.push(task);
   }
 
@@ -113,7 +113,7 @@ window.onload = function() {
   function updateTask(key, isDone) {
     var taskUrl = FIREBASE_ROOT + key;
     var taskRef = new Firebase(FIREBASE_ROOT + key);
-    
+
     var data = {
       isDone: isDone
     }
@@ -142,7 +142,7 @@ window.onload = function() {
     span.innerHTML = description;
 
     var del = document.createElement("img");
-    del.src = "img/delete.png";
+    del.src = "http://i.imgur.com/BtLxCD6.png";
     del.setAttribute("class", "delete");
 
     del.onclick = function() {
@@ -159,7 +159,7 @@ window.onload = function() {
     return li
   }
 
-  newButton.onclick = function() {
+  newTaskButton.onclick = function() {
     var taskDescription = prompt("Add a task:");
     if (taskDescription !== null && taskDescription !== "") {
       createTask(taskDescription);
@@ -193,4 +193,3 @@ window.onload = function() {
 
 }
 ```
-
