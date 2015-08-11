@@ -8,7 +8,7 @@
 
 # Learning Javascript through Maestro
 
-Our objective of this tutorial is to learn 
+Our objective of this tutorial is to learn
 - the fundamentals of the programming language javascript
 - the fundamentals of programing in general
 - and how to send text messages and make phone calls with Maestro using javascript.
@@ -128,14 +128,14 @@ A Note on Semicolons
 1 + 2;
      ^ this must be at the end of almost every line in javascript;
 
-sometimes the code may still work without it, 
+sometimes the code may still work without it,
 sometimes however it doesn't. Best to just add it.
 ```
 
 ```
 Challenge!  
 Time        __
-           / _)   
+           / _)
     .-^^^-/ /
  __/       /
 <__.|_|-|_|
@@ -162,20 +162,20 @@ and press `enter`
 In math class you would have written this is "x = 3"
 
 In javascript, you need to add:
-    
+
 - "var" in front of variables
 - a ";" at the end of every line
 
-I also notice that the output is `undefined`. 
+I also notice that the output is `undefined`.
 
-Note, this doesn't mean mean that the output of `var x = 3;` is not 
+Note, this doesn't mean mean that the output of `var x = 3;` is not
   defined. This is just outputted anytime you assign a variable to
   something.
 
 ```
 Challenge!  
 Time        __
-           / _)   
+           / _)
     .-^^^-/ /
  __/       /
 <__.|_|-|_|
@@ -197,7 +197,7 @@ Now that we know that `x` is `3` and `y` is `4`, we can do
 ```
 Try It!  
             __
-           / _)   
+           / _)
     .-^^^-/ /
  __/       /
 <__.|_|-|_|
@@ -238,7 +238,7 @@ And you can write longer phrases too
 ```
 Try it!
             __
-           / _)   
+           / _)
     .-^^^-/ /
  __/       /
 <__.|_|-|_|
@@ -271,7 +271,7 @@ I can add multiple String together:
 ```
 Try it!
             __
-           / _)   
+           / _)
     .-^^^-/ /
  __/       /
 <__.|_|-|_|
@@ -286,7 +286,7 @@ Try adding multiple Strings together in the console.
 ```
 Try it!
             __
-           / _)   
+           / _)
     .-^^^-/ /
  __/       /
 <__.|_|-|_|
@@ -301,7 +301,7 @@ Try to assign a string to a variable and add another String to it.
 ```
 Try it!
             __
-           / _)   
+           / _)
     .-^^^-/ /
  __/       /
 <__.|_|-|_|
@@ -316,7 +316,7 @@ Try assigning two variables as strings and adding them together!
 ```
 Try it!
             __
-           / _)   
+           / _)
     .-^^^-/ /
  __/       /
 <__.|_|-|_|
@@ -372,7 +372,7 @@ And the OUTPUT of the function, was the String "Jonathan"
 ```
 Try It!
             __
-           / _)   
+           / _)
     .-^^^-/ /
  __/       /
 <__.|_|-|_|
@@ -471,54 +471,10 @@ You will go crazy today with popups unless you disable "Auto-Save"
 Let's type the following code in the `script.js` file
 
 ```
-debugger
 var name = prompt("What is your name?");
 var message = "Hello " + name + ". Welcome to my website!"
 alert(message);
 ```
-
-- Go ahead and click `Preview Running Application` to run it.
-- Click the arrow to move the window to an external tab
-- Open up the console
-- **IMPORTANT, MAKE SURE YOU REFRESH THE PAGE.**
-  - Note, the only way to it stop at the debugger is if you refresh the page.
-- you should see your code paused here
-  > ![](img/24.png)
-    
-- click on the `>_` symbol to open up the console on this screen
-  > ![](img/25.png)
-
-### Understanding our code through debugging
-
-We can walk through line by line how our code.
-
-The blue line of code highlights the line of code that will be run next.
-
-#### Right now, the code is paused on line 1. I run it and it advances the blue cursor to line 2.
-
-Note: only seeing a blank page?
-
-- **MAKE SURE YOU REFRESH THE PAGE.**
-  - Note, the only way to it stop at the debugger is if you refresh the page.
-
-
-> ![](img/d1.gif)
-
-#### Since the blue cursor is on line 2, when I click the next button, ![](img/next_button.png), it runs line 2 which in this case  makes a prompt. I type in Jonathan and it outputs that to the variable `name`. So when I ask the computer at the end what `name` is equal to, it tells me `Jonathan`.
-
-> ![](img/d2.gif)
-
-Now when I click next, it runs the line highlighted in blue (line 3). This sets the variable `message` to the sum of all of those strings. In this case `message` is now equal to the String`"Hello Jonathan. Welcome to my website!"`
-
-> ![](img/d3.gif)
-
-Finally on the last line, I `alert` the `message` variable, which is equal to `""Hello Jonathan. Welcome to my website!"`
-
-> ![](img/d4.gif)
-
-Code always executes in order like this.
-
-You can always put a debugger statement at the top to walk through this process to understand your code line by line
 
 ## Instead of alerting we are going to send a text message
 
@@ -683,7 +639,7 @@ alert("Great! We'll give " + phone + " a ring!");
 
 #### Finding mp3's on the internet.
 
-Note: I found these MP3s on [MP3skull](http://mp3skull.com/) To find an mp3 that will work, you want the pages that display a raw mp3 file (i.e. a page that has no HTML on the page, just the mp3 file). 
+Note: I found these MP3s on [MP3skull](http://mp3skull.com/) To find an mp3 that will work, you want the pages that display a raw mp3 file (i.e. a page that has no HTML on the page, just the mp3 file).
 
 **Important note to avoid frustration**
 And when you've found these mp3 files, some of them will not be compatible with Twilio for some reason that I do not know yet. You'll have to test out which ones work and which ones don't.
