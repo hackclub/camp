@@ -26,18 +26,50 @@ for line in $(git ls-files | grep '\.md$' | xargs grep -noP '\[.*\]\(\K.*?(?=\))
   file=$(echo $line | cut -f1)
   dir=$(dirname "$file")
   line_num=$(echo $line | cut -f2)
-  # The regex at the end of this strips any heading links
-  link_dest=$(echo $line | cut -f3 | sed "s/#.*$//")
+  link_dest=$(echo $line | cut -f3)
+  broken_link=true
 
   # Only check if the link is not a URL and if it's not empty
-  if [[ ( ! $link_dest =~ $URL_REGEX ) && ( ! -z "$link_dest" ) ]]; then
-    linked_path=$(readlink -f "$dir/$link_dest")
+  if [[ ( ! $link_dest =~ $URL_REGEX ) ]]; then
+    link_dest_file=$(echo $link_dest | sed "s/#.*$//") # 'file.md' <- 'file.md#heading'
+    link_dest_heading=$(echo $link_dest | grep -o '#.*$') # '#heading' <- 'file.md#heading'
+    linked_path=$(readlink -f "$dir/$link_dest_file") # '/home/user/proj/file.md'
 
-    # Check of the linked path is either an existing file or directory
-    if [[ ( ! -f "$linked_path" ) && ( ! -d "$linked_path" ) ]]; then
-      HAS_MISSING_LINK=true
-      >&2 echo "$line_num:$file	'$link_dest' does not exist!"
+    # If there's no link_dest_heading (the '#heading' part of 'file.md#heading')
+    if [[ -z "$link_dest_heading" ]]; then
+      # Check if the linked path is either an existing file or directory
+      if [[ ( -f "$linked_path" ) || ( -d "$linked_path" ) ]]; then
+        broken_link=false
+      fi
+    else
+      file_to_check=$file
+
+      # '#my-heading' -> 'my heading'
+      stripped_heading=$(echo $link_dest_heading | sed -e 's/#//' -e 's/-/ /g')
+
+      # If there's a filename in the link (the 'file.md' part of 'file.md#heading')
+      if [[ ! -z "$link_dest_file" ]]; then
+        file_to_check=$linked_path
+      fi
+
+      for match in $(
+          cat $file_to_check |
+            grep -i "^#\+" | # only headings
+            sed 's/-/ /g' | # replace dashes with spaces
+            tr -d '[:punct:]' | # remove all punctuation
+            sed -e 's/^ \+//' -e 's/ \+$//' -e 's/  \+/ /g' | # strip extra spaces
+            grep -io "^$stripped_heading\$"
+        ); do
+        broken_link=false
+      done
     fi
+  else # if the link is a URL
+    broken_link=false
+  fi
+
+  if [ $broken_link = true ]; then
+    HAS_MISSING_LINK=true
+    >&2 echo "$line_num:$file '$link_dest' does not exist!"
   fi
 done
 
