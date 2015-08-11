@@ -1,6 +1,7 @@
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
 **Table of Contents**
 
+- [Creating a safe space](#creating-a-safe-space)
 - [Hacker arrival](#hacker-arrival)
     - [On the First Day](#on-the-first-day)
 - [Energizers](#energizers)
@@ -87,6 +88,96 @@
     - [Slack Announcements](#slack-announcements)
 
 <!-- markdown-toc end -->
+
+# Creating a safe space
+
+The one rule that we have at Hack Camp is that we make it a safe space.
+We all know how bad it feels when we are made fun of or when someone makes
+us feel uncomfortable.
+
+Below are some scenarios which may occur and how to handle them:
+
+## Someone writes or says "X person is gay." in a playful joking manner
+
+Although in many cases this is intended as a joke, but it sets the norm that
+at Hack Camp
+
+- being gay is bad
+- if you are gay, you should feel bad
+- gay people are not welcome here
+
+This is not an environment that we want to create. This needs to be addressed
+quickly and in a very serious tone to make sure everyone understands that this
+is the one thing that is extremely important to us.
+
+However at the same time, we don't want to make the person who said it feel
+really bad and feel shameful because that could hurt just as much. They thought
+that it was just a joke.
+
+Here's how I might hand the situation:
+
+- Can I get everyone's attention please
+- I noticed earlier that someone posted the phrase say "X person is Gay"
+- I know that you probably meant it as a joke
+- what you many not recognize is that that statement sets the precendent in this
+  environment that
+  - being gay is bad
+  - if you are gay, you should feel bad
+  - gay people are not welcome here
+- This is the opposite of the type of culture we want at hack camp
+- One of the most important parts of hack camp is that it is a safe space
+  - everyone feels welcome to come to the space no matter what gender, race,
+    sexual orientation, socio-economic status, religion, age, whether or not
+    they have a disability
+  - and everyone can be comfortable being themselves
+- Why does this matter so much to us?
+  - because we all know that it sucks to be excluded
+  - at some point in all of our lives, we've been seriously made fun of
+  - or not included
+  - or discriminted against for one reason or another
+  - and it sucks.
+  - What if I was gay? How might I feel when I read that comment.
+- _{Share a personal annecdote on how you felt when you were discrimated against
+    for something. If you can share a very personal story and how you felt
+    really bad, this can be very impactful.
+   }_
+- We want the Hack Camp to be nothing like that.
+- I don't want anyone to feel like the way that I did
+- We want this environment to be awesome and a place where I and everyone else
+  can be myself.
+- Therefore, any spoken language behavior that can be interpreted as
+  discriminatory will not be tolerated
+- I am 99.99% sure that the person who wrote that phrase did not intend to
+  discrimate all people who are gay.
+- We don't want to shame you for saying that. I know that it was probably a
+  mistake. I get it, this type of joking around is very common, a lot of people
+  do it, and no one really means it.
+- That being said however, any of these jokes have a *very real* and very
+  consequence consequence and can make lots of people feel *very* *very*
+  uncomfortable and sad.
+- So I want to ask for your help. If you hear someone saying anything that you
+  you think could be interpreted as discriminatory, kindly let them know.
+- You might say to them "Hey Jonathan, I noticed that when you said PHRASE_X,
+  some people including myself could be offended by that. I know that you
+  probably didn't mean it and I don't want to make you feel bad either. Just
+  notice that you said it and perhaps try avoiding saying it in the future."
+- I'm not the only person who sets the culture here. Each of you do as well. So
+  I want to open this up for a discussion. Do you guys have any ideas for things
+  we may try to do / things to avoid to create an awesome culture here?
+- _{Call on each person that raises their hands to share and echo back what they
+  said to everyone else. If no one else has anything else to say, go onto the
+  following}_
+- Break up into groups of 3-4 and think of ways in which we can make Hack Camp
+  a safer space. We'll give you 8 minutes or so to discuss and we'll share back
+  what we come up with afterwards. I know this wasn't on our schedule but this
+  is really important to our culture.
+- _{Give them a 2 minute and 1 minute warning}_
+- _{Call on groups to share back the response}_
+- Lets make hack camp an experience that is amazing for each and every one
+  of you. I want this to be an environment where everyone, including me, can be
+  themselves, and where everyone, including people like me, can be welcome here
+  as well.
+- Let's do a Hack Cheer!
 
 # Hacker arrival
 
