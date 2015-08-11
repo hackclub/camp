@@ -36,7 +36,7 @@ I added a `<!-- ^ NEXT -->` to point out what lines of code will be changed next
   <!-- PORTFOLIO -->
   
     <!-- IMAGE SECTION -->
-      <img src="http://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+      <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
   
     <!-- INFORMATION SECTION -->
       <h1>Jonathan Leung</h1>

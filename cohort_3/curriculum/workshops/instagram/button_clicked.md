@@ -91,7 +91,7 @@ document.getElementById('button').onclick = function() {
 };
 ```
 
-[![](http://i.imgur.com/9KuKZGN.png)](http://jsfiddle.net/6qDap/1)
+[![](https://i.imgur.com/9KuKZGN.png)](http://jsfiddle.net/6qDap/1)
 
 #### Step 4: Cleaning Up For Understanding
 
@@ -111,7 +111,7 @@ document.getElementById('button').onclick = function() {
 };
 ```
 
-[![](http://i.imgur.com/9KuKZGN.png)](http://jsfiddle.net/6qDap/1609/)
+[![](https://i.imgur.com/9KuKZGN.png)](http://jsfiddle.net/6qDap/1609/)
 
 ##### Step 5: Tinkering for Understanding
 

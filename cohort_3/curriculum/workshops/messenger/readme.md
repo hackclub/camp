@@ -510,12 +510,12 @@ A note on terminology:
 
 stars (*) surround relevant vocabulary like *this*
 
-img.src = "http://i.imgur.com/qqHJgeR.jpg"
+img.src = "https://i.imgur.com/qqHJgeR.jpg"
     ^ by setting the src *property* of the image element object
     
 the browser adds the "src" *attribute* 
-<img src="http://i.imgur.com/qqHJgeR.jpg">
-     ^ this is the source *attribute* which has the *value* of "http://i.imgur.com/qqHJgeR.jpg"
+<img src="https://i.imgur.com/qqHJgeR.jpg">
+     ^ this is the source *attribute* which has the *value* of "https://i.imgur.com/qqHJgeR.jpg"
 ```
 
 ![](http://classic.cloversites.com/images/html-version/shared/try-it-out-button.gif)

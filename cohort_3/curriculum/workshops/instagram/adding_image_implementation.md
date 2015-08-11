@@ -76,7 +76,7 @@ stack over flow
 
 Note: this code only adds the same Google image to the page no matter what you type in.
 
-[![](http://i.imgur.com/9KuKZGN.png)](http://jsbin.com/mekila/2/edit?html,js,output)
+[![](https://i.imgur.com/9KuKZGN.png)](http://jsbin.com/mekila/2/edit?html,js,output)
 
 - and then with one simple modification to the Javascripts
 
@@ -101,6 +101,6 @@ Note: this code only adds the same Google image to the page no matter what you t
   };
   ```
 
-[![](http://i.imgur.com/9KuKZGN.png)](http://jsbin.com/mekila/edit?html,js)
+[![](https://i.imgur.com/9KuKZGN.png)](http://jsbin.com/mekila/edit?html,js)
 
 Next: [A super hard probably too difficult challenge that is not too well written up yet](possible.md)

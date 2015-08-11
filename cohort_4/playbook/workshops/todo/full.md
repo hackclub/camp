@@ -142,7 +142,7 @@ window.onload = function() {
     span.innerHTML = description;
 
     var del = document.createElement("img");
-    del.src = "http://i.imgur.com/BtLxCD6.png";
+    del.src = "https://i.imgur.com/BtLxCD6.png";
     del.setAttribute("class", "delete");
 
     del.onclick = function() {

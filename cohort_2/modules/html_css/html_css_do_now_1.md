@@ -2,7 +2,7 @@
 
 How would you recreate [aleksfaure.com](http://aleksfaure.com/)?
 
-![](http://i.imgur.com/52Zrw7q.png)
+![](https://i.imgur.com/52Zrw7q.png)
 
 ### 1) Write out the steps would you take.
 

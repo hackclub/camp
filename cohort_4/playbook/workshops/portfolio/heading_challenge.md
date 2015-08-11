@@ -20,7 +20,7 @@ This is what you should have right now:
     <!-- PORTFOLIO -->
 
       <!-- IMAGE SECTION -->
-        - http://i.imgur.com/vS0HhER.jpg
+        - https://i.imgur.com/vS0HhER.jpg
       
       <!-- INFORMATION SECTION -->
         - Jonathan Leung <!-- {{ NEXT }} -->            
@@ -153,7 +153,7 @@ on or pointing to the line that has been modified
     <!-- PORTFOLIO -->
 
       <!-- IMAGE SECTION -->
-        - http://i.imgur.com/vS0HhER.jpg
+        - https://i.imgur.com/vS0HhER.jpg
       
       <!-- INFORMATION SECTION -->
         <!--===========BEGIN_CHANGES===========-->

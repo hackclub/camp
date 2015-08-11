@@ -48,7 +48,7 @@ And if I have 3 links:
   <!-- PORTFOLIO -->
   
     <!-- IMAGE SECTION -->
-      <img src="http://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+      <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
   
     <!-- INFORMATION SECTION -->
       <h1>Jonathan Leung</h1>

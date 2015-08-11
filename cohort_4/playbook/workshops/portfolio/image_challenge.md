@@ -32,7 +32,7 @@ next.
   <!-- PORTFOLIO -->
   
     <!-- IMAGE SECTION -->
-      - http://i.imgur.com/vS0HhER.jpg  <!--<<<<< NEXT -->
+      - https://i.imgur.com/vS0HhER.jpg  <!--<<<<< NEXT -->
   
     <!-- INFORMATION SECTION -->
       <h1>Jonathan Leung</h1>

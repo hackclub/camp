@@ -50,7 +50,7 @@ We can start to replace the outline with our own custom information. For example
   <body>
     - portfolio
       - image section
-        - http://i.imgur.com/vS0HhER.jpg
+        - https://i.imgur.com/vS0HhER.jpg
       - informational section
         - Jonathan Leung
         - I want show people that the world is malleable. I want them to know they can create what's missing and not be afraid to break the status quo.
@@ -112,7 +112,7 @@ It is useful:
     <!-- PORTFOLIO -->
 
       <!-- IMAGE SECTION -->
-        - http://i.imgur.com/vS0HhER.jpg
+        - https://i.imgur.com/vS0HhER.jpg
       
       <!-- INFORMATION SECTION -->
         - Jonathan Leung

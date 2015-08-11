@@ -111,7 +111,7 @@ document.getElementById('button').onclick = function() {
 };
 ```
 
-[![](http://i.imgur.com/9KuKZGN.png)](http://jsfiddle.net/6qDap/1)
+[![](https://i.imgur.com/9KuKZGN.png)](http://jsfiddle.net/6qDap/1)
 
 #### Step 4: Cleaning Up For Understanding
 
@@ -166,7 +166,7 @@ addPictureButton.onclick = function() {
 };
 ```
 
-[![](http://i.imgur.com/9KuKZGN.png)](http://jsfiddle.net/nL0tb9bp/)
+[![](https://i.imgur.com/9KuKZGN.png)](http://jsfiddle.net/nL0tb9bp/)
 
 What does this code mean?
 
