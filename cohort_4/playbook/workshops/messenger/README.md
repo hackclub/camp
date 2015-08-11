@@ -36,7 +36,7 @@ Instagram workshop.
 for the Instagram workshop.
 
 We're going to do a deep dive into this application to make sure we understand
-how it works. If you're already intimiately famailiar with the code, feel free
+how it works. If you're already intimiately familiar with the code, feel free
 to skip the Instagram related section and [go here](#recap) and answer the
 questions to make sure you comprehend it.
 
