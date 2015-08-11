@@ -919,7 +919,7 @@ on Google (ex. if they don't know about the existence of the JavaScript
 console and it's the tool they need), then feel free to explain it to them
 directly. Use your discretion for when to do this.
 
-Moreover, we recommend that if you know that someone else has solved the problem
+Moreover, we recommend that if you know that a hacker has solved the problem
 or think it is likely that another hacker may have the solution to this, you
 could recommend that the hacker reach out to one of their peers.
 
