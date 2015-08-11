@@ -34,7 +34,7 @@
 - [Workshops](#workshops)
     - [General Guidelines](#general-guidelines)
         - [Breaks](#breaks)
-    - [[Portfolio](workshops/portfolio)](#portfolioworkshopsportfolio)
+    - [Portfolio](workshops/portfolio)(#portfolioworkshopsportfolio)
         - [Prerequisites](#prerequisites)
         - [Running it](#running-it)
     - [Maestro](#maestro)
@@ -719,7 +719,9 @@ doing one of the following:
   don't want to baby you so we won't remind you.
 - Something else that works best for you.
 
-## [Portfolio](workshops/portfolio)
+## Portfolio
+
+[Click me for link.](workshops/portfolio)
 
 ### Prerequisites
 
