@@ -7,7 +7,7 @@ For a given task, when we click on the delete button, we want that item
 1. Removed from the screen
 2. Removed from the database
 
-Let's build the scooter first and make it when you click the delete button, it displays an alert
+Let's build it so when you click the delete button, it displays an alert.
 
 ## Clicking on the delete button
 
@@ -40,8 +40,8 @@ function addNewTask(taskName) { // <-- CHANGE
 ```
 
 ```
-Check Point!  
-Time        __
+Checkpoint Time!  
+            __
            / _)
     .-^^^-/ /
  __/       /
@@ -53,10 +53,10 @@ Try seeing if you can make an alert popup when you click the delete button
 
 ## Removing the element from the page
 
-Ok, so instead of an alert, lets see if we can write some code that removes the
-item from the screen (and not yet firebase).
+Ok, so instead of an alert, let's see if we can write some code that removes the
+item from the screen (but not Firebase just yet).
 
-So in order to delete yourself, you must say `parent.removeChild(childElement)`
+So in order to delete the element, you must say `parent.removeChild(childElement)`
 
 Therefore inside of the `img.onclick function`, we have to somehow find a way
 to access the parent. Turns out that we can refer to the image itself that we
