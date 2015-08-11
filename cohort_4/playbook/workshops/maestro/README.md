@@ -185,7 +185,7 @@ Can you set the variable `y` to be equal to 2 and then check it's value?
 
 Solution:
 
-- Type this into the console `var y = 4;` and press `enter`
+- Type this into the console `var y = 2;` and press `enter`
 - type `y` again to get the value of `y`
 
 ### Manipulating variables
