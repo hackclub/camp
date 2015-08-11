@@ -46,6 +46,9 @@
             - [Before the presentation](#before-the-presentation)
             - [Communicate the following to the hackers](#communicate-the-following-to-the-hackers)
         - [Readme](#readme)
+    - [Todo](#todo)
+        - [Running Todo](#running-todo)
+        - [Todo Readme](#todo-readme)
 - [Demos](#demos)
     - [Links](#links)
     - [First-time demos](#first-time-demos)
@@ -828,10 +831,51 @@ Pull these links up in new tabs:
 - This tutorial will comprehensively go through the Instagram application line
   by line and we'll challenge you to build the Messenger application afterwards.
 
-
 ### Readme
 
 [Messenger Readme](workshops/messenger/README.md)
+
+## Todo
+
+### Running Todo
+
+#### Setup
+
+- Open the [live demo](http://bit.ly/hackcamptodo) on the left side of your
+  screen
+- Open another new window with the same [live demo](http://output.jsbin.com/kuxuta)
+  on the other side of the screen
+- _{the objective is so that you can see data sync from one list to another_
+- turn on the projector
+
+#### Presentation
+
+Communicate to the hackers the following:
+
+- Today we are are building a todo-list application and learning how to use
+  a database called Firebase
+- _{Post the link to the demo into the Slack:}_
+  - `bit.ly/hackcamptodo`
+- Tell the hackers to open up the link you sent to the slack
+  - on their computers
+  - AND on their smart phones
+- Mess arond witht he Todo app and narrate what you do
+  - Let's create a new task
+  - _{Click the + button on the top left corner}_
+  - And call it "buy dinosaur statue"
+  - _{type "buy dinosaur statue"}_
+  - Oh hey, it popped up on everyone else's screens
+  - Continue this process while highlighting the following process
+    - Creating multiple new tasks
+    - Completing multiple tasks
+    - Uncompleting multiple tasks
+    - Deleting multiple tasks
+- In the tutorial, you will learn how to synchornize data between multiple
+  omputers very quickly.
+
+### Todo Readme
+
+[Todo Readme](workshops/todo/README.md)
 
 # Demos
 
