@@ -396,13 +396,11 @@ Number: unknown
 ```
 
 Before the game, watch [this video](https://www.youtube.com/watch?v=lyWKVGoXKak):
-    - Preparing for the energinzer
-      - Before the game
-        - Watch this video:
-    - When explaining the game
-      - Spend 5 seconds verbally explaining the game (but actually 5 seconds)
-      - Then you want to SHOW the game. Grab 3 people and have to demo it like
-        [this](https://www.youtube.com/watch?v=vP-MI_in6Fc).
+
+When explaining the game
+- Spend 15 seconds verbally explaining the game (but actually 15 seconds)
+- Then you want to SHOW the game. Grab 3 people and have to demo it like
+  [this](https://www.youtube.com/watch?v=vP-MI_in6Fc).
 
 # Introduction talk
 
