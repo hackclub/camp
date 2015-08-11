@@ -70,7 +70,7 @@ Zip Code: 19096
 
 Note that I have not had time to vet these. There are some things that we did vet that we were like, OMG THESE ARE TERRIBLE!
 
-**[CodeCademy](codecademy.com) / [KhanAcademy](khanacademy.org)**
+**[CodeCademy](https://www.codecademy.com) / [KhanAcademy](https://www.khanacademy.org)**
 
 I personally hate CodeCademy and don't like KhanAcademy but some people like it (you have to read things very, very carefully in CodeCademy). Primarily good a learning syntax but not for fundamental thinking, fundamentals of building, and you never really build real things...)
 

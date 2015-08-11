@@ -2,11 +2,18 @@
 **Table of Contents**
 
 - [Hacker arrival](#hacker-arrival)
+    - [On the First Day](#on-the-first-day)
 - [Energizers](#energizers)
-    - [Where The West Wind Blows](#where-the-west-wind-blows)
+    - [Bad startup ideas](#bad-startup-ideas)
+    - [Evolution Rock Paper Scissors](#evolution-rock-paper-scissors)
+    - [Human Knot](#human-knot)
     - [Human Pictionary](#human-pictionary)
     - [I Love My Neighbor Who](#i-love-my-neighbor-who)
-    - [Evolution Rock Paper Scissors](#evolution-rock-paper-scissors)
+    - [Mumbled Messages](#mumbled-messages)
+    - [Ninja](#ninja)
+    - [One Word Radio](#one-word-radio)
+    - [Sharks and Minnows](#sharks-and-minnows)
+    - [Where The West Wind Blows](#where-the-west-wind-blows)
 - [Introduction talk](#introduction-talk)
     - [Speaking from personal experience.](#speaking-from-personal-experience)
     - [Why is programming awesome?](#why-is-programming-awesome)
@@ -18,65 +25,195 @@
 - [Meals](#meals)
     - [Breakfast](#breakfast)
     - [Lunch](#lunch)
+- [Morning Announcements](#morning-announcements)
+    - [Purpose](#purpose)
+    - [Delivery](#delivery)
+- [Pairing Guidelines](#pairing-guidelines)
+    - [Spreadsheet Creation](#spreadsheet-creation)
+    - [Compatibility and Uniqueness](#compatibility-and-uniqueness)
 - [Workshops](#workshops)
     - [[Portfolio](workshops/portfolio)](#portfolioworkshopsportfolio)
         - [Prerequisites](#prerequisites)
         - [Running it](#running-it)
     - [Maestro](#maestro)
+        - [Running It](#running-it)
+        - [Link](#link)
+    - [Instagram](#instagram)
+        - [Running Instagram](#running-instagram)
+        - [Instagram Readme](#instagram-readme)
 - [Demos](#demos)
+    - [Links](#links)
     - [First-time demos](#first-time-demos)
     - [Giving feedback](#giving-feedback)
 - [Freeform Projects](#freeform-projects)
     - [Scoping and concept](#scoping-and-concept)
     - [Engagement](#engagement)
     - [Facilitating](#facilitating)
-    - [Answering questions](#answering-questions)
-- [Brainstorming](#brainstorming)
+    - [Answering Questions](#answering-questions)
+        - [Example](#example)
+- [Project Formation](#project-formation)
     - [Forming groups](#forming-groups)
+        - [Pre-Work](#pre-work)
+        - [During Hack Camp](#during-hack-camp)
     - [Yes-and sessions](#yes-and-sessions)
+        - [Running a Yes-and session](#running-a-yes-and-session)
     - [Running a brainstorm session](#running-a-brainstorm-session)
-    - [After a brainstorm](#after-a-brainstorm)
+        - [Part 1: Generating as many ideas as humanly possible](#part-1-generating-as-many-ideas-as-humanly-possible)
+        - [Part II: Filtering the ideas](#part-ii-filtering-the-ideas)
 - ["I have failed" activity](#i-have-failed-activity)
 - [Feedback Forms](#feedback-forms)
 - [Finishing off the day](#finishing-off-the-day)
+- [Post-mortem](#post-mortem)
 - [Using Slack](#using-slack)
     - [Asking for help](#asking-for-help)
+- [Communicating with the Group](#communicating-with-the-group)
+    - [Announcing to the Whole Group](#announcing-to-the-whole-group)
+    - [Sharing Announcements Individually](#sharing-announcements-individually)
+    - [Slack Announcements](#slack-announcements)
 
 <!-- markdown-toc end -->
 
 # Hacker arrival
 
-1. Assign a leader to manage hacker arrival.
-2. Have the assigned leader text all of the hackers the morning of with
+Make sure hackers come straight down to the hackerspace when they arrive.
+
+Have at least one leader in the hackerspace while hackers are arriving. When a
+hacker arrives, the leader should vigorously and excitedly greet them as they come in.
+
+>"good morning!"
+>"how did you sleep?"
+>"how are you?"
+
+If they're on a team with another hacker, make sure both hackers sit together.
+
+If a leader makes it to the hackerspace after other hackers have already
+arrived, the leader should also vigorously and excitedly greet them.
+
+## On the First Day
+
+Hacker arrival on the first day is going to be a bit different than on the other
+days. The hackers won't know where to go and they won't know the leaders of the
+camp, so it's our job to make this as seamless and welcoming as possible.
+
+We recommend doing the following:
+
+1. Assign two leaders to manage hacker arrival and one leader to manage scanning
+   of acceptance packets.
+2. Have the assigned leaders text all of the hackers the morning of with
    something along the lines of the following:
 
   > Hey Alice! Can't wait to see you this morning. Just as a quick reminder,
   > the address is 44 Tehama Street in San Francisco. Can you shoot me a text
   > or give me a call when you get here?
 
-3. Have the assigned leader wait in the lobby for arriving hackers.
-4. When a hacker arrives, have the assigned leader guide them down to the
-   hackerspace in the basement, mark their arrival in the
+3. Have the assigned leaders wait in the lobby for arriving hackers.
+4. When a hacker arrives, have one of the assigned leaders guide them down to
+   the hackerspace in the basement, mark their arrival in the
    [attendance sheet](https://docs.google.com/spreadsheets/d/1Em5tUQdm4dXnthtWr4zY4KR9Q6JZMV_Hl2n6G9Ti9Bg/edit),
-   and then head back up to the lobby to wait for more arriving hackers.
+   collect and set aside their acceptance packet (they were emailed a packet
+   full of waivers to sign before the cohort started), and then head back up to
+   the lobby to wait for more arriving hackers.
+5. Have the leader assigned for managing acceptance packets make sure they are
+   scanned and uploaded to the shared Google Drive folder before the day is
+   over.
 
 It may be a good idea to play some music in the hackerspace while people are
 arriving.
 
 # Energizers
 
-## Where The West Wind Blows
+## Bad startup ideas
+
+```
+Time: 10 min
+Materials: none
+Team sizes:
+
+- when 2-8 people, group into 2 teams
+- when 8+, group into teams no larger than 4
+```
+
+- For the purposes of this example I will refer to `team A` and `team B`.
+- Each team will break up and be given 2 minutes to come up with a crazy startup
+idea.
+- After the teams have ideas team A will take the role of investor and team B
+will be a startup.
+- Team A tells team b what startup idea they will be pitching.
+- Members of team B come up with and announce their positions and roles at the
+  company they are representing.
+- For 3 minutes team B pitches the company.
+
+> team A: You are pitching tinder for dogs
+> someone on team B: I am the Chief Executive Director intern
+> someone else on team B: I am a hot single dog and beta tester
+> team B: We're here to tell you about the next big thing... tinder for dogs
+> ~pitching continues for 3 minutes
+
+## Evolution Rock Paper Scissors
+
+```
+Time: 5 to 15 minutes
+Materials: none
+Number: best for 10-30
+Source: Andrea
+```
+
+Everyone starts off in the “egg” stage and has to act like eggs like being in a
+squatting position. Every “egg” will find another “egg” to play rock paper
+scissors with. Play rock paper scissors until someone wins 2 out of 3. The
+person that wins the rps round will then evolve into the next stage, which is
+“chicken,” and has to find another “chicken” to play rock paper scissors with.
+The “losing” person will remain an egg and find other eggs to play rock paper
+scissors with. The stages are egg to chicken to monkey to human then to divine
+being. In each stage, the “losing” person will de-evolve into the previous
+stage or if an egg will remain an egg. So if you lose when you're a chicken,
+then you become an egg again.  Once a person becomes a divine being he/she
+leaves the game and watches.
+Continue until you have a certain number of divine beings agreed upon at the
+beginning of the game.
+
+For example, assume there are 6 people, and they all default start at the
+"egg" stage.  There will be 3 rounds of rock paper scissors total, so
+egg1 - egg2, egg3 - egg4, egg5 - egg6.  There will then be 3 winners, so
+chicken1 egg2 egg3 chicken4 egg5 chicken6, for example.  Then, there will
+be 2 rounds going on, since there are an odd number of chickens and eggs:
+chicken1 - chicken6, egg2 - egg3, while chicken4 and egg5 wait for partners.
+Then when people lose, an example scenario is: egg1, monkey6, chicken2,
+egg3, chicken4, and egg5.  This continues until there are a specific number
+of divine beings you decide upon.
+
+## Human Knot
+
+```
+Time: 15-30 minutes
+Materials: none
+Number: unknown
+```
+
+Start by making a tight circle with a group of 3+ people (the more the better),
+and have each person grab two different people's hands, preferably people across
+from you. This essentially "tangles" everybody into a knot-like structure, and
+the objective of the game is to untangle this knot. You are permitted to talk
+and collaborate, like "Step over so-and-so's hand" or "Go under this person's
+hand." As a final result, everyone should be in a circle, with no crossed-over
+body parts.
+
+The amount of time this activity depends on how fast you can collaborate and
+untangle the knot.
+
+This energizer ends once the knot is untangled, but more rounds can be played if
+desired. Keep time in mind - the time it takes to untangle can vary.
 
 ## Human Pictionary
 
 ```
 Time: 10 min
-Materials: None
-Team Sizes:
+Materials: none
+Team sizes:
 
-  - when 4-8 people, group into teams of size 2
-  - when 9-12 people, group into teams of size 3
-  - when 13+ people, group into teams of size 4 or 5
+- when 4-8 people, group into teams of size 2
+- when 9-12 people, group into teams of size 3
+- when 13+ people, group into teams of size 4 or 5
 ```
 
 - Organize the students get into teams.
@@ -97,8 +234,8 @@ Team Sizes:
 
 ```
 Time: 5 to 15 minutes
-Materials: None
-Number: Best for 10-35
+Materials: none
+Number: best for 10-35
 ```
 
 - Get everyone into a circle
@@ -118,27 +255,117 @@ Number: Best for 10-35
   think "could only apply to them" and when they realize when it applies to
   someone else, bonding happens.
 
-## Evolution Rock Paper Scissors
+## Mumbled Messages
 
 ```
-Time: 5 to 15 minutes
-Materials: None
-Number: Best for 10-30
-Source: Andrea
+Time: 10 minutes
+Materials: none
+Number: unknown
+Source: unknown
 ```
 
-Everyone starts off in the “egg” stage and has to act like eggs like being in a
-squatting position. Every “egg” will find another “egg” to play rock paper
-scissors with. Play rock paper scissors 3 times (one round) to see if either
-wins 2 out of 3. If not, play another round until someone wins a round 2
-out of 3. The person that wins will then evolve into the next stage “monkey” and
-has to find another “monkey” to play rock paper scissors with. The “losing”
-person will remain an egg and find other eggs to play rock paper scissors with.
-The stages are egg to monkey to human then to divine being. In each stage, the
-“losing” person will de-evolve into the previous stage or if an egg will remain
-an egg. Once a person becomes a divine being he/she leaves the game and watches.
-Continue until you have a certain number of divine beings agreed upon at the
-beginning of the game.
+Mumbled Messages is a game where you try to pass around a message and compare
+how it is at the beginning and at the end. People stand in a circle and the
+message gets passed around in the clockwise direction.
+
+Start by having one person, Person A, think of a complicated phrase to say to
+the person on his or her left, Person B. Person A will then whisper that message
+into Person B's ear, and Person B will whisper the message he heard into Person
+C's ear, and so on, until the message gets around to the person on Person A's
+right hand side, Person X. Person X will then say the phrase he thinks he heard,
+and then Person A will say his phrase. Then the group will see how accurate
+Person X's phrase was.
+
+The energizer typically ends after one round (the message has been passed all
+around), but more rounds can be run if necessary.
+
+## Ninja
+
+```
+Time: 10 minutes
+Materials: none
+Number: <15
+Source: http://www.wikihow.com/Play-Ninja
+```
+
+Start with having everyone stand in a loose circle with their eyes closed.
+Select one person from the circle to be the "first to act" by tapping on their
+shoulder.
+
+Once you've selected the first player, have everyone open their eyes and stands
+in the circle with their hands together to mimic a ninja's resting pose (like
+[this](http://pad2.whstatic.com/images/thumb/d/db/Play-Ninja-Step-2.jpg/670px-Play-Ninja-Step-2.jpg)).
+Have everyone jump at the same time and yell "ninja!", while striking a ninja
+pose. The person previously chosen to be the "first to act" makes the first
+move.
+
+The first player decides if they want to attack the player to the left or to the
+right of them. They don't tell the other players, because, as a player, part of
+the fun is not knowing whether you're going to be attacked on the first round.
+
+On attack, the player makes one fluid motion with the goal of hitting/slapping
+the opponent's hand. They can only take one step with one leg or jump towards
+another player with both feet. If they fall, they're out.
+
+The opponent may dodge the attack. While the first player is making their attack
+in one fluid motion, the other player has the opportunity to dodge the attack.
+If the first player hits their opponent's hand, the opponent is eliminated.
+
+Turns keep going in a circle until there are two players left, at which point
+the game restarts with only those two players. They strike their ninja poses and
+take turns attacking each other until there's only one ninja left standing: the
+winner.
+
+## One Word Radio
+
+```
+Time: 15 min
+Materials: none
+Team sizes:
+
+- when 4-9 people, group into teams of 2 or 3
+- when 9+, group into teams no larger than 4
+```
+
+- In this activity, teams of people will be taking turns acting as a radio
+  station.
+- The first team will stand on one side of the room while everyone else (the
+  audience) comes up with a topic on the news.
+- The audience will tell the news team what they have to broadcast.
+- The news team must give a news broadcast one word at a time, switching between
+  each person on the team each word.
+
+> a: Today
+> b: the
+> c: White
+> a: House
+> b: put
+> c: a
+> a: ban
+> b: on
+> c: cookies
+
+## Sharks and Minnows
+
+```
+Time: 5 - 10 minutes
+Materials: Lots of floor space for running
+Number: unknown
+```
+
+- Mark 2 end-zones roughly 8 meters across, 8+ meters away from eachother.
+- In this activity one hacker will start as a shark and all the others will
+  start as minnows.
+  - The shark's goal is to tag the minnows
+  - The minnow's goal is to get into the other safe-zone without being tagged by
+    anyone.
+- The minnows are safe in the end-zone they start on, but when a club leader
+  shouts "swim!" they are only safe on the other end-zone and must run.
+- If a minnow is tagged by a shark, the minnow is now kelp and cannot move.
+- Kelp will try to reach out and tag the minnows as they run past. If a minnow
+  is tagged by kelp, it also becomes kelp.
+
+## Where The West Wind Blows
 
 # Introduction talk
 
@@ -341,7 +568,7 @@ it. This is what hack camp is about.
 
 *Don't Ask For Permission, beg for forgiveness*
 
-Don't ask us whether you can do something or not in hack-camp, just do it. 
+Don't ask us whether you can do something or not in hack-camp, just do it.
 
 Ask us for forgiveness later.
 
@@ -367,28 +594,34 @@ up to you.
 
 ## Breakfast
 
-Plan to eat breakfast as a large group every morning on the roof of the
+Plan to eat breakfast as a large group every morning on the third floor of the
 building.
 
 How to get it going:
 
 1. Assign a leader to set up breakfast while hackers are still arriving.
 2. To set up breakfast, the leader will need to:
-  1. Bring the food we have for breakfast from the third floor to the roof of
-     the building. Our food is in the cabinets below the stove in the kitchen
+  1. Bring the food we have for breakfast from the kitchen to the third floor
+     dining tables. Our food is in the cabinets below the stove in the kitchen
      past the open working space on the third floor (not the kitchen right next
      to the stairs).
-  2. Move tables together on the roof and bring chairs together.
+  2. Move tables together and bring chairs together.
+  3. Bring out an adequate number of plates, bowls, and silverware (use
+     discretion to decide what is adequate).
 3. Once the leader has set up breakfast, and when it's time to do breakfast,
-   have everyone take the stairs to the roof.
+   have everyone take the stairs to the third floor.
 
-The hackers may be pretty quiet during breakfast, especially on the first day,
-we recommend taking this opportunity as a time to engage with them on a more
+The hackers may be pretty quiet during breakfast, especially on the first day.
+We recommend taking this opportunity as a time to engage with them on a more
 personal level and start building community within the cohort. The way we've
 done this in the past is physically dispersing ourselves between the hackers
 during breakfast and initiating conversations with the one or two people sitting
 next to us through asking lots of open ended questions. We haven't had much
 success when trying to engage the entire group in a single large conversation.
+
+Plan to start cleaning up 5 minutes before breakfast ends. Make it clear to all
+of the hackers that they are expected to clean up after themselves, whether that
+means putting their dishes in the dishwasher or disposing of garbage.
 
 ## Lunch
 
@@ -403,7 +636,73 @@ elevators with large groups can get pretty chaotic, especially when going to the
 roof during lunch time (many Galvanize members all trying to get to the lobby
 then).
 
+# Morning Announcements
+
+## Purpose
+
+The purpose of morning announcements is to let the club know that feedback is
+taken into account, and will be acted on throughout the day. This is essential
+because it may not be extremely clear if club leaders are actively trying to
+improve their club through the feedback of others. This also gives a sort of
+"transparency" in the club leadership, as members know what exactly is going on,
+in terms of improvements and/or suggestions.
+
+## Delivery
+
+Morning announcements will take anywhere from 3-5 minutes, and will cover
+feedback that will be acted upon during the day. Not only that, the club leaders
+will also mention the activities that will be happening throughout the day, such
+as project time, demoing, and/or workshops. A way that club leaders may want
+consider when addressing feedback implementation could be something like: "Hey
+everyone, yesterday we got feedback about ______, and today we will be trying to
+improve that by _____." This will reassure club members that they are having a
+say in what direction the club takes.
+
+# Pairing Guidelines
+
+Since there are many ways you can pair people in your club/camp, there are
+several guidelines that should be followed. Organization of this should be
+maintained in a spreadsheet, and partners should be purposely paired for maximum
+efficiency and ability to work together.
+
+## Spreadsheet Creation
+
+You should create a Google Spreadsheet to maintain organization for pairings.
+Spreadsheets allow one to cleanly see each pair, and provide a means of access
+for each person in your leader group. The ability to share and collaborate with
+your team members is ultimately beneficial as it should reduce the number of
+mistakes and incompatible pairs.
+
+## Compatibility and Uniqueness
+
+Pairings will not work out if the partners are not compatible. Skill is
+something to keep in mind, of course, but it is not necessarily the one thing
+that pairings depend on. If a person was sociable and communicated well, but did
+not have much experience coding, a pairing with a more advanced person would
+still be possible because the more advanced person gets teaching experience,
+while the less advanced person can still learn. This may not be true for quiet
+individuals - the pairing is less likely to work, and may result in a less than
+ideal result. It is also seen pairing two people of similar levels is
+beneficial, although one should be able to communicate well.
+
+Uniqueness is also important - no two people should be paired together again
+unless everyone has already been paired with each other. This will help members
+of the club all form bonds with each other.
+
 # Workshops
+
+## General Guidelines
+
+### Breaks
+
+If hackers don't take a break, they will likely get very antsy. We recommend
+doing one of the following:
+
+- Reminding them to take breaks every hour / hour and a half.
+- Saying that you personally find that you become much more productive when you
+  take regular breaks. At Hack Camp, feel free to take a break whenever, we
+  don't want to baby you so we won't remind you.
+- Something else that works best for you.
 
 ## [Portfolio](workshops/portfolio)
 
@@ -413,12 +712,18 @@ then).
 
 ### Running it
 
-- talk about the ratio / schedule of workshops to projects (to illustrate the point that we are only doing these workshops to give you experience to work on your own projects)
-- today you're going to learn how to build a very basic website and learn about the fundamentals of building a website
-- the website we are learning to emulate [looks like this](https://rawgit.com/hackedu/hack-camp/20618752b7afa95bbbc5c5ba80c17874ec5e0a35/cohort_4/playbook/workshops/portfolio/src/final_portfolio/index.html)
+- make sure you follow the [general guidelines](#general-guidelines)
+- talk about the ratio / schedule of workshops to projects (to illustrate the
+  point that we are only doing these workshops to give you experience to work on
+  your own projects)
+- today you're going to learn how to build a very basic website and learn about
+  the fundamentals of building a website
+- the website we are learning to emulate
+  [looks like this](https://rawgit.com/hackedu/hack-camp/20618752b7afa95bbbc5c5ba80c17874ec5e0a35/cohort_4/playbook/workshops/portfolio/src/final_portfolio/index.html)
 - you will be making a simpler version of that
 - some of you already have a lot of experience with HTML & CSS
-  - feel free to skim through or skip the guide and try to emulate the website or work on making a more complex or different website
+  - feel free to skim through or skip the guide and try to emulate the website
+    or work on making a more complex or different website
   - also fee free to use your own IDEs
 - Give a brief overview of HTML, CSS and JS
   - There are 3 components to a webpage
@@ -440,18 +745,114 @@ then).
 
 ## Maestro
 
-TODO
+### Running It
+
+Make sure you follow the [general guidelines](#general-guidelines)
+
+Make sure you show all of the 4 demos at the very beginning to show what you can make.
+
+Tell the hackers to feel free to be able skip through the content that they are already familiar with. This is designed for beginners in mind.
+
+### Link
+
+[Maestro Workshop](https://github.com/hackedu/hack-camp/blob/workshop_2/cohort_4/playbook/workshops/maestro/README.md)
+
+## Instagram
+
+### Running Instagram
+
+#### Before the workshop
+- Be sure to understand the coffee shop example and know when to expect students to ask you questions during the example
+- Make sure you are familiar with how the advanced code in the back works as well.
+
+#### Here are the bullet points of what you might include to preface this workshop
+
+*Before the demo, pull up at least 2 pictures in new tabs that you can copy and paste the URLs of into the demo app.*
+
+- We have done HTML and CSS by itself, we have done javascript by itself, teaches you how to combine them together by building a very simple version of Instagram.
+- Checkout the [demo](http://jsbin.com/cacaqa)
+    - when I click on the button
+    - a popup asks me for a URL for an image to put into Instagram
+    - Here, I have a picture of a cat. I'll copy and paste it's url into the input
+    - and then press ok
+    - viola, the image is not added to the screen.
+    - lets add another picture
+    - I'll copy and paste the URL of a different picture, and then press OK.
+    - and bam, there's another photo
+    - Note that in this simple version of instagram, the pictures are not saved if you closed the window
+    - refresh the page
+    - now see, they are gone.
+- So you'll be learning how to combine HTML & Javascript in this one
+- Also, you'll be learning the fundamental aspects of computer science along the way
+- If you are very familiar with DOM manipulation and this is really easy for you, there's a section with a much more advanced version of what this instagram app could be. Take a look at that code, play around with it, and see if you can make it your own! Definitely don't force yourself to go through what you already know well! Warning: this code is not that simple.
+- It is your call if you want to demo this application (you may consider not demoing it to not demoralize the beginners)
+  - However, if you do demo it, here is the [live demo link](http://rawgit.com/hackedu/hack-camp/instagram/cohort_4/playbook/workshops/instagram/src/index.html)
+  - Step through the application as you demo
+    - open the application up in multiple windows
+    - enter all the phone numbers of all the students (have a listing of phone numbers prepared ahead of time so you can quickly copy and paste)
+    - go and upload a picture
+    - then do it from mobile too
+
+### Instagram Readme
+[Instagram Readme](workshops/instagram/README.md)
 
 # Demos
 
 Demos are the hackers' chance to show off what they have been putting so much
-time and effort into for the past day.
+time and effort into for the past day or two.
+
+If they started their projects earlier in the day, then the demo is considered a
+_mini-demo_ and hackers are encouraged to show their current work in progress.
+If it's the second day they've been working on their project, then the hackers
+are encouraged to show a minimum-viable-product (MVP) of their project. Ideally
+this would be somewhat functional and demonstrate base functionality.
 
 - Presentation order depends on who volunteers.
 - Each team should start off with something they failed at
   - Make sure to give context by explaining the basic overview of the app and
     why this is a failure
 - After presenting something they failed at, they can show off what they made
+
+## Whiteboard information
+
+During demos it can be hard for hackers to remember what they must include in
+their presentation. To help hackers keep this in mind it is good to have a
+whiteboard within view that includes the steps to giving a demo.
+
+Step-by-step instructions for presenting:
+
+1. Start showing your project being used.
+2. Talk about how your project works.
+3. Something you have failed at (and optionally how you will resolve it).
+4. Something you have learned by doing this project.
+
+It can also be hard to remember how to give feedback. Make sure the hackers can
+see these tips (on a whiteboard) when writing their feedback:
+
+- Don't be afraid to point out failures or flaws; this feedback is annonymous.
+- Try to have something presenters can improve on, and something they did well.
+- Feedback helps hackers get better at presenting. The more the better.
+- Ask yourself if you had just presented the same thing, what feedback would you
+  like to be given.
+
+## Links
+
+Before kicking off demos, we'll want to collect links to all of the web projects
+from the hackers in the Slack. To do just, just send out a message along the
+lines of the following:
+
+    3:20 PM <zrl> @channel: Hey all! The time has come to collect links to your
+                  projects. If you have a project that works on the web, please
+                  just paste a link to it here. Don't hesitate to ask us for
+                  help doing that!
+
+Ideally all links would be collected by 10 minutes before demos start, giving a
+good buffer if any hackers run into errors getting their projects online.
+
+If their project is not a web project, we recommend using a Google Hangout on
+the computer connected to the projector and the computer they developed on and
+using screen sharing to share their work. It's certainly less than ideal, but it
+has worked in the past.
 
 ## First-time demos
 
@@ -471,6 +872,20 @@ Common practices to avoid when demoing:
 8. Use the mouse pointer to point to what you say you changed but don't change
    anything.
 
+It may also be helpful to give an idea of what a demo may look like. The
+following contains a quick bullet point list overview.
+
+- Hey everyone! I'm Zach and I built Yelp for Yelp Reviews.
+- Yelp for Yelp Reviews is a _transformative_ application that empowers users to
+  rate, on a scale from 1 to 5, other reviews on Yelp.
+- Let's jump right into it and pull up the reviews for "Super Duper Burgers" in
+  San Francisco.
+- Ouch! This 3 star review says that they aren't a pickle person. I'm going to
+  do Super Duper justice and rate their review 1 out of 5.
+- And there we go! We can see that our rating was created and that original
+  review is now rated 1 out of 5.
+- And that's Yelp for Yelp Reviews! Thank you.
+
 ## Giving feedback
 
 Feedback helps hackers improve their presentation and demo skills. To keep demos
@@ -486,7 +901,12 @@ shouted out after the demo.
 # Freeform Projects
 
 This assumes the hackers are already in groups and have decided what to work on.
-If they have not yet, refer to [Brainstorming](#brainstorming).
+If they have not yet, refer to the [freeform projects](#freeform-projects)
+section.
+
+Every set of freeform time for projects culminates in a demo by the end of the
+day. See the [demo section](#demos) for more details, including what hackers are
+encouraged to have finished.
 
 ## Scoping and concept
 
@@ -507,55 +927,155 @@ If they have not yet, refer to [Brainstorming](#brainstorming).
 
 ## Facilitating
 
-- Rotate between hackers often. Don't hover over one hacker unless they have a
-  specific question that you are helping them with.
+Rotate between hackers often. Don't hover over one hacker unless they have a
+specific question that you are helping them with. We recommend biasing towards
+giving them more freedom and autonomy than less.
 
-## Answering questions
+Sometimes hackers will need to be prompted to ask questions. We recommend
+prompting them by asking things like the following when checking in.
 
-- Sometimes hackers will need to be prompted to ask a question. You can prompt
-  them by asking things like:
+> How is it going?
+> What can I do to be helpful?
 
-  > How is it going?
-  > What can I do to be helpful?
+## Answering Questions
 
-- If a hacker does need help, make sure you have a clear understanding of the
-  problem before answering.
-  - Let the hackers lead the conversation so they can build up their experience
-    with working on projects. Ask questions like:
+Before helping resolve questions, we recommending doing your best to
+have a clear understanding of the problem (ex. the hacker expects clicking the
+button on the form to create an alert, but when they click it, no alert is
+created). We've found that sometimes hackers, especially beginners, will ask a
+question seemingly unrelated to the actual problem they're trying to solve
+(perhaps not knowing the correct terminology plays into this).
 
-    > So what do you want to do now?
-    > Could you phrase that more specifically?
+While resolving a question, we recommend letting the hackers lead the
+actual problem solving so they can build up their experience solving problems
+independently. We encourage you to ask open ended questions to help drive the
+conversation in the right direction, but the hacker should have the wheel.
 
-- Don't correct things that they discovered on their own immediately otherwise
-  they will think that everything that they discover is wrong.
-  - It's okay to have sub-optimal code when learning.
-- Things that are interesting to a club leader might not be interesting to
-  hackers. Be careful to not lecture about anything that is not directly
-  relevant to the hackers.
-  - A club leader's role during project time is to help the hackers solve their
-    own problems. Aim for spending the least time with a hacker as possible.
-    - If another hacker can help out, let that happen. Optimize for the least
-      club leader time per student possible.
+We also recommend avoiding answering questions directly. Instead, we recommend
+helping hackers find the answer on Google to also build experience solving
+problems independently. If you think they'd have trouble finding the something
+on Google (ex. if they don't know about the existence of the JavaScript
+console and it's the tool they need), then feel free to explain it to them
+directly. Use your discretion for when to do this.
 
-# Brainstorming
+Biasing for searching the web also works well if the hacker you're working with
+has more experience than you. We've found that going in with the mindset of
+"let's solve this together" instead of "I'm going to help you solve this" has
+been helpful.
+
+A couple more recommendations:
+
+- Let the hackers fail. If they find something independently that you know won't
+  work (ex. some bad JavaScript from w3schools or StackOverflow), let them try
+  it out and discover that it doesn't work on their own.
+- Along the lines of what's above, it's okay to have sub-optimal code when
+  learning. Let them discover technical debt on their own.
+
+### Example
+
+Let's take a quick look at what we'd recommend doing when helping a hacker:
+
+    <hacker> The button isn't working.
+    <leader> What do you want the button to do?
+    <hacker> I want it to show an alert when clicked.
+    <leader> And what does it currently do when clicked?
+    <hacker> Nothing.
+
+Boom, we just identified the problem. They want a button on the page to show an
+alert when clicked, but, when they click it, nothing appears to happen.
+
+    <leader> Alright. Are there are errors in our code?
+    <hacker> Maybe?
+    <leader> How might we find out?
+
+At this point, the hacker may know they can check the JavaScript console to see
+errors on the page. If they don't know about the console, now might be a good
+opportunity to explain it (or bring up how they used it in a previous workshop,
+if they have). In this case, we're going to assume the hacker has used the
+JavaScript console and knows they can use it to see errors on the page.
+
+    <hacker> We could check the console.
+    <leader> Cool, let's do that.
+    ...
+    <leader> Does the console say we have any errors in our code?
+    <hacker> Yeah, it looks like there's one.
+    <leader> What is it?
+    <hacker> "button is undefined"
+
+Alright, so we probably won't have much luck if we have them search for "button
+is undefined" directly. At this point, we may want to guide them with open ended
+questions to search for something a bit more specific.
+
+This specific example ends here, but hopefully it gives a preliminary idea of
+what we recommend answering questions should look like.
+
+# Project Formation
+
+In the workshop / projects model, three quaters of a hacker's time is spent on
+their projects. Project formation sets the foundation of a good project.
+
+Here are the steps to project formation:
+
+1. Forming groups [2 mins]
+2. Yes-and sessions [5 minutes]
+3. Brainstorming [23 mins]
 
 ## Forming groups
 
-- Assign people to groups.
-  - There are social pressures between friends when forming groups. Start by
-    assigning the hackers to random groups.
-  - If any problems arise in a group handle it on a case-by-case basis.
+### Pre-Work
 
-First-day group pairs can be found at:
-https://docs.google.com/spreadsheets/d/1EAvdMve4Fro-xvWt3OeV7YDr4HOKDhPuAyX1oFoLqcw/edit?usp=sharing
+Follow the guidelines for pairing in [Pairing-Guidelines](#pairing-guidelines).
+
+Make sure that the spreadsheet with the information for pairing
+
+- is in a location that everyone knows about
+- is easily accessible
+- is open before getting the campers attention
+
+### During Hack Camp
+
+```
+Time: 2 mins
+Materials: The spreadsheet with the pairings you've made in it
+```
+
+- Get people psyched that they get to work on building their own projects
+- Remind them of some of the following without sounding repetitive
+  - projects are awesome
+    - because you get to create what you see missing in the world
+    - you get to really hone your skills when you build a project
+  - working on people who are at different skill levels improves your skills
+    - if you are less experienced than your partner
+      - you can pick their brain and watch how they do things
+      - be corrected on how you do things
+    - if you are more experienced than your partner
+      - you get to test and synthesize your knowledge of the subject by being
+        having to explain it to someone else.
+      - the famous Richard Feynman
+        [pretended he was teaching a new student](http://www.scotthyoung.com/learnonsteroids/grab/TranscriptFeynman.pdf)
+        to help him pinpoint the exact details of what he didn't understand.
 
 ## Yes-and sessions
 
-- "Yes-and" sessions are exercises that help people get out of a judgmental
-  mindset before brainstorming
-  - In a "Yes-and" session, pairs of hackers build off each-others' ideas to
-    create long, completely nonsensical ideas
-- To run a "Yes-and" session, start with an example between facilitators
+```
+Time: 5 mins
+Materials: The spreadsheet with the pairings you've made in it
+```
+
+
+- One of the biggest inhibitors to a successful brainstorming session (instructions
+  on how to run brainstorming below) is that people turn down the ideas of
+  others as well as their own ideas before they can even see the light of day.
+- "Yes-and" sessions are exercises from the improv world that help people get
+  into a a mindset of non-judgment and therefore creativity before
+  brainstorming which will help help them not turn down ideas.
+- Note that the Yes-and session is NOT the actual brainstorming activity itself.
+- In a "Yes-and" session, pairs of hackers build off each-others' ideas to
+    create long, completely nonsensical ideas. And since a partner must go along
+
+### Running a Yes-and session
+- Start with a live example between facilitators (yes, actually do a live
+  example each time)
   - ex: https://youtu.be/Qe2a3ppacUk
   - ex: between person A and person B:
 
@@ -565,32 +1085,129 @@ https://docs.google.com/spreadsheets/d/1EAvdMve4Fro-xvWt3OeV7YDr4HOKDhPuAyX1oFoL
     > A: Yes, and there won't be enough food for the unicorns
     > B: So they'll build a spaceship to search for new planets to colonize!
 
-- Have the hackers jump into a "Yes-and session" for 4 minutes then let
-  volunteer to present the stories that unfolded.
+- tell the hackers to stand up
+- tell hackers to be in their pairs
+- briefly remind the hackers why we are doing a yes and session
+  - to help your creativity flow by stopping judgment
+- verbally remind them to
+  - go along with whatever their partner says
+  - to say the first thing that pops into their heads not have judgment
+- Have the hackers jump into a "Yes-and session" for 4 minutes
+- wander around the groups and listen in on the sessions as people are doing
+  their yes-ands
+  - if there is any group that has failed to start or is very quiet
+    - help get them started by saying something like
+      - "Just say the first thing that comes to your head!"
+    - however, don't actually help them by choosing a topic, they need to do
+      that
+- Start passing out sticky notes and thicker tip pens for the brainstorming
+  activity now.
+    - each individual person should have
+      - 1 sticky note pad (try to have partners have different colored pads)
+      - 1 ideally think pen (not pencil)
+- give them a 45 second warning before coming to a close
+- then at the end ask something like "Does anyone want to share any crazy
+  stories that happened?"
 
 ## Running a brainstorm session
 
-- Remind the hackers how brainstorming works
+### Part 1: Generating as many ideas as humanly possible
 
-  1. THERE ARE NO BAD IDEAS IN BRAINSTORMING
-  2. Go for quantity of ideas
-  3. Write down your ideas on post-it notes
-  4. Say an idea out loud when writing it down
+```
+Time: 13 mins
+Materials:
 
-## After a brainstorm
+- Individual sticky pad for each person
+- try to have different colored sticky pads per person
+- a pen to write with (ideally having a thinker point)
+```
+
+
+People should be energized now from their Yes-and sessions
+
+- Make sure hackers remain standing
+- Make sure each *individual* hacker has
+  - their own pad of sticky notes (try to have partners have different colored
+    pads so that you can tell if a person in a group is not producing stickies)
+  - their own pen (ideally thick pen)
+- Explain how brainstorming works (you want to remind people by explaining how
+  to do this each and every time). Make sure you say **each and every** one
+  of the below points:
+  - make sure that you have
+    - your own pad of sticky notes
+    - a pen
+    - you should have one pad of sticky notes in one hand and a pen in the other
+    - (as you say this demonstrate holding a one in one hand and a pad of
+      sticky notes in the other)
+  - * say the below a very enthusiastic and passionate voice *
+  - * particularly **emphasize** the words in **bold** *
+  - you want to go for ***quantity***, not quality
+  - write ***any*** idea  you have down
+  - do not judge any of your ideas
+  - you want to write down anything that comes to your mind
+  - just like in "Yes-and", you can build off your partner but you don't have to
+  - as you write the idea down, say the idea out loud so your partner can hear
+    you
+  - *demonstrate the above by actually writing at least 3 sticky notes down*
+    - here are some ideas
+      - "tinder for cats"
+      - "remind me to call mom"
+      - "free food finder"
+    - make sure you
+      - write the idea
+      - say the idea out loud
+      - vigorously slam it down on the table for emphasis
+  - You can then emphatically say "GO!"
+- Now your job is to monitor the pairs brainstorming
+  - you want to focus your attention on individuals / groups who are producing
+    a low amount of sticky notes and urge them along
+  - you might go up to the group / individual and say some of the following
+    - I notice that you don't have too many sticky notes, what are you thinking?
+    - Just put down the first thing that comes to your head, there are no bad
+      ideas
+    - if you're very comfortable with the person, you might in a joking tone,
+      say "dude, you guys got to up their game, look at how many sticky notes
+      that other team has.
+    - go, go, go, go, moar sticky notes!
+  - if you notice that people in a pair are imbalanced at producing sticky notes
+    (you will notice this if pairs have different colored pads)
+    - help the one with less sticky notes in the same way as above.
+- generally try to refrain from adding your own ideas to a brainstorm but
+  sometimes even with a lot of encouragement and enthusiasm, a group doesn't
+  come up with enough sticky notes and you can help them suggest ideas
+- If done right, each pair should produce around 25 - 50 post it notes in one
+  brainstorming session.
+
+### Part II: Filtering the ideas
 
 - This is when you can start sorting and judging the ideas
-  - Group post-it notes into similar concepts or ideas
+  - You can group post-it notes into similar concepts or ideas
+  - or just pick out your favorite
 - Hackers should chose two or three ideas they are interested in working on.
 - Organizers can help them narrow their final decision down to one idea.
   - It is important that organizers review project ideas before hackers start
-    working
-- Explain the concept of MVP and help the hackers scope their project
-  - Building a large project can take a long time. We want to build the least
-    amount that we have to in the next day, so we'll only build the core
-    features
-  - Organizers must make sure the scope of the project is something the hackers
-    can handle in the time they are given.
+    working.
+    - Explain the concept of MVP and help the hackers scope their project
+    - Building a large project can take a long time.
+    - Organizers must make sure the scope of the project is something the hackers
+      can handle in the time they are given.
+    - If you notice that the scope is too large, you might say some things like
+      - "Well this idea might take a grad student 2 years to build, this other
+        one however"
+      - You can also try to get them to see the scope themselves: "Hm, what
+        steps do you think you could take on this? Oh, how long do you think
+        that would take?" and hopefully guide them to the answer.
+      - Ideally though, you'd let the hackers fix scope themselves because that
+      is a skill in and of itself. You want to try to be as hands off as
+      possible if you think it would be a net positive.
+      - Use your discretion whether you think a team would benefit from scope
+      pruning now, or later. Depending on the idea, there may be no way to
+      re-scope the project later and the team will need to pick a new project.
+      Also a team may be very strong and can iterate and pivot ideas very
+      quickly in which case this wouldn't be a problem. However, there may be a
+      team that would significantly lose morale if this was brought up later.
+- By the end of the brainstorming session, the ideas should be widdled down to
+  just one idea.
 
 # "I have failed" activity
 
@@ -598,8 +1215,8 @@ This activity will:
 
 - Enable people to acknowledge their failures because they know that the
   response they will be met with support, not judgment
-- It gives everyone else an appropriate response when someone fails so they
-  know what to do.
+- It gives everyone else an appropriate response when someone fails so they know
+  what to do.
 
 Demos will involve failing in front of the whole club. This activity is a good
 preface to get the hackers into a positive mindset about public failure. It is
@@ -624,6 +1241,45 @@ Here are good example failures that haven't been resolved:
 
 # Feedback Forms
 
+At the end of each day we want to collect feedback from the hackers to see what
+did/didn't do well and understand how the hackers feel about camp as it
+progresses. The feedback may also be helpful to diagnose issues with certain
+parts of camp (ex. the second workshop was particularly difficult and many
+people got lost and felt frustrated the day after).
+
+When giving the feedback forms to the hackers, it is _very important_ that the
+hackers feel that giving feedback is important. We don't want them to feel like
+they're filling out the forms to appease us. Rather, we want them filling out
+the forms because they want camp to be as good as possible and they know that
+giving valuable feedback improves camp for everyone.
+
+Making hackers feel like giving feedback is important can be broken down into
+two parts:
+
+1. Telling them why we want their feedback
+2. Actually acting on their feedback and _showing_ that it makes a difference
+
+When it comes time to send out feedback forms to everyone, we recommend saying
+something along the lines of:
+
+> Hey everyone! We're going to send out a link to a feedback form for today. We
+> want to do _everything we can_ to make camp as good as possible and we can't
+> do this without you.
+>
+> Please be as harsh and critical as you feel comfortable, we are going to do
+> everything in our power to make this a great experience for each and every one
+> of you.
+
+Before going into the [post-mortem](#post-mortem) at the end of the day, we
+highly recommend reviewing the feedback from the hackers and bringing up any
+points of feedback that stand out to you in the post-mortem so it can be acted
+on.
+
+A quick note about the feedback forms: one of the fields, the anonymous
+passphrase, lets us track an individual's feedback day-to-day without knowing
+their name. _Make sure that hackers use the same anonymous passphrase each day_.
+An explanation of what this field is in day 1's feedback form (linked below).
+
 All of the feedback form responses will be put into the appropriate sheet in
 https://docs.google.com/spreadsheets/d/1D8y_UB11C4QrXB9kn86-UqVQQqT9FUDqftx1AMHIb3o.
 
@@ -633,6 +1289,8 @@ https://docs.google.com/spreadsheets/d/1D8y_UB11C4QrXB9kn86-UqVQQqT9FUDqftx1AMHI
 |   2 | https://docs.google.com/a/zachlatta.com/forms/d/1_9K3b4Nwgn3-mFqMrrUObwiMHt_53y9LVNyCQAULn7I |
 |   3 | https://docs.google.com/a/zachlatta.com/forms/d/1kgCrsPuTFJ-404JdpFo3acomXmwvTIOJHXzOp_NoUeI |
 |   4 | https://docs.google.com/a/zachlatta.com/forms/d/1ASfJdmXGUVRdGJR6rmzedDQ2EDEL7Hc11JD0xjBJMp8 |
+|   5 | https://docs.google.com/a/zachlatta.com/forms/d/1QL1IM9xi2GcU71Rr9dihDpJItRAsl9aA2mkH7jM2lm8 |
+|   6 | https://docs.google.com/a/zachlatta.com/forms/d/1y7WLP55aigI7Kf90wiy9z41xnqem-ltmT0myXJINzH0 |
 
 # Finishing off the day
 
@@ -645,6 +1303,35 @@ We generally do two final things to finish off the day.
    put our hands in, and, on three, all yell "Hack!"
 
 ![](img/hack_cheer.gif)
+
+# Post-mortem
+
+The post-mortem is a meeting between everyone involved in running Hack Camp and
+is our opportunity to review the day and plan for the next.
+
+During the post-mortem we'll visit each row in the schedule for the day (see
+[`SCHEDULE.md`](SCHEDULE.md) for the daily schedules) and have everyone in the
+meeting share any tasks they want to do as a result of that row in the schedule.
+If it's decided to do the task, then it'll be recorded in task list and assigned
+at the end of the meeting.
+
+For example, if the following is the schedule for the day:
+
+| Time     | Activity     |
+| -------- | ------------ |
+| 9:20 AM  | Energizer    |
+| 9:45 AM  | Breakfast    |
+| 10:15 AM | Project time |
+
+The agenda for the post-mortem will be:
+
+1. Energizer
+2. Breakfast
+3. Project time
+
+We'll be doing our best to keep the post-mortems as brief as possible, so
+_please come prepared with what you want to bring up for each item in the
+post-mortem's agenda_.
 
 # Using Slack
 
@@ -660,7 +1347,88 @@ changes.
 ## Asking for help
 
 If a hacker says `slackbot help` in anywhere besides a PM in the Slack, all of
-the technical mentors for Hack Camp will be pinged. If you'd like to be
-added/removed from the list, let [@zachlatta](https://github.com/zachlatta) know
-and he'll get right on it (say `slackbot help` somewhere in the chat to see
-who's on the list).
+the technical mentors for Hack Camp will be pinged. For example:
+
+```
+> 3:35 PM <mahahahajan> slackbot help
+> 3:35 PM <slackbot> gemma jonleung maxw rolandocruz saescapa selynna zrl
+```
+
+If you'd like to be added/removed from the list, let
+[@zachlatta](https://github.com/zachlatta) know and he'll get right on it (say
+`slackbot help` somewhere in the chat to see who's currently on the list).
+
+# Communicating with the Group
+
+In this modern day and age, we're fortunate to have _not one_, _**not two**_,
+**but THREE** methods of communication in camp.
+
+1. Announcing to the whole group
+2. Sharing an announcement to each hacker individually
+3. Using `@channel` on Slack
+
+_But when do we use these marvelous methods of communication, you ask?_
+
+## Announcing to the Whole Group
+
+Say you're about to begin lunch and you need everyone's attention pronto. This
+is the perfect opportunity to use that first method of communication: making an
+announcement to the whole group.
+
+The first rule of speaking to groups: **SPEAK LOUDLY**.
+
+If you're not used to speaking loudly, speak so loud you feel uncomfortable with
+the volume of your voice (it may even hurt a little). Speaking loudly is the
+first step to effective communication to groups. If people can't here you, it
+doesn't matter what you're saying -- half the group will never hear it.
+
+Got the _loud_, **BOOMING** voice thing down? Perfect. Next step: make sure you
+have everyone's attention while speaking. Someone not paying attention? Wait for
+them to start listening to you before continuing.
+
+Announcements to the whole group, while they may be quick and easy, are a
+dangerous tool. Be wary of interrupting hackers if they're working independently
+and especially use it with caution during project time.
+
+## Sharing Announcements Individually
+
+Oh no! You were about to start the workshop, but it seems like nearly half of
+the hackers are having trouble connecting to the internet. Have no fear! The
+second communication method---sharing announcements individually---is here!
+
+When sharing an announce to each hacker individually, go hacker to hacker and
+let them know what's going on. In this case, we'd say that some hackers are
+having trouble connecting to the WiFi and ask if they were experiencing any
+issues themselves. If so, we'd work with them individually to get those issues
+resolved before moving on to the next hacker. If multiple leaders are available,
+it may be worth having multiple leaders go around the room doing this.
+
+This type of communication is best when an announcement may affect some, but not
+all, of the hackers and you don't want to interrupt everyone to share it.
+
+## Slack Announcements
+
+Ah! Last, but most certainly not least, we have making Slack announcements.
+Slack, like many other pieces of software, is really quite a neat creation.
+Hackers can message others and send emoji with relative ease, all while
+continuing to hack away on their creations.
+
+Slack has a very nifty feature that lets us send a notification to everyone in
+the channel by including `@channel` in our message.
+
+A couple examples:
+
+    3:53 PM <selynna> @channel: post links here! @alexfine that's fine
+    11:02 AM <saescapa> @channel: Here is today’s workshop! https://git.io/vOKNK
+    12:03 PM <selynna> @channel: hey all! did you bring lunch?
+
+Slack announcements are great for pretty much everything that isn't covered by
+the first two communication methods. They're non-intrusive, so you're not
+interrupting anyone, and they're very easy for the hackers to respond to.
+
+Want to give everyone a heads up about lunch happening in 30 minutes? _Slack._
+
+Want to send a link to everyone? _Slack._
+
+Was there an event at Galvanize that had some extra food and offered it to our
+hackers? _Slack._

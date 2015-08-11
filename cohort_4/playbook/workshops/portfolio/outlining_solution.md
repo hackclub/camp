@@ -134,7 +134,7 @@ It is useful:
 
 For the upcomming sections, we're just going to focus on Part 1. 
 
-![](img/final_screenshot_0.png)
+_TODO: Link final screenshot 0_
 
 Part 2 is optional can be done at home at your liesure.
 

@@ -1,0 +1,48 @@
+#!/bin/bash
+#
+# This script iterates through all of the .md files in `git ls-files` and checks
+# for missing links. Right now it only checks links to files, and not URLs or
+# headings in files, though that functionality can be added down the line.
+#
+# It's still pretty janky, and will probably only work on Linux machines. If you
+# run into any issues or have any comments/questions/concerns, please file an
+# issue!
+
+URL_REGEX='(https?|ftp|file)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]'
+HAS_MISSING_LINK=false
+
+IFS='
+'
+
+# This unholy line starts iterating through all of the .md files in `git
+# ls-files`. The crazy grep regex grabs the destination of all of the markdown
+# links, and then the sed at the end uses tabs as separators between the
+# filename, line number, and result instead of the default : in grep.
+#
+# Example line from this:
+#
+# ./cohort_4/playbook/SCHEDULE.md	22	ACTIVITIES.md#a-heading
+for line in $(git ls-files | grep '\.md$' | xargs grep -noP '\[.*\]\(\K.*?(?=\))' | sed -e 's/:/\t/' -e 's/:/\t/'); do
+  file=$(echo $line | cut -f1)
+  dir=$(dirname "$file")
+  line_num=$(echo $line | cut -f2)
+  # The regex at the end of this strips any heading links
+  link_dest=$(echo $line | cut -f3 | sed "s/#.*$//")
+
+  # Only check if the link is not a URL and if it's not empty
+  if [[ ( ! $link_dest =~ $URL_REGEX ) && ( ! -z "$link_dest" ) ]]; then
+    linked_path=$(readlink -f "$dir/$link_dest")
+
+    # Check of the linked path is either an existing file or directory
+    if [[ ( ! -f "$linked_path" ) && ( ! -d "$linked_path" ) ]]; then
+      HAS_MISSING_LINK=true
+      >&2 echo "$line_num:$file	'$link_dest' does not exist!"
+    fi
+  fi
+done
+
+if [ $HAS_MISSING_LINK = true ]; then
+  exit 1
+fi
+
+echo "No broken links!"

@@ -1,6 +1,3 @@
-general:
-  build_dir: unrejector
-
 machine:
   timezone: America/Los_Angeles
   services:
@@ -9,6 +6,17 @@ machine:
 dependencies:
   pre:
     - sudo service docker stop; sudo curl -L -o /usr/bin/docker 'http://s3-external-1.amazonaws.com/circle-downloads/docker-1.6.0-circleci'; sudo chmod 0755 /usr/bin/docker; sudo service docker start; true
+  cache_directories:
+    - unrejector/vendor/bundle
+  override:
+    - bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --jobs=4 --retry=3:
+        pwd: unrejector
+
+test:
+  override:
+    - ./meta/bin/check_markdown_links
+    - bundle exec rspec --color --require spec_helper spec --format progress:
+        pwd: unrejector
 
 deployment:
   hub:
