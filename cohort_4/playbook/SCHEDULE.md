@@ -155,9 +155,9 @@ partners. Please do make sure to explain _why_ we are assigning hackers
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:00 AM | [Instagram Workshop](ACTIVITIES.md#instagram)                |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
-| 1:00 PM  | [Energizer 3](ACTIVITIES.md#bad-startup-ideas)               |
-| 1:20 PM  | [Project Formation](ACTIVITIES.md#project-formation)         |
-| 1:50 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
+| 1:30 PM  | [Energizer 3](ACTIVITIES.md#bad-startup-ideas)               |
+| 1:50 PM  | [Project Formation](ACTIVITIES.md#project-formation)         |
+| 2:10 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 3:50 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
 | 4:00 PM  | [Demos](ACTIVITIES.md#demos)                                 |
 | 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
@@ -203,9 +203,9 @@ coders work through the todo workshop.
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:00 AM | Workshop (there are two options, see above for details)      |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
-| 1:00 PM  | Energizer 3                                                  |
-| 1:20 PM  | [Project Formation](ACTIVITIES.md#project-formation)         |
-| 1:50 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
+| 1:30 PM  | Energizer 3                                                  |
+| 1:50 PM  | [Project Formation](ACTIVITIES.md#project-formation)         |
+| 2:10 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 3:50 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
 | 4:00 PM  | [Demos](ACTIVITIES.md#demos)                                 |
 | 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
