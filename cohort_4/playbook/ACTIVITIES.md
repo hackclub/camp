@@ -757,13 +757,19 @@ doing one of the following:
 
 Make sure you follow the [general guidelines](#general-guidelines)
 
-Make sure you show all of the 4 demos at the very beginning to show what you can make.
+Make sure you show all of the 4 demos at the very beginning to show what you can
+make.
 
-Tell the hackers to feel free to be able skip through the content that they are already familiar with. This is designed for beginners in mind.
+Tell the hackers to feel free to be able skip through the content that they are
+already familiar with. This is designed for beginners in mind.
+
+Also, do the demos inside of this project using Google Voice. You want to be
+able to recieve text messages and phone calls on your Google Voice number
+so that people can see it on the screen as you demo it.
 
 ### Link
 
-[Maestro Workshop](https://github.com/hackedu/hack-camp/blob/workshop_2/cohort_4/playbook/workshops/maestro/README.md)
+[Maestro Workshop](workshops/maestro)
 
 ## Instagram
 
