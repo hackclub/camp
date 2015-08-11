@@ -20,11 +20,6 @@ you're not sure.
 
 ## Are you already familiar with this?
 
-<!--TODO:
-      - Check to see if you can actually receive multiple messages
-      - add other examples
--->
-
 Some potential challenge projects:
 
 - build a group messaging SMS app
@@ -101,13 +96,13 @@ In the below examples, I'm going to only show the
 
 #### Then after we add our first image, the `<div>` tag looks like this
 
-<!--TODO: insert screenshots here-->
-
 ```html
 <div id="photos">
   <img src="http://i.imgur.com/BdbsV4F.png">
 </div>
 ```
+
+![](img/1.png)
 
 #### Then after we add our second image:
 
@@ -118,6 +113,8 @@ In the below examples, I'm going to only show the
 </div>
 ```
 
+![](img/2.png)
+
 #### Then after we add our third image:
 
 ```html
@@ -127,6 +124,8 @@ In the below examples, I'm going to only show the
   <img src="http://i.imgur.com/mukgIPn.png">
 </div>
 ```
+
+![](img/3.png)
 
 ### Summary of the Instagram app
 
@@ -602,6 +601,8 @@ We'll want to add an `<li>` tag to the `<ul>` like so:
 </ul>
 ```
 
+![](img/a.png)
+
 Then if I send another message:
 
 ```
@@ -616,6 +617,8 @@ We'll want to add another `<li>` tag
   <li>Jonathan: How are y'all doing?</li>
 </ul>
 ```
+
+![](img/b.png)
 
 ## Project Setup Challenge
 

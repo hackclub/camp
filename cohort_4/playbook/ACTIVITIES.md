@@ -799,9 +799,35 @@ Tell the hackers to feel free to be able skip through the content that they are 
 
 ## Messenger
 
-### Readme
-[Messenger Readme](workshops/messenger/README.md)
+### Running It
 
+#### Before the presentation
+
+Pull these links up in new tabs:
+
+- [Instagram Live Demo](http://output.jsbin.com/cacaqa)
+- http://i.imgur.com/uDCThVk.png
+- http://i.imgur.com/kPo7B3o.jpg
+- [Messenger Live Demo](https://rawgit.com/hackedu/hack-camp/50b54d2436ff15679735ca5c8c50d7ee2ff7b744/cohort_4/playbook/workshops/messenger/src/index.html)
+
+#### Communicate the following to the hackers
+
+- _{Show the Instagram Live Demo}_
+- the other day you built this
+-  you learned how to create HTML elements with
+  JavaScript
+- _{Run the Instagram App with the two photos}_
+- this workshop will review what you learned in the Instagram workshop and be
+  applying your skills to building a Messenger app
+- _{Show the Messenger App}_
+- _{Send some messages on the messenger app}_
+- This tutorial will comprehensively go through the Instagram application line
+  by line and we'll challenge you to build the Messenger application afterwards.
+
+
+### Readme
+
+[Messenger Readme](workshops/messenger/README.md)
 
 # Demos
 
