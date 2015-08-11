@@ -41,7 +41,8 @@ Instagram workshop.
 
 We're going to do a deep dive into this application to make sure we understand
 how it works. If you're already intimiately famailiar with the code, feel free
-to skip the Instagram related section and [go here](#recap) and answer the questions to make sure you comprehend it.
+to skip the Instagram related section and [go here](#recap) and answer the
+questions to make sure you comprehend it.
 
 ### Breaking it down
 
@@ -258,7 +259,8 @@ window.onload = function() {
 We have a URL to the image we want to display but we don't have an image element
 yet so we need to create one.
 
-We can use the `document.createElement` function to create a new HTML element. here's how we use it:
+We can use the `document.createElement` function to create a new HTML element.
+here's how we use it:
 
 If we want to create a `<p>` tag, we would write
 
@@ -1176,7 +1178,8 @@ This code is very similar to the code used in "[Creating the image element and s
 
 ```
 
-Use Google and or review the code in try to figure out how to create a new `<li>` element.
+Use Google and or review the code in try to figure out how to create a new
+`<li>` element.
 
 Hint:
 - for the <img> tag, you needed to set the src
