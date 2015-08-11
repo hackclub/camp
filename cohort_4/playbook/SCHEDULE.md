@@ -182,3 +182,21 @@ partners. Please do make sure to explain _why_ we are assigning hackers
 | 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
 | 4:45 PM  | [Post-mortem (ending at 5:30 PM)](ACTIVITIES.md#post-mortem) |
 
+## Day 5
+
+| Time     | Activity                                                     |
+| -------- | ------------------------------------------------------------ |
+| 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
+| 9:20 AM  | Energizer 1                                                  |
+| 9:30 AM  | Energizer 2                                                  |
+| 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
+| 10:00 AM | Messenger Workshop                                           |
+| 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
+| 1:00 PM  | Energizer 3                                                  |
+| 1:20 PM  | [Project Formation](ACTIVITIES.md#project-formation)         |
+| 1:50 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
+| 3:50 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
+| 4:00 PM  | [Demos](ACTIVITIES.md#demos)                                 |
+| 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
+| 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
+| 4:50 PM  | [Post-mortem (ending at 5:30 PM)](ACTIVITIES.md#post-mortem) |
