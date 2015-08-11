@@ -182,7 +182,10 @@ partners. Please do make sure to explain _why_ we are assigning hackers
 | 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
 | 4:45 PM  | [Post-mortem (ending at 5:30 PM)](ACTIVITIES.md#post-mortem) |
 
-## Day 5
+## Day 7
+
+*note: energizers for day 7 are in*
+ https://github.com/hackedu/hack-camp/issues/426
 
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
@@ -190,7 +193,7 @@ partners. Please do make sure to explain _why_ we are assigning hackers
 | 9:20 AM  | Energizer 1                                                  |
 | 9:30 AM  | Energizer 2                                                  |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
-| 10:00 AM | Messenger Workshop                                           |
+| 10:00 AM | [Messenger Workshop](ACTIVITIES.md#messenger)                |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
 | 1:00 PM  | Energizer 3                                                  |
 | 1:20 PM  | [Project Formation](ACTIVITIES.md#project-formation)         |
