@@ -543,12 +543,12 @@ The only 3 items that you need to pay attention to in here are highlighted below
 <input type='text' id='usernameInput' placeholder='enter a username...'>
 ```
 
-#### the userame input
+#### the message input
 ```html
 <input type='text' id='messageInput'  placeholder='Type a message...'>
 ```
 
-#### the list of messages unordered list
+#### the unordered list that holds the messgages
 ```html
 <ul id='messageList' class="messenger-messages">
 </ul>
@@ -571,7 +571,7 @@ sure, feel free to ask a facilitator.
 You'll need to understand this for the rest of the tutorial to make sense.
 ```
 
-## Appending the messages to the <ul> tag
+## Appending the messages to the `<ul>` tag
 
 Similar to how we would create and append an `<img>` element and then add it
 to the `<div>` element for each new image in the Instagram workshop,
@@ -673,7 +673,6 @@ Cloud9 workspace.
 <head>
   <meta charset="UTF-8">
   <title>Messenger</title>
-
 </head>
 <body>
 </body>
@@ -702,7 +701,6 @@ My HTML file should now look something like this:
 <head>
   <meta charset="UTF-8">
   <title>Messenger</title>
-
   <script type="text/javascript" src="main.js"></script>
   <link rel="stylesheet" href="main.css">
 </head>
@@ -844,7 +842,7 @@ We recommend hand typing in this situation because you will be using and
 manipulating the HTML lot throughout this project. Hand typing it gives you more
 familiarity with the code that you will be manipulating.
 
-Note however, if after you type, it out and it still does not work, feel free
+Note however, if after you type it out and it still does not work, feel free
 to copy and paste at that point because you will have gained the understanding
 of the code as you type it.
 
@@ -909,7 +907,12 @@ Challenge Time!
  <__.|_|-|_|
 
 Write the JavaScript that waits for the page to load
+```
 
+Hint: See the above section
+["waiting for the page to load"](#waiting-for-the-page-to-load) for a hint.
+
+```
 |             uuuuuuuuuuuuuuuuuuuu             Pause here until you've attempted
 |           u" uuuuuuuuuuuuuuuuuu "u           the challenge above : )
 |         u" u$$$$$$$$$$$$$$$$$$$$u "u
@@ -959,7 +962,6 @@ Write the JavaScript that does something when the button is clicked.
 
 There is a hint in the Instagram code for how you might do this that is linked
 below. You can also scroll up to the
-"Doing something when the button is clicked" section.
 
 |             uuuuuuuuuuuuuuuuuuuu             Pause here until you've attempted
 |           u" uuuuuuuuuuuuuuuuuu "u           the challenge above : )
@@ -1053,7 +1055,8 @@ Hint: the new message input tag has the id `'messageInput'`
 - I google `javascript get value of input box`
 - I open the
   [first result (a StackOverflow result)](http://stackoverflow.com/questions/11563638/javascript-get-input-text-value)
-- I find the most highly rated solution:
+- I find the most highly rated solution which gives me
+
   ```js
   document.getElementById('textbox_id').value;
   ```
@@ -1062,13 +1065,15 @@ Hint: the new message input tag has the id `'messageInput'`
   2. getting it's value
 - So I decide to break up the example into two parts so that it's easier to
   understand
+
   ```js
   var textBox = document.getElementById('textbox_id');
   var textBoxValue = textBox.value;
   ```
 - Now I translate the example to what I need by
-  - finding the element with the `id` of `messageInput`
+  - finding the element with the `id` of `messageInput` instead of `textbox_id`
   - changing the variable names to match
+
   ```js
   var messageInput = document.getElementById('messageInput');
   var messageInputValue = messageInput.value;
@@ -1101,13 +1106,40 @@ Challenge Time!
 In the above code example, when you clicked the button, it would alert whatever
 was inside of the message input box.
 
-Your challenge now is to figure out how to make it so that it it also alerts
+Your challenge now is to figure out how to make it so that it also alerts
 the value of the username input box. So when you click on the button
 - it alert the value of the message input box
 - and then has a second alert popup with the value of the username box
+
+
+|             uuuuuuuuuuuuuuuuuuuu             Pause here until you've attempted
+|           u" uuuuuuuuuuuuuuuuuu "u           the challenge above : )
+|         u" u$$$$$$$$$$$$$$$$$$$$u "u
+|       u" u$$$$$$$$$$$$$$$$$$$$$$$$u "u
+|     u" u$$$$$$$$$$$$$$$$$$$$$$$$$$$$u "u
+|   u" u$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$u "u
+| u" u$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$u "u
+| $ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+| $ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+| $ $$$" ... "$...  ...$" ... "$$$  ... "$$$ $
+| $ $$$u `"$$$$$$$  $$$  $$$$$  $$  $$$  $$$ $
+| $ $$$$$$uu "$$$$  $$$  $$$$$  $$  """ u$$$ $
+| $ $$$""$$$  $$$$  $$$u "$$$" u$$  $$$$$$$$ $
+| $ $$$$....,$$$$$..$$$$$....,$$$$..$$$$$$$$ $
+| $ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+| "u "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|   "u "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|     "u "$$$$$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|       "u "$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|         "u "$$$$$$$$$$$$$$$$$$$$" u"
+|           "u """""""""""""""""" u"
+
+
 ```
 
 ## Solution: Access the value of the username input
+
+We use the same technique to access the message input as the username input:
 
 ```js
 window.onload = function() {
@@ -1135,16 +1167,19 @@ Challenge Time!
  __/       /
  <__.|_|-|_|
 
-In the above code snippet, we successfully have a reference to the user's
-username as well as their new message. We can now create a new HTML element
-to add to the page.
+In the above code snippet before, we successfully create a reference to the
+user's username as well as the text of their new message. We can now create a
+new HTML element to add to the page.
+```
 
-Use Google or review the code in [Creating the image element and setting it's
-src attribute](#Creating the image element and setting it's src attribute) to
-try to figure out how to create a new `<li>` element.
+This code is very similar to the code used in "[Creating the image element and setting its src attribute](#Creating the image element and setting it's src attribute)"
+
+```
+
+Use Google and or review the code in try to figure out how to create a new `<li>` element.
 
 Hint:
-- for the img tag, you needed to set the src
+- for the <img> tag, you needed to set the src
 - for the `<li>` element, you'll need to set the `innerHTML` property
 ```
 
@@ -1153,14 +1188,15 @@ Hint:
 - I google for `javascript create an li`
 - I see that the second result is "[Javascript to create an li and append to an ol](http://stackoverflow.com/questions/9107541/javascript-to-create-an-li-and-append-to-an-ol)"
   almost exactly what I want.
-- I look at the first answer and it looks confusing so I skip it
-- I skip the next answer which has a rating of a `-1`
-- I then go to the third answer and see
-  ```js
-  document.createElement("li");
-  ```
-  which jobs my memory back to what I did in
-  ["Creating the image element and setting it's src attribute"](#Creating the image element and setting it's src attribute)
+  - I look at the first answer and it looks confusing so I skip it
+  - I skip the next answer which has a rating of a `-1`
+  - I then go to the third answer and see
+
+    ```js
+    document.createElement("li");
+    ```
+    which jogs my memory back to what I did in
+    ["Creating the image element and setting it's src attribute"](#Creating the image element and setting it's src attribute)
 - Great, so I now know how to create the `<li>` tag, now to put the text inside
   of the `<li>` tag
 - I take the hint to lookup `innerHTML` and google for `javascript innerHTML`
@@ -1168,9 +1204,11 @@ Hint:
   "[HTML DOM innerHTML Property - W3Schools](http://www.w3schools.com/jsref/prop_html_innerhtml.asp)"
   - Looking at the example, it seems that I set the `innerHTML` property like
     this:
+
     ```js
-    element.innerHTML = "Text"
+    element.innerHTML = "some text I want inside the element"
     ```
+
   - So in order to put the the username and new message text into the `<li>`,
     I can do the following:
 
@@ -1210,10 +1248,39 @@ Challenge Time!
 
 
 We have successfull created a new `<li>` element, we now need to add this to
-our `<ul>`. Can you do it?!
+our `<ul>`. Give it a try!
 ```
 
-## Solution:  Adding the newly created message input to the page
+See "[Actually adding the image element to the page](#Actually adding the image element to the page)"
+for a hint.
+
+```
+
+|             uuuuuuuuuuuuuuuuuuuu             Pause here until you've attempted
+|           u" uuuuuuuuuuuuuuuuuu "u           the challenge above : )
+|         u" u$$$$$$$$$$$$$$$$$$$$u "u
+|       u" u$$$$$$$$$$$$$$$$$$$$$$$$u "u
+|     u" u$$$$$$$$$$$$$$$$$$$$$$$$$$$$u "u
+|   u" u$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$u "u
+| u" u$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$u "u
+| $ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+| $ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+| $ $$$" ... "$...  ...$" ... "$$$  ... "$$$ $
+| $ $$$u `"$$$$$$$  $$$  $$$$$  $$  $$$  $$$ $
+| $ $$$$$$uu "$$$$  $$$  $$$$$  $$  """ u$$$ $
+| $ $$$""$$$  $$$$  $$$u "$$$" u$$  $$$$$$$$ $
+| $ $$$$....,$$$$$..$$$$$....,$$$$..$$$$$$$$ $
+| $ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+| "u "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|   "u "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|     "u "$$$$$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|       "u "$$$$$$$$$$$$$$$$$$$$$$$$" u"
+|         "u "$$$$$$$$$$$$$$$$$$$$" u"
+|           "u """""""""""""""""" u"
+
+```
+
+## Solution: Adding the newly created message input to the page
 
 You can checkout "[Actually adding the image element to the page](#Actually adding the image element to the page)" for an explanation:
 
@@ -1234,7 +1301,7 @@ window.onload = function() {
     newLi.innerHTML = usernameInputValue + " : " + messageInputValue;
 
     var messageList = document.getElementById("messageList");
-    messageList.appendChild(messageElement);
+    messageList.appendChild(newLi);
   }
 }
 ```
@@ -1256,16 +1323,20 @@ window.onload = function() {
     newLi.innerHTML = usernameInputValue + " : " + messageInputValue;
 
     var messageList = document.getElementById("messageList");
-    messageList.appendChild(messageElement);
+    messageList.appendChild(newLi);
   }
 }
 ```
 
+See "[Actually adding the image element to the page](#Actually adding the image element to the page)"
+for an explanation.
+
+
 ## Huzzah! We're finished!
 
-<!--TODO: Celebrate Gif!-->
+![](img/celebration_2.gif)
 
-## Extra Stuffs
+## Extra Credit Stuffs
 
 ```
 Challenge Time!
@@ -1295,7 +1366,7 @@ window.onload = function() {
       newLi.innerHTML = usernameInputValue + " : " + messageInputValue;
 
       var messageList = document.getElementById("messageList");
-      messageList.appendChild(messageElement);
+      messageList.appendChild(newLi);
     }
   }
 }
@@ -1338,7 +1409,7 @@ window.onload = function() {
     newLi.innerHTML = usernameInputValue + " : " + messageInputValue;
 
     var messageList = document.getElementById("messageList");
-    messageList.appendChild(messageElement);
+    messageList.appendChild(newLi);
   }
 }
 ```
