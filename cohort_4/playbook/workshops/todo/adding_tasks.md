@@ -337,7 +337,7 @@ window.onload = function() {
     //        ^ this function will output us an <img> element
 
     // which we need to then set the source of to the delete image
-    img.src = "http://i.imgur.com/BtLxCD6.png"
+    img.src = "http://i.imgur.com/BtLxCD6.png";
     // which means the <img> will now look like this:
     // <img src="http://i.imgur.com/BtLxCD6.png">
 
@@ -416,7 +416,7 @@ window.onload = function() {
     li.appendChild(span);
 
     var img = document.createElement("img");
-    img.src = "http://i.imgur.com/BtLxCD6.png"
+    img.src = "http://i.imgur.com/BtLxCD6.png";
     img.setAttribute("class", "delete");
     li.appendChild(img);
   }
@@ -444,7 +444,7 @@ window.onload = function() {
     li.appendChild(span);
 
     var img = document.createElement("img");
-    img.src = "http://i.imgur.com/BtLxCD6.png"
+    img.src = "http://i.imgur.com/BtLxCD6.png";
     img.setAttribute("class", "delete");
     li.appendChild(img);
   }
@@ -479,7 +479,7 @@ window.onload = function() {
     li.appendChild(span);
 
     var img = document.createElement("img");
-    img.src = "http://i.imgur.com/BtLxCD6.png"
+    img.src = "http://i.imgur.com/BtLxCD6.png";
     img.setAttribute("class", "delete");
     li.appendChild(img);
   }
@@ -529,7 +529,7 @@ window.onload = function() {
     li.appendChild(span);
 
     var img = document.createElement("img");
-    img.src = "http://i.imgur.com/BtLxCD6.png"
+    img.src = "http://i.imgur.com/BtLxCD6.png";
     img.setAttribute("class", "delete");
     li.appendChild(img);
   }
@@ -581,7 +581,7 @@ window.onload = function() {
     li.appendChild(span);
 
     var img = document.createElement("img");
-    img.src = "http://i.imgur.com/BtLxCD6.png"
+    img.src = "http://i.imgur.com/BtLxCD6.png";
     img.setAttribute("class", "delete");
     li.appendChild(img);
   }
@@ -634,7 +634,7 @@ window.onload = function() {
     li.appendChild(span);
 
     var img = document.createElement("img");
-    img.src = "http://i.imgur.com/BtLxCD6.png"
+    img.src = "http://i.imgur.com/BtLxCD6.png";
     img.setAttribute("class", "delete");
     li.appendChild(img);
   }
