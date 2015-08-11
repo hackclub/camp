@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Messenger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="messenger container">
+      <header>Messenger</header>
+
+      <div class='messenger-toolbar'>
+        <label for="usernameInput">Username:</label>
+        <input type='text' id='usernameInput' placeholder='enter a username...'>
+        <!-- ^ username input-->
+      </div>
+
+      <ul id='messageList' class="messenger-messages">
+      </ul>
+      <!-- ^ list of messages -->
+
+      <footer>
+        <input type='text' id='messageInput'  placeholder='Type a message...'>
+        <!-- ^ new message input-->
+      </footer>
+
+      <button id="submitButton">Send</button>
+    </div>
+
+  </body>
+</html>
