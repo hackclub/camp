@@ -114,7 +114,8 @@ However at the same time, we don't want to make the person who said it feel
 really bad and feel shameful because that could hurt just as much. They thought
 that it was just a joke.
 
-Here's how I might hand the situation:
+Here's how I might handle the situation. Note that this is just one way to
+handle the situation, feel free to handle it in a way that you choose as well.
 
 - Can I get everyone's attention please
 - I noticed earlier that someone posted the phrase say "X person is Gay"
@@ -178,6 +179,14 @@ Here's how I might hand the situation:
   themselves, and where everyone, including people like me, can be welcome here
   as well.
 - Let's do a Hack Cheer!
+
+### Delivery notes
+
+If you do choose to communicate it in your own way, I would recommend making
+sure that the below points are communicated:
+
+- the severity of the situation
+- that the person probably did not intend to do it and we should not shame them
 
 # Hacker arrival
 
