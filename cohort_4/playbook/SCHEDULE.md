@@ -187,13 +187,21 @@ partners. Please do make sure to explain _why_ we are assigning hackers
 *note: energizers for day 7 are in*
  https://github.com/hackedu/hack-camp/issues/426
 
+For today's workshop the hackers have two choices:
+
+- [Messenger](ACTIVITIES.md#messenger) (beginner)
+- [Todo](ACTIVITIES.md#todo) (advanced)
+
+We recommend beginners work through the messenger workshop and more advanced
+coders work through the todo workshop.
+
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
 | 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
 | 9:20 AM  | Energizer 1                                                  |
 | 9:30 AM  | Energizer 2                                                  |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
-| 10:00 AM | [Messenger Workshop](ACTIVITIES.md#messenger)                |
+| 10:00 AM | Workshop (there are two options, see above for details)      |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
 | 1:00 PM  | Energizer 3                                                  |
 | 1:20 PM  | [Project Formation](ACTIVITIES.md#project-formation)         |
