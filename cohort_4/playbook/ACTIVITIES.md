@@ -147,7 +147,7 @@ is comfortable for you.
     really bad, this can be very impactful.
    }_
 - We want the Hack Camp to be nothing like that.
-- I don't want anyone to feel like the way that I did
+- I don't want anyone to feel like the way that I did.
 - We want this environment to be awesome and a place where I and everyone else
   can be myself.
 - Therefore, any spoken language behavior that can be interpreted as
@@ -157,8 +157,8 @@ is comfortable for you.
 - We don't want to shame you for saying that. I know that it was probably a
   mistake. I get it, this type of joking around is very common, a lot of people
   do it, and no one really means it.
-- That being said however, any of these jokes have a *very real* and very
-  consequence consequence and can make lots of people feel *very* *very*
+- That being said however, any of these jokes have a *very real* and *very serious*
+  consequence and can make lots of people feel *very very*
   uncomfortable and sad.
 - So I want to ask for your help. If you hear someone saying anything that you
   you think could be interpreted as discriminatory, kindly let them know.
@@ -172,17 +172,10 @@ is comfortable for you.
 - _{Call on each person that raises their hands to share and echo back what they
   said to everyone else. If no one else has anything else to say, go onto the
   following}_
-- Break up into groups of 3-4 and think of ways in which we can make Hack Camp
-  a safer space. We'll give you 8 minutes or so to discuss and we'll share back
-  what we come up with afterwards. I know this wasn't on our schedule but this
-  is really important to our culture.
-- _{Give them a 2 minute and 1 minute warning}_
-- _{Call on groups to share back the response}_
-- Lets make hack camp an experience that is amazing for each and every one
+- Let's make Hack Camp an experience that is amazing for each and every one
   of you. I want this to be an environment where everyone, including me, can be
   themselves, and where everyone, including people like me, can be welcome here
   as well.
-- Let's do a Hack Cheer!
 
 ### Delivery notes
 
