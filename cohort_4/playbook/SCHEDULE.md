@@ -12,6 +12,7 @@
     - [Day 5](#day-5)
     - [Day 6](#day-6)
     - [Day 7](#day-7)
+    - [Day 8](#day-8)
 
 <!-- markdown-toc end -->
 
@@ -214,3 +215,27 @@ coders work through the todo workshop.
 | 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
 | 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
 | 4:50 PM  | [Post-mortem (ending at 5:30 PM)](ACTIVITIES.md#post-mortem) |
+
+## Day 8
+
+*note: energizers for day 8 are in*
+ https://github.com/hackedu/hack-camp/issues/455
+
+| Time     | Activity                                                     |
+| -------- | ------------------------------------------------------------ |
+| 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
+| 9:20 AM  | Energizer 1                                                  |
+| 9:30 AM  | Energizer 2                                                  |
+| 9:40 AM  | [Morning Announcements](ACTIVITIES.md#morning-announcements) |
+| 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
+| 10:00 AM | Safety talk                                                  |
+| 10:15 AM | [Project time](ACTIVITIES.md#freeform-projects)              |
+| 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
+| 1:30 PM  | Energizer 3                                                  |
+| 2:00 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
+| 3:50 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
+| 4:00 PM  | [Example demo (orbit)](ACTIVITIES.md#demos)                  |
+| 4:05 PM  | [Demos](ACTIVITIES.md#demos)                                 |
+| 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
+| 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
+| 4:45 PM  | [Post-mortem (ending at 5:30 PM)](ACTIVITIES.md#post-mortem) |
