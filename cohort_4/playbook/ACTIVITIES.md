@@ -104,7 +104,6 @@
     - [Announcing to the Whole Group](#announcing-to-the-whole-group)
     - [Sharing Announcements Individually](#sharing-announcements-individually)
     - [Slack Announcements](#slack-announcements)
-- [Additional Resources](#additional-resources)
 
 <!-- markdown-toc end -->
 
@@ -555,13 +554,13 @@ Team sizes:
 Assemble the group in two lines, holding hands. Everyone should have their eyes
 closed except for the leader of each line. A beach ball or other object is
 placed at the opposite end of lines from the leaders. The facilitator should
-stand by the leaders and flip a coin. If heads, leaders start pulse race by 
-squeezing the hand of the person next to them, which sets off a chain reaction. 
-When the last person in line feels their hand squeezed, they may open their 
-eyes and grab for the beach ball. The team that gets the ball first gets a point 
-for the round If tails, do nothing. If a pulse is set off when the coin is tails 
-and someone grabs the beach ball, the team loses a point. After each round, 
-the leader goes to the end of the line and the person behind them becomes the 
+stand by the leaders and flip a coin. If heads, leaders start pulse race by
+squeezing the hand of the person next to them, which sets off a chain reaction.
+When the last person in line feels their hand squeezed, they may open their
+eyes and grab for the beach ball. The team that gets the ball first gets a point
+for the round If tails, do nothing. If a pulse is set off when the coin is tails
+and someone grabs the beach ball, the team loses a point. After each round,
+the leader goes to the end of the line and the person behind them becomes the
 new leader.
 
 ## Sharks and Minnows
@@ -2068,21 +2067,4 @@ Want to send a link to everyone? _Slack._
 
 Was there an event at Galvanize that had some extra food and offered it to our
 hackers? _Slack._
-
-## Additional Resources
-
-### CodeHS
-
-#### Pros:
-
-- is very good at introducing and meticulously explaining the basic
-concepts of programming I (Jonathan) have not found anything clearer than
-CodeHS at explaining these basics.
-
-#### Cons:
-
-- the student nevers have the opportunity to build your own projects in CodeHS.
-  You are told everything that you are supposed to build.
-- perhaps even worse, you have no experience even in building _any_ kind
-  projects because you are always following a specific directions that keep
-  giving you the next step.
+ 
