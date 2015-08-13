@@ -15,7 +15,7 @@
     - [Sharks and Minnows](#sharks-and-minnows)
     - [Pterodactyl](#pterodactyl)
     - [Where The West Wind Blows](#where-the-west-wind-blows)
-    - [Zip Zap Zop](#zip-zap-zip)
+    - [Zip Zap Zop](#zip-zap-zop)
 - [Introduction talk](#introduction-talk)
     - [Speaking from personal experience.](#speaking-from-personal-experience)
     - [Why is programming awesome?](#why-is-programming-awesome)
