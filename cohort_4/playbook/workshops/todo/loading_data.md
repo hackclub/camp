@@ -10,7 +10,7 @@ var firebaseRoot = new Firebase(firebaseRootUrl);
 window.onload = function() {
   var newTaskButton = document.getElementById("new-task-button");
   var todoList = document.getElementById("todo-list");
-  
+
   function addNewTask(taskName) { // <-- CHANGE
     ...
   }
@@ -22,7 +22,7 @@ window.onload = function() {
   // NEW SECTION
   firebaseRoot.on('child_added', function (snapshot) {
     var task = snapshot.val();
-    addNewTask(task.name, task.isDone);
+    addNewTask(task.name);
   });
 }
 ```
@@ -31,14 +31,14 @@ window.onload = function() {
 Check
 Point!
             __
-           / _)   
+           / _)
     .-^^^-/ /
  __/       /
 <__.|_|-|_|
 
 Try adding this NEW SECTIon of code into yours and watch it load your todo
 tasks from your database! (make sure there are tasks in your database for it
-to load) 
+to load)
 
 ```
 
@@ -46,13 +46,13 @@ to load)
 
 ```js
   firebaseRoot.on('child_added', function (snapshot) {
-    // ^ this is saying that whenever anything has been "pushed" to 
+    // ^ this is saying that whenever anything has been "pushed" to
     //   the firebase root ("child_added" means that something has
     //   been pushed into the root) run the below code
 
     var task = snapshot.val();
     //  ^ loads task that was "pushed" into the firebase
-    // a task may look like 
+    // a task may look like
     //      {name: "Take Over The World", status: false}
 
     addNewTask(task.name);
@@ -73,7 +73,7 @@ var firebaseRoot = new Firebase(firebaseRootUrl);
 window.onload = function() {
   var newTaskButton = document.getElementById("new-task-button");
   var todoList = document.getElementById("todo-list");
-  
+
   function addNewTask(taskName) { // <-- CHANGE
     var li = document.createElement("li");
     todoList.appendChild(li);
@@ -100,7 +100,7 @@ window.onload = function() {
 
       var task = {}
       task.name = taskName;
-      task.done = false; 
+      task.done = false;
 
       firebaseRoot.push(task);
     }
@@ -110,7 +110,7 @@ window.onload = function() {
     var task = snapshot.val();
     addNewTask(task.name);
   });
-  
+
 }
 ```
 
@@ -120,7 +120,7 @@ window.onload = function() {
 - this function is called for EVERY element that has ever been pushed to the  database
 
 For example, if your database had these tasks in it
-- {name: "Take Over The World", status: false} 
+- {name: "Take Over The World", status: false}
 - {name: "Buy A New Cat with Lasers", status: false}
 - {name: "Replace Dead Sharks", status: false}
 
@@ -139,7 +139,7 @@ If you look carefully at our code:
 
       var task = {}
       task.name = taskName;
-      task.done = false; 
+      task.done = false;
 
       firebaseRoot.push(task);
     }
@@ -165,7 +165,7 @@ var firebaseRoot = new Firebase(firebaseRootUrl);
 window.onload = function() {
   var newTaskButton = document.getElementById("new-task-button");
   var todoList = document.getElementById("todo-list");
-  
+
   function addNewTask(taskName) { // <-- CHANGE
     var li = document.createElement("li");
     todoList.appendChild(li);
@@ -190,7 +190,7 @@ window.onload = function() {
     if (taskName !== null && taskName !== "") {
       var task = {}
       task.name = taskName;
-      task.done = false; 
+      task.done = false;
 
       firebaseRoot.push(task);
     }
@@ -200,7 +200,7 @@ window.onload = function() {
     var task = snapshot.val();
     addNewTask(task.name);
   });
-  
+
 }
 ```
 
@@ -208,7 +208,7 @@ window.onload = function() {
 Check
 Point!
             __
-           / _)   
+           / _)
     .-^^^-/ /
  __/       /
 <__.|_|-|_|
