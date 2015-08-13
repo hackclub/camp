@@ -13,7 +13,9 @@
     - [Ninja](#ninja)
     - [One Word Radio](#one-word-radio)
     - [Sharks and Minnows](#sharks-and-minnows)
+    - [Pterodactyl](#pterodactyl)
     - [Where The West Wind Blows](#where-the-west-wind-blows)
+    - [Zip Zap Zop](#zip-zap-zip)
 - [Introduction talk](#introduction-talk)
     - [Speaking from personal experience.](#speaking-from-personal-experience)
     - [Why is programming awesome?](#why-is-programming-awesome)
@@ -380,7 +382,40 @@ Number: unknown
 - Kelp will try to reach out and tag the minnows as they run past. If a minnow
   is tagged by kelp, it also becomes kelp.
 
+## Pterodactyl
+
+```
+Time: 4-6 minutes
+Materials: none
+```
+
+All players must begin by knowing that the point of the game is to keep their
+lips covering their teeth the whole time and never letting their teeth be seen
+or they are out! They must cover them with their lips at all times. (pull them
+over your teeth as you would if you were rubbing in lipstick.The game begins
+with everyone in a circle and one player saying "pterodactyl" then the player to
+the right of them says it and so on and so on.
+
+The catch is that any player can change the direction by screaming / screech as
+loud as they want or however they want just like a pterodactyl! This is when the
+game gets really fun and almost every person is laughing!
+
 ## Where The West Wind Blows
+
+## Zip Zap Zop
+
+```
+Time: 4 - 8 minutes
+Materials: none
+Number: unknown
+```
+
+Before the game, watch [this video](https://www.youtube.com/watch?v=lyWKVGoXKak):
+
+When explaining the game
+- Spend 15 seconds verbally explaining the game (but actually 15 seconds)
+- Then you want to SHOW the game. Grab 3 people and have to demo it like
+  [this](https://www.youtube.com/watch?v=vP-MI_in6Fc).
 
 # Introduction talk
 
