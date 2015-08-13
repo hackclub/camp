@@ -943,6 +943,9 @@ this would be somewhat functional and demonstrate base functionality.
   - Make sure to give context by explaining the basic overview of the app and
     why this is a failure
 - After presenting something they failed at, they can show off what they made
+- Remind hackers that demos and shipping projects are a rewarding mechanism for
+  when a project is completed and it may benefit them to contribute to the demo
+  as much as they can.
 
 ## Whiteboard information
 
