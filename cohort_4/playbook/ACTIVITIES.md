@@ -13,6 +13,7 @@
     - [Ninja](#ninja)
     - [One Word Radio](#one-word-radio)
     - [Sharks and Minnows](#sharks-and-minnows)
+    - [Three truths and a lie](#three-truths-and-a-lie)
     - [Where The West Wind Blows](#where-the-west-wind-blows)
 - [Introduction talk](#introduction-talk)
     - [Speaking from personal experience.](#speaking-from-personal-experience)
@@ -379,6 +380,19 @@ Number: unknown
 - If a minnow is tagged by a shark, the minnow is now kelp and cannot move.
 - Kelp will try to reach out and tag the minnows as they run past. If a minnow
   is tagged by kelp, it also becomes kelp.
+
+## Three truths and a lie
+
+```
+Time: 5 - 10 minutes
+Materials: none
+Number: unknown
+```
+
+Everyone forms groups of 4 or more. One hacker starts by saying 3 true things
+and 1 lie in a randomized order. The person to their right has one chance to
+guess which statement was the lie. Then they become the speaker and say 4
+statements; one of them being false.
 
 ## Where The West Wind Blows
 
