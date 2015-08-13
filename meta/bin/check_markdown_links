@@ -10,6 +10,11 @@
 
 URL_REGEX='(https?|ftp|file)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]'
 HAS_MISSING_LINK=false
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+NC='\033[0m'
+
+errors=''
 
 IFS='
 '
@@ -69,9 +74,17 @@ for line in $(git ls-files | grep '\.md$' | xargs grep -noP '\[.*\]\(\K.*?(?=\))
 
   if [ $broken_link = true ]; then
     HAS_MISSING_LINK=true
-    >&2 echo "$line_num:$file '$link_dest' does not exist!"
+    echo -ne "${RED}x${NC}"
+    errors="${errors}\n${line_num}:${file} '${link_dest}' does not exist!"
+  else
+    echo -ne "${GREEN}.${NC}"
   fi
 done
+
+# Final newline after all the test dots (or Xs)
+echo ''
+
+>&2 echo -e "$errors"
 
 if [ $HAS_MISSING_LINK = true ]; then
   exit 1
