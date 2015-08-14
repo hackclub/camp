@@ -265,3 +265,22 @@ work through a project of their own.
 | 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
 | 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
 | 4:50 PM  | [Post-mortem (ending at 5:30 PM)](ACTIVITIES.md#post-mortem) |
+
+## Day 10
+
+| Time     | Activity                                                     |
+| -------- | ------------------------------------------------------------ |
+| 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
+| 9:20 AM  | Energizer 1                                                  |
+| 9:30 AM  | Energizer 2                                                  |
+| 9:40 AM  | [Morning Announcements](ACTIVITIES.md#morning-announcements) |
+| 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
+| 10:15 AM | [Project time](ACTIVITIES.md#freeform-projects)              |
+| 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
+| 1:30 PM  | Energizer 3                                                  |
+| 2:00 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
+| 3:50 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
+| 4:00 PM  | [Demos](ACTIVITIES.md#demos)                                 |
+| 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)                |
+| 4:30 PM  | [Hack cheer](ACTIVITIES.md#finishing-off-the-day)            |
+| 4:45 PM  | [Post-mortem (ending at 5:30 PM)](ACTIVITIES.md#post-mortem) |
