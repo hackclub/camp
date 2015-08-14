@@ -1431,8 +1431,8 @@ https://docs.google.com/spreadsheets/d/1D8y_UB11C4QrXB9kn86-UqVQQqT9FUDqftx1AMHI
 |   6 | https://docs.google.com/a/zachlatta.com/forms/d/1y7WLP55aigI7Kf90wiy9z41xnqem-ltmT0myXJINzH0 |
 |   7 | https://docs.google.com/a/zachlatta.com/forms/d/15xAMDQmt4kCTCnbe9nZMqv5XUCIsxYaRMGEgLQNTNXI |
 |   8 | https://docs.google.com/a/zachlatta.com/forms/d/1bIkPi1IWIf34WXMHxivQDOqCWBIOq2SVUl_OFw2e_9c |
-|   9 | https://docs.google.com/a/zachlatta.com/forms/d/1SAcCBYcr8qpzXjCWLlbeeilZUObBROR-EZh0WRTguLE |
-|  10 | https://docs.google.com/a/zachlatta.com/forms/d/1LFVzviI9GDuxLTpOPWy9jNmImhmW0NisAMC0ocBJzIg |
+|   9 | https://docs.google.com/a/zachlatta.com/forms/d/1LFVzviI9GDuxLTpOPWy9jNmImhmW0NisAMC0ocBJzIg |
+|  10 | https://docs.google.com/a/zachlatta.com/forms/d/1SAcCBYcr8qpzXjCWLlbeeilZUObBROR-EZh0WRTguLE |
 
 # Finishing off the day
 
