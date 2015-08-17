@@ -23,7 +23,7 @@ easier to find out how to do each of these components individually.
 Therefore, I could 
 
 1. figure out how to do something when a button is clicked. Anything! I don't
-2. care what it is.
+   care what it is.
 2. figure out how to ask a user for a URL for a given image
 3. figure out how to add an image based on the URL that the user gave
 
