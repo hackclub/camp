@@ -27,7 +27,7 @@
 
 ## A note about the `<script>` tag
 
-The `<script>` has an `src` attribute inside of it just like the `<img>` tag
+The `<script>` has a `src` attribute inside of it just like the `<img>` tag
 does.
 
 ```html
