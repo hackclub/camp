@@ -13,7 +13,6 @@ Do this
 - append a description
 - change an attributes
 
-
 # Validate I Can Do Everything First
 
 I want to validate that I can build my rocketship first

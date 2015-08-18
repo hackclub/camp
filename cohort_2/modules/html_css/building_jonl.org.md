@@ -217,7 +217,6 @@ body {
 	4. make the links <––
 	6. I'll add more later
 
-
 **JS Bin**
 
 - [See in JS Bin](http://jsbin.com/sofuzo/5/edit)
@@ -319,7 +318,6 @@ body {
 
 ```
 
-
 ## Tweak CSS
 
 > #### Iterations:
@@ -364,7 +362,6 @@ body {
   ...
 }
 
-
 .subtitle {
   ...
   margin-bottom: 35px; /*Added for aesthetics*/
@@ -407,7 +404,6 @@ a {
 **JS Bin:**
 
 - [Link](http://jsbin.com/sofuzo/12/edit?html,css,output)
-
 
 **Preview:**
 

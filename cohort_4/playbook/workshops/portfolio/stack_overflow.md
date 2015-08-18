@@ -1,6 +1,5 @@
 ## Understanding Stack Overflow
 
-
 Stack overflow is a great Q&A resource that almost every programmer I (Jonathan) knows uses. Whenever I see a Stack Overflow result in my Google search, there is a high likelyhood I may open that result first. Here is one helpful way I've found to understand Q&A type sites like Stack Overflow
 
 **This is a brief digression into how you might go about interpreting Q&A type sites like Stack Overflow.**

@@ -166,7 +166,6 @@ window.onload = function() {
 }
 ```
 
-
 ```
 Check
 Point!

@@ -409,7 +409,6 @@ take-out orders.
 
 Here are the steps that you need:
 
-
 ```
 - When the operating system says that the room is running is ready,
     - program the take-out phone so that

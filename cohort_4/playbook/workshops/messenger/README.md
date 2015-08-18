@@ -161,7 +161,6 @@ Let's break down the code into multiple steps:
 - creating an image element
 - adding the newly created image element to another element on the page
 
-
 ### Waiting for the page to load
 
 Before we do anything, we needed to wait for the page to load.

@@ -40,7 +40,6 @@ HTML/CSS Basics
 --------
 Do first part. 
 
-
 Wednesday 6/24/15
 
 Do now was pretty good

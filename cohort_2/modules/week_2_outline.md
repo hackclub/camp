@@ -118,7 +118,6 @@ and not be afraid to break the rules.
 - Thinkful
 - One Month
 
-
 ## Scratch to Javascript
 [Snap to JS](https://docs.google.com/document/d/12kNcVlM6cfK69f-4RwI7Mh_nWVIumqpyeipCV8ahbvk/edit)
 [Scratch to Python + JS](https://docs.google.com/document/d/19DuSHGvVciba_mGelNK9-4JBpeX1i480ytmw-QUN2jc/edit)
@@ -133,7 +132,6 @@ and not be afraid to break the rules.
 - CodeCademy
     - Syntax
 - CodeCombat, potentially good
-
 
 Demo All The Kinds Of Things That You Can Do
 
@@ -166,9 +164,6 @@ Demo All The Kinds Of Things That You Can Do
     - Create a Meastro random project generator?
 
 - One thing we may consider doing is creating a bunch of do now exercises
-
-
-
 
 ```
 Number: 374327384095936

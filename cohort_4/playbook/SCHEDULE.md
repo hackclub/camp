@@ -43,7 +43,6 @@ will be followed by project-time that day.
 | P      | D       | P         | D        | P      |
 | MD     |         | MD        |          | MD     |
 
-
 ## Week 2
 
 | Monday | Tuesday | Wednesday | Thursday | Friday |

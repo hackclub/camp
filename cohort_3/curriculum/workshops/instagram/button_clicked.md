@@ -189,7 +189,6 @@ I think this means that I put my code where it says
 `// your code`
 but I'm not necessarily sure what code needs to be in here.
 
-
 ##### Analyzing the [2nd Google Result](http://stackoverflow.com/questions/17080502/uncaught-typeerror-cannot-set-property-onclick-of-null)
 - the title "Uncaught TypeError: Cannot set property 'onclick' of null" is relevant 
 - looking at the answers, the best answer is 4 upvotes with "asker's choice"

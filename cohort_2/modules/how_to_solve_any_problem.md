@@ -33,7 +33,6 @@
 			4. High School Hackers
 			5. Hackathon Hackers
 
-
 ### A) What is the Objective / Problem?
 
 ### B) Brainstorm Solutions
@@ -50,7 +49,6 @@ For most students this is the most difficult part of the pipeline. Students must
 
 Fill this into the iteration planning sheet.
 Iteration Planning (https://docs.google.com/document/d/1yO69909AZ3vw3sXGHAcRGJqI9ZZ6Yc9VF_YvV74p30E/edithttps://docs.google.com/document/d/1nC6VrkIpl7G4IcGgRxvcvC591HvJJdlrzlUySgH0fOs/edit)
-
 
 ### *For Each Iteration:*
 
@@ -93,7 +91,6 @@ GOOGLE
 #### 5. Run your test cases
 
 #### 6. Debugger
-
 
 ## At any point if you get stuck:
 

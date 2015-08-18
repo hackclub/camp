@@ -37,4 +37,3 @@ We don't expect you to be able to get up to Deleting Tasks, just adding things t
 ## Next
 [Creating the Project Base](create.md)
 
-

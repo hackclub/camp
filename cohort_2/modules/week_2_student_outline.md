@@ -124,7 +124,6 @@ I'd recommend the [Front End Web Development track](https://teamtreehouse.com/tr
 
 Here is a potential suggested way that you might be able to go through this:
 
-
 **You can potentially skip**
 - How to make a website
 - CSS Basics
@@ -160,15 +159,12 @@ And try perhaps try this one
 
 Along the way, feel free to explore the other resources listed in other resources as well.
 
-
 **Suggested Ac**
 
 **Going from Scratch to Javascript**
 
-
 - CodeHS is a great way to move from Scratch to Javascript.
     - The programs that you worked on in Scratch are much more programatically complex than any of the things you will work on today.
-
 
 ## Maestro
     ***IMPORTANT:** Make sure to disable "auto run js"*
@@ -177,7 +173,6 @@ Along the way, feel free to explore the other resources listed in other resource
 
 **See a working example**
 [See this template on how to run your Maestro code](http://jsbin.com/budumawuwo/edit?html,js,output)
-
 
 **Read The Documentation**
 

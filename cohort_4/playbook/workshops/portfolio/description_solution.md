@@ -87,7 +87,6 @@ create what's missing and not be afraid to break the status quo.</p>
       they can create what's missing and not be afraid to break the status quo.</p>
       <!--============END_CHANGES============-->          
 
-
     <!-- SOCIAL MEDIA SECTION -->
       - link to Facebook (https://facebook.com/jonleung137)
       - link to Twitter (https://twitter.com/jonathanjleung)
