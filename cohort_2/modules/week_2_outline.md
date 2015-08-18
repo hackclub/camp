@@ -124,13 +124,13 @@ and not be afraid to break the rules.
 [Scratch to Python + JS](https://docs.google.com/document/d/19DuSHGvVciba_mGelNK9-4JBpeX1i480ytmw-QUN2jc/edit)
 
 ## Notes On Each Platform
-- CodeHS 
+- CodeHS
     - Fundmentals of CS (Thinking & Building)
     - Great for introductory curriculum, we can create analogous challenges that call and text a phone number in parallel with their curriculum.
         - Perhaps these are taken from CodeCademy
         - Perhaps they are made and we provide solutions...
    - If statement exercise makes no sense
-- CodeCademy 
+- CodeCademy
     - Syntax
 - CodeCombat, potentially good
 
@@ -148,7 +148,7 @@ Demo All The Kinds Of Things That You Can Do
         - Storing & Tracking Information
         - Working with Making Decisions
    - Interactive Web Pages with Javascript
-   -    
+   -
     - How to actually work as a developer
     - Syntax
     - How to continue learning : )
@@ -167,9 +167,9 @@ Demo All The Kinds Of Things That You Can Do
 
 - One thing we may consider doing is creating a bunch of do now exercises
 
-    
-    
-    
+
+
+
 ```
 Number: 374327384095936
 CVV: 9263

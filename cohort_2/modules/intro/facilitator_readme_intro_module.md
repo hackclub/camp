@@ -29,7 +29,7 @@
   - Explicitly have students follow along.
   - Have co-facuilitator go between hackers and make sure everyone is caught
     up.
-1. Deployment of Twitter Page to c9.io 
+1. Deployment of Twitter Page to c9.io
 1. Tips for presenting and demoing
 1. Students demo their hacks (I Do + We Do)
 1. Cold emails

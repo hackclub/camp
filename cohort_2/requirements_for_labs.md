@@ -11,7 +11,7 @@
 	- Individual
 		- Lecturing on how things work
 		- Here is how you teach someone else.
-		
+
 - Student Deliverables
 	- Projects
 	- Presentations
@@ -53,10 +53,10 @@ Specific Requirements:
 	- Student Journals (what did they do each day)
 	- Check off which thing they did though
 	- Student satisfaction
-	- 
+	-
 
 Potential Platforms
 - Dash
 - Thinkful
 - One Month Rails
-- 
+-

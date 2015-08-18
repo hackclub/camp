@@ -26,7 +26,7 @@ To review our objective:
 > that brings people from no coding knowledge to having the ability, motivation,
 > and confidence to create coding projects and continue learning new coding
 > concepts with others, without the explicit urging or leading of a teacher.
-> 
+>
 > We should be taking personal notes on what we're doing and how we're doing it
 > at this stage, but we shouldn't be creating documentation for others to
 > reproduce our work yet.

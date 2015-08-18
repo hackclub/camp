@@ -127,7 +127,7 @@ Here is a potential suggested way that you might be able to go through this:
 
 **You can potentially skip**
 - How to make a website
-- CSS Basics 
+- CSS Basics
 
 You will probably learn new things if you did this, but you have enough of the fundamentals down to skip it for now.
 
@@ -168,25 +168,25 @@ Along the way, feel free to explore the other resources listed in other resource
 
 - CodeHS is a great way to move from Scratch to Javascript.
     - The programs that you worked on in Scratch are much more programatically complex than any of the things you will work on today.
- 
- 
+
+
 ## Maestro
     ***IMPORTANT:** Make sure to disable "auto run js"*
-    
+
 > ![](https://i.imgur.com/YAzF4Jp.png)
 
 **See a working example**
 [See this template on how to run your Maestro code](http://jsbin.com/budumawuwo/edit?html,js,output)
 
-    
+
 **Read The Documentation**
- 
+
 See the documentation [here](http://meowth.servers.hackedu.us:8000/docs.md)
- 
+
  Focus on the commands
 
  - sendSms
- - sendMms 
+ - sendMms
  - call
  - callAndPlay
  - callAndSay
