@@ -5,6 +5,8 @@
     - [On the First Day](#on-the-first-day)
 - [Energizers](#energizers)
     - [Bad startup ideas](#bad-startup-ideas)
+    - [Card on Your Head](#card-on-your-head)
+    - [Duck, Duck, Goose](#duck-duck-goose)
     - [Evolution Rock Paper Scissors](#evolution-rock-paper-scissors)
     - [Human Knot](#human-knot)
     - [Human Pictionary](#human-pictionary)
@@ -13,6 +15,7 @@
     - [Ninja](#ninja)
     - [One Word Radio](#one-word-radio)
     - [Sharks and Minnows](#sharks-and-minnows)
+    - [Two Truths and a Lie](#two-truths-and-a-lie)
     - [Pterodactyl](#pterodactyl)
     - [Where The West Wind Blows](#where-the-west-wind-blows)
     - [Zip Zap Zop](#zip-zap-zop)
@@ -169,6 +172,41 @@ will be a startup.
 > someone else on team B: I am a hot single dog and beta tester
 > team B: We're here to tell you about the next big thing... tinder for dogs
 > ~pitching continues for 3 minutes
+
+## Card on Your Head
+
+```
+Time: 10 minutes
+Materials: Enough space for the hackers to walk around
+Number: 6 players and up
+```
+
+One hacker is given a card (realistically, a sticky note) with a noun written on
+it (duck, cat, Kung Fury, Zach Latta, etc.); said hacker cannot read the card
+and must stick it to their forehead. The other hackers must then do their best
+to describe the noun, while the hacker with the card on their head guesses at
+what's written on it. In case of big groups, divide the hackers into two groups.
+
+## Duck, Duck, Goose
+
+```
+Time: 10 minutes
+Materials: Lots of floor space for running
+Number: 4 players and up
+```
+
+It may be a children's game, but who says that we can't do it too.
+
+From the
+[Wikipedia entry on Duck, duck, goose](https://en.wikipedia.org/wiki/Duck,_duck,_goose):
+
+> A group of players sit in a circle, facing inward, while another player, who
+> is "it", walks around tapping or pointing to each player in turn, calling each
+> a "duck" until finally calling one a "goose". The "goose" then rises and tries
+> to tag "it", while "it" tries to return to and sit where the "goose" had been
+> sitting. If "it" succeeds, the "goose" becomes "it" and the process begins
+> again. If the "goose" tags "it", the "goose" may return to sit in the previous
+> spot and "it" resumes the process.
 
 ## Evolution Rock Paper Scissors
 
@@ -385,6 +423,23 @@ Number: unknown
 - If a minnow is tagged by a shark, the minnow is now kelp and cannot move.
 - Kelp will try to reach out and tag the minnows as they run past. If a minnow
   is tagged by kelp, it also becomes kelp.
+
+## Two Truths and a Lie
+
+```
+Time: 10 minutes
+Materials: Lots of floor space for running
+Number: 6 - 10 people
+```
+
+> Ask all players to arrange themselves in a circle. Instruct each player to
+> think of three statements about themselves. Two must be true statements, and
+> one must be false. For each person, he or she shares the three statements (in
+> any order) to the group. The goal of the icebreaker game is to determine which
+> statement is false. The group votes on which one they feel is a lie, and at
+> the end of each round, the person reveals which one was the lie.
+
+Source: http://www.icebreakers.ws/small-group/two-truths-and-a-lie.html
 
 ## Pterodactyl
 

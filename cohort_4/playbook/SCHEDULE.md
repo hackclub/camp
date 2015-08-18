@@ -203,12 +203,12 @@ coders work through the todo workshop.
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
 | 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
-| 9:20 AM  | Energizer 1                                                  |
-| 9:30 AM  | Energizer 2                                                  |
+| 9:20 AM  | [Energizer 1](ACTIVITIES.md#two-truths-and-a-lie)            |
+| 9:30 AM  | [Energizer 2](ACTIVITIES.md#duck-duck-goose)                 |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:00 AM | Workshop (there are two options, see above for details)      |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
-| 1:30 PM  | Energizer 3                                                  |
+| 1:30 PM  | [Energizer 3](ACTIVITIES.md#card-on-your-head)               |
 | 1:50 PM  | [Project Formation](ACTIVITIES.md#project-formation)         |
 | 2:10 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 3:50 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
