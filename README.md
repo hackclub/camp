@@ -95,3 +95,4 @@ materials.
 | ------------------------------------------------------------------- | --------------------------------------- |
 | [50th pull request](https://github.com/hackedu/hack-camp/pull/192)  | [jonleung](https://github.com/jonleung) |
 | [100th pull request](https://github.com/hackedu/hack-camp/pull/288) | [jonleung](https://github.com/jonleung) |
+| [150th pull request](https://github.com/hackedu/hack-camp/pull/400) | [jonleung](https://github.com/jonleung) |
