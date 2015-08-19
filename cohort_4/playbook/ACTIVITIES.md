@@ -36,6 +36,8 @@
 - [Pairing Guidelines](#pairing-guidelines)
     - [Spreadsheet Creation](#spreadsheet-creation)
     - [Compatibility and Uniqueness](#compatibility-and-uniqueness)
+    - [Types of Pairing](#types-of-pairing)
+        - [Pair programming between beginner-advanced pairs](#pair-programming-between-beginner-advanced-pairs)
 - [Workshops](#workshops)
     - [General Guidelines](#general-guidelines)
         - [Breaks](#breaks)
@@ -797,6 +799,33 @@ beneficial, although one should be able to communicate well.
 Uniqueness is also important - no two people should be paired together again
 unless everyone has already been paired with each other. This will help members
 of the club all form bonds with each other.
+
+## Types of Pairing
+
+### Pair programming between beginner-advanced pairs
+
+Pair programming between beginner and advanced hackers is fairly similar to
+normal pair programming. They should still be rotating regularly. Do note: we've
+observed that advanced hackers often have the tendency to want to drive the
+coding completely.You may need to have to help them resist that urge by showing
+each hacker what they are getting out of it:
+
+For the advanced hacker:
+
+- True mastery of a subject can only come once someone is at the point they can
+  explain it to someone. If a hacker can't navigate while pairing, they dont
+  have an in-depth understanding of the topic.
+- This is practice in working with people who don't know as much
+  subject-specific information. Teaching this content to a beginning hacker is
+  practice for any future interaction with teammembers.
+- A team is only as strong as its weakest link. Helping teammembers gain more
+  experience and increase their knowledge can pay off later.
+
+For the beginning hacker:
+
+- Focusing only on the code is a good way to get familiar with syntax and build
+  up muscle memory.
+- Anytime the driver is lost, they can reach out to the navigator.
 
 # Workshops
 
