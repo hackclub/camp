@@ -1245,19 +1245,9 @@ Common practices to avoid when demoing:
 8. Use the mouse pointer to point to what you say you changed but don't change
    anything.
 
-It may also be helpful to give an idea of what a demo may look like. The
-following contains a quick bullet point list overview.
-
-- Hey everyone! I'm Zach and I built Yelp for Yelp Reviews.
-- Yelp for Yelp Reviews is a _transformative_ application that empowers users to
-  rate, on a scale from 1 to 5, other reviews on Yelp.
-- Let's jump right into it and pull up the reviews for "Super Duper Burgers" in
-  San Francisco.
-- Ouch! This 3 star review says that they aren't a pickle person. I'm going to
-  do Super Duper justice and rate their review 1 out of 5.
-- And there we go! We can see that our rating was created and that original
-  review is now rated 1 out of 5.
-- And that's Yelp for Yelp Reviews! Thank you.
+It may be helpful to give an idea of what a demo may look like by showing one.
+In the past we've shown https://youtu.be/MY01d647S9Y to the hackers and gotten
+good results.
 
 ## Giving feedback
 
