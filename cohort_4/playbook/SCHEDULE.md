@@ -225,14 +225,14 @@ coders work through the todo workshop.
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
 | 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
-| 9:20 AM  | Energizer 1                                                  |
-| 9:30 AM  | Energizer 2                                                  |
+| 9:20 AM  | [Energizer 1](ACTIVITIES.md#duck-duck-goose)                 |
+| 9:30 AM  | [Energizer 2](ACTIVITIES.md#can-it)                          |
 | 9:40 AM  | [Morning Announcements](ACTIVITIES.md#morning-announcements) |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:00 AM | Safety talk                                                  |
 | 10:15 AM | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
-| 1:30 PM  | Energizer 3                                                  |
+| 1:30 PM  | [Energizer 3](ACTIVITIES.md#systems-game)                    |
 | 2:00 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 3:50 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
 | 4:00 PM  | [Example demo (orbit)](ACTIVITIES.md#demos)                  |
@@ -252,12 +252,12 @@ work through a project of their own.
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
 | 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
-| 9:20 AM  | Energizer 1                                                  |
-| 9:30 AM  | Energizer 2                                                  |
+| 9:20 AM  | [Energizer 1](ACTIVITIES.md#systems-game)                    |
+| 9:30 AM  | [Energizer 2](ACTIVITIES.md#pulse-race)                      |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:00 AM | Workshop (there are two options, see above for details)      |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
-| 1:00 PM  | Energizer 3                                                  |
+| 1:00 PM  | [Energizer 3](ACTIVITIES.md#mumbled-messages)                |
 | 1:20 PM  | [Project Formation](ACTIVITIES.md#project-formation)         |
 | 1:50 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 3:50 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
