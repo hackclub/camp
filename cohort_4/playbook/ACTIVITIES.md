@@ -12,6 +12,7 @@
     - [Human Knot](#human-knot)
     - [Human Pictionary](#human-pictionary)
     - [I Love My Neighbor Who](#i-love-my-neighbor-who)
+    - [Mafia](#mafia)
     - [Marshmallow Tower](#marshmallow-tower)
     - [Mumbled Messages](#mumbled-messages)
     - [Ninja](#ninja)
@@ -327,6 +328,18 @@ Number: best for 10-35
   think will apply to others. That way, it gets people to share things that they
   think "could only apply to them" and when they realize when it applies to
   someone else, bonding happens.
+
+## Mafia
+
+```
+Time: 10 minutes
+Materials: none
+Number: 5-15
+Source: https://en.wikipedia.org/wiki/Mafia_(party_game)
+```
+
+This game is complex, so refer to
+https://en.wikipedia.org/wiki/Mafia_(party_game)
 
 ## Marshmallow Tower
 
