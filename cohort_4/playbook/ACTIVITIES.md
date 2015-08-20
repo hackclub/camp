@@ -1418,18 +1418,18 @@ what we recommend answering questions should look like.
 
 # Project Formation
 
-In the workshop / projects model, three quaters of a hacker's time is spent on
+In the workshop / projects model, three quarters of a hacker's time is spent on
 their projects. Project formation sets the foundation of a good project.
 
 Here are the steps to project formation:
 
 (_we recommend doing each of the below for things each time_)
 
-1. Forming groups [2 mins]
+1. Forming groups [2 minutes]
 2. Yes-and sessions [5 minutes]
-3. Brainstorming [23 mins]
-  1. Part 1: Generating Ideas [13 mins]
-  2. Part 2: Filtering Ideas [10 mins]
+3. Brainstorming [23 minutes]
+  1. Part 1: Generating Ideas [13 minutes]
+  2. Part 2: Filtering Ideas [10 minutes]
 
 ## Forming groups
 
