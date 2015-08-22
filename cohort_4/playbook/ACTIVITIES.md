@@ -343,7 +343,7 @@ the person on his or her left, Person B. Person A will then whisper that message
 into Person B's ear, and Person B will whisper the message he heard into Person
 C's ear, and so on, until the message gets around to the person on Person A's
 right hand side, Person X. Person X will then say the phrase he thinks he heard,
-and then Person A will say his phrase. Then the group will see how accurate
+and then Person A will say his phrapuse. Then the group will see how accurate
 Person X's phrase was.
 
 The energizer typically ends after one round (the message has been passed all
@@ -420,12 +420,14 @@ Team sizes:
 Assemble the group in two lines, holding hands. Everyone should have their eyes
 closed except for the leader of each line. A beach ball or other object is
 placed at the opposite end of lines from the leaders. The facilitator should
-stand by the leaders and flip a coin. If tails, do nothing. If heads, leaders
-start pulse race by squeezing the hand of the person next to them, which sets
-off a chain reaction. When the last person in line feels their hand squeezed,
-they may open their eyes and grab for the beach ball. The team that gets the
-ball first gets a point for the round. After each round, the leader goes to the
-end of the line and the person behind them becomes the new leader.
+stand by the leaders and flip a coin. If heads, leaders start pulse race by 
+squeezing the hand of the person next to them, which sets off a chain reaction. 
+When the last person in line feels their hand squeezed, they may open their 
+eyes and grab for the beach ball. The team that gets the ball first gets a point 
+for the round If tails, do nothing. If a pulse is set off when the coin is tails 
+and someone grabs the beach ball, the team loses a point. . After each round, 
+the leader goes to the end of the line and the person behind them becomes the 
+new leader.
 
 ## Sharks and Minnows
 
