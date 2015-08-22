@@ -9,7 +9,7 @@ function createTaskElement(taskString) {
   input.setAttribute("type", "checkbox");
 
   var span = document.createElement("span");
-  span.innerHTML = taskString;
+  span.appendChild(document.createTextNode(taskString));
 
   li.appendChild(input);
   li.appendChild(span)

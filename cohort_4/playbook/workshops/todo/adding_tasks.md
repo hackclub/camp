@@ -200,8 +200,8 @@ window.onload = function() {
     var span = document.createElement("span");
     //         ^ this function will output us a <span></span> element
 
-    // which we need to set the innerHTML of to the TASK NAME
-    span.innerHTML = "TASK NAME";
+    // which we need to set the text of to the TASK NAME
+    span.appendChild(document.createTextNode("TASK NAME"));
     // which means that the <span> will now look like this:
     // <span>TASK NAME</span>
 
@@ -270,7 +270,7 @@ window.onload = function() {
     li.appendChild(input);
 
     var span = document.createElement("span");
-    span.innerHTML = "TASK NAME";
+    span.appendChild(document.createTextNode("TASK NAME"));
     li.appendChild(span);
 
     /* The <li> tag now looks like this:
@@ -326,7 +326,7 @@ window.onload = function() {
     li.appendChild(input);
 
     var span = document.createElement("span");
-    span.innerHTML = "TASK NAME";
+    span.appendChild(document.createTextNode("TASK NAME"));
     li.appendChild(span);
 
     //=======================================
@@ -411,7 +411,7 @@ window.onload = function() {
     li.appendChild(input);
 
     var span = document.createElement("span");
-    span.innerHTML = "TASK NAME";
+    span.appendChild(document.createTextNode("TASK NAME"));
     li.appendChild(span);
 
     var img = document.createElement("img");
@@ -439,7 +439,7 @@ window.onload = function() {
     li.appendChild(input);
 
     var span = document.createElement("span");
-    span.innerHTML = "TASK NAME";
+    span.appendChild(document.createTextNode("TASK NAME"));
     li.appendChild(span);
 
     var img = document.createElement("img");
@@ -474,7 +474,7 @@ window.onload = function() {
     li.appendChild(input);
 
     var span = document.createElement("span");
-    span.innerHTML = taskName; // <-- CHANGE
+    span.appendChild(document.createTextNode(taskName)); // <-- CHANGE
     li.appendChild(span);
 
     var img = document.createElement("img");
@@ -524,7 +524,7 @@ window.onload = function() {
     li.appendChild(input);
 
     var span = document.createElement("span");
-    span.innerHTML = taskName; // <-- CHANGE
+    span.appendChild(document.createTextNode(taskName)); // <-- CHANGE
     li.appendChild(span);
 
     var img = document.createElement("img");
@@ -576,7 +576,7 @@ window.onload = function() {
     li.appendChild(input);
 
     var span = document.createElement("span");
-    span.innerHTML = taskName; // <-- CHANGE
+    span.appendChild(document.createTextNode(taskName)); // <-- CHANGE
     li.appendChild(span);
 
     var img = document.createElement("img");
@@ -629,7 +629,7 @@ window.onload = function() {
     li.appendChild(input);
 
     var span = document.createElement("span");
-    span.innerHTML = taskName; // <-- CHANGE
+    span.appendChild(document.createTextNode(taskName)); // <-- CHANGE
     li.appendChild(span);
 
     var img = document.createElement("img");

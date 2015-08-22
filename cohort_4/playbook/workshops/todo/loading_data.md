@@ -84,7 +84,7 @@ window.onload = function() {
     li.appendChild(input);
 
     var span = document.createElement("span");
-    span.innerHTML = taskName; // <-- CHANGE
+    span.appendChild(document.createTextNode(taskName)); // <-- CHANGE
     li.appendChild(span);
 
     var img = document.createElement("img");
@@ -176,7 +176,7 @@ window.onload = function() {
     li.appendChild(input);
 
     var span = document.createElement("span");
-    span.innerHTML = taskName; // <-- CHANGE
+    span.appendChild(document.createTextNode(taskName)); // <-- CHANGE
     li.appendChild(span);
 
     var img = document.createElement("img");

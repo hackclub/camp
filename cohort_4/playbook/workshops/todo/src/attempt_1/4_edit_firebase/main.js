@@ -35,7 +35,7 @@ window.onload = function() {
     }
 
     var span = document.createElement("span");
-    span.innerHTML = description;
+    span.appendChild(document.createTextNode(description));
 
     li.appendChild(input);
     li.appendChild(span)

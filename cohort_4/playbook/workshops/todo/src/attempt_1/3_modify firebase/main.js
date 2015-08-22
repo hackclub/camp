@@ -13,7 +13,7 @@ window.onload = function() {
     input.checked = isDone;
 
     var span = document.createElement("span");
-    span.innerHTML = description;
+    span.appendChild(document.createTextNode(description));
 
     li.appendChild(input);
     li.appendChild(span)

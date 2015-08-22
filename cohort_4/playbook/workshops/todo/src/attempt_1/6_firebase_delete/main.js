@@ -50,7 +50,7 @@ window.onload = function() {
     }
 
     var span = document.createElement("span");
-    span.innerHTML = description;
+    span.appendChild(document.createTextNode(description));
 
     var del = document.createElement("img");
     del.src = "img/delete.png";
