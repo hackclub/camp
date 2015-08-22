@@ -179,8 +179,3 @@ window.onload = function() {
 ```
 
 Next: [I will just give you the final version of the code ](full.md). (Note that there are some inconsistencies between this version and the next version)
-
-
-
-
-

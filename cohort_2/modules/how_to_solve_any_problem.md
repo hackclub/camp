@@ -7,7 +7,7 @@
 3. define MVP
 	1. 	abstract the problem
 	2. pseudocode
-	3. 
+	3.
 4. write iterations
 5. for each iteration
 	1. abstract the problem
@@ -24,7 +24,7 @@
 2. tinker
 5. After about 8 minutes of going nowhere, ask for help
 	1. Ask in the format "I want to do X, I tried doing Y"
-	2. Ask 3 of your peers in the format of 
+	2. Ask 3 of your peers in the format of
 	3. Ask an expert
 		1. Ask a nearby expert
 		2. Ask an expert on
@@ -32,7 +32,6 @@
 			3. Stack Overflow
 			4. High School Hackers
 			5. Hackathon Hackers
-
 
 ### A) What is the Objective / Problem?
 
@@ -51,7 +50,6 @@ For most students this is the most difficult part of the pipeline. Students must
 Fill this into the iteration planning sheet.
 Iteration Planning (https://docs.google.com/document/d/1yO69909AZ3vw3sXGHAcRGJqI9ZZ6Yc9VF_YvV74p30E/edithttps://docs.google.com/document/d/1nC6VrkIpl7G4IcGgRxvcvC591HvJJdlrzlUySgH0fOs/edit)
 
-
 ### *For Each Iteration:*
 
 --
@@ -59,7 +57,7 @@ Iteration Planning (https://docs.google.com/document/d/1yO69909AZ3vw3sXGHAcRGJqI
 #### 1. Understand the Game / Abstraction
 
 Students must identify the components of the game in terms of programming constructs. For example students might identify that they need a “list” to store the amount of aliens they have, “if” statements to determine whether one has been shot, “event handlers” to control space ship movements, and a variable for score.
-Figure out what you're thinking: Remember when you tried to tell Paul how to stand up, you had to try to sit and stand up a lot? Or when your brain "magically" found the maximum value in a list, you broke it down to figure out how your brain actually found the largest value in the list  
+Figure out what you're thinking: Remember when you tried to tell Paul how to stand up, you had to try to sit and stand up a lot? Or when your brain "magically" found the maximum value in a list, you broke it down to figure out how your brain actually found the largest value in the list
 
 Break the problem into small tiny chunks that you can attack separately. #divideandconquer
 
@@ -84,7 +82,7 @@ You should be making marks all over the pseudocode trying to replicate as viscer
 
 Pseudocode (https://docs.google.com/document/d/1nC6VrkIpl7G4IcGgRxvcvC591HvJJdlrzlUySgH0fOs/edit)
 
-#### 4. Code: 
+#### 4. Code:
 
 Have students translate their pseudo code into a real live program! Typically students are best at this step, as they have very clear rules to follow and need only worry about bugs and syntax.
 
@@ -94,7 +92,6 @@ GOOGLE
 
 #### 6. Debugger
 
-
 ## At any point if you get stuck:
 
 1. Google
@@ -103,5 +100,5 @@ GOOGLE
 4. Puss
 5. After about 8 minutes of going nowhere, ask for help
 	1. Ask in the format "I want to do X, I tried doing Y"
-	2. Ask 3 of your peers in the format of 
+	2. Ask 3 of your peers in the format of
 	3. Ask a facillitator

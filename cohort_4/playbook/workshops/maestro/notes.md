@@ -1,7 +1,3 @@
-
-
-
-
 alert("Hello world")
 
 var message = "Hello, welcome to my website!";

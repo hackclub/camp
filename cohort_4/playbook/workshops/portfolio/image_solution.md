@@ -134,7 +134,6 @@ So when I fill in the `img` tag template I made above, I get this:
 note that <img> does not have a closing tag
 ```
 
-
 ```html
 <img src="https://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ this is an attribute

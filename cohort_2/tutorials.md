@@ -4,10 +4,8 @@ Tutorial 1a:
     - Explore
     - Make basic page
 
-
 Tutorial 1b:
   - Make a Portfolio Page
 
-
 Tutorial 2a:
-  - 
+  -

@@ -86,7 +86,6 @@ Once Chrome is opened, open the developer tools by pressing
 
 This is a place where we can run Javascript code.
 
-
 ## Fundamental Concepts in Javascript
 
 ### How to go about this section

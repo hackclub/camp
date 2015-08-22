@@ -112,4 +112,3 @@ I won't go into the details of the next part but from looking at each of these
 websites, it has made me confident that code exists that will allow me to add
 filters to my photos.
 
-

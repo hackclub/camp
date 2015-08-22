@@ -1,10 +1,6 @@
 # Website Development Cheatsheet
 
-
-
 # Vocabulary
-
-
 
 - tags
 - attributes
@@ -49,8 +45,6 @@ It is technically a guided resource as well but it is best used as a reference (
 - css
 	- https://css-tricks.com/almanac/
 
-
-
 ### [CodeCademy HTML & CSS](https://dash.generalassemb.ly)
 [![](https://i.imgur.com/w2BN6Wd.png)](http://www.codecademy.com/en/tracks/web)
 
@@ -58,6 +52,4 @@ It is technically a guided resource as well but it is best used as a reference (
 - **How**: Guided tutorial
 - **Usage:**: This is best used as a reference. People go through this and still don't know how to build websites.
 
-
 ## Just In Time Resources
-

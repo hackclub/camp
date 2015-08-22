@@ -324,7 +324,6 @@ window.onload = function() {
 ```
 but I'm not necessarily sure what code needs to be in here.
 
-
 ##### Analyzing the [2nd Google Result](http://stackoverflow.com/questions/17080502/uncaught-typeerror-cannot-set-property-onclick-of-null)
 - the title "Uncaught TypeError: Cannot set property 'onclick' of null" is 
   relevant 

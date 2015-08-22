@@ -15,7 +15,6 @@ THIS IS THE SCRIPT TAG YOU WANT
 <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
 ```
 
-
 ```html
 BEFORE:
 ...

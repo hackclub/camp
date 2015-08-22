@@ -30,8 +30,6 @@ Legend
 * Callbacks -
 * Promises -
 
-
-
 Daily
 - Explicitly show computational thinking (Idea --> Abstraction --> Algorithm --> Code) in examples
 - Demos everyday

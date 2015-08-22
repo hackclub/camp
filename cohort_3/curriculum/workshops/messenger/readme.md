@@ -54,7 +54,6 @@ Given a a single number, it outputs the square of that number.
 | what is the output of `g(5)` equal to?       | `10`     |
 | what is the type of the output?              | `number` |
 
-
 **In general, what does the function `f` do?**: 
 
 Given a single number, it outputs double of the original number.

@@ -38,6 +38,5 @@ Parent Child Sibling
 
 Callbacks
 
-
 Code Runs Line By Line
 - debugger

@@ -85,7 +85,6 @@ Similarly
 tells the browser to run the JavaScript code contained inside of main.js
 ```
 
-
 ## Next
 
 According to our scaffold, I am on step 1

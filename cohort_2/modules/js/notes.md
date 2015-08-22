@@ -1,8 +1,7 @@
 - funcs
 - order
 - loops, variables
-- 
-
+-
 
 - code executes in order
 

@@ -16,7 +16,7 @@
 - Portfolio Project [Pairs]                 @jonleung
 - I Have Failed                            @maxwofford
 - Demoing Pro-Tips [Presentation]           @maxwofford
-- Demos [Demos]                             
+- Demos [Demos]
 
 ## Objectives
 
@@ -71,7 +71,7 @@ ${TODO: link}
     - How to give a good presentation (see [presentation tips](Presentation
       Tips)).
 
-## Sub-Modules 
+## Sub-Modules
 
 - Activity Types
 - Duration
@@ -93,7 +93,7 @@ Objective:
 - Javascript does all the interactivity
 - HTML
 - is a tree
-- tags 
+- tags
 - attributes
 - class
 - id

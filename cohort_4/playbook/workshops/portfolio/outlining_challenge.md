@@ -46,10 +46,7 @@ IMPORTANT: To save time and to limit frustration, spend 3 minutes trying figure 
 
 Here is what the final portfolio looks like. [Here is a link to the live website.](https://rawgit.com/hackedu/hack-camp/cohort_4-portfolio/cohort_4/playbook/workshops/portfolio/src/final_portfolio/index.html)
 
-
 ![](img/final_screenshot.png)
-
-
 
 ## Next
 

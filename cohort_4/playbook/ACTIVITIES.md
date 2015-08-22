@@ -1309,7 +1309,6 @@ encouraged to have finished.
   breaking especially when people aren't realizing.
 - DO remind the hackers of the link collection time as well as demo time
 
-
 ## Scoping and concept
 
 - Sometimes hackers will become too focused on a particular part of their
