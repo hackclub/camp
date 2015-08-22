@@ -4,6 +4,8 @@ In this workshop, we will be looking more in depth at the Instagram workshop
 and then building a Messenger app using our knowledge of how we built the
 Instagram app.
 
+Click [here](#understanding-the-instagram-workshop) for reference to the Instagram workshop.
+
 [See the live demo of the messenger application: ](https://rawgit.com/hackedu/hack-camp/50b54d2436ff15679735ca5c8c50d7ee2ff7b744/cohort_4/playbook/workshops/messenger/src/index.html)
 
 ## A note on partners
@@ -27,421 +29,8 @@ Some potential challenge projects:
   when you're online and sends you SMS when you're idle or offline
 - add firebase to this chat for realtimze syncing
 
-## Understanding the Instagram Workshop
-
-[Here is a live demo](http://output.jsbin.com/cacaqa) of what we built in the
-Instagram workshop.
-
-[Here were the instructions](https://github.com/hackedu/hack-camp/blob/0a240456b0f843310ce97b555a78853fcaabecba/cohort_4/playbook/workshops/instagram/README.md)
-for the Instagram workshop.
-
-We're going to do a deep dive into this application to make sure we understand
-how it works. If you're already intimiately familiar with the code, feel free
-to skip the Instagram related section and [go here](#recap) and answer the
-questions to make sure you comprehend it.
-
-### Breaking it down
-
-If we were to break down into steps what happens:
-
-- when the page finishes loading
-- tell the upload button that whenever someone clicks it
-- prompt the user for a URL for the image
-- then add a new image
-- and add that new image to the list of existing images already on the page
-
-### Examining the HTML
-
-The HTML only contains two interesting elements:
-
-- the button that you click
-- a `<div>` element that you can put photos in
-
-`index.html`
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <script src="main.js"></script>
-  </head>
-  <body>
-    <input id="upload-button" type="submit" value="Upload"/>  
-    <div id="photos">
-    </div>
-  </body>
-</html>
-```
-
-```
-Note that you may be less familiar with the `<div>` tag.
-Think of the `<div>` tag as an empty box that we can put things in.
-
-It is an element that is used to house other elements in, like our photos.
-```
-
-### Adding images to the HTML code
-
-When we add an image, we want to add it into our `<div>` element with the id
-`photos`.
-
-In the below examples, I'm going to only show the `<div>` tag with the `id` of
-`photos` and hide the rest of the HTML page.
-
-#### Before we add any photos to the `<div>` tag, it is empty:
-
-```html
-<div id="photos">
-</div>
-```
-
-#### Then after we add our first image, the `<div>` tag looks like this
-
-```html
-<div id="photos">
-  <img src="https://i.imgur.com/BdbsV4F.png">
-</div>
-```
-
-![](img/1.png)
-
-#### Then after we add our second image:
-
-```html
-<div id="photos">
-  <img src="https://i.imgur.com/BdbsV4F.png">
-  <img src="https://i.imgur.com/mfAuIRU.png">
-</div>
-```
-
-![](img/2.png)
-
-#### Then after we add our third image:
-
-```html
-<div id="photos">
-  <img src="https://i.imgur.com/BdbsV4F.png">
-  <img src="https://i.imgur.com/mfAuIRU.png">
-  <img src="https://i.imgur.com/mukgIPn.png">
-</div>
-```
-
-![](img/3.png)
-
-### Summary of the Instagram app
-
-The only function of the Instagram app is to add images to the screen inside of
-the `<div>` tags. That was the only missing piece that JavaScript needed to do.
-
-## Examining the JavaScript code of the Instagram app
-
-`main.js`
-
-```js
-window.onload = function() {
-
-  var uploadButton = document.getElementById('uploadButton');
-  uploadButton.onclick = function() {
-    var photoUrl = prompt("Paste a URL of photo to add to the stream!");
-
-    var img = document.createElement("img");
-    img.src = photoUrl;
-
-    var photos = document.getElementById("photos");
-    photos.appendChild(img);
-  }
-};
-```
-
-Let's break down the code into multiple steps:
-
-- waiting for the page to load
-- doing something when the button was clicked
-- asking the user for a link to an image
-- creating an image element
-- adding the newly created image element to another element on the page
-
-### Waiting for the page to load
-
-Before we do anything, we needed to wait for the page to load.
-
-To do this, we can put our code inside the `window.onload` function like this:
-
-```js
-window.onload = function() {
-  // This code inside here runs after the page is finished loading.
-  // Any code I write needs to be inside of here.
-};
-```
-
-### Doing something when the button is clicked
-
-The first thing we need to do is to create a reference to the button in the
-HTML.
-
-We can do this by using the function `document.getElementById`.
-
-This function gives us back any element with the id that we give to it as the
-input.
-
-We can use this function like this:
-
-```js
-document.getElementById('uploadButton');
-```
-
-we gave `document.getElementById` the input `'uploadButton'` so it will give us
-back the element with the id `'uploadButton'`.
-
-Now because we want to be able to reference this element later, we set a
-variable equal to it:
-
-```js
-var uploadButton = document.getElementById('uploadButton');
-```
-
-Now we can put this code inside our `window.onload` function like so:
-
-```js
-window.onload = function() {
-  var uploadButton = document.getElementById('uploadButton');
-  // the variable `uploadButton` now references the upload button element
-};
-```
-
-```
-Pro-tip!
-
-{o,o}
-./)_)
-  " "
-
-Note that this code would not have worked unless you put it inside the
-window.onload function because it would try to find the element before the page
-even loaded.
-```
-
-Now that we have the reference to the `uploadButton`, I write some code in it's
-`onclick` function. The code inside this function will run whenever the button
-is clicked:
-
-```js
-window.onload = function() {
-  var uploadButton = document.getElementById('uploadButton');
-
-  uploadButton.onclick = function() {
-    // this code inside here runs whenever the upload button is clicked
-    // any code I want to run when the button is clicked needs to be in here
-  }
-};
-```
-
-### Asking for a link to an image
-
-We need to use `prompt` to ask the user for a URL to an image:
-
-```js
-window.onload = function() {
-  var uploadButton = document.getElementById('uploadButton');
-
-  uploadButton.onclick = function() {
-    var photoUrl = prompt("Paste a URL of photo to add to the stream!");
-    // ^ photoUrl now references the the URL that the user typed into the
-    //   prompt box
-  }
-};
-```
-
-### Creating the image element and setting the src attribute
-
-We have a URL to the image we want to display but we don't have an image element
-yet so we need to create one.
-
-We can use the `document.createElement` function to create a new HTML element.
-here's how we use it:
-
-If we want to create a `<p>` tag, we would write
-
-```js
-document.createElement("p");
-```
-
-If we want to create an `<img>` tag, we would write
-
-```js
-document.createElement("img");
-```
-
-And so that we have a reference to the `<img>` tag that is created we write.
-
-```js
-var img = document.createElement("img");
-```
-
-In the above example, the variable `img` references an image tag and currently
-looks like this:
-
-```html
-<img>
-```
-
-Note that it does not have a source attribute yet.
-
-To set the image tag's source attribute, we can do:
-
-```js
-var img = document.createElement("img");
-img.src = "http://website.com/imge.png";
-```
-
-and now the image tag will look like this:
-
-```html
-<img src="http://website.com/imge.png">
-```
-
-Because we already have a reference to the URL of the image we want in the
-`photoUrl` variable, we can do something like this:
-
-```js
-var photoUrl = prompt("Paste a URL of photo to add to the stream!");
-
-var img = document.createElement("img"); // creates new image element
-img.src = photoUrl;
-```
-
-And we only want to run this code when the button is clicked so we put it in the
-`uploadButton.onclick` function:
-
-```js
-window.onload = function() {
-  var uploadButton = document.getElementById('uploadButton');
-
-  uploadButton.onclick = function() {
-    var photoUrl = prompt("Paste a URL of photo to add to the stream!");
-
-    var img = document.createElement("img"); // creates new image element
-    img.src = photoUrl;
-  }
-};
-```
-
-### Actually adding the image element to the page
-
-We have successfully created an `<img>` element with the proper `src` property.
-
-However we have not added it to the page yet. The HTML page still looks like
-this:
-
-```html
-<div id="photos">
-</div>
-```
-
-Now we need to add our image tag inside of `<div id="photos">`.
-
-We can do this by first obtaining a reference to that `<div id="photos">`.
-
-Because our `div` has an id of `photos`, we can use, you guessed it,
-
-```js
-var photos = document.getElementById('photos')
-```
-
-To add any element inside of any other element, we can use the function:
-
-```js
-element1.appendChild(element2);
-```
-This takes `element2`, and puts it inside of `element1`.
-
-so in our case to add our image element inside of the photos element, we can do:
-
-```js
-var photos = document.getElementById("photos");
-photos.appendChild(img);
-```
-
-Before running the above code:
-
-```html
-<div id="photos">
-</div>
-```
-
-After running the above code:
-
-```html
-<div id="photos">
-  <img src="http://website.com/imge.png">
-</div>
-```
-
-Adding this code to everything else, we have:
-
-```js
-window.onload = function() {
-
-  var uploadButton = document.getElementById('uploadButton');
-  uploadButton.onclick = function() {
-    var photoUrl = prompt("Paste a URL of photo to add to the stream!");
-
-    var img = document.createElement("img");
-    img.src = photoUrl;
-
-    var photos = document.getElementById("photos");
-    photos.appendChild(img);
-  }
-};
-```
-
-And we're done!
-
-![](img/celebration_1.gif)
-
-### Recap
-
-And that's all the code that we need to build the Instagram project.
-
-To recap, there were 5 steps:
-
-- waiting for the page to load
-- doing something when the button was clicked
-- asking the user for a link to an image
-- creating an image element
-- adding the newly created image element to another element on the page
-
-```md
-Challenge Time!
-            __
-           / _)
-    .-^^^-/ /
- __/       /
- <__.|_|-|_|
-
-With your partner, quickly choose who is going to be Person A and who is going
-to be Person B.
-
-Then to make sure that you've both mastered the concepts, take turns asking and
-answering each others questions. Obviously if one of you is strugging to answer
-the question, help them up.
-
-Person A: explain to Person B how the code "waiting for the page to load" section
-          works
-
-Person B: explain to Person A how the code in "doing something when the button
-          was clicked" section works
-
-Person A: explain the how the code in the "asking the user for a link to an
-          image" section works.
-
-Person B: explain how the code in "creating an image element" section works
-
-Person A: explain how the code in "adding the newly created image element to
-          another element on the page" section works
-```
-
 ## Breaking down the messenger app:
+
 
 Here is the [live demo of the messenger app](https://rawgit.com/hackedu/hack-camp/50b54d2436ff15679735ca5c8c50d7ee2ff7b744/cohort_4/playbook/workshops/messenger/src/index.html)
 
@@ -1425,4 +1014,421 @@ window.onload = function() {
     messageList.appendChild(newLi);
   }
 }
+```
+
+Yay! You did it! The rest of this page is for reference.
+
+## Understanding the Instagram Workshop
+
+[Here is a live demo](http://output.jsbin.com/cacaqa) of what we built in the
+Instagram workshop.
+
+[Here were the instructions](https://github.com/hackedu/hack-camp/blob/0a240456b0f843310ce97b555a78853fcaabecba/cohort_4/playbook/workshops/instagram/README.md)
+for the Instagram workshop.
+
+We're going to do a deep dive into this application to make sure we understand
+how it works. If you're already intimiately famailiar with the code, feel free
+to skip the Instagram related section and [go here](#recap) and answer the
+questions to make sure you comprehend it.
+
+### Breaking it down
+
+If we were to break down into steps what happens:
+
+- when the page finishes loading
+- tell the upload button that whenever someone clicks it
+- prompt the user for a URL for the image
+- then add a new image
+- and add that new image to the list of existing images already on the page
+
+### Examining the HTML
+
+The HTML only contains two interesting elements:
+
+- the button that you click
+- a `<div>` element that you can put photos in
+
+`index.html`
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <input id="upload-button" type="submit" value="Upload"/>  
+    <div id="photos">
+    </div>
+  </body>
+</html>
+```
+
+```
+Note that you may be less familiar with the `<div>` tag.
+Think of the `<div>` tag as an empty box that we can put things in.
+
+It is an element that is used to house other elements in, like our photos.
+```
+
+### Adding images to the HTML code
+
+When we add an image, we want to add it into our `<div>` element with the id
+`photos`.
+
+In the below examples, I'm going to only show the `<div>` tag with the `id` of
+`photos` and hide the rest of the HTML page.
+
+#### Before we add any photos to the `<div>` tag, it is empty:
+
+```html
+<div id="photos">
+</div>
+```
+
+#### Then after we add our first image, the `<div>` tag looks like this
+
+```html
+<div id="photos">
+  <img src="http://i.imgur.com/BdbsV4F.png">
+</div>
+```
+
+![](img/1.png)
+
+#### Then after we add our second image:
+
+```html
+<div id="photos">
+  <img src="http://i.imgur.com/BdbsV4F.png">
+  <img src="http://i.imgur.com/mfAuIRU.png">
+</div>
+```
+
+![](img/2.png)
+
+#### Then after we add our third image:
+
+```html
+<div id="photos">
+  <img src="http://i.imgur.com/BdbsV4F.png">
+  <img src="http://i.imgur.com/mfAuIRU.png">
+  <img src="http://i.imgur.com/mukgIPn.png">
+</div>
+```
+
+![](img/3.png)
+
+### Summary of the Instagram app
+
+The only function of the Instagram app is to add images to the screen inside of
+the `<div>` tags. That was the only missing piece that JavaScript needed to do.
+
+## Examining the JavaScript code of the Instagram app
+
+`main.js`
+
+```js
+window.onload = function() {
+
+  var uploadButton = document.getElementById('uploadButton');
+  uploadButton.onclick = function() {
+    var photoUrl = prompt("Paste a URL of photo to add to the stream!");
+
+    var img = document.createElement("img");
+    img.src = photoUrl;
+
+    var photos = document.getElementById("photos");
+    photos.appendChild(img);
+  }
+};
+```
+
+Let's break down the code into multiple steps:
+
+- waiting for the page to load
+- doing something when the button was clicked
+- asking the user for a link to an image
+- creating an image element
+- adding the newly created image element to another element on the page
+
+
+### Waiting for the page to load
+
+Before we do anything, we needed to wait for the page to load.
+
+To do this, we can put our code inside the `window.onload` function like this:
+
+```js
+window.onload = function() {
+  // This code inside here runs after the page is finished loading.
+  // Any code I write needs to be inside of here.
+};
+```
+
+### Doing something when the button is clicked
+
+The first thing we need to do is to create a reference to the button in the
+HTML.
+
+We can do this by using the function `document.getElementById`.
+
+This function gives us back any element with the id that we give to it as the
+input.
+
+We can use this function like this:
+
+```js
+document.getElementById('uploadButton');
+```
+
+we gave `document.getElementById` the input `'uploadButton'` so it will give us
+back the element with the id `'uploadButton'`.
+
+Now because we want to be able to reference this element later, we set a
+variable equal to it:
+
+```js
+var uploadButton = document.getElementById('uploadButton');
+```
+
+Now we can put this code inside our `window.onload` function like so:
+
+```js
+window.onload = function() {
+  var uploadButton = document.getElementById('uploadButton');
+  // the variable `uploadButton` now references the upload button element
+};
+```
+
+```
+Pro-tip!
+
+{o,o}
+./)_)
+  " "
+
+Note that this code would not have worked unless you put it inside the
+window.onload function because it would try to find the element before the page
+even loaded.
+```
+
+Now that we have the reference to the `uploadButton`, I write some code in it's
+`onclick` function. The code inside this function will run whenever the button
+is clicked:
+
+```js
+window.onload = function() {
+  var uploadButton = document.getElementById('uploadButton');
+
+  uploadButton.onclick = function() {
+    // this code inside here runs whenever the upload button is clicked
+    // any code I want to run when the button is clicked needs to be in here
+  }
+};
+```
+
+### Asking for a link to an image
+
+We need to use `prompt` to ask the user for a URL to an image:
+
+```js
+window.onload = function() {
+  var uploadButton = document.getElementById('uploadButton');
+
+  uploadButton.onclick = function() {
+    var photoUrl = prompt("Paste a URL of photo to add to the stream!");
+    // ^ photoUrl now references the the URL that the user typed into the
+    //   prompt box
+  }
+};
+```
+
+### Creating the image element and setting the src attribute
+
+We have a URL to the image we want to display but we don't have an image element
+yet so we need to create one.
+
+We can use the `document.createElement` function to create a new HTML element.
+here's how we use it:
+
+If we want to create a `<p>` tag, we would write
+
+```js
+document.createElement("p");
+```
+
+If we want to create an `<img>` tag, we would write
+
+```js
+document.createElement("img");
+```
+
+And so that we have a reference to the `<img>` tag that is created we write.
+
+```js
+var img = document.createElement("img");
+```
+
+In the above example, the variable `img` references an image tag and currently
+looks like this:
+
+```html
+<img>
+```
+
+Note that it does not have a source attribute yet.
+
+To set the image tag's source attribute, we can do:
+
+```js
+var img = document.createElement("img");
+img.src = "http://website.com/imge.png";
+```
+
+and now the image tag will look like this:
+
+```html
+<img src="http://website.com/imge.png">
+```
+
+Because we already have a reference to the URL of the image we want in the
+`photoUrl` variable, we can do something like this:
+
+```js
+var photoUrl = prompt("Paste a URL of photo to add to the stream!");
+
+var img = document.createElement("img"); // creates new image element
+img.src = photoUrl;
+```
+
+And we only want to run this code when the button is clicked so we put it in the
+`uploadButton.onclick` function:
+
+```js
+window.onload = function() {
+  var uploadButton = document.getElementById('uploadButton');
+
+  uploadButton.onclick = function() {
+    var photoUrl = prompt("Paste a URL of photo to add to the stream!");
+
+    var img = document.createElement("img"); // creates new image element
+    img.src = photoUrl;
+  }
+};
+```
+
+### Actually adding the image element to the page
+
+We have successfully created an `<img>` element with the proper `src` property.
+
+However we have not added it to the page yet. The HTML page still looks like
+this:
+
+```html
+<div id="photos">
+</div>
+```
+
+Now we need to add our image tag inside of `<div id="photos">`.
+
+We can do this by first obtaining a reference to that `<div id="photos">`.
+
+Because our `div` has an id of `photos`, we can use, you guessed it,
+
+```js
+var photos = document.getElementById('photos')
+```
+
+To add any element inside of any other element, we can use the function:
+
+```js
+element1.appendChild(element2);
+```
+This takes `element2`, and puts it inside of `element1`.
+
+so in our case to add our image element inside of the photos element, we can do:
+
+```js
+var photos = document.getElementById("photos");
+photos.appendChild(img);
+```
+
+Before running the above code:
+
+```html
+<div id="photos">
+</div>
+```
+
+After running the above code:
+
+```html
+<div id="photos">
+  <img src="http://website.com/imge.png">
+</div>
+```
+
+Adding this code to everything else, we have:
+
+```js
+window.onload = function() {
+
+  var uploadButton = document.getElementById('uploadButton');
+  uploadButton.onclick = function() {
+    var photoUrl = prompt("Paste a URL of photo to add to the stream!");
+
+    var img = document.createElement("img");
+    img.src = photoUrl;
+
+    var photos = document.getElementById("photos");
+    photos.appendChild(img);
+  }
+};
+```
+
+And we're done!
+
+![](img/celebration_1.gif)
+
+### Recap
+
+And that's all the code that we need to build the Instagram project.
+
+To recap, there were 5 steps:
+
+- waiting for the page to load
+- doing something when the button was clicked
+- asking the user for a link to an image
+- creating an image element
+- adding the newly created image element to another element on the page
+
+```md
+Challenge Time!
+            __
+           / _)
+    .-^^^-/ /
+ __/       /
+ <__.|_|-|_|
+
+With your partner, quickly choose who is going to be Person A and who is going
+to be Person B.
+
+Then to make sure that you've both mastered the concepts, take turns asking and
+answering each others questions. Obviously if one of you is strugging to answer
+the question, help them up.
+
+Person A: explain to Person B how the code "waiting for the page to load" section
+          works
+
+Person B: explain to Person A how the code in "doing something when the button
+          was clicked" section works
+
+Person A: explain the how the code in the "asking the user for a link to an
+          image" section works.
+
+Person B: explain how the code in "creating an image element" section works
+
+Person A: explain how the code in "adding the newly created image element to
+          another element on the page" section works
 ```
