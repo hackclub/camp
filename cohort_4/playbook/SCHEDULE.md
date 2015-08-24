@@ -156,7 +156,7 @@ partners. Please do make sure to explain _why_ we are assigning hackers
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
 | 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
-| 9:20 AM  | [Energizer 1](ACTIVITIES.md#one-word-radio)                  |
+| 9:20 AM  | [Energizer 1](ACTIVITIES.md#marshmallow-tower)               |
 | 9:30 AM  | [Energizer 2](ACTIVITIES.md#sharks-and-minnows)              |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:00 AM | [Instagram Workshop](ACTIVITIES.md#instagram)                |
@@ -190,9 +190,6 @@ partners. Please do make sure to explain _why_ we are assigning hackers
 
 ## Day 7
 
-*note: energizers for day 7 are in*
- https://github.com/hackedu/hack-camp/issues/426
-
 For today's workshop the hackers have two choices:
 
 - [Messenger](ACTIVITIES.md#messenger) (beginner)
@@ -220,9 +217,6 @@ coders work through the todo workshop.
 
 ## Day 8
 
-*note: energizers for day 8 are in*
- https://github.com/hackedu/hack-camp/issues/455
-
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
 | 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
@@ -243,9 +237,6 @@ coders work through the todo workshop.
 | 4:45 PM  | [Post-mortem (ending at 5:30 PM)](ACTIVITIES.md#post-mortem) |
 
 ## Day 9
-
-*note: energizers for day 9 are in*
- https://github.com/hackedu/hack-camp/issues/469
 
 We recommend beginners work through the todo workshop and more advanced coders
 work through a project of their own.
@@ -272,13 +263,12 @@ work through a project of their own.
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
 | 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
-| 9:20 AM  | Energizer 1                                                  |
-| 9:30 AM  | Energizer 2                                                  |
+| 9:20 AM  | [Energizer 1](ACTIVITIES.md#mafia)                           |
 | 9:40 AM  | [Morning Announcements](ACTIVITIES.md#morning-announcements) |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:15 AM | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
-| 1:30 PM  | Energizer 3                                                  |
+| 1:30 PM  | [Energizer 2](ACTIVITIES.md#mafia)                           |
 | 2:00 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 3:50 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
 | 4:00 PM  | [Demos](ACTIVITIES.md#demos)                                 |

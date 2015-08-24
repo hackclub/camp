@@ -12,6 +12,8 @@
     - [Human Knot](#human-knot)
     - [Human Pictionary](#human-pictionary)
     - [I Love My Neighbor Who](#i-love-my-neighbor-who)
+    - [Mafia](#mafia)
+    - [Marshmallow Tower](#marshmallow-tower)
     - [Mumbled Messages](#mumbled-messages)
     - [Ninja](#ninja)
     - [One Word Radio](#one-word-radio)
@@ -326,6 +328,38 @@ Number: best for 10-35
   think will apply to others. That way, it gets people to share things that they
   think "could only apply to them" and when they realize when it applies to
   someone else, bonding happens.
+
+## Mafia
+
+```
+Time: 10 minutes
+Materials: none
+Number: 5-15
+Source: https://en.wikipedia.org/wiki/Mafia_(party_game)
+```
+
+This game is complex, so refer to
+https://en.wikipedia.org/wiki/Mafia_(party_game)
+
+## Marshmallow Tower
+
+```
+Time: 15 minutes
+Materials: Marshmallows (large), dry spaghetti, tape measure (optional)
+Number: unknown
+Source: unknown
+```
+
+The objective of the energizer is to build the tallest structure out of a
+limited number of marshmallows and dry spaghetti as possible.
+
+- Hackers break up into groups of 2-3.
+- Each group of hackers will get an equal amount of marshmallows and dry
+  spaghetti.
+- Teams have 10 minutes to build the tallest structure out of marshmallows and
+  spaghetti as possible.
+- After 10 minutes are up, hackers must stop working on their towers.
+- Each tower is measured, and the team with the highest tower wins.
 
 ## Mumbled Messages
 
