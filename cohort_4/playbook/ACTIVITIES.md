@@ -5,6 +5,7 @@
     - [On the First Day](#on-the-first-day)
 - [Energizers](#energizers)
     - [Bad startup ideas](#bad-startup-ideas)
+    - [Can It!](#can-it)
     - [Card on Your Head](#card-on-your-head)
     - [Duck, Duck, Goose](#duck-duck-goose)
     - [Evolution Rock Paper Scissors](#evolution-rock-paper-scissors)
@@ -14,7 +15,9 @@
     - [Mumbled Messages](#mumbled-messages)
     - [Ninja](#ninja)
     - [One Word Radio](#one-word-radio)
+    - [Pulse Race](#pulse-race)
     - [Sharks and Minnows](#sharks-and-minnows)
+    - [Systems Game](#systems-game)
     - [Two Truths and a Lie](#two-truths-and-a-lie)
     - [Pterodactyl](#pterodactyl)
     - [Where The West Wind Blows](#where-the-west-wind-blows)
@@ -175,6 +178,14 @@ will be a startup.
 > team B: We're here to tell you about the next big thing... tinder for dogs
 > ~pitching continues for 3 minutes
 
+## Can It!
+
+Have participants sit in a circle with their feet extended. Place a can on the
+foot of one of the participants. The object is to move the can around the circle
+without touching the can with your hands or having it fall. The can must be on
+at least one foot of each participant. We could also do this as a competition
+between 2 groups.
+
 ## Card on Your Head
 
 ```
@@ -334,7 +345,7 @@ the person on his or her left, Person B. Person A will then whisper that message
 into Person B's ear, and Person B will whisper the message he heard into Person
 C's ear, and so on, until the message gets around to the person on Person A's
 right hand side, Person X. Person X will then say the phrase he thinks he heard,
-and then Person A will say his phrase. Then the group will see how accurate
+and then Person A will say his phrapuse. Then the group will see how accurate
 Person X's phrase was.
 
 The energizer typically ends after one round (the message has been passed all
@@ -406,6 +417,20 @@ Team sizes:
 > b: on
 > c: cookies
 
+## Pulse Race
+
+Assemble the group in two lines, holding hands. Everyone should have their eyes
+closed except for the leader of each line. A beach ball or other object is
+placed at the opposite end of lines from the leaders. The facilitator should
+stand by the leaders and flip a coin. If heads, leaders start pulse race by 
+squeezing the hand of the person next to them, which sets off a chain reaction. 
+When the last person in line feels their hand squeezed, they may open their 
+eyes and grab for the beach ball. The team that gets the ball first gets a point 
+for the round If tails, do nothing. If a pulse is set off when the coin is tails 
+and someone grabs the beach ball, the team loses a point. After each round, 
+the leader goes to the end of the line and the person behind them becomes the 
+new leader.
+
 ## Sharks and Minnows
 
 ```
@@ -425,6 +450,12 @@ Number: unknown
 - If a minnow is tagged by a shark, the minnow is now kelp and cannot move.
 - Kelp will try to reach out and tag the minnows as they run past. If a minnow
   is tagged by kelp, it also becomes kelp.
+
+## Systems Game
+
+Have everyone in the group start walking around a designed space. Each person
+should secretly choose two people and try to remain exactly in between both of
+them, without their knowledge.
 
 ## Two Truths and a Lie
 
