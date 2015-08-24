@@ -425,7 +425,7 @@ squeezing the hand of the person next to them, which sets off a chain reaction.
 When the last person in line feels their hand squeezed, they may open their 
 eyes and grab for the beach ball. The team that gets the ball first gets a point 
 for the round If tails, do nothing. If a pulse is set off when the coin is tails 
-and someone grabs the beach ball, the team loses a point. . After each round, 
+and someone grabs the beach ball, the team loses a point. After each round, 
 the leader goes to the end of the line and the person behind them becomes the 
 new leader.
 
