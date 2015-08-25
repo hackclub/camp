@@ -1,6 +1,7 @@
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
 **Table of Contents**
 
+- [Creating a safe space](#creating-a-safe-space)
 - [Hacker arrival](#hacker-arrival)
     - [On the First Day](#on-the-first-day)
 - [Energizers](#energizers)
@@ -46,9 +47,11 @@
 - [Workshops](#workshops)
     - [General Guidelines](#general-guidelines)
         - [Breaks](#breaks)
+		- [Handling Disruptions](#handling-disruptions)
         - [Checking In To Every Hacker](#checking-in-to-every-hacker)
         - [Driving People to their Maximal Potential](#driving-people-to-their-maximal-potential)
     - [Portfolio](#portfolio)
+		- [Handling Disruptions](#handling-disruptions)
         - [Prerequisites](#prerequisites)
         - [Running it](#running-it)
     - [Maestro](#maestro)
@@ -103,6 +106,101 @@
     - [Slack Announcements](#slack-announcements)
 
 <!-- markdown-toc end -->
+
+# Creating a safe space
+
+The one rule that we have at Hack Camp is that we make it a safe space.
+We all know how bad it feels when we are made fun of or when someone makes
+us feel uncomfortable.
+
+Below are some scenarios which may occur and how to handle them:
+
+## Someone writes or says "X person is gay." in a playful joking manner
+
+Although in many cases this is intended as a joke, but it sets the norm that
+at Hack Camp
+
+- being gay is bad
+- if you are gay, you should feel bad
+- gay people are not welcome here
+
+This is not an environment that we want to create. This needs to be addressed
+quickly and in a very serious tone to make sure everyone understands that this
+is the one thing that is extremely important to us.
+
+However at the same time, we don't want to make the person who said it feel
+really bad and feel shameful because that could hurt just as much. They thought
+that it was just a joke.
+
+Here's how I might handle the situation. Note that this is just one way to
+handle the situation, feel free to handle it in a way that you choose as well.
+
+Also note that this is only a suggestion for what you might bring up. Feel free
+to say as much or as little of it based on what you feel is necessary and what
+is comfortable for you.
+
+- Can I get everyone's attention please
+- I noticed earlier that someone posted the phrase say "X person is gay"
+- I know that you probably meant it as a joke
+- what you many not recognize is that that statement sets the precendent in this
+  environment that
+  - being gay is bad
+  - if you are gay, you should feel bad
+  - gay people are not welcome here
+- This is the opposite of the type of culture we want at hack camp
+- One of the most important parts of hack camp is that it is a safe space
+  - everyone feels welcome to come to the space no matter what gender, race,
+    sexual orientation, socio-economic status, religion, age, whether or not
+    they have a disability
+  - and everyone can be comfortable being themselves
+- Why does this matter so much to us?
+  - because we all know that it sucks to be excluded
+  - at some point in all of our lives, we've been seriously made fun of
+  - or not included
+  - or discriminated against for one reason or another
+  - and it sucks.
+  - What if I was gay? How might I feel when I read that comment.
+- _An aside: Share a personal annecdote on how you felt when you were
+  discriminated against for something. If you can share a very personal story
+  and how you felt really bad, this can be very impactful._
+- We want the Hack Camp to be nothing like that.
+- I don't want anyone to feel like the way that I did.
+- We want this environment to be awesome and a place where I and everyone else
+  can be myself.
+- Therefore, any spoken language behavior that can be interpreted as
+  discriminatory will not be tolerated
+- I am 99.99% sure that the person who wrote that phrase did not intend to
+  discriminate all people who are gay.
+- We don't want to shame you for saying that. I know that it was probably a
+  mistake. I get it, this type of joking around is very common, a lot of people
+  do it, and no one really means it.
+- I myself have unintentionally said something jokingly that has made someone
+  feel uncomfortable and only realized it later. I made sure to apologize
+  profusely and took measures to make sure I wouldn't say it again.
+- That being said, any of these jokes have *very real* and *very serious*
+  consequences and can make lots of people feel *very, very* uncomfortable and
+  sad.
+- So I want to ask for your help. If you hear someone saying anything that you
+  you think could be interpreted as discriminatory, kindly let them know.
+- You might say to them "Hey Jonathan, I noticed that when you said PHRASE_X,
+  some people including myself could be offended by that. I know that you
+  probably didn't mean it and I don't want to make you feel bad either. Just
+  notice that you said it and perhaps try avoiding saying it in the future."
+- I'm not the only person who sets the culture here. Each of you do as well. So
+  I want to open this up for a discussion. Do you guys have any ideas for things
+  we may try to do / things to avoid to create an awesome culture here?
+- Lets make Hack Camp an experience that is amazing for each and every one of
+  you. I want this to be an environment where everyone, including me, can be
+  themselves, and where everyone, including people like me, can be welcome here
+  as well.
+
+### Delivery notes
+
+If you do choose to communicate it in your own way, I would recommend making
+sure that the below points are communicated:
+
+- the severity of the situation
+- that the person probably did not intend to do it and we should not shame them
 
 # Hacker arrival
 
@@ -906,6 +1004,58 @@ doing one of the following:
   take regular breaks. At Hack Camp, feel free to take a break whenever, we
   don't want to baby you so we won't remind you.
 - Something else that works best for you.
+
+### Handling Disruptions
+
+Note that the below is how Jonathan handles disruptions and may be fairly
+specific to Jonathan.
+
+General Tips:
+
+- you do NOT want to
+  - seem or get defensive
+    - this makes you feel weak
+  - exert your authority
+    - this also makes you feel weak
+  - seem frustrated
+    - - this also makes you feel weak
+  - ^ These 3 things are not just specific to Jonathan, but to many people.
+- you want to
+  - be playful and witty
+  - probably other things as well but I can't think of any
+
+#### Examples
+
+##### Someone bursts out and says "But I don't want to learn!".
+
+Say you introduce a new workshop and someone says:
+
+> But I don't want to learn.
+
+Perhaps they said this as a joke, perhaps as a joke with a truth behind it.
+
+Either way, you could counter with some of the:
+
+- "Xavier, sit down!" Only say this if it is completely out of character for you
+  because in order to be successful, they must detect that it is said in a
+  joking manner.
+- "Thanks for sharing Xavier. Would you like a gold star?" and then give a
+  very sarcastic face: ![](img/sarcastic_face.jpg)
+- "Cool story bro. Is there anything else that you'd like to share?"
+- "Thanks for sharing Xavier. Let's give him a round of applause"
+- "Awww, thanks for sharing Xavier. Shh... hear that? i'm playing the world's
+  saddest song on the world's smallest violin (mimes playing small violin)
+- "Hmm, it seems that wise Xavier is too cool for school, and would drool in a
+  in a duel..."
+
+The rest of the class will chuckle, think you are cool, no one's feelings are
+hurt because the disrupter won't feel bad they're being disrupted, and you get
+to move on quickly.
+
+Go actually checkin with the student to see how they are actually feeling.
+
+- "Hey, I was just messing with you earlier, I just want to checkin to see if
+   what you're working on seems relevant."
 
 ### Checking In To Every Hacker
 
