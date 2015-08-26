@@ -175,12 +175,12 @@ partners. Please do make sure to explain _why_ we are assigning hackers
 | Time     | Activity                                                     |
 | -------- | ------------------------------------------------------------ |
 | 9:00 AM  | [Hackers start arriving](ACTIVITIES.md#hacker-arrival)       |
-| 9:20 AM  | Energizer                                                    |
+| 9:20 AM  | [Energizer 1](ACTIVITIES.md#musical-chairs)                  |
 | 9:40 AM  | [Morning Announcements](ACTIVITIES.md#morning-announcements) |
 | 9:45 AM  | [Breakfast](ACTIVITIES.md#breakfast)                         |
 | 10:00 AM | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 12:30 PM | [Lunch](ACTIVITIES.md#lunch)                                 |
-| 1:30 PM  | Energizer                                                    |
+| 1:30 PM  | [Energizer 2](ACTIVITIES.md#human-octopus)                   |
 | 2:00 PM  | [Project time](ACTIVITIES.md#freeform-projects)              |
 | 3:50 PM  | [Links collected for demos](ACTIVITIES.md#links)             |
 | 4:00 PM  | [Demos](ACTIVITIES.md#demos)                                 |

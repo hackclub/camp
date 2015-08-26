@@ -11,11 +11,13 @@
     - [Duck, Duck, Goose](#duck-duck-goose)
     - [Evolution Rock Paper Scissors](#evolution-rock-paper-scissors)
     - [Human Knot](#human-knot)
+    - [Human Octopus](#human-octopus)
     - [Human Pictionary](#human-pictionary)
     - [I Love My Neighbor Who](#i-love-my-neighbor-who)
     - [Mafia](#mafia)
     - [Marshmallow Tower](#marshmallow-tower)
     - [Mumbled Messages](#mumbled-messages)
+    - [Musical Chairs](#musical-chairs)
     - [Ninja](#ninja)
     - [One Word Radio](#one-word-radio)
     - [Pulse Race](#pulse-race)
@@ -376,6 +378,18 @@ untangle the knot.
 This energizer ends once the knot is untangled, but more rounds can be played if
 desired. Keep time in mind - the time it takes to untangle can vary.
 
+## Human Octopus
+```
+Time: 10 minutes
+Materials: none
+Number: Any even number of hackers
+```
+
+Hackers split into pairs, sitting back-to-back from their partner. They
+interlock their arms with their partner's arms. Then, each pair attempts to get
+up on their 4 legs (2 per hacker). The first pair to stand up with interlocking
+arms wins.
+
 ## Human Pictionary
 
 ```
@@ -482,6 +496,27 @@ Person X's phrase was.
 
 The energizer typically ends after one round (the message has been passed all
 around), but more rounds can be run if necessary.
+
+## Musical Chairs
+
+```
+Time: 5-7 minutes
+Materials: Chairs for all but one hacker, radio (something to play music on)
+Number: <15
+Source: https://en.wikipedia.org/wiki/Musical_chairs
+```
+
+From the  [Wikipedia entry on Musical Chairs](https://en.wikipedia.org/wiki/Musical_chairs):
+
+> Musical chairs is a game where a number of chairs one less than the number of
+> players are arranged facing outward with the players standing in a circle just
+> outside of that. Usually, music is played while the players in the circle walk
+> in unison around the chairs. When the music stops, each player attempts to sit
+> down in one of the chairs. The player who is left without a chair is
+> eliminated from the game. One chair is then removed to ensure that there will
+> always be one fewer chair than there are players. The music resumes and the
+> cycle repeats until there is only one player left in the game, who is the
+> winner.
 
 ## Ninja
 
