@@ -1,6 +1,13 @@
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
 **Table of Contents**
 
+- [Philosophy](#philosophy)
+    - [Freedom](#freedom)
+        - [Why do we adopt this philosophy?](#why-do-we-adopt-this-philosophy)
+        - [How to implement this philosophy](#how-to-implement-this-philosophy)
+        - [Examples](#examples)
+            - [Demoing](#demoing)
+            - [Not going to energizers](#not-going-to-energizers)
 - [Creating a safe space](#creating-a-safe-space)
 - [Hacker arrival](#hacker-arrival)
     - [On the First Day](#on-the-first-day)
@@ -106,6 +113,152 @@
     - [Slack Announcements](#slack-announcements)
 
 <!-- markdown-toc end -->
+
+# Philosophy
+
+## Freedom
+
+Everything at Hack Camp is optional. You do not have to do anything. In Hack
+Camp we will be following a set schedule, and if you'd like to deviate, please
+do so. However, if you don't follow along with the workshops or don't build
+projects on our schedule, you may fall behind - the choice is up to you.
+
+### Why do we adopt this philosophy?
+
+The objective of Hack Camp is to build an set of materials that allows any
+hackEDU team member to reproduce an experience that that brings people from no
+coding knowledge to having the ability, motivation, and confidence to create
+coding projects and continue learning new coding concepts with others, without
+the explicit urging or leading of a teacher.
+
+The key component here is that one of our objectives is to create hackers who
+will continue to do be motivated to build things even _after_ Hack Camp without
+the urging of a teacher. Therefore, if we urge them in Hack Camp, they will not
+have the practice of building something without someone urging them along.
+
+This is inline with the primary objective of our organization: to spread hacker
+ethos. We define hacker ethos as creating what you see missing in the world and
+not being afraid to break the status quo. You will not be creating what you see
+missing in the world if you only create when someone tells you to.
+
+### How to implement this philosophy
+
+When giving feedback to hackers we've had the least success when we say
+something is mandatory. This is because they will do a mandated task because
+they are told to, without the underlying knowledge of why they should do the
+task. If you want someone to do something because it could help them, try to not
+make it mandatory.
+
+Do not:
+
+- Tell someone what to do
+
+Do:
+
+- Figure out what they want. The easiest way to do this is ask.
+- Tell someone how you would do something in their situation.
+- Tell them how they can get what they want by doing the something you've done
+  before.
+- Tell a story about how someone you knew might have done something that would
+  help their situation.
+
+### Examples
+
+1. Figure out what they want. The easiest way to do this is ask.
+
+> Facilitator: So what do you want to get out of Hack Camp after it's over?
+
+> Hacker: I want to be able to make an app. That's why I came here and you're
+> not teaching us how to make apps. Even worse, you're not even teaching us.
+> You are just telling us to Google things.
+
+2. Tell someone how you might do something
+
+> Facilitator: So it seems that you want to be able to build mobile apps after
+> you've leave hack camp correct?
+
+> Hacker: Yes!
+
+> Facilitator: Cool! So when I was learning how to build my web projects, I had
+> no idea how to at the time. The only way I could figure it out was to ask this
+> really smart friend every time. Unfortunately he wasn't always around. He
+> eventually just told me to Google to find the answers to my questions and
+> after a while, I was a lot less dependent on him after that and could find
+> many of the answers to my own problems. But I really needed to use Google for
+> a long time before I got the hang of it.
+
+3. Tell them how they can get what they want by doing the thing.
+
+> At Hack Camp, one of the things that is really important to us is to make sure
+> that hackers are prepared to continue learning new things even after hack camp.
+> That's why we're teaching you how to Google, to make sure you can continue
+> discovering things on your own so you can pick it up a lot faster than me.
+
+#### Demoing
+
+> Hacker: Do I have to demo?
+
+Sub-optimal:
+
+> Facilitator: Yes, everyone else is presenting. You should too.
+
+Problems with this approach:
+
+- You did not allow the hacker to make the choice of whether they would demo or
+  not. This makes the Hacker feel that they are in an environment that values
+  obiedience. In a culture that values obedience, people have very little
+  motivation and also do not build up the muscle to create what they want to
+  create.
+- Answer utilizes peer pressure
+
+Sub-optimal:
+
+> Facilitator: No, you don't have to, but I want you to show us what you made!
+
+What is good about this:
+
+- At least it feels like there is a little bit more freedom because you said
+  "you don't have to"
+- However, there the clause "I want you to show us what you made!".
+  - Anytime you see the phrase "I want you" in front of anything and the person
+    (you) in this case, will feel like they did it to satisfy the facilitator
+    over their own satisfaction.
+
+More optimal:
+
+> Facilitator: No you don't have to demo. Everything is optional here at Hack
+> Camp. I know you told me earlier that you're trying to make friends with more
+> people. I think that by demoing your project, you will gain much need
+> experience.
+
+#### Not going to energizers
+
+Sub-optimal:
+
+> Facilitator: Come on Nick, you have to get off of Call of Duty, we have to go
+> to energizers now, the entire class is waiting for you.
+
+> Hacker: But I want to finish my game first
+
+> Facilitator: No, but you don't have time to play! You can play when you get
+> home.
+
+Problems with this approach:
+
+- This sets the precedence that all of Hack Camp will wait for you if you're
+  ready.
+- It takes away freedom (this seems very mandatory)
+- It uses peer pressure
+
+Optimal:
+
+> Facilitator: Hey Nick, we're headed to the other room to do energizers now.
+> We're going to start at 1:30pm sharp.
+
+> Hacker: But I want to finish my game first.
+
+> Facilitator: Everything is optional at Hack Camp so it's your call what you
+> want to do. We'll be in the room to your right. Cya later!
 
 # Creating a safe space
 
@@ -2067,4 +2220,3 @@ Want to send a link to everyone? _Slack._
 
 Was there an event at Galvanize that had some extra food and offered it to our
 hackers? _Slack._
- 
