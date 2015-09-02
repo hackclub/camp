@@ -776,7 +776,6 @@ Use Google and or review the code in try to figure out how to create a new
 
 Hint:
 - for the <img> tag, you needed to set the src
-- for the `<li>` element, you'll need to set the `innerHTML` property
 ```
 
 ## Solution: Create the message element
@@ -790,29 +789,24 @@ Hint:
   - I then go to the third answer and see
 
     ```js
-    document.createElement("li");
+    newLI = document.createElement("li");
+
+    newText = document.createTextNode(txt);
+    newLI.appendChild(newText);
     ```
 
     which jogs my memory back to what I did in
     ["Creating the image element and setting the src attribute"](#creating-the-image-element-and-setting-the-src-attribute)
-- Great, so I now know how to create the `<li>` tag, now to put the text inside
-  of the `<li>` tag
-- I take the hint to lookup `innerHTML` and google for `javascript innerHTML`
-- I see that the first result is
-  "[HTML DOM innerHTML Property - W3Schools](http://www.w3schools.com/jsref/prop_html_innerhtml.asp)"
-  - Looking at the example, it seems that I set the `innerHTML` property like
-    this:
+  - But I need to change that code to put the new username and new message text into the `<li>`. So I change
 
     ```js
-    element.innerHTML = "some text I want inside the element"
+    document.createTextNode(txt);
     ```
 
-  - So in order to put the the username and new message text into the `<li>`, I
-    can do the following:
+    to
 
     ```js
-    var newLi = document.createElement("li");
-    newLi.innerHTML = usernameInputValue + " : " + messageInputValue;
+    document.createTextNode(usernameInputValue + " : " + messageInputValue);
     ```
 
 - Putting it all together I get
@@ -831,7 +825,8 @@ Hint:
       alert("The username is " + usernameInputValue);
 
       var newLi = document.createElement("li");
-      newLi.innerHTML = usernameInputValue + " : " + messageInputValue;
+      var newText = document.createTextNode(usernameInputValue + " : " + messageInputValue);
+      newLi.appendChild(newText);
     }
   }
   ```
@@ -901,7 +896,8 @@ window.onload = function() {
     alert("The username is " + usernameInputValue);
 
     var newLi = document.createElement("li");
-    newLi.innerHTML = usernameInputValue + " : " + messageInputValue;
+    var newText = document.createTextNode(usernameInputValue + " : " + messageInputValue);
+    newLi.appendChild(newText);
 
     var messageList = document.getElementById("messageList");
     messageList.appendChild(newLi);
@@ -923,7 +919,8 @@ window.onload = function() {
     var usernameInputValue = usernameInput.value;
 
     var newLi = document.createElement("li");
-    newLi.innerHTML = usernameInputValue + " : " + messageInputValue;
+    var newText = document.createTextNode(usernameInputValue + " : " + messageInputValue);
+    newLi.appendChild(newText);
 
     var messageList = document.getElementById("messageList");
     messageList.appendChild(newLi);
@@ -965,7 +962,8 @@ window.onload = function() {
       var usernameInputValue = usernameInput.value;
 
       var newLi = document.createElement("li");
-      newLi.innerHTML = usernameInputValue + " : " + messageInputValue;
+      var newText = document.createTextNode(usernameInputValue + " : " + messageInputValue);
+      newLi.appendChild(newText);
 
       var messageList = document.getElementById("messageList");
       messageList.appendChild(newLi);
@@ -1008,7 +1006,8 @@ window.onload = function() {
     var usernameInputValue = usernameInput.value;
 
     var newLi = document.createElement("li");
-    newLi.innerHTML = usernameInputValue + " : " + messageInputValue;
+    var newText = document.createTextNode(usernameInputValue + " : " + messageInputValue);
+    newLi.appendChild(newText);
 
     var messageList = document.getElementById("messageList");
     messageList.appendChild(newLi);
