@@ -3,7 +3,8 @@ var Instagram = Instagram || {};
 Instagram.writePhone = function(phone) {
 	var phones = document.getElementById("phones");
 	var p = document.createElement("p");
-	p.innerHTML = phone;
+	var textNode = document.createTextNode(phone);
+	p.appendChild(textNode);
 	phones.appendChild(p)
 }
 

@@ -2,7 +2,7 @@ window.onload = function() {
   var newTaskButton = document.getElementById("new-task-button");
   var todoList = document.getElementById("todo-list");
   
-  function addNewTask(taskName) { // <-- CHANGE
+  function addNewTask(taskName) {
     var li = document.createElement("li");
     todoList.appendChild(li);
 
@@ -12,7 +12,8 @@ window.onload = function() {
     li.appendChild(input);
 
     var span = document.createElement("span");
-    span.innerHTML = taskName; // <-- CHANGE
+    var textNode = document.createTextNode(taskName);
+    span.appendChild(textNode);
     li.appendChild(span);
 
     var img = document.createElement("img");

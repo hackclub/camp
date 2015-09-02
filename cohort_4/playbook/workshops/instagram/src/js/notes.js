@@ -4,8 +4,8 @@ var Instagram = {}
 
 function logMessage(phone, message) {
 	var p = document.createElement("p");
-	p.innerHTML = phone + ": " + message;
-
+	var textNode = document.createTextNode(phone + ": " + message);
+	p.appendChild(textNode);
 	document.body.appendChild(p)
 }
 

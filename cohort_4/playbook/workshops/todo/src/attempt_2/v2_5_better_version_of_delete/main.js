@@ -16,7 +16,8 @@ window.onload = function() {
     li.appendChild(input);
 
     var span = document.createElement("span");
-    span.innerHTML = taskName; // <-- CHANGE
+    var textNode = document.createTextNode(taskName);
+    span.appendChild(textNode);
     li.appendChild(span);
 
     var img = document.createElement("img");

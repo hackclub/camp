@@ -14,7 +14,7 @@ Let's build it so when you click the delete button, it displays an alert.
 To get this to work, *EVERY* <img> tag needs to have it's own `onclick` that then calls a function to do something. See the bottom of this function
 
 ```js
-function addNewTask(taskName) { // <-- CHANGE
+function addNewTask(taskName) {
   var li = document.createElement("li");
   todoList.appendChild(li);
 
@@ -24,7 +24,8 @@ function addNewTask(taskName) { // <-- CHANGE
   li.appendChild(input);
 
   var span = document.createElement("span");
-  span.innerHTML = taskName; // <-- CHANGE
+  var textNode = document.createTextNode(taskName);
+  span.appendChild(textNode);
   li.appendChild(span);
 
   var img = document.createElement("img");
@@ -137,7 +138,8 @@ window.onload = function() {
     li.appendChild(input);
 
     var span = document.createElement("span");
-    span.innerHTML = taskName; // <-- CHANGE
+    var textNode = document.createTextNode(taskName);
+    span.appendChild(textNode);
     li.appendChild(span);
 
     var img = document.createElement("img");

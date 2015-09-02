@@ -15,7 +15,8 @@ window.onload = function() {
     var message = messageInput.value;
 
     var messageElement = document.createElement("li");
-    messageElement.innerHTML = username + ": " + message;
+    var textNode = document.createTextNode(username + ": " + message);
+    messageElement.appendChild(textNode);
     messageList.appendChild(messageElement);
   }
 }
