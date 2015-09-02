@@ -200,8 +200,12 @@ window.onload = function() {
     var span = document.createElement("span");
     //         ^ this function will output us a <span></span> element
 
-    // which we need to set the text of to the TASK NAME
-    span.appendChild(document.createTextNode("TASK NAME"));
+    var textNode = document.createTextNode("TASK NAME");
+    //             ^ this function will create a text node that can be put inside the <span>
+
+    // which we need to append to the <span>
+    span.appendChild(textNode);
+
     // which means that the <span> will now look like this:
     // <span>TASK NAME</span>
 
@@ -270,7 +274,8 @@ window.onload = function() {
     li.appendChild(input);
 
     var span = document.createElement("span");
-    span.appendChild(document.createTextNode("TASK NAME"));
+    var textNode = document.createTextNode("TASK NAME");
+    span.appendChild(textNode);
     li.appendChild(span);
 
     /* The <li> tag now looks like this:
@@ -326,7 +331,8 @@ window.onload = function() {
     li.appendChild(input);
 
     var span = document.createElement("span");
-    span.appendChild(document.createTextNode("TASK NAME"));
+    var textNode = document.createTextNode("TASK NAME");
+    span.appendChild(textNode);
     li.appendChild(span);
 
     //=======================================
@@ -411,7 +417,8 @@ window.onload = function() {
     li.appendChild(input);
 
     var span = document.createElement("span");
-    span.appendChild(document.createTextNode("TASK NAME"));
+    var textNode = document.createTextNode("TASK NAME");
+    span.appendChild(textNode);
     li.appendChild(span);
 
     var img = document.createElement("img");
@@ -439,7 +446,8 @@ window.onload = function() {
     li.appendChild(input);
 
     var span = document.createElement("span");
-    span.appendChild(document.createTextNode("TASK NAME"));
+    var textNode = document.createTextNode("TASK NAME");
+    span.appendChild(textNode);
     li.appendChild(span);
 
     var img = document.createElement("img");
@@ -474,7 +482,8 @@ window.onload = function() {
     li.appendChild(input);
 
     var span = document.createElement("span");
-    span.appendChild(document.createTextNode(taskName)); // <-- CHANGE
+    var textNode = document.createTextNode(taskName); // <-- CHANGE
+    span.appendChild(textNode);
     li.appendChild(span);
 
     var img = document.createElement("img");
@@ -514,7 +523,7 @@ window.onload = function() {
   var newTaskButton = document.getElementById("new-task-button");
   var todoList = document.getElementById("todo-list");
 
-  function addNewTask(taskName) { // <-- CHANGE
+  function addNewTask(taskName) {
     var li = document.createElement("li");
     todoList.appendChild(li);
 
@@ -524,7 +533,8 @@ window.onload = function() {
     li.appendChild(input);
 
     var span = document.createElement("span");
-    span.appendChild(document.createTextNode(taskName)); // <-- CHANGE
+    var textNode = document.createTextNode(taskName);
+    span.appendChild(textNode);
     li.appendChild(span);
 
     var img = document.createElement("img");
@@ -566,7 +576,7 @@ window.onload = function() {
   var newTaskButton = document.getElementById("new-task-button");
   var todoList = document.getElementById("todo-list");
 
-  function addNewTask(taskName) { // <-- CHANGE
+  function addNewTask(taskName) {
     var li = document.createElement("li");
     todoList.appendChild(li);
 
@@ -576,7 +586,8 @@ window.onload = function() {
     li.appendChild(input);
 
     var span = document.createElement("span");
-    span.appendChild(document.createTextNode(taskName)); // <-- CHANGE
+    var textNode = document.createTextNode(taskName);
+    span.appendChild(textNode);
     li.appendChild(span);
 
     var img = document.createElement("img");
@@ -619,7 +630,7 @@ window.onload = function() {
   var newTaskButton = document.getElementById("new-task-button");
   var todoList = document.getElementById("todo-list");
 
-  function addNewTask(taskName) { // <-- CHANGE
+  function addNewTask(taskName) {
     var li = document.createElement("li");
     todoList.appendChild(li);
 
@@ -629,7 +640,8 @@ window.onload = function() {
     li.appendChild(input);
 
     var span = document.createElement("span");
-    span.appendChild(document.createTextNode(taskName)); // <-- CHANGE
+    var textNode = document.createTextNode(taskName);
+    span.appendChild(textNode);
     li.appendChild(span);
 
     var img = document.createElement("img");
@@ -639,9 +651,9 @@ window.onload = function() {
   }
 
   newTaskButton.onclick = function() {
-    var taskName = prompt("Add a task:")  // <-- CHANGE
+    var taskName = prompt("Add a task:")
 
-    if (taskName !== null && taskName !== "") { // <-- CHANGE
+    if (taskName !== null && taskName !== "") {
       addNewTask(taskName);
     }
   }

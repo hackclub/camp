@@ -38,7 +38,8 @@ window.onload = function() {
     }
 
     var span = document.createElement("span");
-    span.appendChild(document.createTextNode(description));
+    var textNode = document.createTextNode(description);
+    span.appendChild(textNode);
 
     li.appendChild(input);
     li.appendChild(span)
@@ -138,7 +139,8 @@ window.onload = function() {
     }
 
     var span = document.createElement("span");
-    span.appendChild(document.createTextNode(description));
+    var textNode = document.createTextNode(description);
+    span.appendChild(textNode);
 
     var del = document.createElement("img");
     del.src = "https://i.imgur.com/BtLxCD6.png";
