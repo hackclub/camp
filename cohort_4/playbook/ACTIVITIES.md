@@ -1,20 +1,35 @@
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
 **Table of Contents**
 
+- [Philosophy](#philosophy)
+    - [Freedom](#freedom)
+        - [Why do we adopt this philosophy?](#why-do-we-adopt-this-philosophy)
+        - [How to implement this philosophy](#how-to-implement-this-philosophy)
+        - [Examples](#examples)
+            - [Demoing](#demoing)
+            - [Not going to energizers](#not-going-to-energizers)
+- [Creating a safe space](#creating-a-safe-space)
 - [Hacker arrival](#hacker-arrival)
     - [On the First Day](#on-the-first-day)
 - [Energizers](#energizers)
     - [Bad startup ideas](#bad-startup-ideas)
+    - [Can It!](#can-it)
     - [Card on Your Head](#card-on-your-head)
     - [Duck, Duck, Goose](#duck-duck-goose)
     - [Evolution Rock Paper Scissors](#evolution-rock-paper-scissors)
     - [Human Knot](#human-knot)
+    - [Human Octopus](#human-octopus)
     - [Human Pictionary](#human-pictionary)
     - [I Love My Neighbor Who](#i-love-my-neighbor-who)
+    - [Mafia](#mafia)
+    - [Marshmallow Tower](#marshmallow-tower)
     - [Mumbled Messages](#mumbled-messages)
+    - [Musical Chairs](#musical-chairs)
     - [Ninja](#ninja)
     - [One Word Radio](#one-word-radio)
+    - [Pulse Race](#pulse-race)
     - [Sharks and Minnows](#sharks-and-minnows)
+    - [Systems Game](#systems-game)
     - [Two Truths and a Lie](#two-truths-and-a-lie)
     - [Pterodactyl](#pterodactyl)
     - [Where The West Wind Blows](#where-the-west-wind-blows)
@@ -41,9 +56,11 @@
 - [Workshops](#workshops)
     - [General Guidelines](#general-guidelines)
         - [Breaks](#breaks)
+		- [Handling Disruptions](#handling-disruptions)
         - [Checking In To Every Hacker](#checking-in-to-every-hacker)
         - [Driving People to their Maximal Potential](#driving-people-to-their-maximal-potential)
     - [Portfolio](#portfolio)
+		- [Handling Disruptions](#handling-disruptions)
         - [Prerequisites](#prerequisites)
         - [Running it](#running-it)
     - [Maestro](#maestro)
@@ -98,6 +115,247 @@
     - [Slack Announcements](#slack-announcements)
 
 <!-- markdown-toc end -->
+
+# Philosophy
+
+## Freedom
+
+Everything at Hack Camp is optional. You do not have to do anything. In Hack
+Camp we will be following a set schedule, and if you'd like to deviate, please
+do so. However, if you don't follow along with the workshops or don't build
+projects on our schedule, you may fall behind - the choice is up to you.
+
+### Why do we adopt this philosophy?
+
+The objective of Hack Camp is to build an set of materials that allows any
+hackEDU team member to reproduce an experience that that brings people from no
+coding knowledge to having the ability, motivation, and confidence to create
+coding projects and continue learning new coding concepts with others, without
+the explicit urging or leading of a teacher.
+
+The key component here is that one of our objectives is to create hackers who
+will continue to do be motivated to build things even _after_ Hack Camp without
+the urging of a teacher. Therefore, if we urge them in Hack Camp, they will not
+have the practice of building something without someone urging them along.
+
+This is inline with the primary objective of our organization: to spread hacker
+ethos. We define hacker ethos as creating what you see missing in the world and
+not being afraid to break the status quo. You will not be creating what you see
+missing in the world if you only create when someone tells you to.
+
+### How to implement this philosophy
+
+When giving feedback to hackers we've had the least success when we say
+something is mandatory. This is because they will do a mandated task because
+they are told to, without the underlying knowledge of why they should do the
+task. If you want someone to do something because it could help them, try to not
+make it mandatory.
+
+Do not:
+
+- Tell someone what to do
+
+Do:
+
+- Figure out what they want. The easiest way to do this is ask.
+- Tell someone how you would do something in their situation.
+- Tell them how they can get what they want by doing the something you've done
+  before.
+- Tell a story about how someone you knew might have done something that would
+  help their situation.
+
+### Examples
+
+1. Figure out what they want. The easiest way to do this is ask.
+
+> Facilitator: So what do you want to get out of Hack Camp after it's over?
+
+> Hacker: I want to be able to make an app. That's why I came here and you're
+> not teaching us how to make apps. Even worse, you're not even teaching us.
+> You are just telling us to Google things.
+
+2. Tell someone how you might do something
+
+> Facilitator: So it seems that you want to be able to build mobile apps after
+> you've leave hack camp correct?
+
+> Hacker: Yes!
+
+> Facilitator: Cool! So when I was learning how to build my web projects, I had
+> no idea how to at the time. The only way I could figure it out was to ask this
+> really smart friend every time. Unfortunately he wasn't always around. He
+> eventually just told me to Google to find the answers to my questions and
+> after a while, I was a lot less dependent on him after that and could find
+> many of the answers to my own problems. But I really needed to use Google for
+> a long time before I got the hang of it.
+
+3. Tell them how they can get what they want by doing the thing.
+
+> At Hack Camp, one of the things that is really important to us is to make sure
+> that hackers are prepared to continue learning new things even after hack camp.
+> That's why we're teaching you how to Google, to make sure you can continue
+> discovering things on your own so you can pick it up a lot faster than me.
+
+#### Demoing
+
+> Hacker: Do I have to demo?
+
+Sub-optimal:
+
+> Facilitator: Yes, everyone else is presenting. You should too.
+
+Problems with this approach:
+
+- You did not allow the hacker to make the choice of whether they would demo or
+  not. This makes the Hacker feel that they are in an environment that values
+  obiedience. In a culture that values obedience, people have very little
+  motivation and also do not build up the muscle to create what they want to
+  create.
+- Answer utilizes peer pressure
+
+Sub-optimal:
+
+> Facilitator: No, you don't have to, but I want you to show us what you made!
+
+What is good about this:
+
+- At least it feels like there is a little bit more freedom because you said
+  "you don't have to"
+- However, there the clause "I want you to show us what you made!".
+  - Anytime you see the phrase "I want you" in front of anything and the person
+    (you) in this case, will feel like they did it to satisfy the facilitator
+    over their own satisfaction.
+
+More optimal:
+
+> Facilitator: No you don't have to demo. Everything is optional here at Hack
+> Camp. I know you told me earlier that you're trying to make friends with more
+> people. I think that by demoing your project, you will gain much need
+> experience.
+
+#### Not going to energizers
+
+Sub-optimal:
+
+> Facilitator: Come on Nick, you have to get off of Call of Duty, we have to go
+> to energizers now, the entire class is waiting for you.
+
+> Hacker: But I want to finish my game first
+
+> Facilitator: No, but you don't have time to play! You can play when you get
+> home.
+
+Problems with this approach:
+
+- This sets the precedence that all of Hack Camp will wait for you if you're
+  ready.
+- It takes away freedom (this seems very mandatory)
+- It uses peer pressure
+
+Optimal:
+
+> Facilitator: Hey Nick, we're headed to the other room to do energizers now.
+> We're going to start at 1:30pm sharp.
+
+> Hacker: But I want to finish my game first.
+
+> Facilitator: Everything is optional at Hack Camp so it's your call what you
+> want to do. We'll be in the room to your right. Cya later!
+
+# Creating a safe space
+
+The one rule that we have at Hack Camp is that we make it a safe space.
+We all know how bad it feels when we are made fun of or when someone makes
+us feel uncomfortable.
+
+Below are some scenarios which may occur and how to handle them:
+
+## Someone writes or says "X person is gay." in a playful joking manner
+
+Although in many cases this is intended as a joke, but it sets the norm that
+at Hack Camp
+
+- being gay is bad
+- if you are gay, you should feel bad
+- gay people are not welcome here
+
+This is not an environment that we want to create. This needs to be addressed
+quickly and in a very serious tone to make sure everyone understands that this
+is the one thing that is extremely important to us.
+
+However at the same time, we don't want to make the person who said it feel
+really bad and feel shameful because that could hurt just as much. They thought
+that it was just a joke.
+
+Here's how I might handle the situation. Note that this is just one way to
+handle the situation, feel free to handle it in a way that you choose as well.
+
+Also note that this is only a suggestion for what you might bring up. Feel free
+to say as much or as little of it based on what you feel is necessary and what
+is comfortable for you.
+
+- Can I get everyone's attention please
+- I noticed earlier that someone posted the phrase say "X person is gay"
+- I know that you probably meant it as a joke
+- what you many not recognize is that that statement sets the precendent in this
+  environment that
+  - being gay is bad
+  - if you are gay, you should feel bad
+  - gay people are not welcome here
+- This is the opposite of the type of culture we want at hack camp
+- One of the most important parts of hack camp is that it is a safe space
+  - everyone feels welcome to come to the space no matter what gender, race,
+    sexual orientation, socio-economic status, religion, age, whether or not
+    they have a disability
+  - and everyone can be comfortable being themselves
+- Why does this matter so much to us?
+  - because we all know that it sucks to be excluded
+  - at some point in all of our lives, we've been seriously made fun of
+  - or not included
+  - or discriminated against for one reason or another
+  - and it sucks.
+  - What if I was gay? How might I feel when I read that comment.
+- _An aside: Share a personal annecdote on how you felt when you were
+  discriminated against for something. If you can share a very personal story
+  and how you felt really bad, this can be very impactful._
+- We want the Hack Camp to be nothing like that.
+- I don't want anyone to feel like the way that I did.
+- We want this environment to be awesome and a place where I and everyone else
+  can be myself.
+- Therefore, any spoken language behavior that can be interpreted as
+  discriminatory will not be tolerated
+- I am 99.99% sure that the person who wrote that phrase did not intend to
+  discriminate all people who are gay.
+- We don't want to shame you for saying that. I know that it was probably a
+  mistake. I get it, this type of joking around is very common, a lot of people
+  do it, and no one really means it.
+- I myself have unintentionally said something jokingly that has made someone
+  feel uncomfortable and only realized it later. I made sure to apologize
+  profusely and took measures to make sure I wouldn't say it again.
+- That being said, any of these jokes have *very real* and *very serious*
+  consequences and can make lots of people feel *very, very* uncomfortable and
+  sad.
+- So I want to ask for your help. If you hear someone saying anything that you
+  you think could be interpreted as discriminatory, kindly let them know.
+- You might say to them "Hey Jonathan, I noticed that when you said PHRASE_X,
+  some people including myself could be offended by that. I know that you
+  probably didn't mean it and I don't want to make you feel bad either. Just
+  notice that you said it and perhaps try avoiding saying it in the future."
+- I'm not the only person who sets the culture here. Each of you do as well. So
+  I want to open this up for a discussion. Do you guys have any ideas for things
+  we may try to do / things to avoid to create an awesome culture here?
+- Lets make Hack Camp an experience that is amazing for each and every one of
+  you. I want this to be an environment where everyone, including me, can be
+  themselves, and where everyone, including people like me, can be welcome here
+  as well.
+
+### Delivery notes
+
+If you do choose to communicate it in your own way, I would recommend making
+sure that the below points are communicated:
+
+- the severity of the situation
+- that the person probably did not intend to do it and we should not shame them
 
 # Hacker arrival
 
@@ -174,6 +432,14 @@ will be a startup.
 > someone else on team B: I am a hot single dog and beta tester
 > team B: We're here to tell you about the next big thing... tinder for dogs
 > ~pitching continues for 3 minutes
+
+## Can It!
+
+Have participants sit in a circle with their feet extended. Place a can on the
+foot of one of the participants. The object is to move the can around the circle
+without touching the can with your hands or having it fall. The can must be on
+at least one foot of each participant. We could also do this as a competition
+between 2 groups.
 
 ## Card on Your Head
 
@@ -265,6 +531,18 @@ untangle the knot.
 This energizer ends once the knot is untangled, but more rounds can be played if
 desired. Keep time in mind - the time it takes to untangle can vary.
 
+## Human Octopus
+```
+Time: 10 minutes
+Materials: none
+Number: Any even number of hackers
+```
+
+Hackers split into pairs, sitting back-to-back from their partner. They
+interlock their arms with their partner's arms. Then, each pair attempts to get
+up on their 4 legs (2 per hacker). The first pair to stand up with interlocking
+arms wins.
+
 ## Human Pictionary
 
 ```
@@ -316,6 +594,38 @@ Number: best for 10-35
   think "could only apply to them" and when they realize when it applies to
   someone else, bonding happens.
 
+## Mafia
+
+```
+Time: 10 minutes
+Materials: none
+Number: 5-15
+Source: https://en.wikipedia.org/wiki/Mafia_(party_game)
+```
+
+This game is complex, so refer to
+https://en.wikipedia.org/wiki/Mafia_(party_game)
+
+## Marshmallow Tower
+
+```
+Time: 15 minutes
+Materials: Marshmallows (large), dry spaghetti, tape measure (optional)
+Number: unknown
+Source: unknown
+```
+
+The objective of the energizer is to build the tallest structure out of a
+limited number of marshmallows and dry spaghetti as possible.
+
+- Hackers break up into groups of 2-3.
+- Each group of hackers will get an equal amount of marshmallows and dry
+  spaghetti.
+- Teams have 10 minutes to build the tallest structure out of marshmallows and
+  spaghetti as possible.
+- After 10 minutes are up, hackers must stop working on their towers.
+- Each tower is measured, and the team with the highest tower wins.
+
 ## Mumbled Messages
 
 ```
@@ -334,11 +644,32 @@ the person on his or her left, Person B. Person A will then whisper that message
 into Person B's ear, and Person B will whisper the message he heard into Person
 C's ear, and so on, until the message gets around to the person on Person A's
 right hand side, Person X. Person X will then say the phrase he thinks he heard,
-and then Person A will say his phrase. Then the group will see how accurate
+and then Person A will say his phrapuse. Then the group will see how accurate
 Person X's phrase was.
 
 The energizer typically ends after one round (the message has been passed all
 around), but more rounds can be run if necessary.
+
+## Musical Chairs
+
+```
+Time: 5-7 minutes
+Materials: Chairs for all but one hacker, radio (something to play music on)
+Number: <15
+Source: https://en.wikipedia.org/wiki/Musical_chairs
+```
+
+From the  [Wikipedia entry on Musical Chairs](https://en.wikipedia.org/wiki/Musical_chairs):
+
+> Musical chairs is a game where a number of chairs one less than the number of
+> players are arranged facing outward with the players standing in a circle just
+> outside of that. Usually, music is played while the players in the circle walk
+> in unison around the chairs. When the music stops, each player attempts to sit
+> down in one of the chairs. The player who is left without a chair is
+> eliminated from the game. One chair is then removed to ensure that there will
+> always be one fewer chair than there are players. The music resumes and the
+> cycle repeats until there is only one player left in the game, who is the
+> winner.
 
 ## Ninja
 
@@ -406,6 +737,20 @@ Team sizes:
 > b: on
 > c: cookies
 
+## Pulse Race
+
+Assemble the group in two lines, holding hands. Everyone should have their eyes
+closed except for the leader of each line. A beach ball or other object is
+placed at the opposite end of lines from the leaders. The facilitator should
+stand by the leaders and flip a coin. If heads, leaders start pulse race by
+squeezing the hand of the person next to them, which sets off a chain reaction.
+When the last person in line feels their hand squeezed, they may open their
+eyes and grab for the beach ball. The team that gets the ball first gets a point
+for the round If tails, do nothing. If a pulse is set off when the coin is tails
+and someone grabs the beach ball, the team loses a point. After each round,
+the leader goes to the end of the line and the person behind them becomes the
+new leader.
+
 ## Sharks and Minnows
 
 ```
@@ -425,6 +770,12 @@ Number: unknown
 - If a minnow is tagged by a shark, the minnow is now kelp and cannot move.
 - Kelp will try to reach out and tag the minnows as they run past. If a minnow
   is tagged by kelp, it also becomes kelp.
+
+## Systems Game
+
+Have everyone in the group start walking around a designed space. Each person
+should secretly choose two people and try to remain exactly in between both of
+them, without their knowledge.
 
 ## Two Truths and a Lie
 
@@ -841,6 +1192,58 @@ doing one of the following:
   take regular breaks. At Hack Camp, feel free to take a break whenever, we
   don't want to baby you so we won't remind you.
 - Something else that works best for you.
+
+### Handling Disruptions
+
+Note that the below is how Jonathan handles disruptions and may be fairly
+specific to Jonathan.
+
+General Tips:
+
+- you do NOT want to
+  - seem or get defensive
+    - this makes you feel weak
+  - exert your authority
+    - this also makes you feel weak
+  - seem frustrated
+    - - this also makes you feel weak
+  - ^ These 3 things are not just specific to Jonathan, but to many people.
+- you want to
+  - be playful and witty
+  - probably other things as well but I can't think of any
+
+#### Examples
+
+##### Someone bursts out and says "But I don't want to learn!".
+
+Say you introduce a new workshop and someone says:
+
+> But I don't want to learn.
+
+Perhaps they said this as a joke, perhaps as a joke with a truth behind it.
+
+Either way, you could counter with some of the:
+
+- "Xavier, sit down!" Only say this if it is completely out of character for you
+  because in order to be successful, they must detect that it is said in a
+  joking manner.
+- "Thanks for sharing Xavier. Would you like a gold star?" and then give a
+  very sarcastic face: ![](img/sarcastic_face.jpg)
+- "Cool story bro. Is there anything else that you'd like to share?"
+- "Thanks for sharing Xavier. Let's give him a round of applause"
+- "Awww, thanks for sharing Xavier. Shh... hear that? i'm playing the world's
+  saddest song on the world's smallest violin (mimes playing small violin)
+- "Hmm, it seems that wise Xavier is too cool for school, and would drool in a
+  in a duel..."
+
+The rest of the class will chuckle, think you are cool, no one's feelings are
+hurt because the disrupter won't feel bad they're being disrupted, and you get
+to move on quickly.
+
+Go actually checkin with the student to see how they are actually feeling.
+
+- "Hey, I was just messing with you earlier, I just want to checkin to see if
+   what you're working on seems relevant."
 
 ### Checking In To Every Hacker
 

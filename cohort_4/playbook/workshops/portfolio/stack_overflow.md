@@ -111,5 +111,3 @@ document.getElementById('button').onclick = function() {
    alert("Click click of the camera!");
 };
 ```
-
-

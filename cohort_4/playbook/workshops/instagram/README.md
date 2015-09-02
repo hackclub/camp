@@ -326,30 +326,31 @@ To retrieve the values of these properties, we can do
 person1.walk // this would give me back the function with all the code I  
              //wrote to walk:
 ```
-    In the console, this would print: 
-    ```js
-    function() {
-        // move your right foot up
-        // move your right foot forward
-        // move your right foot down
-        // move your left food up
-        // move your left foot down
-        // move your left foot forward
-        // ...
-    }
-  ```
+In the console, this would print: 
+```js
+function() {
+    // move your right foot up
+    // move your right foot forward
+    // move your right foot down
+    // move your left food up
+    // move your left foot down
+    // move your left foot forward
+    // ...
+}
+```
   
-  ```js
-  person1.eat // this would give me back the function with all the code 
-              // I  wrote to eat:
-  ```
-    In the console, this would print: 
-    ```js
-    function() {
-        // use your right hand
-        // take the thing
-    }    
-  ```
+```js
+person1.eat // this would give me back the function with all the code 
+            // I  wrote to eat:
+```
+
+In the console, this would print: 
+```js
+function() {
+    // use your right hand
+    // take the thing
+}    
+```
 
 To actually run the function of an object, I can do
 
