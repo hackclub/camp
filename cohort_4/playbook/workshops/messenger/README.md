@@ -1209,10 +1209,13 @@ Hint:
     which jogs my memory back to what I did in
     ["Creating the image element and setting the src attribute"](#creating-the-image-element-and-setting-the-src-attribute)
   - But I need to change that code to put the new username and new message text into the `<li>`. So I change
+
     ```js
     document.createTextNode(txt);
     ```
+
     to
+
     ```js
     document.createTextNode(usernameInputValue + " : " + messageInputValue);
     ```
