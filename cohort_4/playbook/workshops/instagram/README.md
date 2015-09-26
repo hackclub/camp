@@ -43,7 +43,7 @@ In this workshop, we are going to integrate HTML with JavaScript.
 In the first workshop, you added image, header, and link elements to an 
 HTML page.
 
-JavaScript can interact with those HTML elemetns by moving those elements
+JavaScript can interact with those HTML elements by moving those elements
 around, making more elements, and remove elements entirely.
 
 ## How this tutorial is layed out
