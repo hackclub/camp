@@ -9,7 +9,7 @@ dependencies:
 
 test:
   override:
-    - ./meta/bin/check_markdown_links
+    - curl -sL https://raw.githubusercontent.com/hackedu/markcop/function-refactor/bin/markcop | bash
 
 deployment:
   hub:
