@@ -5,10 +5,3 @@ machine:
 test:
   override:
     - ./meta/bin/check_markdown_links
-
-deployment:
-  hub:
-    branch: master
-    commands:
-      - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
-      - git clone git://github.com/hackedu/hack-camp /tmp/hack-camp && cd /tmp/hack-camp/unrejector && make push
