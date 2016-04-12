@@ -4,4 +4,4 @@ machine:
 
 test:
   override:
-    - ./meta/bin/check_markdown_links
+    - ./2015/meta/bin/check_markdown_links
