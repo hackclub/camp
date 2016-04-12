@@ -1,6 +1,6 @@
 <a name="top"></a>
 <a href="https://www.irccloud.com/invite?channel=%23hackedu&amp;hostname=irc.freenode.net&amp;port=6697&amp;ssl=1" target="_blank"><img src="https://www.irccloud.com/invite-svg?channel=%23hackedu&amp;hostname=irc.freenode.net&amp;port=6697&amp;ssl=1"  height="18"></a>
-[![Circle CI](https://circleci.com/gh/hackedu/hack-camp.svg?style=svg)](https://circleci.com/gh/hackedu/hack-camp)
+[![Circle CI](https://circleci.com/gh/hackclub/hack-camp.svg?style=svg)](https://circleci.com/gh/hackclub/hack-camp)
 
 -------------------------------------------------------------------------------
 
