@@ -13,7 +13,24 @@
     / Apply page prefetch
     %link{rel: "prefetch", href: "/application.html"}
     / SEO Stuffs
-    %meta{name: :description, content: "Hack Camp is a two-week summer program designed for high school students passionate about technology. We'll bring you from your first line of code to publishing your first project."}
+    %meta{name: "description",
+          content: "Hack Camp is a two-week summer program designed for high school students passionate about technology. We'll bring you from your first line of code to publishing your first project."          }
+    %meta{name: "twitter:card",
+          content: "summary_large_image"}
+    %meta{name: "twitter:site",
+          content: "@starthackclub"}
+    %meta{name: "twitter:image",
+          content: "/img/bg_nogradient.jpg"}
+    %meta{name: "og:title",
+          content: "Hack Camp by Hack Camp"}
+    %meta{name: "og:type",
+          content: "website"}
+    %meta{name: "og:url",
+          content: "https://camp.hackclub.us"}
+    %meta{name: "og:image",
+          content: "/img/bg_nogradient.jpg"}
+    %meta{name: "og:description",
+          content: "Hack Camp is a two-week summer program designed for high school students passionate about technology. We'll bring you from your first line of code to publishing your first project."}
   %body
     .row.text-center.section.title
       .small-10.small-centered
