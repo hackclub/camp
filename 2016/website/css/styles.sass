@@ -1,0 +1,52 @@
+$hackclub-red: #db4b4f
+$hackclub-blue: #3b67a8
+$hackclub-green: #09ad5e
+$hackclub-black: #303030
+$hackclub-purple: #794aa1
+$hackclub-orange: #e37717
+$hackclub-white: #ffffff
+
+body
+  font-family: "Open-Sans", sans-serif
+
+.row
+  max-width: initial
+  margin: 0
+  padding: 0
+  width: 100%
+
+.section
+  padding: 100px 0
+
+.title
+  color: darken($hackclub-red, 5%)
+  background: url(/img/bg_gradient.jpg) no-repeat
+  background-size: cover
+  box-sizing: border-box
+  & .header
+    min-width: 50%
+  & h1
+    font-size: 7.5rem
+  & h3
+    font-size: 100%
+  & .button
+    background-color: darken($hackclub-red, 5%)
+  & .button:hover
+    background-color: darken($hackclub-red, 10%)
+
+@media (max-width: 40em)
+  .title
+    height: 90%
+    box-sizing: border-box
+
+.summary
+  background-color: $hackclub-blue
+  color: $hackclub-white
+  padding: 2.5em 0
+  &, %p
+    margin: 0
+    line-height: 1.4
+    font-size: 1.6875rem
+
+.faq
+  background-color: $hackclub-white
