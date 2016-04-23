@@ -1,10 +1,12 @@
+$hackclub-new-red: #ff4b55
+$hackclub-g2: #d44e74
 $hackclub-red: #db4b4f
 $hackclub-blue: #3b67a8
 $hackclub-green: #09ad5e
 $hackclub-black: #303030
 $hackclub-purple: #794aa1
 $hackclub-orange: #e37717
-$hackclub-white: #ffffff
+$hackclub-white: darken(#ffffff, 4%)
 $hackclub-white-on-black: #818181
 @import url(https://fonts.googleapis.com/css?family=Open+Sans)
 @import url(https://fonts.googleapis.com/css?family=Arimo)
@@ -25,7 +27,7 @@ h1, h2, h3, h4, h5
 
 .title
   padding: 100px 0
-  color: darken($hackclub-red, 5%)
+  color: $hackclub-new-red
   background: darken(white, 5%)
   background: url(/img/bg_gradient.jpg) no-repeat center top
   background-size: cover
@@ -38,9 +40,9 @@ h1, h2, h3, h4, h5
     line-height: 1.5em
   .button
     line-height: 1.5em
-    background-color: darken($hackclub-red, 5%)
+    background-color: $hackclub-new-red
   .button:hover
-    background-color: darken($hackclub-red, 10%)
+    background-color: $hackclub-g2
 
 @media (max-width: 40em)
   .title
@@ -48,7 +50,10 @@ h1, h2, h3, h4, h5
     box-sizing: border-box
 
 .summary
-  background-color: $hackclub-blue
+  /* background-color: $hackclub-blue
+  background: $hackclub-new-red
+  background: linear-gradient(to top left, $hackclub-new-red, $hackclub-g2)
+  background: -webkit-linear-gradient(to top left, $hackclub-new-red, $hackclub-g2)
   color: $hackclub-white
   &, %p
     margin: 0
@@ -57,13 +62,29 @@ h1, h2, h3, h4, h5
 
 .faq
   color: $hackclub-black
-  background-color: darken($hackclub-white, 2%)
+  background-color: $hackclub-white
+  hr
+    margin: 25px 0
+    height: 1px
+    border: 0
+    background: $hackclub-new-red
+    background: linear-gradient(left, $hackclub-white 0%, $hackclub-new-red 50%, $hackclub-white 100%)
+    background: -webkit-linear-gradient(left, $hackclub-white 0%, $hackclub-new-red 50%, $hackclub-white 100%)
   .callout
-    background-color: $hackclub-white
-    border: 1px solid rgba(0, 0, 0, 0.1)
+    background-color: darken($hackclub-white, 1%)
+    border: 1px solid $hackclub-new-red
+  h1
+    font-size: 3rem
+  h2
+    font-family: "Open Sans", Arial, Helvetica, sans-serif
+    font-size: 1.6875rem
 
 .footer
-  color: $hackclub-white-on-black
-  background: $hackclub-black
+  /* color: $hackclub-white-on-black
+  /* background: $hackclub-black
+  color: $hackclub-white
+  background: $hackclub-new-red
+  background: linear-gradient(to top left, $hackclub-new-red, $hackclub-g2)
+  background: -webkit-linear-gradient(to top left, $hackclub-new-red, $hackclub-g2)
   .email
-    color: $hackclub-blue
+    color: darken($hackclub-white, 20%)
