@@ -1,6 +1,6 @@
 ```
 HTTP/1.1 301 Moved Permanently
-Location: https://github.com/hackedu/hackedu/blob/master/CONTRIBUTING.md
+Location: https://github.com/hackclub/hackclub/blob/master/CONTRIBUTING.md
 Content-Type: text/markdown; charset=UTF-8
 ```
 
