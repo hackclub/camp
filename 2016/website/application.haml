@@ -1,0 +1,192 @@
+!!!
+%html
+  %head
+    %meta{encoding: "utf-8"}
+    %meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
+    %title Apply to Hack Camp
+    %link{rel:"stylesheet", type:"text/css", href: "https://fonts.googleapis.com/css?family=Open+Sans"}
+    %link{rel: "stylesheet", type: "text/css", href: "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/foundation.css"}
+    %meta{name: "description",
+          content: "Apply to Hack Club today! Hack Camp is for high school students who want to create apps, build websites, and make games."}
+    %meta{name: "twitter:card",
+          content: "summary_large_image"}
+    %meta{name: "twitter:site",
+          content: "@starthackclub"}
+    %meta{name: "twitter:image",
+          content: "/img/bg_nogradient.jpg"}
+    %meta{name: "og:title",
+          content: "Hack Camp by Hack Camp"}
+    %meta{name: "og:type",
+          content: "website"}
+    %meta{name: "og:url",
+          content: "https://camp.hackclub.com"}
+    %meta{name: "og:image",
+          content: "/img/bg_nogradient.jpg"}
+    %meta{name: "og:description",
+          content: "Apply to Hack Club today! Hack Camp is for high school students who want to create apps, build websites, and make games."}
+  %body
+    %form{action: "https://docs.google.com/forms/d/17wPtaJHIhy8qkhHzl_KhFkEMqmJb4-hzazA3x7EiLlY/formResponse", "data-abide" => "", method: "POST", novalidate: "novalidate"}
+      %fieldset
+        %legend Personal Information
+        .row
+          .small-12.columns
+            %label
+              First and last name
+              %small Required
+              %input{name: "entry.733860760", placeholder: "Ned Stark", required: "", type: "text"}
+            %small.error Required
+        .row
+          .medium-6.columns
+            %label
+              Email
+              %small Required
+              %input{name: "entry.950255001", placeholder: "ned@stark.house", required: "", type: "email"}
+            %small.error A valid email is required
+          .medium-6.columns
+            %label
+              Parent or guardian email
+              %small Required
+              %input{name: "entry.569669936", placeholder: "rickard@stark.house", required: "", type: "email"}
+            %small.error A valid email is required
+        .row
+          .medium-6.columns
+            %label
+              Phone number
+              %small Required
+              %input{name: "entry.2134073550", placeholder: "(415) 444-4444", required: "", type: "text"}
+            %small.error Required
+          .medium-6.columns
+            %label
+              Parent or guardian phone number
+              %small Required
+              %input{name: "entry.1512212802", placeholder: "(415) 444-4444", required: "", type: "text"}
+            %small.error Required
+        .row
+          .columns
+            %label
+              Age
+              %small Required
+              %input{name: "entry.997676914", pattern: "^[0-9]+$", placeholder: "12", required: "", type: "number"}
+            %small.error A valid age is required
+        .row
+          .medium-6.columns
+            %label
+              Hometown (city, state)
+              %small Required
+              %input{name: "entry.569182886", placeholder: "Winterfell, Westeros", required: "", type: "text"}
+            %small.error Required
+          .medium-6.columns
+            %label
+              High school name
+              %small Required
+              %input{name: "entry.1105700132", placeholder: "North High School", required: "", type: "text"}
+            %small.error Required
+        .row
+          .columns
+            %label
+              Potential major (what you think you might major in, no
+              worries if you don't know)
+              %input{name: "entry.959771341", placeholder: "Swordplay", type: "text"}
+        .row
+          .columns
+            %label
+              In 2-3 sentences, why do you want to go to Hack Camp?
+              %input{name: "entry.436575854", placeholder: "I want to finish my first project.", type: "text"}
+        .row
+          .medium-6.columns
+            %label
+              GitHub (if you have one)
+              %input{name: "entry.676597339", placeholder: "nstark", type: "text"}
+          .medium-6.columns
+            %label
+              Personal website (if you have one)
+              %input{name: "entry.580337827", placeholder: "https://ned.stark.house", type: "text"}
+        .row
+          .columns
+            %label
+              Coding experience
+              %small Required
+            %ul
+              %li
+                %input#expNoCode{name: "entry.1174746982", required: "", type: "radio", value: "I have not written any code, but I want to learn"}
+                  %label{for: "expNoCode"}
+                    I have not written any code, but I want
+                    to learn
+              %li
+                %input#expSomeCode{name: "entry.1174746982", required: "", type: "radio", value: "I've written some code, but have not finished a complete project"}
+                  %label{for: "expSomeCode"}
+                    I've written some code, but have not
+                    finished a complete project
+              %li
+                %input#expCompleteProject{name: "entry.1174746982", required: "", type: "radio", value: "I've finished a complete project"}
+                  %label{for: "expCompleteProject"}
+                    I've finished a complete
+                    project
+              %li
+                %input#expMultipleProjects{name: "entry.1174746982", required: "", type: "radio", value: "I've finished multiple complete projects"}
+                  %label{for: "expMultipleProjects"}
+                    I've finished multiple
+                    complete projects
+          #previous-projects.small-12.columns{style: "display: none;"}
+            %label
+              Can you briefly (1-3 sentences) tell us about something you've
+              coded before and how it worked?
+              %small Required
+              %input{name: "entry.959372003", placeholder: "I wrote an app to manage all of Winterfell in Swift.", type: "text"}
+        .row
+          .columns
+            %label
+              Do you have access to a laptop to bring to Hack
+              Camp?
+              %small Required
+            %ul
+              %li
+                %input#laptopNo{name: "entry.964910612", required: "", type: "radio", value: "No"}
+                  %label{for: "laptopNo"} No
+              %li
+                %input#laptopYes{name: "entry.964910612", required: "", type: "radio", value: "Yes"}
+                  %label{for: "laptopYes"} Yes
+        /.row
+        /  .columns
+        /    %label
+        /      I am available in the... (select both if they both work for
+        /      you)
+        /      %small Required
+        /    %ul
+        /      %li
+        /        %input#timeMorning{name: "entry.1548352726", type: "checkbox", value: "Morning (~9AM-1PM)"}
+        /          %label{for: "timeMorning"} Morning (~9AM-1PM)
+        /      %li
+        /        %input#timeEvening{name: "entry.1548352726", type: "checkbox", value: "Afternoon (~1PM-5PM)"}
+        /          %label{for: "timeEvening"} Afternoon (~1PM-5PM)
+        /.row
+        /  .columns
+        /    %label
+        /      The last session of Hack Camp will be from August 3rd -
+        /      August 14th. Does this work for you?
+        /      %small Required
+        /    %ul
+        /      %li
+        /        %input#date{name: "entry.194035080", type: "checkbox", value: "August 3rd - August 14th"}
+        /          %label{for: "date"} Yes
+      .row
+        .columns
+          %label
+            Do you need financial aid?
+            %small Required
+          %ul
+            %li
+              %input#financialAidNo{name: "entry.1716194346", required: "", type: "radio", value: "No"}
+                %label{for: "financialAidNo"} No
+            %li
+              %input#financialAidYes{name: "entry.1716194346", required: "", type: "radio", value: "Yes"}
+                %label{for: "financialAidYes"} Yes
+      .row
+        .large-12.columns
+          %label
+            How did you hear about Hack Camp?
+            %input{name: "entry.938926904", placeholder: "Messenger raven", type: "text"}
+      .row
+        .columns
+          %input.button.large.apply-submit-btn{type: "submit"}
+    %script{src: "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/foundation.min.js"}
