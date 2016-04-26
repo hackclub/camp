@@ -189,4 +189,13 @@
       .row
         .columns
           %input.button.large.apply-submit-btn{type: "submit"}
+    %script{src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"}
     %script{src: "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/foundation.min.js"}
+    :javascript
+      $(document).foundation();
+      $('#expNoCode').click(function() {
+        $('#previous-projects').hide()
+      })
+      $('#expSomeCode,#expCompleteProject,#expMultipleProjects').click(function() {
+        $('#previous-projects').show()
+      })
