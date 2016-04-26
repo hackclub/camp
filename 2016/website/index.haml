@@ -1,16 +1,23 @@
 !!!
 %html
   %head
-    / Page info
-    %meta{encoding: "utf-8"}
-    %meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
+    %meta{charset: "utf-8"}
+    / ██╗  ██╗ █████╗  ██████╗██╗  ██╗     ██████╗ █████╗ ███╗   ███╗██████╗
+    / ██║  ██║██╔══██╗██╔════╝██║ ██╔╝    ██╔════╝██╔══██╗████╗ ████║██╔══██╗
+    / ███████║███████║██║     █████╔╝     ██║     ███████║██╔████╔██║██████╔╝
+    / ██╔══██║██╔══██║██║     ██╔═██╗     ██║     ██╔══██║██║╚██╔╝██║██╔═══╝
+    / ██║  ██║██║  ██║╚██████╗██║  ██╗    ╚██████╗██║  ██║██║ ╚═╝ ██║██║
+    / ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝     ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝
+    / Hey there developer! Interested in learning more about us? Hang out on slack at slack.hackclub.com
+    / You can also check out the development of Hack Camp over at https://github.com/hackclub/hackcamp
+    %meta{name: "viewport", content: "width=device-width, initial-scale=1"}
     %title Hack Camp
     / Assets
     %link{rel:"stylesheet", type:"text/css", href: "https://fonts.googleapis.com/css?family=Open+Sans"}
     %link{rel: "stylesheet", type: "text/css", href: "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/foundation.css"}
     %link{rel: "stylesheet", type: "text/css", href: "/css/styles.css"}
     %link{rel: "shortcut icon", href: "/img/favicon.ico"}
-    / Apply page prefetch
+    / Prefetch the application page
     %link{rel: "prefetch", href: "/application.html"}
     / SEO Stuffs
     %meta{name: "description",
@@ -50,8 +57,6 @@
           want to make things with code. We'll bring you from your first line of
           code to publishing your first project.
     .row.text-center.section.faq
-      .small-12
-        %h1 FAQ
       .small-12.medium-10.large-6.medium-centered.columns
         %h2
           When is Hack Camp?
@@ -94,6 +99,8 @@
           is extremely important to us and we are readily offering full
           need-based financial aid (see the question on the application form).
           Payment is accepted with only the dankest of memes.
+      .small-12
+        %h1 FAQ
       .small-12.medium-10.large-6.medium-centered.columns
         .callout
           %h2
