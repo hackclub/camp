@@ -40,22 +40,25 @@ h1, h2, h3, h4, h5
   box-sizing: border-box
   .header
     min-width: 50%
+  p
+    font-size: 1.15rem
   h1
     font-size: 7.5rem
   h3
     line-height: 1.5em
   .button
+    transition-duration: 0.3s
     line-height: 1.5em
     /* background-color: $hackclub-new-red
-    background-color: rgba(0, 0, 0, 0)
+    background: rgba(0, 0, 0, 0)
     border: 1px solid $hackclub-white
   .button:hover
     /* background-color: $hackclub-new-purple
-      background-color: rgba(0, 0, 0, 0)
+    background-color: rgba(255, 255, 255, 0.15)
 
 @media (max-width: 40em)
   .title
-    height: 90%
+    min-height: 90%
     box-sizing: border-box
 
 .summary
@@ -63,9 +66,9 @@ h1, h2, h3, h4, h5
   /* background: linear-gradient(to top left, $hackclub-new-red, $hackclub-new-purple)
   /* background: -webkit-linear-gradient(to top left, $hackclub-new-red, $hackclub-new-purple)
 
-  background: $hackclub-new-red
-  background: linear-gradient(to bottom, $hackclub-new-red, $hackclub-new-purple)
-  background: -webkit-linear-gradient(to bottom, $hackclub-new-red, $hackclub-new-purple)
+  /* background: $hackclub-new-red
+  /* background: linear-gradient(to bottom, rgba($hackclub-new-red, 0), $hackclub-new-red)
+  /* background: -webkit-linear-gradient(to bottom, $hackclub-new-red, $hackclub-new-purple)
   color: $hackclub-white
   box-shadow: 0px -36px 50px 50px $hackclub-new-red
   padding: 3em 0
@@ -73,6 +76,16 @@ h1, h2, h3, h4, h5
     margin: 0
     line-height: 1.4
     font-size: 1.6875rem
+
+.testimony
+  color: $hackclub-white
+  background: $hackclub-new-red
+  background: linear-gradient(to top right, $hackclub-new-red, $hackclub-new-purple)
+  background: -webkit-linear-gradient(to top right, $hackclub-new-red, $hackclub-new-purple)
+  q
+    font-style: italic
+    display: block
+    line-height: 3rem
 
 .faq
   color: $hackclub-black

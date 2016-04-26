@@ -40,22 +40,27 @@
           content: "Hack Camp is a two-week summer program designed for high school students passionate about technology. We'll bring you from your first line of code to publishing your first project."}
   %body
     .row.text-center.section.title
-      .small-10.small-centered
+      .small-10.medium-6.small-centered
         / %h1 Hack Camp
         %img{src: "/img/hack_club.svg", alt: "Hack Camp", title: "Hack Camp", class: "header"}
+        %br
+        %a{href: "/application", class: "large button"}
+          Apply Now
         %h3
           %strong
             April 1st - 42nd.
-        %p
-          Applications are currently being accepted on a rolling basis.
-        %a{href: "/application", class: "large button"}
-          Apply Now
-    .row.text-center.section.summary
-      .small-11.small-centered.large-6
+      /.row.text-center.section.summary
+      .small-12.medium-6.small-centered
         %p
           Hack Camp is a two-week summer program for high school students who
-          want to make things with code. We'll bring you from your first line of
-          code to publishing your first project.
+          want to make things with code.
+        %p
+          We'll bring you from your first line of code to publishing your first
+          project.
+        %p
+          %strong
+            / Throw a bit of make school in there for good measure
+            This is the summer that will change your life
     .row.text-center.section.faq
       .small-12.medium-10.large-6.medium-centered.columns
         %h2
@@ -99,6 +104,18 @@
           is extremely important to us and we are readily offering full
           need-based financial aid (see the question on the application form).
           Payment is accepted with only the dankest of memes.
+      / Jank workaround for Foundation's floating last columns on large screens
+      .small-12.columns
+    .row.text-center.section.testimony
+      %q
+        Hack Club teaches you things
+      %q
+        Yes, I am comfortable.
+      %q
+        The curriculum and instruction were a bit too loose in the beginning
+      %q
+        [redacted] was really hard to work with and i wish i couldve chose my partner
+    .row.text-center.section.faq
       .small-12
         %h1 FAQ
       .small-12.medium-10.large-6.medium-centered.columns
