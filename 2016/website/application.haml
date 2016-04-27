@@ -27,8 +27,15 @@
           content: "Apply to Hack Club today! Hack Camp is for high school students who want to create apps, build websites, and make games."}
   %body
     .row.expanded.title.text-center
-      %a{href: "/"}
-        %img{src: "/img/hack_club.svg", alt: "Hack Camp", title: "Hack Camp", class: "header"}
+      .small-11.small-centered.medium-12
+        %a{href: "/"}
+          %img{src: "/img/hack_club.svg", alt: "Hack Camp", title: "Hack Camp", class: "header"}
+        %h5
+          We welcome you, brave learner, to participate in the camp that will
+          change your life.
+        %h5
+          Applications for the June 6th - June 17th session of Hack Camp close on
+          May 9th.
     .row
       %form{action: "https://docs.google.com/forms/d/17wPtaJHIhy8qkhHzl_KhFkEMqmJb4-hzazA3x7EiLlY/formResponse", "data-abide" => "", method: "POST", novalidate: "novalidate"}
         %fieldset.fieldset
