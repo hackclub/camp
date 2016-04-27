@@ -6,6 +6,7 @@
     %title Apply to Hack Camp
     %link{rel:"stylesheet", type:"text/css", href: "https://fonts.googleapis.com/css?family=Open+Sans"}
     %link{rel: "stylesheet", type: "text/css", href: "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/foundation.css"}
+    %link{rel: "stylesheet", type: "text/css", href: "/css/application.css"}
     %meta{name: "description",
           content: "Apply to Hack Club today! Hack Camp is for high school students who want to create apps, build websites, and make games."}
     %meta{name: "twitter:card",
@@ -34,53 +35,53 @@
               First and last name
               %small Required
               %input{name: "entry.733860760", placeholder: "Ned Stark", required: "", type: "text"}
-            %small.error Required
+            %small.form-error Required
         .row
           .medium-6.columns
             %label
               Email
               %small Required
               %input{name: "entry.950255001", placeholder: "ned@stark.house", required: "", type: "email"}
-            %small.error A valid email is required
+            %small.form-error A valid email is required
           .medium-6.columns
             %label
               Parent or guardian email
               %small Required
               %input{name: "entry.569669936", placeholder: "rickard@stark.house", required: "", type: "email"}
-            %small.error A valid email is required
+            %small.form-error A valid email is required
         .row
           .medium-6.columns
             %label
               Phone number
               %small Required
               %input{name: "entry.2134073550", placeholder: "(415) 444-4444", required: "", type: "text"}
-            %small.error Required
+            %small.form-error Required
           .medium-6.columns
             %label
               Parent or guardian phone number
               %small Required
               %input{name: "entry.1512212802", placeholder: "(415) 444-4444", required: "", type: "text"}
-            %small.error Required
+            %small.form-error Required
         .row
           .columns
             %label
               Age
               %small Required
               %input{name: "entry.997676914", pattern: "^[0-9]+$", placeholder: "12", required: "", type: "number"}
-            %small.error A valid age is required
+            %small.form-error A valid age is required
         .row
           .medium-6.columns
             %label
               Hometown (city, state)
               %small Required
               %input{name: "entry.569182886", placeholder: "Winterfell, Westeros", required: "", type: "text"}
-            %small.error Required
+            %small.form-error Required
           .medium-6.columns
             %label
               High school name
               %small Required
               %input{name: "entry.1105700132", placeholder: "North High School", required: "", type: "text"}
-            %small.error Required
+            %small.form-error Required
         .row
           .columns
             %label
@@ -106,7 +107,7 @@
             %label
               Coding experience
               %small Required
-            %ul
+            %ul.no-bullet
               %li
                 %input#expNoCode{name: "entry.1174746982", required: "", type: "radio", value: "I have not written any code, but I want to learn"}
                   %label{for: "expNoCode"}
@@ -139,7 +140,7 @@
               Do you have access to a laptop to bring to Hack
               Camp?
               %small Required
-            %ul
+            %ul.no-bullet
               %li
                 %input#laptopNo{name: "entry.964910612", required: "", type: "radio", value: "No"}
                   %label{for: "laptopNo"} No
@@ -152,7 +153,7 @@
         /      I am available in the... (select both if they both work for
         /      you)
         /      %small Required
-        /    %ul
+        /    %ul.no-bullet
         /      %li
         /        %input#timeMorning{name: "entry.1548352726", type: "checkbox", value: "Morning (~9AM-1PM)"}
         /          %label{for: "timeMorning"} Morning (~9AM-1PM)
@@ -165,7 +166,7 @@
         /      The last session of Hack Camp will be from August 3rd -
         /      August 14th. Does this work for you?
         /      %small Required
-        /    %ul
+        /    %ul.no-bullet
         /      %li
         /        %input#date{name: "entry.194035080", type: "checkbox", value: "August 3rd - August 14th"}
         /          %label{for: "date"} Yes
@@ -174,7 +175,7 @@
           %label
             Do you need financial aid?
             %small Required
-          %ul
+          %ul.no-bullet
             %li
               %input#financialAidNo{name: "entry.1716194346", required: "", type: "radio", value: "No"}
                 %label{for: "financialAidNo"} No
