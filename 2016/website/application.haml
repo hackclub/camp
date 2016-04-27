@@ -27,7 +27,8 @@
           content: "Apply to Hack Club today! Hack Camp is for high school students who want to create apps, build websites, and make games."}
   %body
     .row.expanded.title.text-center
-      %img{src: "/img/hack_club.svg", alt: "Hack Camp", title: "Hack Camp", class: "header"}
+      %a{href: "/"}
+        %img{src: "/img/hack_club.svg", alt: "Hack Camp", title: "Hack Camp", class: "header"}
     .row
       %form{action: "https://docs.google.com/forms/d/17wPtaJHIhy8qkhHzl_KhFkEMqmJb4-hzazA3x7EiLlY/formResponse", "data-abide" => "", method: "POST", novalidate: "novalidate"}
         %fieldset.fieldset
