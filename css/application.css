@@ -32,3 +32,6 @@ body {
 
 .button:hover {
   background: #ff1825; }
+
+.button:active {
+  background: #ff1825; }
