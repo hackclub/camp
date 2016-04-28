@@ -174,13 +174,16 @@
           .row
             .columns
               %label
-                The last session of Hack Camp will be from August 3rd -
-                August 14th. Does this work for you?
+                The last session of Hack Camp will be from August 8th -
+                August 18th. Does this work for you?
                 %small Required
               %ul.no-bullet
                 %li
-                  %input#date{name: "entry.1409526118", type: "checkbox", value: "August 3rd - August 14th"}
+                  %input#dateYes{name: "entry.1409526118", type: "checkbox", value: "Can make it to last session"}
                     %label{for: "date"} Yes
+                %li
+                  %input#dateNo{name: "entry.1409526118", type: "checkbox", value: "Cannot make it to last session"}
+                    %label{for: "date"} No
           .row
             .columns
               %label
