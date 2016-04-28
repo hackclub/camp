@@ -1,340 +1,221 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
-    <meta name="google" value="notranslate">
-    <title>Hack Camp by hackEDU</title>
-    <!--
-    /$$                           /$$       /$$$$$$$$ /$$$$$$$  /$$   /$$
-    | $$                          | $$      | $$_____/| $$__  $$| $$  | $$
-    | $$$$$$$   /$$$$$$   /$$$$$$$| $$   /$$| $$      | $$  \ $$| $$  | $$
-    | $$__  $$ |____  $$ /$$_____/| $$  /$$/| $$$$$   | $$  | $$| $$  | $$
-    | $$  \ $$  /$$$$$$$| $$      | $$$$$$/ | $$__/   | $$  | $$| $$  | $$
-    | $$  | $$ /$$__  $$| $$      | $$_  $$ | $$      | $$  | $$| $$  | $$
-    | $$  | $$|  $$$$$$$|  $$$$$$$| $$ \  $$| $$$$$$$$| $$$$$$$/|  $$$$$$/
-    |__/  |__/ \_______/ \_______/|__/  \__/|________/|_______/  \______/ 
-    -->
-    <!--
-    Hey there developer! Interested in learning more about us?
-    Check out https://hackedu.us or hang out with us in IRC at #hackedu on
-    freenode!
-
-    You can also check out the development of Hack Camp over at
-    https://github.com/hackedu/hack-camp!
-    -->
-    <meta name="description"
-          content="Hack Camp is a two-week summer program designed for high
-          school students passionate about technology. We'll bring you from your
-          first line of code to publishing your first project." />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@starthackedu" />
-    <meta name="twitter:image" content="/img/bg_nogradient.jpg" />
-    <meta name="og:title" content="Hack Camp by hackEDU" />
-    <meta name="og:type" content="website" />
-    <meta name="og:url" content="https://camp.hackedu.us" />
-    <meta name="og:image"
-          content="/img/bg_nogradient.jpg" />
-    <meta name="og:description"
-          content="Hack Camp is a two-week summer program designed for high
-                   school students passionate about technology. We'll bring you
-                   from your first line of code to publishing your first
-                   project."
-          />
-    <link rel="stylesheet prefetch" href="https://cdn.jsdelivr.net/foundation/5.5.0/css/foundation.css">
-    <link rel="stylesheet prefetch" href="css/style.css">
-    <link rel="shortcut icon" href="/img/favicon.ico">
-    <script type="text/javascript">
-      window.heap=window.heap||[],heap.load=function(t,e){window.heap.appid=t,window.heap.config=e;var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=("https:"===document.location.protocol?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+t+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(t){return function(){heap.push([t].concat(Array.prototype.slice.call(arguments,0)))}},p=["clearEventProperties","identify","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
-      heap.load("2784833015");
-    </script>
+    <meta charset='utf-8'>
+    <!-- ██╗  ██╗ █████╗  ██████╗██╗  ██╗     ██████╗ █████╗ ███╗   ███╗██████╗ -->
+    <!-- ██║  ██║██╔══██╗██╔════╝██║ ██╔╝    ██╔════╝██╔══██╗████╗ ████║██╔══██╗ -->
+    <!-- ███████║███████║██║     █████╔╝     ██║     ███████║██╔████╔██║██████╔╝ -->
+    <!-- ██╔══██║██╔══██║██║     ██╔═██╗     ██║     ██╔══██║██║╚██╔╝██║██╔═══╝ -->
+    <!-- ██║  ██║██║  ██║╚██████╗██║  ██╗    ╚██████╗██║  ██║██║ ╚═╝ ██║██║ -->
+    <!-- ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝     ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝ -->
+    <!-- Hey there developer! Interested in learning more about us? Hang out on slack at slack.hackclub.com -->
+    <!-- You can also check out the development of Hack Camp over at https://github.com/hackclub/hackcamp -->
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <title>Hack Camp</title>
+    <!-- Assets -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/foundation.css' rel='stylesheet' type='text/css'>
+    <link href='/css/index.css' rel='stylesheet' type='text/css'>
+    <link href='/img/favicon.ico' rel='shortcut icon'>
+    <!-- Prefetch the application page -->
+    <link href='/application.html' rel='prefetch'>
+    <!-- SEO Stuffs -->
+    <meta content="Hack Camp is a two-week summer program designed for high school students passionate about technology. We'll bring you from your first line of code to publishing your first project." name='description'>
+    <meta content='summary_large_image' name='twitter:card'>
+    <meta content='@starthackclub' name='twitter:site'>
+    <meta content='/img/bg_nogradient.jpg' name='twitter:image'>
+    <meta content='Hack Camp by Hack Camp' name='og:title'>
+    <meta content='website' name='og:type'>
+    <meta content='https://camp.hackclub.com' name='og:url'>
+    <meta content='/img/bg_nogradient.jpg' name='og:image'>
+    <meta content="Hack Camp is a two-week summer program designed for high school students passionate about technology. We'll bring you from your first line of code to publishing your first project." name='og:description'>
   </head>
   <body>
-    <div class="section banner text-center">
-      <img src="/img/hackedu_logo.png">
-      <h3 class="white hackedu-logo">
-        <a href="https://hackedu.us">hackEDU's</a>
-      </h3>
-      <h1 class="white title">Hack Camp</h1>
-      <a href="/application.html" class="button large apply">
-        Apply Now
-      </a>
-      <div class="row small-10 large-5 small-centered columns">
-        <p class="dates dates-p">Hack Camp has finished all its summer sessions this year.</p>
-        <p class="dates">Check back next summer!</p>
-      </div>
-    </div>
-    <div class="summary section text-center">
-      <div class="row">
-        <div class="small-12 columns">
-          <h3 class="open-sans">
-            Hack Camp is a two-week summer program for high school students who
-            want to make things with code. We'll bring you from your first line
-            of code to publishing your first project.
-          </h3>
-        </div>
-      </div>
-    </div>
-    <div class="details section text-center">
-      <div class="row">
-        <div class="small-12 large-8 large-centered columns">
-          <h3 class="open-sans">When is Hack Camp?</h3>
-          <p>
-            Hack Camp sessions start every two weeks, beginning June 1st (e.g.
-            June 1st, June 15th, June 29th). Applications are currently being
-            accepted on a rolling basis.
-          </p>
-          <hr/>
-          <h3 class="open-sans">Where is Hack Camp?</h3>
-          <p>
-            Hack Camp will take place at
-            <a href="https://www.google.com/maps/place/Galvanize/@37.787613,-122.396638,15z/data=!4m2!3m1!1s0x0:0x3cfc91016a294580">
-              Galvanize SF
-            </a>
-            in downtown San Francisco in the heart of the city's technology
-            scene. It is an 8 minute walk from
-            <a href="https://www.google.com/maps/dir/Montgomery+St.+BART+Station,+598+Market+Street,+San+Francisco,+CA+94104/Galvanize,+44+Tehama+Street,+San+Francisco,+CA+94105/@37.7887064,-122.4007801,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x8085806285ddb1a3:0xad9ca7333b4399a7!2m2!1d-122.401067!2d37.789407!1m5!1m1!1s0x8085807cb94a8b83:0x3cfc91016a294580!2m2!1d-122.396638!2d37.787613!3e2">
-              Montgomery St. BART and Muni Metro station
-            </a>.
-          </p>
-          <hr/>
-          <h3 class="open-sans">When are applications due?</h3>
-          <p>
-            We're doing admissions on a rolling basis, so if you've already
-            applied and haven't heard back from us yet, don't worry! You'll hear
-            back from us soon.
-          </p>
-          <hr/>
-          <h3 class="open-sans">Who Hack Camp for?</h3>
-          <p>
-            Hack Camp is for high school students who want to create apps,
-            build websites, and make games. Over two exhilarating weeks, you'll
-            learn fundamental web development skills transferable to game and
-            app development.  We welcome girls and boys ages 14-18, no prior
-            experience necessary. Young adults with some experience are welcome
-            as well, of course. Please bring your own laptop.
-          </p>
-          <hr/>
-          <h3 class="open-sans">How much does Hack Camp cost?</h3>
-          <p>
-            Hack Camp costs $595 for the two-week program. However, inclusivity
-            is extremely important to us and we are readily offering full
-            need-based financial aid (see the question on the application
-            form).
-          </p>
-          <hr/>
-          <h3 class="open-sans">Who's mentoring this?</h3>
-          <p>
-            Hack Camp is led by Gemma Busoni, a wonderfully energetic gal who
-            loves building things. Between creating virtual reality games and
-            working at a research lab at Caltech, she's a prolific attendee and
-            organizer of <a
-            href="https://en.wikipedia.org/wiki/Hackathon">hackathons</a>. She's
-            previously organized <a href="https://codeday.org/la">CodeDay LA</a>
-            at <a href="https://codeday.org/la">will.i.am</a>'s music studio in
-            Los Angeles and can't wait to help others build things at Hack Camp.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="projects section text-center">
-      <h1 class="white open-sans">hackEDU Alumni Projects</h1>
-      <div class="row">
-        <div class="small-10 small-centered large-4 large-uncentered columns">
-          <a href="https://hackgeny.challengepost.com/submissions/32141-handi-hacked">
-            <div class="panel">
-              <h3 class="open-sans">
-                <span class="underline white">HANDI-HACKED</span>
-              </h3>
-              <p>
-                A versatile and open-source VR input device for wheelchairs!
-              </p>
-            </div>
-          </a>
-        </div>
-        <div class="small-10 small-centered large-4 large-uncentered columns">
-          <a href="https://challengepost.com/software/tweetvr">
-            <div class="panel">
-              <h3 class="open-sans">
-                <span class="underline white">TWEETVR</span>
-              </h3>
-              <p>
-                tweetVR augments tweets onto Google Maps Streetview for your
-                Twitter viewing pleasure.
-              </p>
-            </div>
-          </a>
-        </div>
-        <div class="small-10 small-centered large-4 large-uncentered columns">
-          <a href="http://caster.link/#/home">
-            <div class="panel">
-              <h3 class="open-sans">
-                <span class="underline white">CASTER.LINK</span>
-              </h3>
-              <p>
-                Live stream videos as you record them on your Android device.
-              </p>
-            </div>
-          </a>
-        </div>
-      </div>
-      <h5 class="subheader text-center">
-        <a href="https://shipped.hackedu.us/">
-          Check out other projects by hackEDU members here.
+    <div class='row text-center section title'>
+      <div class='small-11 medium-9 large-4 small-centered'>
+        <img alt='Hack Camp' class='header' src='/img/hack_club.svg' title='Hack Camp'>
+        <h2>
+          Hack Camp is a two-week summer program for high school students who
+          want to make things with code.
+          We'll bring you from your first line of code to publishing your first
+          project.
+        </h2>
+        <a class='large button' href='/application.html'>
+          Apply Now
         </a>
-      </h5>
-    </div>
-    <div class="faq section">
-      <h1 class="text-center">FAQ</h1>
-      <div class="row">
-        <div class="small-12 columns">
-          <div class="large-12 columns">
-            <div class="panel">
-              <h4>Do you provide housing?</h4>
-              <p>
-                We really wish we could accommodate out-of-state students with
-                housing, but unfortunately won't be able this first year.
-              </p>
-            </div>
-          </div>
-          <div class="large-12 columns">
-            <div class="panel">
-              <h4>What do I need to bring?</h4>
-              <p>
-                You should bring your laptop, lunch, and a thirst for
-                knowledge. <a href="mailto:summer@hackedu.us">Let us know</a>
-                if you don't have a laptop, and we'll do our best to accomodate
-                you.
-              </p>
-            </div>
-          </div>
-          <div class="large-12 columns">
-            <div class="panel">
-              <h4>How many other students will be there?</h4>
-              <p>
-                Each session will vary in size between 4 and 12 campers. The
-                student-mentor ratio will never exceed 4:1. For session
-                specifics, please contact us at
-                <a href="mailto:summer@hackedu.us">
-                  summer@hackedu.us
-                </a>.
-              </p>
-            </div>
-          </div>
-          <div class="large-12 columns">
-            <div class="panel">
-              <h4>I don't know how to code!</h4>
-              <p>
-                Perfect! Hack Camp was built with beginners in mind.
-                <br>
-                You'll be up to speed in no time.
-              </p>
-            </div>
-          </div>
-          <div class="large-12 columns">
-            <div class="panel">
-              <h4>What if I already know how to code?</h4>
-              <p>
-                There's always more to learn&mdash;why not surround yourself
-                with awesome makers and doers with similar interests?
-              </p>
-            </div>
-          </div>
-          <div class="large-12 columns">
-            <div class="panel">
-              <h4>What time of day is camp?</h4>
-              <p>
-                Camp is Monday-Friday from 9:20pm to 4:00pm. Each camp goes for
-                2 weeks.
-              </p>
-            </div>
-          </div>
-          <div class="large-12 columns">
-            <div class="panel">
-              <h4>What about transportation?</h4>
-              <p>
-                Students are responsible for their own transportation to and
-                from
-                <a href="http://www.galvanize.com/campuses/san-francisco-soma/">
-                  Galvanize SF
-                </a>
-                (<a href="https://www.clippercard.com/ClipperWeb/index.do">Clipper cards
-                </a> are highly recommended).
-              </p>
-            </div>
-          </div>
-          <div class="large-12 columns">
-            <div class="panel">
-              <h4>What will students do aside from code?</h4>
-              <p>
-                Students will participate in team bonding activities and more!
-              </p>
-            </div>
-          </div>
-        </div>
+      </div>
+      <div class='small-11 medium-9 large-6 small-centered'>
+        <h3>
+          First cohort June 6th-17th
+        </h3>
       </div>
     </div>
-    <div class="section projects red-banner text-center">
-      <h1 class="white open-sans">Location</h1>
-      <div class="row">
-        <div class="small-10 small-centered large-8 large-centered columns">
-          <div class="large-7 large-centered columns">
-            <a href="http://www.galvanize.com/campuses/san-francisco-soma/">
-              <div class="panel">
-                <h1>Galvanize SF</h1>
-              </div>
-            </a>
-          </div>
-          <div class="row">
-            <div class="columns">
-              <div class="flex-video">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.1035486158403!2d-122.39663799999998!3d37.787613000000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085807cb94a8b83%3A0x3cfc91016a294580!2sGalvanize!5e0!3m2!1sen!2sus!4v1432623771468" width="600" height="450" frameborder="0" style="border:0"></iframe>
-              </div>
-            </div>
-          </div>
-          <a href="https://www.google.com/maps/place/Galvanize/@37.787613,-122.396638,15z/data=!4m2!3m1!1s0x0:0x3cfc91016a294580?sa=X&ei=EBVkVbXlGsWhNr7OgLAO&ved=0CHoQ_BIwDQ">
-            An 8 minute walk from the Mongomery station.
-          </a>
-        </div>
+    <div class='row section summary text-center'>
+      <div class='small-11 medium-8 large-6 small-centered'>
+        <h2>
+          When is Hack Camp?
+        </h2>
+        <p>
+          Hack Camp sessions start every two weeks, beginning June 6th.
+        </p>
+      </div>
+      <div class='small-11 medium-8 large-6 small-centered'>
+        <hr>
+        <h2>
+          Where is Hack Camp?
+        </h2>
+        <p>
+          Hack Camp will be hosted in Downtown San Fransisco.
+        </p>
+      </div>
+      <div class='small-11 medium-8 large-6 small-centered'>
+        <hr>
+        <h2>
+          When are applications due?
+        </h2>
+        <p>
+          We're doing admissions on a rolling basis. Applications for the June
+          6th - June 17th session of Hack Camp close on May 9th.
+        </p>
+      </div>
+      <div class='small-11 medium-8 large-6 small-centered'>
+        <hr>
+        <h2>
+          Who is Hack Camp for?
+        </h2>
+        <p>
+          Hack Camp is for high school students who want to create apps, build
+          websites, and make games. Over two exhilarating weeks, you'll learn
+          fundamental web development skills transferable to game and app
+          development. We welcome anyone ages 14-18, no prior experience
+          necessary. Young adults with some experience are welcome as well.
+        </p>
+      </div>
+      <div class='small-11 medium-8 large-6 small-centered'>
+        <hr>
+        <h2>
+          How much does Hack Camp cost?
+        </h2>
+        <p>
+          Hack Camp costs $1000 for the two-week program. However, inclusivity
+          is extremely important to us and we are readily offering full
+          need-based financial aid (see the question on the application form).
+        </p>
       </div>
     </div>
-    <div class="application section">
-      <div class="row">
-        <div class="text-center small-10 small-centered medium-8
-                    medium-centered columns">
-          <a href="/application.html" class="button apply">
-            Apply for Camp
-          </a>
-          <p class="dates dates-p">Two-week sessions throughout the summer</p>
-          <p class="dates">Last session August 3rd - 14th</p>
-          <br>
-          <p class="white">
-            Applications are currently being accepted on a rolling basis.
+    <div class='row text-center section testimony'>
+      <div class='small-12 medium-8 medium-centered columns'>
+        <h1>Alumni Testimony</h1>
+      </div>
+      <div class='small-12 medium-8 medium-centered columns'>
+        <div class='small-12 large-6 large-centered columns'>
+          <q class='callout'>
+            I felt euphoric at the end of each day because I had managed to
+            implement a feature I had previously thought impossible to
+            implement. It really taught me that I could "distort reality" and
+            make things HAPPEN.
+          </q>
+        </div>
+        <div class='small-12 large-6 large-centered columns'>
+          <q class='callout'>
+            It gave us the freedom to go at our own pace and explore our
+            individual interests.
+          </q>
+        </div>
+        <div class='small-12 large-6 large-centered columns'>
+          <q class='callout'>
+            The way Hack Camp is taught is totally opposite of what our school
+            system is. This camp really opened my mind to the different ways
+            that I can learn.
+          </q>
+        </div>
+        <div class='small-12 large-6 large-centered columns'>
+          <q class='callout'>
+            In the camp's mere two weeks, more than in any part of my life, not
+            in my days as a fetus, an infant, a toddler, an elementary schooler,
+            a middle schooler, a high school freshman, a high school sophomore,
+            or a high school junior, I have never made so many mistakes.
+          </q>
+        </div>
+        <div class='small-12 large-6 large-centered columns'>
+          <q class='callout'>
+            Free breakfast.
+          </q>
+        </div>
+        <!-- Jank workaround for Foundation's floating last columns on large screens -->
+        <div class='small-12 columns'></div>
+      </div>
+      <div class='small-12 columns'></div>
+    </div>
+    <div class='row text-center section faq'>
+      <div class='small-12'>
+        <h1>FAQ</h1>
+      </div>
+      <div class='small-12 large-8 large-centered'>
+        <div class='small-12 medium-10 large-6 medium-centered columns'>
+          <h2>
+            What do I need to bring?
+          </h2>
+          <p>
+            You should bring your laptop, lunch, and a thirst for knowledge. Let
+            us know if you don't have a laptop and we'll do our best to
+            accomodate you.
+          </p>
+          <hr>
+        </div>
+        <div class='small-12 medium-10 large-6 medium-centered columns'>
+          <h2>
+            I don't know how to code!
+          </h2>
+          <p>
+            Perfect! Hack Camp was built with beginners in mind. You'll be up to
+            speed in no time.
+          </p>
+          <hr>
+        </div>
+        <div class='small-12 medium-10 large-6 medium-centered columns'>
+          <h2>
+            What if I already know how to code?
+          </h2>
+          <p>
+            There's always more to learn—why not surround yourself with awesome
+            makers and doers with similar interests?
+          </p>
+          <hr>
+        </div>
+        <div class='small-12 medium-10 large-6 medium-centered columns'>
+          <h2>
+            What time of day is camp?
+          </h2>
+          <p>
+            Camp is Monday-Friday from 9:00pm to 5:30pm. Each camp goes for 2
+            weeks.
+          </p>
+          <hr>
+        </div>
+        <div class='small-12 medium-10 large-6 medium-centered columns'>
+          <h2>
+            What will students gain from the program?
+          </h2>
+          <p>
+            Students will become comfortable their own ability to code and solve
+            problems, as well as gain friendships with mentors and other
+            students.
+          </p>
+        </div>
+        <!-- Jank workaround for Foundation's floating last columns on large screens -->
+        <div class='small-12 columns'></div>
+      </div>
+    </div>
+    <div class='row text-center section footer'>
+      <div class='small-12 medium-8 medium-centered columns'>
+        <div class='small-12 columns'>
+          <h2>Any Questions?</h2>
+          <p>
+            Please reach out! We can be reached anytime at <a class="email" href="mailto:summer@hackclub.com">summer@hackclub.com</a>.
           </p>
         </div>
       </div>
     </div>
-    <div class="contact section text-center">
-      <h1 class="white">Any Questions?</h1>
-      <p class="white">
-        Please reach out! We can be reached anytime at
-        <a href="mailto:summer@hackedu.us">summer@hackedu.us</a>.
-      </p>
-    </div>
-    <script type="text/javascript">
-if (document.location.search.match(/type=embed/gi)) {
-  window.parent.postMessage("resize", "*");
-}
-    </script>
-    <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-47724303-4', 'auto');
-ga('send', 'pageview');
-
-    </script>
   </body>
 </html>

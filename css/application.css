@@ -1,0 +1,34 @@
+body {
+  background: whitesmoke; }
+
+.title {
+  padding: 100px 0;
+  color: whitesmoke;
+  background: #ff4b55;
+  background: url(/img/bg_gradient.jpg) no-repeat center top;
+  background-size: cover;
+  box-sizing: border-box; }
+
+.footer {
+  color: whitesmoke;
+  background: #ff4b55;
+  background: linear-gradient(to top left, #ff4b55, #d44e74);
+  background: -webkit-linear-gradient(to top left, #ff4b55, #d44e74); }
+  .footer .email {
+    color: whitesmoke;
+    text-decoration: underline; }
+
+@media only screen and (min-width: 64.063em) {
+  .email {
+    text-shadow: 0 0 1px whitesmoke; } }
+.fieldset legend {
+  background: whitesmoke; }
+
+.row {
+  max-width: 1000px; }
+
+.button {
+  background: #ff4b55; }
+
+.button:hover {
+  background: #ff1825; }

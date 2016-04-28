@@ -1,0 +1,87 @@
+body {
+  background: whitesmoke; }
+
+.title {
+  padding: 100px 0;
+  color: whitesmoke;
+  background: #ff4b55;
+  background: url(/img/bg_gradient.jpg) no-repeat center top;
+  background-size: cover;
+  box-sizing: border-box; }
+
+.footer {
+  color: whitesmoke;
+  background: #ff4b55;
+  background: linear-gradient(to top left, #ff4b55, #d44e74);
+  background: -webkit-linear-gradient(to top left, #ff4b55, #d44e74); }
+  .footer .email {
+    color: whitesmoke;
+    text-decoration: underline; }
+
+@media only screen and (min-width: 64.063em) {
+  .email {
+    text-shadow: 0 0 1px whitesmoke; } }
+hr {
+  margin: 25px 0;
+  height: 1px;
+  border: 0;
+  background: #ff4b55;
+  background: linear-gradient(left, whitesmoke 0%, #ff4b55 50%, whitesmoke 100%);
+  background: -webkit-linear-gradient(left, whitesmoke 0%, #ff4b55 50%, whitesmoke 100%); }
+
+.row {
+  max-width: initial;
+  padding: 0;
+  width: 100%;
+  margin: 0; }
+
+.section {
+  padding: 2em 0; }
+
+.title .header {
+  min-width: 50%; }
+.title h2 {
+  font-size: 1.25rem;
+  margin: 1rem 0; }
+.title h3 {
+  font-size: 1.125rem;
+  margin-top: 1rem; }
+.title .button {
+  transition-duration: 0.3s;
+  line-height: 1.5em;
+  background: transparent;
+  border: 1px solid whitesmoke; }
+.title .button:hover {
+  background-color: rgba(255, 255, 255, 0.15); }
+
+@media (max-width: 40em) {
+  .title {
+    min-height: 90%; } }
+.testimony {
+  color: #303030;
+  color: white;
+  background: #ff4b55;
+  background: linear-gradient(to top right, #ff4b55, #d44e74);
+  background: -webkit-linear-gradient(to top right, #ff4b55, #d44e74); }
+  .testimony q {
+    font-style: italic;
+    display: block;
+    color: white;
+    border: 0;
+    background: rgba(255, 255, 255, 0.1); }
+
+.summary {
+  color: #303030;
+  padding: 3em 0; }
+  .summary h2 {
+    font-size: 1.6875rem; }
+
+.faq {
+  color: #303030; }
+  .faq .callout {
+    background-color: #f2f2f2;
+    border: 1px solid #ff4b55; }
+  .faq h1 {
+    font-size: 3rem; }
+  .faq h2 {
+    font-size: 1.6875rem; }
