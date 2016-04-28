@@ -1,0 +1,171 @@
+!!!
+%html
+  %head
+    %meta{charset: "utf-8"}
+    / ██╗  ██╗ █████╗  ██████╗██╗  ██╗     ██████╗ █████╗ ███╗   ███╗██████╗
+    / ██║  ██║██╔══██╗██╔════╝██║ ██╔╝    ██╔════╝██╔══██╗████╗ ████║██╔══██╗
+    / ███████║███████║██║     █████╔╝     ██║     ███████║██╔████╔██║██████╔╝
+    / ██╔══██║██╔══██║██║     ██╔═██╗     ██║     ██╔══██║██║╚██╔╝██║██╔═══╝
+    / ██║  ██║██║  ██║╚██████╗██║  ██╗    ╚██████╗██║  ██║██║ ╚═╝ ██║██║
+    / ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝     ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝
+    / Hey there developer! Interested in learning more about us? Hang out on slack at slack.hackclub.com
+    / You can also check out the development of Hack Camp over at https://github.com/hackclub/hackcamp
+    %meta{name: "viewport", content: "width=device-width, initial-scale=1"}
+    %title Hack Camp
+    / Assets
+    %link{rel:"stylesheet", type:"text/css", href: "https://fonts.googleapis.com/css?family=Open+Sans"}
+    %link{rel: "stylesheet", type: "text/css", href: "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/foundation.css"}
+    %link{rel: "stylesheet", type: "text/css", href: "/css/index.css"}
+    %link{rel: "shortcut icon", href: "/img/favicon.ico"}
+    / Prefetch the application page
+    %link{rel: "prefetch", href: "/application.html"}
+    / SEO Stuffs
+    %meta{name: "description",
+          content: "Hack Camp is a two-week summer program designed for high school students passionate about technology. We'll bring you from your first line of code to publishing your first project."          }
+    %meta{name: "twitter:card",
+          content: "summary_large_image"}
+    %meta{name: "twitter:site",
+          content: "@starthackclub"}
+    %meta{name: "twitter:image",
+          content: "/img/bg_nogradient.jpg"}
+    %meta{name: "og:title",
+          content: "Hack Camp by Hack Camp"}
+    %meta{name: "og:type",
+          content: "website"}
+    %meta{name: "og:url",
+          content: "https://camp.hackclub.com"}
+    %meta{name: "og:image",
+          content: "/img/bg_nogradient.jpg"}
+    %meta{name: "og:description",
+          content: "Hack Camp is a two-week summer program designed for high school students passionate about technology. We'll bring you from your first line of code to publishing your first project."}
+  %body
+    .row.text-center.section.title
+      .small-11.medium-9.large-4.small-centered
+        %img{src: "/img/hack_club.svg", alt: "Hack Camp", title: "Hack Camp", class: "header"}
+        %h2
+          Hack Camp is a two-week summer program for high school students who
+          want to make things with code.
+
+          We'll bring you from your first line of code to publishing your first
+          project.
+        %a{href: "/application", class: "large button"}
+          Apply Now
+      .small-11.medium-9.large-6.small-centered
+        %h3
+          First cohort June 6th-17th
+    .row.section.summary.text-center
+      .small-11.medium-8.large-6.small-centered
+        %h2
+          When is Hack Camp?
+        %p
+          Hack Camp sessions start every two weeks, beginning June 6th.
+      .small-11.medium-8.large-6.small-centered
+        %hr
+        %h2
+          Where is Hack Camp?
+        %p
+          Hack Camp will be hosted in Downtown San Fransisco.
+      .small-11.medium-8.large-6.small-centered
+        %hr
+        %h2
+          When are applications due?
+        %p
+          We're doing admissions on a rolling basis. Applications for the June
+          6th - June 17th session of Hack Camp close on May 9th.
+      .small-11.medium-8.large-6.small-centered
+        %hr
+        %h2
+          Who is Hack Camp for?
+        %p
+          Hack Camp is for high school students who want to create apps, build
+          websites, and make games. Over two exhilarating weeks, you'll learn
+          fundamental web development skills transferable to game and app
+          development. We welcome anyone ages 14-18, no prior experience
+          necessary. Young adults with some experience are welcome as well.
+      .small-11.medium-8.large-6.small-centered
+        %hr
+        %h2
+          How much does Hack Camp cost?
+        %p
+          Hack Camp costs $1000 for the two-week program. However, inclusivity
+          is extremely important to us and we are readily offering full
+          need-based financial aid (see the question on the application form).
+    .row.text-center.section.testimony
+      .small-12.medium-8.medium-centered.columns
+        %h1 Alumni Testimony
+      .small-12.medium-8.medium-centered.columns
+        .small-12.large-6.large-centered.columns
+          %q.callout
+            I felt euphoric at the end of each day because I had managed to
+            implement a feature I had previously thought impossible to
+            implement. It really taught me that I could "distort reality" and
+            make things HAPPEN.
+        .small-12.large-6.large-centered.columns
+          %q.callout
+            It gave us the freedom to go at our own pace and explore our
+            individual interests.
+        .small-12.large-6.large-centered.columns
+          %q.callout
+            The way Hack Camp is taught is totally opposite of what our school
+            system is. This camp really opened my mind to the different ways
+            that I can learn.
+        .small-12.large-6.large-centered.columns
+          %q.callout
+            In the camp's mere two weeks, more than in any part of my life, not
+            in my days as a fetus, an infant, a toddler, an elementary schooler,
+            a middle schooler, a high school freshman, a high school sophomore,
+            or a high school junior, I have never made so many mistakes.
+        .small-12.large-6.large-centered.columns
+          %q.callout
+            Free breakfast.
+        / Jank workaround for Foundation's floating last columns on large screens
+        .small-12.columns
+      .small-12.columns
+    .row.text-center.section.faq
+      .small-12
+        %h1 FAQ
+      .small-12.large-8.large-centered
+        .small-12.medium-10.large-6.medium-centered.columns
+          %h2
+            What do I need to bring?
+          %p
+            You should bring your laptop, lunch, and a thirst for knowledge. Let
+            us know if you don't have a laptop and we'll do our best to
+            accomodate you.
+          %hr
+        .small-12.medium-10.large-6.medium-centered.columns
+          %h2
+            I don't know how to code!
+          %p
+            Perfect! Hack Camp was built with beginners in mind. You'll be up to
+            speed in no time.
+          %hr
+        .small-12.medium-10.large-6.medium-centered.columns
+          %h2
+            What if I already know how to code?
+          %p
+            There's always more to learn—why not surround yourself with awesome
+            makers and doers with similar interests?
+          %hr
+        .small-12.medium-10.large-6.medium-centered.columns
+          %h2
+            What time of day is camp?
+          %p
+            Camp is Monday-Friday from 9:00pm to 5:30pm. Each camp goes for 2
+            weeks.
+          %hr
+        .small-12.medium-10.large-6.medium-centered.columns
+          %h2
+            What will students gain from the program?
+          %p
+            Students will become comfortable their own ability to code and solve
+            problems, as well as gain friendships with mentors and other
+            students.
+        / Jank workaround for Foundation's floating last columns on large screens
+        .small-12.columns
+    .row.text-center.section.footer
+      .small-12.medium-8.medium-centered.columns
+        .small-12.columns
+          %h2 Any Questions?
+          %p
+            Please reach out! We can be reached anytime at <a class="email" href="mailto:summer@hackclub.com">summer@hackclub.com</a>.

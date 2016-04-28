@@ -1,0 +1,34 @@
+$hackclub-red: #db4b4f
+$hackclub-blue: #3b67a8
+$hackclub-green: #09ad5e
+$hackclub-black: #303030
+$hackclub-purple: #794aa1
+$hackclub-orange: #e37717
+$hackclub-white: darken(#ffffff, 4%)
+$hackclub-white-on-black: #818181
+$hackclub-new-red: #ff4b55
+$hackclub-new-purple: #d44e74
+
+body
+  background: $hackclub-white
+
+.title
+  padding: 100px 0
+  color: $hackclub-white
+  background: $hackclub-new-red
+  background: url(/img/bg_gradient.jpg) no-repeat center top
+  background-size: cover
+  box-sizing: border-box
+
+.footer
+  color: $hackclub-white
+  background: $hackclub-new-red
+  background: linear-gradient(to top left, $hackclub-new-red, $hackclub-new-purple)
+  background: -webkit-linear-gradient(to top left, $hackclub-new-red, $hackclub-new-purple)
+  .email
+    color: $hackclub-white
+    text-decoration: underline
+
+@media only screen and (min-width: 64.063em)
+  .email
+    text-shadow: 0 0 1px $hackclub-white

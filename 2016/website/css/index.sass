@@ -1,0 +1,68 @@
+@import 'base'
+
+hr
+  margin: 25px 0
+  height: 1px
+  border: 0
+  background: $hackclub-new-red
+  background: linear-gradient(left, $hackclub-white 0%, $hackclub-new-red 50%, $hackclub-white 100%)
+  background: -webkit-linear-gradient(left, $hackclub-white 0%, $hackclub-new-red 50%, $hackclub-white 100%)
+
+.row
+  max-width: initial
+  padding: 0
+  width: 100%
+  margin: 0
+
+.section
+  padding: 2em 0
+
+.title
+  .header
+    min-width: 50%
+  h2
+    font-size: 1.25rem
+    margin: 1rem 0
+  h3
+    font-size: 1.125rem
+    margin-top: 1rem
+  .button
+    transition-duration: 0.3s
+    line-height: 1.5em
+    background: rgba(0, 0, 0, 0)
+    border: 1px solid $hackclub-white
+  .button:hover
+    background-color: rgba(255, 255, 255, 0.15)
+
+@media (max-width: 40em)
+  .title
+    min-height: 90%
+
+.testimony
+  color: $hackclub-black
+  color: white
+  background: $hackclub-new-red
+  background: linear-gradient(to top right, $hackclub-new-red, $hackclub-new-purple)
+  background: -webkit-linear-gradient(to top right, $hackclub-new-red, $hackclub-new-purple)
+  q
+    font-style: italic
+    display: block
+    color: white
+    border: 0
+    background: rgba(white, 0.1)
+
+.summary
+  color: $hackclub-black
+  padding: 3em 0
+  h2
+    font-size: 1.6875rem
+
+.faq
+  color: $hackclub-black
+  .callout
+    background-color: darken($hackclub-white, 1%)
+    border: 1px solid $hackclub-new-red
+  h1
+    font-size: 3rem
+  h2
+    font-size: 1.6875rem
