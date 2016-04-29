@@ -1,3 +1,7 @@
+machine:
+  environment:
+    PERCY_BRANCH: gh-pages
+
 dependencies:
   pre:
     - gem install percy-cli
