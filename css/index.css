@@ -1,6 +1,10 @@
 body {
   background: whitesmoke; }
 
+a {
+  color: #ff4b55;
+}
+
 .title {
   padding: 100px 0;
   color: whitesmoke;
