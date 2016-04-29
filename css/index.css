@@ -79,6 +79,8 @@ hr {
   padding: 3em 0; }
   .summary h2 {
     font-size: 1.6875rem; }
+  .dates ul {
+    list-style-type: none; }
 
 .faq {
   color: #303030; }
