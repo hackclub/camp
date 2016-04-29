@@ -1,0 +1,7 @@
+dependencies:
+  pre:
+    - gem install percy-cli
+
+test:
+  override:
+    - percy snapshot .
