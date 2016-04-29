@@ -3,7 +3,11 @@ body {
 
 a {
   color: #ff4b55;
+  text-decoration: underline;
 }
+
+.apply {
+  text-decoration: none; }
 
 .title {
   padding: 100px 0;
