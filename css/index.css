@@ -6,6 +6,14 @@ a {
   text-decoration: underline;
 }
 
+a:active {
+  color: #ff1825;
+}
+
+a:hover {
+  color: #ff1825;
+}
+
 .apply {
   text-decoration: none; }
 
