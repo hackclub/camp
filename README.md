@@ -1,6 +1,6 @@
 # Hack Camp
 
-[![Issue Stats](http://issuestats.com/github/hackclub/hackcamp/badge/pr?style=flat)](http://issuestats.com/github/hackclub/hackcamp)
+[![Pull Request Stats](http://issuestats.com/github/hackclub/hackcamp/badge/pr?style=flat)](http://issuestats.com/github/hackclub/hackcamp)
 [![Issue Stats](http://issuestats.com/github/hackclub/hackcamp/badge/issue?style=flat)](http://issuestats.com/github/hackclub/hackcamp)
 
 Hack Camp is Hack Club's summer program. This repository houses everything for the camp.
