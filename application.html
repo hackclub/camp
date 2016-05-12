@@ -59,7 +59,7 @@
             <div class='medium-6 columns'>
               <label>
                 Parent or guardian email
-                <small>Required</small>
+                <small>*</small>
                 <input name='entry.569669936' placeholder='rickard@stark.house' required='' type='email'>
               </label>
               <small class='form-error'>A valid email is required</small>
@@ -88,7 +88,7 @@
               <label>
                 Age
                 <small>Required</small>
-                <input name='entry.997676914' pattern='^[0-9]+$' placeholder='12' required='' type='number'>
+                <input name='entry.997676914' pattern='^[0-9]+$' placeholder='12' required='' type="number" min="10">
               </label>
               <small class='form-error'>A valid age is required</small>
             </div>
@@ -124,7 +124,7 @@
             <div class='columns'>
               <label>
                 In 2-3 sentences, why do you want to go to Hack Camp?
-                <input name='entry.436575854' placeholder='I want to finish my first project.' type='text'>
+                <textarea name='entry.436575854' placeholder='I want to finish my first project.' style="width:1200px;height:100px;"></textarea>
               </label>
             </div>
           </div>
@@ -209,7 +209,7 @@
                 Can you briefly (1-3 sentences) tell us about something you've
                 coded before and how it worked?
                 <small>Required</small>
-                <input name='entry.959372003' placeholder='I wrote an app to manage all of Winterfell in Swift.' type='text'>
+                <textarea name='entry.959372003' placeholder='I wrote an app to manage all of Winterfell in Swift.' style="width:1200px;height:100px;"></textarea>
               </label>
             </div>
           </div>
@@ -273,6 +273,14 @@
               <label>
                 How did you hear about Hack Camp?
                 <input name='entry.938926904' placeholder='Messenger raven' type='text'>
+              </label>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='large-12 columns'>
+              <label>
+                Enter a promo code if you have one (Optional)
+                <input name='entry.2053418849' placeholder='SECRET42' type='text'>
               </label>
             </div>
           </div>
