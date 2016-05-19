@@ -6,7 +6,7 @@ test:
   override:
     - |
       if [ "$CIRCLE_BRANCH" = "gh-pages" ]; then
-        PERCY_BRANCH="master"
+        export PERCY_BRANCH="master"
       fi
 
       percy snapshot --widths "375,1280" .
