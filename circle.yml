@@ -4,4 +4,4 @@ dependencies:
 
 test:
   override:
-    - percy snapshot .
+    - percy snapshot --widths "375,1280" .
