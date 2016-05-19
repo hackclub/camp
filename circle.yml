@@ -4,4 +4,9 @@ dependencies:
 
 test:
   override:
-    - percy snapshot --widths "375,1280" .
+    - |
+      if [ "$CIRCLE_BRANCH" = "gh-pages" ]; then
+        PERCY_PREFIX="PERCY_BRANCH=master"
+      fi
+
+      $PERCY_PREFIX percy snapshot --widths "375,1280" .
