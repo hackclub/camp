@@ -8,6 +8,6 @@ We've been getting too many experienced applicants and need help reaching studen
 
 ---
 
-Hack Camp is a two-week summer program designed for high school students with little to no coding experience. We're targeting total beginners and will be teaching them the fundamentals of building websites and games. It'll run in four two-week sessions throughout the summer.
+Want to learn to build websites and games? Hack Camp is a two-week summer program designed for high school students with little to no coding experience. We'll bring you from your first line of code to publishing websites and making your first games. It'll run in four two-week sessions throughout the summer.
 
 For more info, check out https://camp.hackclub.com. Feel free to shoot me an email at summer@hackclub.com!
