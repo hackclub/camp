@@ -62,13 +62,15 @@ hr {
 .title h3 {
   font-size: 1.125rem;
   margin-top: 1rem; }
-.title .button {
+.title .button, .footer .button {
   transition-duration: 0.3s;
   line-height: 1.5em;
-  background: transparent;
+  background: whitesmoke;
+  color: #ff4b55;
   border: 1px solid whitesmoke; }
-.title .button:hover {
-  background-color: rgba(255, 255, 255, 0.15); }
+.title .button:hover, .footer .button:hover {
+  background-color: rgba(255, 255, 255, 0.75); }
+  color: #ff4b55;
 
 @media (max-width: 40em) {
   .title {
