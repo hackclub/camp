@@ -38,13 +38,8 @@
     - [Speaking from personal experience.](#speaking-from-personal-experience)
     - [Why is programming awesome?](#why-is-programming-awesome)
         - [Our objective running Hack Camp.](#our-objective-running-hack-camp)
-        - [Sports Analogy](#sports-analogy)
-        - [Growth Mindset](#growth-mindset)
         - [Code of conduct](#code-of-conduct)
         - [Freedom](#freedom)
-- [Meals](#meals)
-    - [Breakfast](#breakfast)
-    - [Lunch](#lunch)
 - [Morning Announcements](#morning-announcements)
     - [Purpose](#purpose)
     - [Delivery](#delivery)
@@ -59,28 +54,6 @@
 		- [Handling Disruptions](#handling-disruptions)
         - [Checking In To Every Hacker](#checking-in-to-every-hacker)
         - [Driving People to their Maximal Potential](#driving-people-to-their-maximal-potential)
-    - [Portfolio](#portfolio)
-		- [Handling Disruptions](#handling-disruptions)
-        - [Prerequisites](#prerequisites)
-        - [Running it](#running-it)
-    - [Maestro](#maestro)
-        - [Running It](#running-it)
-        - [Link](#link)
-    - [Instagram](#instagram)
-        - [Running Instagram](#running-instagram)
-            - [Before the workshop](#before-the-workshop)
-            - [Here are the bullet points of what you might include to preface this workshop](#here-are-the-bullet-points-of-what-you-might-include-to-preface-this-workshop)
-        - [Instagram Readme](#instagram-readme)
-    - [Messenger](#messenger)
-        - [Running It](#running-it)
-            - [Before the presentation](#before-the-presentation)
-            - [Communicate the following to the hackers](#communicate-the-following-to-the-hackers)
-        - [Readme](#readme)
-    - [Todo](#todo)
-        - [Running Todo](#running-todo)
-            - [Setup](#setup)
-            - [Presentation](#presentation)
-        - [Todo Readme](#todo-readme)
 - [Demos](#demos)
     - [Whiteboard information](#whiteboard-information)
     - [Links](#links)
@@ -114,7 +87,6 @@
     - [Sharing Announcements Individually](#sharing-announcements-individually)
     - [Slack Announcements](#slack-announcements)
 
-<!-- markdown-toc end -->
 
 # Philosophy
 
@@ -393,7 +365,7 @@ We recommend doing the following:
 3. Have the assigned leaders wait in the lobby for arriving hackers.
 4. When a hacker arrives, have one of the assigned leaders guide them down to
    the hackerspace in the basement, mark their arrival in the
-   [attendance sheet](https://docs.google.com/spreadsheets/d/1Em5tUQdm4dXnthtWr4zY4KR9Q6JZMV_Hl2n6G9Ti9Bg/edit),
+   [attendance sheet](),
    collect and set aside their acceptance packet (they were emailed a packet
    full of waivers to sign before the cohort started), and then head back up to
    the lobby to wait for more arriving hackers.
@@ -926,115 +898,6 @@ your brain starts hurting. That's when you have gotten a good exercise.
 It means that you're not learning anything new. You're just doing really boring
 easy things and not stretching yourself.
 
-### Growth Mindset
-
-I want to share a piece of research with you that has really impacted the way I
-thought about myself.
-
-A Stanford University professor named Carol Dweck studies this phenomenon she
-calls mindset.
-
-On one side of the mindset scale is fixed mindset, which means that you believe
-that your abilities in something are fixed.
-
-On the other side of the mindset scale is growth mindset, which means that you
-believe that your abilities in something can be improved.
-
-If I were to say, I'm not really a math person, that means that you believe that
-your abilities in math are fixed. That you were born with some finite set of
-math abilities and they couldn't be improved.
-
-If I were to say, "Yeah, I'm not really that artistic" it means that you think
-that your art abilities are fixed. That you were born with a limited artistic
-ability and you couldn't improve it.
-
-If I were to say, "Yeah, I'm not that good with girls and I'm not that good with
-boys either, you believe that your ability with men or women is fixed."
-
-If you had a growth mindset about math, you might instead say "I'm not that good
-at math right now because I havn't spent too much time practicing it because I'm
-not too intrested in it"
-
-If you had a growth mindset about art, you might say that I don't really have
-too much experience in art right now so I'm pretty bad at it but I'm actually
-pretty interested in it and would love to learn more.
-
-So there are people here of all different skill levels of programming in this
-room. Take `INSERT NAME OF PERSON HERE THAT IS BETTER AT CODING THAN YOU WHO IS
-IDEALLY IN THE ROOM OR AT LEAST THAT SOMEONE ELSE KNOWS ABOUT`, they are much
-better than me at programming. Now why is that? Is it because they are just
-smarter than me?
-
-> Wait for answer
-
-No, it's because they've spent a lot more hours programming than I have.
-
-So when you're learning something, should you be learning the same concepts and
-building as quickly `ABOVE NAME`. Should you be picking up things at the same
-rate?
-
-No, of course not! They have spent a lot more time practicing as you. Once
-you've spent as many hours (note hours, not years) as them, then you can expect
-similar results.
-
-There's an interesting experiment that they did with this:
-
-She gave an exam to engineering students who she told was a measure of their
-aptitude. They made sure that they did well on 2 of the tests but not on a
-third.
-
-Then they asked, which one do you want to take a tutorial in? After the
-tutorial, we'll give you the test for that subject again and give you a
-certificuit with a score emblazed on a certificuit.
-
-Those with a growth mindset overwhelmingly chose to take the tutorial in the
-subject that they did poorly on.
-
-This seems to make sense because they can improve the skill they are the weakest
-on.
-
-However, those with a fixed mindset overwhelmingly chose to take the tutorial in
-one of the subjects they did well on.
-
-For those with fixed mindsets, errors and setbacks are calamaties, they are the
-surest sign of unworthyness and they think, "I must hide my errors, I must not
-let people know or else they will think I am stupid". This fear of errors in
-those with a fix mindset closes people off to learning and growth.
-
-When researcher from the University of Michigan, Jason Moser monitored brain
-activity while someone with a growth mindset makes an error, the anterior
-cingulate cortex, the part of the brain that monitors for errors, is extremely
-active and processing.
-
-And if you actually look at brain activity of someone with a fixed mindset, this
-area of the brain is completely shut off.
-
-At hack camp, we want to celebrate learning so we want to celebrate when we make
-errors.
-
-*So is the primary objective of Hack Camp to learn coding?*
-
-No, not really. Think about this as an analog to a creative writing camp. You
-wouldn't spend all day in a creative writing camp learning grammar.
-
-You would be there thinking about what stories you could craft, how you could
-move people's emotions, how you could sway someone's opinions.
-
-I see programming as a tool for two things.
-
-- a medium for self expression
-- a tool to solve problems
-
-and the most important part of doing those two things is knowing that you can do
-it. This is what hack camp is about.
-
-*Don't Ask For Permission, beg for forgiveness*
-
-Don't ask us whether you can do something or not in hack-camp, just do it.
-
-Ask us for forgiveness later.
-
-There are no rules at hack camp, except one.
 
 ### Code of conduct
 
@@ -1052,51 +915,6 @@ projects in the schedule, you might be able to go in more of a direction you may
 want to go in but there's also a chance that you'll fall behind - the choice is
 up to you.
 
-# Meals
-
-## Breakfast
-
-Plan to eat breakfast as a large group every morning on the third floor of the
-building.
-
-How to get it going:
-
-1. Assign a leader to set up breakfast while hackers are still arriving.
-2. To set up breakfast, the leader will need to:
-  1. Bring the food we have for breakfast from the kitchen to the third floor
-     dining tables. Our food is in the cabinets below the stove in the kitchen
-     past the open working space on the third floor (not the kitchen right next
-     to the stairs).
-  2. Move tables together and bring chairs together.
-  3. Bring out an adequate number of plates, bowls, and silverware (use
-     discretion to decide what is adequate).
-3. Once the leader has set up breakfast, and when it's time to do breakfast,
-   have everyone take the stairs to the third floor.
-
-The hackers may be pretty quiet during breakfast, especially on the first day.
-We recommend taking this opportunity as a time to engage with them on a more
-personal level and start building community within the cohort. The way we've
-done this in the past is physically dispersing ourselves between the hackers
-during breakfast and initiating conversations with the one or two people sitting
-next to us through asking lots of open ended questions. We haven't had much
-success when trying to engage the entire group in a single large conversation.
-
-Plan to start cleaning up 5 minutes before breakfast ends. Make it clear to all
-of the hackers that they are expected to clean up after themselves, whether that
-means putting their dishes in the dishwasher or disposing of garbage.
-
-## Lunch
-
-On the first day, eat lunch as a large group. On all of the other days, give the
-hackers freedom for the entire lunch period.
-
-When eating lunch as a large group, eat on the _roof_. When doing this, _assign
-one leader_ to go to the roof _15-20 minutes early_ and move tables and chairs
-together to accommodate everyone. When the time comes to eat lunch, have the
-whole group take the stairs to the roof. We've found that trying to take the
-elevators with large groups can get pretty chaotic, especially when going to the
-roof during lunch time (many Galvanize members all trying to get to the lobby
-then).
 
 # Morning Announcements
 
@@ -1193,57 +1011,6 @@ doing one of the following:
   don't want to baby you so we won't remind you.
 - Something else that works best for you.
 
-### Handling Disruptions
-
-Note that the below is how Jonathan handles disruptions and may be fairly
-specific to Jonathan.
-
-General Tips:
-
-- you do NOT want to
-  - seem or get defensive
-    - this makes you feel weak
-  - exert your authority
-    - this also makes you feel weak
-  - seem frustrated
-    - - this also makes you feel weak
-  - ^ These 3 things are not just specific to Jonathan, but to many people.
-- you want to
-  - be playful and witty
-  - probably other things as well but I can't think of any
-
-#### Examples
-
-##### Someone bursts out and says "But I don't want to learn!".
-
-Say you introduce a new workshop and someone says:
-
-> But I don't want to learn.
-
-Perhaps they said this as a joke, perhaps as a joke with a truth behind it.
-
-Either way, you could counter with some of the:
-
-- "Xavier, sit down!" Only say this if it is completely out of character for you
-  because in order to be successful, they must detect that it is said in a
-  joking manner.
-- "Thanks for sharing Xavier. Would you like a gold star?" and then give a
-  very sarcastic face: ![](img/sarcastic_face.jpg)
-- "Cool story bro. Is there anything else that you'd like to share?"
-- "Thanks for sharing Xavier. Let's give him a round of applause"
-- "Awww, thanks for sharing Xavier. Shh... hear that? i'm playing the world's
-  saddest song on the world's smallest violin (mimes playing small violin)
-- "Hmm, it seems that wise Xavier is too cool for school, and would drool in a
-  in a duel..."
-
-The rest of the class will chuckle, think you are cool, no one's feelings are
-hurt because the disrupter won't feel bad they're being disrupted, and you get
-to move on quickly.
-
-Go actually checkin with the student to see how they are actually feeling.
-
-- "Hey, I was just messing with you earlier, I just want to checkin to see if
-   what you're working on seems relevant."
 
 ### Checking In To Every Hacker
 
@@ -1371,203 +1138,6 @@ in.
 </hacker>
 
 ```
-
-## Portfolio
-
-[Click me for link.](workshops/portfolio)
-
-### Prerequisites
-
-- All leaders must complete the workshop
-
-### Running it
-
-- make sure you follow the [general guidelines](#general-guidelines)
-- talk about the ratio / schedule of workshops to projects (to illustrate the
-  point that we are only doing these workshops to give you experience to work on
-  your own projects)
-- today you're going to learn how to build a very basic website and learn about
-  the fundamentals of building a website
-- the website we are learning to emulate
-  [looks like this](https://rawgit.com/hackedu/hack-camp/20618752b7afa95bbbc5c5ba80c17874ec5e0a35/cohort_4/playbook/workshops/portfolio/src/final_portfolio/index.html)
-- you will be making a simpler version of that
-- some of you already have a lot of experience with HTML & CSS
-  - feel free to skim through or skip the guide and try to emulate the website
-    or work on making a more complex or different website
-  - also fee free to use your own IDEs
-- Give a brief overview of HTML, CSS and JS
-  - There are 3 components to a webpage
-    - HTML, CSS, and Javascript
-  - HTML is for the Data
-  - CSS is for the look and feel
-  - Javascript is for interactivity
-  - Open up Facebook
-    - This website has all 3
-    - Open the chrome console, delete the head tag (which deletes the styles)
-      - This is what a page looks like without CSS
-    - These are the two we're focusing on Today
-- Paste link to workshop.
-  - Here is the link to the workshop
-  - Talk about how it's important to ask for help
-    - From facilitators
-    - From your peers
-    - Encourage collaboration
-
-## Maestro
-
-### Running It
-
-Make sure you follow the [general guidelines](#general-guidelines)
-
-Make sure you show all of the 4 demos at the very beginning to show what you can
-make.
-
-Tell the hackers to feel free to be able skip through the content that they are
-already familiar with. This is designed for beginners in mind.
-
-Also, do the demos inside of this project using Google Voice. You want to be
-able to recieve text messages and phone calls on your Google Voice number
-so that people can see it on the screen as you demo it.
-
-### Link
-
-[Maestro Workshop](workshops/maestro)
-
-## Instagram
-
-### Running Instagram
-
-#### Before the workshop
-- Be sure to understand the coffee shop example and know when to expect students to ask you questions during the example
-- Make sure you are familiar with how the advanced code in the back works as well.
-
-#### Here are the bullet points of what you might include to preface this workshop
-
-*Before the demo, pull up at least 2 pictures in new tabs that you can copy and paste the URLs of into the demo app.*
-
-- We have done HTML and CSS by itself, we have done javascript by itself, teaches you how to combine them together by building a very simple version of Instagram.
-- Checkout the [demo](http://jsbin.com/cacaqa)
-    - when I click on the button
-    - a popup asks me for a URL for an image to put into Instagram
-    - Here, I have a picture of a cat. I'll copy and paste it's url into the input
-    - and then press ok
-    - viola, the image is not added to the screen.
-    - lets add another picture
-    - I'll copy and paste the URL of a different picture, and then press OK.
-    - and bam, there's another photo
-    - Note that in this simple version of instagram, the pictures are not saved if you closed the window
-    - refresh the page
-    - now see, they are gone.
-- So you'll be learning how to combine HTML & Javascript in this one
-- Also, you'll be learning the fundamental aspects of computer science along the way
-- If you are very familiar with DOM manipulation and this is really easy for you, there's a section with a much more advanced version of what this instagram app could be. Take a look at that code, play around with it, and see if you can make it your own! Definitely don't force yourself to go through what you already know well! Warning: this code is not that simple.
-- Demoing the advanced application
-  - [live demo link](http://rawgit.com/hackedu/hack-camp/instagram/cohort_4/playbook/workshops/instagram/src/index.html)
-  - This should be inspiring to advanced and beginner hackers alike.
-    - Advanced hackers may feel they can build this and get excited.
-    - Beginning hackers will begin to see what's possible.
-  - Step through the application as you demo
-    1. The first step is to have a listing of phone numbers prepared ahead of
-       time so you can quickly copy and paste from them later.
-    2. Open the
-       [live demo link](http://rawgit.com/hackedu/hack-camp/instagram/cohort_4/playbook/workshops/instagram/src/index.html)
-       up in two windows (not tabs, windows so that they can be seen side by
-       side).
-    3. Copy and paste all the phone numbers of all the students (have a listing
-       of phone numbers prepared ahead of time so you can quickly copy and
-       paste)
-    4. Copy two of of the students numbers into your mobile phone.
-    5. Now that you're setup, you're ready to make an announcement.
-    6. Tell all the students to turn their phones to loud.
-    7. Tell all the students to open
-       [live demo link](http://rawgit.com/hackedu/hack-camp/instagram/cohort_4/playbook/workshops/instagram/src/index.html)
-       on their computer.
-    8. Go and upload a picture
-    9. Tell the hackers the following:
-      - The app uses local storage to remember the phone numbers even after it
-        refreshes.
-      - The app uses the Dweet API to send pictures to all of their screens.
-    10. Then show that you can upload a picture from mobile as well by taking a
-        picture of the class.
-      - This will send the picture to two of the students whose names you've
-        type in earlier.
-      - This will also appear on the screen.
-
-### Instagram Readme
-[Instagram Readme](workshops/instagram/README.md)
-
-## Messenger
-
-### Running It
-
-#### Before the presentation
-
-Pull these links up in new tabs:
-
-- [Instagram Live Demo](http://output.jsbin.com/cacaqa)
-- https://i.imgur.com/uDCThVk.png
-- https://i.imgur.com/kPo7B3o.jpg
-- [Messenger Live Demo](https://rawgit.com/hackedu/hack-camp/50b54d2436ff15679735ca5c8c50d7ee2ff7b744/cohort_4/playbook/workshops/messenger/src/index.html)
-
-#### Communicate the following to the hackers
-
-- _{Show the Instagram Live Demo}_
-- the other day you built this
--  you learned how to create HTML elements with
-  JavaScript
-- _{Run the Instagram App with the two photos}_
-- this workshop will review what you learned in the Instagram workshop and be
-  applying your skills to building a Messenger app
-- _{Show the Messenger App}_
-- _{Send some messages on the messenger app}_
-- This tutorial will comprehensively go through the Instagram application line
-  by line and we'll challenge you to build the Messenger application afterwards.
-
-### Readme
-
-[Messenger Readme](workshops/messenger/README.md)
-
-## Todo
-
-### Running Todo
-
-#### Setup
-
-- Open the [live demo](http://bit.ly/hackcamptodo) on the left side of your
-  screen
-- Open another new window with the same [live demo](http://output.jsbin.com/kuxuta)
-  on the other side of the screen
-- _{the objective is so that you can see data sync from one list to another_
-- turn on the projector
-
-#### Presentation
-
-Communicate to the hackers the following:
-
-- Today we are are building a todo-list application and learning how to use
-  a database called Firebase
-- _{Post the link to the demo into the Slack:}_
-  - `bit.ly/hackcamptodo`
-- Tell the hackers to open up the link you sent to the slack
-  - on their computers
-  - AND on their smart phones
-- Mess arond witht he Todo app and narrate what you do
-  - Let's create a new task
-  - _{Click the + button on the top left corner}_
-  - And call it "buy dinosaur statue"
-  - _{type "buy dinosaur statue"}_
-  - Oh hey, it popped up on everyone else's screens
-  - Continue this process while highlighting the following process
-    - Creating multiple new tasks
-    - Completing multiple tasks
-    - Uncompleting multiple tasks
-    - Deleting multiple tasks
-- In the tutorial, you will learn how to synchornize data between multiple
-  omputers very quickly.
-
-### Todo Readme
-
-[Todo Readme](workshops/todo/README.md)
 
 # Demos
 
@@ -1780,43 +1350,6 @@ A couple more recommendations:
 - Along the lines of what's above, it's okay to have sub-optimal code when
   learning. Let them discover technical debt on their own.
 
-### Example
-
-Let's take a quick look at what we'd recommend doing when helping a hacker:
-
-    <hacker> The button isn't working.
-    <leader> What do you want the button to do?
-    <hacker> I want it to show an alert when clicked.
-    <leader> And what does it currently do when clicked?
-    <hacker> Nothing.
-
-Boom, we just identified the problem. They want a button on the page to show an
-alert when clicked, but, when they click it, nothing appears to happen.
-
-    <leader> Alright. Are there are errors in our code?
-    <hacker> Maybe?
-    <leader> How might we find out?
-
-At this point, the hacker may know they can check the JavaScript console to see
-errors on the page. If they don't know about the console, now might be a good
-opportunity to explain it (or bring up how they used it in a previous workshop,
-if they have). In this case, we're going to assume the hacker has used the
-JavaScript console and knows they can use it to see errors on the page.
-
-    <hacker> We could check the console.
-    <leader> Cool, let's do that.
-    ...
-    <leader> Does the console say we have any errors in our code?
-    <hacker> Yeah, it looks like there's one.
-    <leader> What is it?
-    <hacker> "button is undefined"
-
-Alright, so we probably won't have much luck if we have them search for "button
-is undefined" directly. At this point, we may want to guide them with open ended
-questions to search for something a bit more specific.
-
-This specific example ends here, but hopefully it gives a preliminary idea of
-what we recommend answering questions should look like.
 
 # Project Formation
 
@@ -2124,8 +1657,6 @@ We generally do two final things to finish off the day.
 1. Make any final announcements for the following day
 2. Gather everyone in a nice and cozy circle near the front of the hackerspace,
    put our hands in, and, on three, all yell "Hack!"
-
-![](img/hack_cheer.gif)
 
 # Post-mortem
 
