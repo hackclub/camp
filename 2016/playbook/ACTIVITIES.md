@@ -11,7 +11,6 @@
 - [Feedback Forms](#feedback-forms)
 - [Using Slack](#using-slack)
 
-
 # Energizers
 
 ## Evolution Rock Paper Scissors
@@ -47,7 +46,6 @@ Then when people lose, an example scenario is: egg1, monkey6, chicken2,
 egg3, chicken4, and egg5.  This continues until there are a specific number
 of divine beings you decide upon.
 
-
 ## I Love My Neighbor Who
 
 ```
@@ -74,7 +72,6 @@ Number: best for 10-35
   someone else, bonding happens.
 
 ## Where The West Wind Blows
-
 
 # Introduction talk
 
@@ -116,13 +113,11 @@ https://docs.google.com/a/hackclub.com/spreadsheets/d/1CdCZLincwwsUd_DRQmB6gPecU
 | ---- | --------------------------------------|
 |   1  | http://goo.gl/forms/3CGR5eKncZrvPJsi2 |
 
-
 # Using Slack
 
 We've gone ahead and created a Slack for Hack Camp over at
 https://starthackclub.slack.com to use as a place for communicating with hackers
 during the camp.
-
 
 ## Asking for help
 
@@ -131,4 +126,3 @@ the technical mentors and staff for Hack Camp will be pinged.
 
 If you'd like to be added/removed from the list, please let
 [@MaxWofford](https://github.com/MaxWofford) know.
-
