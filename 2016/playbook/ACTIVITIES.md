@@ -175,9 +175,10 @@ At the end of each day we want to collect feedback from the hackers to see what 
 
 All of the feedback form responses will be put into the appropriate sheet in https://docs.google.com/a/hackclub.com/spreadsheets/d/1CdCZLincwwsUd_DRQmB6gPecUnn3KN235zEag5bNgDA/edit?usp=drive_web (this is only accessible to Hack Camp staff).
 
-| Day  | Link                                  |
-| ---- | --------------------------------------|
-|   1  | http://goo.gl/forms/3CGR5eKncZrvPJsi2 |
+| Day | Link                  |
+| --- | --------------------- |
+| 1   | https://goo.gl/xVurqx |
+| 2   | https://goo.gl/eV7YNd |
 
 # Using Slack
 
