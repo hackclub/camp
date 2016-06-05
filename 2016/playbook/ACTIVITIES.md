@@ -153,12 +153,12 @@ It is extremely important for us that Hack Camp is a safe space for each and eve
 | [Notes to Self][notes_to_self]         | JS              |
 | [Collaborative Sketch][collab_sketch]  | Firebase        |
 
-[personal_website]: https://workshops.hackclub.com/personal_website/
-[that_was_easy]: https://workshops.hackclub.com/that_was_easy/
-[geometric_pattern]: https://workshops.hackclub.com/geometric_pattern/
-[platformer]: https://workshops.hackclub.com/platformer/
-[notes_to_self]: https://workshops.hackclub.com/notes_to_self/
-[collaborative_sketch]: https://workshops.hackclub.com/collaborative_sketch/
+[personal_website]: https://workshops.hackclub.com/personal_website
+[that_was_easy]: https://workshops.hackclub.com/that_was_easy
+[geometric_pattern]: https://workshops.hackclub.com/geometric_pattern
+[platformer]: https://workshops.hackclub.com/platformer
+[notes_to_self]: https://workshops.hackclub.com/notes_to_self
+[collaborative_sketch]: https://workshops.hackclub.com/collaborative_sketch
 
 # Demos
 

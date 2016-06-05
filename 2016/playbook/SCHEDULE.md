@@ -47,5 +47,5 @@
 | 5:15 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)     |
 | 5:35 PM  | Post-mortem (ending at 6:30 PM)                   |
 
-[personal_website]: https://workshops.hackclub.com/personal_website/
-[that_was_easy]: https://workshops.hackclub.com/that_was_easy/
+[personal_website]: https://workshops.hackclub.com/personal_website
+[that_was_easy]: https://workshops.hackclub.com/that_was_easy
