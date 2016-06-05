@@ -162,6 +162,14 @@ It is extremely important for us that Hack Camp is a safe space for each and eve
 
 # Demos
 
+Demos are a great way to show off what you've been building.
+
+So most people here probably think about demoing in the sense of showing off a polished project. This is NOT that.
+
+Demos in Hack Camp are for showing off what you've got done so far in a project, even if it's not done. They're a great way of getting feedback from viewers and sharing your experience with others. You've just gone through the hard work of making a project in a short amount of time – now it's your chance to show the world how you've progressed and what you've learned.
+
+As part of this, we encourage you present something you failed at as part of your demo. Double points for something you still haven't resolved yet – other campers may have struggled with similar issues and can help you.
+
 Step-by-step instructions for presenting:
 
 1. Start showing your project being used.
