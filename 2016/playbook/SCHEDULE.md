@@ -15,7 +15,7 @@
 | -------- | ---------------------------------------------------------- |
 | 8:15 AM  | Standups                                                   |
 | 9:00 AM  | Hacker arrival                                             |
-| 9:20 AM  | Building Preview                                           |
+| 9:20 AM  | Building preview                                           |
 | 9:25 AM  | [Energizer 1](ACTIVITIES.md#i-love-my-neighbor-who)        |
 | 9:35 AM  | [Energizer 2](ACTIVITIES.md#human-pictionary)              |
 | 9:45 AM  | Breakfast                                                  |
