@@ -135,7 +135,7 @@ Number: unknown
 
 # Introduction talk
 
-Welcome to Hack Camp.
+Introduction slides are at https://docs.google.com/presentation/d/1p8TbMcbOQlVtTBjoMD_gfsyT8oiPliemT173f_B8v4E
 
 <!-- add content here @MaxWofford--> 
 
