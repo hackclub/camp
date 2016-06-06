@@ -179,14 +179,9 @@ Step-by-step instructions for presenting:
 
 # Feedback Forms
 
-At the end of each day we want to collect feedback from the hackers to see what did/didn't do well and understand how the hackers feel about camp as it progresses. 
+Feedback is being collected by [Howdy](https://howdy.ai/), our lovable Slackbot. Responses will be recorded in the [spreadsheet][hack_camp_spreadsheet] under the 'Feedback' sheet.
 
-All of the feedback form responses will be put into the appropriate sheet in https://docs.google.com/a/hackclub.com/spreadsheets/d/1CdCZLincwwsUd_DRQmB6gPecUnn3KN235zEag5bNgDA/edit?usp=drive_web (this is only accessible to Hack Camp staff).
-
-| Day | Link                  |
-| --- | --------------------- |
-| 1   | https://goo.gl/xVurqx |
-| 2   | https://goo.gl/eV7YNd |
+[hack_camp_spreadsheet]: https://docs.google.com/spreadsheets/d/1HCh5YtN_Y3JXbIMoiUdv-FgYiPZZD1kGg5QnfbsxiCw/edit#gid=1669794560
 
 # Using Slack
 
