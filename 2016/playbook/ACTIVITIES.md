@@ -135,7 +135,7 @@ Number: unknown
 
 # Introduction talk
 
-Welcome to Hack Camp.
+Introduction slides are at https://docs.google.com/presentation/d/1p8TbMcbOQlVtTBjoMD_gfsyT8oiPliemT173f_B8v4E
 
 <!-- add content here @MaxWofford--> 
 
@@ -153,14 +153,22 @@ It is extremely important for us that Hack Camp is a safe space for each and eve
 | [Notes to Self][notes_to_self]         | JS              |
 | [Collaborative Sketch][collab_sketch]  | Firebase        |
 
-[personal_website]: https://workshops.hackclub.com/personal_website/
-[that_was_easy]: https://workshops.hackclub.com/that_was_easy/
-[geometric_pattern]: https://workshops.hackclub.com/geometric_pattern/
-[platformer]: https://workshops.hackclub.com/platformer/
-[notes_to_self]: https://workshops.hackclub.com/notes_to_self/
-[collaborative_sketch]: https://workshops.hackclub.com/collaborative_sketch/
+[personal_website]: https://workshops.hackclub.com/personal_website
+[that_was_easy]: https://workshops.hackclub.com/that_was_easy
+[geometric_pattern]: https://workshops.hackclub.com/geometric_pattern
+[platformer]: https://workshops.hackclub.com/platformer
+[notes_to_self]: https://workshops.hackclub.com/notes_to_self
+[collaborative_sketch]: https://workshops.hackclub.com/collaborative_sketch
 
 # Demos
+
+Demos are a great way to show off what you've been building.
+
+So most people here probably think about demoing in the sense of showing off a polished project. This is NOT that.
+
+Demos in Hack Camp are for showing off what you've got done so far in a project, even if it's not done. They're a great way of getting feedback from viewers and sharing your experience with others. You've just gone through the hard work of making a project in a short amount of time – now it's your chance to show the world how you've progressed and what you've learned.
+
+As part of this, we encourage you present something you failed at as part of your demo. Double points for something you still haven't resolved yet – other campers may have struggled with similar issues and can help you.
 
 Step-by-step instructions for presenting:
 
@@ -171,14 +179,9 @@ Step-by-step instructions for presenting:
 
 # Feedback Forms
 
-At the end of each day we want to collect feedback from the hackers to see what did/didn't do well and understand how the hackers feel about camp as it progresses. 
+Feedback is being collected by [Howdy](https://howdy.ai/), our lovable Slackbot. Responses will be recorded in the [spreadsheet][hack_camp_spreadsheet] under the 'Feedback' sheet.
 
-All of the feedback form responses will be put into the appropriate sheet in https://docs.google.com/a/hackclub.com/spreadsheets/d/1CdCZLincwwsUd_DRQmB6gPecUnn3KN235zEag5bNgDA/edit?usp=drive_web (this is only accessible to Hack Camp staff).
-
-| Day | Link                  |
-| --- | --------------------- |
-| 1   | https://goo.gl/xVurqx |
-| 2   | https://goo.gl/eV7YNd |
+[hack_camp_spreadsheet]: https://docs.google.com/spreadsheets/d/1HCh5YtN_Y3JXbIMoiUdv-FgYiPZZD1kGg5QnfbsxiCw/edit#gid=1669794560
 
 # Using Slack
 
