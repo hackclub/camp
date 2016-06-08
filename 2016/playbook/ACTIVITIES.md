@@ -3,14 +3,16 @@
 
 - [Energizers](#energizers)
   - [Evolution Rock Paper Scissors](#evolution-rock-paper-scissors)
+  - [Fortunately, Unfortunately](#fortunately-unfortunately)
   - [Human Pictionary](#human-pictionary)
   - [I Love My Neighbor Who](#i-love-my-neighbor-who)
   - [One Word Radio](#one-word-radio)
   - [Pictionary](#pictionary)
+  - [Ronda](#ronda)
   - [Two Truths and a Lie](#two-truths-and-a-lie)
-  - [Where The West Wind Blows](#where-the-west-wind-blows)
   - [Zip Zap Zop](#zip-zap-zop)
 - [Introduction talk](#introduction-talk)
+  - [Code of conduct](#code-of-conduct)
 - [List of Workshops](#list-of-workshops)
 - [Demos](#demos)
 - [Feedback Forms](#feedback-forms)
@@ -35,6 +37,25 @@ Everyone starts off in the “egg” stage and has to act like eggs like being i
 Continue until you have a certain number of divine beings agreed upon at the beginning of the game.
 
 For example, assume there are 6 people, and they all default start at the "egg" stage. There will be 3 rounds of rock paper scissors total, so egg1 - egg2, egg3 - egg4, egg5 - egg6. There will then be 3 winners, so chicken1 egg2 egg3 chicken4 egg5 chicken6, for example. Then, there will be 2 rounds going on, since there are an odd number of chickens and eggs: chicken1 - chicken6, egg2 - egg3, while chicken4 and egg5 wait for partners. Then when people lose, an example scenario is: egg1, monkey6, chicken2, egg3, chicken4, and egg5. This continues until there are a specific number of divine beings you decide upon.
+
+## Fortunately, Unfortunately
+
+```
+Time: 5-10 minutes
+Number: 3-5
+```
+
+Break up into groups of an odd number of hackers. The first person will say the first line of a news report. Then, each camper will add a sentence to the story that starts with "Fortunately" or "Unfortunately" (alternating each sentence).
+
+> Today someone fell out of a plane.
+
+> Fortunately, they were skydiving.
+
+> Unfortunately, they forgot to bring a parachute.
+
+> Fortunately, they were over the ocean so the water could break their fall.
+
+> Unfortunately, there were sharks in the ocean.
 
 ## Human Pictionary
 
@@ -108,6 +129,14 @@ Materials: whiteboard and marker
 
 One person will think of a topic to draw on the whiteboard while everyone else tries to guess what it is. Whoever guesses right will be the next person to draw on the whiteboard.
 
+## Ronda
+
+```
+Materials: 40 card Spanish deck
+```
+
+A description of the game and instructions on how to play can be found at https://www.pagat.com/fishing/ronda.html
+
 ## Two Truths and a Lie
 
 ```
@@ -119,8 +148,6 @@ Number: 6 - 10 people
 > Ask all players to arrange themselves in a circle. Instruct each player to think of three statements about themselves. Two must be true statements, and one must be false. For each person, he or she shares the three statements (in any order) to the group. The goal of the icebreaker game is to determine which statement is false. The group votes on which one they feel is a lie, and at the end of each round, the person reveals which one was the lie.
 
 Source: http://www.icebreakers.ws/small-group/two-truths-and-a-lie.html
-
-## Where The West Wind Blows
 
 ## Zip Zap Zop
 
@@ -139,7 +166,7 @@ Introduction slides are at https://docs.google.com/presentation/d/1p8TbMcbOQlVtT
 
 <!-- add content here @MaxWofford--> 
 
-### Code of conduct
+## Code of conduct
 
 It is extremely important for us that Hack Camp is a safe space for each and every hacker (yes, you are a hacker). That means that it is your job to make sure that you do your best to make this a comfortable space for other people.
 
