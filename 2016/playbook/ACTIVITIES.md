@@ -9,7 +9,6 @@
   - [One Word Radio](#one-word-radio)
   - [Pictionary](#pictionary)
   - [Two Truths and a Lie](#two-truths-and-a-lie)
-  - [Where The West Wind Blows](#where-the-west-wind-blows)
   - [Zip Zap Zop](#zip-zap-zop)
 - [Introduction talk](#introduction-talk)
 - [List of Workshops](#list-of-workshops)
@@ -139,8 +138,6 @@ Number: 6 - 10 people
 > Ask all players to arrange themselves in a circle. Instruct each player to think of three statements about themselves. Two must be true statements, and one must be false. For each person, he or she shares the three statements (in any order) to the group. The goal of the icebreaker game is to determine which statement is false. The group votes on which one they feel is a lie, and at the end of each round, the person reveals which one was the lie.
 
 Source: http://www.icebreakers.ws/small-group/two-truths-and-a-lie.html
-
-## Where The West Wind Blows
 
 ## Zip Zap Zop
 
