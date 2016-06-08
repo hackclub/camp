@@ -8,6 +8,7 @@
   - [I Love My Neighbor Who](#i-love-my-neighbor-who)
   - [One Word Radio](#one-word-radio)
   - [Pictionary](#pictionary)
+  - [Ronda](#ronda)
   - [Two Truths and a Lie](#two-truths-and-a-lie)
   - [Zip Zap Zop](#zip-zap-zop)
 - [Introduction talk](#introduction-talk)
@@ -127,6 +128,14 @@ Materials: whiteboard and marker
 ```
 
 One person will think of a topic to draw on the whiteboard while everyone else tries to guess what it is. Whoever guesses right will be the next person to draw on the whiteboard.
+
+## Ronda
+
+```
+Materials: 40 card Spanish deck
+```
+
+A description of the game and instructions on how to play can be found at https://www.pagat.com/fishing/ronda.html
 
 ## Two Truths and a Lie
 
