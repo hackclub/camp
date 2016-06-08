@@ -11,6 +11,7 @@
   - [Two Truths and a Lie](#two-truths-and-a-lie)
   - [Zip Zap Zop](#zip-zap-zop)
 - [Introduction talk](#introduction-talk)
+  - [Code of conduct](#code-of-conduct)
 - [List of Workshops](#list-of-workshops)
 - [Demos](#demos)
 - [Feedback Forms](#feedback-forms)
@@ -156,7 +157,7 @@ Introduction slides are at https://docs.google.com/presentation/d/1p8TbMcbOQlVtT
 
 <!-- add content here @MaxWofford--> 
 
-### Code of conduct
+## Code of conduct
 
 It is extremely important for us that Hack Camp is a safe space for each and every hacker (yes, you are a hacker). That means that it is your job to make sure that you do your best to make this a comfortable space for other people.
 
