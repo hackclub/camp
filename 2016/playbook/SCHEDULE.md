@@ -66,6 +66,26 @@
 | 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms)          |
 | 5:35 PM  | Post-mortem (ending at 6:30 PM)                        |
 
+## Day 4
+
+| Time     | Activity                                      |
+| -------- | --------------------------------------------- |
+| 8:30 AM  | Standups                                      |
+| 9:00 AM  | Hacker arrival                                |
+| 9:10 AM  | Energizer 1                                   |
+| 9:20 AM  | Energizer 2                                   |
+| 9:30 AM  | Breakfast                                     |
+| 10:00 AM | [Dodge][dodge]                                |
+| 12:00 PM | Lunch                                         |
+| 1:00 PM  | Energizer 3                                   |
+| 1:30 PM  | [Dodge (continued)][dodge]                    |
+| 3:45 PM  | Feedback sent out by Howdy                    |
+| 4:00 PM  | Collect links for demos                       |
+| 4:10 PM  | [Demos](ACTIVITIES.md#demos)                  |
+| 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms) |
+| 5:35 PM  | Post-mortem (ending at 6:30 PM)               |
+
 [personal_website]: https://workshops.hackclub.com/personal_website
 [that_was_easy]: https://workshops.hackclub.com/that_was_easy
 [geometric_pattern]: https://workshops.hackclub.com/geometric_pattern
+[dodge]: https://workshops.hackclub.com/dodge
