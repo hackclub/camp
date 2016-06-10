@@ -149,6 +149,23 @@ Number: 6 - 10 people
 
 Source: http://www.icebreakers.ws/small-group/two-truths-and-a-lie.html
 
+## Walking
+
+```
+Time: 10-15 minutes
+```
+
+Going on a walk is a way to readjust everyone's eyes after programming for hours. Going on a walk around 1 or 2 blocks is also a great time for hackers to converse, ask questions, and learn new things about each other.
+
+## Youtube
+
+```
+Time: 10-15 minutes
+Materials: Phone or computer with internet
+```
+
+Here's an [example](https://www.youtube.com/watch?v=sNhhvQGsMEc) of what we watch.
+
 ## Zip Zap Zop
 
 ```
