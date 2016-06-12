@@ -19,6 +19,9 @@
 - [List of Workshops](#list-of-workshops)
 - [Demos](#demos)
 - [Feedback Forms](#feedback-forms)
+- [Free form projects](#free-form-projects)
+  - [Brainstorming](#brainstorming)
+  - [Building a prototype](#building-a-prototype)
 - [Using Slack](#using-slack)
   - [Asking for help](#asking-for-help)
 
@@ -247,6 +250,20 @@ Step-by-step instructions for presenting:
 Feedback is being collected by [Howdy](https://howdy.ai/), our lovable Slackbot. Responses will be recorded in the [spreadsheet][hack_camp_spreadsheet] under the 'Feedback' sheet.
 
 [hack_camp_spreadsheet]: https://docs.google.com/spreadsheets/d/1HCh5YtN_Y3JXbIMoiUdv-FgYiPZZD1kGg5QnfbsxiCw/edit#gid=1669794560
+
+# Free form projects
+
+## Brainstorming
+
+There's a few ways to brainstorm. Here's how we run our brainstorms.
+
+Start out with a [Yes And session][yes_and] to lower hackers' inhibitions. Make sure to emphasize _there are no bad ideas_. Brainstorming in groups is most effective when people are not filtering other people's ideas. Rank ideas based on their positive qualities -- try to overlook any part of an idea that sounds "bad". With everyone throwing out ideas so quickly, only ideas with the most positives are going to keep circulating in discussion.
+
+[yes_and]: #yes-and
+
+## Building a prototype
+
+Hackers should start out working with facilitators to define a scope for their project. Find a feature or build that can be hacked together in one day (in time for demos). Facilitators will have to work one-on-one with each hacker to figure out what their personal goals are.
 
 # Using Slack
 
