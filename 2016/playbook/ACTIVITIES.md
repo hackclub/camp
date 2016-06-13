@@ -10,12 +10,18 @@
   - [Pictionary](#pictionary)
   - [Ronda](#ronda)
   - [Two Truths and a Lie](#two-truths-and-a-lie)
+  - [Walking](#walking)
+  - [Yes And](#yes-and)
+  - [Youtube](#youtube)
   - [Zip Zap Zop](#zip-zap-zop)
 - [Introduction talk](#introduction-talk)
   - [Code of conduct](#code-of-conduct)
 - [List of Workshops](#list-of-workshops)
 - [Demos](#demos)
 - [Feedback Forms](#feedback-forms)
+- [Free form projects](#free-form-projects)
+  - [Brainstorming](#brainstorming)
+  - [Building a prototype](#building-a-prototype)
 - [Using Slack](#using-slack)
   - [Asking for help](#asking-for-help)
 
@@ -157,6 +163,24 @@ Time: 10-15 minutes
 
 Going on a walk is a way to readjust everyone's eyes after programming for hours. Going on a walk around 1 or 2 blocks is also a great time for hackers to converse, ask questions, and learn new things about each other.
 
+## Yes And
+
+```
+Time: 10-15 minutes
+```
+
+Yes And is an improv game to help hackers get into a brainstorming mindset. The point of the game is to come up with the craziest idea you can. Hackers split into partners and build off each others' sentences, prefixed with "Yes, and...". Make sure to emphasize _there are no bad ideas_.
+
+Facilitators need to start with a live example for this exercise to work. Here is a sample:
+
+> A: Let's create tinder for unicorns.
+
+> B: And it will be super effective, and the unicorn population will increase 1,000 times.
+
+> A: Yes, and there won't be enough food for the unicorns.
+
+> B: Yes, and they'll build a spaceship to search for new planets to colonize!
+
 ## Youtube
 
 ```
@@ -226,6 +250,20 @@ Step-by-step instructions for presenting:
 Feedback is being collected by [Howdy](https://howdy.ai/), our lovable Slackbot. Responses will be recorded in the [spreadsheet][hack_camp_spreadsheet] under the 'Feedback' sheet.
 
 [hack_camp_spreadsheet]: https://docs.google.com/spreadsheets/d/1HCh5YtN_Y3JXbIMoiUdv-FgYiPZZD1kGg5QnfbsxiCw/edit#gid=1669794560
+
+# Free form projects
+
+## Brainstorming
+
+There's a few ways to brainstorm. Here's how we run our brainstorms.
+
+Start out with a [Yes And session][yes_and] to lower hackers' inhibitions. Make sure to emphasize _there are no bad ideas_. Brainstorming in groups is most effective when people are not filtering other people's ideas. Rank ideas based on their positive qualities -- try to overlook any part of an idea that sounds "bad". With everyone throwing out ideas so quickly, only ideas with the most positives are going to keep circulating in discussion.
+
+[yes_and]: #yes-and
+
+## Building a prototype
+
+Hackers should start out working with facilitators to define a scope for their project. Find a feature or build that can be hacked together in one day (in time for demos). Facilitators will have to work one-on-one with each hacker to figure out what their personal goals are.
 
 # Using Slack
 
