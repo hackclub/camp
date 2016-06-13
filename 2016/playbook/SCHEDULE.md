@@ -8,6 +8,7 @@
   - [Day 4](#day-4)
   - [Day 5](#day-5)
   - [Day 6](#day-6)
+  - [Day 7](#day-7)
 
 <!-- markdown-toc end -->
 
@@ -109,6 +110,23 @@
 
 ## Day 6
 
+| Time     | Activity                                      |
+| -------- | --------------------------------------------- |
+| 8:30 AM  | Standups                                      |
+| 9:00 AM  | Hacker arrival                                |
+| 9:10 AM  | Energizer time                                |
+| 10:00 AM | [Notes to Self][notes_to_self]                |
+| 12:00 PM | Lunch                                         |
+| 12:30 PM | Energizer time                                |
+| 1:15 PM  | [Notes to Self (continued)][notes_to_self]    |
+| 3:45 PM  | Feedback sent out by Howdy                    |
+| 4:00 PM  | Collect links for demos                       |
+| 4:10 PM  | [Demos](ACTIVITIES.md#demos)                  |
+| 4:25 PM  | [Feedback form](ACTIVITIES.md#feedback-forms) |
+| 5:35 PM  | Post-mortem (ending at 6:30 PM)               |
+
+## Day 7
+
 | Time     | Activity                                                              |
 | -------- | --------------------------------------------------------------------- |
 | 8:30 AM  | Standups                                                              |
@@ -129,3 +147,4 @@
 [geometric_pattern]: https://workshops.hackclub.com/geometric_pattern
 [dodge]: https://workshops.hackclub.com/dodge
 [platformer]: https://workshops.hackclub.com/platformer
+[notes_to_self]: https://workshops.hackclub.com/notes_to_self
