@@ -132,14 +132,14 @@
 | 8:30 AM  | Standups                                                              |
 | 9:00 AM  | Hacker arrival                                                        |
 | 9:10 AM  | Physical energizer (anything standing up)                             |
-| 10:00 AM | [Brainstorming & free form project][ACTIVITIES.md#free-form-projects] |
+| 10:00 AM | (Brainstorming & free form project)[ACTIVITIES.md#free-form-projects] |
 | 12:00 PM | Lunch                                                                 |
-| 12:30 PM | [Afternoon walk][ACTIVITIES.md#walking]                               |
+| 12:30 PM | (Afternoon walk)[ACTIVITIES.md#walking]                               |
 | 1:15 PM  | Free form project                                                     |
 | 3:40 PM  | Feedback                                                              |
-| 3:45 PM  | [Demo talk][ACTIVITIES.md#demos]                                      |
+| 3:45 PM  | (Demo talk)[ACTIVITIES.md#demos]                                      |
 | 4:00 PM  | Collect links for demos                                               |
-| 4:10 PM  | [Demos](ACTIVITIES.md#demos)                                          |
+| 4:10 PM  | (Demos)(ACTIVITIES.md#demos)                                          |
 | 5:30 PM  | Post-mortem (ending at 6:30 PM)                                       |
 
 [personal_website]: https://workshops.hackclub.com/personal_website
