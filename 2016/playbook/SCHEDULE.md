@@ -174,7 +174,7 @@
 | 1:00 PM  | [Free form project (continued)](ACTIVITIES.md#free-form-projects) |
 | 3:45 PM  | Feedback sent out by Howdy                                        |
 | 4:00 PM  | Collect links for demos                                           |
-| 4:10 PM  | [Demos](ACTIVITIES.md#demos)                                      |
+| 4:10 PM  | [Mini Demos](ACTIVITIES.md#mini-demos)                            |
 | 5:35 PM  | Post-mortem (ending at 6:30 PM)                                   |
 
 [personal_website]: https://workshops.hackclub.com/personal_website
