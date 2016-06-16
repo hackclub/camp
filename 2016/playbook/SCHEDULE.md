@@ -167,11 +167,11 @@
 | 8:30 AM  | Standups                                                          |
 | 9:00 AM  | Hacker arrival                                                    |
 | 9:10 AM  | Energizer time                                                    |
-| 10:00 AM | [Free form project](ACTIVITIES.md#free-form-projects)             |
+| 9:30 AM  | [Free form project](ACTIVITIES.md#free-form-projects)             |
 | 11:00 AM | Quinn Slack (guest speaker)                                       |
 | 12:00 PM | Lunch                                                             |
 | 12:30 PM | Energizer time                                                    |
-| 1:15 PM  | [Free form project (continued)](ACTIVITIES.md#free-form-projects) |
+| 1:00 PM  | [Free form project (continued)](ACTIVITIES.md#free-form-projects) |
 | 3:45 PM  | Feedback sent out by Howdy                                        |
 | 4:00 PM  | Collect links for demos                                           |
 | 4:10 PM  | [Demos](ACTIVITIES.md#demos)                                      |
