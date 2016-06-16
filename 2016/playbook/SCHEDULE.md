@@ -11,6 +11,7 @@
   - [Day 7](#day-7)
   - [Day 8](#day-8)
   - [Day 9](#day-9)
+  - [Day 10](#day-10)
 
 <!-- markdown-toc end -->
 
@@ -175,6 +176,22 @@
 | 3:45 PM  | Feedback sent out by Howdy                                        |
 | 4:00 PM  | Collect links for demos                                           |
 | 4:10 PM  | [Mini Demos](ACTIVITIES.md#mini-demos)                            |
+| 5:35 PM  | Post-mortem (ending at 6:30 PM)                                   |
+
+## Day 10
+
+| Time     | Activity                                                          |
+| -------- | ----------------------------------------------------------------- |
+| 8:40 AM  | Standups                                                          |
+| 9:00 AM  | Hacker arrival                                                    |
+| 9:10 AM  | Energizer time                                                    |
+| 9:30 AM  | [Free form project](ACTIVITIES.md#free-form-projects)             |
+| 12:00 PM | Lunch                                                             |
+| 12:30 PM | Energizer time                                                    |
+| 1:00 PM  | [Free form project (continued)](ACTIVITIES.md#free-form-projects) |
+| 3:45 PM  | Feedback sent out by Howdy                                        |
+| 5:00 PM  | Collect links for demos                                           |
+| 5:10 PM  | [Demos](ACTIVITIES.md#demos)                                      |
 | 5:35 PM  | Post-mortem (ending at 6:30 PM)                                   |
 
 [personal_website]: https://workshops.hackclub.com/personal_website
