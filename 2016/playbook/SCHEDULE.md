@@ -9,6 +9,8 @@
   - [Day 5](#day-5)
   - [Day 6](#day-6)
   - [Day 7](#day-7)
+  - [Day 8](#day-8)
+  - [Day 9](#day-9)
 
 <!-- markdown-toc end -->
 
@@ -157,6 +159,23 @@
 | 4:00 PM  | Collect links for demos                    |
 | 4:10 PM  | [Demos](ACTIVITIES.md#demos)               |
 | 5:35 PM  | Post-mortem (ending at 6:30 PM)            |
+
+## Day 9
+
+| Time     | Activity                                                          |
+| -------- | ----------------------------------------------------------------- |
+| 8:30 AM  | Standups                                                          |
+| 9:00 AM  | Hacker arrival                                                    |
+| 9:10 AM  | Energizer time                                                    |
+| 10:00 AM | [Free form project](ACTIVITIES.md#free-form-projects)             |
+| 11:00 AM | Quinn Slack (guest speaker)                                       |
+| 12:00 PM | Lunch                                                             |
+| 12:30 PM | Energizer time                                                    |
+| 1:15 PM  | [Free form project (continued)](ACTIVITIES.md#free-form-projects) |
+| 3:45 PM  | Feedback sent out by Howdy                                        |
+| 4:00 PM  | Collect links for demos                                           |
+| 4:10 PM  | [Demos](ACTIVITIES.md#demos)                                      |
+| 5:35 PM  | Post-mortem (ending at 6:30 PM)                                   |
 
 [personal_website]: https://workshops.hackclub.com/personal_website
 [that_was_easy]: https://workshops.hackclub.com/that_was_easy
