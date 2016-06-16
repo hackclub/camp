@@ -18,6 +18,7 @@
   - [Code of conduct](#code-of-conduct)
 - [List of Workshops](#list-of-workshops)
 - [Demos](#demos)
+  - [Mini Demos](#mini-demos)
 - [Feedback Forms](#feedback-forms)
 - [Free form projects](#free-form-projects)
   - [Brainstorming](#brainstorming)
@@ -244,6 +245,15 @@ Step-by-step instructions for presenting:
 2. Talk about how your project works.
 3. Something you have failed at (and optionally how you will resolve it).
 4. Something you have learned by doing this project.
+
+## Mini Demos
+
+Mini demos are shortened demos that are focused on a single feature or group of features. To demo a feature follow these steps:
+
+1. Show the feature being used.
+2. Talk about how it works.
+3. Repeat for each of the features being presented.
+4. Talk about what you failed at and what you learned by building the feature.
 
 # Feedback Forms
 
