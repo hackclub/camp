@@ -194,6 +194,8 @@
 | 5:10 PM  | [Demos](ACTIVITIES.md#demos)                                      |
 | 5:35 PM  | Post-mortem (ending at 6:30 PM)                                   |
 
+_\* One-on-ones will run periodically throughout the day._
+
 [personal_website]: https://workshops.hackclub.com/personal_website
 [that_was_easy]: https://workshops.hackclub.com/that_was_easy
 [geometric_pattern]: https://workshops.hackclub.com/geometric_pattern

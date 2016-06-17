@@ -25,6 +25,7 @@
   - [Building a prototype](#building-a-prototype)
 - [Using Slack](#using-slack)
   - [Asking for help](#asking-for-help)
+- [One-on-ones](#one-on-ones)
 
 <!-- markdown-toc end -->
 
@@ -284,3 +285,7 @@ We've gone ahead and created a Slack for Hack Camp over at https://starthackclub
 If a hacker says `@hackcamp` in anywhere besides a PM in the Slack, all of the technical mentors and staff for Hack Camp will be pinged. 
 
 If you'd like to be added/removed from the list, please let [@MaxWofford](https://github.com/MaxWofford) ([@msw](https://starthackclub.slack.com/messages/@msw/) on Slack) know.
+
+# One-on-ones
+
+One-on-ones between hackers and facilitators are a way of getting personalized feedback about camp and curriculum. A hacker and facilitator break off from the group and have a personal chat about how the hacker is doing. It's recommended to follow the same format as [Hack Club's one-on-ones](https://github.com/hackclub/meta/blob/master/meetings/2015-06-16_one_on_ones.m)
