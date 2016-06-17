@@ -186,6 +186,7 @@
 | 9:00 AM  | Hacker arrival                                                    |
 | 9:10 AM  | Energizer time                                                    |
 | 9:30 AM  | [Free form project](ACTIVITIES.md#free-form-projects)             |
+| 10:30 AM | Teespring Tour                                                    |
 | 12:00 PM | Lunch                                                             |
 | 12:30 PM | Energizer time                                                    |
 | 1:00 PM  | [Free form project (continued)](ACTIVITIES.md#free-form-projects) |
