@@ -1,6 +1,6 @@
 # Hack Camp 2016
 
-This directory houses everything for the 2016 Hack Camp. As we plan the program, we'll be tracking our progress in [this milestone](https://github.com/hackclub/hackcamp/milestones/Organize%20Hack%20Camp%202016).
+This directory houses everything for the 2016 Hack Camp.
 
 For documentation on what we do at camp, check out the [playbook](playbook/). For documentation on everything outside of camp, check out the [meta folder](meta/).
 
