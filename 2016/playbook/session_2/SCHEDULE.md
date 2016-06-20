@@ -19,9 +19,11 @@
 | 10:15 AM | [Introduction talk](../ACTIVITIES.md#introduction-talk)       |
 | 10:25 AM | [Personal Website][personal_website]                          |
 | 12:30 PM | Lunch                                                         |
-| 1:30 PM  | [Energizer 3](../ACTIVITES.md#evolution-rock-paper-scissors)  |
+| 1:30 PM  | [Energizer 3](../ACTIVITIES.md#evolution-rock-paper-scissors) |
 | 2:00 PM  | [Personal Website (continued)][personal_website]              |
 | 4:40 PM  | Collect links for demos                                       |
 | 5:00 PM  | [Demos](../ACTIVITIES.md#demos)                               |
 | 5:25 PM  | [Feedback form](../ACTIVITIES.md#feedback-forms)              |
 | 5:35 PM  | Post-mortem (ending at 6:30 PM)                               |
+
+[personal_website]: https://workshops.hackclub.com/personal_website
