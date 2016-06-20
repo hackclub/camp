@@ -2,7 +2,7 @@
 
 This directory houses everything for the 2016 Hack Camp.
 
-For documentation on what we do at camp, check out the [playbook](playbook/). For documentation on everything outside of camp, check out the [meta folder](meta/).
+For documentation on what we do at camp, check out the most recent [playbook](session_1/playbook/). For documentation on everything outside of camp, check out the [meta folder](meta/).
 
 ## Schedule
 
