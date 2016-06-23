@@ -222,14 +222,14 @@ It is extremely important for us that Hack Camp is a safe space for each and eve
 | [Geometric Pattern][geometric_pattern] | p5.js           |
 | [Platformer][platformer]               | p5.js           |
 | [Chat][chat]                           | Firebase        |
-| [Collaborative Sketch][collab_sketch]  | Firebase        |
+| [Collab Sketch][collab_sketch]  | Firebase        |
 
 [personal_website]: https://workshops.hackclub.com/personal_website
 [that_was_easy]: https://workshops.hackclub.com/that_was_easy
 [geometric_pattern]: https://workshops.hackclub.com/geometric_pattern
 [platformer]: https://workshops.hackclub.com/platformer
 [chat]: https://workshops.hackclub.com/chat
-[collab_sketch]: https://workshops.hackclub.com/collaborative_sketch
+[collab_sketch]: https://workshops.hackclub.com/collab_sketch
 
 # Demos
 
