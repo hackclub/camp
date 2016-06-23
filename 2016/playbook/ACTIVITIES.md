@@ -220,15 +220,16 @@ It is extremely important for us that Hack Camp is a safe space for each and eve
 | [Personal Website][personal_website]   | HTML & CSS      |
 | [That Was Easy][that_was_easy]         | HTML & CSS & JS |
 | [Geometric Pattern][geometric_pattern] | p5.js           |
-| [Notes to Self][notes_to_self]         | JS              |
-| [Collaborative Sketch][collab_sketch]  | Firebase        |
+| [Platformer][platformer]               | p5.js           |
+| [Chat][chat]                           | Firebase        |
+| [Collab Sketch][collab_sketch]  | Firebase        |
 
 [personal_website]: https://workshops.hackclub.com/personal_website
 [that_was_easy]: https://workshops.hackclub.com/that_was_easy
 [geometric_pattern]: https://workshops.hackclub.com/geometric_pattern
 [platformer]: https://workshops.hackclub.com/platformer
-[notes_to_self]: https://workshops.hackclub.com/notes_to_self
-[collaborative_sketch]: https://workshops.hackclub.com/collaborative_sketch
+[chat]: https://workshops.hackclub.com/chat
+[collab_sketch]: https://workshops.hackclub.com/collab_sketch
 
 # Demos
 
