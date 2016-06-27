@@ -287,6 +287,10 @@ If a hacker says `@hackcamp` in anywhere besides a PM in the Slack, all of the t
 
 If you'd like to be added/removed from the list, please let [@MaxWofford](https://github.com/MaxWofford) ([@msw](https://starthackclub.slack.com/messages/@msw/) on Slack) know.
 
+## Howdy
+
+Howdy.ai will be running scheduled tasks with the hackers. Facilitators should add new hackers to each activity when the hackers sign up.
+
 # One-on-ones
 
 One-on-ones between hackers and facilitators are a way of getting personalized feedback about camp and curriculum. A hacker and facilitator break off from the group and have a personal chat about how the hacker is doing. It's recommended to follow the same format as [Hack Club's one-on-ones](https://github.com/hackclub/meta/blob/master/meetings/2015-06-16_one_on_ones.m)
