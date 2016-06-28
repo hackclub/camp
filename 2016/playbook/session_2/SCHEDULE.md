@@ -40,7 +40,22 @@
 
 ## Day 2
 
-On day 2 we'll be running the [That Was Easy][that_was_easy] workshop.
+| Time     | Activity                                                      |
+| -------- | ----------------------------------------------------------    |
+| 8:40 AM  | Standups                                                      |
+| 9:00 AM  | Hacker arrival                                                |
+| 9:10 AM  | Energizer 1                                                   |
+| 9:25 AM  | Breakfast                                                     |
+| 9:45 AM  | [That Was Easy][that_was_easy]                                |
+| 12:30 PM | Lunch                                                         |
+| 1:30 PM  | Energizer 2                                                   |
+| 2:00 PM  | [That Was Easy (continued)][that_was_easy]                    |
+| 3:30 PM  | Energizer 3                                                   |
+| 3:45 PM  | [That Was Easy (continued)][that_was_easy]                    |
+| 4:40 PM  | Collect links for demos                                       |
+| 5:00 PM  | [Demos](../ACTIVITIES.md#demos)                               |
+| 5:25 PM  | [Feedback form](../ACTIVITIES.md#feedback-forms)              |
+| 5:35 PM  | Post-mortem (ending at 6:30 PM)                               |
 
 ## Day 3
 
