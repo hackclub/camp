@@ -20,7 +20,7 @@
 ## Day 1
 
 | Time     | Activity                                                      |
-| -------- | ----------------------------------------------------------    |
+| -------- | ------------------------------------------------------------- |
 | 8:40 AM  | Standups                                                      |
 | 9:00 AM  | Hacker arrival                                                |
 | 9:10 AM  | Name Game                                                     | 
@@ -42,7 +42,7 @@
 ## Day 2
 
 | Time     | Activity                                                      |
-| -------- | ----------------------------------------------------------    |
+| -------- | ------------------------------------------------------------- |
 | 8:40 AM  | Standups                                                      |
 | 9:00 AM  | Hacker arrival                                                |
 | 9:10 AM  | [Energizer 1](../ACTIVITIES.md#two-truths-and-a-lie)          |
@@ -56,12 +56,28 @@
 | 4:40 PM  | Collect links for demos                                       |
 | 5:00 PM  | [Demos](../ACTIVITIES.md#demos)                               |
 | 5:25 PM  | [Feedback form](../ACTIVITIES.md#feedback-forms)              |
-| 5:30 PM  | [Hack Cheer](../ACTIVITIES.md#hack-cheer)              |
+| 5:30 PM  | [Hack Cheer](../ACTIVITIES.md#hack-cheer)                     |
 | 5:35 PM  | Post-mortem (ending at 6:30 PM)                               |
 
 ## Day 3
 
-On day 3 we'll be running the [Geometric Pattern][geometric_pattern] workshop.
+| Time     | Activity                                           |
+| -------- | -------------------------------------------------- |
+| 8:40 AM  | Standups                                           |
+| 9:00 AM  | Hacker arrival                                     |
+| 9:10 AM  | Energizer 1                                        |
+| 9:25 AM  | Breakfast                                          |
+| 9:45 AM  | [Geometric Pattern][geometric_pattern]             |
+| 12:30 PM | Lunch                                              |
+| 1:30 PM  | Energizer 2                                        |
+| 2:00 PM  | [Geometric Pattern (continued)][geometric_pattern] |
+| 3:30 PM  | [Energizer 3](../ACTIVITIES.md#walking)            |
+| 3:45 PM  | [Geometric Pattern (continued)][geometric_pattern] |
+| 4:40 PM  | Collect links for demos                            |
+| 5:00 PM  | [Demos](../ACTIVITIES.md#demos)                    |
+| 5:25 PM  | [Feedback form](../ACTIVITIES.md#feedback-forms)   |
+| 5:30 PM  | [Hack Cheer](../ACTIVITIES.md#hack-cheer)          |
+| 5:35 PM  | Post-mortem (ending at 6:30 PM)                    |
 
 ## Day 4
 
