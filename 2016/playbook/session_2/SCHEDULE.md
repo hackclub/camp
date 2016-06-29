@@ -35,7 +35,8 @@
 | 2:00 PM  | [Personal Website (continued)][personal_website]              |
 | 4:40 PM  | Collect links for demos                                       |
 | 5:00 PM  | [Demos](../ACTIVITIES.md#demos)                               |
-| 5:25 PM  | [Feedback form](../ACTIVITIES.md#feedback-forms)              |
+| 5:25 PM  | [Hack Cheer](../ACTIVITIES.md#hack-cheer)                     |
+| 5:30 PM  | [Feedback form](../ACTIVITIES.md#feedback-forms)              |
 | 5:35 PM  | Post-mortem (ending at 6:30 PM)                               |
 
 ## Day 2
@@ -55,6 +56,7 @@
 | 4:40 PM  | Collect links for demos                                       |
 | 5:00 PM  | [Demos](../ACTIVITIES.md#demos)                               |
 | 5:25 PM  | [Feedback form](../ACTIVITIES.md#feedback-forms)              |
+| 5:30 PM  | [Hack Cheer](../ACTIVITIES.md#hack-cheer)              |
 | 5:35 PM  | Post-mortem (ending at 6:30 PM)                               |
 
 ## Day 3
