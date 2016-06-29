@@ -26,6 +26,7 @@
 - [Using Slack](#using-slack)
   - [Asking for help](#asking-for-help)
 - [One-on-ones](#one-on-ones)
+- [Hack Cheer](#hack-cheer)
 
 <!-- markdown-toc end -->
 
@@ -290,3 +291,7 @@ If you'd like to be added/removed from the list, please let [@MaxWofford](https:
 # One-on-ones
 
 One-on-ones between hackers and facilitators are a way of getting personalized feedback about camp and curriculum. A hacker and facilitator break off from the group and have a personal chat about how the hacker is doing. It's recommended to follow the same format as [Hack Club's one-on-ones](https://github.com/hackclub/meta/blob/master/meetings/2015-06-16_one_on_ones.m)
+
+# Hack Cheer
+
+Gather everyone in a circle anywhere nearby in the hackerspace, have everyone put their hands in, and on three, all yell "Hack!"
