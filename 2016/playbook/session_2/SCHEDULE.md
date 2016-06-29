@@ -44,13 +44,13 @@
 | -------- | ----------------------------------------------------------    |
 | 8:40 AM  | Standups                                                      |
 | 9:00 AM  | Hacker arrival                                                |
-| 9:10 AM  | Energizer 1                                                   |
+| 9:10 AM  | [Energizer 1](../ACTIVITIES.md#two-truths-and-a-lie)          |
 | 9:25 AM  | Breakfast                                                     |
 | 9:45 AM  | [That Was Easy][that_was_easy]                                |
 | 12:30 PM | Lunch                                                         |
-| 1:30 PM  | Energizer 2                                                   |
+| 1:30 PM  | [Energizer 2](../ACTIVITIES.md#evolution-rock-paper-scissors) |
 | 2:00 PM  | [That Was Easy (continued)][that_was_easy]                    |
-| 3:30 PM  | Energizer 3                                                   |
+| 3:30 PM  | [Energizer 3](../ACTIVITIES.md#walking)                       |
 | 3:45 PM  | [That Was Easy (continued)][that_was_easy]                    |
 | 4:40 PM  | Collect links for demos                                       |
 | 5:00 PM  | [Demos](../ACTIVITIES.md#demos)                               |
