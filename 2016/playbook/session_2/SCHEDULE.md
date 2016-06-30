@@ -92,7 +92,7 @@
 | 1:30 PM  | Energizer 2                                        |
 | 2:00 PM  | [Dodge (continued)][dodge] 						            |
 | 3:30 PM  | [Energizer 3](../ACTIVITIES.md#walking)            |
-| 3:45 PM  | [Dodge (continued)][dodge] 					            	|
+| 4:00 PM  | [Dodge (continued)][dodge] 					            	|
 | 4:40 PM  | Collect links for demos                            |
 | 5:00 PM  | [Demos](../ACTIVITIES.md#demos)                    |
 | 5:25 PM  | [Feedback form](../ACTIVITIES.md#feedback-forms)   |
