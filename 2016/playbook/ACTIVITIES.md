@@ -14,6 +14,10 @@
   - [Yes And](#yes-and)
   - [Youtube](#youtube)
   - [Zip Zap Zop](#zip-zap-zop)
+  - [Post-it Charades](#post-it-charades)
+- [Card Games](#card-games)
+  - [Presidents](#presidents)
+  - [BS](#bs)
 - [Introduction talk](#introduction-talk)
   - [Code of conduct](#code-of-conduct)
 - [List of Workshops](#list-of-workshops)
@@ -203,6 +207,79 @@ Number: unknown
 
 - Spend 15 seconds verbally explaining the game
 - Then you want to SHOW the game. Grab 3 people and have to demo it like [this](https://youtu.be/lyWKVGoXKak?t=50s).
+
+## Post it Charades
+
+```
+Time: 5-10 minutes 
+Materials: Post it notes, pen
+Number: 3+
+```
+
+- Have everyone stand in a circle, and have the person standing next to the right of Person A write a word/phrase on a post it note.
+- Person A will have a post it on their forehead, with a word/phrase written on it. 
+- Everyone else will act out what's on the post it, so that Person A can try to guess what the post it says within 45 seconds.
+- Go around the circle and repeat the above until everyone has had a turn to guess. 
+
+
+# Card Games
+
+
+## Presidents 
+
+```
+Time: 10 minutes 
+Materials: Deck(s) of cards
+Number: 3+
+```
+
+- The objective of Presidents is to get rid of all the cards in your hand. Everyone has an even amount of cards.
+- Card order is 3, 4, 5...J, Q, K, A, 2
+- The three of spades starts out, and everyone goes clockwise. The next person has to play a card that has a number that is equal or higher than the card before it. For example, 3 of spades -> 3 of hearts -> 4 of hearts
+- If two people consecutively play the same number value, the person after both of them gets skipped. 
+  - Person A plays a 3, Person B plays a 3, Person C gets skipped, and Person D can play anything equal/higher.
+
+
+There's a concept called "complete" in this game, and it's best explained with an example: 
+
+Example 1
+>Person A plays a 3, and Person B plays a 3, and Person C happens to have 2 3's. 
+>Person C can then "complete" the 3's, and the cards can be set off to the side. It is then Person C's turn. 
+>You'd think that Person C gets skipped, but anyone from the circle can complete the cards. 
+
+Example 2
+>Person A plays a 6, and Person 3 happens to have 3 6's. 
+>Person 3 can "complete" the 6's and it will be Person 3's turn. 
+
+Example 3
+>Person A plays a 4, Person B plays a 4, Person C gets skipped but has a 4, and Person D plays a 4.
+>Person C can jump in and complete the 4's, and it is now Person C's turn.
+
+It's advantageous to be able to complete, since it will be your turn, which will allow you to get more cards.
+
+If you start with one card, everyone after you can only play one card (unless they can complete). Same goes with 2 (called `double`), and 3 (called `triple`) cards. However, if someone has 4 cards from one number, then it's essentially an auto-complete. If they play it, they can take another turn (since they completed).
+
+Examples:
+>• Person A plays a 3, Person B has 2 4's, but he can only play one of those 4's, not both.
+
+>• Person A plays 2 5's, Person B has no doubles. Person B cannot play, because he has to play doubles to go on.
+
+>• Person A plays 3 8's, Person B has no triples. Same as above, Person B cannot play on it.
+
+
+- An important rule (although a bit troll) is that you _cannot_ end on a 2. If that happens, by default, you lose.
+
+## BS
+
+```
+Time: 10 minutes 
+Materials: Deck(s) of cards
+Number: 3+
+```
+
+- Objective of this game is to get rid of all your cards. Everyone is dealt an equal amount of cards. 
+- The game begins with the ace of spades, and it goes counterclockwise. The next person has to play either a card higher or lower (so a K or 2, in this case). For example, if a 6 is played sometime during the round, the next person can play either a 5 or 7. You can play any amount of cards you want. Taking the previous example, if the person before you plays a 6 and you have 3 5's, you can play all 3 of those. 
+- If you don't have the card(s) higher or lower than the previous card, you can lie (hence the name BS). For example, if the previous card was a 4, and you don't have a 3 or 5, you can throw down a 7 and say it was a 5. Just for taunting purposes, you can say "popcorn" after the person after you plays their card.   
 
 # Introduction talk
 
