@@ -221,9 +221,7 @@ Number: 3+
 - Everyone else will act out what's on the post it, so that Person A can try to guess what the post it says within 45 seconds.
 - Go around the circle and repeat the above until everyone has had a turn to guess. 
 
-
 # Card Games
-
 
 ## Presidents 
 
@@ -238,7 +236,6 @@ Number: 3+
 - The three of spades starts out, and everyone goes clockwise. The next person has to play a card that has a number that is equal or higher than the card before it. For example, 3 of spades -> 3 of hearts -> 4 of hearts
 - If two people consecutively play the same number value, the person after both of them gets skipped. 
   - Person A plays a 3, Person B plays a 3, Person C gets skipped, and Person D can play anything equal/higher.
-
 
 There's a concept called "complete" in this game, and it's best explained with an example: 
 
@@ -265,7 +262,6 @@ Examples:
 >• Person A plays 2 5's, Person B has no doubles. Person B cannot play, because he has to play doubles to go on.
 
 >• Person A plays 3 8's, Person B has no triples. Same as above, Person B cannot play on it.
-
 
 - An important rule (although a bit troll) is that you _cannot_ end on a 2. If that happens, by default, you lose.
 
