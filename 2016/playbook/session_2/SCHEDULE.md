@@ -85,7 +85,7 @@
 | -------- | ------------------------------------------------ |
 | 8:40 AM  | Standups                                         |
 | 9:00 AM  | Hacker arrival                                   |
-| 9:10 AM  | [Energizer 1](#../ACTIVITIES.md#post-it-charades)|
+| 9:10 AM  | [Energizer 1](../ACTIVITIES.md#post-it-charades)|
 | 9:25 AM  | Breakfast                                        |
 | 9:45 AM  | [Dodge][dodge]                                   |
 | 12:30 PM | Lunch                                            |

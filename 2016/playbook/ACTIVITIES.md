@@ -208,7 +208,7 @@ Number: unknown
 - Spend 15 seconds verbally explaining the game
 - Then you want to SHOW the game. Grab 3 people and have to demo it like [this](https://youtu.be/lyWKVGoXKak?t=50s).
 
-## Post it Charades
+## Post-it Charades
 
 ```
 Time: 5-10 minutes 
