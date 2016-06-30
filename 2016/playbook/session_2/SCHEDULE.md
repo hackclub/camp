@@ -65,11 +65,11 @@
 | -------- | -------------------------------------------------- |
 | 8:40 AM  | Standups                                           |
 | 9:00 AM  | Hacker arrival                                     |
-| 9:10 AM  | Energizer 1                                        |
+| 9:10 AM  | [Energizer 1](../ACTIVITES.md#presidents)          |
 | 9:25 AM  | Breakfast                                          |
 | 9:45 AM  | [Geometric Pattern][geometric_pattern]             |
 | 12:30 PM | Lunch                                              |
-| 1:30 PM  | Energizer 2                                        |
+| 1:30 PM  | [Energizer 2](../ACTIVITES.md#bs)                  |
 | 2:00 PM  | [Geometric Pattern (continued)][geometric_pattern] |
 | 3:30 PM  | [Energizer 3](../ACTIVITIES.md#walking)            |
 | 3:45 PM  | [Geometric Pattern (continued)][geometric_pattern] |
@@ -81,7 +81,23 @@
 
 ## Day 4
 
-On day 4 we'll be running the [Dodge][dodge] workshop.
+| Time     | Activity                                           |
+| -------- | -------------------------------------------------- |
+| 8:40 AM  | Standups                                           |
+| 9:00 AM  | Hacker arrival                                     |
+| 9:10 AM  | Energizer 1                                        |
+| 9:25 AM  | Breakfast                                          |
+| 9:45 AM  | [Dodge][dodge]          						    |
+| 12:30 PM | Lunch                                              |
+| 1:30 PM  | Energizer 2                                        |
+| 2:00 PM  | [Dodge (continued)][dodge] 						|
+| 3:30 PM  | [Energizer 3](../ACTIVITIES.md#walking)            |
+| 3:45 PM  | [Dodge (continued)][dodge] 						|
+| 4:40 PM  | Collect links for demos                            |
+| 5:00 PM  | [Demos](../ACTIVITIES.md#demos)                    |
+| 5:25 PM  | [Feedback form](../ACTIVITIES.md#feedback-forms)   |
+| 5:30 PM  | [Hack Cheer](../ACTIVITIES.md#hack-cheer)          |
+| 5:35 PM  | Post-mortem (ending at 6:30 PM)                    |
 
 ## Day 5
 
