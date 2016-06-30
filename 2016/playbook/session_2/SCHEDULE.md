@@ -65,11 +65,11 @@
 | -------- | -------------------------------------------------- |
 | 8:40 AM  | Standups                                           |
 | 9:00 AM  | Hacker arrival                                     |
-| 9:10 AM  | [Energizer 1](../ACTIVITES.md#presidents)          |
+| 9:10 AM  | [Energizer 1](../ACTIVITIES.md#presidents)         |
 | 9:25 AM  | Breakfast                                          |
 | 9:45 AM  | [Geometric Pattern][geometric_pattern]             |
 | 12:30 PM | Lunch                                              |
-| 1:30 PM  | [Energizer 2](../ACTIVITES.md#bs)                  |
+| 1:30 PM  | [Energizer 2](../ACTIVITIES.md#bs)                 |
 | 2:00 PM  | [Geometric Pattern (continued)][geometric_pattern] |
 | 3:30 PM  | [Energizer 3](../ACTIVITIES.md#walking)            |
 | 3:45 PM  | [Geometric Pattern (continued)][geometric_pattern] |
