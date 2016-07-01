@@ -108,7 +108,7 @@
 | 9:10 AM  | [Energizer 1](http://secrethitlergame.com/)      |
 | 9:30 AM  | Breakfast                                        |
 | 10:00 AM | [Yes And](../ACTIVITIES.md#yes-and)              |
-| 11:00 AM | [Brainstorming](../ACTIVITES.md#brainstorming)   |
+| 11:00 AM | [Brainstorming](../ACTIVITIES.md#brainstorming)  |
 | 12:00 PM | [Free Form Projects][free_form_projects]         |
 | 12:30 PM | Lunch                                            |
 | 1:40 PM  | [Free Form Projects][free_form_projects]         |
