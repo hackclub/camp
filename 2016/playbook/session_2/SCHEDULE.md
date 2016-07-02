@@ -101,7 +101,24 @@
 
 ## Day 5
 
-On day 5 we'll be building [free form projects][free_form_projects].
+| Time     | Activity                                         |
+| -------- | ------------------------------------------------ |
+| 8:40 AM  | Standups                                         |
+| 9:00 AM  | Hacker arrival                                   |
+| 9:10 AM  | [Energizer 1](http://secrethitlergame.com/)      |
+| 9:30 AM  | Breakfast                                        |
+| 10:00 AM | [Yes And](../ACTIVITIES.md#yes-and)              |
+| 11:00 AM | [Brainstorming](../ACTIVITIES.md#brainstorming)  |
+| 12:00 PM | [Free Form Projects][free_form_projects]         |
+| 12:30 PM | Lunch                                            |
+| 1:40 PM  | [Free Form Projects][free_form_projects]         |
+| 3:30 PM  | [Energizer 2](../ACTIVITIES.md#walking)          |
+| 4:00 PM  | [Free Form Projects][free_form_projects]         |
+| 4:40 PM  | Collect links for demos                          |
+| 5:00 PM  | [Demos](../ACTIVITIES.md#demos)                  |
+| 5:25 PM  | [Feedback form](../ACTIVITIES.md#feedback-forms) |
+| 5:30 PM  | [Hack Cheer](../ACTIVITIES.md#hack-cheer)        |
+| 5:35 PM  | Post-mortem (ending at 6:15 PM)                  |
 
 ## Day 6
 
