@@ -294,6 +294,7 @@ It is extremely important for us that Hack Camp is a safe space for each and eve
 | [Personal Website][personal_website]   | HTML & CSS      |
 | [That Was Easy][that_was_easy]         | HTML & CSS & JS |
 | [Geometric Pattern][geometric_pattern] | p5.js           |
+| [Dodge][dodge]                         | p5.js           |
 | [Platformer][platformer]               | p5.js           |
 | [Chat][chat]                           | Firebase        |
 | [Collab Sketch][collab_sketch]         | Firebase        |
@@ -301,6 +302,7 @@ It is extremely important for us that Hack Camp is a safe space for each and eve
 [personal_website]: https://workshops.hackclub.com/personal_website
 [that_was_easy]: https://workshops.hackclub.com/that_was_easy
 [geometric_pattern]: https://workshops.hackclub.com/geometric_pattern
+[dodge]: https://workshops.hackclub.com/dodge
 [platformer]: https://workshops.hackclub.com/platformer
 [chat]: https://workshops.hackclub.com/chat
 [collab_sketch]: https://workshops.hackclub.com/collab_sketch
