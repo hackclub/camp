@@ -85,7 +85,7 @@
 | -------- | ------------------------------------------------ |
 | 8:40 AM  | Standups                                         |
 | 9:00 AM  | Hacker arrival                                   |
-| 9:10 AM  | [Energizer 1](../ACTIVITIES.md#post-it-charades)|
+| 9:10 AM  | [Energizer 1](../ACTIVITIES.md#post-it-charades) |
 | 9:25 AM  | Breakfast                                        |
 | 9:45 AM  | [Dodge][dodge]                                   |
 | 12:30 PM | Lunch                                            |
@@ -122,7 +122,26 @@
 
 ## Day 6
 
-On day 6 we'll be running the [Platformer][platformer] workshop.
+| Time     | Activity                                         |
+| -------- | ------------------------------------------------ |
+| 8:40 AM  | Standups                                         |
+| 9:00 AM  | Hacker arrival                                   |
+| 9:15 AM  | Breakfast                                        |
+| 9:30 AM  | [Platformer][platformer]                         |
+| 10:10 AM | Energizer 1                                      |
+| 10:30 AM | [Platformer (continued)][platformer]             |
+| 12:30 PM | Lunch                                            |
+| 1:30 PM  | Energizer 2                                      |
+| 2:00 PM  | [Platformer (continued)][platformer]             |
+| 3:30 PM  | Energizer 3                                      |
+| 4:00 PM  | [Platformer (continued)][platformer]             |
+| 4:40 PM  | Collect links for demos                          |
+| 5:00 PM  | [Demos](../ACTIVITIES.md#demos)                  |
+| 5:25 PM  | [Feedback form](../ACTIVITIES.md#feedback-forms) |
+| 5:30 PM  | [Hack Cheer](../ACTIVITIES.md#hack-cheer)        |
+| 5:35 PM  | Post-mortem (ending at 6:30 PM)                  |
+
+Today we'll have an adjusted schedule for people who can't come at 9AM due to July 4th Caltrain schedules.
 
 ## Day 7
 
