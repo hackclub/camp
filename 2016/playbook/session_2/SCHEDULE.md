@@ -155,7 +155,7 @@ Today we'll have an adjusted schedule for people who can't come at 9AM due to Ju
 | 12:30 PM | Lunch                                            |
 | 1:30 PM  | Energizer 2                                      |
 | 2:00 PM  | [Chat (continued)][chat]                         |
-| 3:30 PM  | Energizer 3                                      |
+| 3:30 PM  | Teespring Tour                                   |
 | 4:00 PM  | [Chat (continued)][chat]                         |
 | 4:40 PM  | Collect links for demos                          |
 | 5:00 PM  | [Demos](../ACTIVITIES.md#demos)                  |
