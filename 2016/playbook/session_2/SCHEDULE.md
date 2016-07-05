@@ -145,7 +145,23 @@ Today we'll have an adjusted schedule for people who can't come at 9AM due to Ju
 
 ## Day 7
 
-On day 7 we'll be building [Chat][chat].
+| Time     | Activity                                         |
+| -------- | ------------------------------------------------ |
+| 8:40 AM  | Standups                                         |
+| 9:00 AM  | Hacker arrival                                   |
+| 9:10 AM  | Energizer 1                                      |
+| 9:25 AM  | Breakfast                                        |
+| 9:45 AM  | [Chat][chat]                                     |
+| 12:30 PM | Lunch                                            |
+| 1:30 PM  | Energizer 2                                      |
+| 2:00 PM  | [Chat (continued)][chat]                         |
+| 3:30 PM  | Energizer 3                                      |
+| 4:00 PM  | [Chat (continued)][chat]                         |
+| 4:40 PM  | Collect links for demos                          |
+| 5:00 PM  | [Demos](../ACTIVITIES.md#demos)                  |
+| 5:25 PM  | [Feedback form](../ACTIVITIES.md#feedback-forms) |
+| 5:30 PM  | [Hack Cheer](../ACTIVITIES.md#hack-cheer)        |
+| 5:35 PM  | Post-mortem (ending at 6:30 PM)                  |
 
 ## Day 8
 
