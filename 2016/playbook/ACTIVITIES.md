@@ -27,8 +27,10 @@
 - [Free form projects](#free-form-projects)
   - [Brainstorming](#brainstorming)
   - [Building a prototype](#building-a-prototype)
+- [Hackathons](#hackathons)
 - [Using Slack](#using-slack)
   - [Asking for help](#asking-for-help)
+  - [Howdy](#howdy)
 - [One-on-ones](#one-on-ones)
 - [Hack Cheer](#hack-cheer)
 
@@ -352,6 +354,12 @@ Start out with a [Yes And session][yes_and] to lower hackers' inhibitions. Make 
 ## Building a prototype
 
 Hackers should start out working with facilitators to define a scope for their project. Find a feature or build that can be hacked together in one day (in time for demos). Facilitators will have to work one-on-one with each hacker to figure out what their personal goals are.
+
+# Hackathons
+
+In addition to [free form projects](#free-form-projects), we also run hackathons -- an event where hackers work on completely self-guided freeform projects.
+
+Hackathons can follow a "theme" to help hackers generate their own ideas.
 
 # Using Slack
 

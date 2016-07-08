@@ -185,7 +185,23 @@ Today we'll have an adjusted schedule for people who can't come at 9AM due to Ju
 
 ## Day 9
 
-On day 9 we'll be building [free form projects][free_form_projects].
+| Time     | Activity                                         |
+| -------- | ------------------------------------------------ |
+| 8:40 AM  | Standups                                         |
+| 9:00 AM  | Hacker arrival                                   |
+| 9:10 AM  | Energizer 1                                      |
+| 9:25 AM  | Breakfast                                        |
+| 9:45 AM  | [Hackathon][hackathon]                           |
+| 11:30 AM | GitHub Tour                                      |
+| 1:30 PM  | Energizer 2                                      |
+| 2:00 PM  | [Hackathon (continued)][hackathon]               |
+| 3:45 PM  | Energizer 3                                      |
+| 4:00 PM  | [Hackathon (continued)][hackathon]               |
+| 4:40 PM  | Collect links for demos                          |
+| 5:00 PM  | [Demos](../ACTIVITIES.md#demos)                  |
+| 5:25 PM  | [Feedback form](../ACTIVITIES.md#feedback-forms) |
+| 5:30 PM  | [Hack Cheer](../ACTIVITIES.md#hack-cheer)        |
+| 5:35 PM  | Post-mortem (ending at 6:30 PM)                  |
 
 ## Day 10
 
@@ -199,3 +215,4 @@ On day 10 we'll be building [free form projects][free_form_projects].
 [chat]: https://workshops.hackclub.com/chat
 [collab_sketch]: https://workshops.hackclub.com/collab_sketch
 [free_form_projects]: ../ACTIVITIES.md#free-form-projects
+[hackathon]: ../ACTIVITIES.md#hackathons
