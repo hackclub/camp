@@ -6,7 +6,7 @@ For documentation on what we do at camp, check out the most recent [playbook](se
 
 ## Schedule
 
-Hack Camp is broken up into four two-week cohorts, listed below.
+Hack Camp is broken up into four two-week sessions, listed below.
 
 | Session   | Start Date | End Date    |
 | --------- | ---------- | ----------- |
