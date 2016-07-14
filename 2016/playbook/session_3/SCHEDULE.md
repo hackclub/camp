@@ -29,7 +29,7 @@
 | 10:35 AM | [Energizer 2](../ACTIVITIES.md#human-pictionary)              |
 | 10:45 AM | [Introduction talk](../ACTIVITIES.md#introduction-talk)       |
 | 11:00 AM | [Personal Website][personal_website]                          |
-| 11:30 AM | Intro to asking for help with Slack                           |
+| 11:30 AM | Intro to asking for help with Slack and using GitHub          |
 | 11:45 AM | [Personal Website (continued)][personal_website]              |
 | 1:00 PM  | Lunch                                                         |
 | 1:30 PM  | [Energizer 3](../ACTIVITIES.md#evolution-rock-paper-scissors) |
