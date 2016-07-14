@@ -3,15 +3,6 @@
 
 - [Days](#days)
   - [Day 1](#day-1)
-  - [Day 2](#day-2)
-  - [Day 3](#day-3)
-  - [Day 4](#day-4)
-  - [Day 5](#day-5)
-  - [Day 6](#day-6)
-  - [Day 7](#day-7)
-  - [Day 8](#day-8)
-  - [Day 9](#day-9)
-  - [Day 10](#day-10)
 
 <!-- markdown-toc end -->
 
@@ -39,42 +30,6 @@
 | 4:20 PM  | [Feedback form](../ACTIVITIES.md#feedback-forms)              |
 | 4:25 PM  | [Hack Cheer](../ACTIVITIES.md#hack-cheer)                     |
 | 4:35 PM  | Post-mortem (ending at 6:30 PM)                               |
-
-## Day 2
-
-_Schedule to be determined at previous day's recap session._
-
-## Day 3
-
-_Schedule to be determined at previous day's recap session._
-
-## Day 4
-
-_Schedule to be determined at previous day's recap session._
-
-## Day 5
-
-_Schedule to be determined at previous day's recap session._
-
-## Day 6
-
-_Schedule to be determined at previous day's recap session._
-
-## Day 7
-
-_Schedule to be determined at previous day's recap session._
-
-## Day 8
-
-_Schedule to be determined at previous day's recap session._
-
-## Day 9
-
-_Schedule to be determined at previous day's recap session._
-
-## Day 10
-
-_Schedule to be determined at previous day's recap session._
 
 [personal_website]: https://workshops.hackclub.com/personal_website
 [that_was_easy]: https://workshops.hackclub.com/that_was_easy
