@@ -13,15 +13,15 @@
 | Time     | Activity                                                      |
 | -------- | ------------------------------------------------------------- |
 | 9:30 AM  | Standups                                                      |
-| 10:00 AM | Hacker arrival                                                |
-| 10:10 AM | Name Game                                                     |
-| 10:20 AM | Building preview                                              |
-| 10:25 AM | [Energizer 1](../ACTIVITIES.md#i-love-my-neighbor-who)        |
-| 10:35 AM | [Energizer 2](../ACTIVITIES.md#human-pictionary)              |
-| 10:45 AM | [Introduction talk](../ACTIVITIES.md#introduction-talk)       |
-| 11:00 AM | [Personal Website][personal_website]                          |
-| 11:30 AM | Intro to asking for help with Slack and using GitHub          |
-| 11:45 AM | [Personal Website (continued)][personal_website]              |
+| 11:00 AM | Hacker arrival                                                |
+| 11:10 AM | Name Game                                                     |
+| 11:20 AM | Building preview                                              |
+| 11:25 AM | [Energizer 1](../ACTIVITIES.md#i-love-my-neighbor-who)        |
+| 11:35 AM | [Energizer 2](../ACTIVITIES.md#human-pictionary)              |
+| 11:45 AM | [Introduction talk](../ACTIVITIES.md#introduction-talk)       |
+| 12:00 PM | [Personal Website][personal_website]                          |
+| 12:30 PM | Intro to asking for help with Slack and using GitHub          |
+| 12:45 PM | [Personal Website (continued)][personal_website]              |
 | 1:00 PM  | Lunch                                                         |
 | 1:30 PM  | [Energizer 3](../ACTIVITIES.md#evolution-rock-paper-scissors) |
 | 2:00 PM  | [Personal Website (continued)][personal_website]              |
