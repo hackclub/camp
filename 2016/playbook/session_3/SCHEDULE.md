@@ -1,10 +1,7 @@
-<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
 **Table of Contents**
 
 - [Days](#days)
   - [Day 1](#day-1)
-
-<!-- markdown-toc end -->
 
 # Days
 
@@ -12,7 +9,7 @@
 
 | Time     | Activity                                                      |
 | -------- | ------------------------------------------------------------- |
-| 9:30 AM  | Standups                                                      |
+| 9:40 AM  | Standups                                                      |
 | 10:00 AM | Hacker arrival                                                |
 | 10:10 AM | Name Game                                                     |
 | 10:20 AM | Building preview                                              |
