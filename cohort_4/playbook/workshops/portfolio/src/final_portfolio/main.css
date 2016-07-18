@@ -1,0 +1,52 @@
+body {
+  color: rgb(68, 68, 68);
+  font-size: .9em;
+  
+  /*background: url("http://dash.ga.co/assets/anna-bg.png");*/
+  /*background-size: cover;*/
+  /*background-position: center;*/
+  /*color: white;*/
+
+}
+
+.container {
+  text-align: center;
+  
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 350px; /*Decreased for aesthetics*/
+}
+
+.photo {
+  width: 200px;
+  margin-bottom: 20px;
+  border-radius: 100px;
+}
+
+.name {
+  font-size: 2.5em; 
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
+
+.description {
+  line-height: 2em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+
+}
+
+.links {
+  margin-top: 100px;
+}
+
+.icon {
+  margin-left: 20px;
+  margin-right: 10px;
+  width: 40px;
+}
+
+a {
+  text-decoration: none;
+}
