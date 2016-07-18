@@ -9,7 +9,7 @@
 
 | Time     | Activity                                                      |
 | -------- | ------------------------------------------------------------- |
-| 9:40 AM  | Standups                                                      |
+| 10:00 AM | Standups                                                      |
 | 11:00 AM | Hacker arrival                                                |
 | 11:10 AM | Name Game                                                     |
 | 11:20 AM | Building preview                                              |
