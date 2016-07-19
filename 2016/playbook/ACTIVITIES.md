@@ -279,6 +279,10 @@ Number: 3+
 - The game begins with the ace of spades, and it goes counterclockwise. The next person has to play either a card higher or lower (so a K or 2, in this case). For example, if a 6 is played sometime during the round, the next person can play either a 5 or 7. You can play any amount of cards you want. Taking the previous example, if the person before you plays a 6 and you have 3 5's, you can play all 3 of those. 
 - If you don't have the card(s) higher or lower than the previous card, you can lie (hence the name BS). For example, if the previous card was a 4, and you don't have a 3 or 5, you can throw down a 7 and say it was a 5. Just for taunting purposes, you can say "popcorn" after the person after you plays their card.   
 
+# Morning talk
+
+Morning talks are used for quick announcements about changes to camp schedule and format at the beginning of each day.
+
 # Introduction talk
 
 Introduction slides are at https://docs.google.com/presentation/d/1p8TbMcbOQlVtTBjoMD_gfsyT8oiPliemT173f_B8v4E
