@@ -51,10 +51,10 @@
 | 11:00 AM | Hacker arrival                                   |
 | 11:10 AM | Energizer                                        |
 | 11:20 AM | [Morning talk](../ACTIVITIES.md#morning-talk)    |
-| 11:25 AM | [Dodge][dodge]                                   |
+| 11:25 AM | [Geometric Pattern][geometric_pattern]           |
 | 1:00 PM  | Lunch                                            |
 | 1:30 PM  | Energizer                                        |
-| 2:00 PM  | [Dodge (continued)][dodge]                       |
+| 2:00 PM  | [Geometric Pattern][geometric_pattern]           |
 | 3:40 PM  | Collect links for demos                          |
 | 4:00 PM  | [Demos](../ACTIVITIES.md#demos)                  |
 | 4:20 PM  | [Feedback form](../ACTIVITIES.md#feedback-forms) |
