@@ -6,12 +6,14 @@
 
 ## Observations
 
--Certain hackers were left out/felt uninterested in the game due to not having a useful role in the game (e.g. civilian in mafia)
+- Ran 3 rounds of Mafia during lunch
+
+- Certain hackers were left out/felt uninterested in the game due to not having a useful role in the game (e.g. civilian in mafia)
 
 ## Conclusions
 
--Hackers were more social after lunch during hacking time
+- Hackers were more social after lunch during hacking time
 
--Unable to gauge productivity of hackers in afternoon hacking time
+- Unable to gauge productivity of hackers in afternoon hacking time
 
--Need to define metrics in future implementations of experiments in order to reach a conclusion
+- Need to define metrics in future implementations of experiments in order to reach a conclusion
