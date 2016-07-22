@@ -2,8 +2,8 @@
 
 - [Daily Schedules](#daily-schedules)
   - [First Day](#first-day)
-  - [Workshop days](#workshop-days)
-  - [Hack days](#hack-days)
+  - [Workshop Days](#workshop-days)
+  - [Hack Days](#hack-days)
 - [Weekly Breakdown](#weekly-breakdown)
 
 # Daily Schedules
@@ -26,7 +26,7 @@
 | 4:25 PM  | [Hack Cheer](../ACTIVITIES.md#hack-cheer)               |
 | 4:35 PM  | Post-mortem (ending at 6:30 PM)                         |
 
-## Workshop days
+## Workshop Days
 
 | Time     | Activity                                                    |
 | -------- | ----------------------------------------------------------- |
@@ -44,7 +44,7 @@
 | 4:25 PM  | [Hack Cheer](../ACTIVITIES.md#hack-cheer)                   |
 | 4:35 PM  | Post-mortem (ending at 6:30 PM)                             |
 
-## Hack days
+## Hack Days
 
 | Time     | Activity                                         |
 | -------- | ------------------------------------------------ |
