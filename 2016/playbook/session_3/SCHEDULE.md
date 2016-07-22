@@ -1,12 +1,12 @@
 **Table of Contents**
 
-- [Days](#days)
+- [Daily Schedules](#daily-schedules)
   - [First Day](#first-day)
   - [Workshop days](#workshop-days)
   - [Hack days](#hack-days)
 - [Weekly Breakdown](#weekly-breakdown)
 
-# Days
+# Daily Schedules
 
 ## First Day
 
