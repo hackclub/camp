@@ -34,10 +34,10 @@
 | 11:00 AM | Hacker arrival                                              |
 | 11:10 AM | Energizer                                                   |
 | 11:20 AM | [Morning talk](../ACTIVITIES.md#morning-talk)               |
-| 11:25 AM | [That Was Easy][that_was_easy]                              |
+| 11:25 AM | Workshop                                                    |
 | 1:00 PM  | Lunch                                                       |
 | 1:30 PM  | [Energizer](../ACTIVITIES.md#evolution-rock-paper-scissors) |
-| 2:00 PM  | [That Was Easy (continued)][that_was_easy]                  |
+| 2:00 PM  | Workshop (continued)                                        |
 | 3:40 PM  | Collect links for demos                                     |
 | 4:00 PM  | [Demos](../ACTIVITIES.md#demos)                             |
 | 4:20 PM  | [Feedback form](../ACTIVITIES.md#feedback-forms)            |
