@@ -29,17 +29,4 @@ Mentors will find examples for projects students have created from the workshop,
 
 ### Conclusion
 
-Experiment failed based on the implementation - not many extra examples were found, and the example that could've been more helpful was not merged in. However, I don't think people were uninspired by today's workshop - seemed like most people were more into gamedev. to further increase hacker inspiration
-
-## Implementation 
-
-Mentors will find examples for projects students have created from the workshop to increase hacker inspiration.
-
-## Observations 
-
-- People had interesting projects today, and it didn't seem like anyone was blocking on inspiration and/or creativity.
-- Saw a lot of people looking at projects that were linked below regardless.
-
-## Conclusion
-
-Unclear whether or not the examples helped hackers with creativity and inspiration, trying experiment again tomorrow to see what happens. 
+Experiment failed based on the implementation - not many extra examples were found, and the example that could've been more helpful was not merged in. However, I don't think people were uninspired by today's workshop - seemed like most people were more into gamedev.
