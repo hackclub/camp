@@ -29,4 +29,4 @@ Mentors will find examples for projects students have created from the workshop,
 
 ### Conclusion
 
-Experiment failed based on the implementation - not many extra examples were found, and the example that could've been more helpful was not merged in. However, I don't think people were uninspired by today's workshop - seemed like most people were more into gamedev.
+Experiment was inconclusive - it failed based on the implementation - not many extra examples were found, and the example that could've been more helpful was not merged in. However, I don't think people were uninspired by today's workshop - seemed like most people were more into gamedev.
