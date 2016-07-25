@@ -25,8 +25,8 @@ Mentors will find examples for projects students have created from the workshop,
 
 - Most of the examples already provided in the workshop weren't very original, that is, they closely resembled the workshop.
 - Many of the hackers didn't have projects that actually deviated from the original Dodge workshop we had, most of it was just different player sprites and enemies. 
-- PR with the online game example wasn't merged in, so I'm pretty sure most of the hackers didn't see the example.  Also, mentors didn't really see too many students looking at the examples. 
+- PR with the online game example wasn't merged in, so most of the hackers didn't see the example.  Also, mentors didn't really see too many students looking at the examples. 
 
 ### Conclusion
 
-Experiment was inconclusive - it failed based on the implementation - not many extra examples were found, and the example that could've been more helpful was not merged in. However, I don't think people were uninspired by today's workshop - seemed like most people were more into gamedev.
+Experiment was inconclusive - it failed based on the implementation - not many extra examples were found, and the example that could've been more helpful was not merged in. However, people didn't seem uninspired by today's workshop - seemed like most people were more into gamedev.
