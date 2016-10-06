@@ -14,6 +14,8 @@ a:hover {
   color: #ff1825;
 }
 
+
+
 .apply {
   text-decoration: none; }
 
@@ -24,6 +26,22 @@ a:hover {
   background: url(/img/bg_gradient.jpg) no-repeat center top;
   background-size: cover;
   box-sizing: border-box; }
+
+.hackclub-logo {
+  font-family: "Amaranth", sans-serif;
+}
+
+.hackclub-logo a {
+  color: inherit;
+}
+
+.hackclub-logo a hover {
+  text-decoration: underline;
+}
+
+.white {
+  color: white;
+}
 
 .footer {
   color: whitesmoke;
