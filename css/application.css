@@ -5,7 +5,7 @@ body {
   padding: 100px 0;
   color: whitesmoke;
   background: #ff4b55;
-  background: url(/camp/img/bg_gradient.jpg) no-repeat center top;
+  background: url("../img/bg_gradient.jpg") no-repeat center top;
   background-size: cover;
   box-sizing: border-box; }
 
