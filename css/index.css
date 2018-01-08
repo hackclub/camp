@@ -21,7 +21,7 @@ a:hover {
   padding: 100px 0;
   color: whitesmoke;
   background: #ff4b55;
-  background: url(/camp/img/bg_gradient.jpg) no-repeat center top;
+  background: url("../img/bg_gradient.jpg") no-repeat center top;
   background-size: cover;
   box-sizing: border-box; }
 
@@ -69,8 +69,8 @@ hr {
   color: #ff4b55;
   border: 1px solid whitesmoke; }
 .title .button:hover, .footer .button:hover {
-  background-color: rgba(255, 255, 255, 0.75); }
-  color: #ff4b55;
+  background-color: rgba(255, 255, 255, 0.75);
+  color: #ff4b55; }
 
 @media (max-width: 40em) {
   .title {
