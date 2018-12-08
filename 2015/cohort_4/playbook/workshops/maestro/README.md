@@ -413,13 +413,13 @@ The `alert` function is like the `prompt` function except
 
 ### Adding the Maestro script
 - At the `<head>` tags, let's go ahead and create a `<script>` tag with an
-  attribute `src` set to `https://cdn.rawgit.com/hackedu/hack-camp/62cb48e3c30986350e71fd3153501883bee532c1/cohort_4/playbook/workshops/maestro/src/lib/maestro.js`
+  attribute `src` set to `https://cdn.jsdelivr.net/gh/hackedu/hack-camp@62cb48e3c30986350e71fd3153501883bee532c1/cohort_4/playbook/workshops/maestro/src/lib/maestro.js`
 
   ```html
   <!DOCTYPE html>
   <html>
     <head>
-      <script type="text/javascript" src="https://cdn.rawgit.com/hackedu/hack-camp/62cb48e3c30986350e71fd3153501883bee532c1/cohort_4/playbook/workshops/maestro/src/lib/maestro.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/hackedu/hack-camp@62cb48e3c30986350e71fd3153501883bee532c1/cohort_4/playbook/workshops/maestro/src/lib/maestro.js"></script>
     </head>
     <body>
     </body>
@@ -451,7 +451,7 @@ The `alert` function is like the `prompt` function except
   <!DOCTYPE html>
   <html>
     <head>
-      <script type="text/javascript" src="https://cdn.rawgit.com/hackedu/hack-camp/62cb48e3c30986350e71fd3153501883bee532c1/cohort_4/playbook/workshops/maestro/src/lib/maestro.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/hackedu/hack-camp@62cb48e3c30986350e71fd3153501883bee532c1/cohort_4/playbook/workshops/maestro/src/lib/maestro.js"></script>
       <script src="js/script.js"></script>
     </head>
     <body>
@@ -503,7 +503,7 @@ This is how everything should look right now:
 <!DOCTYPE html>
 <html>
   <head>
-    <script type="text/javascript" src="https://cdn.rawgit.com/hackedu/hack-camp/62cb48e3c30986350e71fd3153501883bee532c1/cohort_4/playbook/workshops/maestro/src/lib/maestro.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/hackedu/hack-camp@62cb48e3c30986350e71fd3153501883bee532c1/cohort_4/playbook/workshops/maestro/src/lib/maestro.js"></script>
     <script src="js/script.js"></script>
   </head>
   <body>
