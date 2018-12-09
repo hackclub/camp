@@ -1,4 +1,6 @@
-# Hack Camp
+# Hack Camp [DEPRECATED]
+
+:warning: This repository is no longer being maintained or updated by Hack Club staff.
 
 [![Pull Request Stats](http://issuestats.com/github/hackclub/hackcamp/badge/pr?style=flat)](http://issuestats.com/github/hackclub/hackcamp)
 [![Issue Stats](http://issuestats.com/github/hackclub/hackcamp/badge/issue?style=flat)](http://issuestats.com/github/hackclub/hackcamp)
