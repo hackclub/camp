@@ -1505,8 +1505,8 @@ so that people can see it on the screen as you demo it.
 Pull these links up in new tabs:
 
 - [Instagram Live Demo](http://output.jsbin.com/cacaqa)
-- https://i.imgur.com/uDCThVk.png
-- https://i.imgur.com/kPo7B3o.jpg
+- https://cloud-n20l8ciby-hack-club-bot.vercel.app/94uDCThVk.png
+- https://cloud-n20l8ciby-hack-club-bot.vercel.app/95kPo7B3o.jpg
 - [Messenger Live Demo](https://rawgit.com/hackedu/hack-camp/50b54d2436ff15679735ca5c8c50d7ee2ff7b744/cohort_4/playbook/workshops/messenger/src/index.html)
 
 #### Communicate the following to the hackers

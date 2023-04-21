@@ -142,7 +142,7 @@ window.onload = function() {
     li.appendChild(span);
 
     var img = document.createElement("img");
-    img.src = "https://i.imgur.com/BtLxCD6.png"
+    img.src = "https://cloud-n20l8ciby-hack-club-bot.vercel.app/91BtLxCD6.png"
     img.setAttribute("class", "delete");
     li.appendChild(img);
   }
@@ -166,9 +166,9 @@ window.onload = function() {
 You should see tasks you created refected in your firebaseRootUrl
 afer you add this code.
 
-![](https://i.imgur.com/eG03qi0.gif)
+![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/92eG03qi0.gif)
 
-<div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](https://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
+<div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/93wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
     ***Now try implementing this code yourself.
     Make sure you have your Firebase page open so you can see things pop into the Firebase.***</p>  
 </div></div>

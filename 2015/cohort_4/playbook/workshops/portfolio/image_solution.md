@@ -79,7 +79,7 @@ photo, `alt="Mountain View"`.
 So when I fill in the `img` tag template I made above, I get this:
 
 ```html
-<img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">`
+<img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/125vS0HhER.jpg" alt="Photo of Jonathan">`
 ```
 
 ## Adding the image to my code
@@ -95,7 +95,7 @@ So when I fill in the `img` tag template I made above, I get this:
   
     <!-- IMAGE SECTION -->
       <!--==================BEGIN_CHANGES==================-->
-      <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+      <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/126vS0HhER.jpg" alt="Photo of Jonathan">
       <!--===================END_CHANGES===================-->
   
     <!-- INFORMATION SECTION -->
@@ -124,18 +124,18 @@ So when I fill in the `img` tag template I made above, I get this:
 ## Some Vocabulary
 
 ```html
-<img src="https://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
+<img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/127vS0HhER.jpg" alt="Jonathan's Picture">
  ^ "img" is the tag name
 ```
 
 ```html
-<img src="https://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
+<img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/128vS0HhER.jpg" alt="Jonathan's Picture">
 
 note that <img> does not have a closing tag
 ```
 
 ```html
-<img src="https://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
+<img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/129vS0HhER.jpg" alt="Jonathan's Picture">
      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ this is an attribute
                                           of the image tag
 
@@ -143,38 +143,38 @@ note that <img> does not have a closing tag
 ```
 
 ```html
-<img src="https://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
+<img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/130vS0HhER.jpg" alt="Jonathan's Picture">
      ^^^ "src" is the name of the attribute
 ```
 
 ```html
-<img src="https://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
+<img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/131vS0HhER.jpg" alt="Jonathan's Picture">
           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
-          "https://i.imgur.com/vS0HhER.jpg" is the value
+          "https://cloud-n20l8ciby-hack-club-bot.vercel.app/132vS0HhER.jpg" is the value
           of the "src" attribute
 ```
 
 ```html
-<img src="https://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
+<img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/133vS0HhER.jpg" alt="Jonathan's Picture">
 this ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 sets the "source" of the image to be the above url
 ```
 
 ```html
-<img src="https://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
+<img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/134vS0HhER.jpg" alt="Jonathan's Picture">
    "alt" is the name of another attribute ^^^ 
 ```
 
 ```html
-<img src="https://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
+<img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/135vS0HhER.jpg" alt="Jonathan's Picture">
                                               ^^^^^^^^^^^^^^^^^^^^ 
                                           "Jonathan's Picture" is the 
                                           value of the "alt" attribute.
 ```
 
 ```html
-<img src="https://i.imgur.com/vS0HhER.jpg" alt="Jonathan's Picture">
+<img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/136vS0HhER.jpg" alt="Jonathan's Picture">
                                           ^^^^^^^^^^^^^^^^^^^^^^^^^
                                           this is another attribute
                                           of the image tag

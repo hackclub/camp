@@ -25,7 +25,7 @@
 ### Building jonl.org
 
 ### [Dash](https://dash.generalassemb.ly)
-[![](https://i.imgur.com/WcvJFys.png)](https://dash.generalassemb.ly)
+[![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/10WcvJFys.png)](https://dash.generalassemb.ly)
 
 - **What**: Basics on HTML & CSS
 - **How**: Very step by step guided tutorial
@@ -46,7 +46,7 @@ It is technically a guided resource as well but it is best used as a reference (
 	- https://css-tricks.com/almanac/
 
 ### [CodeCademy HTML & CSS](https://dash.generalassemb.ly)
-[![](https://i.imgur.com/w2BN6Wd.png)](http://www.codecademy.com/en/tracks/web)
+[![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/11w2BN6Wd.png)](http://www.codecademy.com/en/tracks/web)
 
 - **What**: Basics on HTML & CSS
 - **How**: Guided tutorial

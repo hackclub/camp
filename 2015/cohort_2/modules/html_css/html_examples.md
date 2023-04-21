@@ -1,8 +1,8 @@
 #[By Alice Lee v1](http://jsbin.com/sofuzo/5/edit)
-![](https://i.imgur.com/rKXwuEX.png)
+![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/8rKXwuEX.png)
 
 #[By Alice Lee vFinal](http://jsbin.com/sofuzo/9/edit)
-![](https://i.imgur.com/IY7khhy.png)
+![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/9IY7khhy.png)
 
 # [Pug Page](http://jsbin.com/vuyoya/6/edit)
 ![](https://s3.amazonaws.com/f.cl.ly/items/240a1u3z2F041j073g0g/Image%202015-06-22%20at%2012.35.06%20PM.png)

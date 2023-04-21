@@ -169,7 +169,7 @@ Along the way, feel free to explore the other resources listed in other resource
 ## Maestro
     ***IMPORTANT:** Make sure to disable "auto run js"*
 
-> ![](https://i.imgur.com/YAzF4Jp.png)
+> ![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/21YAzF4Jp.png)
 
 **See a working example**
 [See this template on how to run your Maestro code](http://jsbin.com/budumawuwo/edit?html,js,output)

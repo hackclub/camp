@@ -24,7 +24,7 @@ I added a `<!-- ^ NEXT -->` to point out what lines of code will be changed next
   <!-- PORTFOLIO -->
   
     <!-- IMAGE SECTION -->
-      <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+      <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/139vS0HhER.jpg" alt="Photo of Jonathan">
   
     <!-- INFORMATION SECTION -->
       <h1>Jonathan Leung</h1>
@@ -58,13 +58,13 @@ images instead of text.
 Here are the links to the respective logos:
 
   Facebook:
-  https://i.imgur.com/hqhKh8l.png
+  https://cloud-n20l8ciby-hack-club-bot.vercel.app/140hqhKh8l.png
 
   Twitter
-  https://i.imgur.com/aN1jbkL.png
+  https://cloud-n20l8ciby-hack-club-bot.vercel.app/141aN1jbkL.png
 
   Github:
-  https://i.imgur.com/rnhMmVF.png
+  https://cloud-n20l8ciby-hack-club-bot.vercel.app/142rnhMmVF.png
 
   *Note, I got these images from iconmonstr.com
   a great service for finding free icons!*

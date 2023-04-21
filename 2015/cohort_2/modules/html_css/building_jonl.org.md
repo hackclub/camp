@@ -66,7 +66,7 @@ Copy and past the text from Alice's website.
 - [See in JS Bin.](http://jsbin.com/sofuzo/1/edit?html,output)
 
 **Preview:**
-![](https://i.imgur.com/NzrSXCG.png)
+![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/0NzrSXCG.png)
 
 **HTML:**
 
@@ -123,7 +123,7 @@ b. Categorize your text into sections.
 
 **Preview:**
 
-![](https://i.imgur.com/okxszvu.png)
+![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/1okxszvu.png)
 
 **HTML:**
 
@@ -159,7 +159,7 @@ b. Categorize your text into sections.
 
 **Preview:**
 
-![](https://i.imgur.com/2QjulPo.png)
+![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/22QjulPo.png)
 
 **HTML:**
 
@@ -223,7 +223,7 @@ body {
 
 **Preview:**
 
-![](https://i.imgur.com/rKXwuEX.png)
+![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/3rKXwuEX.png)
 
 **HTML:**
 
@@ -272,7 +272,7 @@ a {
 
 **Preview:**
 
-![](https://i.imgur.com/3fmqekN.png)
+![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/43fmqekN.png)
 
 **HTML:**
 
@@ -339,7 +339,7 @@ body {
 
 **Preview:**
 
-![](https://i.imgur.com/IY7khhy.png)
+![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/5IY7khhy.png)
 
 **HTML:** *Unchanged*
 
@@ -407,7 +407,7 @@ a {
 
 **Preview:**
 
-![](https://i.imgur.com/nqURZSw.png)
+![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/6nqURZSw.png)
 
 **HTML:**
 

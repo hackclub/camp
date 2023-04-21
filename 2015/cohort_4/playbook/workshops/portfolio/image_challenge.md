@@ -32,7 +32,7 @@ next.
   <!-- PORTFOLIO -->
   
     <!-- IMAGE SECTION -->
-      - https://i.imgur.com/vS0HhER.jpg  <!--<<<<< NEXT -->
+      - https://cloud-n20l8ciby-hack-club-bot.vercel.app/124vS0HhER.jpg  <!--<<<<< NEXT -->
   
     <!-- INFORMATION SECTION -->
       <h1>Jonathan Leung</h1>

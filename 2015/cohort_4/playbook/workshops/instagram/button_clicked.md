@@ -113,7 +113,7 @@ document.getElementById('button').onclick = function() {
 };
 ```
 
-[![](https://i.imgur.com/9KuKZGN.png)](http://jsfiddle.net/6qDap/1)
+[![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/1009KuKZGN.png)](http://jsfiddle.net/6qDap/1)
 
 #### Step 4: Cleaning Up For Understanding
 
@@ -170,7 +170,7 @@ addPictureButton.onclick = function() {
 };
 ```
 
-[![](https://i.imgur.com/9KuKZGN.png)](http://jsfiddle.net/nL0tb9bp/)
+[![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/1019KuKZGN.png)](http://jsfiddle.net/nL0tb9bp/)
 
 What does this code mean?
 

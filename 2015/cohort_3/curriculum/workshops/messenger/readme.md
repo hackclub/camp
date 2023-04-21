@@ -509,12 +509,12 @@ A note on terminology:
 
 stars (*) surround relevant vocabulary like *this*
 
-img.src = "https://i.imgur.com/qqHJgeR.jpg"
+img.src = "https://cloud-n20l8ciby-hack-club-bot.vercel.app/34qqHJgeR.jpg"
     ^ by setting the src *property* of the image element object
     
 the browser adds the "src" *attribute* 
-<img src="https://i.imgur.com/qqHJgeR.jpg">
-     ^ this is the source *attribute* which has the *value* of "https://i.imgur.com/qqHJgeR.jpg"
+<img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/35qqHJgeR.jpg">
+     ^ this is the source *attribute* which has the *value* of "https://cloud-n20l8ciby-hack-club-bot.vercel.app/36qqHJgeR.jpg"
 ```
 
 ![](http://classic.cloversites.com/images/html-version/shared/try-it-out-button.gif)

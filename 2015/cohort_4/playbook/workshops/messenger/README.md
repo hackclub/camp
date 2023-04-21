@@ -1089,7 +1089,7 @@ In the below examples, I'm going to only show the `<div>` tag with the `id` of
 
 ```html
 <div id="photos">
-  <img src="http://i.imgur.com/BdbsV4F.png">
+  <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/114BdbsV4F.png">
 </div>
 ```
 
@@ -1099,8 +1099,8 @@ In the below examples, I'm going to only show the `<div>` tag with the `id` of
 
 ```html
 <div id="photos">
-  <img src="http://i.imgur.com/BdbsV4F.png">
-  <img src="http://i.imgur.com/mfAuIRU.png">
+  <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/115BdbsV4F.png">
+  <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/116mfAuIRU.png">
 </div>
 ```
 
@@ -1110,9 +1110,9 @@ In the below examples, I'm going to only show the `<div>` tag with the `id` of
 
 ```html
 <div id="photos">
-  <img src="http://i.imgur.com/BdbsV4F.png">
-  <img src="http://i.imgur.com/mfAuIRU.png">
-  <img src="http://i.imgur.com/mukgIPn.png">
+  <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/117BdbsV4F.png">
+  <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/118mfAuIRU.png">
+  <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/119mukgIPn.png">
 </div>
 ```
 

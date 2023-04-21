@@ -78,7 +78,7 @@ create what's missing and not be afraid to break the status quo.</p>
   <!-- PORTFOLIO -->
   
     <!-- IMAGE SECTION -->
-      - https://i.imgur.com/vS0HhER.jpg
+      - https://cloud-n20l8ciby-hack-club-bot.vercel.app/121vS0HhER.jpg
   
     <!-- INFORMATION SECTION -->
       <h1>Jonathan Leung</h1>
