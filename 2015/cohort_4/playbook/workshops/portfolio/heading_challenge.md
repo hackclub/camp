@@ -20,7 +20,7 @@ This is what you should have right now:
     <!-- PORTFOLIO -->
 
       <!-- IMAGE SECTION -->
-        - https://i.imgur.com/vS0HhER.jpg
+        - https://cloud-n20l8ciby-hack-club-bot.vercel.app/122vS0HhER.jpg
       
       <!-- INFORMATION SECTION -->
         - Jonathan Leung <!-- {{ NEXT }} -->            
@@ -153,7 +153,7 @@ on or pointing to the line that has been modified
     <!-- PORTFOLIO -->
 
       <!-- IMAGE SECTION -->
-        - https://i.imgur.com/vS0HhER.jpg
+        - https://cloud-n20l8ciby-hack-club-bot.vercel.app/123vS0HhER.jpg
       
       <!-- INFORMATION SECTION -->
         <!--===========BEGIN_CHANGES===========-->

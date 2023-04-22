@@ -2,7 +2,7 @@
 
 How would you recreate [aleksfaure.com](http://aleksfaure.com/)?
 
-![](https://i.imgur.com/52Zrw7q.png)
+![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/752Zrw7q.png)
 
 ### 1) Write out the steps would you take.
 

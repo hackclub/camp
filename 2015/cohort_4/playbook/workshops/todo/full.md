@@ -143,7 +143,7 @@ window.onload = function() {
     span.appendChild(textNode);
 
     var del = document.createElement("img");
-    del.src = "https://i.imgur.com/BtLxCD6.png";
+    del.src = "https://cloud-n20l8ciby-hack-club-bot.vercel.app/205BtLxCD6.png";
     del.setAttribute("class", "delete");
 
     del.onclick = function() {

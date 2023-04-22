@@ -83,7 +83,7 @@ Steps:
   };
   ```
 
-[![](https://i.imgur.com/9KuKZGN.png)](http://output.jsbin.com/qenulasosu)
+[![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/989KuKZGN.png)](http://output.jsbin.com/qenulasosu)
 
 - and then with one simple modification to the Javascripts (denotated with with `!!!`)
 
@@ -108,7 +108,7 @@ Steps:
   };
   ```
 
-[![](https://i.imgur.com/9KuKZGN.png)](http://output.jsbin.com/mekila)
+[![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/999KuKZGN.png)](http://output.jsbin.com/mekila)
 
 ## Huzzah!
 

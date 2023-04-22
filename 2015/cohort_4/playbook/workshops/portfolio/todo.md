@@ -126,7 +126,7 @@ http://davidwalsh.name/center-website
 <!-- PORTFOLIO -->
 
   <!-- IMAGE SECTION -->
-    <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+    <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/155vS0HhER.jpg" alt="Photo of Jonathan">
   
   <!-- INFORMATION SECTION -->
     <h1>Jonathan Leung</h1>
@@ -136,13 +136,13 @@ http://davidwalsh.name/center-website
     
   <!-- SOCIAL MEDIA SECTION -->
     <a href="https://twitter.com/jonathanjleung">
-      <img src="https://i.imgur.com/aN1jbkL.png">
+      <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/156aN1jbkL.png">
     </a>
     <a href="https://facebook.com/jonleung137">
-      <img src="https://i.imgur.com/hqhKh8l.png">
+      <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/157hqhKh8l.png">
     </a>
     <a href="https://github.com/jonleung">
-      <img src="https://i.imgur.com/rnhMmVF.png">
+      <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/158rnhMmVF.png">
     </a>
 ```
 
@@ -151,7 +151,7 @@ http://davidwalsh.name/center-website
 <!-- PORTFOLIO -->
 
   <!-- IMAGE SECTION -->
-    <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+    <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/159vS0HhER.jpg" alt="Photo of Jonathan">
   
   <!-- INFORMATION SECTION -->
     <h1>Jonathan Leung</h1>
@@ -161,13 +161,13 @@ http://davidwalsh.name/center-website
     
   <!-- SOCIAL MEDIA SECTION -->
     <a href="https://twitter.com/jonathanjleung">
-      <img src="https://i.imgur.com/aN1jbkL.png">
+      <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/160aN1jbkL.png">
     </a>
     <a href="https://facebook.com/jonleung137">
-      <img src="https://i.imgur.com/hqhKh8l.png">
+      <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/161hqhKh8l.png">
     </a>
     <a href="https://github.com/jonleung">
-      <img src="https://i.imgur.com/rnhMmVF.png">
+      <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/162rnhMmVF.png">
     </a>
 </body>
 ```
@@ -180,7 +180,7 @@ http://davidwalsh.name/center-website
 <!-- PORTFOLIO -->
 
   <!-- IMAGE SECTION -->
-    <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+    <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/163vS0HhER.jpg" alt="Photo of Jonathan">
   
   <!-- INFORMATION SECTION -->
     <h1>Jonathan Leung</h1>
@@ -190,13 +190,13 @@ http://davidwalsh.name/center-website
     
   <!-- SOCIAL MEDIA SECTION -->
     <a href="https://twitter.com/jonathanjleung">
-      <img src="https://i.imgur.com/aN1jbkL.png">
+      <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/164aN1jbkL.png">
     </a>
     <a href="https://facebook.com/jonleung137">
-      <img src="https://i.imgur.com/hqhKh8l.png">
+      <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/165hqhKh8l.png">
     </a>
     <a href="https://github.com/jonleung">
-      <img src="https://i.imgur.com/rnhMmVF.png">
+      <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/166rnhMmVF.png">
     </a>
 </body>
 ```
@@ -209,7 +209,7 @@ http://davidwalsh.name/center-website
 <!-- PORTFOLIO -->
 
   <!-- IMAGE SECTION -->
-    <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+    <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/167vS0HhER.jpg" alt="Photo of Jonathan">
   
   <!-- INFORMATION SECTION -->
     <h1>Jonathan Leung</h1>
@@ -219,13 +219,13 @@ http://davidwalsh.name/center-website
     
   <!-- SOCIAL MEDIA SECTION -->
     <a href="https://twitter.com/jonathanjleung">
-      <img src="https://i.imgur.com/aN1jbkL.png">
+      <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/168aN1jbkL.png">
     </a>
     <a href="https://facebook.com/jonleung137">
-      <img src="https://i.imgur.com/hqhKh8l.png">
+      <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/169hqhKh8l.png">
     </a>
     <a href="https://github.com/jonleung">
-      <img src="https://i.imgur.com/rnhMmVF.png">
+      <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/170rnhMmVF.png">
     </a>
 </body>
 ```
@@ -239,7 +239,7 @@ http://davidwalsh.name/center-website
 <!-- PORTFOLIO -->
 
   <!-- IMAGE SECTION -->
-    <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+    <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/171vS0HhER.jpg" alt="Photo of Jonathan">
   
   <!-- INFORMATION SECTION -->
     <h1>Jonathan Leung</h1>
@@ -249,13 +249,13 @@ http://davidwalsh.name/center-website
     
   <!-- SOCIAL MEDIA SECTION -->
     <a href="https://twitter.com/jonathanjleung">
-      <img src="https://i.imgur.com/aN1jbkL.png">
+      <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/172aN1jbkL.png">
     </a>
     <a href="https://facebook.com/jonleung137">
-      <img src="https://i.imgur.com/hqhKh8l.png">
+      <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/173hqhKh8l.png">
     </a>
     <a href="https://github.com/jonleung">
-      <img src="https://i.imgur.com/rnhMmVF.png">
+      <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/174rnhMmVF.png">
     </a>
 </body>
 ```
@@ -284,7 +284,7 @@ body {
 ## Profile Picture - I Do
 
 ```html
-<img class="profile-picture" src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+<img class="profile-picture" src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/175vS0HhER.jpg" alt="Photo of Jonathan">
 ```
 
 ```css
@@ -297,13 +297,13 @@ body {
 
 ```html
 <a href="https://twitter.com/jonathanjleung">
-  <img class="social-icon" src="https://i.imgur.com/aN1jbkL.png">
+  <img class="social-icon" src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/176aN1jbkL.png">
 </a>
 <a href="https://facebook.com/jonleung137">
-  <img class="social-icon" src="https://i.imgur.com/hqhKh8l.png">
+  <img class="social-icon" src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/177hqhKh8l.png">
 </a>
 <a href="https://github.com/jonleung">
-  <img class="social-icon" src="https://i.imgur.com/rnhMmVF.png">
+  <img class="social-icon" src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/178rnhMmVF.png">
 </a>
 ```
 
@@ -379,7 +379,7 @@ body {
     
 
   <!-- IMAGE SECTION -->
-    <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+    <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/179vS0HhER.jpg" alt="Photo of Jonathan">
   
   <!-- INFORMATION SECTION -->
     <h1>Jonathan Leung</h1>
@@ -389,13 +389,13 @@ body {
     
   <!-- SOCIAL MEDIA SECTION -->
     <a href="https://twitter.com/jonathanjleung">
-      <img src="https://i.imgur.com/aN1jbkL.png">
+      <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/180aN1jbkL.png">
     </a>
     <a href="https://facebook.com/jonleung137">
-      <img src="https://i.imgur.com/hqhKh8l.png">
+      <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/181hqhKh8l.png">
     </a>
     <a href="https://github.com/jonleung">
-      <img src="https://i.imgur.com/rnhMmVF.png">
+      <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/182rnhMmVF.png">
     </a>
 </body>
 ```
@@ -412,13 +412,13 @@ Can you add the image of the Facebook logo to the bottom of the page?
 Here is the link to the image:
 
 ```
-https://i.imgur.com/hqhKh8l.png
+https://cloud-n20l8ciby-hack-club-bot.vercel.app/183hqhKh8l.png
 ```
 
 ## Quick Solution
 
 ```html
-<img src="https://i.imgur.com/hqhKh8l.png" alt="Facebook Logo">
+<img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/184hqhKh8l.png" alt="Facebook Logo">
 ```
 
 ```html
@@ -432,7 +432,7 @@ https://i.imgur.com/hqhKh8l.png
     <!-- PORTFOLIO -->
     
       <!-- IMAGE SECTION -->
-        <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+        <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/185vS0HhER.jpg" alt="Photo of Jonathan">
     
       <!-- INFORMATION SECTION -->
         <h1>Jonathan Leung</h1>
@@ -441,7 +441,7 @@ https://i.imgur.com/hqhKh8l.png
         
       <!-- SOCIAL MEDIA SECTION -->
         <!--==================BEGIN_CHANGES==================-->
-        <img src="https://i.imgur.com/hqhKh8l.png" alt="Facebook Logo">
+        <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/186hqhKh8l.png" alt="Facebook Logo">
         <!--===================END_CHANGES===================-->
         - link to Twitter (https://twitter.com/jonathanjleung)
         - link to Github (https://github.com/jonleung)

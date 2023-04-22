@@ -31,7 +31,7 @@ The `<script>` has a `src` attribute inside of it just like the `<img>` tag
 does.
 
 ```html
-<img src="https://i.imgur.com/vS0HhER.jpg">
+<img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/102vS0HhER.jpg">
      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ this is an attribute
                                           of the image tag
 
@@ -39,19 +39,19 @@ does.
 ```
 
 ```html
-<img src="https://i.imgur.com/vS0HhER.jpg">
+<img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/103vS0HhER.jpg">
      ^^^ "src" is the name of the attribute
 ```
 
 ```html
-<img src="https://i.imgur.com/vS0HhER.jpg">
+<img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/104vS0HhER.jpg">
           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
-          "https://i.imgur.com/vS0HhER.jpg" is the value
+          "https://cloud-n20l8ciby-hack-club-bot.vercel.app/105vS0HhER.jpg" is the value
           of the "src" attribute
 ```
 
 ```html
-<img src="https://i.imgur.com/vS0HhER.jpg">
+<img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/106vS0HhER.jpg">
 this ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 sets the "source" of the image to be displayed to be the above url

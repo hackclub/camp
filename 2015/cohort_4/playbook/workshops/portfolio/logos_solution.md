@@ -72,7 +72,7 @@ We can just replace the text `Twitter` with an image element
 
 ```html
 <a href="https://twitter.com/jonathanjleung">
-  <img src="https://i.imgur.com/aN1jbkL.png">
+  <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/143aN1jbkL.png">
 </a>
 ```
 
@@ -80,13 +80,13 @@ And if I have 3 links:
 
 ```html
 <a href="https://twitter.com/jonathanjleung">
-  <img src="https://i.imgur.com/aN1jbkL.png">
+  <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/144aN1jbkL.png">
 </a>
 <a href="https://facebook.com/jonleung137">
-  <img src="https://i.imgur.com/hqhKh8l.png">
+  <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/145hqhKh8l.png">
 </a>
 <a href="https://github.com/jonleung">
-  <img src="https://i.imgur.com/rnhMmVF.png">
+  <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/146rnhMmVF.png">
 </a>
 ```
 
@@ -102,7 +102,7 @@ And if I have 3 links:
   <!-- PORTFOLIO -->
   
     <!-- IMAGE SECTION -->
-      <img src="https://i.imgur.com/vS0HhER.jpg" alt="Photo of Jonathan">
+      <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/147vS0HhER.jpg" alt="Photo of Jonathan">
   
     <!-- INFORMATION SECTION -->
       <h1>Jonathan Leung</h1>
@@ -112,13 +112,13 @@ And if I have 3 links:
     <!-- SOCIAL MEDIA SECTION -->
       <!--==================BEGIN_CHANGES==================-->
       <a href="https://twitter.com/jonathanjleung">
-        <img src="https://i.imgur.com/aN1jbkL.png">
+        <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/148aN1jbkL.png">
       </a>
       <a href="https://facebook.com/jonleung137">
-        <img src="https://i.imgur.com/hqhKh8l.png">
+        <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/149hqhKh8l.png">
       </a>
       <a href="https://github.com/jonleung">
-        <img src="https://i.imgur.com/rnhMmVF.png">
+        <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/150rnhMmVF.png">
       </a>
       <!--===================END_CHANGES===================-->
 

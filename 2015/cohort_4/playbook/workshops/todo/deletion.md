@@ -29,7 +29,7 @@ function addNewTask(taskName) {
   li.appendChild(span);
 
   var img = document.createElement("img");
-  img.src = "https://i.imgur.com/BtLxCD6.png"
+  img.src = "https://cloud-n20l8ciby-hack-club-bot.vercel.app/201BtLxCD6.png"
   img.setAttribute("class", "delete");
   li.appendChild(img);
 
@@ -77,7 +77,7 @@ img.onclick = function() {
 }
 ```
 
-<div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](https://i.imgur.com/wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
+<div style="padding-left: 10px; padding-right: 10px; background-color: #EEE;"><div style="display: inline-block;">![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/202wd2Ac0Q.png)</div><div style="display: inline-block;"><p style="position: relative; top: 22px; left: 8px;">
 ***Give this a shot but this is kinda really confusing so please ask for help!***</p>  
 </div></div>
 
@@ -108,7 +108,7 @@ For us, we need to somehow remember what the key is for every task. We can do th
 <li key="-Oe9fo8jslkfeddm">
   <input class="toggle" type="checkbox">
   <span>Take out the trash</span>
-  <img class="delete" src="https://i.imgur.com/BtLxCD6.png">
+  <img class="delete" src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/203BtLxCD6.png">
 </li>
 
 ```
@@ -143,7 +143,7 @@ window.onload = function() {
     li.appendChild(span);
 
     var img = document.createElement("img");
-    img.src = "https://i.imgur.com/BtLxCD6.png"
+    img.src = "https://cloud-n20l8ciby-hack-club-bot.vercel.app/204BtLxCD6.png"
     img.setAttribute("class", "delete");
     li.appendChild(img);
 

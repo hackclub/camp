@@ -11,20 +11,20 @@ maestro.Twilio.sendSms("484-555-5555", "Yo, what's up?");
 maestro.Twilio.sendSms("415-555-5555", "What's your order?");
 //=> Send an text message to the phone "415-555-5555" with the message "What's your order?"
 ```
-[![](https://i.imgur.com/UXVkpCb.png)](http://jsbin.com/xofila/1/edit?js,console)
+[![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/12UXVkpCb.png)](http://jsbin.com/xofila/1/edit?js,console)
 
 ## sendMms
 Send a picture to any phone number (with a multi-media message)
 
 ```js
-maestro.Twilio.sendMms("484-555-5555", "https://i.imgur.com/gptoCGu.jpg");
-//=> Send an MMS to the phone "484-555-5555" with the image of this cat "https://i.imgur.com/gptoCGu.jpg".
+maestro.Twilio.sendMms("484-555-5555", "https://cloud-n20l8ciby-hack-club-bot.vercel.app/13gptoCGu.jpg");
+//=> Send an MMS to the phone "484-555-5555" with the image of this cat "https://cloud-n20l8ciby-hack-club-bot.vercel.app/14gptoCGu.jpg".
 
-maestro.Twilio.sendMms("415-555-5555", "https://i.imgur.com/VnGB2ij.png");
-//=> Send an MMS to the phone "415-555-5555" with the image of this dog "https://i.imgur.com/VnGB2ij.png".
+maestro.Twilio.sendMms("415-555-5555", "https://cloud-n20l8ciby-hack-club-bot.vercel.app/15VnGB2ij.png");
+//=> Send an MMS to the phone "415-555-5555" with the image of this dog "https://cloud-n20l8ciby-hack-club-bot.vercel.app/16VnGB2ij.png".
 ```
 
-[![](https://i.imgur.com/UXVkpCb.png)](http://jsbin.com/xofila/2/edit?js,console)
+[![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/17UXVkpCb.png)](http://jsbin.com/xofila/2/edit?js,console)
 
 ## callAndSay
 
@@ -37,7 +37,7 @@ maestro.Twilio.callAndSay("484-555-5555", "Yo, yo , yo, I'm learning to rap! WIT
 //=> Call "484-555-5555" and say over the phone 'Yo, yo , yo, I'm learning to rap! WITH CODE!'".
 ```
 
-[![](https://i.imgur.com/UXVkpCb.png)](http://jsbin.com/xofila/4/edit?js,console)
+[![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/18UXVkpCb.png)](http://jsbin.com/xofila/4/edit?js,console)
 
 ###callAndPlay
 
@@ -49,7 +49,7 @@ maestro.Twilio.callAndPlay("484-555-5555", "http://hazzardweb.net/wp-content/upl
 //=> Call "+1-484-555-5555" and play this mp3 file over the phone "http://hazzardweb.net/wp-content/uploads/RickRoll/RickRoll.mp3".
 ```
 
-[![](https://i.imgur.com/UXVkpCb.png)](http://jsbin.com/xofila/5/edit?js,console)
+[![](https://cloud-n20l8ciby-hack-club-bot.vercel.app/19UXVkpCb.png)](http://jsbin.com/xofila/5/edit?js,console)
 
 # Harder Functions
 --

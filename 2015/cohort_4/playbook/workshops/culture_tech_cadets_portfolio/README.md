@@ -302,7 +302,7 @@ Here are some things that you can try:
 - add another input field where the user can input their name. (Hint the `type="text"`)
 - change the background image
   - hint: it will probably look better if it's something dark
-    (I used this background image: `http://i.imgur.com/uVIuDll.jpg`)
+    (I used this background image: `https://cloud-n20l8ciby-hack-club-bot.vercel.app/96uVIuDll.jpg`)
 - change the color of the submit button
 
 Here's what my website looks like now:
@@ -318,7 +318,7 @@ Here's what my `index.html` looks like
     body {
       text-align: center;
       font-family: helvetica;
-      background: url("https://i.imgur.com/uVIuDll.jpg");
+      background: url("https://cloud-n20l8ciby-hack-club-bot.vercel.app/97uVIuDll.jpg");
       background-size: cover;
       background-position: center;
       color: red;

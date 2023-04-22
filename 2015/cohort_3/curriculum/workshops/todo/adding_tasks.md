@@ -111,7 +111,7 @@ element
   <li>
     <input class="toggle" type="checkbox">
     <span>Take out the trash</span>
-    <img class="delete" src="https://i.imgur.com/BtLxCD6.png">
+    <img class="delete" src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/37BtLxCD6.png">
   </li>
 </ul>
 ```
@@ -125,12 +125,12 @@ And when I add another task, say "Clean out fridge", I will need to add another
   <li>
     <input class="toggle" type="checkbox">
     <span>Take out the trash</span>
-    <img class="delete" src="https://i.imgur.com/BtLxCD6.png">
+    <img class="delete" src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/38BtLxCD6.png">
   </li>
   <li>
     <input class="toggle" type="checkbox">
     <span>Clean out fridge</span>
-    <img class="delete" src="https://i.imgur.com/BtLxCD6.png">
+    <img class="delete" src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/39BtLxCD6.png">
   </li>
 </ul>
 ```
@@ -336,14 +336,14 @@ window.onload = function() {
     //        ^ this function will output us an <img> element
 
     // which we need to then set the source of to the delete image
-    img.src = "https://i.imgur.com/BtLxCD6.png"
+    img.src = "https://cloud-n20l8ciby-hack-club-bot.vercel.app/40BtLxCD6.png"
     // which means the <img> will now look like this:
-    // <img src="https://i.imgur.com/BtLxCD6.png">
+    // <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/41BtLxCD6.png">
 
     // and set it's class attribute to "delete"
     img.setAttribute("class", "delete");
     // which means it now looks like:
-    // <img src="https://i.imgur.com/BtLxCD6.png" class="delete">
+    // <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/42BtLxCD6.png" class="delete">
 
     li.appendChild(img);
     /* The <li> tag now looks like this:
@@ -351,7 +351,7 @@ window.onload = function() {
             <li>
                 <span>TASK NAME</span>
                 <input class="toggle" type="checkbox">
-                <img src="https://i.imgur.com/BtLxCD6.png" class="delete">
+                <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/43BtLxCD6.png" class="delete">
             </li>
 
             And so the <ul> tag that the <li> tag is in now looks like this:
@@ -359,7 +359,7 @@ window.onload = function() {
                 <li>
                   <input class="toggle" type="checkbox">
                   <span>TASK NAME</span>
-                  <img src="https://i.imgur.com/BtLxCD6.png" class="delete">
+                  <img src="https://cloud-n20l8ciby-hack-club-bot.vercel.app/44BtLxCD6.png" class="delete">
                 </li>
               </ul>
         */
@@ -415,7 +415,7 @@ window.onload = function() {
     li.appendChild(span);
 
     var img = document.createElement("img");
-    img.src = "https://i.imgur.com/BtLxCD6.png"
+    img.src = "https://cloud-n20l8ciby-hack-club-bot.vercel.app/45BtLxCD6.png"
     img.setAttribute("class", "delete");
     li.appendChild(img);
   }
@@ -443,7 +443,7 @@ window.onload = function() {
     li.appendChild(span);
 
     var img = document.createElement("img");
-    img.src = "https://i.imgur.com/BtLxCD6.png"
+    img.src = "https://cloud-n20l8ciby-hack-club-bot.vercel.app/46BtLxCD6.png"
     img.setAttribute("class", "delete");
     li.appendChild(img);
   }
@@ -478,7 +478,7 @@ window.onload = function() {
     li.appendChild(span);
 
     var img = document.createElement("img");
-    img.src = "https://i.imgur.com/BtLxCD6.png"
+    img.src = "https://cloud-n20l8ciby-hack-club-bot.vercel.app/47BtLxCD6.png"
     img.setAttribute("class", "delete");
     li.appendChild(img);
   }
@@ -528,7 +528,7 @@ window.onload = function() {
     li.appendChild(span);
 
     var img = document.createElement("img");
-    img.src = "https://i.imgur.com/BtLxCD6.png"
+    img.src = "https://cloud-n20l8ciby-hack-club-bot.vercel.app/48BtLxCD6.png"
     img.setAttribute("class", "delete");
     li.appendChild(img);
   }
@@ -580,7 +580,7 @@ window.onload = function() {
     li.appendChild(span);
 
     var img = document.createElement("img");
-    img.src = "https://i.imgur.com/BtLxCD6.png"
+    img.src = "https://cloud-n20l8ciby-hack-club-bot.vercel.app/49BtLxCD6.png"
     img.setAttribute("class", "delete");
     li.appendChild(img);
   }
@@ -633,7 +633,7 @@ window.onload = function() {
     li.appendChild(span);
 
     var img = document.createElement("img");
-    img.src = "https://i.imgur.com/BtLxCD6.png"
+    img.src = "https://cloud-n20l8ciby-hack-club-bot.vercel.app/50BtLxCD6.png"
     img.setAttribute("class", "delete");
     li.appendChild(img);
   }
